@@ -67,7 +67,7 @@ subroutine write_seq(HMMSTR, tgamma, nres, code, ground_truth_profiles, paradigm
   character(len=1),dimension(:),allocatable :: ssseq1
   character(len=1),dimension(:),allocatable :: ramaseq1
   character(len=1),dimension(:),allocatable :: tmseq1
-  real,dimension(2) :: mda
+  real(8),dimension(2) :: mda
   integer,dimension(:),allocatable :: tmda
   
   modelfile = HMMSTR%model_file
@@ -132,7 +132,7 @@ subroutine scratch_hmm(modelfile, drctfile, code)
   integer :: sitr
   training_flags = [1, 0, 0, 0]
                    !AA RAMA SS TM
-  ! [ MDA, Viterbi, pt, gamma, .seq]
+  ! [ mda, Viterbi, pt, gamma, seq]
   eval_flags = [ 0., 0., 0., 0., 1., 0.]
   HMMSTR = read_hmm(modelfile, .true.) ! READ THE MODEL
     call get_intrans(intrans,HMMSTR)   ! get indeces of nodes transferring into each node
@@ -205,11 +205,11 @@ subroutine exhaust_hmm(modelfile, drctfile, code)
   enddo
 end subroutine exhaust_hmm
 
-! TLB 12/14/21 moved bulk of train_hmmstr's inner-loop into run_hmmstr
+! TLB 12/14/21 moved bulk of train_hmmstr's inner-loop into run_hmm
 subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
 
   ! tgamma = probability state j at time i
-  ! zeta = probability state zeta_dict(i) goes to zeta_dict(j) at time t
+  ! zeta = probability state zeta_dict(i) goes to state zeta_dict(j) at time t
   !      = zeta(zeta_dict(i,j),t)
   ! mp = model probability = - log sum ct
   real(8),dimension(:, :),allocatable,intent(inout) :: tgamma ! (nres, HMMSTR%n)
@@ -227,7 +227,7 @@ subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
   real,dimension(6),intent(inout) :: eval_flags
   ! mda stuff ! --------------------------------------- 9/8/21
   character(len=1),dimension(:,:),allocatable :: paradigm
-  real,dimension(2) :: mda
+  real(8),dimension(2) :: mda_wa
   logical :: mda_acc
   ! profile sequences 
   integer,dimension(:),allocatable :: seq
@@ -345,8 +345,8 @@ subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
   call zeta_init(zeta,zeta_dict,HMMSTR,nres)
   ! TLB 5/28/21 checking getalpha/getbeta...
   ! 6/22 Added training flags
-  !write(*,*) "HERE"
-  if ( unlabel_bool ) then ! 1/3/22 TMHMM TM unlabeling scheme
+  !write(*,*) "Calculating Rabiner Variables ..."
+  if ( unlabel_bool ) then ! 1/3/22 TMHMM TM unlabeling scheme, experimental
           call getalpha(ct,alpha,nres,HMMSTR,profile,intrans,outtrans,ramaseq,ssseq,tmseq_unlabel,alg_flags,1,nres) 
           call getbeta(ct,beta,nres,HMMSTR,profile,intrans,outtrans,ramaseq,ssseq,tmseq_unlabel,alg_flags,1,nres)
           call get_gamma_zeta(ct, beta, alpha, nres, HMMSTR, profile, ramaseq, ssseq, tmseq_unlabel, & 
@@ -368,7 +368,7 @@ subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
               call getalpha(ct,alpha,nres,HMMSTR,profile,intrans,outtrans,ramaseq,ssseq,tmseq,alg_flags,1,nres) 
               call get_gamma_zeta(ct, beta_sum, alpha_sum, nres, HMMSTR, profile, ramaseq, ssseq, tmseq, & 
                  outtrans, alg_flags, tgamma, zeta, zeta_dict) ! 6/22 Added flags ! 11/18 zeta_dict update
-         else
+         else ! MAIN BRANCH ... Rabiner variables calculated here:
               call getalpha(ct,alpha,nres,HMMSTR,profile,intrans,outtrans,ramaseq,ssseq,tmseq,alg_flags,1,nres) 
               call getbeta(ct,beta,nres,HMMSTR,profile,intrans,outtrans,ramaseq,ssseq,tmseq,alg_flags,1,nres)
               call get_gamma_zeta(ct, beta, alpha, nres, HMMSTR, profile, ramaseq, ssseq, tmseq, & 
@@ -378,11 +378,12 @@ subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
   endif
   ! ---------------------------------------------------------------------------
   if ( eval_flags(1) == 1. ) then ! Run Viterbi, get mda metric for given observation
-          call viterbi(nres, HMMSTR, profile, intrans, outtrans, aaseq, ramaseq, ssseq, tmseq, alg_flags, paradigm )
-          call get_mda(ground_truth_profiles, paradigm, mda, nres, tmda)
+           call viterbi(nres, HMMSTR, profile, intrans, outtrans, aaseq, ramaseq, ssseq, tmseq, alg_flags, paradigm, .false. )
+          call get_mda(ground_truth_profiles, paradigm, mda_wa, nres, tmda)
+          write(*,*) "VITERBI MDA ACCURACY = ", mda_wa(2)
    endif
    if ( eval_flags(2) == 1. ) then ! Run Viterbi
-          call viterbi(nres, HMMSTR, profile, intrans, outtrans, aaseq, ramaseq, ssseq, tmseq, alg_flags, paradigm )
+          call viterbi(nres, HMMSTR, profile, intrans, outtrans, aaseq, ramaseq, ssseq, tmseq, alg_flags, paradigm, .false.)
    endif
    if ( eval_flags(3) == 1. ) then ! gather model probability of the given observation
        treal = 1
@@ -396,15 +397,22 @@ subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
        call write_gamma(tgamma, modelfile, HMMSTR%n, nres, this_profile%code, this_profile%chain)
    endif
    if ( eval_flags(5) == 1. ) then ! Gather and print Viterbi, Gamma-voted prediction sequences, and get mda 
-           call viterbi(nres, HMMSTR, profile, intrans, outtrans, aaseq, ramaseq, ssseq, tmseq, alg_flags, paradigm )
+           call viterbi(nres, HMMSTR, profile, intrans, outtrans, aaseq, ramaseq, ssseq, tmseq, alg_flags, paradigm, .false. )
+          call get_mda(ground_truth_profiles, paradigm, mda_wa, nres, tmda)
+          write(*,*) "VITERBI MDA ACCURACY = ", mda_wa(2)
            call gamma_voting(nres, HMMSTR, tgamma, seq1, ssseq1, ramaseq1, tmseq1)
-           write(*,'(A11)') "GAMMA VOTED"
+           write(*,*) "GAMMA VOTED"
            write(*,*) seq1(:)
            write(*,*) ssseq1(:)
            write(*,*) ramaseq1(:)
            write(*,*) tmseq1(:)
+             paradigm(1,:) = seq1(:nres) ! change paradigm to fit gamma-voted profiles.
+  paradigm(2,:) = ssseq1(:nres)
+  paradigm(3,:) = ramaseq1(:nres)
+  paradigm(4,:) = tmseq1(:nres)
           call write_seq(HMMSTR, tgamma, nres, this_profile%code, ground_truth_profiles, paradigm)
-          call get_mda(ground_truth_profiles, paradigm, mda, nres, tmda)
+          call get_mda(ground_truth_profiles, paradigm, mda_wa, nres, tmda)
+          write(*,*) "GAMMA VOTED MDA ACCURACY = ", mda_wa(2)
    endif 
   !write(*,*) " Resolving Ties." ! TLB 12/7
   call untie(HMMSTR, tgamma, zeta, zeta_dict, outtrans, nres) 
@@ -504,7 +512,8 @@ subroutine train_hmm(modelfile, drctfile, epochs) ! epochs = # iterations throug
   training_flags = [1, 1, 0, 1]
                    !AA RAMA SS TM
   ! [ MDA, Viterbi, pt, gamma, .seq]
-  eval_flags = [ 0., 0., 0., 1., 0., 0.] 
+  eval_flags = [ 0., 0., 0., 0., 0., 0.]  ! DON'T SAVE GAMMA MATRICES
+  !eval_flags = [ 0., 0., 0., 1., 0., 0.]  ! SAVE GAMMA MATRICES
   model_probabilities = 0
   HMMSTR = read_hmm(modelfile, .false.) ! READ THE MODEL
 
@@ -540,6 +549,8 @@ subroutine train_hmm(modelfile, drctfile, epochs) ! epochs = # iterations throug
           if (mod(sitr,100) == 0) then
              write(*,"(a10, i4, a11)") "completed ", sitr, " sequences."
           endif
+          
+          !write(*,*) this_profile%code
           nres = this_profile%nres-1
           if ( nres < 20  ) then  ! debug loop cycler
           !if ( sitr > 1 ) then
@@ -2054,7 +2065,7 @@ end function Viterbi_naught_traverse
 
     ! TLB 9/8/2021
   !------------------------------------------------------------------------------------------------------------
-  subroutine viterbi(seqres_len, HMMSTR, profile, intrs, outrs, seq, ramaseq, ssseq, tmseq, flags, paradigm)
+  subroutine viterbi(seqres_len, HMMSTR, profile, intrs, outrs, seq, ramaseq, ssseq, tmseq, flags, paradigm, QUIET)
    !--------------------------------------------------
    implicit none
    !--------------------------------------------------
@@ -2085,6 +2096,7 @@ end function Viterbi_naught_traverse
    integer,dimension(:),allocatable ::  Q
    character(len=1),dimension(:),allocatable :: out_seq, out_ssseq, out_ramaseq, out_tmseq
    character(len=1),dimension(:,:),allocatable,intent(inout) :: paradigm
+   logical :: QUIET
 
    n = HMMSTR%n
    k = HMMSTR%k
@@ -2180,19 +2192,18 @@ end function Viterbi_naught_traverse
       call voting(HMMSTR, out_seq, out_tmseq, out_ssseq, out_ramaseq, aa_prof, tm_prof, ss_prof, rama_prof, titr)
    enddo
    
-   if ( .true. ) then
+   if ( QUIET .eqv. .false. ) then
+           write(*,*) "GROUND TRUTH"
+           write(*,*) seq(1:seqres_len)
+           write(*,*) ssseq(1:seqres_len)
+           write(*,*) ramaseq(1:seqres_len)
+           write(*,*) tmseq(1:seqres_len)
            write(*,*) "VITERBI PREDICTIONS"
            write(*,*) out_seq(1:seqres_len)
            write(*,*) out_ssseq(1:seqres_len)
            write(*,*) out_ramaseq(1:seqres_len)
            write(*,*) out_tmseq(1:seqres_len)
            !write(*,*) Q(1:seqres_len)
-           write(*,*) "GROUND TRUTH"
-           write(*,*) seq(1:seqres_len)
-           write(*,*) ssseq(1:seqres_len)
-           write(*,*) ramaseq(1:seqres_len)
-           write(*,*) tmseq(1:seqres_len)
-           write(*,*)
    endif
     paradigm(1,:) = out_seq(:)
     paradigm(2,:) = out_ssseq(:)
@@ -2247,7 +2258,7 @@ end function Viterbi_naught_traverse
     character(len=1) :: rama_char, rama_ground
     character(len=11) :: rama_s! ="HGBEdbeLlxc"
     character(len=1),dimension(:),allocatable :: seq1, ssseq1, ramaseq1, tmseq1
-    real,dimension(2),intent(inout) :: mda
+    real(8),dimension(2),intent(inout) :: mda
 
     mda = 0
     !write(*,*) "SHAPE OF PROFILE  = ", shape(profile)
@@ -2320,7 +2331,7 @@ end function Viterbi_naught_traverse
             !write(*,*) rama_s(titr:titr), rama_s(titr2:titr2), rama_comp(rama_char, rama_ground)
        enddo
     enddo
-    if ( .false. ) then 
+    if ( .false. ) then  ! USE FOR DEBUGGING MDA METRIC
             write(*,*) " AA SEQUENCE = ", profile(1,:t)
             write(*,*) " SS SEQUENCE = ", profile(2,:t)
             write(*,*) "GROUND TRUTH = ", profile(3,:t)
@@ -2332,7 +2343,7 @@ end function Viterbi_naught_traverse
             write(*,*) (sum(t_mda) / size(t_mda))
     endif
     mda(1) =  size(t_mda)
-    mda(2) =  (sum(t_mda) / size(t_mda))
+    mda(2) =  real((real(sum(t_mda)) / real(size(t_mda))))
     !write(*,*) mda
     if(allocated(seq1))   deallocate(seq1)
     if(allocated(ssseq1))   deallocate(ssseq1)

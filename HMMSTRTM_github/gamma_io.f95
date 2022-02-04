@@ -1,5 +1,5 @@
 module gamma_io
-    use drct2profile
+    use profile_io
     contains
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     subroutine write_gamma(xgamma, modelfile, n, nres, code, chain)

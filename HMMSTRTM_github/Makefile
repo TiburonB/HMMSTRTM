@@ -36,16 +36,16 @@ help :
 bin32 :
 	make all
 
-all : xtrain xscratch xgetchain 
+all : xtrain xscratch xgetchain clean 
 
 # TRAIN A VERSION OF HMMSTRTM:
-xtrain : hmm_io.f95 drct2profile.f95 gamma_io.f95 hmm.f95 hmm_train.f95
+xtrain : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_train.f95
 	$(FF) -c -fdefault-double-8 hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_train.f95 -fcheck=all
 	$(FF) -o xtrain hmm_io.o profile_io.o gamma_io.o hmm.o hmm_train.o
 	# "xtrain HMM.file database.file epochs
 
 # RUN a single pdb through HMMSTRTM (SCRATCH)
-xscratch : hmm_io.f95 drct2profile.f95 gamma_io.f95 hmm.f95 hmm_run.f95
+xscratch : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_run.f95
 	$(FF) -c -fdefault-double-8 hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_run.f95 -fcheck=all
 	$(FF) -o xscratch hmm_io.o profile_io.o gamma_io.o hmm.o hmm_run.o
 	# "xscratch  HMM.file database.file code
@@ -63,4 +63,6 @@ xmakeprofile: profile_io.f95 make_profile.f95
 	$(FF) -o xmakeprofile profile_io.o make_profile.o
 	# "xmakeprofile database code"
 
-
+clean:
+	rm *.mod
+	rm *.o
