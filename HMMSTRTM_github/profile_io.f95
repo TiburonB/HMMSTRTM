@@ -4,7 +4,7 @@ module profile_io
       ! ------------------------------------------------------------
       public :: get_profile
       ! ------------------------------------------------------------
-      private :: get_seq_code
+      public :: get_seq_code
       private :: ramatype! private data  ! TLB 5/29/2021 Make this public. HMMSTR can access Profile directly
         integer, parameter :: MAXSEQLENGTH = 5000 ! current largest 
         integer, parameter :: vrecsize = 136 ! 136 bytes... machine dependent, may also be 34 bytes
@@ -37,6 +37,7 @@ type(Profile) function read_profile(profile_file) result(this_profile)
      character(len=300) :: aline
      character(len=30),dimension(30) :: args
      integer :: titr, bitr, ios
+     integer :: nres
 
      open(1, file=profile_file,iostat=ios)
      if (ios/=0) then
@@ -49,15 +50,20 @@ type(Profile) function read_profile(profile_file) result(this_profile)
         args = get_substrings(aline)
         select case (trim(args(1)))
         case ('nres')
-             read(args(2),*) args(2)
+             read(args(2),*) nres
+             this_profile%nres = nres
         case ('code')
              this_profile%code = trim(args(2))
         case ('chain')  
              this_profile%chain = trim(args(2))
         case ('eof')
+             allocate(this_profile%seq_code(nres))
+             this_profile%seq(:nres) = profile2seq(this_profile%profiles, this_profile%nres)
+             this_profile%seq_code(:nres) = get_seq_code(this_profile%seq, nres)
+             exit
         case default
-            do bitr = 2,21
-                read(args(bitr), *) this_profile%profiles(bitr-1,titr) 
+            do bitr = 1,20
+                read(args(bitr), *) this_profile%profiles(bitr,titr) 
             enddo
             titr = titr + 1
         end select
@@ -65,6 +71,22 @@ type(Profile) function read_profile(profile_file) result(this_profile)
      close(1)
 end function read_profile
    
+function profile2seq(profile, nres) result(seq)
+        real(4),dimension(:,:),intent(in) :: profile
+        integer,intent(in) :: nres
+        character(len=1),dimension(:),allocatable :: seq
+        integer :: titr, i 
+        character(len=20) :: alpha
+
+        alpha = "ACDEFGHIKLMNPQRSTVWY"
+        allocate(seq(nres))
+        do titr = 1,nres
+           i =  maxloc(profile(:,titr),1)
+           seq(titr) = alpha(i:i)
+        enddo
+        
+end function profile2seq
+
 ! write the current profile into a formatted, keyworded file
 subroutine write_profile(this_profile, profile_file)
 

@@ -36,7 +36,7 @@ help :
 bin32 :
 	make all
 
-all : xtrain xscratch xgetchain clean 
+all : xtrain xscratch xgetchain xinject clean 
 
 # TRAIN A VERSION OF HMMSTRTM:
 xtrain : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_train.f95
@@ -54,9 +54,11 @@ xscratch : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_run.f95
 xgetchain : getchain.f95
 	$(FF) -o xgetchain getchain.f95
 
-# RUN a single pdb through HMMSTRTM (predict)
-xpredict : 
-
+# RUN a single pdb through HMMSTRTM (inject)
+xinject : profile_io.f95 hmm_inject.f95 
+	$(FF) -c -fdefault-double-8 profile_io.f95 hmm_inject.f95
+	$(FF) -o xinject profile_io.o hmm_inject.o
+	# "xinject sequence"
 
 xmakeprofile: profile_io.f95 make_profile.f95
 	$(FF) -c -fdefault-double-8 profile_io.f95 make_profile.f95 -fcheck=all

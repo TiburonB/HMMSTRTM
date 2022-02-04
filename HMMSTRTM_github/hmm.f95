@@ -137,28 +137,40 @@ subroutine scratch_hmm(modelfile, drctfile, code)
   HMMSTR = read_hmm(modelfile, .true.) ! READ THE MODEL
     call get_intrans(intrans,HMMSTR)   ! get indeces of nodes transferring into each node
     call get_outtrans(outtrans,HMMSTR) ! get indeces of nodes transferred to from each node
-  
-  this_profile = get_profile(drctfile, 0)
-  do while(this_profile%nres /= -1)
-          if ( this_profile%code /= code  ) then  ! debug loop cycler
-                  sitr = sitr + 1
-                  this_profile = get_profile(drctfile, this_profile%last_record)
-                  cycle
-          endif
+  if ( index(drctfile, '.profile') /= 0 ) then ! .profile file as input
 
+          this_profile = read_profile(drctfile)
           ! ---------------------------------------------------------------------------
           !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           call run_hmm(HMMSTR, tgamma, zeta, zeta_dict, training_flags, eval_flags)
           !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           ! ---------------------------------------------------------------------------
-          
+           
           if(allocated(zeta))             deallocate(zeta)
           if(allocated(tgamma))             deallocate(tgamma)
-          
-          sitr = sitr + 1
-          this_profile = get_profile(drctfile, this_profile%last_record)
-  enddo
 
+  else if ( index(drctfile, '.drct') /= 0 ) then
+          this_profile = get_profile(drctfile, 0)
+          do while(this_profile%nres /= -1)
+                  if ( this_profile%code /= code  ) then  ! debug loop cycler
+                          sitr = sitr + 1
+                          this_profile = get_profile(drctfile, this_profile%last_record)
+                          cycle
+                  endif
+
+                  ! ---------------------------------------------------------------------------
+                  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  call run_hmm(HMMSTR, tgamma, zeta, zeta_dict, training_flags, eval_flags)
+                  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  ! ---------------------------------------------------------------------------
+                  
+                  if(allocated(zeta))             deallocate(zeta)
+                  if(allocated(tgamma))             deallocate(tgamma)
+                  
+                  sitr = sitr + 1
+                  this_profile = get_profile(drctfile, this_profile%last_record)
+          enddo
+   endif
 
 end subroutine scratch_hmm
 

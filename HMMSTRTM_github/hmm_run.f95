@@ -9,14 +9,17 @@ program hmm_run
     integer :: iarg
 ! -------------------------------------------------------------------
 
+    code = 'null'
     iarg = command_argument_count()
     if (iarg < 3) then
-        write(*,*) 'Usage: xhmmstr_train model_R.hmm drctfile epochs '
-        stop       ! ./a.out ./HMMS/HMMSTR.hmm ./final.drct 2
-    end if
+        !write(*,*) 'To run using database: xscratch hmmfile drctfile code'''
+        !stop       ! ./a.out ./HMMSTR/HMMSTR.hmm ./final.drct 7bpo
+    end if         ! ./a.out ./HMMSTR/HMMSTR.hmm ./tmp/7bpoA.profile
     call getarg(1, modelfile)
     call getarg(2, drctfile)
-    call getarg(3, code)
+    if (iarg >= 3) then
+            call getarg(3, code)
+    endif
 
     write(*,*) "SCRATCHING CODE :", code
     call scratch_hmm(modelfile, drctfile, code)
