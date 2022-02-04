@@ -62,6 +62,6 @@ program hmm_inject
     deallocate(aa_profile)
 
     write(*,*) './xscratch '//HMMFILE//' ./tmp/'//code//chain//'.profile'
-    call execute_command_line('./xscratch '//HMMFILE//' ./tmp/'//code//chain//'.profile')
+    call execute_command_line("./xscratch '"//HMMFILE//"' ./tmp/"//code//chain//'.profile')
 
 end program hmm_inject
