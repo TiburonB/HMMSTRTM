@@ -1,0 +1,50 @@
+#!/bin/csh
+if ($#argv < 1) then
+  echo "Usage: rsyncpdb CODE DIRECTORY"
+  echo "where CODE = 4-letter PDB code e.g. 1abc"
+  echo "where DIRECTORY = directory to save new pdbs"
+  echo "This script requires rsync"
+  exit
+endif
+which rsync >& /dev/null
+if ($status) then
+  echo "Please install rsync"
+  exit
+endif
+setenv CODE $1
+setenv DIRECTORY $2
+if (`echo $CODE | wc -c` != 5) then
+  echo "Usage: rsyncpdb CODE"
+  echo "CODE is only the 4 characters of the PDB identifier, in lowercase. You wrote: $CODE"
+  exit
+endif
+setenv FOLDER `echo $CODE | cut -c 2-3`
+rsync -rlpt -v -z --delete --port=33444 rsync.rcsb.org::ftp_data/structures/divided/pdb/$FOLDER/pdb${CODE}.ent.gz ${DIRECTORY}${CODE}.pdb.gz
+if ($status) then
+  echo ${DIRECTORY}
+  pwd
+  echo "Problem occurred with download from RCSB. Try running it by hand."
+  echo "rsync -rlpt -v -z --delete --port=33444 rsync.rcsb.org::ftp_data/structures/divided/pdb/xx/pdbnxxy.ent.gz ."
+  exit
+endif
+which gunzip >& /dev/null
+if ($status) then
+  echo "Please install gunzip"
+  exit
+endif
+gunzip ${DIRECTORY}${CODE}.pdb.gz 
+# GET mmCIF format too
+rsync -rlpt -v -z --delete --port=33444 rsync.rcsb.org::ftp_data/structures/divided/mmCIF/$FOLDER/${CODE}.cif.gz ${DIRECTORY}${CODE}.cif.gz
+if ($status) then
+  echo ${DIRECTORY}
+  pwd
+  echo "Problem occurred with download from RCSB. Try running it by hand."
+  echo "rsync -rlpt -v -z --delete --port=33444 rsync.rcsb.org::ftp_data/structures/divided/mmCIF/xx/nxxy.cif.gz ."
+  exit
+endif
+which gunzip >& /dev/null
+if ($status) then
+  echo "Please install gunzip"
+  exit
+endif
+gunzip ${DIRECTORY}${CODE}.cif.gz

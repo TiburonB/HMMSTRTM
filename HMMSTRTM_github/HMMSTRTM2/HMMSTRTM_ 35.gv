@@ -1,0 +1,3907 @@
+// HMSTR_RAMA
+digraph {
+	0 [label="tie node 0" color=blue shape=doublecircle]
+	1 [label="tie node 1" color=blue shape=doublecircle]
+	2 [label="tie node 2" color=blue shape=doublecircle]
+	3 [label="tie node 3" color=blue shape=doublecircle]
+	4 [label="tie node 4" color=blue shape=doublecircle]
+	5 [label="tie node 5" color=blue shape=doublecircle]
+	6 [label="tie node 6" color=blue shape=doublecircle]
+	7 [label="tie node 7" color=blue shape=doublecircle]
+	8 [label="tie node 8" color=blue shape=doublecircle]
+	9 [label="tie node 9" color=blue shape=doublecircle]
+	10 [label="tie node 10" color=blue shape=doublecircle]
+	11 [label="tie node 11" color=blue shape=doublecircle]
+	12 [label="tie node 12" color=blue shape=doublecircle]
+	13 [label="tie node 13" color=blue shape=doublecircle]
+	14 [label="tie node 14" color=blue shape=doublecircle]
+	15 [label="tie node 15" color=blue shape=doublecircle]
+	16 [label="tie node 16" color=blue shape=doublecircle]
+	17 [label="tie node 17" color=blue shape=doublecircle]
+	18 [label="tie node 18" color=blue shape=doublecircle]
+	19 [label="tie node 19" color=blue shape=doublecircle]
+	20 [label="tie node 20" color=blue shape=doublecircle]
+	21 [label="tie node 21" color=blue shape=doublecircle]
+	22 [label="tie node 22" color=blue shape=doublecircle]
+	23 [label="tie node 23" color=blue shape=doublecircle]
+	24 [label="tie node 24" color=blue shape=doublecircle]
+	25 [label="tie node 25" color=blue shape=doublecircle]
+	26 [label="tie node 26" color=blue shape=doublecircle]
+	27 [label="tie node 27" color=blue shape=doublecircle]
+	28 [label="tie node 28" color=blue shape=doublecircle]
+	29 [label="tie node 29" color=blue shape=doublecircle]
+	30 [label="tie node 30" color=blue shape=doublecircle]
+	31 [label="tie node 31" color=blue shape=doublecircle]
+	32 [label="tie node 32" color=blue shape=doublecircle]
+	33 [label="tie node 33" color=blue shape=doublecircle]
+	34 [label="tie node 34" color=blue shape=doublecircle]
+	35 [label="tie node 35" color=blue shape=doublecircle]
+	36 [label="tie node 36" color=blue shape=doublecircle]
+	37 [label="tie node 37" color=blue shape=doublecircle]
+	38 [label="tie node 38" color=blue shape=doublecircle]
+	39 [label="tie node 39" color=blue shape=doublecircle]
+	40 [label="tie node 40" color=blue shape=doublecircle]
+	41 [label="tie node 41" color=blue shape=doublecircle]
+	42 [label="tie node 42" color=blue shape=doublecircle]
+	43 [label="tie node 43" color=blue shape=doublecircle]
+	44 [label="tie node 44" color=blue shape=doublecircle]
+	45 [label="tie node 45" color=blue shape=doublecircle]
+	46 [label="tie node 46" color=blue shape=doublecircle]
+	47 [label="tie node 47" color=blue shape=doublecircle]
+	48 [label="naught node 48" shape=doublecircle]
+	49 [label="naught node 49" shape=doublecircle]
+	50 [label=50 color=blue fillcolor=green shape=star style=filled]
+	51 [label=51 color=blue fillcolor=green shape=polygon style=filled]
+	52 [label=52 color=blue fillcolor=grey shape=triangle style=filled]
+	53 [label=53 color=blue fillcolor=green shape=circle style=filled]
+	54 [label=54 color=blue fillcolor=cyan shape=triangle style=filled]
+	55 [label=55 color=blue fillcolor=grey shape=triangle style=filled]
+	56 [label=56 color=blue fillcolor=grey shape=triangle style=filled]
+	57 [label=57 color=blue fillcolor=grey shape=triangle style=filled]
+	58 [label=58 color=blue fillcolor=green shape=star style=filled]
+	59 [label=59 color=blue fillcolor=grey shape=circle style=filled]
+	60 [label=60 color=blue fillcolor=green shape=triangle style=filled]
+	61 [label=61 color=blue fillcolor=grey shape=square style=filled]
+	62 [label=62 color=blue fillcolor=grey shape=square style=filled]
+	63 [label=63 color=blue fillcolor=grey shape=square style=filled]
+	64 [label=64 color=blue fillcolor=grey shape=square style=filled]
+	65 [label=65 color=blue fillcolor=red shape=square style=filled]
+	66 [label=66 color=blue fillcolor=grey shape=circle style=filled]
+	67 [label=67 color=blue fillcolor=grey shape=triangle style=filled]
+	68 [label=68 color=blue fillcolor=grey shape=triangle style=filled]
+	69 [label=69 color=blue fillcolor=grey shape=triangle style=filled]
+	70 [label=70 color=blue fillcolor=grey shape=triangle style=filled]
+	71 [label=71 color=blue fillcolor=grey shape=triangle style=filled]
+	72 [label=72 color=blue fillcolor=grey shape=triangle style=filled]
+	73 [label=73 color=blue fillcolor=grey shape=triangle style=filled]
+	74 [label=74 color=blue fillcolor=green shape=star style=filled]
+	75 [label=75 color=blue fillcolor=cyan shape=square style=filled]
+	76 [label=76 color=blue fillcolor=cyan shape=circle style=filled]
+	77 [label=77 color=blue fillcolor=cyan shape=square style=filled]
+	78 [label=78 color=blue fillcolor=cyan shape=square style=filled]
+	79 [label=79 color=blue fillcolor=grey shape=trapezium style=filled]
+	80 [label=80 color=blue fillcolor=purple shape=circle style=filled]
+	81 [label=81 color=blue fillcolor=blue shape=circle style=filled]
+	82 [label=82 color=blue fillcolor=grey shape=circle style=filled]
+	83 [label=83 color=blue fillcolor=blue shape=triangle style=filled]
+	84 [label=84 color=blue fillcolor=blue shape=triangle style=filled]
+	85 [label=85 color=blue fillcolor=grey shape=triangle style=filled]
+	86 [label=86 color=blue fillcolor=purple shape=square style=filled]
+	87 [label=87 color=blue fillcolor=pink shape=triangle style=filled]
+	88 [label=88 color=blue fillcolor=cyan shape=triangle style=filled]
+	89 [label=89 color=blue fillcolor=grey shape=triangle style=filled]
+	90 [label=90 color=blue fillcolor=blue shape=triangle style=filled]
+	91 [label=91 color=blue fillcolor=grey shape=triangle style=filled]
+	92 [label=92 color=blue fillcolor=green shape=triangle style=filled]
+	93 [label=93 color=blue fillcolor=grey shape=circle style=filled]
+	94 [label=94 color=blue fillcolor=blue shape=circle style=filled]
+	95 [label=95 color=blue fillcolor=green shape=triangle style=filled]
+	96 [label=96 color=blue fillcolor=grey shape=triangle style=filled]
+	97 [label=97 color=blue fillcolor=grey shape=square style=filled]
+	98 [label=98 color=blue fillcolor=grey shape=square style=filled]
+	99 [label=99 color=blue fillcolor=blue shape=square style=filled]
+	100 [label=100 color=blue fillcolor=grey shape=triangle style=filled]
+	101 [label=101 color=blue fillcolor=blue shape=triangle style=filled]
+	102 [label=102 color=blue fillcolor=cyan shape=square style=filled]
+	103 [label=103 color=blue fillcolor=grey shape=square style=filled]
+	104 [label=104 color=blue fillcolor=green shape=triangle style=filled]
+	105 [label=105 color=blue fillcolor=purple shape=triangle style=filled]
+	106 [label=106 color=blue fillcolor=green shape=triangle style=filled]
+	107 [label=107 color=blue fillcolor=green shape=triangle style=filled]
+	108 [label=108 color=blue fillcolor=grey shape=star style=filled]
+	109 [label=109 color=blue fillcolor=green shape=triangle style=filled]
+	110 [label=110 color=blue fillcolor=grey shape=triangle style=filled]
+	111 [label=111 color=blue fillcolor=grey shape=triangle style=filled]
+	112 [label=112 color=blue fillcolor=cyan shape=circle style=filled]
+	113 [label=113 color=blue fillcolor=pink shape=triangle style=filled]
+	114 [label=114 color=blue fillcolor=blue shape=triangle style=filled]
+	115 [label=115 color=blue fillcolor=red shape=triangle style=filled]
+	116 [label=116 color=blue fillcolor=purple shape=square style=filled]
+	117 [label=117 color=blue fillcolor=blue shape=circle style=filled]
+	118 [label=118 color=blue fillcolor=cyan shape=square style=filled]
+	119 [label=119 color=blue fillcolor=grey shape=triangle style=filled]
+	120 [label=120 color=blue fillcolor=green shape=square style=filled]
+	121 [label=121 color=blue fillcolor=green shape=square style=filled]
+	122 [label=122 color=blue fillcolor=blue shape=star style=filled]
+	123 [label=123 color=blue fillcolor=grey shape=triangle style=filled]
+	124 [label=124 color=blue fillcolor=grey shape=triangle style=filled]
+	125 [label=125 color=blue fillcolor=green shape=square style=filled]
+	126 [label=126 color=blue fillcolor=green shape=square style=filled]
+	127 [label=127 color=blue fillcolor=green shape=square style=filled]
+	128 [label=128 color=blue fillcolor=cyan shape=circle style=filled]
+	129 [label=129 color=blue fillcolor=cyan shape=circle style=filled]
+	130 [label=130 color=blue fillcolor=cyan shape=triangle style=filled]
+	131 [label=131 color=blue fillcolor=grey shape=circle style=filled]
+	132 [label=132 color=blue fillcolor=green shape=trapezium style=filled]
+	133 [label=133 color=blue fillcolor=green shape=star style=filled]
+	134 [label=134 color=blue fillcolor=green shape=star style=filled]
+	135 [label=135 color=blue fillcolor=grey shape=square style=filled]
+	136 [label=136 color=blue fillcolor=grey shape=circle style=filled]
+	137 [label=137 color=blue fillcolor=grey shape=square style=filled]
+	138 [label=138 color=blue fillcolor=green shape=circle style=filled]
+	139 [label=139 color=blue fillcolor=cyan shape=square style=filled]
+	140 [label=140 color=blue fillcolor=grey shape=circle style=filled]
+	141 [label=141 color=blue fillcolor=grey shape=circle style=filled]
+	142 [label=142 color=blue fillcolor=grey shape=triangle style=filled]
+	143 [label=143 color=blue fillcolor=blue shape=circle style=filled]
+	144 [label=144 color=blue fillcolor=cyan shape=square style=filled]
+	145 [label=145 color=blue fillcolor=grey shape=triangle style=filled]
+	146 [label=146 color=blue fillcolor=blue shape=triangle style=filled]
+	147 [label=147 color=blue fillcolor=green shape=triangle style=filled]
+	148 [label=148 color=blue fillcolor=grey shape=triangle style=filled]
+	149 [label=149 color=blue fillcolor=green shape=polygon style=filled]
+	150 [label=150 color=blue fillcolor=grey shape=circle style=filled]
+	151 [label=151 color=blue fillcolor=grey shape=circle style=filled]
+	152 [label=152 color=blue fillcolor=cyan shape=circle style=filled]
+	153 [label=153 color=blue fillcolor=red shape=triangle style=filled]
+	154 [label=154 color=blue fillcolor=grey shape=triangle style=filled]
+	155 [label=155 color=blue fillcolor=green shape=triangle style=filled]
+	156 [label=156 color=blue fillcolor=grey shape=circle style=filled]
+	157 [label=157 color=blue fillcolor=grey shape=triangle style=filled]
+	158 [label=158 color=blue fillcolor=grey shape=triangle style=filled]
+	159 [label=159 color=blue fillcolor=grey shape=triangle style=filled]
+	160 [label=160 color=blue fillcolor=grey shape=triangle style=filled]
+	161 [label=161 color=blue fillcolor=blue shape=triangle style=filled]
+	162 [label=162 color=blue fillcolor=grey shape=square style=filled]
+	163 [label=163 color=blue fillcolor=cyan shape=square style=filled]
+	164 [label=164 color=blue fillcolor=grey shape=triangle style=filled]
+	165 [label=165 color=blue fillcolor=green shape=polygon style=filled]
+	166 [label=166 color=blue fillcolor=green shape=triangle style=filled]
+	167 [label=167 color=blue fillcolor=grey shape=triangle style=filled]
+	168 [label=168 color=blue fillcolor=cyan shape=circle style=filled]
+	169 [label=169 color=blue fillcolor=green shape=star style=filled]
+	170 [label=170 color=blue fillcolor=purple shape=circle style=filled]
+	171 [label=171 color=blue fillcolor=yellow shape=circle style=filled]
+	172 [label=172 color=blue fillcolor=red shape=triangle style=filled]
+	173 [label=173 color=blue fillcolor=grey shape=triangle style=filled]
+	174 [label=174 color=blue fillcolor=yellow shape=triangle style=filled]
+	175 [label=175 color=blue fillcolor=red shape=triangle style=filled]
+	176 [label=176 color=blue fillcolor=green shape=triangle style=filled]
+	177 [label=177 color=blue fillcolor=grey shape=triangle style=filled]
+	178 [label=178 color=blue fillcolor=grey shape=circle style=filled]
+	179 [label=179 color=blue fillcolor=pink shape=circle style=filled]
+	180 [label=180 color=blue fillcolor=pink shape=triangle style=filled]
+	181 [label=181 color=blue fillcolor=green shape=star style=filled]
+	182 [label=182 color=blue fillcolor=blue shape=circle style=filled]
+	183 [label=183 color=blue fillcolor=pink shape=triangle style=filled]
+	184 [label=184 color=blue fillcolor=blue shape=triangle style=filled]
+	185 [label=185 color=blue fillcolor=cyan shape=star style=filled]
+	186 [label=186 color=blue fillcolor=grey shape=triangle style=filled]
+	187 [label=187 color=blue fillcolor=grey shape=triangle style=filled]
+	188 [label=188 color=blue fillcolor=grey shape=circle style=filled]
+	189 [label=189 color=blue fillcolor=cyan shape=square style=filled]
+	190 [label=190 color=blue fillcolor=grey shape=square style=filled]
+	191 [label=191 color=blue fillcolor=blue shape=square style=filled]
+	192 [label=192 color=blue fillcolor=pink shape=circle style=filled]
+	193 [label=193 color=blue fillcolor=cyan shape=triangle style=filled]
+	194 [label=194 color=blue fillcolor=blue shape=circle style=filled]
+	195 [label=195 color=blue fillcolor=green shape=star style=filled]
+	196 [label=196 color=blue fillcolor=cyan shape=circle style=filled]
+	197 [label=197 color=blue fillcolor=grey shape=triangle style=filled]
+	198 [label=198 color=blue fillcolor=green shape=triangle style=filled]
+	199 [label=199 color=blue fillcolor=cyan shape=triangle style=filled]
+	200 [label=200 color=blue fillcolor=grey shape=triangle style=filled]
+	201 [label=201 color=blue fillcolor=blue shape=triangle style=filled]
+	202 [label=202 color=blue fillcolor=cyan shape=triangle style=filled]
+	203 [label=203 color=blue fillcolor=green shape=triangle style=filled]
+	204 [label=204 color=blue fillcolor=grey shape=square style=filled]
+	205 [label=205 color=blue fillcolor=cyan shape=circle style=filled]
+	206 [label=206 color=blue fillcolor=pink shape=circle style=filled]
+	207 [label=207 color=blue fillcolor=cyan shape=triangle style=filled]
+	208 [label=208 color=blue fillcolor=red shape=triangle style=filled]
+	209 [label=209 color=blue fillcolor=grey shape=triangle style=filled]
+	210 [label=210 color=blue fillcolor=grey shape=triangle style=filled]
+	211 [label=211 color=blue fillcolor=green shape=polygon style=filled]
+	212 [label=212 color=blue fillcolor=grey shape=square style=filled]
+	213 [label=213 color=blue fillcolor=grey shape=triangle style=filled]
+	214 [label=214 color=blue fillcolor=green shape=triangle style=filled]
+	215 [label=215 color=blue fillcolor=grey shape=triangle style=filled]
+	216 [label=216 color=blue fillcolor=grey shape=triangle style=filled]
+	217 [label=217 color=blue fillcolor=grey shape=triangle style=filled]
+	218 [label=218 color=blue fillcolor=red shape=square style=filled]
+	219 [label=219 color=blue fillcolor=cyan shape=square style=filled]
+	220 [label=220 color=blue fillcolor=purple shape=circle style=filled]
+	221 [label=221 color=blue fillcolor=blue shape=triangle style=filled]
+	222 [label=222 color=blue fillcolor=green shape=star style=filled]
+	223 [label=223 color=blue fillcolor=cyan shape=triangle style=filled]
+	224 [label=224 color=blue fillcolor=grey shape=triangle style=filled]
+	225 [label=225 color=blue fillcolor=pink shape=circle style=filled]
+	226 [label=226 color=blue fillcolor=grey shape=square style=filled]
+	227 [label=227 color=blue fillcolor=blue shape=circle style=filled]
+	228 [label=228 color=blue fillcolor=cyan shape=square style=filled]
+	229 [label=229 color=blue fillcolor=grey shape=square style=filled]
+	230 [label=230 color=blue fillcolor=grey shape=square style=filled]
+	231 [label=231 color=blue fillcolor=cyan shape=triangle style=filled]
+	232 [label=232 color=blue fillcolor=blue shape=triangle style=filled]
+	233 [label=233 color=blue fillcolor=red shape=triangle style=filled]
+	234 [label=234 color=blue fillcolor=green shape=star style=filled]
+	235 [label=235 color=blue fillcolor=grey shape=circle style=filled]
+	236 [label=236 color=blue fillcolor=pink shape=circle style=filled]
+	237 [label=237 color=blue fillcolor=pink shape=circle style=filled]
+	238 [label=238 color=blue fillcolor=cyan shape=square style=filled]
+	239 [label=239 color=blue fillcolor=cyan shape=triangle style=filled]
+	240 [label=240 color=blue fillcolor=green shape=star style=filled]
+	241 [label=241 color=blue fillcolor=grey shape=square style=filled]
+	242 [label=242 color=blue fillcolor=grey shape=square style=filled]
+	243 [label=243 color=blue fillcolor=cyan shape=square style=filled]
+	244 [label=244 color=blue fillcolor=red shape=circle style=filled]
+	245 [label=245 color=blue fillcolor=grey shape=triangle style=filled]
+	246 [label=246 color=blue fillcolor=grey shape=triangle style=filled]
+	247 [label=247 color=blue fillcolor=blue shape=square style=filled]
+	248 [label=248 color=blue fillcolor=grey shape=triangle style=filled]
+	249 [label=249 color=blue fillcolor=cyan shape=square style=filled]
+	250 [label=250 color=blue fillcolor=cyan shape=square style=filled]
+	251 [label=251 color=blue fillcolor=grey shape=triangle style=filled]
+	252 [label=252 color=blue fillcolor=grey shape=triangle style=filled]
+	253 [label=253 color=blue fillcolor=grey shape=triangle style=filled]
+	254 [label=254 color=blue fillcolor=grey shape=triangle style=filled]
+	255 [label=255 color=blue fillcolor=grey shape=square style=filled]
+	256 [label=256 color=blue fillcolor=green shape=circle style=filled]
+	257 [label=257 color=blue fillcolor=blue shape=triangle style=filled]
+	258 [label=258 color=blue fillcolor=green shape=star style=filled]
+	259 [label=259 color=blue fillcolor=pink shape=triangle style=filled]
+	260 [label=260 color=blue fillcolor=blue shape=triangle style=filled]
+	261 [label=261 color=blue fillcolor=green shape=triangle style=filled]
+	262 [label=262 color=blue fillcolor=cyan shape=circle style=filled]
+	263 [label=263 color=blue fillcolor=cyan shape=triangle style=filled]
+	264 [label=264 color=blue fillcolor=cyan shape=circle style=filled]
+	265 [label=265 color=blue fillcolor=blue shape=triangle style=filled]
+	266 [label=266 color=blue fillcolor=purple shape=square style=filled]
+	267 [label=267 color=blue fillcolor=cyan shape=square style=filled]
+	268 [label=268 color=blue fillcolor=green shape=triangle style=filled]
+	269 [label=269 color=blue fillcolor=blue shape=circle style=filled]
+	270 [label=270 color=blue fillcolor=purple shape=circle style=filled]
+	271 [label=271 color=blue fillcolor=grey shape=circle style=filled]
+	272 [label=272 color=blue fillcolor=green shape=star style=filled]
+	273 [label=273 color=blue fillcolor=grey shape=square style=filled]
+	274 [label=274 color=blue fillcolor=pink shape=circle style=filled]
+	275 [label=275 color=blue fillcolor=cyan shape=triangle style=filled]
+	276 [label=276 color=blue fillcolor=green shape=star style=filled]
+	277 [label=277 color=blue fillcolor=blue shape=square style=filled]
+	278 [label=278 color=blue fillcolor=cyan shape=triangle style=filled]
+	279 [label=279 color=blue fillcolor=cyan shape=square style=filled]
+	280 [label=280 color=blue fillcolor=grey shape=circle style=filled]
+	281 [label=281 color=blue fillcolor=grey shape=square style=filled]
+	282 [label=282 color=blue fillcolor=green shape=triangle style=filled]
+	283 [label=283 color=blue fillcolor=grey shape=square style=filled]
+	284 [label=284 color=blue fillcolor=green shape=star style=filled]
+	285 [label=285 color=blue fillcolor=grey shape=square style=filled]
+	286 [label=286 color=blue fillcolor=grey shape=triangle style=filled]
+	287 [label=287 color=blue fillcolor=grey shape=triangle style=filled]
+	288 [label=288 color=blue fillcolor=grey shape=triangle style=filled]
+	289 [label=289 color=blue fillcolor=blue shape=triangle style=filled]
+	290 [label=290 color=blue fillcolor=grey shape=square style=filled]
+	291 [label=291 color=blue fillcolor=grey shape=square style=filled]
+	292 [label=292 color=blue fillcolor=grey shape=square style=filled]
+	293 [label=293 color=blue fillcolor=grey shape=triangle style=filled]
+	294 [label=294 color=blue fillcolor=cyan shape=triangle style=filled]
+	295 [label=295 color=blue fillcolor=cyan shape=square style=filled]
+	296 [label=296 color=blue fillcolor=red shape=square style=filled]
+	297 [label=297 color=blue fillcolor=pink shape=triangle style=filled]
+	298 [label=298 color=blue fillcolor=blue shape=triangle style=filled]
+	299 [label=299 color=blue fillcolor=grey shape=square style=filled]
+	300 [label=300 color=blue fillcolor=green shape=triangle style=filled]
+	301 [label=301 color=blue fillcolor=purple shape=circle style=filled]
+	302 [label=302 color=blue fillcolor=red shape=triangle style=filled]
+	303 [label=303 color=blue fillcolor=green shape=triangle style=filled]
+	304 [label=304 color=blue fillcolor=blue shape=triangle style=filled]
+	305 [label=305 color=blue fillcolor=grey shape=triangle style=filled]
+	306 [label=306 color=blue fillcolor=grey shape=triangle style=filled]
+	307 [label=307 color=blue fillcolor=grey shape=triangle style=filled]
+	308 [label=308 color=blue fillcolor=green shape=star style=filled]
+	309 [label=309 color=blue fillcolor=grey shape=circle style=filled]
+	310 [label=310 color=blue fillcolor=grey shape=triangle style=filled]
+	311 [label=311 color=blue fillcolor=grey shape=square style=filled]
+	312 [label=312 color=blue fillcolor=blue shape=triangle style=filled]
+	313 [label=313 color=blue fillcolor=grey shape=square style=filled]
+	314 [label=314 color=blue fillcolor=grey shape=square style=filled]
+	315 [label=315 color=blue fillcolor=blue shape=triangle style=filled]
+	316 [label=316 color=blue fillcolor=red shape=circle style=filled]
+	317 [label=317 color=blue fillcolor=red shape=triangle style=filled]
+	318 [label=318 color=blue fillcolor=blue shape=triangle style=filled]
+	319 [label=319 color=blue fillcolor=grey shape=triangle style=filled]
+	320 [label=320 color=blue fillcolor=blue shape=triangle style=filled]
+	321 [label=321 color=blue fillcolor=grey shape=triangle style=filled]
+	322 [label=322 color=blue fillcolor=red shape=triangle style=filled]
+	323 [label=323 color=blue fillcolor=grey shape=triangle style=filled]
+	324 [label=324 color=blue fillcolor=green shape=polygon style=filled]
+	325 [label=325 color=blue fillcolor=grey shape=triangle style=filled]
+	326 [label=326 color=blue fillcolor=cyan shape=circle style=filled]
+	327 [label=327 color=blue fillcolor=grey shape=circle style=filled]
+	328 [label=328 color=blue fillcolor=grey shape=square style=filled]
+	329 [label=329 color=blue fillcolor=grey shape=triangle style=filled]
+	330 [label=330 color=blue fillcolor=grey shape=circle style=filled]
+	331 [label=331 color=blue fillcolor=red shape=circle style=filled]
+	332 [label=332 color=blue fillcolor=cyan shape=triangle style=filled]
+	333 [label=333 color=blue fillcolor=blue shape=triangle style=filled]
+	334 [label=334 color=blue fillcolor=grey shape=triangle style=filled]
+	335 [label=335 color=blue fillcolor=grey shape=triangle style=filled]
+	336 [label=336 color=blue fillcolor=grey shape=triangle style=filled]
+	337 [label=337 color=blue fillcolor=pink shape=triangle style=filled]
+	338 [label=338 color=blue fillcolor=cyan shape=triangle style=filled]
+	339 [label=339 color=blue fillcolor=grey shape=triangle style=filled]
+	340 [label=340 color=blue fillcolor=red shape=triangle style=filled]
+	341 [label=341 color=blue fillcolor=grey shape=triangle style=filled]
+	342 [label=342 color=blue fillcolor=green shape=star style=filled]
+	343 [label=343 color=blue fillcolor=purple shape=square style=filled]
+	344 [label=344 color=blue fillcolor=purple shape=circle style=filled]
+	345 [label=345 color=blue fillcolor=blue shape=triangle style=filled]
+	346 [label=346 color=blue fillcolor=grey shape=triangle style=filled]
+	347 [label=347 color=blue fillcolor=pink shape=square style=filled]
+	348 [label=348 color=blue fillcolor=purple shape=square style=filled]
+	349 [label=349 color=blue fillcolor=blue shape=circle style=filled]
+	350 [label=350 color=blue fillcolor=blue shape=circle style=filled]
+	351 [label=351 color=blue fillcolor=green shape=polygon style=filled]
+	352 [label=352 color=blue fillcolor=blue shape=square style=filled]
+	353 [label=353 color=blue fillcolor=grey shape=triangle style=filled]
+	354 [label=354 color=blue fillcolor=blue shape=circle style=filled]
+	355 [label=355 color=blue fillcolor=grey shape=triangle style=filled]
+	356 [label=356 color=blue fillcolor=grey shape=square style=filled]
+	357 [label=357 color=blue fillcolor=green shape=circle style=filled]
+	358 [label=358 color=blue fillcolor=green shape=star style=filled]
+	359 [label=359 color=blue fillcolor=purple shape=triangle style=filled]
+	360 [label=360 color=blue fillcolor=purple shape=square style=filled]
+	361 [label=361 color=blue fillcolor=blue shape=triangle style=filled]
+	362 [label=362 color=blue fillcolor=blue shape=circle style=filled]
+	363 [label=363 color=blue fillcolor=pink shape=triangle style=filled]
+	364 [label=364 color=blue fillcolor=red shape=circle style=filled]
+	365 [label=365 color=blue fillcolor=purple shape=circle style=filled]
+	366 [label=366 color=blue fillcolor=purple shape=square style=filled]
+	367 [label=367 color=blue fillcolor=blue shape=square style=filled]
+	368 [label=368 color=blue fillcolor=cyan shape=star style=filled]
+	369 [label=369 color=blue fillcolor=grey shape=circle style=filled]
+	370 [label=370 color=blue fillcolor=grey shape=triangle style=filled]
+	371 [label=371 color=blue fillcolor=cyan shape=square style=filled]
+	372 [label=372 color=blue fillcolor=grey shape=triangle style=filled]
+	373 [label=373 color=blue fillcolor=green shape=triangle style=filled]
+	374 [label=374 color=blue fillcolor=pink shape=circle style=filled]
+	375 [label=375 color=blue fillcolor=grey shape=triangle style=filled]
+	376 [label=376 color=blue fillcolor=cyan shape=circle style=filled]
+	377 [label=377 color=blue fillcolor=green shape=square style=filled]
+	378 [label=378 color=blue fillcolor=grey shape=triangle style=filled]
+	379 [label=379 color=blue fillcolor=grey shape=circle style=filled]
+	380 [label=380 color=blue fillcolor=blue shape=triangle style=filled]
+	381 [label=381 color=blue fillcolor=cyan shape=triangle style=filled]
+	382 [label=382 color=blue fillcolor=green shape=triangle style=filled]
+	383 [label=383 color=blue fillcolor=blue shape=circle style=filled]
+	384 [label=384 color=blue fillcolor=pink shape=circle style=filled]
+	385 [label=385 color=blue fillcolor=grey shape=triangle style=filled]
+	386 [label=386 color=blue fillcolor=green shape=circle style=filled]
+	387 [label=387 color=blue fillcolor=green shape=circle style=filled]
+	388 [label=388 color=blue fillcolor=grey shape=circle style=filled]
+	389 [label=389 color=blue fillcolor=cyan shape=triangle style=filled]
+	390 [label=390 color=blue fillcolor=grey shape=triangle style=filled]
+	391 [label=391 color=blue fillcolor=grey shape=triangle style=filled]
+	392 [label=392 color=blue fillcolor=red shape=triangle style=filled]
+	393 [label=393 color=blue fillcolor=blue shape=triangle style=filled]
+	394 [label=394 color=blue fillcolor=grey shape=triangle style=filled]
+	395 [label=395 color=blue fillcolor=grey shape=circle style=filled]
+	396 [label=396 color=blue fillcolor=cyan shape=triangle style=filled]
+	397 [label=397 color=blue fillcolor=blue shape=circle style=filled]
+	398 [label=398 color=blue fillcolor=pink shape=triangle style=filled]
+	399 [label=399 color=blue fillcolor=green shape=star style=filled]
+	400 [label=400 color=blue fillcolor=cyan shape=triangle style=filled]
+	401 [label=401 color=blue fillcolor=grey shape=circle style=filled]
+	402 [label=402 color=blue fillcolor=pink shape=circle style=filled]
+	403 [label=403 color=blue fillcolor=grey shape=triangle style=filled]
+	404 [label=404 color=blue fillcolor=blue shape=circle style=filled]
+	405 [label=405 color=blue fillcolor=pink shape=circle style=filled]
+	406 [label=406 color=blue fillcolor=pink shape=circle style=filled]
+	407 [label=407 color=blue fillcolor=grey shape=triangle style=filled]
+	408 [label=408 color=blue fillcolor=grey shape=triangle style=filled]
+	409 [label=409 color=blue fillcolor=grey shape=triangle style=filled]
+	410 [label=410 color=blue fillcolor=grey shape=triangle style=filled]
+	411 [label=411 color=blue fillcolor=cyan shape=square style=filled]
+	412 [label=412 color=blue fillcolor=green shape=square style=filled]
+	413 [label=413 color=blue fillcolor=cyan shape=square style=filled]
+	414 [label=414 color=blue fillcolor=grey shape=triangle style=filled]
+	415 [label=415 color=blue fillcolor=cyan shape=square style=filled]
+	416 [label=416 color=blue fillcolor=pink shape=triangle style=filled]
+	417 [label=417 color=blue fillcolor=blue shape=triangle style=filled]
+	418 [label=418 color=blue fillcolor=red shape=circle style=filled]
+	419 [label=419 color=blue fillcolor=green shape=star style=filled]
+	420 [label=420 color=blue fillcolor=grey shape=triangle style=filled]
+	421 [label=421 color=blue fillcolor=green shape=star style=filled]
+	422 [label=422 color=blue fillcolor=pink shape=circle style=filled]
+	423 [label=423 color=blue fillcolor=grey shape=triangle style=filled]
+	424 [label=424 color=blue fillcolor=yellow shape=triangle style=filled]
+	425 [label=425 color=blue fillcolor=red shape=square style=filled]
+	426 [label=426 color=blue fillcolor=green shape=circle style=filled]
+	427 [label=427 color=blue fillcolor=grey shape=triangle style=filled]
+	428 [label=428 color=blue fillcolor=grey shape=circle style=filled]
+	429 [label=429 color=blue fillcolor=pink shape=circle style=filled]
+	430 [label=430 color=blue fillcolor=blue shape=triangle style=filled]
+	431 [label=431 color=blue fillcolor=red shape=square style=filled]
+	432 [label=432 color=blue fillcolor=cyan shape=square style=filled]
+	433 [label=433 color=blue fillcolor=pink shape=triangle style=filled]
+	434 [label=434 color=blue fillcolor=blue shape=triangle style=filled]
+	435 [label=435 color=blue fillcolor=cyan shape=star style=filled]
+	436 [label=436 color=blue fillcolor=red shape=triangle style=filled]
+	437 [label=437 color=blue fillcolor=green shape=triangle style=filled]
+	438 [label=438 color=blue fillcolor=grey shape=triangle style=filled]
+	439 [label=439 color=blue fillcolor=purple shape=square style=filled]
+	440 [label=440 color=blue fillcolor=pink shape=circle style=filled]
+	441 [label=441 color=blue fillcolor=grey shape=square style=filled]
+	442 [label=442 color=blue fillcolor=pink shape=circle style=filled]
+	443 [label=443 color=blue fillcolor=red shape=triangle style=filled]
+	444 [label=444 color=blue fillcolor=cyan shape=circle style=filled]
+	445 [label=445 color=blue fillcolor=green shape=star style=filled]
+	446 [label=446 color=blue fillcolor=green shape=circle style=filled]
+	447 [label=447 color=blue fillcolor=pink shape=circle style=filled]
+	448 [label=448 color=blue fillcolor=pink shape=triangle style=filled]
+	449 [label=449 color=blue fillcolor=green shape=triangle style=filled]
+	450 [label=450 color=blue fillcolor=grey shape=triangle style=filled]
+	451 [label=451 color=blue fillcolor=grey shape=triangle style=filled]
+	452 [label=452 color=blue fillcolor=blue shape=circle style=filled]
+	453 [label=453 color=blue fillcolor=green shape=star style=filled]
+	454 [label=454 color=blue fillcolor=blue shape=triangle style=filled]
+	455 [label=455 color=blue fillcolor=green shape=star style=filled]
+	456 [label=456 color=blue fillcolor=purple shape=circle style=filled]
+	457 [label=457 color=blue fillcolor=cyan shape=circle style=filled]
+	458 [label=458 color=blue fillcolor=blue shape=triangle style=filled]
+	459 [label=459 color=blue fillcolor=red shape=triangle style=filled]
+	460 [label=460 color=blue fillcolor=grey shape=triangle style=filled]
+	461 [label=461 color=blue fillcolor=green shape=polygon style=filled]
+	462 [label=462 color=blue fillcolor=grey shape=square style=filled]
+	463 [label=463 color=blue fillcolor=cyan shape=circle style=filled]
+	464 [label=464 color=blue fillcolor=pink shape=triangle style=filled]
+	465 [label=465 color=blue fillcolor=grey shape=triangle style=filled]
+	466 [label=466 color=blue fillcolor=grey shape=triangle style=filled]
+	467 [label=467 color=blue fillcolor=green shape=triangle style=filled]
+	468 [label=468 color=blue fillcolor=grey shape=triangle style=filled]
+	469 [label=469 color=blue fillcolor=cyan shape=circle style=filled]
+	470 [label=470 color=blue fillcolor=blue shape=square style=filled]
+	471 [label=471 color=blue fillcolor=blue shape=circle style=filled]
+	472 [label=472 color=blue fillcolor=grey shape=square style=filled]
+	473 [label=473 color=blue fillcolor=green shape=circle style=filled]
+	474 [label=474 color=blue fillcolor=grey shape=triangle style=filled]
+	475 [label=475 color=blue fillcolor=cyan shape=square style=filled]
+	476 [label=476 color=blue fillcolor=grey shape=square style=filled]
+	477 [label=477 color=blue fillcolor=red shape=circle style=filled]
+	478 [label=478 color=blue fillcolor=cyan shape=square style=filled]
+	479 [label=479 color=blue fillcolor=purple shape=square style=filled]
+	480 [label=480 color=blue fillcolor=grey shape=triangle style=filled]
+	481 [label=481 color=blue fillcolor=red shape=triangle style=filled]
+	482 [label=482 color=blue fillcolor=purple shape=triangle style=filled]
+	483 [label=483 color=blue fillcolor=blue shape=triangle style=filled]
+	484 [label=484 color=blue fillcolor=green shape=circle style=filled]
+	485 [label=485 color=blue fillcolor=blue shape=circle style=filled]
+	486 [label=486 color=blue fillcolor=cyan shape=triangle style=filled]
+	487 [label=487 color=blue fillcolor=green shape=polygon style=filled]
+	488 [label=488 color=blue fillcolor=cyan shape=triangle style=filled]
+	489 [label=489 color=blue fillcolor=grey shape=triangle style=filled]
+	490 [label=490 color=blue fillcolor=green shape=circle style=filled]
+	491 [label=491 color=blue fillcolor=grey shape=square style=filled]
+	492 [label=492 color=blue fillcolor=green shape=circle style=filled]
+	493 [label=493 color=blue fillcolor=grey shape=circle style=filled]
+	494 [label=494 color=blue fillcolor=purple shape=square style=filled]
+	495 [label=495 color=blue fillcolor=red shape=triangle style=filled]
+	496 [label=496 color=blue fillcolor=grey shape=triangle style=filled]
+	497 [label=497 color=blue fillcolor=blue shape=circle style=filled]
+	498 [label=498 color=blue fillcolor=red shape=triangle style=filled]
+	499 [label=499 color=blue fillcolor=blue shape=triangle style=filled]
+	500 [label=500 color=blue fillcolor=blue shape=triangle style=filled]
+	501 [label=501 color=blue fillcolor=grey shape=triangle style=filled]
+	502 [label=502 color=blue fillcolor=cyan shape=triangle style=filled]
+	503 [label=503 color=blue fillcolor=blue shape=triangle style=filled]
+	504 [label=504 color=blue fillcolor=green shape=triangle style=filled]
+	505 [label=505 color=blue fillcolor=green shape=triangle style=filled]
+	506 [label=506 color=blue fillcolor=grey shape=triangle style=filled]
+	507 [label=507 color=blue fillcolor=pink shape=circle style=filled]
+	508 [label=508 color=blue fillcolor=green shape=star style=filled]
+	509 [label=509 color=blue fillcolor=grey shape=triangle style=filled]
+	510 [label=510 color=blue fillcolor=grey shape=triangle style=filled]
+	511 [label=511 color=blue fillcolor=grey shape=triangle style=filled]
+	512 [label=512 color=blue fillcolor=grey shape=triangle style=filled]
+	513 [label=513 color=blue fillcolor=grey shape=triangle style=filled]
+	514 [label=514 color=blue fillcolor=grey shape=triangle style=filled]
+	515 [label=515 color=blue fillcolor=grey shape=square style=filled]
+	516 [label=516 color=blue fillcolor=grey shape=triangle style=filled]
+	517 [label=517 color=blue fillcolor=grey shape=triangle style=filled]
+	518 [label=518 color=blue fillcolor=cyan shape=star style=filled]
+	519 [label=519 color=blue fillcolor=grey shape=triangle style=filled]
+	520 [label=520 color=blue fillcolor=grey shape=triangle style=filled]
+	521 [label=521 color=blue fillcolor=grey shape=triangle style=filled]
+	522 [label=522 color=blue fillcolor=grey shape=triangle style=filled]
+	523 [label=523 color=blue fillcolor=grey shape=triangle style=filled]
+	524 [label=524 color=blue fillcolor=grey shape=triangle style=filled]
+	525 [label=525 color=blue fillcolor=grey shape=triangle style=filled]
+	526 [label=526 color=blue fillcolor=grey shape=triangle style=filled]
+	527 [label=527 color=blue fillcolor=grey shape=triangle style=filled]
+	528 [label=528 color=blue fillcolor=grey shape=triangle style=filled]
+	529 [label=529 color=blue fillcolor=grey shape=triangle style=filled]
+	530 [label=530 color=blue fillcolor=grey shape=triangle style=filled]
+	531 [label=531 color=blue fillcolor=grey shape=triangle style=filled]
+	532 [label=532 color=blue fillcolor=grey shape=triangle style=filled]
+	533 [label=533 color=blue fillcolor=grey shape=triangle style=filled]
+	534 [label=534 color=blue fillcolor=grey shape=triangle style=filled]
+	535 [label=535 color=blue fillcolor=grey shape=triangle style=filled]
+	536 [label=536 color=blue fillcolor=grey shape=triangle style=filled]
+	537 [label=537 color=blue fillcolor=grey shape=triangle style=filled]
+	538 [label=538 color=blue fillcolor=grey shape=triangle style=filled]
+	539 [label=539 color=blue fillcolor=grey shape=triangle style=filled]
+	540 [label=540 color=blue fillcolor=grey shape=triangle style=filled]
+	541 [label=541 color=blue fillcolor=grey shape=triangle style=filled]
+	542 [label=542 color=blue fillcolor=grey shape=triangle style=filled]
+	543 [label=543 color=blue fillcolor=grey shape=triangle style=filled]
+	544 [label=544 color=blue fillcolor=grey shape=triangle style=filled]
+	545 [label=545 color=blue fillcolor=grey shape=triangle style=filled]
+	546 [label=546 color=blue fillcolor=grey shape=triangle style=filled]
+	547 [label=547 color=blue fillcolor=grey shape=triangle style=filled]
+	548 [label=548 color=blue fillcolor=grey shape=triangle style=filled]
+	549 [label=549 color=blue fillcolor=grey shape=triangle style=filled]
+	550 [label=550 color=purple fillcolor=grey shape=triangle style=filled]
+	551 [label=551 color=purple fillcolor=grey shape=triangle style=filled]
+	552 [label=552 color=purple fillcolor=grey shape=triangle style=filled]
+	553 [label=553 color=purple fillcolor=grey shape=triangle style=filled]
+	554 [label=554 color=purple fillcolor=grey shape=triangle style=filled]
+	555 [label=555 color=purple fillcolor=grey shape=triangle style=filled]
+	556 [label=556 color=purple fillcolor=grey shape=triangle style=filled]
+	557 [label=557 color=purple fillcolor=purple shape=triangle style=filled]
+	558 [label=558 color=purple fillcolor=grey shape=triangle style=filled]
+	559 [label=559 color=purple fillcolor=grey shape=triangle style=filled]
+	560 [label=560 color=purple fillcolor=grey shape=triangle style=filled]
+	561 [label=561 color=purple fillcolor=grey shape=triangle style=filled]
+	562 [label=562 color=purple fillcolor=grey shape=triangle style=filled]
+	563 [label=563 color=purple fillcolor=grey shape=triangle style=filled]
+	564 [label=564 color=purple fillcolor=grey shape=triangle style=filled]
+	565 [label=565 color=purple fillcolor=grey shape=triangle style=filled]
+	566 [label=566 color=purple fillcolor=grey shape=triangle style=filled]
+	567 [label=567 color=purple fillcolor=grey shape=triangle style=filled]
+	568 [label=568 color=purple fillcolor=grey shape=triangle style=filled]
+	569 [label=569 color=purple fillcolor=grey shape=triangle style=filled]
+	570 [label=570 color=purple fillcolor=grey shape=triangle style=filled]
+	571 [label=571 color=purple fillcolor=grey shape=triangle style=filled]
+	572 [label=572 color=purple fillcolor=grey shape=triangle style=filled]
+	573 [label=573 color=purple fillcolor=grey shape=triangle style=filled]
+	574 [label=574 color=purple fillcolor=grey shape=triangle style=filled]
+	575 [label=575 color=purple fillcolor=grey shape=triangle style=filled]
+	576 [label=576 color=purple fillcolor=grey shape=triangle style=filled]
+	577 [label=577 color=purple fillcolor=grey shape=triangle style=filled]
+	578 [label=578 color=purple fillcolor=grey shape=triangle style=filled]
+	579 [label=579 color=purple fillcolor=grey shape=triangle style=filled]
+	580 [label=580 color=purple fillcolor=grey shape=triangle style=filled]
+	581 [label=581 color=purple fillcolor=grey shape=triangle style=filled]
+	582 [label=582 color=purple fillcolor=grey shape=triangle style=filled]
+	583 [label=583 color=purple fillcolor=grey shape=triangle style=filled]
+	584 [label=584 color=purple fillcolor=grey shape=triangle style=filled]
+	585 [label=585 color=purple fillcolor=grey shape=triangle style=filled]
+	586 [label=586 color=purple fillcolor=grey shape=triangle style=filled]
+	587 [label=587 color=purple fillcolor=grey shape=triangle style=filled]
+	588 [label=588 color=purple fillcolor=grey shape=triangle style=filled]
+	589 [label=589 color=purple fillcolor=grey shape=triangle style=filled]
+	590 [label=590 color=purple fillcolor=grey shape=triangle style=filled]
+	591 [label=591 color=purple fillcolor=grey shape=triangle style=filled]
+	592 [label=592 color=purple fillcolor=blue shape=triangle style=filled]
+	593 [label=593 color=purple fillcolor=grey shape=triangle style=filled]
+	594 [label=594 color=purple fillcolor=grey shape=triangle style=filled]
+	595 [label=595 color=purple fillcolor=grey shape=triangle style=filled]
+	596 [label=596 color=purple fillcolor=grey shape=triangle style=filled]
+	597 [label=597 color=purple fillcolor=grey shape=triangle style=filled]
+	598 [label=598 color=purple fillcolor=grey shape=triangle style=filled]
+	599 [label=599 color=purple fillcolor=grey shape=triangle style=filled]
+	600 [label=600 color=purple fillcolor=grey shape=triangle style=filled]
+	601 [label=601 color=purple fillcolor=grey shape=triangle style=filled]
+	602 [label=602 color=purple fillcolor=grey shape=triangle style=filled]
+	603 [label=603 color=purple fillcolor=grey shape=triangle style=filled]
+	604 [label=604 color=purple fillcolor=grey shape=triangle style=filled]
+	605 [label=605 color=purple fillcolor=grey shape=triangle style=filled]
+	606 [label=606 color=purple fillcolor=grey shape=triangle style=filled]
+	607 [label=607 color=purple fillcolor=grey shape=triangle style=filled]
+	608 [label=608 color=purple fillcolor=grey shape=triangle style=filled]
+	609 [label=609 color=purple fillcolor=grey shape=triangle style=filled]
+	610 [label=610 color=purple fillcolor=grey shape=triangle style=filled]
+	611 [label=611 color=purple fillcolor=grey shape=triangle style=filled]
+	612 [label=612 color=purple fillcolor=grey shape=triangle style=filled]
+	613 [label=613 color=purple fillcolor=grey shape=triangle style=filled]
+	614 [label=614 color=purple fillcolor=grey shape=triangle style=filled]
+	615 [label=615 color=purple fillcolor=grey shape=triangle style=filled]
+	616 [label=616 color=purple fillcolor=grey shape=triangle style=filled]
+	617 [label=617 color=purple fillcolor=grey shape=triangle style=filled]
+	618 [label=618 color=purple fillcolor=grey shape=triangle style=filled]
+	619 [label=619 color=purple fillcolor=grey shape=triangle style=filled]
+	620 [label=620 color=purple fillcolor=grey shape=triangle style=filled]
+	621 [label=621 color=purple fillcolor=grey shape=triangle style=filled]
+	622 [label=622 color=purple fillcolor=grey shape=triangle style=filled]
+	623 [label=623 color=purple fillcolor=blue shape=triangle style=filled]
+	624 [label=624 color=purple fillcolor=grey shape=triangle style=filled]
+	625 [label=625 color=purple fillcolor=grey shape=triangle style=filled]
+	626 [label=626 color=purple fillcolor=grey shape=triangle style=filled]
+	627 [label=627 color=purple fillcolor=grey shape=triangle style=filled]
+	628 [label=628 color=purple fillcolor=grey shape=triangle style=filled]
+	629 [label=629 color=purple fillcolor=grey shape=triangle style=filled]
+	630 [label=630 color=purple fillcolor=grey shape=triangle style=filled]
+	631 [label=631 color=purple fillcolor=grey shape=triangle style=filled]
+	632 [label=632 color=purple fillcolor=grey shape=triangle style=filled]
+	633 [label=633 color=purple fillcolor=grey shape=triangle style=filled]
+	634 [label=634 color=purple fillcolor=grey shape=triangle style=filled]
+	635 [label=635 color=purple fillcolor=grey shape=triangle style=filled]
+	636 [label=636 color=purple fillcolor=grey shape=triangle style=filled]
+	637 [label=637 color=purple fillcolor=grey shape=triangle style=filled]
+	638 [label=638 color=purple fillcolor=grey shape=triangle style=filled]
+	639 [label=639 color=purple fillcolor=grey shape=triangle style=filled]
+	640 [label=640 color=purple fillcolor=grey shape=triangle style=filled]
+	641 [label=641 color=purple fillcolor=grey shape=triangle style=filled]
+	642 [label=642 color=purple fillcolor=grey shape=triangle style=filled]
+	643 [label=643 color=purple fillcolor=grey shape=triangle style=filled]
+	644 [label=644 color=purple fillcolor=grey shape=triangle style=filled]
+	645 [label=645 color=purple fillcolor=grey shape=triangle style=filled]
+	646 [label=646 color=purple fillcolor=grey shape=triangle style=filled]
+	647 [label=647 color=purple fillcolor=grey shape=triangle style=filled]
+	648 [label=648 color=purple fillcolor=grey shape=triangle style=filled]
+	649 [label=649 color=purple fillcolor=grey shape=triangle style=filled]
+	650 [label=650 color=purple fillcolor=grey shape=triangle style=filled]
+	651 [label=651 color=purple fillcolor=grey shape=triangle style=filled]
+	652 [label=652 color=purple fillcolor=grey shape=triangle style=filled]
+	653 [label=653 color=purple fillcolor=grey shape=triangle style=filled]
+	654 [label=654 color=purple fillcolor=grey shape=triangle style=filled]
+	655 [label=655 color=purple fillcolor=grey shape=triangle style=filled]
+	656 [label=656 color=purple fillcolor=grey shape=triangle style=filled]
+	657 [label=657 color=purple fillcolor=grey shape=triangle style=filled]
+	658 [label=658 color=purple fillcolor=grey shape=triangle style=filled]
+	659 [label=659 color=purple fillcolor=grey shape=triangle style=filled]
+	660 [label=660 color=purple fillcolor=grey shape=triangle style=filled]
+	661 [label=661 color=purple fillcolor=grey shape=triangle style=filled]
+	662 [label=662 color=purple fillcolor=grey shape=triangle style=filled]
+	663 [label=663 color=purple fillcolor=grey shape=triangle style=filled]
+	664 [label=664 color=purple fillcolor=grey shape=triangle style=filled]
+	665 [label=665 color=purple fillcolor=grey shape=triangle style=filled]
+	666 [label=666 color=purple fillcolor=grey shape=triangle style=filled]
+	667 [label=667 color=purple fillcolor=grey shape=triangle style=filled]
+	668 [label=668 color=purple fillcolor=grey shape=triangle style=filled]
+	669 [label=669 color=purple fillcolor=grey shape=triangle style=filled]
+	670 [label=670 color=purple fillcolor=grey shape=triangle style=filled]
+	671 [label=671 color=purple fillcolor=grey shape=triangle style=filled]
+	672 [label=672 color=purple fillcolor=grey shape=triangle style=filled]
+	673 [label=673 color=purple fillcolor=green shape=star style=filled]
+	674 [label=674 color=purple fillcolor=grey shape=triangle style=filled]
+	675 [label=675 color=purple fillcolor=grey shape=triangle style=filled]
+	676 [label=676 color=purple fillcolor=grey shape=triangle style=filled]
+	677 [label=677 color=purple fillcolor=grey shape=triangle style=filled]
+	678 [label=678 color=purple fillcolor=grey shape=triangle style=filled]
+	679 [label=679 color=purple fillcolor=grey shape=triangle style=filled]
+	680 [label=680 color=purple fillcolor=grey shape=triangle style=filled]
+	681 [label=681 color=purple fillcolor=grey shape=triangle style=filled]
+	682 [label=682 color=purple fillcolor=grey shape=triangle style=filled]
+	683 [label=683 color=purple fillcolor=grey shape=triangle style=filled]
+	684 [label=684 color=purple fillcolor=grey shape=triangle style=filled]
+	685 [label=685 color=purple fillcolor=grey shape=triangle style=filled]
+	686 [label=686 color=purple fillcolor=grey shape=triangle style=filled]
+	687 [label=687 color=purple fillcolor=grey shape=triangle style=filled]
+	688 [label=688 color=purple fillcolor=grey shape=triangle style=filled]
+	689 [label=689 color=purple fillcolor=grey shape=triangle style=filled]
+	690 [label=690 color=purple fillcolor=grey shape=triangle style=filled]
+	691 [label=691 color=purple fillcolor=grey shape=triangle style=filled]
+	692 [label=692 color=purple fillcolor=grey shape=triangle style=filled]
+	693 [label=693 color=purple fillcolor=grey shape=triangle style=filled]
+	694 [label=694 color=purple fillcolor=grey shape=triangle style=filled]
+	695 [label=695 color=purple fillcolor=grey shape=triangle style=filled]
+	696 [label=696 color=purple fillcolor=grey shape=triangle style=filled]
+	697 [label=697 color=purple fillcolor=grey shape=triangle style=filled]
+	698 [label=698 color=purple fillcolor=grey shape=triangle style=filled]
+	699 [label=699 color=purple fillcolor=grey shape=triangle style=filled]
+	700 [label=700 color=purple fillcolor=grey shape=triangle style=filled]
+	701 [label=701 color=purple fillcolor=grey shape=triangle style=filled]
+	702 [label=702 color=purple fillcolor=grey shape=triangle style=filled]
+	703 [label=703 color=purple fillcolor=grey shape=triangle style=filled]
+	704 [label=704 color=purple fillcolor=grey shape=triangle style=filled]
+	705 [label=705 color=purple fillcolor=grey shape=triangle style=filled]
+	706 [label=706 color=purple fillcolor=grey shape=triangle style=filled]
+	707 [label=707 color=purple fillcolor=grey shape=triangle style=filled]
+	708 [label=708 color=purple fillcolor=grey shape=triangle style=filled]
+	709 [label=709 color=purple fillcolor=grey shape=triangle style=filled]
+	710 [label=710 color=purple fillcolor=grey shape=triangle style=filled]
+	711 [label=711 color=purple fillcolor=grey shape=triangle style=filled]
+	712 [label=712 color=purple fillcolor=grey shape=triangle style=filled]
+	713 [label=713 color=purple fillcolor=grey shape=triangle style=filled]
+	714 [label=714 color=purple fillcolor=grey shape=triangle style=filled]
+	715 [label=715 color=purple fillcolor=grey shape=triangle style=filled]
+	716 [label=716 color=purple fillcolor=grey shape=triangle style=filled]
+	717 [label=717 color=purple fillcolor=grey shape=triangle style=filled]
+	718 [label=718 color=purple fillcolor=grey shape=square style=filled]
+	719 [label=719 color=purple fillcolor=grey shape=triangle style=filled]
+	720 [label=720 color=purple fillcolor=grey shape=triangle style=filled]
+	721 [label=721 color=purple fillcolor=grey shape=triangle style=filled]
+	722 [label=722 color=purple fillcolor=grey shape=triangle style=filled]
+	723 [label=723 color=purple fillcolor=grey shape=triangle style=filled]
+	724 [label=724 color=purple fillcolor=grey shape=triangle style=filled]
+	725 [label=725 color=purple fillcolor=green shape=polygon style=filled]
+	726 [label=726 color=purple fillcolor=grey shape=triangle style=filled]
+	727 [label=727 color=purple fillcolor=grey shape=triangle style=filled]
+	728 [label=728 color=purple fillcolor=pink shape=square style=filled]
+	729 [label=729 color=purple fillcolor=pink shape=triangle style=filled]
+	730 [label=730 color=purple fillcolor=grey shape=triangle style=filled]
+	731 [label=731 color=purple fillcolor=grey shape=triangle style=filled]
+	732 [label=732 color=purple fillcolor=grey shape=triangle style=filled]
+	733 [label=733 color=purple fillcolor=grey shape=triangle style=filled]
+	734 [label=734 color=purple fillcolor=grey shape=triangle style=filled]
+	735 [label=735 color=purple fillcolor=grey shape=triangle style=filled]
+	736 [label=736 color=purple fillcolor=cyan shape=circle style=filled]
+	737 [label=737 color=purple fillcolor=grey shape=triangle style=filled]
+	738 [label=738 color=purple fillcolor=grey shape=triangle style=filled]
+	739 [label=739 color=purple fillcolor=blue shape=triangle style=filled]
+	740 [label=740 color=purple fillcolor=cyan shape=triangle style=filled]
+	741 [label=741 color=purple fillcolor=purple shape=triangle style=filled]
+	742 [label=742 color=purple fillcolor=cyan shape=polygon style=filled]
+	743 [label=743 color=purple fillcolor=cyan shape=triangle style=filled]
+	744 [label=744 color=purple fillcolor=red shape=circle style=filled]
+	745 [label=745 color=purple fillcolor=pink shape=square style=filled]
+	746 [label=746 color=purple fillcolor=cyan shape=circle style=filled]
+	747 [label=747 color=purple fillcolor=grey shape=circle style=filled]
+	748 [label=748 color=purple fillcolor=red shape=triangle style=filled]
+	749 [label=749 color=purple fillcolor=cyan shape=triangle style=filled]
+	750 [label=750 color=purple fillcolor=grey shape=triangle style=filled]
+	751 [label=751 color=purple fillcolor=grey shape=triangle style=filled]
+	752 [label=752 color=purple fillcolor=grey shape=triangle style=filled]
+	753 [label=753 color=purple fillcolor=grey shape=triangle style=filled]
+	754 [label=754 color=purple fillcolor=grey shape=triangle style=filled]
+	755 [label=755 color=purple fillcolor=grey shape=triangle style=filled]
+	756 [label=756 color=purple fillcolor=grey shape=triangle style=filled]
+	757 [label=757 color=purple fillcolor=grey shape=triangle style=filled]
+	758 [label=758 color=purple fillcolor=grey shape=triangle style=filled]
+	759 [label=759 color=purple fillcolor=grey shape=triangle style=filled]
+	760 [label=760 color=purple fillcolor=grey shape=triangle style=filled]
+	761 [label=761 color=purple fillcolor=grey shape=triangle style=filled]
+	762 [label=762 color=purple fillcolor=grey shape=triangle style=filled]
+	763 [label=763 color=purple fillcolor=grey shape=triangle style=filled]
+	764 [label=764 color=purple fillcolor=grey shape=triangle style=filled]
+	765 [label=765 color=purple fillcolor=grey shape=triangle style=filled]
+	766 [label=766 color=purple fillcolor=grey shape=triangle style=filled]
+	767 [label=767 color=purple fillcolor=grey shape=triangle style=filled]
+	768 [label=768 color=purple fillcolor=grey shape=triangle style=filled]
+	769 [label=769 color=purple fillcolor=grey shape=triangle style=filled]
+	770 [label=770 color=purple fillcolor=grey shape=triangle style=filled]
+	771 [label=771 color=purple fillcolor=grey shape=triangle style=filled]
+	772 [label=772 color=purple fillcolor=grey shape=triangle style=filled]
+	773 [label=773 color=purple fillcolor=grey shape=triangle style=filled]
+	774 [label=774 color=purple fillcolor=grey shape=triangle style=filled]
+	775 [label=775 color=purple fillcolor=grey shape=triangle style=filled]
+	776 [label=776 color=purple fillcolor=grey shape=triangle style=filled]
+	777 [label=777 color=purple fillcolor=grey shape=triangle style=filled]
+	778 [label=778 color=purple fillcolor=grey shape=triangle style=filled]
+	779 [label=779 color=purple fillcolor=grey shape=triangle style=filled]
+	780 [label=780 color=purple fillcolor=grey shape=triangle style=filled]
+	781 [label=781 color=purple fillcolor=grey shape=triangle style=filled]
+	782 [label=782 color=purple fillcolor=grey shape=triangle style=filled]
+	783 [label=783 color=purple fillcolor=grey shape=triangle style=filled]
+	784 [label=784 color=purple fillcolor=grey shape=triangle style=filled]
+	785 [label=785 color=purple fillcolor=grey shape=triangle style=filled]
+	786 [label=786 color=purple fillcolor=grey shape=triangle style=filled]
+	787 [label=787 color=purple fillcolor=grey shape=triangle style=filled]
+	788 [label=788 color=purple fillcolor=grey shape=triangle style=filled]
+	789 [label=789 color=purple fillcolor=grey shape=triangle style=filled]
+	790 [label=790 color=purple fillcolor=grey shape=triangle style=filled]
+	791 [label=791 color=purple fillcolor=grey shape=triangle style=filled]
+	792 [label=792 color=purple fillcolor=grey shape=triangle style=filled]
+	793 [label=793 color=purple fillcolor=grey shape=triangle style=filled]
+	794 [label=794 color=purple fillcolor=grey shape=triangle style=filled]
+	795 [label=795 color=purple fillcolor=grey shape=triangle style=filled]
+	796 [label=796 color=purple fillcolor=grey shape=triangle style=filled]
+	797 [label=797 color=purple fillcolor=grey shape=triangle style=filled]
+	798 [label=798 color=purple fillcolor=grey shape=triangle style=filled]
+	799 [label=799 color=purple fillcolor=grey shape=triangle style=filled]
+	800 [label=800 color=purple fillcolor=grey shape=triangle style=filled]
+	801 [label=801 color=purple fillcolor=grey shape=triangle style=filled]
+	802 [label=802 color=purple fillcolor=grey shape=triangle style=filled]
+	803 [label=803 color=purple fillcolor=grey shape=triangle style=filled]
+	804 [label=804 color=purple fillcolor=grey shape=triangle style=filled]
+	805 [label=805 color=purple fillcolor=grey shape=triangle style=filled]
+	806 [label=806 color=purple fillcolor=grey shape=triangle style=filled]
+	807 [label=807 color=purple fillcolor=grey shape=triangle style=filled]
+	808 [label=808 color=purple fillcolor=grey shape=triangle style=filled]
+	809 [label=809 color=purple fillcolor=grey shape=triangle style=filled]
+	810 [label=810 color=purple fillcolor=grey shape=triangle style=filled]
+	811 [label=811 color=purple fillcolor=grey shape=triangle style=filled]
+	812 [label=812 color=purple fillcolor=grey shape=triangle style=filled]
+	813 [label=813 color=purple fillcolor=grey shape=triangle style=filled]
+	814 [label=814 color=purple fillcolor=grey shape=triangle style=filled]
+	815 [label=815 color=purple fillcolor=grey shape=triangle style=filled]
+	816 [label=816 color=purple fillcolor=grey shape=triangle style=filled]
+	817 [label=817 color=purple fillcolor=grey shape=triangle style=filled]
+	818 [label=818 color=purple fillcolor=grey shape=triangle style=filled]
+	819 [label=819 color=purple fillcolor=grey shape=triangle style=filled]
+	820 [label=820 color=purple fillcolor=grey shape=triangle style=filled]
+	821 [label=821 color=purple fillcolor=grey shape=triangle style=filled]
+	822 [label=822 color=purple fillcolor=grey shape=triangle style=filled]
+	823 [label=823 color=purple fillcolor=grey shape=triangle style=filled]
+	824 [label=824 color=purple fillcolor=grey shape=triangle style=filled]
+	825 [label=825 color=purple fillcolor=grey shape=triangle style=filled]
+	826 [label=826 color=purple fillcolor=grey shape=triangle style=filled]
+	827 [label=827 color=purple fillcolor=grey shape=triangle style=filled]
+	828 [label=828 color=purple fillcolor=grey shape=triangle style=filled]
+	829 [label=829 color=purple fillcolor=grey shape=triangle style=filled]
+	830 [label=830 color=purple fillcolor=grey shape=triangle style=filled]
+	831 [label=831 color=purple fillcolor=grey shape=triangle style=filled]
+	832 [label=832 color=purple fillcolor=grey shape=triangle style=filled]
+	833 [label=833 color=purple fillcolor=grey shape=triangle style=filled]
+	834 [label=834 color=purple fillcolor=grey shape=triangle style=filled]
+	835 [label=835 color=purple fillcolor=grey shape=triangle style=filled]
+	836 [label=836 color=purple fillcolor=grey shape=triangle style=filled]
+	837 [label=837 color=purple fillcolor=grey shape=triangle style=filled]
+	838 [label=838 color=purple fillcolor=grey shape=triangle style=filled]
+	839 [label=839 color=purple fillcolor=grey shape=triangle style=filled]
+	840 [label=840 color=purple fillcolor=grey shape=triangle style=filled]
+	841 [label=841 color=purple fillcolor=grey shape=triangle style=filled]
+	842 [label=842 color=purple fillcolor=grey shape=triangle style=filled]
+	843 [label=843 color=purple fillcolor=grey shape=triangle style=filled]
+	844 [label=844 color=purple fillcolor=grey shape=triangle style=filled]
+	845 [label=845 color=purple fillcolor=grey shape=triangle style=filled]
+	846 [label=846 color=purple fillcolor=grey shape=triangle style=filled]
+	847 [label=847 color=purple fillcolor=grey shape=triangle style=filled]
+	848 [label=848 color=purple fillcolor=grey shape=triangle style=filled]
+	849 [label=849 color=purple fillcolor=grey shape=triangle style=filled]
+	850 [label=850 color=purple fillcolor=grey shape=triangle style=filled]
+	851 [label=851 color=purple fillcolor=grey shape=triangle style=filled]
+	852 [label=852 color=purple fillcolor=grey shape=triangle style=filled]
+	853 [label=853 color=purple fillcolor=grey shape=triangle style=filled]
+	854 [label=854 color=purple fillcolor=grey shape=triangle style=filled]
+	855 [label=855 color=purple fillcolor=grey shape=triangle style=filled]
+	856 [label=856 color=purple fillcolor=grey shape=triangle style=filled]
+	857 [label=857 color=purple fillcolor=grey shape=triangle style=filled]
+	858 [label=858 color=purple fillcolor=grey shape=triangle style=filled]
+	859 [label=859 color=purple fillcolor=grey shape=triangle style=filled]
+	860 [label=860 color=purple fillcolor=grey shape=triangle style=filled]
+	861 [label=861 color=purple fillcolor=grey shape=triangle style=filled]
+	862 [label=862 color=purple fillcolor=grey shape=triangle style=filled]
+	863 [label=863 color=purple fillcolor=grey shape=triangle style=filled]
+	864 [label=864 color=purple fillcolor=grey shape=triangle style=filled]
+	865 [label=865 color=purple fillcolor=grey shape=triangle style=filled]
+	866 [label=866 color=purple fillcolor=grey shape=triangle style=filled]
+	867 [label=867 color=purple fillcolor=grey shape=triangle style=filled]
+	868 [label=868 color=purple fillcolor=grey shape=triangle style=filled]
+	869 [label=869 color=purple fillcolor=grey shape=triangle style=filled]
+	870 [label=870 color=purple fillcolor=grey shape=triangle style=filled]
+	871 [label=871 color=purple fillcolor=grey shape=triangle style=filled]
+	872 [label=872 color=purple fillcolor=grey shape=triangle style=filled]
+	873 [label=873 color=purple fillcolor=grey shape=triangle style=filled]
+	874 [label=874 color=purple fillcolor=grey shape=triangle style=filled]
+	875 [label=875 color=purple fillcolor=grey shape=triangle style=filled]
+	876 [label=876 color=purple fillcolor=grey shape=triangle style=filled]
+	877 [label=877 color=purple fillcolor=grey shape=triangle style=filled]
+	878 [label=878 color=purple fillcolor=grey shape=triangle style=filled]
+	879 [label=879 color=purple fillcolor=grey shape=triangle style=filled]
+	880 [label=880 color=purple fillcolor=grey shape=triangle style=filled]
+	881 [label=881 color=purple fillcolor=grey shape=triangle style=filled]
+	882 [label=882 color=purple fillcolor=grey shape=triangle style=filled]
+	883 [label=883 color=purple fillcolor=grey shape=triangle style=filled]
+	884 [label=884 color=purple fillcolor=grey shape=triangle style=filled]
+	885 [label=885 color=purple fillcolor=grey shape=triangle style=filled]
+	886 [label=886 color=purple fillcolor=grey shape=triangle style=filled]
+	887 [label=887 color=purple fillcolor=grey shape=triangle style=filled]
+	888 [label=888 color=purple fillcolor=grey shape=triangle style=filled]
+	889 [label=889 color=purple fillcolor=grey shape=triangle style=filled]
+	890 [label=890 color=purple fillcolor=grey shape=triangle style=filled]
+	891 [label=891 color=purple fillcolor=grey shape=triangle style=filled]
+	892 [label=892 color=purple fillcolor=grey shape=triangle style=filled]
+	893 [label=893 color=purple fillcolor=grey shape=triangle style=filled]
+	894 [label=894 color=purple fillcolor=grey shape=triangle style=filled]
+	895 [label=895 color=purple fillcolor=grey shape=triangle style=filled]
+	896 [label=896 color=purple fillcolor=grey shape=triangle style=filled]
+	897 [label=897 color=purple fillcolor=grey shape=triangle style=filled]
+	898 [label=898 color=purple fillcolor=grey shape=triangle style=filled]
+	899 [label=899 color=purple fillcolor=grey shape=triangle style=filled]
+	900 [label=900 color=purple fillcolor=grey shape=triangle style=filled]
+	901 [label=901 color=purple fillcolor=grey shape=triangle style=filled]
+	902 [label=902 color=purple fillcolor=grey shape=triangle style=filled]
+	903 [label=903 color=purple fillcolor=grey shape=triangle style=filled]
+	904 [label=904 color=purple fillcolor=grey shape=triangle style=filled]
+	905 [label=905 color=purple fillcolor=grey shape=triangle style=filled]
+	906 [label=906 color=purple fillcolor=grey shape=triangle style=filled]
+	907 [label=907 color=purple fillcolor=grey shape=triangle style=filled]
+	908 [label=908 color=purple fillcolor=grey shape=triangle style=filled]
+	909 [label=909 color=purple fillcolor=grey shape=triangle style=filled]
+	910 [label=910 color=purple fillcolor=grey shape=triangle style=filled]
+	911 [label=911 color=purple fillcolor=grey shape=triangle style=filled]
+	912 [label=912 color=purple fillcolor=grey shape=triangle style=filled]
+	913 [label=913 color=purple fillcolor=grey shape=triangle style=filled]
+	914 [label=914 color=purple fillcolor=grey shape=triangle style=filled]
+	915 [label=915 color=purple fillcolor=grey shape=triangle style=filled]
+	916 [label=916 color=purple fillcolor=grey shape=triangle style=filled]
+	917 [label=917 color=purple fillcolor=grey shape=triangle style=filled]
+	918 [label=918 color=purple fillcolor=grey shape=triangle style=filled]
+	919 [label=919 color=purple fillcolor=grey shape=triangle style=filled]
+	920 [label=920 color=purple fillcolor=grey shape=triangle style=filled]
+	921 [label=921 color=purple fillcolor=grey shape=triangle style=filled]
+	922 [label=922 color=purple fillcolor=grey shape=triangle style=filled]
+	923 [label=923 color=purple fillcolor=grey shape=triangle style=filled]
+	924 [label=924 color=purple fillcolor=grey shape=triangle style=filled]
+	925 [label=925 color=purple fillcolor=grey shape=triangle style=filled]
+	926 [label=926 color=purple fillcolor=grey shape=triangle style=filled]
+	927 [label=927 color=purple fillcolor=grey shape=triangle style=filled]
+	928 [label=928 color=purple fillcolor=grey shape=triangle style=filled]
+	929 [label=929 color=purple fillcolor=grey shape=triangle style=filled]
+	930 [label=930 color=purple fillcolor=grey shape=triangle style=filled]
+	931 [label=931 color=purple fillcolor=grey shape=triangle style=filled]
+	932 [label=932 color=purple fillcolor=grey shape=triangle style=filled]
+	933 [label=933 color=purple fillcolor=grey shape=triangle style=filled]
+	934 [label=934 color=purple fillcolor=grey shape=triangle style=filled]
+	935 [label=935 color=purple fillcolor=grey shape=triangle style=filled]
+	936 [label=936 color=purple fillcolor=grey shape=triangle style=filled]
+	937 [label=937 color=purple fillcolor=grey shape=triangle style=filled]
+	938 [label=938 color=purple fillcolor=grey shape=triangle style=filled]
+	939 [label=939 color=purple fillcolor=grey shape=triangle style=filled]
+	940 [label=940 color=purple fillcolor=grey shape=triangle style=filled]
+	941 [label=941 color=purple fillcolor=grey shape=triangle style=filled]
+	942 [label=942 color=purple fillcolor=grey shape=triangle style=filled]
+	943 [label=943 color=purple fillcolor=grey shape=triangle style=filled]
+	944 [label=944 color=purple fillcolor=grey shape=triangle style=filled]
+	945 [label=945 color=purple fillcolor=grey shape=triangle style=filled]
+	946 [label=946 color=purple fillcolor=grey shape=triangle style=filled]
+	947 [label=947 color=purple fillcolor=grey shape=triangle style=filled]
+	948 [label=948 color=purple fillcolor=grey shape=triangle style=filled]
+	949 [label=949 color=purple fillcolor=grey shape=triangle style=filled]
+	950 [label=950 color=purple fillcolor=grey shape=triangle style=filled]
+	951 [label=951 color=purple fillcolor=grey shape=triangle style=filled]
+	952 [label=952 color=purple fillcolor=grey shape=triangle style=filled]
+	953 [label=953 color=purple fillcolor=grey shape=triangle style=filled]
+	954 [label=954 color=purple fillcolor=grey shape=triangle style=filled]
+	955 [label=955 color=purple fillcolor=grey shape=triangle style=filled]
+	956 [label=956 color=purple fillcolor=grey shape=triangle style=filled]
+	957 [label=957 color=purple fillcolor=grey shape=triangle style=filled]
+	958 [label=958 color=purple fillcolor=grey shape=triangle style=filled]
+	959 [label=959 color=purple fillcolor=grey shape=triangle style=filled]
+	960 [label=960 color=purple fillcolor=grey shape=triangle style=filled]
+	961 [label=961 color=purple fillcolor=grey shape=triangle style=filled]
+	962 [label=962 color=purple fillcolor=grey shape=triangle style=filled]
+	963 [label=963 color=purple fillcolor=grey shape=triangle style=filled]
+	964 [label=964 color=purple fillcolor=grey shape=triangle style=filled]
+	965 [label=965 color=purple fillcolor=grey shape=triangle style=filled]
+	966 [label=966 color=purple fillcolor=grey shape=triangle style=filled]
+	967 [label=967 color=purple fillcolor=grey shape=triangle style=filled]
+	968 [label=968 color=purple fillcolor=grey shape=circle style=filled]
+	969 [label=969 color=purple fillcolor=grey shape=triangle style=filled]
+	970 [label=970 color=purple fillcolor=grey shape=triangle style=filled]
+	971 [label=971 color=purple fillcolor=grey shape=triangle style=filled]
+	972 [label=972 color=purple fillcolor=pink shape=triangle style=filled]
+	973 [label=973 color=purple fillcolor=grey shape=triangle style=filled]
+	974 [label=974 color=purple fillcolor=grey shape=triangle style=filled]
+	975 [label=975 color=purple fillcolor=grey shape=triangle style=filled]
+	976 [label=976 color=purple fillcolor=grey shape=triangle style=filled]
+	977 [label=977 color=purple fillcolor=grey shape=triangle style=filled]
+	978 [label=978 color=purple fillcolor=grey shape=triangle style=filled]
+	979 [label=979 color=purple fillcolor=grey shape=triangle style=filled]
+	980 [label=980 color=purple fillcolor=grey shape=triangle style=filled]
+	981 [label=981 color=purple fillcolor=grey shape=triangle style=filled]
+	982 [label=982 color=purple fillcolor=grey shape=triangle style=filled]
+	983 [label=983 color=purple fillcolor=cyan shape=triangle style=filled]
+	984 [label=984 color=purple fillcolor=blue shape=triangle style=filled]
+	985 [label=985 color=purple fillcolor=grey shape=circle style=filled]
+	986 [label=986 color=purple fillcolor=grey shape=square style=filled]
+	987 [label=987 color=purple fillcolor=purple shape=triangle style=filled]
+	988 [label=988 color=purple fillcolor=red shape=triangle style=filled]
+	989 [label=989 color=purple fillcolor=pink shape=triangle style=filled]
+	990 [label=990 color=purple fillcolor=red shape=triangle style=filled]
+	991 [label=991 color=purple fillcolor=pink shape=square style=filled]
+	992 [label=992 color=purple fillcolor=red shape=triangle style=filled]
+	993 [label=993 color=purple fillcolor=grey shape=triangle style=filled]
+	994 [label=994 color=purple fillcolor=grey shape=triangle style=filled]
+	995 [label=995 color=purple fillcolor=green shape=triangle style=filled]
+	996 [label=996 color=purple fillcolor=green shape=triangle style=filled]
+	997 [label=997 color=purple fillcolor=green shape=triangle style=filled]
+	998 [label=998 color=purple fillcolor=green shape=triangle style=filled]
+	999 [label=999 color=purple fillcolor=green shape=triangle style=filled]
+	1000 [label=1000 color=purple fillcolor=green shape=triangle style=filled]
+	1001 [label=1001 color=purple fillcolor=grey shape=triangle style=filled]
+	1002 [label=1002 color=purple fillcolor=green shape=triangle style=filled]
+	1003 [label=1003 color=purple fillcolor=green shape=triangle style=filled]
+	1004 [label=1004 color=purple fillcolor=grey shape=triangle style=filled]
+	1005 [label=1005 color=purple fillcolor=grey shape=triangle style=filled]
+	1006 [label=1006 color=purple fillcolor=grey shape=triangle style=filled]
+	1007 [label=1007 color=purple fillcolor=grey shape=triangle style=filled]
+	1008 [label=1008 color=purple fillcolor=grey shape=triangle style=filled]
+	1009 [label=1009 color=purple fillcolor=grey shape=triangle style=filled]
+	1010 [label=1010 color=purple fillcolor=grey shape=triangle style=filled]
+	1011 [label=1011 color=purple fillcolor=grey shape=triangle style=filled]
+	1012 [label=1012 color=purple fillcolor=grey shape=triangle style=filled]
+	1013 [label=1013 color=purple fillcolor=grey shape=triangle style=filled]
+	1014 [label=1014 color=purple fillcolor=grey shape=triangle style=filled]
+	1015 [label=1015 color=purple fillcolor=grey shape=triangle style=filled]
+	1016 [label=1016 color=purple fillcolor=grey shape=triangle style=filled]
+	1017 [label=1017 color=purple fillcolor=grey shape=triangle style=filled]
+	1018 [label=1018 color=purple fillcolor=grey shape=triangle style=filled]
+	1019 [label=1019 color=purple fillcolor=grey shape=triangle style=filled]
+	1020 [label=1020 color=purple fillcolor=grey shape=triangle style=filled]
+	1021 [label=1021 color=purple fillcolor=grey shape=triangle style=filled]
+	1022 [label=1022 color=purple fillcolor=grey shape=triangle style=filled]
+	1023 [label=1023 color=purple fillcolor=grey shape=triangle style=filled]
+	1024 [label=1024 color=red fillcolor=grey shape=triangle style=filled]
+	1025 [label=1025 color=red fillcolor=grey shape=triangle style=filled]
+	1026 [label=1026 color=red fillcolor=grey shape=triangle style=filled]
+	1027 [label=1027 color=red fillcolor=grey shape=triangle style=filled]
+	1028 [label=1028 color=red fillcolor=grey shape=triangle style=filled]
+	1029 [label=1029 color=red fillcolor=grey shape=triangle style=filled]
+	1030 [label=1030 color=red fillcolor=grey shape=circle style=filled]
+	1031 [label=1031 color=red fillcolor=green shape=triangle style=filled]
+	1032 [label=1032 color=red fillcolor=green shape=triangle style=filled]
+	1033 [label=1033 color=red fillcolor=green shape=triangle style=filled]
+	1034 [label=1034 color=red fillcolor=green shape=triangle style=filled]
+	1035 [label=1035 color=red fillcolor=green shape=triangle style=filled]
+	1036 [label=1036 color=red fillcolor=green shape=triangle style=filled]
+	1037 [label=1037 color=red fillcolor=purple shape=circle style=filled]
+	1038 [label=1038 color=red fillcolor=green shape=triangle style=filled]
+	1039 [label=1039 color=red fillcolor=green shape=triangle style=filled]
+	1040 [label=1040 color=red fillcolor=grey shape=triangle style=filled]
+	1041 [label=1041 color=red fillcolor=green shape=triangle style=filled]
+	1042 [label=1042 color=red fillcolor=grey shape=square style=filled]
+	1043 [label=1043 color=red fillcolor=grey shape=square style=filled]
+	1044 [label=1044 color=red fillcolor=cyan shape=triangle style=filled]
+	1045 [label=1045 color=red fillcolor=grey shape=circle style=filled]
+	1046 [label=1046 color=red fillcolor=purple shape=square style=filled]
+	1047 [label=1047 color=red fillcolor=green shape=circle style=filled]
+	1048 [label=1048 color=red fillcolor=green shape=circle style=filled]
+	1049 [label=1049 color=red fillcolor=grey shape=triangle style=filled]
+	1050 [label=1050 color=red fillcolor=green shape=triangle style=filled]
+	1051 [label=1051 color=red fillcolor=green shape=triangle style=filled]
+	1052 [label=1052 color=red fillcolor=green shape=triangle style=filled]
+	1053 [label=1053 color=red fillcolor=green shape=triangle style=filled]
+	1054 [label=1054 color=red fillcolor=red shape=triangle style=filled]
+	1055 [label=1055 color=red fillcolor=red shape=triangle style=filled]
+	1056 [label=1056 color=red fillcolor=red shape=triangle style=filled]
+	1057 [label=1057 color=red fillcolor=green shape=triangle style=filled]
+	1058 [label=1058 color=red fillcolor=green shape=triangle style=filled]
+	1059 [label=1059 color=red fillcolor=red shape=triangle style=filled]
+	1060 [label=1060 color=red fillcolor=green shape=circle style=filled]
+	1061 [label=1061 color=red fillcolor=green shape=circle style=filled]
+	1062 [label=1062 color=red fillcolor=green shape=circle style=filled]
+	1063 [label=1063 color=red fillcolor=green shape=circle style=filled]
+	1064 [label=1064 color=red fillcolor=green shape=circle style=filled]
+	1065 [label=1065 color=red fillcolor=green shape=circle style=filled]
+	1066 [label=1066 color=red fillcolor=green shape=circle style=filled]
+	1067 [label=1067 color=red fillcolor=green shape=circle style=filled]
+	1068 [label=1068 color=red fillcolor=green shape=circle style=filled]
+	1069 [label=1069 color=red fillcolor=green shape=circle style=filled]
+	1070 [label=1070 color=red fillcolor=green shape=circle style=filled]
+	1071 [label=1071 color=red fillcolor=green shape=circle style=filled]
+	1072 [label=1072 color=red fillcolor=green shape=circle style=filled]
+	1073 [label=1073 color=red fillcolor=green shape=circle style=filled]
+	1074 [label=1074 color=red fillcolor=green shape=circle style=filled]
+	1075 [label=1075 color=red fillcolor=green shape=circle style=filled]
+	1076 [label=1076 color=red fillcolor=green shape=circle style=filled]
+	1077 [label=1077 color=red fillcolor=green shape=circle style=filled]
+	1078 [label=1078 color=red fillcolor=green shape=circle style=filled]
+	1079 [label=1079 color=red fillcolor=green shape=circle style=filled]
+	1080 [label=1080 color=red fillcolor=green shape=circle style=filled]
+	1081 [label=1081 color=red fillcolor=green shape=circle style=filled]
+	1082 [label=1082 color=red fillcolor=green shape=circle style=filled]
+	1083 [label=1083 color=red fillcolor=grey shape=circle style=filled]
+	1084 [label=1084 color=red fillcolor=grey shape=square style=filled]
+	1085 [label=1085 color=red fillcolor=grey shape=square style=filled]
+	1086 [label=1086 color=red fillcolor=blue shape=triangle style=filled]
+	1087 [label=1087 color=red fillcolor=pink shape=triangle style=filled]
+	1088 [label=1088 color=red fillcolor=green shape=triangle style=filled]
+	1089 [label=1089 color=red fillcolor=green shape=triangle style=filled]
+	1090 [label=1090 color=red fillcolor=green shape=triangle style=filled]
+	1091 [label=1091 color=red fillcolor=green shape=triangle style=filled]
+	1092 [label=1092 color=red fillcolor=red shape=triangle style=filled]
+	1093 [label=1093 color=red fillcolor=red shape=triangle style=filled]
+	1094 [label=1094 color=red fillcolor=red shape=triangle style=filled]
+	1095 [label=1095 color=red fillcolor=green shape=triangle style=filled]
+	1096 [label=1096 color=red fillcolor=green shape=triangle style=filled]
+	1097 [label=1097 color=red fillcolor=red shape=triangle style=filled]
+	1098 [label=1098 color=red fillcolor=pink shape=triangle style=filled]
+	1099 [label=1099 color=red fillcolor=blue shape=triangle style=filled]
+	1100 [label=1100 color=red fillcolor=cyan shape=triangle style=filled]
+	1101 [label=1101 color=red fillcolor=red shape=triangle style=filled]
+	1102 [label=1102 color=red fillcolor=cyan shape=triangle style=filled]
+	1103 [label=1103 color=red fillcolor=grey shape=triangle style=filled]
+	1104 [label=1104 color=red fillcolor=cyan shape=triangle style=filled]
+	1105 [label=1105 color=red fillcolor=pink shape=triangle style=filled]
+	1106 [label=1106 color=red fillcolor=blue shape=triangle style=filled]
+	1107 [label=1107 color=red fillcolor=grey shape=triangle style=filled]
+	1108 [label=1108 color=red fillcolor=grey shape=triangle style=filled]
+	1109 [label=1109 color=red fillcolor=red shape=triangle style=filled]
+	1110 [label=1110 color=red fillcolor=red shape=triangle style=filled]
+	1111 [label=1111 color=red fillcolor=red shape=triangle style=filled]
+	1112 [label=1112 color=red fillcolor=red shape=triangle style=filled]
+	1113 [label=1113 color=red fillcolor=red shape=triangle style=filled]
+	1114 [label=1114 color=red fillcolor=red shape=triangle style=filled]
+	1115 [label=1115 color=red fillcolor=cyan shape=square style=filled]
+	1116 [label=1116 color=red fillcolor=red shape=triangle style=filled]
+	1117 [label=1117 color=red fillcolor=red shape=triangle style=filled]
+	1118 [label=1118 color=red fillcolor=green shape=triangle style=filled]
+	1119 [label=1119 color=red fillcolor=grey shape=triangle style=filled]
+	1120 [label=1120 color=red fillcolor=grey shape=triangle style=filled]
+	1121 [label=1121 color=red fillcolor=grey shape=triangle style=filled]
+	1122 [label=1122 color=red fillcolor=grey shape=triangle style=filled]
+	1123 [label=1123 color=red fillcolor=grey shape=triangle style=filled]
+	1124 [label=1124 color=red fillcolor=grey shape=triangle style=filled]
+	1125 [label=1125 color=red fillcolor=grey shape=triangle style=filled]
+	1126 [label=1126 color=red fillcolor=grey shape=triangle style=filled]
+	1127 [label=1127 color=red fillcolor=grey shape=triangle style=filled]
+	1128 [label=1128 color=yellow fillcolor=grey shape=triangle style=filled]
+	1129 [label=1129 color=yellow fillcolor=grey shape=triangle style=filled]
+	1130 [label=1130 color=yellow fillcolor=grey shape=triangle style=filled]
+	1131 [label=1131 color=yellow fillcolor=grey shape=triangle style=filled]
+	1132 [label=1132 color=yellow fillcolor=grey shape=triangle style=filled]
+	1133 [label=1133 color=yellow fillcolor=grey shape=triangle style=filled]
+	1134 [label=1134 color=yellow fillcolor=grey shape=triangle style=filled]
+	1135 [label=1135 color=yellow fillcolor=grey shape=triangle style=filled]
+	1136 [label=1136 color=yellow fillcolor=grey shape=triangle style=filled]
+	1137 [label=1137 color=yellow fillcolor=grey shape=triangle style=filled]
+	1138 [label=1138 color=yellow fillcolor=cyan shape=triangle style=filled]
+	1139 [label=1139 color=yellow fillcolor=purple shape=square style=filled]
+	1140 [label=1140 color=yellow fillcolor=green shape=triangle style=filled]
+	1141 [label=1141 color=yellow fillcolor=green shape=triangle style=filled]
+	1142 [label=1142 color=yellow fillcolor=green shape=triangle style=filled]
+	1143 [label=1143 color=yellow fillcolor=red shape=triangle style=filled]
+	1144 [label=1144 color=yellow fillcolor=red shape=triangle style=filled]
+	1145 [label=1145 color=yellow fillcolor=red shape=triangle style=filled]
+	1146 [label=1146 color=yellow fillcolor=grey shape=triangle style=filled]
+	1147 [label=1147 color=yellow fillcolor=green shape=triangle style=filled]
+	1148 [label=1148 color=yellow fillcolor=red shape=triangle style=filled]
+	1149 [label=1149 color=yellow fillcolor=grey shape=triangle style=filled]
+	1150 [label=1150 color=yellow fillcolor=grey shape=triangle style=filled]
+	1151 [label=1151 color=yellow fillcolor=grey shape=triangle style=filled]
+	1152 [label=1152 color=yellow fillcolor=grey shape=triangle style=filled]
+	1153 [label=1153 color=yellow fillcolor=grey shape=triangle style=filled]
+	1154 [label=1154 color=yellow fillcolor=grey shape=triangle style=filled]
+	1155 [label=1155 color=yellow fillcolor=red shape=square style=filled]
+	1156 [label=1156 color=yellow fillcolor=grey shape=triangle style=filled]
+	1157 [label=1157 color=yellow fillcolor=grey shape=triangle style=filled]
+	1158 [label=1158 color=yellow fillcolor=red shape=circle style=filled]
+	1159 [label=1159 color=yellow fillcolor=red shape=triangle style=filled]
+	1160 [label=1160 color=yellow fillcolor=red shape=triangle style=filled]
+	1161 [label=1161 color=yellow fillcolor=red shape=triangle style=filled]
+	1162 [label=1162 color=yellow fillcolor=red shape=triangle style=filled]
+	1163 [label=1163 color=yellow fillcolor=red shape=triangle style=filled]
+	1164 [label=1164 color=yellow fillcolor=red shape=triangle style=filled]
+	1165 [label=1165 color=yellow fillcolor=red shape=triangle style=filled]
+	1166 [label=1166 color=yellow fillcolor=red shape=triangle style=filled]
+	1167 [label=1167 color=yellow fillcolor=red shape=triangle style=filled]
+	1168 [label=1168 color=yellow fillcolor=red shape=triangle style=filled]
+	1169 [label=1169 color=yellow fillcolor=grey shape=triangle style=filled]
+	1170 [label=1170 color=yellow fillcolor=grey shape=triangle style=filled]
+	1171 [label=1171 color=yellow fillcolor=grey shape=triangle style=filled]
+	1172 [label=1172 color=yellow fillcolor=grey shape=triangle style=filled]
+	1173 [label=1173 color=yellow fillcolor=grey shape=triangle style=filled]
+	1174 [label=1174 color=yellow fillcolor=grey shape=triangle style=filled]
+	1175 [label=1175 color=yellow fillcolor=grey shape=triangle style=filled]
+	1176 [label=1176 color=yellow fillcolor=grey shape=triangle style=filled]
+	1177 [label=1177 color=yellow fillcolor=grey shape=triangle style=filled]
+	1178 [label=1178 color=yellow fillcolor=grey shape=triangle style=filled]
+	1179 [label=1179 color=yellow fillcolor=grey shape=triangle style=filled]
+	1180 [label=1180 color=yellow fillcolor=grey shape=triangle style=filled]
+	1181 [label=1181 color=yellow fillcolor=grey shape=triangle style=filled]
+	1182 [label=1182 color=yellow fillcolor=grey shape=triangle style=filled]
+	1183 [label=1183 color=yellow fillcolor=grey shape=triangle style=filled]
+	1184 [label=1184 color=yellow fillcolor=grey shape=triangle style=filled]
+	1185 [label=1185 color=yellow fillcolor=grey shape=triangle style=filled]
+	1186 [label=1186 color=yellow fillcolor=grey shape=triangle style=filled]
+	1187 [label=1187 color=yellow fillcolor=grey shape=triangle style=filled]
+	1188 [label=1188 color=yellow fillcolor=grey shape=triangle style=filled]
+	1189 [label=1189 color=yellow fillcolor=grey shape=triangle style=filled]
+	1190 [label=1190 color=yellow fillcolor=grey shape=triangle style=filled]
+	1191 [label=1191 color=yellow fillcolor=grey shape=triangle style=filled]
+	1192 [label=1192 color=yellow fillcolor=red shape=triangle style=filled]
+	1193 [label=1193 color=yellow fillcolor=red shape=triangle style=filled]
+	1194 [label=1194 color=yellow fillcolor=red shape=triangle style=filled]
+	1195 [label=1195 color=yellow fillcolor=red shape=triangle style=filled]
+	1196 [label=1196 color=yellow fillcolor=red shape=triangle style=filled]
+	1197 [label=1197 color=yellow fillcolor=red shape=triangle style=filled]
+	1198 [label=1198 color=yellow fillcolor=red shape=triangle style=filled]
+	1199 [label=1199 color=yellow fillcolor=red shape=triangle style=filled]
+	1200 [label=1200 color=yellow fillcolor=red shape=triangle style=filled]
+	1201 [label=1201 color=yellow fillcolor=red shape=triangle style=filled]
+	1202 [label=1202 color=yellow fillcolor=cyan shape=triangle style=filled]
+	1203 [label=1203 color=yellow fillcolor=grey shape=triangle style=filled]
+	1204 [label=1204 color=yellow fillcolor=grey shape=triangle style=filled]
+	1205 [label=1205 color=yellow fillcolor=cyan shape=triangle style=filled]
+	1206 [label=1206 color=yellow fillcolor=grey shape=triangle style=filled]
+	1207 [label=1207 color=yellow fillcolor=cyan shape=triangle style=filled]
+	1208 [label=1208 color=yellow fillcolor=grey shape=triangle style=filled]
+	1209 [label=1209 color=yellow fillcolor=grey shape=triangle style=filled]
+	1210 [label=1210 color=yellow fillcolor=grey shape=triangle style=filled]
+	1211 [label=1211 color=yellow fillcolor=grey shape=triangle style=filled]
+	1212 [label=1212 color=yellow fillcolor=grey shape=triangle style=filled]
+	1213 [label=1213 color=yellow fillcolor=grey shape=triangle style=filled]
+	1214 [label=1214 color=yellow fillcolor=grey shape=triangle style=filled]
+	1215 [label=1215 color=yellow fillcolor=grey shape=triangle style=filled]
+	1216 [label=1216 color=yellow fillcolor=grey shape=triangle style=filled]
+	1217 [label=1217 color=yellow fillcolor=grey shape=triangle style=filled]
+	1218 [label=1218 color=yellow fillcolor=grey shape=triangle style=filled]
+	1219 [label=1219 color=yellow fillcolor=grey shape=triangle style=filled]
+	1220 [label=1220 color=yellow fillcolor=grey shape=triangle style=filled]
+	1221 [label=1221 color=yellow fillcolor=grey shape=triangle style=filled]
+	1222 [label=1222 color=orange fillcolor=grey shape=triangle style=filled]
+	1223 [label=1223 color=orange fillcolor=grey shape=triangle style=filled]
+	1224 [label=1224 color=orange fillcolor=grey shape=triangle style=filled]
+	1225 [label=1225 color=orange fillcolor=grey shape=triangle style=filled]
+	1226 [label=1226 color=orange fillcolor=grey shape=triangle style=filled]
+	1227 [label=1227 color=orange fillcolor=grey shape=triangle style=filled]
+	1228 [label=1228 color=orange fillcolor=grey shape=triangle style=filled]
+	1229 [label=1229 color=orange fillcolor=grey shape=triangle style=filled]
+	1230 [label=1230 color=orange fillcolor=grey shape=triangle style=filled]
+	1231 [label=1231 color=orange fillcolor=grey shape=triangle style=filled]
+	1232 [label=1232 color=orange fillcolor=grey shape=triangle style=filled]
+	1233 [label=1233 color=orange fillcolor=grey shape=triangle style=filled]
+	1234 [label=1234 color=orange fillcolor=green shape=triangle style=filled]
+	1235 [label=1235 color=orange fillcolor=cyan shape=triangle style=filled]
+	1236 [label=1236 color=orange fillcolor=red shape=triangle style=filled]
+	1237 [label=1237 color=orange fillcolor=grey shape=triangle style=filled]
+	1238 [label=1238 color=orange fillcolor=grey shape=triangle style=filled]
+	1239 [label=1239 color=orange fillcolor=grey shape=triangle style=filled]
+	1240 [label=1240 color=orange fillcolor=grey shape=triangle style=filled]
+	1241 [label=1241 color=orange fillcolor=grey shape=triangle style=filled]
+	1242 [label=1242 color=orange fillcolor=grey shape=triangle style=filled]
+	1243 [label=1243 color=orange fillcolor=grey shape=triangle style=filled]
+	1244 [label=1244 color=orange fillcolor=grey shape=triangle style=filled]
+	1245 [label=1245 color=orange fillcolor=grey shape=triangle style=filled]
+	1246 [label=1246 color=orange fillcolor=grey shape=triangle style=filled]
+	1247 [label=1247 color=orange fillcolor=grey shape=triangle style=filled]
+	1248 [label=1248 color=orange fillcolor=grey shape=triangle style=filled]
+	1249 [label=1249 color=orange fillcolor=grey shape=triangle style=filled]
+	1250 [label=1250 color=orange fillcolor=grey shape=triangle style=filled]
+	1251 [label=1251 color=orange fillcolor=grey shape=triangle style=filled]
+	1252 [label=1252 color=orange fillcolor=grey shape=triangle style=filled]
+	1253 [label=1253 color=orange fillcolor=grey shape=triangle style=filled]
+	1254 [label=1254 color=orange fillcolor=grey shape=triangle style=filled]
+	1255 [label=1255 color=orange fillcolor=grey shape=triangle style=filled]
+	1256 [label=1256 color=orange fillcolor=grey shape=triangle style=filled]
+	1257 [label=1257 color=orange fillcolor=grey shape=triangle style=filled]
+	1258 [label=1258 color=orange fillcolor=grey shape=triangle style=filled]
+	1259 [label=1259 color=orange fillcolor=grey shape=triangle style=filled]
+	1260 [label=1260 color=orange fillcolor=grey shape=triangle style=filled]
+	1261 [label=1261 color=orange fillcolor=cyan shape=triangle style=filled]
+	1262 [label=1262 color=orange fillcolor=grey shape=triangle style=filled]
+	1263 [label=1263 color=orange fillcolor=red shape=triangle style=filled]
+	1264 [label=1264 color=orange fillcolor=cyan shape=triangle style=filled]
+	1265 [label=1265 color=orange fillcolor=purple shape=triangle style=filled]
+	1266 [label=1266 color=orange fillcolor=grey shape=triangle style=filled]
+	1267 [label=1267 color=orange fillcolor=red shape=triangle style=filled]
+	1268 [label=1268 color=orange fillcolor=red shape=triangle style=filled]
+	1269 [label=1269 color=orange fillcolor=red shape=triangle style=filled]
+	1270 [label=1270 color=orange fillcolor=red shape=triangle style=filled]
+	1271 [label=1271 color=orange fillcolor=red shape=triangle style=filled]
+	1272 [label=1272 color=orange fillcolor=red shape=triangle style=filled]
+	1273 [label=1273 color=orange fillcolor=red shape=triangle style=filled]
+	1274 [label=1274 color=orange fillcolor=red shape=triangle style=filled]
+	1275 [label=1275 color=orange fillcolor=red shape=triangle style=filled]
+	1276 [label=1276 color=green fillcolor=red shape=triangle style=filled]
+	1277 [label=1277 color=green fillcolor=red shape=triangle style=filled]
+	1278 [label=1278 color=green fillcolor=red shape=triangle style=filled]
+	1279 [label=1279 color=green fillcolor=red shape=triangle style=filled]
+	1280 [label=1280 color=green fillcolor=red shape=triangle style=filled]
+	1281 [label=1281 color=green fillcolor=red shape=triangle style=filled]
+	1282 [label=1282 color=green fillcolor=red shape=triangle style=filled]
+	1283 [label=1283 color=green fillcolor=red shape=triangle style=filled]
+	1284 [label=1284 color=green fillcolor=red shape=triangle style=filled]
+	1285 [label=1285 color=green fillcolor=red shape=triangle style=filled]
+	1286 [label=1286 color=green fillcolor=red shape=triangle style=filled]
+	1287 [label=1287 color=green fillcolor=red shape=triangle style=filled]
+	1288 [label=1288 color=green fillcolor=red shape=triangle style=filled]
+	1289 [label=1289 color=green fillcolor=red shape=triangle style=filled]
+	1290 [label=1290 color=green fillcolor=red shape=triangle style=filled]
+	1291 [label=1291 color=green fillcolor=red shape=triangle style=filled]
+	1292 [label=1292 color=green fillcolor=red shape=triangle style=filled]
+	1293 [label=1293 color=green fillcolor=red shape=triangle style=filled]
+	1294 [label=1294 color=green fillcolor=red shape=triangle style=filled]
+	1295 [label=1295 color=green fillcolor=red shape=triangle style=filled]
+	1296 [label=1296 color=green fillcolor=red shape=triangle style=filled]
+	1297 [label=1297 color=green fillcolor=red shape=triangle style=filled]
+	1298 [label=1298 color=green fillcolor=grey shape=triangle style=filled]
+	1299 [label=1299 color=green fillcolor=grey shape=triangle style=filled]
+	1300 [label=1300 color=green fillcolor=red shape=triangle style=filled]
+	1301 [label=1301 color=green fillcolor=red shape=triangle style=filled]
+	1302 [label=1302 color=green fillcolor=red shape=triangle style=filled]
+	1303 [label=1303 color=green fillcolor=red shape=triangle style=filled]
+	1304 [label=1304 color=green fillcolor=red shape=triangle style=filled]
+	1305 [label=1305 color=green fillcolor=red shape=triangle style=filled]
+	1306 [label=1306 color=green fillcolor=grey shape=triangle style=filled]
+	1307 [label=1307 color=green fillcolor=red shape=triangle style=filled]
+	1308 [label=1308 color=green fillcolor=red shape=triangle style=filled]
+	1309 [label=1309 color=green fillcolor=red shape=triangle style=filled]
+	1310 [label=1310 color=green fillcolor=red shape=triangle style=filled]
+	1311 [label=1311 color=green fillcolor=red shape=triangle style=filled]
+	1312 [label=1312 color=green fillcolor=grey shape=triangle style=filled]
+	1313 [label=1313 color=green fillcolor=pink shape=triangle style=filled]
+	1314 [label=1314 color=green fillcolor=red shape=triangle style=filled]
+	1315 [label=1315 color=green fillcolor=green shape=triangle style=filled]
+	1316 [label=1316 color=green fillcolor=red shape=triangle style=filled]
+	1317 [label=1317 color=green fillcolor=red shape=triangle style=filled]
+	1318 [label=1318 color=green fillcolor=purple shape=triangle style=filled]
+	1319 [label=1319 color=green fillcolor=red shape=triangle style=filled]
+	1320 [label=1320 color=green fillcolor=red shape=triangle style=filled]
+	1321 [label=1321 color=green fillcolor=red shape=triangle style=filled]
+	1322 [label=1322 color=green fillcolor=red shape=triangle style=filled]
+	1323 [label=1323 color=green fillcolor=red shape=triangle style=filled]
+	1324 [label=1324 color=green fillcolor=red shape=triangle style=filled]
+	1325 [label=1325 color=green fillcolor=red shape=triangle style=filled]
+	1326 [label=1326 color=green fillcolor=red shape=triangle style=filled]
+	1327 [label=1327 color=green fillcolor=red shape=triangle style=filled]
+	1328 [label=1328 color=green fillcolor=red shape=triangle style=filled]
+	1329 [label=1329 color=green fillcolor=red shape=triangle style=filled]
+	1330 [label=1330 color=green fillcolor=red shape=triangle style=filled]
+	1331 [label=1331 color=green fillcolor=red shape=triangle style=filled]
+	1332 [label=1332 color=green fillcolor=red shape=triangle style=filled]
+	1333 [label=1333 color=green fillcolor=red shape=triangle style=filled]
+	1334 [label=1334 color=green fillcolor=red shape=triangle style=filled]
+	1335 [label=1335 color=green fillcolor=red shape=triangle style=filled]
+	1336 [label=1336 color=green fillcolor=red shape=triangle style=filled]
+	1337 [label=1337 color=green fillcolor=red shape=triangle style=filled]
+	1338 [label=1338 color=green fillcolor=red shape=triangle style=filled]
+	1339 [label=1339 color=green fillcolor=red shape=triangle style=filled]
+	1340 [label=1340 color=green fillcolor=red shape=triangle style=filled]
+	1341 [label=1341 color=green fillcolor=red shape=triangle style=filled]
+	1342 [label=1342 color=green fillcolor=red shape=triangle style=filled]
+	1343 [label=1343 color=green fillcolor=red shape=triangle style=filled]
+	1344 [label=1344 color=green fillcolor=red shape=triangle style=filled]
+	1345 [label=1345 color=green fillcolor=red shape=triangle style=filled]
+	1346 [label=1346 color=green fillcolor=red shape=triangle style=filled]
+	1347 [label=1347 color=green fillcolor=grey shape=triangle style=filled]
+	1348 [label=1348 color=green fillcolor=grey shape=triangle style=filled]
+	1349 [label=1349 color=green fillcolor=grey shape=triangle style=filled]
+	1350 [label=1350 color=green fillcolor=grey shape=triangle style=filled]
+	1351 [label=1351 color=green fillcolor=grey shape=triangle style=filled]
+	1352 [label=1352 color=green fillcolor=red shape=triangle style=filled]
+	1353 [label=1353 color=green fillcolor=red shape=triangle style=filled]
+	1354 [label=1354 color=green fillcolor=red shape=triangle style=filled]
+	1355 [label=1355 color=green fillcolor=red shape=triangle style=filled]
+	1356 [label=1356 color=green fillcolor=red shape=triangle style=filled]
+	1357 [label=1357 color=green fillcolor=red shape=triangle style=filled]
+	1358 [label=1358 color=green fillcolor=red shape=triangle style=filled]
+	1359 [label=1359 color=green fillcolor=red shape=triangle style=filled]
+	1360 [label=1360 color=green fillcolor=red shape=triangle style=filled]
+	1361 [label=1361 color=green fillcolor=red shape=triangle style=filled]
+	1362 [label=1362 color=green fillcolor=grey shape=circle style=filled]
+	1363 [label=1363 color=green fillcolor=purple shape=triangle style=filled]
+	1364 [label=1364 color=green fillcolor=grey shape=triangle style=filled]
+	1365 [label=1365 color=green fillcolor=green shape=triangle style=filled]
+	1366 [label=1366 color=green fillcolor=purple shape=triangle style=filled]
+	1367 [label=1367 color=green fillcolor=grey shape=triangle style=filled]
+	1368 [label=1368 color=green fillcolor=green shape=square style=filled]
+	1369 [label=1369 color=green fillcolor=grey shape=triangle style=filled]
+	1370 [label=1370 color=cyan fillcolor=grey shape=square style=filled]
+	1371 [label=1371 color=cyan fillcolor=green shape=square style=filled]
+	1372 [label=1372 color=cyan fillcolor=grey shape=square style=filled]
+	1373 [label=1373 color=cyan fillcolor=purple shape=square style=filled]
+	1374 [label=1374 color=cyan fillcolor=purple shape=square style=filled]
+	1375 [label=1375 color=cyan fillcolor=cyan shape=square style=filled]
+	1376 [label=1376 color=cyan fillcolor=purple shape=square style=filled]
+	1377 [label=1377 color=cyan fillcolor=grey shape=square style=filled]
+	1378 [label=1378 color=cyan fillcolor=grey shape=square style=filled]
+	1379 [label=1379 color=cyan fillcolor=grey shape=square style=filled]
+	1380 [label=1380 color=cyan fillcolor=grey shape=square style=filled]
+	1381 [label=1381 color=cyan fillcolor=grey shape=square style=filled]
+	1382 [label=1382 color=cyan fillcolor=purple shape=square style=filled]
+	1383 [label=1383 color=cyan fillcolor=green shape=square style=filled]
+	1384 [label=1384 color=cyan fillcolor=grey shape=square style=filled]
+	1385 [label=1385 color=cyan fillcolor=grey shape=square style=filled]
+	1386 [label=1386 color=cyan fillcolor=green shape=square style=filled]
+	1387 [label=1387 color=cyan fillcolor=green shape=square style=filled]
+	1388 [label=1388 color=cyan fillcolor=green shape=square style=filled]
+	1389 [label=1389 color=cyan fillcolor=green shape=square style=filled]
+	1390 [label=1390 color=cyan fillcolor=green shape=square style=filled]
+	1391 [label=1391 color=cyan fillcolor=green shape=square style=filled]
+	1392 [label=1392 color=cyan fillcolor=green shape=square style=filled]
+	1393 [label=1393 color=cyan fillcolor=green shape=square style=filled]
+	1394 [label=1394 color=cyan fillcolor=green shape=square style=filled]
+	1395 [label=1395 color=cyan fillcolor=green shape=square style=filled]
+	1396 [label=1396 color=cyan fillcolor=green shape=square style=filled]
+	1397 [label=1397 color=cyan fillcolor=green shape=square style=filled]
+	1398 [label=1398 color=cyan fillcolor=green shape=square style=filled]
+	1399 [label=1399 color=cyan fillcolor=green shape=square style=filled]
+	1400 [label=1400 color=cyan fillcolor=green shape=square style=filled]
+	1401 [label=1401 color=cyan fillcolor=pink shape=circle style=filled]
+	1402 [label=1402 color=cyan fillcolor=blue shape=circle style=filled]
+	1403 [label=1403 color=cyan fillcolor=cyan shape=polygon style=filled]
+	1404 [label=1404 color=cyan fillcolor=cyan shape=square style=filled]
+	1405 [label=1405 color=cyan fillcolor=green shape=square style=filled]
+	1406 [label=1406 color=cyan fillcolor=grey shape=square style=filled]
+	1407 [label=1407 color=cyan fillcolor=green shape=square style=filled]
+	1408 [label=1408 color=cyan fillcolor=cyan shape=square style=filled]
+	1409 [label=1409 color=cyan fillcolor=green shape=square style=filled]
+	1410 [label=1410 color=cyan fillcolor=grey shape=square style=filled]
+	1411 [label=1411 color=cyan fillcolor=grey shape=circle style=filled]
+	1412 [label=1412 color=cyan fillcolor=grey shape=square style=filled]
+	1413 [label=1413 color=cyan fillcolor=green shape=square style=filled]
+	1414 [label=1414 color=cyan fillcolor=green shape=square style=filled]
+	1415 [label=1415 color=cyan fillcolor=green shape=square style=filled]
+	1416 [label=1416 color=cyan fillcolor=green shape=square style=filled]
+	1417 [label=1417 color=cyan fillcolor=green shape=square style=filled]
+	1418 [label=1418 color=cyan fillcolor=green shape=square style=filled]
+	1419 [label=1419 color=cyan fillcolor=green shape=square style=filled]
+	1420 [label=1420 color=cyan fillcolor=green shape=square style=filled]
+	1421 [label=1421 color=cyan fillcolor=green shape=square style=filled]
+	1422 [label=1422 color=cyan fillcolor=green shape=square style=filled]
+	1423 [label=1423 color=cyan fillcolor=green shape=square style=filled]
+	1424 [label=1424 color=cyan fillcolor=green shape=square style=filled]
+	1425 [label=1425 color=cyan fillcolor=green shape=square style=filled]
+	1426 [label=1426 color=cyan fillcolor=grey shape=square style=filled]
+	1427 [label=1427 color=cyan fillcolor=grey shape=square style=filled]
+	1428 [label=1428 color=cyan fillcolor=grey shape=triangle style=filled]
+	1429 [label=1429 color=cyan fillcolor=cyan shape=square style=filled]
+	1430 [label=1430 color=cyan fillcolor=purple shape=square style=filled]
+	1431 [label=1431 color=cyan fillcolor=red shape=square style=filled]
+	1432 [label=1432 color=cyan fillcolor=grey shape=square style=filled]
+	1433 [label=1433 color=cyan fillcolor=grey shape=square style=filled]
+	1434 [label=1434 color=cyan fillcolor=green shape=square style=filled]
+	1435 [label=1435 color=cyan fillcolor=grey shape=square style=filled]
+	1436 [label=1436 color=cyan fillcolor=green shape=square style=filled]
+	1437 [label=1437 color=cyan fillcolor=green shape=square style=filled]
+	1438 [label=1438 color=cyan fillcolor=green shape=square style=filled]
+	1439 [label=1439 color=cyan fillcolor=green shape=square style=filled]
+	1440 [label=1440 color=cyan fillcolor=green shape=square style=filled]
+	1441 [label=1441 color=cyan fillcolor=green shape=square style=filled]
+	1442 [label=1442 color=cyan fillcolor=green shape=square style=filled]
+	1443 [label=1443 color=cyan fillcolor=green shape=square style=filled]
+	1444 [label=1444 color=cyan fillcolor=green shape=square style=filled]
+	1445 [label=1445 color=cyan fillcolor=green shape=square style=filled]
+	1446 [label=1446 color=cyan fillcolor=cyan shape=square style=filled]
+	1447 [label=1447 color=cyan fillcolor=blue shape=square style=filled]
+	1448 [label=1448 color=cyan fillcolor=grey shape=square style=filled]
+	1449 [label=1449 color=cyan fillcolor=grey shape=square style=filled]
+	1450 [label=1450 color=cyan fillcolor=purple shape=triangle style=filled]
+	1451 [label=1451 color=cyan fillcolor=grey shape=square style=filled]
+	1452 [label=1452 color=cyan fillcolor=grey shape=square style=filled]
+	1453 [label=1453 color=cyan fillcolor=purple shape=square style=filled]
+	1454 [label=1454 color=cyan fillcolor=purple shape=square style=filled]
+	1455 [label=1455 color=cyan fillcolor=green shape=square style=filled]
+	1456 [label=1456 color=cyan fillcolor=green shape=square style=filled]
+	1457 [label=1457 color=cyan fillcolor=green shape=square style=filled]
+	1458 [label=1458 color=cyan fillcolor=green shape=square style=filled]
+	1459 [label=1459 color=cyan fillcolor=green shape=square style=filled]
+	1460 [label=1460 color=cyan fillcolor=green shape=square style=filled]
+	1461 [label=1461 color=cyan fillcolor=green shape=square style=filled]
+	1462 [label=1462 color=cyan fillcolor=green shape=square style=filled]
+	1463 [label=1463 color=cyan fillcolor=grey shape=square style=filled]
+	1464 [label=1464 color=cyan fillcolor=green shape=square style=filled]
+	1465 [label=1465 color=cyan fillcolor=red shape=square style=filled]
+	1466 [label=1466 color=cyan fillcolor=pink shape=circle style=filled]
+	1467 [label=1467 color=cyan fillcolor=cyan shape=square style=filled]
+	1468 [label=1468 color=cyan fillcolor=green shape=triangle style=filled]
+	1469 [label=1469 color=cyan fillcolor=cyan shape=square style=filled]
+	1470 [label=1470 color=cyan fillcolor=green shape=square style=filled]
+	1471 [label=1471 color=cyan fillcolor=green shape=square style=filled]
+	1472 [label=1472 color=cyan fillcolor=green shape=square style=filled]
+	1473 [label=1473 color=cyan fillcolor=green shape=square style=filled]
+	1474 [label=1474 color=cyan fillcolor=green shape=square style=filled]
+	1475 [label=1475 color=cyan fillcolor=green shape=square style=filled]
+	1476 [label=1476 color=cyan fillcolor=green shape=circle style=filled]
+	1477 [label=1477 color=cyan fillcolor=cyan shape=square style=filled]
+	1478 [label=1478 color=cyan fillcolor=red shape=square style=filled]
+	1479 [label=1479 color=cyan fillcolor=cyan shape=square style=filled]
+	1480 [label=1480 color=cyan fillcolor=cyan shape=square style=filled]
+	1481 [label=1481 color=cyan fillcolor=green shape=square style=filled]
+	1482 [label=1482 color=cyan fillcolor=green shape=square style=filled]
+	1483 [label=1483 color=cyan fillcolor=green shape=square style=filled]
+	1484 [label=1484 color=cyan fillcolor=green shape=square style=filled]
+	1485 [label=1485 color=cyan fillcolor=blue shape=square style=filled]
+	1486 [label=1486 color=cyan fillcolor=blue shape=square style=filled]
+	1487 [label=1487 color=cyan fillcolor=blue shape=square style=filled]
+	1488 [label=1488 color=cyan fillcolor=green shape=square style=filled]
+	1489 [label=1489 color=cyan fillcolor=green shape=square style=filled]
+	1490 [label=1490 color=cyan fillcolor=blue shape=square style=filled]
+	1491 [label=1491 color=cyan fillcolor=green shape=square style=filled]
+	1492 [label=1492 color=cyan fillcolor=green shape=square style=filled]
+	1493 [label=1493 color=cyan fillcolor=green shape=square style=filled]
+	1494 [label=1494 color=cyan fillcolor=green shape=square style=filled]
+	1495 [label=1495 color=cyan fillcolor=green shape=square style=filled]
+	1496 [label=1496 color=cyan fillcolor=green shape=square style=filled]
+	1497 [label=1497 color=cyan fillcolor=green shape=square style=filled]
+	1498 [label=1498 color=cyan fillcolor=green shape=square style=filled]
+	1499 [label=1499 color=cyan fillcolor=green shape=square style=filled]
+	1500 [label=1500 color=cyan fillcolor=green shape=square style=filled]
+	1501 [label=1501 color=cyan fillcolor=green shape=square style=filled]
+	1502 [label=1502 color=cyan fillcolor=green shape=square style=filled]
+	1503 [label=1503 color=cyan fillcolor=green shape=square style=filled]
+	1504 [label=1504 color=cyan fillcolor=green shape=square style=filled]
+	1505 [label=1505 color=cyan fillcolor=green shape=square style=filled]
+	1506 [label=1506 color=cyan fillcolor=green shape=square style=filled]
+	1507 [label=1507 color=cyan fillcolor=cyan shape=square style=filled]
+	1508 [label=1508 color=cyan fillcolor=blue shape=triangle style=filled]
+	1509 [label=1509 color=cyan fillcolor=grey shape=square style=filled]
+	1510 [label=1510 color=cyan fillcolor=grey shape=triangle style=filled]
+	1511 [label=1511 color=cyan fillcolor=pink shape=square style=filled]
+	1512 [label=1512 color=cyan fillcolor=grey shape=square style=filled]
+	1513 [label=1513 color=cyan fillcolor=cyan shape=square style=filled]
+	1514 [label=1514 color=cyan fillcolor=grey shape=square style=filled]
+	1515 [label=1515 color=cyan fillcolor=green shape=square style=filled]
+	1516 [label=1516 color=cyan fillcolor=grey shape=square style=filled]
+	1517 [label=1517 color=cyan fillcolor=grey shape=square style=filled]
+	1518 [label=1518 color=cyan fillcolor=grey shape=square style=filled]
+	1519 [label=1519 color=cyan fillcolor=grey shape=square style=filled]
+	1520 [label=1520 color=cyan fillcolor=green shape=square style=filled]
+	1521 [label=1521 color=cyan fillcolor=green shape=square style=filled]
+	1522 [label=1522 color=cyan fillcolor=green shape=square style=filled]
+	1523 [label=1523 color=cyan fillcolor=green shape=square style=filled]
+	1524 [label=1524 color=cyan fillcolor=green shape=square style=filled]
+	1525 [label=1525 color=cyan fillcolor=green shape=square style=filled]
+	1526 [label=1526 color=cyan fillcolor=green shape=square style=filled]
+	1527 [label=1527 color=cyan fillcolor=green shape=square style=filled]
+	1528 [label=1528 color=cyan fillcolor=green shape=square style=filled]
+	1529 [label=1529 color=cyan fillcolor=green shape=square style=filled]
+	1530 [label=1530 color=cyan fillcolor=green shape=square style=filled]
+	1531 [label=1531 color=cyan fillcolor=green shape=square style=filled]
+	1532 [label=1532 color=cyan fillcolor=green shape=square style=filled]
+	1533 [label=1533 color=cyan fillcolor=green shape=square style=filled]
+	1534 [label=1534 color=cyan fillcolor=grey shape=square style=filled]
+	1535 [label=1535 color=cyan fillcolor=green shape=square style=filled]
+	1536 [label=1536 color=cyan fillcolor=grey shape=square style=filled]
+	1537 [label=1537 color=cyan fillcolor=red shape=square style=filled]
+	1538 [label=1538 color=cyan fillcolor=blue shape=circle style=filled]
+	1539 [label=1539 color=cyan fillcolor=red shape=square style=filled]
+	1540 [label=1540 color=cyan fillcolor=purple shape=square style=filled]
+	1541 [label=1541 color=cyan fillcolor=red shape=square style=filled]
+	1542 [label=1542 color=cyan fillcolor=grey shape=square style=filled]
+	1543 [label=1543 color=cyan fillcolor=green shape=square style=filled]
+	1544 [label=1544 color=cyan fillcolor=grey shape=square style=filled]
+	1545 [label=1545 color=cyan fillcolor=green shape=square style=filled]
+	1546 [label=1546 color=cyan fillcolor=green shape=square style=filled]
+	1547 [label=1547 color=cyan fillcolor=green shape=square style=filled]
+	1548 [label=1548 color=cyan fillcolor=green shape=square style=filled]
+	1549 [label=1549 color=cyan fillcolor=green shape=square style=filled]
+	1550 [label=1550 color=cyan fillcolor=green shape=square style=filled]
+	1551 [label=1551 color=cyan fillcolor=green shape=square style=filled]
+	1552 [label=1552 color=cyan fillcolor=green shape=square style=filled]
+	1553 [label=1553 color=cyan fillcolor=green shape=square style=filled]
+	1554 [label=1554 color=cyan fillcolor=green shape=square style=filled]
+	1555 [label=1555 color=cyan fillcolor=green shape=square style=filled]
+	1556 [label=1556 color=cyan fillcolor=cyan shape=square style=filled]
+	1557 [label=1557 color=cyan fillcolor=purple shape=square style=filled]
+	1558 [label=1558 color=cyan fillcolor=purple shape=square style=filled]
+	1559 [label=1559 color=cyan fillcolor=cyan shape=triangle style=filled]
+	1560 [label=1560 color=cyan fillcolor=red shape=square style=filled]
+	1561 [label=1561 color=cyan fillcolor=pink shape=circle style=filled]
+	1562 [label=1562 color=cyan fillcolor=red shape=square style=filled]
+	1563 [label=1563 color=cyan fillcolor=blue shape=circle style=filled]
+	1564 [label=1564 color=cyan fillcolor=cyan shape=square style=filled]
+	1565 [label=1565 color=cyan fillcolor=cyan shape=square style=filled]
+	1566 [label=1566 color=cyan fillcolor=green shape=square style=filled]
+	1567 [label=1567 color=cyan fillcolor=green shape=square style=filled]
+	1568 [label=1568 color=cyan fillcolor=green shape=square style=filled]
+	1569 [label=1569 color=cyan fillcolor=green shape=square style=filled]
+	1570 [label=1570 color=cyan fillcolor=green shape=square style=filled]
+	1571 [label=1571 color=cyan fillcolor=green shape=square style=filled]
+	1572 [label=1572 color=cyan fillcolor=green shape=square style=filled]
+	1573 [label=1573 color=cyan fillcolor=green shape=square style=filled]
+	1574 [label=1574 color=cyan fillcolor=green shape=square style=filled]
+	1575 [label=1575 color=cyan fillcolor=grey shape=square style=filled]
+	1576 [label=1576 color=cyan fillcolor=purple shape=square style=filled]
+	1577 [label=1577 color=cyan fillcolor=blue shape=square style=filled]
+	1578 [label=1578 color=cyan fillcolor=cyan shape=square style=filled]
+	1579 [label=1579 color=cyan fillcolor=red shape=circle style=filled]
+	1580 [label=1580 color=cyan fillcolor=cyan shape=circle style=filled]
+	1581 [label=1581 color=cyan fillcolor=cyan shape=square style=filled]
+	1582 [label=1582 color=cyan fillcolor=blue shape=triangle style=filled]
+	1583 [label=1583 color=cyan fillcolor=green shape=square style=filled]
+	1584 [label=1584 color=cyan fillcolor=green shape=square style=filled]
+	1585 [label=1585 color=cyan fillcolor=green shape=square style=filled]
+	1586 [label=1586 color=cyan fillcolor=green shape=square style=filled]
+	1587 [label=1587 color=cyan fillcolor=green shape=square style=filled]
+	1588 [label=1588 color=cyan fillcolor=green shape=square style=filled]
+	1589 [label=1589 color=cyan fillcolor=green shape=square style=filled]
+	1590 [label=1590 color=cyan fillcolor=red shape=star style=filled]
+	1591 [label=1591 color=cyan fillcolor=green shape=square style=filled]
+	1592 [label=1592 color=cyan fillcolor=cyan shape=circle style=filled]
+	1593 [label=1593 color=cyan fillcolor=grey shape=circle style=filled]
+	1594 [label=1594 color=cyan fillcolor=pink shape=square style=filled]
+	1595 [label=1595 color=cyan fillcolor=grey shape=square style=filled]
+	1596 [label=1596 color=cyan fillcolor=green shape=square style=filled]
+	1597 [label=1597 color=cyan fillcolor=green shape=square style=filled]
+	1598 [label=1598 color=cyan fillcolor=green shape=square style=filled]
+	1599 [label=1599 color=cyan fillcolor=green shape=square style=filled]
+	1600 [label=1600 color=cyan fillcolor=green shape=square style=filled]
+	1601 [label=1601 color=cyan fillcolor=cyan shape=square style=filled]
+	1602 [label=1602 color=cyan fillcolor=green shape=star style=filled]
+	1603 [label=1603 color=cyan fillcolor=cyan shape=square style=filled]
+	1604 [label=1604 color=cyan fillcolor=green shape=triangle style=filled]
+	1605 [label=1605 color=cyan fillcolor=green shape=square style=filled]
+	1606 [label=1606 color=cyan fillcolor=green shape=square style=filled]
+	1607 [label=1607 color=cyan fillcolor=green shape=square style=filled]
+	1608 [label=1608 color=cyan fillcolor=blue shape=square style=filled]
+	1609 [label=1609 color=cyan fillcolor=cyan shape=circle style=filled]
+	1610 [label=1610 color=cyan fillcolor=green shape=square style=filled]
+	1611 [label=1611 color=cyan fillcolor=cyan shape=triangle style=filled]
+	1612 [label=1612 color=cyan fillcolor=green shape=polygon style=filled]
+	1613 [label=1613 color=cyan fillcolor=grey shape=circle style=filled]
+	1614 [label=1614 color=cyan fillcolor=green shape=square style=filled]
+	1615 [label=1615 color=cyan fillcolor=grey shape=square style=filled]
+	1616 [label=1616 color=cyan fillcolor=blue shape=square style=filled]
+	1617 [label=1617 color=cyan fillcolor=grey shape=square style=filled]
+	1618 [label=1618 color=cyan fillcolor=grey shape=square style=filled]
+	1619 [label=1619 color=cyan fillcolor=cyan shape=star style=filled]
+	1620 [label=1620 color=cyan fillcolor=red shape=trapezium style=filled]
+	1621 [label=1621 color=cyan fillcolor=purple shape=square style=filled]
+	1622 [label=1622 color=cyan fillcolor=purple shape=square style=filled]
+	1623 [label=1623 color=cyan fillcolor=green shape=square style=filled]
+	1624 [label=1624 color=cyan fillcolor=green shape=square style=filled]
+	1625 [label=1625 color=cyan fillcolor=grey shape=square style=filled]
+	1626 [label=1626 color=cyan fillcolor=grey shape=square style=filled]
+	1627 [label=1627 color=cyan fillcolor=grey shape=square style=filled]
+	1628 [label=1628 color=cyan fillcolor=grey shape=square style=filled]
+	1629 [label=1629 color=cyan fillcolor=grey shape=square style=filled]
+	1630 [label=1630 color=cyan fillcolor=green shape=square style=filled]
+	1631 [label=1631 color=cyan fillcolor=grey shape=square style=filled]
+	1632 [label=1632 color=cyan fillcolor=green shape=square style=filled]
+	1633 [label=1633 color=cyan fillcolor=green shape=square style=filled]
+	1634 [label=1634 color=cyan fillcolor=green shape=square style=filled]
+	1635 [label=1635 color=cyan fillcolor=green shape=square style=filled]
+	1636 [label=1636 color=cyan fillcolor=green shape=square style=filled]
+	1637 [label=1637 color=cyan fillcolor=green shape=square style=filled]
+	1638 [label=1638 color=cyan fillcolor=green shape=square style=filled]
+	1639 [label=1639 color=cyan fillcolor=green shape=square style=filled]
+	1640 [label=1640 color=cyan fillcolor=green shape=square style=filled]
+	1641 [label=1641 color=cyan fillcolor=green shape=square style=filled]
+	1642 [label=1642 color=cyan fillcolor=green shape=square style=filled]
+	1643 [label=1643 color=cyan fillcolor=green shape=square style=filled]
+	1644 [label=1644 color=cyan fillcolor=green shape=square style=filled]
+	1645 [label=1645 color=cyan fillcolor=green shape=square style=filled]
+	1646 [label=1646 color=cyan fillcolor=red shape=square style=filled]
+	1647 [label=1647 color=cyan fillcolor=grey shape=square style=filled]
+	1648 [label=1648 color=cyan fillcolor=red shape=circle style=filled]
+	1649 [label=1649 color=cyan fillcolor=red shape=square style=filled]
+	1650 [label=1650 color=cyan fillcolor=grey shape=square style=filled]
+	1651 [label=1651 color=cyan fillcolor=grey shape=square style=filled]
+	1652 [label=1652 color=cyan fillcolor=purple shape=square style=filled]
+	1653 [label=1653 color=cyan fillcolor=purple shape=square style=filled]
+	1654 [label=1654 color=cyan fillcolor=grey shape=square style=filled]
+	1655 [label=1655 color=cyan fillcolor=grey shape=square style=filled]
+	1656 [label=1656 color=cyan fillcolor=grey shape=square style=filled]
+	1657 [label=1657 color=cyan fillcolor=grey shape=square style=filled]
+	1658 [label=1658 color=cyan fillcolor=grey shape=square style=filled]
+	1659 [label=1659 color=cyan fillcolor=green shape=square style=filled]
+	1660 [label=1660 color=cyan fillcolor=green shape=square style=filled]
+	1661 [label=1661 color=cyan fillcolor=green shape=square style=filled]
+	1662 [label=1662 color=cyan fillcolor=green shape=square style=filled]
+	1663 [label=1663 color=cyan fillcolor=green shape=square style=filled]
+	1664 [label=1664 color=cyan fillcolor=green shape=square style=filled]
+	1665 [label=1665 color=cyan fillcolor=green shape=square style=filled]
+	1666 [label=1666 color=cyan fillcolor=green shape=square style=filled]
+	1667 [label=1667 color=cyan fillcolor=green shape=square style=filled]
+	1668 [label=1668 color=cyan fillcolor=green shape=square style=filled]
+	1669 [label=1669 color=cyan fillcolor=green shape=square style=filled]
+	1670 [label=1670 color=cyan fillcolor=green shape=square style=filled]
+	1671 [label=1671 color=cyan fillcolor=green shape=square style=filled]
+	1672 [label=1672 color=cyan fillcolor=blue shape=square style=filled]
+	1673 [label=1673 color=cyan fillcolor=purple shape=square style=filled]
+	1674 [label=1674 color=cyan fillcolor=grey shape=square style=filled]
+	1675 [label=1675 color=cyan fillcolor=grey shape=square style=filled]
+	1676 [label=1676 color=cyan fillcolor=grey shape=circle style=filled]
+	1677 [label=1677 color=cyan fillcolor=grey shape=square style=filled]
+	1678 [label=1678 color=cyan fillcolor=purple shape=square style=filled]
+	1679 [label=1679 color=cyan fillcolor=grey shape=square style=filled]
+	1680 [label=1680 color=cyan fillcolor=cyan shape=square style=filled]
+	1681 [label=1681 color=cyan fillcolor=purple shape=square style=filled]
+	1682 [label=1682 color=cyan fillcolor=green shape=square style=filled]
+	1683 [label=1683 color=cyan fillcolor=green shape=square style=filled]
+	1684 [label=1684 color=cyan fillcolor=green shape=square style=filled]
+	1685 [label=1685 color=cyan fillcolor=green shape=square style=filled]
+	1686 [label=1686 color=cyan fillcolor=green shape=square style=filled]
+	1687 [label=1687 color=cyan fillcolor=green shape=square style=filled]
+	1688 [label=1688 color=cyan fillcolor=green shape=square style=filled]
+	1689 [label=1689 color=cyan fillcolor=green shape=square style=filled]
+	1690 [label=1690 color=cyan fillcolor=green shape=square style=filled]
+	1691 [label=1691 color=cyan fillcolor=green shape=square style=filled]
+	1692 [label=1692 color=cyan fillcolor=cyan shape=square style=filled]
+	1693 [label=1693 color=cyan fillcolor=green shape=square style=filled]
+	1694 [label=1694 color=cyan fillcolor=grey shape=square style=filled]
+	1695 [label=1695 color=cyan fillcolor=red shape=square style=filled]
+	1696 [label=1696 color=cyan fillcolor=grey shape=square style=filled]
+	1697 [label=1697 color=cyan fillcolor=green shape=square style=filled]
+	1698 [label=1698 color=cyan fillcolor=grey shape=square style=filled]
+	1699 [label=1699 color=cyan fillcolor=grey shape=square style=filled]
+	1700 [label=1700 color=cyan fillcolor=purple shape=square style=filled]
+	1701 [label=1701 color=cyan fillcolor=green shape=square style=filled]
+	1702 [label=1702 color=cyan fillcolor=green shape=square style=filled]
+	1703 [label=1703 color=cyan fillcolor=green shape=square style=filled]
+	1704 [label=1704 color=cyan fillcolor=green shape=square style=filled]
+	1705 [label=1705 color=cyan fillcolor=green shape=square style=filled]
+	1706 [label=1706 color=cyan fillcolor=green shape=square style=filled]
+	1707 [label=1707 color=cyan fillcolor=green shape=square style=filled]
+	1708 [label=1708 color=cyan fillcolor=green shape=square style=filled]
+	1709 [label=1709 color=cyan fillcolor=blue shape=square style=filled]
+	1710 [label=1710 color=cyan fillcolor=grey shape=triangle style=filled]
+	1711 [label=1711 color=cyan fillcolor=cyan shape=square style=filled]
+	1712 [label=1712 color=cyan fillcolor=pink shape=circle style=filled]
+	1713 [label=1713 color=cyan fillcolor=cyan shape=triangle style=filled]
+	1714 [label=1714 color=cyan fillcolor=purple shape=square style=filled]
+	1715 [label=1715 color=cyan fillcolor=grey shape=square style=filled]
+	1716 [label=1716 color=cyan fillcolor=green shape=square style=filled]
+	1717 [label=1717 color=cyan fillcolor=green shape=square style=filled]
+	1718 [label=1718 color=cyan fillcolor=green shape=square style=filled]
+	1719 [label=1719 color=cyan fillcolor=green shape=square style=filled]
+	1720 [label=1720 color=cyan fillcolor=green shape=square style=filled]
+	1721 [label=1721 color=cyan fillcolor=green shape=square style=filled]
+	1722 [label=1722 color=cyan fillcolor=cyan shape=square style=filled]
+	1723 [label=1723 color=cyan fillcolor=cyan shape=square style=filled]
+	1724 [label=1724 color=cyan fillcolor=cyan shape=square style=filled]
+	1725 [label=1725 color=cyan fillcolor=cyan shape=square style=filled]
+	1726 [label=1726 color=cyan fillcolor=grey shape=triangle style=filled]
+	1727 [label=1727 color=cyan fillcolor=green shape=square style=filled]
+	1728 [label=1728 color=cyan fillcolor=green shape=square style=filled]
+	1729 [label=1729 color=cyan fillcolor=green shape=square style=filled]
+	1730 [label=1730 color=cyan fillcolor=green shape=square style=filled]
+	1731 [label=1731 color=cyan fillcolor=cyan shape=star style=filled]
+	1732 [label=1732 color=cyan fillcolor=cyan shape=square style=filled]
+	1733 [label=1733 color=cyan fillcolor=blue shape=square style=filled]
+	1734 [label=1734 color=cyan fillcolor=green shape=square style=filled]
+	1735 [label=1735 color=cyan fillcolor=green shape=square style=filled]
+	1736 [label=1736 color=cyan fillcolor=pink shape=circle style=filled]
+	1737 [label=1737 color=cyan fillcolor=green shape=square style=filled]
+	1738 [label=1738 color=cyan fillcolor=green shape=square style=filled]
+	1739 [label=1739 color=cyan fillcolor=green shape=square style=filled]
+	1740 [label=1740 color=cyan fillcolor=green shape=square style=filled]
+	1741 [label=1741 color=cyan fillcolor=green shape=square style=filled]
+	1742 [label=1742 color=cyan fillcolor=green shape=square style=filled]
+	1743 [label=1743 color=cyan fillcolor=green shape=square style=filled]
+	1744 [label=1744 color=cyan fillcolor=green shape=square style=filled]
+	1745 [label=1745 color=cyan fillcolor=green shape=square style=filled]
+	1746 [label=1746 color=cyan fillcolor=green shape=square style=filled]
+	1747 [label=1747 color=cyan fillcolor=green shape=square style=filled]
+	1748 [label=1748 color=cyan fillcolor=green shape=square style=filled]
+	1749 [label=1749 color=cyan fillcolor=green shape=square style=filled]
+	1750 [label=1750 color=cyan fillcolor=green shape=square style=filled]
+	1751 [label=1751 color=cyan fillcolor=green shape=square style=filled]
+	1752 [label=1752 color=cyan fillcolor=blue shape=triangle style=filled]
+	1753 [label=1753 color=cyan fillcolor=pink shape=square style=filled]
+	1754 [label=1754 color=cyan fillcolor=purple shape=square style=filled]
+	1755 [label=1755 color=cyan fillcolor=pink shape=circle style=filled]
+	1756 [label=1756 color=cyan fillcolor=red shape=square style=filled]
+	1757 [label=1757 color=cyan fillcolor=pink shape=circle style=filled]
+	1758 [label=1758 color=cyan fillcolor=green shape=square style=filled]
+	1759 [label=1759 color=cyan fillcolor=grey shape=square style=filled]
+	1760 [label=1760 color=cyan fillcolor=red shape=square style=filled]
+	1761 [label=1761 color=cyan fillcolor=grey shape=square style=filled]
+	1762 [label=1762 color=cyan fillcolor=purple shape=square style=filled]
+	1763 [label=1763 color=cyan fillcolor=grey shape=square style=filled]
+	1764 [label=1764 color=cyan fillcolor=purple shape=square style=filled]
+	1765 [label=1765 color=cyan fillcolor=purple shape=square style=filled]
+	1766 [label=1766 color=cyan fillcolor=green shape=square style=filled]
+	1767 [label=1767 color=cyan fillcolor=green shape=square style=filled]
+	1768 [label=1768 color=cyan fillcolor=green shape=square style=filled]
+	1769 [label=1769 color=cyan fillcolor=green shape=square style=filled]
+	1770 [label=1770 color=cyan fillcolor=green shape=square style=filled]
+	1771 [label=1771 color=cyan fillcolor=green shape=square style=filled]
+	1772 [label=1772 color=cyan fillcolor=green shape=square style=filled]
+	1773 [label=1773 color=cyan fillcolor=green shape=square style=filled]
+	1774 [label=1774 color=cyan fillcolor=green shape=square style=filled]
+	1775 [label=1775 color=cyan fillcolor=green shape=square style=filled]
+	1776 [label=1776 color=cyan fillcolor=green shape=square style=filled]
+	1777 [label=1777 color=cyan fillcolor=green shape=square style=filled]
+	1778 [label=1778 color=cyan fillcolor=green shape=square style=filled]
+	1779 [label=1779 color=cyan fillcolor=blue shape=square style=filled]
+	1780 [label=1780 color=cyan fillcolor=pink shape=square style=filled]
+	1781 [label=1781 color=cyan fillcolor=grey shape=triangle style=filled]
+	1782 [label=1782 color=cyan fillcolor=blue shape=circle style=filled]
+	1783 [label=1783 color=cyan fillcolor=pink shape=circle style=filled]
+	1784 [label=1784 color=cyan fillcolor=red shape=circle style=filled]
+	1785 [label=1785 color=cyan fillcolor=grey shape=square style=filled]
+	1786 [label=1786 color=cyan fillcolor=grey shape=square style=filled]
+	1787 [label=1787 color=cyan fillcolor=grey shape=square style=filled]
+	1788 [label=1788 color=cyan fillcolor=grey shape=square style=filled]
+	1789 [label=1789 color=cyan fillcolor=green shape=square style=filled]
+	1790 [label=1790 color=cyan fillcolor=grey shape=square style=filled]
+	1791 [label=1791 color=cyan fillcolor=green shape=square style=filled]
+	1792 [label=1792 color=cyan fillcolor=green shape=square style=filled]
+	1793 [label=1793 color=cyan fillcolor=green shape=square style=filled]
+	1794 [label=1794 color=cyan fillcolor=green shape=square style=filled]
+	1795 [label=1795 color=cyan fillcolor=green shape=square style=filled]
+	1796 [label=1796 color=cyan fillcolor=green shape=square style=filled]
+	1797 [label=1797 color=cyan fillcolor=green shape=square style=filled]
+	1798 [label=1798 color=cyan fillcolor=green shape=square style=filled]
+	1799 [label=1799 color=cyan fillcolor=green shape=square style=filled]
+	1800 [label=1800 color=cyan fillcolor=green shape=square style=filled]
+	1801 [label=1801 color=cyan fillcolor=green shape=square style=filled]
+	1802 [label=1802 color=cyan fillcolor=purple shape=square style=filled]
+	1803 [label=1803 color=cyan fillcolor=grey shape=circle style=filled]
+	1804 [label=1804 color=cyan fillcolor=grey shape=triangle style=filled]
+	1805 [label=1805 color=cyan fillcolor=purple shape=circle style=filled]
+	1806 [label=1806 color=cyan fillcolor=cyan shape=square style=filled]
+	1807 [label=1807 color=cyan fillcolor=green shape=circle style=filled]
+	1808 [label=1808 color=cyan fillcolor=grey shape=square style=filled]
+	1809 [label=1809 color=cyan fillcolor=grey shape=square style=filled]
+	1810 [label=1810 color=cyan fillcolor=grey shape=square style=filled]
+	1811 [label=1811 color=cyan fillcolor=grey shape=square style=filled]
+	1812 [label=1812 color=cyan fillcolor=green shape=square style=filled]
+	1813 [label=1813 color=cyan fillcolor=green shape=square style=filled]
+	1814 [label=1814 color=cyan fillcolor=green shape=square style=filled]
+	1815 [label=1815 color=cyan fillcolor=green shape=square style=filled]
+	1816 [label=1816 color=cyan fillcolor=green shape=square style=filled]
+	1817 [label=1817 color=cyan fillcolor=green shape=square style=filled]
+	1818 [label=1818 color=cyan fillcolor=green shape=square style=filled]
+	1819 [label=1819 color=cyan fillcolor=green shape=square style=filled]
+	1820 [label=1820 color=cyan fillcolor=green shape=square style=filled]
+	1821 [label=1821 color=cyan fillcolor=purple shape=square style=filled]
+	1822 [label=1822 color=cyan fillcolor=blue shape=star style=filled]
+	1823 [label=1823 color=cyan fillcolor=pink shape=square style=filled]
+	1824 [label=1824 color=cyan fillcolor=pink shape=square style=filled]
+	1825 [label=1825 color=cyan fillcolor=grey shape=square style=filled]
+	1826 [label=1826 color=cyan fillcolor=grey shape=square style=filled]
+	1827 [label=1827 color=cyan fillcolor=grey shape=square style=filled]
+	1828 [label=1828 color=cyan fillcolor=purple shape=square style=filled]
+	1829 [label=1829 color=cyan fillcolor=green shape=square style=filled]
+	1830 [label=1830 color=cyan fillcolor=green shape=square style=filled]
+	1831 [label=1831 color=cyan fillcolor=green shape=square style=filled]
+	1832 [label=1832 color=cyan fillcolor=green shape=square style=filled]
+	1833 [label=1833 color=cyan fillcolor=green shape=square style=filled]
+	1834 [label=1834 color=cyan fillcolor=green shape=square style=filled]
+	1835 [label=1835 color=cyan fillcolor=green shape=square style=filled]
+	1836 [label=1836 color=cyan fillcolor=cyan shape=square style=filled]
+	1837 [label=1837 color=cyan fillcolor=grey shape=square style=filled]
+	1838 [label=1838 color=cyan fillcolor=grey shape=square style=filled]
+	1839 [label=1839 color=cyan fillcolor=grey shape=square style=filled]
+	1840 [label=1840 color=cyan fillcolor=green shape=square style=filled]
+	1841 [label=1841 color=cyan fillcolor=grey shape=square style=filled]
+	1842 [label=1842 color=cyan fillcolor=green shape=square style=filled]
+	1843 [label=1843 color=cyan fillcolor=green shape=square style=filled]
+	1844 [label=1844 color=cyan fillcolor=green shape=square style=filled]
+	1845 [label=1845 color=cyan fillcolor=green shape=square style=filled]
+	1846 [label=1846 color=cyan fillcolor=green shape=square style=filled]
+	1847 [label=1847 color=cyan fillcolor=cyan shape=circle style=filled]
+	1848 [label=1848 color=cyan fillcolor=grey shape=square style=filled]
+	1849 [label=1849 color=cyan fillcolor=pink shape=square style=filled]
+	1850 [label=1850 color=cyan fillcolor=red shape=square style=filled]
+	1851 [label=1851 color=cyan fillcolor=green shape=square style=filled]
+	1852 [label=1852 color=cyan fillcolor=green shape=square style=filled]
+	1853 [label=1853 color=cyan fillcolor=green shape=square style=filled]
+	1854 [label=1854 color=cyan fillcolor=blue shape=square style=filled]
+	1855 [label=1855 color=cyan fillcolor=grey shape=square style=filled]
+	1856 [label=1856 color=cyan fillcolor=green shape=square style=filled]
+	1857 [label=1857 color=cyan fillcolor=blue shape=square style=filled]
+	48 -> 182
+	49 -> 408
+	49 -> 450
+	49 -> 467
+	50 -> 51
+	51 -> 52
+	52 -> 53
+	53 -> 282
+	54 -> 48
+	55 -> 56
+	56 -> 57
+	57 -> 89
+	58 -> 59
+	59 -> 82
+	59 -> 194
+	60 -> 61
+	61 -> 62
+	62 -> 63
+	62 -> 225
+	63 -> 64
+	63 -> 97
+	64 -> 112
+	64 -> 247
+	65 -> 131
+	66 -> 50
+	67 -> 68
+	67 -> 245
+	67 -> 248
+	68 -> 69
+	69 -> 70
+	70 -> 71
+	71 -> 72
+	72 -> 73
+	73 -> 85
+	74 -> 75
+	75 -> 76
+	76 -> 115
+	77 -> 78
+	78 -> 79
+	79 -> 80
+	80 -> 81
+	81 -> 58
+	81 -> 211
+	82 -> 62
+	82 -> 119
+	83 -> 84
+	84 -> 67
+	85 -> 55
+	85 -> 251
+	86 -> 65
+	87 -> 83
+	88 -> 68
+	89 -> 90
+	89 -> 142
+	89 -> 195
+	90 -> 91
+	90 -> 153
+	91 -> 92
+	91 -> 296
+	92 -> 48
+	93 -> 124
+	94 -> 95
+	95 -> 96
+	96 -> 252
+	97 -> 98
+	97 -> 270
+	98 -> 99
+	98 -> 127
+	98 -> 227
+	98 -> 267
+	99 -> 100
+	99 -> 274
+	100 -> 101
+	100 -> 123
+	101 -> 221
+	102 -> 103
+	103 -> 48
+	104 -> 105
+	105 -> 106
+	106 -> 107
+	107 -> 177
+	108 -> 77
+	109 -> 110
+	110 -> 106
+	111 -> 109
+	112 -> 113
+	113 -> 114
+	114 -> 48
+	115 -> 48
+	115 -> 550
+	116 -> 117
+	117 -> 118
+	118 -> 48
+	119 -> 120
+	120 -> 121
+	121 -> 48
+	122 -> 58
+	123 -> 233
+	124 -> 125
+	125 -> 126
+	126 -> 48
+	127 -> 48
+	128 -> 129
+	129 -> 107
+	130 -> 131
+	131 -> 132
+	132 -> 133
+	133 -> 134
+	134 -> 135
+	135 -> 136
+	136 -> 137
+	136 -> 255
+	137 -> 138
+	138 -> 139
+	139 -> 140
+	140 -> 141
+	140 -> 299
+	141 -> 143
+	142 -> 48
+	143 -> 283
+	144 -> 48
+	145 -> 146
+	146 -> 147
+	147 -> 148
+	148 -> 84
+	149 -> 106
+	150 -> 129
+	151 -> 152
+	152 -> 87
+	153 -> 48
+	154 -> 155
+	155 -> 156
+	156 -> 192
+	157 -> 48
+	158 -> 159
+	159 -> 160
+	160 -> 48
+	161 -> 162
+	162 -> 163
+	163 -> 48
+	164 -> 165
+	165 -> 166
+	166 -> 48
+	167 -> 168
+	168 -> 169
+	169 -> 48
+	170 -> 171
+	171 -> 172
+	172 -> 48
+	172 -> 170
+	172 -> 173
+	172 -> 550
+	173 -> 174
+	174 -> 54
+	174 -> 175
+	175 -> 48
+	176 -> 107
+	177 -> 48
+	177 -> 550
+	178 -> 179
+	179 -> 180
+	180 -> 48
+	181 -> 58
+	182 -> 183
+	183 -> 184
+	184 -> 48
+	185 -> 95
+	186 -> 187
+	187 -> 188
+	188 -> 48
+	189 -> 190
+	190 -> 191
+	190 -> 228
+	191 -> 48
+	191 -> 1370
+	192 -> 48
+	193 -> 58
+	194 -> 48
+	195 -> 48
+	196 -> 197
+	197 -> 198
+	198 -> 199
+	199 -> 550
+	200 -> 55
+	201 -> 73
+	202 -> 203
+	203 -> 287
+	204 -> 205
+	205 -> 206
+	206 -> 207
+	207 -> 232
+	208 -> 209
+	209 -> 210
+	210 -> 211
+	211 -> 231
+	212 -> 189
+	213 -> 214
+	214 -> 215
+	215 -> 216
+	216 -> 550
+	217 -> 201
+	218 -> 219
+	219 -> 239
+	219 -> 250
+	220 -> 99
+	221 -> 48
+	221 -> 550
+	222 -> 223
+	223 -> 224
+	224 -> 238
+	225 -> 48
+	226 -> 63
+	227 -> 48
+	228 -> 229
+	229 -> 48
+	229 -> 1370
+	230 -> 196
+	231 -> 550
+	231 -> 1222
+	231 -> 1370
+	232 -> 48
+	233 -> 234
+	233 -> 266
+	234 -> 48
+	235 -> 236
+	236 -> 237
+	237 -> 58
+	238 -> 48
+	239 -> 48
+	239 -> 1370
+	240 -> 138
+	241 -> 48
+	241 -> 1370
+	242 -> 243
+	243 -> 244
+	244 -> 155
+	245 -> 246
+	246 -> 48
+	246 -> 550
+	247 -> 284
+	248 -> 48
+	248 -> 550
+	249 -> 212
+	250 -> 48
+	250 -> 1276
+	251 -> 48
+	251 -> 550
+	252 -> 253
+	253 -> 254
+	254 -> 275
+	255 -> 256
+	256 -> 138
+	257 -> 258
+	258 -> 59
+	259 -> 260
+	260 -> 261
+	261 -> 106
+	262 -> 263
+	263 -> 264
+	264 -> 106
+	265 -> 257
+	266 -> 48
+	266 -> 1370
+	267 -> 268
+	268 -> 269
+	269 -> 48
+	270 -> 48
+	270 -> 550
+	271 -> 60
+	272 -> 59
+	273 -> 82
+	274 -> 48
+	275 -> 276
+	276 -> 106
+	277 -> 278
+	278 -> 58
+	279 -> 280
+	280 -> 135
+	281 -> 86
+	282 -> 70
+	283 -> 280
+	284 -> 48
+	285 -> 286
+	286 -> 218
+	287 -> 288
+	288 -> 289
+	289 -> 290
+	290 -> 291
+	291 -> 1222
+	291 -> 1276
+	291 -> 1370
+	292 -> 242
+	293 -> 165
+	294 -> 79
+	295 -> 77
+	296 -> 297
+	297 -> 298
+	298 -> 48
+	299 -> 280
+	300 -> 301
+	301 -> 302
+	302 -> 303
+	303 -> 532
+	304 -> 1614
+	305 -> 306
+	306 -> 307
+	307 -> 339
+	307 -> 407
+	308 -> 309
+	309 -> 310
+	309 -> 332
+	309 -> 444
+	310 -> 311
+	311 -> 312
+	312 -> 313
+	312 -> 475
+	313 -> 314
+	313 -> 347
+	314 -> 362
+	314 -> 497
+	315 -> 381
+	316 -> 300
+	317 -> 495
+	317 -> 498
+	318 -> 319
+	319 -> 320
+	320 -> 321
+	321 -> 322
+	322 -> 323
+	323 -> 335
+	324 -> 325
+	325 -> 326
+	326 -> 365
+	327 -> 328
+	328 -> 329
+	329 -> 330
+	330 -> 331
+	331 -> 358
+	331 -> 461
+	332 -> 312
+	332 -> 369
+	333 -> 334
+	334 -> 317
+	335 -> 305
+	335 -> 501
+	336 -> 315
+	337 -> 333
+	338 -> 318
+	339 -> 340
+	339 -> 392
+	339 -> 445
+	340 -> 341
+	340 -> 403
+	341 -> 342
+	342 -> 49
+	343 -> 374
+	344 -> 345
+	345 -> 346
+	346 -> 502
+	347 -> 348
+	347 -> 366
+	348 -> 349
+	348 -> 377
+	348 -> 477
+	349 -> 350
+	349 -> 491
+	350 -> 351
+	350 -> 373
+	351 -> 471
+	352 -> 353
+	353 -> 49
+	353 -> 1614
+	354 -> 355
+	355 -> 356
+	356 -> 357
+	357 -> 427
+	358 -> 327
+	359 -> 360
+	360 -> 356
+	361 -> 359
+	362 -> 363
+	363 -> 364
+	364 -> 49
+	365 -> 49
+	366 -> 367
+	367 -> 368
+	368 -> 49
+	369 -> 370
+	370 -> 371
+	371 -> 1175
+	372 -> 308
+	373 -> 483
+	374 -> 375
+	375 -> 376
+	376 -> 787
+	377 -> 49
+	377 -> 1249
+	377 -> 1614
+	378 -> 379
+	379 -> 357
+	380 -> 381
+	381 -> 382
+	382 -> 383
+	383 -> 384
+	384 -> 385
+	385 -> 386
+	386 -> 387
+	386 -> 505
+	387 -> 388
+	388 -> 389
+	389 -> 390
+	390 -> 391
+	390 -> 549
+	391 -> 393
+	392 -> 49
+	393 -> 394
+	393 -> 533
+	394 -> 49
+	394 -> 1323
+	395 -> 396
+	396 -> 397
+	397 -> 398
+	398 -> 334
+	399 -> 356
+	400 -> 379
+	401 -> 402
+	402 -> 337
+	403 -> 49
+	404 -> 405
+	405 -> 406
+	406 -> 442
+	407 -> 49
+	408 -> 409
+	409 -> 410
+	410 -> 49
+	411 -> 412
+	412 -> 413
+	413 -> 49
+	414 -> 415
+	415 -> 416
+	416 -> 787
+	416 -> 1614
+	417 -> 418
+	418 -> 419
+	419 -> 49
+	420 -> 421
+	421 -> 422
+	422 -> 49
+	422 -> 787
+	423 -> 424
+	424 -> 425
+	425 -> 1249
+	426 -> 357
+	427 -> 49
+	427 -> 787
+	427 -> 1614
+	428 -> 429
+	429 -> 430
+	430 -> 49
+	431 -> 308
+	432 -> 433
+	433 -> 434
+	434 -> 49
+	434 -> 1614
+	435 -> 345
+	436 -> 437
+	437 -> 438
+	438 -> 787
+	439 -> 440
+	440 -> 468
+	441 -> 49
+	442 -> 49
+	443 -> 308
+	444 -> 49
+	444 -> 1614
+	445 -> 49
+	445 -> 1249
+	446 -> 447
+	447 -> 448
+	448 -> 449
+	449 -> 787
+	450 -> 305
+	451 -> 323
+	452 -> 453
+	453 -> 537
+	454 -> 455
+	455 -> 456
+	456 -> 457
+	457 -> 482
+	458 -> 459
+	459 -> 460
+	460 -> 461
+	461 -> 481
+	462 -> 439
+	463 -> 464
+	464 -> 465
+	465 -> 466
+	466 -> 49
+	466 -> 787
+	467 -> 451
+	468 -> 469
+	469 -> 489
+	470 -> 349
+	471 -> 49
+	471 -> 1614
+	472 -> 473
+	473 -> 474
+	474 -> 488
+	475 -> 49
+	475 -> 787
+	475 -> 1249
+	475 -> 1614
+	476 -> 313
+	477 -> 49
+	478 -> 479
+	479 -> 1614
+	480 -> 446
+	481 -> 787
+	482 -> 787
+	482 -> 1175
+	483 -> 484
+	484 -> 49
+	485 -> 486
+	486 -> 487
+	487 -> 308
+	488 -> 787
+	489 -> 49
+	489 -> 787
+	490 -> 388
+	491 -> 1076
+	491 -> 1614
+	492 -> 493
+	493 -> 494
+	494 -> 405
+	495 -> 496
+	496 -> 787
+	497 -> 534
+	498 -> 49
+	498 -> 787
+	499 -> 462
+	500 -> 49
+	501 -> 787
+	502 -> 503
+	503 -> 504
+	504 -> 525
+	505 -> 506
+	506 -> 388
+	507 -> 508
+	508 -> 309
+	509 -> 510
+	510 -> 511
+	511 -> 356
+	512 -> 513
+	513 -> 514
+	514 -> 356
+	515 -> 507
+	516 -> 1614
+	517 -> 518
+	518 -> 519
+	519 -> 49
+	520 -> 49
+	520 -> 1614
+	521 -> 310
+	522 -> 309
+	523 -> 332
+	524 -> 49
+	524 -> 1323
+	525 -> 526
+	526 -> 356
+	527 -> 528
+	528 -> 308
+	529 -> 530
+	530 -> 385
+	531 -> 336
+	532 -> 320
+	533 -> 787
+	533 -> 1175
+	534 -> 49
+	535 -> 536
+	536 -> 452
+	536 -> 468
+	537 -> 538
+	538 -> 539
+	539 -> 540
+	540 -> 541
+	541 -> 49
+	541 -> 787
+	541 -> 1249
+	542 -> 492
+	543 -> 415
+	544 -> 329
+	545 -> 327
+	546 -> 547
+	547 -> 548
+	548 -> 49
+	548 -> 1323
+	549 -> 49
+	549 -> 787
+	550 -> 556
+	550 -> 557
+	551 -> 552
+	552 -> 553
+	553 -> 576
+	553 -> 577
+	553 -> 579
+	553 -> 580
+	554 -> 555
+	555 -> 777
+	555 -> 778
+	556 -> 557
+	557 -> 558
+	557 -> 561
+	558 -> 559
+	558 -> 562
+	559 -> 551
+	560 -> 563
+	561 -> 564
+	562 -> 551
+	563 -> 564
+	563 -> 565
+	564 -> 551
+	565 -> 551
+	566 -> 567
+	567 -> 568
+	568 -> 569
+	569 -> 570
+	570 -> 571
+	571 -> 572
+	572 -> 573
+	573 -> 574
+	574 -> 575
+	575 -> 576
+	576 -> 577
+	577 -> 578
+	578 -> 579
+	579 -> 580
+	579 -> 599
+	580 -> 581
+	581 -> 582
+	582 -> 583
+	583 -> 584
+	584 -> 585
+	584 -> 604
+	585 -> 554
+	586 -> 605
+	587 -> 606
+	588 -> 607
+	589 -> 608
+	590 -> 609
+	591 -> 610
+	592 -> 611
+	593 -> 612
+	594 -> 613
+	595 -> 614
+	596 -> 615
+	597 -> 616
+	598 -> 617
+	599 -> 618
+	600 -> 619
+	601 -> 620
+	602 -> 621
+	603 -> 622
+	604 -> 554
+	605 -> 606
+	606 -> 607
+	607 -> 608
+	608 -> 609
+	609 -> 610
+	610 -> 611
+	611 -> 612
+	612 -> 613
+	613 -> 614
+	614 -> 615
+	615 -> 616
+	616 -> 617
+	617 -> 618
+	618 -> 619
+	619 -> 620
+	620 -> 621
+	621 -> 622
+	621 -> 639
+	622 -> 554
+	623 -> 640
+	624 -> 641
+	625 -> 642
+	626 -> 643
+	627 -> 644
+	628 -> 645
+	629 -> 646
+	630 -> 647
+	631 -> 648
+	632 -> 649
+	633 -> 650
+	634 -> 651
+	635 -> 652
+	636 -> 653
+	637 -> 654
+	638 -> 655
+	639 -> 554
+	640 -> 641
+	641 -> 642
+	642 -> 643
+	643 -> 644
+	644 -> 645
+	645 -> 646
+	646 -> 647
+	647 -> 648
+	648 -> 649
+	649 -> 650
+	650 -> 651
+	651 -> 652
+	652 -> 653
+	652 -> 668
+	653 -> 654
+	654 -> 655
+	655 -> 554
+	656 -> 671
+	657 -> 672
+	658 -> 673
+	659 -> 674
+	660 -> 675
+	661 -> 676
+	662 -> 677
+	663 -> 678
+	664 -> 679
+	665 -> 680
+	666 -> 681
+	667 -> 682
+	668 -> 683
+	669 -> 684
+	670 -> 554
+	671 -> 672
+	672 -> 673
+	673 -> 674
+	674 -> 675
+	675 -> 676
+	676 -> 677
+	677 -> 678
+	678 -> 679
+	678 -> 692
+	679 -> 680
+	680 -> 681
+	681 -> 682
+	682 -> 683
+	683 -> 684
+	684 -> 554
+	685 -> 698
+	686 -> 699
+	687 -> 700
+	688 -> 701
+	689 -> 702
+	690 -> 703
+	691 -> 704
+	692 -> 705
+	693 -> 706
+	694 -> 707
+	695 -> 708
+	696 -> 709
+	697 -> 554
+	698 -> 699
+	699 -> 700
+	700 -> 701
+	701 -> 702
+	702 -> 703
+	703 -> 704
+	704 -> 705
+	705 -> 706
+	706 -> 707
+	706 -> 718
+	707 -> 708
+	708 -> 709
+	709 -> 786
+	710 -> 721
+	711 -> 722
+	712 -> 723
+	713 -> 724
+	714 -> 725
+	715 -> 726
+	716 -> 727
+	717 -> 728
+	718 -> 729
+	719 -> 730
+	720 -> 554
+	721 -> 722
+	722 -> 732
+	723 -> 733
+	724 -> 725
+	725 -> 726
+	726 -> 736
+	727 -> 728
+	728 -> 729
+	729 -> 730
+	729 -> 739
+	730 -> 786
+	731 -> 740
+	732 -> 741
+	733 -> 742
+	734 -> 743
+	735 -> 744
+	736 -> 745
+	737 -> 746
+	738 -> 747
+	739 -> 554
+	740 -> 741
+	741 -> 742
+	742 -> 743
+	743 -> 744
+	744 -> 745
+	745 -> 746
+	746 -> 747
+	747 -> 786
+	748 -> 755
+	749 -> 756
+	750 -> 757
+	751 -> 758
+	752 -> 759
+	753 -> 760
+	754 -> 554
+	755 -> 756
+	756 -> 757
+	757 -> 758
+	758 -> 759
+	759 -> 760
+	760 -> 786
+	761 -> 766
+	762 -> 767
+	763 -> 768
+	764 -> 769
+	765 -> 554
+	766 -> 767
+	767 -> 768
+	768 -> 769
+	769 -> 786
+	770 -> 773
+	771 -> 774
+	772 -> 554
+	773 -> 774
+	774 -> 786
+	775 -> 554
+	776 -> 408
+	776 -> 450
+	777 -> 778
+	777 -> 781
+	778 -> 779
+	778 -> 782
+	779 -> 780
+	779 -> 783
+	780 -> 776
+	781 -> 784
+	782 -> 785
+	783 -> 776
+	784 -> 785
+	784 -> 786
+	785 -> 776
+	786 -> 776
+	787 -> 793
+	787 -> 794
+	787 -> 795
+	788 -> 789
+	789 -> 790
+	790 -> 810
+	790 -> 811
+	790 -> 813
+	790 -> 817
+	791 -> 792
+	792 -> 1014
+	792 -> 1017
+	793 -> 794
+	793 -> 797
+	794 -> 795
+	794 -> 798
+	795 -> 796
+	795 -> 799
+	796 -> 788
+	797 -> 800
+	798 -> 801
+	799 -> 788
+	800 -> 801
+	800 -> 802
+	801 -> 788
+	802 -> 788
+	803 -> 804
+	804 -> 805
+	805 -> 806
+	806 -> 807
+	807 -> 808
+	808 -> 809
+	809 -> 810
+	810 -> 811
+	811 -> 812
+	812 -> 813
+	813 -> 814
+	814 -> 815
+	815 -> 816
+	815 -> 835
+	816 -> 817
+	816 -> 836
+	817 -> 818
+	818 -> 819
+	819 -> 820
+	820 -> 821
+	821 -> 822
+	822 -> 791
+	822 -> 1023
+	823 -> 842
+	824 -> 843
+	825 -> 844
+	826 -> 845
+	827 -> 846
+	828 -> 847
+	829 -> 848
+	830 -> 849
+	831 -> 850
+	832 -> 851
+	833 -> 852
+	834 -> 853
+	835 -> 854
+	836 -> 855
+	837 -> 856
+	838 -> 857
+	839 -> 858
+	840 -> 859
+	841 -> 791
+	842 -> 843
+	843 -> 844
+	844 -> 845
+	845 -> 846
+	846 -> 847
+	847 -> 848
+	848 -> 849
+	849 -> 850
+	850 -> 851
+	851 -> 852
+	852 -> 853
+	853 -> 854
+	854 -> 855
+	855 -> 856
+	856 -> 857
+	857 -> 858
+	858 -> 859
+	859 -> 791
+	859 -> 1023
+	860 -> 877
+	861 -> 878
+	862 -> 879
+	863 -> 880
+	864 -> 881
+	865 -> 882
+	866 -> 883
+	867 -> 884
+	868 -> 885
+	869 -> 886
+	870 -> 887
+	871 -> 888
+	872 -> 889
+	873 -> 890
+	874 -> 891
+	875 -> 892
+	876 -> 791
+	877 -> 878
+	878 -> 879
+	879 -> 880
+	880 -> 881
+	881 -> 882
+	882 -> 883
+	883 -> 884
+	884 -> 885
+	885 -> 886
+	886 -> 887
+	887 -> 888
+	888 -> 889
+	889 -> 890
+	889 -> 905
+	890 -> 891
+	891 -> 892
+	892 -> 791
+	892 -> 1023
+	893 -> 908
+	894 -> 909
+	895 -> 910
+	896 -> 911
+	897 -> 912
+	898 -> 913
+	899 -> 914
+	900 -> 915
+	901 -> 916
+	902 -> 917
+	903 -> 918
+	904 -> 919
+	905 -> 920
+	906 -> 921
+	907 -> 791
+	908 -> 909
+	909 -> 910
+	910 -> 911
+	911 -> 912
+	912 -> 913
+	913 -> 914
+	914 -> 915
+	915 -> 916
+	916 -> 917
+	917 -> 918
+	918 -> 919
+	919 -> 920
+	920 -> 921
+	921 -> 791
+	922 -> 935
+	923 -> 936
+	924 -> 937
+	925 -> 938
+	926 -> 939
+	927 -> 940
+	928 -> 941
+	929 -> 942
+	930 -> 943
+	931 -> 944
+	932 -> 945
+	933 -> 946
+	934 -> 791
+	935 -> 936
+	935 -> 947
+	936 -> 948
+	937 -> 938
+	938 -> 939
+	939 -> 940
+	940 -> 941
+	941 -> 942
+	942 -> 943
+	943 -> 944
+	944 -> 945
+	945 -> 946
+	946 -> 1023
+	947 -> 958
+	948 -> 959
+	949 -> 960
+	950 -> 961
+	951 -> 962
+	952 -> 963
+	953 -> 964
+	954 -> 965
+	955 -> 966
+	956 -> 967
+	957 -> 791
+	958 -> 959
+	959 -> 960
+	960 -> 970
+	961 -> 962
+	962 -> 963
+	963 -> 964
+	964 -> 965
+	965 -> 966
+	966 -> 967
+	967 -> 1023
+	968 -> 977
+	969 -> 978
+	970 -> 979
+	971 -> 980
+	972 -> 981
+	973 -> 982
+	974 -> 983
+	975 -> 984
+	976 -> 791
+	977 -> 985
+	978 -> 986
+	979 -> 980
+	980 -> 988
+	981 -> 989
+	982 -> 983
+	983 -> 984
+	984 -> 1023
+	985 -> 992
+	986 -> 993
+	987 -> 994
+	988 -> 995
+	989 -> 996
+	990 -> 997
+	991 -> 791
+	992 -> 998
+	993 -> 999
+	994 -> 995
+	995 -> 1001
+	996 -> 997
+	997 -> 1023
+	998 -> 1003
+	999 -> 1004
+	1000 -> 1005
+	1001 -> 1006
+	1002 -> 791
+	1003 -> 1004
+	1004 -> 1005
+	1005 -> 1006
+	1006 -> 791
+	1007 -> 1010
+	1008 -> 1011
+	1009 -> 791
+	1010 -> 1011
+	1011 -> 791
+	1012 -> 791
+	1013 -> 158
+	1013 -> 200
+	1014 -> 1015
+	1014 -> 1018
+	1015 -> 1016
+	1015 -> 1019
+	1016 -> 1017
+	1016 -> 1020
+	1017 -> 1013
+	1018 -> 1021
+	1019 -> 1022
+	1020 -> 1013
+	1021 -> 1022
+	1021 -> 1023
+	1022 -> 1013
+	1023 -> 1013
+	1024 -> 1030
+	1024 -> 1032
+	1025 -> 1026
+	1026 -> 1027
+	1027 -> 1041
+	1027 -> 1051
+	1027 -> 1055
+	1027 -> 1062
+	1027 -> 1064
+	1028 -> 1029
+	1028 -> 1614
+	1029 -> 1066
+	1029 -> 1068
+	1029 -> 1069
+	1030 -> 1034
+	1031 -> 1032
+	1031 -> 1035
+	1032 -> 1033
+	1032 -> 1036
+	1033 -> 1025
+	1034 -> 1037
+	1035 -> 1038
+	1036 -> 1025
+	1037 -> 1038
+	1037 -> 1039
+	1038 -> 1025
+	1039 -> 1025
+	1040 -> 1041
+	1041 -> 1042
+	1042 -> 1043
+	1043 -> 1044
+	1044 -> 1045
+	1045 -> 1046
+	1046 -> 1047
+	1047 -> 1048
+	1048 -> 1049
+	1049 -> 1050
+	1050 -> 1051
+	1051 -> 1052
+	1052 -> 1053
+	1053 -> 1054
+	1054 -> 1055
+	1055 -> 1056
+	1056 -> 1057
+	1057 -> 1058
+	1058 -> 1059
+	1059 -> 1060
+	1060 -> 1061
+	1061 -> 1062
+	1062 -> 1063
+	1063 -> 1064
+	1064 -> 1028
+	1065 -> 450
+	1065 -> 470
+	1066 -> 1067
+	1066 -> 1070
+	1067 -> 1068
+	1067 -> 1071
+	1068 -> 1069
+	1068 -> 1072
+	1069 -> 1065
+	1070 -> 1073
+	1071 -> 1074
+	1072 -> 1065
+	1073 -> 1074
+	1073 -> 1075
+	1074 -> 1065
+	1075 -> 1065
+	1076 -> 1082
+	1076 -> 1083
+	1076 -> 1085
+	1077 -> 1078
+	1078 -> 1079
+	1079 -> 1080
+	1079 -> 1103
+	1079 -> 1113
+	1080 -> 1081
+	1080 -> 1370
+	1081 -> 1118
+	1081 -> 1121
+	1082 -> 1083
+	1082 -> 1086
+	1083 -> 1084
+	1083 -> 1087
+	1084 -> 1085
+	1085 -> 1077
+	1086 -> 1089
+	1087 -> 1090
+	1088 -> 1077
+	1089 -> 1090
+	1089 -> 1091
+	1090 -> 1077
+	1091 -> 1077
+	1092 -> 1093
+	1093 -> 1094
+	1094 -> 1095
+	1095 -> 1096
+	1096 -> 1097
+	1097 -> 1098
+	1098 -> 1099
+	1099 -> 1100
+	1100 -> 1101
+	1101 -> 1102
+	1102 -> 1103
+	1103 -> 1104
+	1104 -> 1105
+	1105 -> 1106
+	1106 -> 1107
+	1107 -> 1108
+	1108 -> 1109
+	1109 -> 1110
+	1110 -> 1111
+	1111 -> 1112
+	1112 -> 1113
+	1113 -> 1114
+	1114 -> 1115
+	1115 -> 1116
+	1116 -> 1080
+	1117 -> 167
+	1117 -> 182
+	1117 -> 220
+	1117 -> 293
+	1118 -> 1119
+	1118 -> 1122
+	1119 -> 1120
+	1119 -> 1123
+	1120 -> 1121
+	1120 -> 1124
+	1121 -> 1117
+	1122 -> 1125
+	1123 -> 1126
+	1124 -> 1117
+	1125 -> 1126
+	1125 -> 1127
+	1126 -> 1117
+	1127 -> 1117
+	1128 -> 1134
+	1129 -> 1130
+	1130 -> 1131
+	1131 -> 1132
+	1131 -> 1161
+	1132 -> 1133
+	1133 -> 1165
+	1133 -> 1166
+	1134 -> 1135
+	1134 -> 1138
+	1135 -> 1139
+	1136 -> 1137
+	1137 -> 1129
+	1138 -> 1141
+	1139 -> 1142
+	1140 -> 1129
+	1141 -> 1142
+	1142 -> 1129
+	1143 -> 1129
+	1144 -> 1145
+	1145 -> 1146
+	1146 -> 1147
+	1147 -> 1148
+	1148 -> 1149
+	1149 -> 1150
+	1150 -> 1151
+	1151 -> 1152
+	1152 -> 1153
+	1153 -> 1154
+	1154 -> 1155
+	1155 -> 1156
+	1156 -> 1157
+	1157 -> 1158
+	1158 -> 1159
+	1159 -> 1160
+	1160 -> 1161
+	1161 -> 1162
+	1162 -> 1163
+	1163 -> 1132
+	1164 -> 186
+	1164 -> 217
+	1164 -> 293
+	1165 -> 1166
+	1166 -> 1170
+	1167 -> 1171
+	1168 -> 1164
+	1169 -> 1172
+	1170 -> 1173
+	1171 -> 1164
+	1172 -> 1173
+	1172 -> 1174
+	1173 -> 1164
+	1174 -> 1164
+	1175 -> 1182
+	1175 -> 1183
+	1176 -> 1177
+	1177 -> 1178
+	1178 -> 1179
+	1178 -> 1207
+	1179 -> 1180
+	1180 -> 1212
+	1181 -> 1185
+	1182 -> 1186
+	1183 -> 1187
+	1184 -> 1176
+	1185 -> 1188
+	1186 -> 1189
+	1187 -> 1176
+	1188 -> 1190
+	1189 -> 1176
+	1190 -> 1176
+	1191 -> 1192
+	1192 -> 1193
+	1193 -> 1194
+	1194 -> 1195
+	1195 -> 1196
+	1196 -> 1197
+	1197 -> 1198
+	1198 -> 1199
+	1199 -> 1200
+	1200 -> 1201
+	1201 -> 1202
+	1202 -> 1203
+	1203 -> 1204
+	1204 -> 1205
+	1205 -> 1206
+	1206 -> 1207
+	1207 -> 1208
+	1208 -> 1209
+	1209 -> 1210
+	1210 -> 1179
+	1211 -> 361
+	1211 -> 499
+	1212 -> 1213
+	1212 -> 1216
+	1213 -> 1214
+	1213 -> 1217
+	1214 -> 1215
+	1214 -> 1218
+	1215 -> 1211
+	1216 -> 1219
+	1217 -> 1220
+	1218 -> 1211
+	1219 -> 1220
+	1219 -> 1221
+	1220 -> 1211
+	1221 -> 1211
+	1222 -> 1223
+	1223 -> 1224
+	1224 -> 1225
+	1225 -> 1226
+	1225 -> 1238
+	1225 -> 1242
+	1225 -> 1245
+	1226 -> 553
+	1226 -> 1227
+	1227 -> 1248
+	1228 -> 1229
+	1229 -> 1230
+	1230 -> 1231
+	1231 -> 1232
+	1232 -> 1233
+	1233 -> 1234
+	1234 -> 1235
+	1235 -> 1236
+	1236 -> 1237
+	1237 -> 1238
+	1238 -> 1239
+	1239 -> 1240
+	1240 -> 1241
+	1241 -> 1242
+	1242 -> 1243
+	1243 -> 1244
+	1244 -> 1245
+	1245 -> 1246
+	1246 -> 1247
+	1247 -> 1226
+	1248 -> 154
+	1248 -> 176
+	1248 -> 182
+	1248 -> 186
+	1249 -> 1250
+	1250 -> 1251
+	1251 -> 1252
+	1252 -> 1253
+	1252 -> 1268
+	1252 -> 1271
+	1252 -> 1272
+	1253 -> 790
+	1253 -> 1254
+	1254 -> 1275
+	1255 -> 1256
+	1256 -> 1257
+	1257 -> 1258
+	1258 -> 1259
+	1259 -> 1260
+	1260 -> 1261
+	1261 -> 1262
+	1262 -> 1263
+	1263 -> 1264
+	1264 -> 1265
+	1265 -> 1266
+	1266 -> 1267
+	1267 -> 1268
+	1268 -> 1269
+	1269 -> 1270
+	1270 -> 1271
+	1271 -> 1272
+	1272 -> 1273
+	1273 -> 1274
+	1274 -> 1253
+	1275 -> 436
+	1275 -> 443
+	1275 -> 458
+	1275 -> 463
+	1276 -> 1282
+	1276 -> 1283
+	1277 -> 1278
+	1278 -> 1279
+	1279 -> 1309
+	1280 -> 1281
+	1281 -> 1313
+	1281 -> 1314
+	1281 -> 1315
+	1282 -> 1283
+	1282 -> 1286
+	1283 -> 1284
+	1283 -> 1287
+	1284 -> 1285
+	1284 -> 1288
+	1285 -> 1277
+	1286 -> 1289
+	1287 -> 1290
+	1288 -> 1277
+	1289 -> 1290
+	1289 -> 1291
+	1290 -> 1277
+	1291 -> 1277
+	1292 -> 1293
+	1293 -> 1294
+	1294 -> 1295
+	1295 -> 1296
+	1296 -> 1297
+	1297 -> 1298
+	1298 -> 1299
+	1299 -> 1300
+	1300 -> 1301
+	1301 -> 1302
+	1302 -> 1303
+	1303 -> 1304
+	1304 -> 1305
+	1305 -> 1306
+	1306 -> 1307
+	1307 -> 1308
+	1308 -> 1309
+	1309 -> 1310
+	1310 -> 1311
+	1311 -> 1280
+	1312 -> 450
+	1312 -> 467
+	1312 -> 529
+	1312 -> 531
+	1313 -> 1314
+	1314 -> 1315
+	1314 -> 1318
+	1315 -> 1316
+	1315 -> 1319
+	1316 -> 1312
+	1317 -> 1320
+	1318 -> 1321
+	1319 -> 1312
+	1320 -> 1321
+	1320 -> 1322
+	1321 -> 1312
+	1322 -> 1312
+	1323 -> 1329
+	1323 -> 1331
+	1324 -> 1325
+	1325 -> 1326
+	1326 -> 1355
+	1326 -> 1356
+	1327 -> 1328
+	1328 -> 1360
+	1328 -> 1361
+	1328 -> 1362
+	1329 -> 1330
+	1329 -> 1333
+	1330 -> 1331
+	1330 -> 1334
+	1331 -> 1332
+	1331 -> 1335
+	1332 -> 1324
+	1333 -> 1336
+	1334 -> 1337
+	1335 -> 1324
+	1336 -> 1337
+	1336 -> 1338
+	1337 -> 1324
+	1338 -> 1324
+	1339 -> 1340
+	1340 -> 1341
+	1341 -> 1342
+	1342 -> 1343
+	1343 -> 1344
+	1344 -> 1345
+	1345 -> 1346
+	1346 -> 1347
+	1347 -> 1348
+	1348 -> 1349
+	1349 -> 1350
+	1350 -> 1351
+	1351 -> 1352
+	1352 -> 1353
+	1353 -> 1354
+	1354 -> 1355
+	1355 -> 1356
+	1356 -> 1357
+	1357 -> 1358
+	1358 -> 1327
+	1359 -> 88
+	1359 -> 178
+	1359 -> 240
+	1359 -> 275
+	1360 -> 1364
+	1361 -> 1362
+	1362 -> 1363
+	1362 -> 1366
+	1363 -> 1359
+	1364 -> 1367
+	1365 -> 1368
+	1366 -> 1359
+	1367 -> 1369
+	1368 -> 1359
+	1369 -> 1359
+	1370 -> 1371
+	1370 -> 1372
+	1371 -> 1383
+	1371 -> 1384
+	1371 -> 1385
+	1372 -> 1502
+	1372 -> 1503
+	1372 -> 1504
+	1373 -> 354
+	1373 -> 432
+	1373 -> 470
+	1373 -> 476
+	1374 -> 1389
+	1375 -> 1390
+	1376 -> 1391
+	1377 -> 1392
+	1378 -> 1393
+	1379 -> 1394
+	1380 -> 1395
+	1381 -> 1396
+	1382 -> 1397
+	1383 -> 1398
+	1384 -> 1399
+	1385 -> 1400
+	1386 -> 1401
+	1387 -> 1402
+	1388 -> 1373
+	1389 -> 1403
+	1390 -> 1404
+	1391 -> 1405
+	1392 -> 1406
+	1393 -> 1407
+	1394 -> 1408
+	1395 -> 1409
+	1396 -> 1410
+	1397 -> 1411
+	1398 -> 1412
+	1399 -> 1413
+	1400 -> 1414
+	1401 -> 1415
+	1402 -> 1373
+	1403 -> 1416
+	1404 -> 1417
+	1405 -> 1418
+	1406 -> 1419
+	1407 -> 1420
+	1408 -> 1421
+	1409 -> 1422
+	1410 -> 1423
+	1411 -> 1424
+	1412 -> 1425
+	1413 -> 1426
+	1414 -> 1427
+	1415 -> 1373
+	1416 -> 1428
+	1417 -> 1429
+	1418 -> 1430
+	1419 -> 1431
+	1420 -> 1432
+	1421 -> 1433
+	1422 -> 1434
+	1423 -> 1435
+	1424 -> 1436
+	1425 -> 1437
+	1426 -> 1438
+	1427 -> 1373
+	1428 -> 1439
+	1429 -> 1440
+	1430 -> 1441
+	1431 -> 1442
+	1432 -> 1443
+	1433 -> 1444
+	1434 -> 1445
+	1435 -> 1446
+	1436 -> 1447
+	1437 -> 1448
+	1438 -> 1373
+	1439 -> 1449
+	1440 -> 1450
+	1441 -> 1451
+	1442 -> 1452
+	1443 -> 1453
+	1444 -> 1454
+	1445 -> 1455
+	1446 -> 1456
+	1447 -> 1457
+	1448 -> 1373
+	1449 -> 1458
+	1450 -> 1459
+	1451 -> 1460
+	1452 -> 1461
+	1453 -> 1462
+	1454 -> 1463
+	1455 -> 1464
+	1456 -> 1465
+	1457 -> 1373
+	1458 -> 1466
+	1459 -> 1467
+	1460 -> 1468
+	1461 -> 1469
+	1462 -> 1470
+	1463 -> 1471
+	1464 -> 1472
+	1465 -> 1373
+	1466 -> 1473
+	1467 -> 1474
+	1468 -> 1475
+	1469 -> 1476
+	1470 -> 1477
+	1471 -> 1478
+	1472 -> 1373
+	1473 -> 1479
+	1474 -> 1480
+	1475 -> 1481
+	1476 -> 1482
+	1477 -> 1483
+	1478 -> 1373
+	1479 -> 1484
+	1480 -> 1485
+	1481 -> 1486
+	1482 -> 1487
+	1483 -> 1373
+	1484 -> 1488
+	1485 -> 1489
+	1486 -> 1490
+	1487 -> 1373
+	1488 -> 1491
+	1489 -> 1492
+	1490 -> 1373
+	1491 -> 1493
+	1492 -> 1373
+	1493 -> 1373
+	1494 -> 1509
+	1495 -> 1510
+	1496 -> 1511
+	1497 -> 1512
+	1498 -> 1513
+	1499 -> 1514
+	1500 -> 1515
+	1501 -> 1516
+	1502 -> 1517
+	1503 -> 1518
+	1504 -> 1519
+	1505 -> 1520
+	1506 -> 1521
+	1507 -> 1522
+	1508 -> 1373
+	1509 -> 1523
+	1510 -> 1524
+	1511 -> 1525
+	1512 -> 1526
+	1513 -> 1527
+	1514 -> 1528
+	1515 -> 1529
+	1516 -> 1530
+	1517 -> 1531
+	1518 -> 1532
+	1519 -> 1533
+	1520 -> 1534
+	1521 -> 1535
+	1522 -> 1373
+	1523 -> 1536
+	1524 -> 1537
+	1525 -> 1538
+	1526 -> 1539
+	1527 -> 1540
+	1528 -> 1541
+	1529 -> 1542
+	1530 -> 1543
+	1531 -> 1544
+	1532 -> 1545
+	1533 -> 1546
+	1534 -> 1547
+	1535 -> 1373
+	1536 -> 1548
+	1537 -> 1549
+	1538 -> 1550
+	1539 -> 1551
+	1540 -> 1552
+	1541 -> 1553
+	1542 -> 1554
+	1543 -> 1555
+	1544 -> 1556
+	1545 -> 1557
+	1546 -> 1558
+	1547 -> 1373
+	1548 -> 1559
+	1549 -> 1560
+	1550 -> 1561
+	1551 -> 1562
+	1552 -> 1563
+	1553 -> 1564
+	1554 -> 1565
+	1555 -> 1566
+	1556 -> 1567
+	1557 -> 1568
+	1558 -> 1373
+	1559 -> 1569
+	1560 -> 1570
+	1561 -> 1571
+	1562 -> 1572
+	1563 -> 1573
+	1564 -> 1574
+	1565 -> 1575
+	1566 -> 1576
+	1567 -> 1577
+	1568 -> 1373
+	1569 -> 1578
+	1570 -> 1579
+	1571 -> 1580
+	1572 -> 1581
+	1573 -> 1582
+	1574 -> 1583
+	1575 -> 1584
+	1576 -> 1585
+	1577 -> 1373
+	1578 -> 1586
+	1579 -> 1587
+	1580 -> 1588
+	1581 -> 1589
+	1582 -> 1590
+	1583 -> 1591
+	1584 -> 1592
+	1585 -> 1373
+	1586 -> 1593
+	1587 -> 1594
+	1588 -> 1595
+	1589 -> 1596
+	1590 -> 1597
+	1591 -> 1598
+	1592 -> 1373
+	1593 -> 1599
+	1594 -> 1600
+	1595 -> 1601
+	1596 -> 1602
+	1597 -> 1603
+	1598 -> 1373
+	1599 -> 1604
+	1600 -> 1605
+	1601 -> 1606
+	1602 -> 1607
+	1603 -> 1373
+	1604 -> 1608
+	1605 -> 1609
+	1606 -> 1610
+	1607 -> 1373
+	1608 -> 1611
+	1609 -> 1612
+	1610 -> 1373
+	1611 -> 1613
+	1612 -> 1373
+	1613 -> 1373
+	1614 -> 1615
+	1614 -> 1616
+	1615 -> 1625
+	1615 -> 1627
+	1615 -> 1629
+	1616 -> 1738
+	1616 -> 1748
+	1617 -> 167
+	1617 -> 182
+	1617 -> 226
+	1618 -> 1633
+	1619 -> 1634
+	1620 -> 1635
+	1621 -> 1636
+	1622 -> 1637
+	1623 -> 1638
+	1624 -> 1639
+	1625 -> 1640
+	1626 -> 1641
+	1627 -> 1642
+	1628 -> 1643
+	1629 -> 1644
+	1630 -> 1645
+	1631 -> 1646
+	1632 -> 1617
+	1633 -> 1647
+	1634 -> 1648
+	1635 -> 1649
+	1636 -> 1650
+	1637 -> 1651
+	1638 -> 1652
+	1639 -> 1653
+	1640 -> 1654
+	1641 -> 1655
+	1642 -> 1656
+	1643 -> 1657
+	1644 -> 1658
+	1645 -> 1659
+	1646 -> 1617
+	1647 -> 1660
+	1648 -> 1661
+	1649 -> 1662
+	1650 -> 1663
+	1651 -> 1664
+	1652 -> 1665
+	1653 -> 1666
+	1654 -> 1667
+	1655 -> 1668
+	1656 -> 1669
+	1657 -> 1670
+	1658 -> 1671
+	1659 -> 1617
+	1660 -> 1672
+	1661 -> 1673
+	1662 -> 1674
+	1663 -> 1675
+	1664 -> 1676
+	1665 -> 1677
+	1666 -> 1678
+	1667 -> 1679
+	1668 -> 1680
+	1669 -> 1681
+	1670 -> 1682
+	1671 -> 1617
+	1672 -> 1683
+	1673 -> 1684
+	1674 -> 1685
+	1675 -> 1686
+	1676 -> 1687
+	1677 -> 1688
+	1678 -> 1689
+	1679 -> 1690
+	1680 -> 1691
+	1681 -> 1692
+	1682 -> 1617
+	1683 -> 1693
+	1684 -> 1694
+	1685 -> 1695
+	1686 -> 1696
+	1687 -> 1697
+	1688 -> 1698
+	1689 -> 1699
+	1690 -> 1700
+	1691 -> 1701
+	1692 -> 1617
+	1693 -> 1702
+	1694 -> 1703
+	1695 -> 1704
+	1696 -> 1705
+	1697 -> 1706
+	1698 -> 1707
+	1699 -> 1708
+	1700 -> 1709
+	1701 -> 1617
+	1702 -> 1710
+	1703 -> 1711
+	1704 -> 1712
+	1705 -> 1713
+	1706 -> 1714
+	1707 -> 1715
+	1708 -> 1716
+	1709 -> 1617
+	1710 -> 1717
+	1711 -> 1718
+	1712 -> 1719
+	1713 -> 1720
+	1714 -> 1721
+	1715 -> 1722
+	1716 -> 1617
+	1717 -> 1723
+	1718 -> 1724
+	1719 -> 1725
+	1720 -> 1726
+	1721 -> 1727
+	1722 -> 1617
+	1723 -> 1728
+	1724 -> 1729
+	1725 -> 1730
+	1726 -> 1731
+	1727 -> 1617
+	1728 -> 1732
+	1729 -> 1733
+	1730 -> 1734
+	1731 -> 1617
+	1732 -> 1735
+	1733 -> 1736
+	1734 -> 1617
+	1735 -> 1737
+	1736 -> 1617
+	1737 -> 1617
+	1738 -> 1753
+	1739 -> 1754
+	1740 -> 1755
+	1741 -> 1756
+	1742 -> 1757
+	1743 -> 1758
+	1744 -> 1759
+	1745 -> 1760
+	1746 -> 1761
+	1747 -> 1762
+	1748 -> 1763
+	1749 -> 1764
+	1750 -> 1765
+	1751 -> 1766
+	1752 -> 1617
+	1753 -> 1767
+	1754 -> 1768
+	1755 -> 1769
+	1756 -> 1770
+	1757 -> 1771
+	1758 -> 1772
+	1759 -> 1773
+	1760 -> 1774
+	1761 -> 1775
+	1762 -> 1776
+	1763 -> 1777
+	1764 -> 1778
+	1765 -> 1779
+	1766 -> 1617
+	1767 -> 1780
+	1768 -> 1781
+	1769 -> 1782
+	1770 -> 1783
+	1771 -> 1784
+	1772 -> 1785
+	1773 -> 1786
+	1774 -> 1787
+	1775 -> 1788
+	1776 -> 1789
+	1777 -> 1790
+	1778 -> 1791
+	1779 -> 1617
+	1780 -> 1792
+	1781 -> 1793
+	1782 -> 1794
+	1783 -> 1795
+	1784 -> 1796
+	1785 -> 1797
+	1786 -> 1798
+	1787 -> 1799
+	1788 -> 1800
+	1789 -> 1801
+	1790 -> 1802
+	1791 -> 1617
+	1792 -> 1803
+	1793 -> 1804
+	1794 -> 1805
+	1795 -> 1806
+	1796 -> 1807
+	1797 -> 1808
+	1798 -> 1809
+	1799 -> 1810
+	1800 -> 1811
+	1801 -> 1812
+	1802 -> 1617
+	1803 -> 1813
+	1804 -> 1814
+	1805 -> 1815
+	1806 -> 1816
+	1807 -> 1817
+	1808 -> 1818
+	1809 -> 1819
+	1810 -> 1820
+	1811 -> 1821
+	1812 -> 1617
+	1813 -> 1822
+	1814 -> 1823
+	1815 -> 1824
+	1816 -> 1825
+	1817 -> 1826
+	1818 -> 1827
+	1819 -> 1828
+	1820 -> 1829
+	1821 -> 1617
+	1822 -> 1830
+	1823 -> 1831
+	1824 -> 1832
+	1825 -> 1833
+	1826 -> 1834
+	1827 -> 1835
+	1828 -> 1836
+	1829 -> 1617
+	1830 -> 1837
+	1831 -> 1838
+	1832 -> 1839
+	1833 -> 1840
+	1834 -> 1841
+	1835 -> 1842
+	1836 -> 1617
+	1837 -> 1843
+	1838 -> 1844
+	1839 -> 1845
+	1840 -> 1846
+	1841 -> 1847
+	1842 -> 1617
+	1843 -> 1848
+	1844 -> 1849
+	1845 -> 1850
+	1846 -> 1851
+	1847 -> 1617
+	1848 -> 1852
+	1849 -> 1853
+	1850 -> 1854
+	1851 -> 1617
+	1852 -> 1855
+	1853 -> 1856
+	1854 -> 1617
+	1855 -> 1857
+	1856 -> 1617
+	1857 -> 1617
+}
