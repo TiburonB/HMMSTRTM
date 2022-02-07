@@ -1,0 +1,2379 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./nr
+           27,325,400 sequences; 9,881,117,767 total letters
+
+
+
+Query= NULL:A
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_105018567.1 bacteriorhodopsin [Nonlabens tegetincola] PQJ19478...  455     6e-161
+WP_167343020.1 bacteriorhodopsin [Nonlabens sp. SY33080]              454     1e-160
+BAV92789.1 chimeric light-driven sodium ion pump I2K5NaR [synthet...  454     1e-160
+SDG56460.1 Bacteriorhodopsin-like protein [Psychroflexus sediminis]   385     2e-133
+WP_114749126.1 bacteriorhodopsin [Negadavirga sp. SW125]              371     7e-128
+TVR76527.1 rhodopsin [Chitinophagaceae bacterium]                     357     2e-122
+TVQ68589.1 rhodopsin [Balneolaceae bacterium]                         351     6e-120
+WP_109646037.1 bacteriorhodopsin [Gracilimonas sp. 8A47] PWN06778...  339     3e-115
+WP_061913042.1 bacteriorhodopsin [Bellilinea caldifistulae] KPL72...  210     2e-64 
+PRY40117.1 bacteriorhodopsin-like protein [Spirosoma oryzae]          196     5e-59 
+NNC81056.1 bacteriorhodopsin [Acidimicrobiales bacterium] RZV4470...  184     2e-54 
+WP_052184120.1 bacteriorhodopsin [Psychroserpens sp. Hel_I_66]        174     8e-51 
+5G28_A The crystal structure of light-driven chloride pump ClR at...  159     7e-45 
+6AB9_A The crystal structure of the relaxed state of Nonlabens ma...  160     8e-45 
+WP_047006274.1 bacteriorhodopsin [Aurantiacibacter gangjinensis] ...  156     4e-43 
+WP_165853546.1 bacteriorhodopsin [Aurantiacibacter aquimixticola]     155     6e-43 
+WP_131451707.1 bacteriorhodopsin [Aurantiacibacter arachoides] MX...  137     7e-36 
+WP_007065598.1 bacteriorhodopsin [Fulvimarina pelagi] EAU40025.1 ...  132     3e-34 
+NQW64024.1 bacteriorhodopsin [Deltaproteobacteria bacterium]          108     2e-25 
+WP_081846255.1 bacteriorhodopsin [Deinococcus marmoris]               109     2e-25 
+PSQ95756.1 xanthorhodopsin [Bacteroidetes bacterium SW_9_63_38]       103     2e-23 
+WP_166526108.1 bacteriorhodopsin [Geodermatophilus sp. DSM 44513]...  103     3e-23 
+MBC7467295.1 bacteriorhodopsin [Bdellovibrio sp.]                     101     1e-22 
+WP_037479828.1 MULTISPECIES: bacteriorhodopsin [unclassified Sphi...  99.4    6e-22 
+WP_044151149.1 MULTISPECIES: bacteriorhodopsin [Cyanobacteria] NE...  98.2    2e-21 
+WP_102807856.1 bacteriorhodopsin [Mycobacterium sp. ENV421] PND56...  95.9    3e-20 
+MSX20488.1 xanthorhodopsin [Actinobacteria bacterium]                 94.0    7e-20 
+MBC8135438.1 bacteriorhodopsin [Fibrella sp.]                         93.6    1e-19 
+WP_176499102.1 bacteriorhodopsin [Sphingomonas sp. HMP9] BCA61338...  91.7    5e-19 
+NDA82753.1 xanthorhodopsin [Actinobacteria bacterium] NDB08309.1 ...  91.7    5e-19 
+NCV34972.1 xanthorhodopsin [Actinobacteria bacterium]                 90.9    6e-19 
+NQU38161.1 bacteriorhodopsin [Actinobacteria bacterium]               90.5    1e-18 
+RLT27394.1 xanthorhodopsin, partial [Chloroflexi bacterium]           89.0    1e-18 
+OEU23745.1 rhodopsin [Fragilariopsis cylindrus CCMP1102]              90.5    1e-18 
+GDX17393.1 xanthorhodopsin [Actinobacteria bacterium]                 90.5    1e-18 
+MSY27688.1 xanthorhodopsin [Actinobacteria bacterium] MSZ87576.1 ...  89.7    3e-18 
+NDJ60239.1 bacteriorhodopsin [Chloroflexi bacterium]                  88.2    5e-18 
+ANE44876.1 xanthorhodopsin [Deinococcus puniceus]                     89.0    7e-18 
+MBC8048883.1 bacteriorhodopsin [Chitinophagales bacterium]            87.8    9e-18 
+MBJ7286842.1 bacteriorhodopsin [Candidatus Nanopelagicus sp.]         87.8    1e-17 
+PZN99150.1 xanthorhodopsin [Alphaproteobacteria bacterium] PZO393...  87.0    2e-17 
+NBR00964.1 xanthorhodopsin [Actinobacteria bacterium] NBR67690.1 ...  85.9    4e-17 
+ODT58092.1 xanthorhodopsin [Paracoccus sp. SCN 68-21]                 86.3    5e-17 
+GDX69188.1 xanthorhodopsin [Chloroflexi bacterium]                    85.9    6e-17 
+NCG03268.1 bacteriorhodopsin [Actinomycetales bacterium] HBK39327...  85.9    6e-17 
+WP_196865412.1 bacteriorhodopsin [Arthrobacter sp. CAN_A212] MBG6...  86.3    6e-17 
+WP_194903473.1 bacteriorhodopsin [Quadrisphaera sp. INWT6] MBF508...  87.0    8e-17 
+TPG42548.1 xanthorhodopsin [Sphingomonas koreensis]                   84.7    2e-16 
+MSW08751.1 xanthorhodopsin [Actinobacteria bacterium] MSW23236.1 ...  83.6    5e-16 
+AEP68178.1 rhodopsin 2, partial [Phaeocystis globosa]                 83.2    6e-16 
+WP_095670707.1 bacteriorhodopsin [Candidatus Planktophila lacus] ...  82.4    1e-15 
+WP_116469897.1 bacteriorhodopsin [Sphingomonas pokkalii] PVX30487...  82.0    2e-15 
+WP_134561873.1 MULTISPECIES: bacteriorhodopsin [unclassified Cryo...  81.6    2e-15 
+NQW68327.1 bacteriorhodopsin [Acidimicrobiaceae bacterium]            81.3    3e-15 
+CAA9312725.1 Bacteriorhodopsin-like protein [uncultured Frankinea...  81.3    4e-15 
+NBY58413.1 xanthorhodopsin [Actinobacteria bacterium]                 80.5    5e-15 
+MSV63648.1 xanthorhodopsin [Actinobacteria bacterium] MSW26570.1 ...  80.5    6e-15 
+MAA69809.1 xanthorhodopsin [Deltaproteobacteria bacterium]            80.5    7e-15 
+RLT23870.1 xanthorhodopsin [Chloroflexi bacterium]                    80.1    7e-15 
+TSA20550.1 xanthorhodopsin [Actinomycetales bacterium]                80.1    7e-15 
+WP_197059268.1 bacteriorhodopsin [Cryobacterium sp. MLB-32]           79.3    2e-14 
+MSX14651.1 xanthorhodopsin [Actinobacteria bacterium]                 79.0    2e-14 
+MBD8565012.1 bacteriorhodopsin [Oxalobacteraceae sp. CFBP 8763]       79.0    3e-14 
+HBU03253.1 xanthorhodopsin [Acidimicrobiaceae bacterium]              77.8    4e-14 
+WP_018112486.1 bacteriorhodopsin [Thermus igniterrae]                 77.4    8e-14 
+MBJ7486936.1 bacteriorhodopsin [Ilumatobacteraceae bacterium]         76.6    9e-14 
+MSV78938.1 xanthorhodopsin [Actinobacteria bacterium]                 77.0    1e-13 
+WP_193561234.1 bacteriorhodopsin [Mycolicibacterium hodleri]          77.0    2e-13 
+NDF41044.1 xanthorhodopsin [Actinobacteria bacterium]                 74.7    8e-13 
+NBB69385.1 bacteriorhodopsin [Alphaproteobacteria bacterium]          74.3    1e-12 
+NBU23402.1 xanthorhodopsin [Actinobacteria bacterium]                 74.3    1e-12 
+WP_176307280.1 bacteriorhodopsin [Flavobacterium sp. J49] MBF6642...  73.2    2e-12 
+NNJ40069.1 bacteriorhodopsin [Eudoraea sp.]                           72.4    4e-12 
+MSZ06798.1 xanthorhodopsin [Actinobacteria bacterium] MSZ65362.1 ...  72.4    5e-12 
+MUH44714.1 xanthorhodopsin [Actinobacteria bacterium]                 72.4    5e-12 
+NDA81336.1 xanthorhodopsin [Actinobacteria bacterium]                 70.1    7e-12 
+WP_146933178.1 bacteriorhodopsin [Gillisia hiemivivida] TXD93106....  71.6    7e-12 
+RZP37711.1 xanthorhodopsin [Acidimicrobiales bacterium]               71.6    8e-12 
+AAO73929.1 proteorhodopsin, partial [uncultured bacterium]            71.2    1e-11 
+AAO73931.1 proteorhodopsin, partial [uncultured bacterium]            71.2    1e-11 
+WP_134553723.1 bacteriorhodopsin [Cryobacterium ruanii] TFD69722....  71.6    1e-11 
+WP_132740364.1 bacteriorhodopsin [Sphingomonas sp. PP-F2F-A104-K0...  70.9    2e-11 
+WP_198950050.1 bacteriorhodopsin [Kineosporia sp. A_224]              71.2    2e-11 
+WP_073353058.1 MULTISPECIES: bacteriorhodopsin [Flavobacterium] M...  70.5    2e-11 
+WP_066077143.1 bacteriorhodopsin [Flavobacterium fryxellicola] OA...  70.5    2e-11 
+MAV21145.1 xanthorhodopsin [Acidimicrobiaceae bacterium]              70.1    2e-11 
+WP_116281575.1 bacteriorhodopsin [Subtercola boreus] RFA16175.1 h...  70.9    3e-11 
+AAO73926.1 proteorhodopsin, partial [uncultured bacterium]            69.7    4e-11 
+MBC7455524.1 bacteriorhodopsin [Massilia sp.]                         69.7    5e-11 
+NBT48333.1 xanthorhodopsin [Actinobacteria bacterium]                 69.7    5e-11 
+PZO26905.1 rhodopsin, partial [Flavobacteriaceae bacterium]           68.6    7e-11 
+WP_200835593.1 bacteriorhodopsin [Spiribacter roseus]                 68.9    1e-10 
+MBL0882160.1 bacteriorhodopsin [Chitinophagaceae bacterium]           68.6    1e-10 
+NBU16107.1 xanthorhodopsin [Actinobacteria bacterium]                 68.6    1e-10 
+AAO73918.2 proteorhodopsin, partial [uncultured bacterium]            68.2    1e-10 
+WP_188160355.1 bacteriorhodopsin [Aquisalinus flavus] MBD0427888....  68.6    1e-10 
+WP_166076568.1 bacteriorhodopsin [Flavobacterium sp. KDG-16] NHM0...  68.2    1e-10 
+NCV97629.1 xanthorhodopsin [Acidimicrobiia bacterium]                 66.6    2e-10 
+WP_165929999.1 bacteriorhodopsin [Flavobacterium caseinilyticum]      67.4    2e-10 
+AAK30188.1 proteorhodopsin, partial [uncultured bacterium]            67.4    2e-10 
+NRA93272.1 bacteriorhodopsin [Psychroserpens sp.]                     67.4    3e-10 
+RDI56187.1 bacteriorhodopsin [Flavobacterium glaciei] TWI48097.1 ...  67.0    3e-10 
+WP_167445754.1 bacteriorhodopsin [Flavobacterium limicola]            66.6    3e-10 
+WP_016329665.1 bacteriorhodopsin [Thermus oshimai] AFV76481.1 bac...  67.0    4e-10 
+MBC7536272.1 bacteriorhodopsin [Ferruginibacter sp.]                  66.6    4e-10 
+Q9F7P4.1 RecName: Full=Green-light absorbing proteorhodopsin; Sho...  66.2    6e-10 
+RCL72920.1 rhodopsin [Flavobacteriales bacterium]                     65.5    1e-09 
+ADI16288.1 hypothetical protein [uncultured bacterium HF0010_16H03]   65.1    2e-09 
+KAB8153071.1 rhodopsin [Kordia sp. TARA_039_SRF]                      64.7    2e-09 
+MBC7441034.1 bacteriorhodopsin [Ramlibacter sp.]                      65.1    2e-09 
+WP_052330810.1 bacteriorhodopsin [Rivularia sp. PCC 7116]             61.6    3e-09 
+EAV46596.1 hypothetical protein MB2181_00945 [Methylophilales bac...  64.3    3e-09 
+NAS14247.1 bacteriorhodopsin [Flavobacteriaceae bacterium R33]        64.3    4e-09 
+RPG86645.1 rhodopsin [Crocinitomicaceae bacterium TMED209] HBE123...  63.9    4e-09 
+MBJ7391468.1 bacteriorhodopsin [Chthoniobacterales bacterium]         63.5    6e-09 
+WP_139867393.1 bacteriorhodopsin [Candidatus Methylopumilus unive...  63.2    8e-09 
+WP_028871199.1 bacteriorhodopsin [Psychroserpens burtonensis]         63.2    8e-09 
+HEO42294.1 xanthorhodopsin [Thermus islandicus]                       63.2    9e-09 
+QPI68644.1 bacteriorhodopsin [Exiguobacterium sp. PBE]                62.8    1e-08 
+AAT09899.1 proteorhodopsin, partial [uncultured bacterium]            62.4    1e-08 
+MBT03390.1 rhodopsin [Crocinitomicaceae bacterium]                    62.4    2e-08 
+RZO39950.1 biphenyl 2,3-dioxygenase [Rhodobacteraceae bacterium]      62.0    2e-08 
+NDC73796.1 biphenyl 2,3-dioxygenase [bacterium]                       62.0    3e-08 
+AAO21451.1 proteorhodopsin, partial [uncultured bacterium]            61.6    3e-08 
+NBX37170.1 rhodopsin [Planctomycetes bacterium]                       61.6    3e-08 
+MBL6677405.1 bacteriorhodopsin [Flavobacteriaceae bacterium]          60.8    4e-08 
+AAK30201.1 proteorhodopsin, partial [uncultured bacterium]            61.2    4e-08 
+AAK30193.1 proteorhodopsin, partial [uncultured bacterium]            61.2    4e-08 
+APF29454.1 proteorhodopsin [uncultured bacterium]                     60.8    6e-08 
+OYY49443.1 biphenyl 2,3-dioxygenase [Methylophilales bacterium 28...  60.8    6e-08 
+NBY51301.1 xanthorhodopsin [Actinobacteria bacterium]                 58.9    6e-08 
+WP_055856982.1 bacteriorhodopsin [Agreia sp. Leaf335] KQR19198.1 ...  61.2    7e-08 
+KDN57156.1 rhodopsin [Exiguobacterium sp. AB2]                        60.5    7e-08 
+NML84877.1 bacteriorhodopsin [Polaromonas sp.]                        60.5    8e-08 
+ADY89715.1 rhodopsin, partial [actinobacterium SCGC AAA278-D19]       57.4    9e-08 
+WP_013751708.1 MULTISPECIES: bacteriorhodopsin [unclassified Dokd...  60.1    9e-08 
+WP_044398217.1 bacteriorhodopsin [Lacinutrix sp. Hel_I_90]            59.7    1e-07 
+MBC8382159.1 bacteriorhodopsin [SAR92 clade bacterium]                59.3    1e-07 
+NQZ45561.1 bacteriorhodopsin [Flavobacteriaceae bacterium]            59.3    2e-07 
+MAD11269.1 rhodopsin [Flavobacteriaceae bacterium] MAH82930.1 rho...  59.3    2e-07 
+NDF40506.1 xanthorhodopsin [Proteobacteria bacterium]                 58.2    2e-07 
+MBB79561.1 rhodopsin [Roseibacillus sp.]                              59.3    2e-07 
+NBW58125.1 biphenyl 2,3-dioxygenase [bacterium] NBX72636.1 biphen...  58.9    2e-07 
+NQW28770.1 bacteriorhodopsin [Flammeovirgaceae bacterium]             58.9    2e-07 
+HCQ24587.1 rhodopsin [Flavobacteriaceae bacterium]                    58.5    3e-07 
+AAK30180.1 proteorhodopsin, partial [uncultured bacterium]            58.9    3e-07 
+WP_133686510.1 bacteriorhodopsin [Maribacter spongiicola] TDT4710...  58.5    3e-07 
+AGQ55531.1 actinorhodopsin, partial [uncultured bacterium]            55.8    3e-07 
+NBV51748.1 xanthorhodopsin [bacterium]                                55.8    4e-07 
+CCF17622.1 Actinorhodopsin, partial [uncultured bacterium]            55.5    4e-07 
+WP_026945949.1 MULTISPECIES: bacteriorhodopsin [Algoriphagus] TDX...  58.2    5e-07 
+4KLY_A Crystal structure of a blue-light absorbing proteorhodopsi...  57.8    6e-07 
+MBP72590.1 hypothetical protein [Euryarchaeota archaeon]              57.8    6e-07 
+CCF17621.1 Actinorhodopsin, partial [uncultured bacterium] CCF176...  55.1    7e-07 
+NQX00038.1 bacteriorhodopsin [bacterium]                              57.8    8e-07 
+WP_188457852.1 bacteriorhodopsin [Psychroflexus planctonicus] GGE...  57.4    8e-07 
+MSO28417.1 xanthorhodopsin [Candidatus Planktophila sp.]              57.4    8e-07 
+MBE34384.1 biphenyl 2,3-dioxygenase [Opitutaceae bacterium]           57.4    9e-07 
+WP_198508750.1 unnamed protein product                                57.4    9e-07 
+ADY89742.1 rhodopsin, partial [actinobacterium SCGC AAA487-N03]       54.3    1e-06 
+RZP10542.1 rhodopsin [Flavobacteriales bacterium]                     56.6    1e-06 
+WP_111669648.1 bacteriorhodopsin [Algoriphagus litoralis]             56.6    1e-06 
+CCF17652.1 Actinorhodopsin, partial [uncultured bacterium]            54.3    1e-06 
+RPG70769.1 rhodopsin [Flavobacteriaceae bacterium TMED120]            56.6    1e-06 
+MTA56399.1 xanthorhodopsin [Actinobacteria bacterium]                 54.7    2e-06 
+MAM82636.1 biphenyl 2,3-dioxygenase [Euryarchaeota archaeon]          56.6    2e-06 
+MBT27702.1 rhodopsin [Flavobacteriaceae bacterium]                    56.2    2e-06 
+PSR01329.1 hypothetical protein BRD50_08950 [Bacteroidetes bacter...  54.7    2e-06 
+MBL6657681.1 bacteriorhodopsin [Flavobacteriales bacterium] MBL68...  56.2    2e-06 
+WP_166524380.1 bacteriorhodopsin [Muricauda sp. JGD-17] NAY92970....  56.2    2e-06 
+WP_113922651.1 bacteriorhodopsin [Aquiflexum aquatile]                56.2    2e-06 
+WP_137768552.1 bacteriorhodopsin [Curtobacterium sp. SGAir0471] Q...  56.6    2e-06 
+MBC8398883.1 bacteriorhodopsin [Flavobacteriales bacterium] MBL68...  55.5    3e-06 
+RCH75312.1 biphenyl 2,3-dioxygenase [Candidatus Poseidoniales arc...  55.8    4e-06 
+OUV70045.1 rhodopsin [Flavobacteriales bacterium TMED123]             55.5    4e-06 
+DAC13458.1 TPA: hypothetical protein D7H77_00565 [Candidatus Pose...  55.5    4e-06 
+SCX56670.1 Bacteriorhodopsin [Klenkia marina]                         55.1    6e-06 
+AAY78592.1 proteorhodopsin [uncultured bacterium MedeBAC82F10] AF...  54.7    7e-06 
+WP_106137073.1 bacteriorhodopsin [Spirosoma oryzae] PRY41863.1 ba...  54.7    7e-06 
+MBK9150244.1 bacteriorhodopsin [Saprospiraceae bacterium]             54.7    8e-06 
+WP_087940293.1 bacteriorhodopsin [Algoriphagus faecimaris] SDD465...  54.3    9e-06 
+NBO70498.1 rhodopsin [bacterium] NBP64934.1 rhodopsin [Bacteroide...  53.9    1e-05 
+WP_163381470.1 bacteriorhodopsin [Cyclobacterium sp. SYSU L10401]     53.9    1e-05 
+NBC25128.1 bacteriorhodopsin [Bacteroidetes bacterium]                53.5    2e-05 
+MBD1154520.1 bacteriorhodopsin [Pelagibacterales bacterium SAG-ME...  53.1    2e-05 
+EMH80386.1 Bacteriorhodopsin-like protein [alpha proteobacterium ...  52.8    3e-05 
+WP_185786038.1 bacteriorhodopsin [Robiginitalea sp. SC105] MBC283...  52.8    3e-05 
+MBD1156788.1 bacteriorhodopsin [Pelagibacterales bacterium SAG-ME...  53.1    3e-05 
+GDX35277.1 xanthorhodopsin [Pelagibacterales bacterium]               52.4    3e-05 
+NET35637.1 bacteriorhodopsin [Cyanothece sp. SIO1E1]                  52.8    3e-05 
+CCF17618.1 Actinorhodopsin, partial [uncultured bacterium]            50.1    4e-05 
+MBC7512649.1 bacteriorhodopsin [Candidatus Saccharibacteria bacte...  52.0    5e-05 
+NBV30168.1 rhodopsin [Chitinophagaceae bacterium]                     52.0    5e-05 
+WP_099340517.1 bacteriorhodopsin [Candidatus Fonsibacter ubiquis]...  52.0    6e-05 
+RPG73320.1 biphenyl 2,3-dioxygenase [Euryarchaeota archaeon TMED192]  52.0    6e-05 
+WP_028036566.1 bacteriorhodopsin [Candidatus Pelagibacter ubique]     52.0    6e-05 
+NRB62485.1 bacteriorhodopsin [Saprospiraceae bacterium]               52.0    6e-05 
+HAH17282.1 xanthorhodopsin [Chloroflexi bacterium]                    49.7    7e-05 
+MAR11329.1 rhodopsin [Blastopirellula sp.]                            52.0    7e-05 
+WP_169606445.1 bacteriorhodopsin [Mucilaginibacter sp. F39-2] QJD...  52.0    7e-05 
+AEF57806.1 putative microbial rhodopsin, partial [uncultured prok...  49.3    1e-04 
+NQW76028.1 bacteriorhodopsin [Cytophagales bacterium]                 50.8    1e-04 
+AAY87315.1 proteorhodopsin [uncultured bacterium BAC17H8]             51.2    1e-04 
+MBC7653938.1 bacteriorhodopsin [Oligoflexus sp.]                      50.8    1e-04 
+WP_199280964.1 unnamed protein product MBG6055395.1 bacteriorhodo...  51.2    1e-04 
+MAY06870.1 biphenyl 2,3-dioxygenase [Verrucomicrobiales bacterium]    49.7    1e-04 
+ABA61391.1 proteorhodopsin [uncultured marine group II euryarchae...  51.2    1e-04 
+GDX99755.1 xanthorhodopsin [Phycisphaerae bacterium]                  50.8    1e-04 
+RZO29897.1 biphenyl 2,3-dioxygenase, partial [SAR116 cluster bact...  50.1    2e-04 
+ADY89672.1 rhodopsin, partial [actinobacterium SCGC AAA028-P02]       48.5    2e-04 
+MSO53238.1 biphenyl 2,3-dioxygenase [Acidobacteria bacterium] PHY...  50.4    2e-04 
+AGQ55514.1 actinorhodopsin, partial [uncultured bacterium]            48.1    2e-04 
+MAC50899.1 hypothetical protein [Verrucomicrobiales bacterium] MB...  50.4    2e-04 
+WP_071258885.1 MULTISPECIES: bacteriorhodopsin [unclassified Curt...  50.8    2e-04 
+CCQ25960.1 Actinorhodopsin, partial [uncultured bacterium]            47.8    2e-04 
+MBH73762.1 biphenyl 2,3-dioxygenase [Rhodospirillaceae bacterium]     50.1    2e-04 
+ABJ98212.1 putative proteorhodopsin, partial [uncultured bacterium]   48.9    2e-04 
+AAY68055.1 proteorhodopsin [uncultured bacterium] AAY82845.1 prot...  50.1    3e-04 
+MAS67767.1 rhodopsin [Flavobacteriaceae bacterium]                    49.7    3e-04 
+MAZ43543.1 hypothetical protein [Euryarchaeota archaeon]              50.1    3e-04 
+APF29481.1 proteorhodopsin, partial [uncultured bacterium]            48.5    3e-04 
+WP_135498831.1 bacteriorhodopsin [Hymenobacter elongatus] TGE1447...  49.7    4e-04 
+AGQ55530.1 actinorhodopsin, partial [uncultured bacterium]            47.0    4e-04 
+MBD1138346.1 bacteriorhodopsin [Pelagibacterales bacterium SAG-ME...  49.3    4e-04 
+MAZ36780.1 rhodopsin [Crocinitomicaceae bacterium]                    49.3    5e-04 
+APF29498.1 proteorhodopsin [uncultured bacterium]                     49.3    5e-04 
+APF29440.1 proteorhodopsin [uncultured bacterium]                     49.3    5e-04 
+MAO53547.1 hypothetical protein [Euryarchaeota archaeon]              48.9    7e-04 
+
+
+
+Query_1   1    QELG-NANFENFIGATEGFSEIA---Y-Q-FT--S--HILT-----LGYAVMLAGLLY--  43
+11678712  3    QDLG-NSNFENYVGATEGFSEMA---Y-Q-MT--S--HVLT-----LGYAVMFAGLLY--  45
+9725117   3    QDLG-NSNFENYVGASEGFSEMA---Y-Q-MT--S--HVLT-----LGYAVMFAGLLY--  45
+12692711  2    ENLG-NATFENYIGLQDGFNEMA---Y-Q-MV--A--HVLT-----LGYAVMLAGLFY--  44
+303949    3     ELG-NANFENYIGLYQGFSEMA---Y-Q-MV--A--HVLT-----LGYAVMLAGLLY--  44
+12301965  4      LG-NATFENYIGLENGYSEMA---Y-Q-MV--A--HILT-----LGYAVMLAALLY--  44
+13218326  4     KLG-NATFENYIGLEQGLNEMA---Y-Q-MV--A--HVLT-----LGYAVMLAGLFY--  45
+9481050   6     SLG-NATFENYVGITSGYTEMA---Y-Q-MS--A--HVLT-----VGFAIMLAALLY--  47
+2044010   7      LG-NSTFENYVGAGSGFTEMA---Y-Q-MS--S--HVLT-----LGYAVMLAGLLY--  47
+18969509  2           NIENMLT----YDPVQ---W-Q-LV--A--HILI-----LGFASMAAGFVY--  34
+6496542   3           NMENLFS----YSSVQ---Y-D-II--N--HVLV-----LGVGAMMSGLAY--  35
+34935     9                      YSPTQ---F-E-IV--L--GVFS-----LTAAVFAAVLVY--  34
+14908989  3           NIENLFDYTIG----Q---F-E-TV--D--HLLT-----MGVGAHLAALVF--  35
+27301268  13                     YSAGQ---F-E-FI--D--HLLT-----MGVGVHFAALIF--  38
+2617052   8    QQMGRDPNSMKNIESLFDYSAGQ---F-E-FI--D--HLLT-----MGVGVHFAALIF--  51
+200898    5                    ENFVEYAVWQY-D-MV--R--HAFA-----FTVAVFAAGLVY--  35
+25672253  5                    ENFVEMAVWQY-D-VV--R--HAFA-----FTVAVFAAGLVY--  35
+17925808  15          NIENLVPLTSG----Q---Y-T-MG--S--LILM-----VSYGAHFAFILY--  47
+25812669  12         GNIENLVSLTVG----Q---Y-T-MG--S--LILM-----VSYGAHFAFVLY--  45
+22157834  14                                        NMLS-----LATAAMFGSFIF--  29
+14540700  48                                        QMFS-----ITIAAMGAGFLF--  63
+14383989  9                       SAAQ---Y-S-LV--Y--NMFS-----FTVATMAAAFVF--  33
+1240066   7                      FSPTQ---H-A-IV--A--HAFA-----VALGAHIVGFLY--  32
+23107175  5                       SSVQ---Y-M-LV--Y--NTFS-----FTIAAMFASFIF--  29
+11170558  20                                                   FASMAAATLF--  29
+18796862  4                    DALTQAQ---F-D-TV--Y--NVLS-----LTLAAQLFGAIF--  31
+16264973  14                                        NVFS-----FGLVSMLACTVY--  29
+14587802  9                              Y-D-LV--Y--NSLS-----FTIAAMGAAFVF--  29
+23780608  14                                        NVLS-----FGLISMLATTVY--  29
+10355277  13                                        NVLS-----FGLISMLATTVY--  28
+15560190  1                                                       MLFTSIF--  7
+12315303  6                                Q-FTIVY--DVLS-----FSFATMMATTIF--  27
+6443949   12                             F-Q-AV--Y--NVLS-----FALASMIFATLF--  32
+7321357   12                                  T--F--NIFS-----FGLISMLACTVF--  29
+1326519   17                  TSGPTLTA---G-Q-FNLIY--NFFS-----FAIAAMGASAIF--  47
+15691082  1                                                       MGAATLF--  7
+23020670  16                                        NVLS-----FALVSMLACTVY--  31
+15535564  20                                                   FATMAAATIF--  29
+15740468  21                                          LS-----FGTAVMLGAFVY--  34
+17239728  6                              Y-S-LV--S--NSLS-----FGIATFGAATAF--  26
+6673965   1                                                       MLATFVF--  7
+15429244  16                                        NLLS-----LVIASQLFTAVF--  31
+9587242   41                                                           LY--  42
+9427141   21                                                    ATMGAATAF--  29
+24378535  14                                        NIFS-----FGLISMLACTVY--  29
+1403208   13                                          LS-----FTLASMMASTLF--  26
+13946063  14                                        NVFS-----FGLVSMLACTIY--  29
+26340575  7                       SPFQ---Y-S-LI--Y--NAFS-----FTFATMAATTIF--  31
+24711757  11                             Y-D-TV--Y--NFLS-----LVIAAQLFTAVY--  31
+21442498  20                                          LS-----FAVAAMGIAFVY--  33
+11388173  23                     FTPTQ---H-A-IV--G--HAFA-----VALGAHIVGFLY--  48
+18830278  10                     LSDSQ---H-E-LI--Y--NAFS-----FAVAAMGIGFVY--  35
+23559453  14                                        NVFS-----FGLISMLACTVY--  29
+10204896  14                                        NMLS-----LTIAAMFGTFAF--  29
+17660041  12                             Y-S-LV--Y--NILS-----FTIASMGASFVF--  32
+2156049   3                                            S-----FGLISMLACTVY--  15
+16992851  4                    ESLTQSQ---Y-D-TV--Y--NMFS-----LVIAAQLFTSIF--  31
+12389570  14                                        NVFS-----FGLVSMLACTIY--  29
+13686176  9                              Y-E-LV--F--NAFS-----FAIAVMGAATVF--  29
+5111641   8                      LSEDQ---Y-D-LV--Y--NVLS-----FGVAVMLGAFVY--  33
+13914836  12                             Y-W-LV--F--NMLS-----LTIAGMLAAFVF--  32
+25678525  14                               Q-LV--Y--NALS-----FGTAVMLGAFVY--  33
+24470310  13                                        NMFS-----FGLIAMLACTVY--  28
+2461256   3                   PEQLTNGQ---Y-H-TV--Y--NLLS-----LVIAAQLFTSIY--  31
+23661519  19                                          LS-----FATATLGIAFVY--  32
+13893171  8                              Y-E-LI--A--NAFS-----FTIATMGAATLF--  28
+5913753   5                          S---Y-T-LV--Y--NMLS-----LGIASMLFTSIF--  26
+5176795   26                                                 IGCMAMMAASAF--  37
+7319954   2             ENFLASIPLVAKIA---TND-YV--G--FTFF-----VGCMAMMAASAF--  37
+19129630  2             SNAVALTEG----Q---F-N-WI--Y--NVLS-----FGLISMIACTVY--  32
+20155878  22                                                 VGCMAMMAASAF--  33
+7151328   5                    ELLSPDQ---Y-T-LV--Y--NVLS-----FGTAVMFGAFVY--  32
+5165822   4                    DSLTQIQ---Y-D-TI--Y--NVFS-----LVIASQLFTSIF--  31
+23202439  15                         A---A-Q-FS--TVYNLFS-----LVIASMLFTAIY--  38
+9379376   26                                                 VGCMAMMAASAF--  37
+14106473  26                                                 VGCMAMMAASAF--  37
+24591592  7                              Y-T-LV--X--NVLS-----FGTAVMFGAFVY--  27
+22836734  18                             Y-L-LT--L--YFLV-----VAALVLFAGFLR--  38
+26926937  21                                                    AVMGAATIF--  29
+15694710  19                                        NMLS-----LGIASMLFTSIF--  34
+18504213  3                                                  VGCMAMMAASAF--  14
+16219526  11                             Y-D-FI--A--NAFS-----FGFAVMAAATLF--  31
+4324661   3             QNLLNATVIASDNY---V-A-FT--F--FIGT-----MA---MMAASVF--  34
+10013794  28                                          LS-----FGTAVMLGAFVY--  41
+5627318   28                                                           IF--  29
+23766800  22                                                 VGCMAMMAASAF--  33
+13877663  4                                                          GFVY--  7
+3921515   13                                                 VGCMAMMAASAF--  24
+3142803   26                                                 VGCMAMMAASAF--  37
+12404917  37                                                 VGCMAMMAASAF--  48
+12994993  13                                                 VGCMAMMAASAF--  24
+11767283  12                             Y-W-LV--F--NMLS-----LTIAGMLAAFVF--  32
+762685    23                                                 VGTMAMMAASVF--  34
+18298897  22                                                 LGTMAMTAASAF--  33
+2865579   38                                                    AALLASTVF--  46
+2046718   25                                                 VGCMAMMAASVF--  36
+19950362  4                    DSLTQIQ---Y-N-TV--Y--NVFS-----LVIASQLFTSIF--  31
+9640772   6                              Y-N-LV--F--NSLS-----FAIATFGAGTVF--  26
+19652476  26                                                 VGCMAMMAASAF--  37
+16085898  24                                                 VGCMAMMAASAF--  35
+18273081  12                             Y-S-LV--Y--NMLS-----LTIAAMGAATVF--  32
+24527227  26                                                 VGCMAMMAASAF--  37
+23000605  12                             Y-W-LV--F--NMLS-----LTIAGMFAAFVF--  32
+10483952  12                                  T--Q--YMFW-----VGFVGMAAATLY--  29
+16056065  26                                                 VGCMAMMAASAF--  37
+2556825   47                                                      LVASTAF--  53
+867242    18                                  T--M--YLFW-----LSTVAMGAGALY--  35
+4118958   24                                                 IGFAAMFAATLF--  35
+18832802  38                                                    AAMLAATVF--  46
+24628910  13                                        NILS-----FGLVSMLATTVY--  28
+12198716  2                                                    YALVVAGLVL--  11
+25022098  12                                  T--Q--YMFW-----VGFVGMAAATLY--  29
+2414952   52                                                      LVASTVF--  58
+919644    26                                                 VGCMAMMAASVF--  37
+10255755  22                                                      LVAATVF--  28
+11387097  29                                                 VGCMAMMAASAF--  40
+20932222  25                                                 VGCMAMMAASAF--  36
+21758289  19                                          LS-----FATATLGIAFVY--  32
+18713586  20                               E-LT--Q--YLFW-----IGFIAMASGTAF--  39
+10358648  50                                                      LVAATAF--  56
+941297    21                                                 IGSMAMLAATVF--  32
+22708786  26                                                 VGCMAMMAASAF--  37
+4594676   2             EHFITSISLVSKMA---P-DDYV--G--FTFF-----IGSMAMMAASAF--  37
+22926081  5                      LSPQQ---Y-S-TV--Y--NMLS-----FAVASMLGSFAF--  30
+17870278  27                                                 IGYMAMFASSVF--  38
+24738296  53                                                    AMMLASTVF--  61
+12378364  26                                                 VGSMAMMAASAF--  37
+20315575  14                                        NIFS-----FGLVSMLACTVY--  29
+15286927  17                                                 VGCMAMMAASAF--  28
+21767206  27                                                 IGYMAMFASSVF--  38
+18767637  26                                                 VGCMAMMAASAF--  37
+9768853   33                                                    AMMLASTVF--  41
+1424029   20                                                 IGYMAMFAASVF--  31
+18946807  27                                                 IGYMAMFASAVF--  38
+26428727  24                                                 IGFAAMFAATLF--  35
+24075904  53                                                    AMMLAFTVF--  61
+8253828   21                                                 LGYIAMLAASVF--  32
+7283781   53                                                    AMMLASTVF--  61
+21318468  42                                                      LVASTAF--  48
+23734744  23                                                   YSLIVTGLVFLA  34
+26114359  26                                                 IGYMAMFAASVF--  37
+6077469   27                                                 IGYMAMFASAVF--  38
+21818244  20                                                 IGTMAMMAASVF--  31
+10525203  27                                                 IGYMAMFASAVF--  38
+5410368   22                                                  GYMAMFAASVF--  32
+9389989   44                                                      MLAATAF--  50
+16187790  23                                                      MLAATVF--  29
+18374693  19      G-VANAETAMLATDDFVGIS---F-W---------VIS-----MG---MLAATAF--  51
+25570361  3                                                       LLATTVF--  9
+11075581  27                                                 IGSMAMMAASVF--  38
+20366378  10                               D-YV--S--FTFF-----IGTMAMMAASVF--  29
+21596340  23                                                      LLATTVF--  29
+18653937  33                                                    AMMLASTVF--  41
+5341437   27                                                 IGSMAMLASTVF--  38
+11321441  13                                          LS-----FGIATFGAATAF--  26
+21318192  8                  ATSSYTAVA---G-G-LS--I--DSLTYYMFWIATVCMGAGTVF--  42
+661729    25                                                  GYMSMLAASIF--  35
+10284593  45                                                      MMAAAIF--  51
+11907149  23                                                  GYMAMLAASVF--  33
+7843095   59                                                    AMMLATTVF--  67
+10420502  23                                  T--L--YLFW-----LGTVAMGAGALY--  40
+24326113  45                                                      LIAATAF--  51
+26526065  22                                  T--L--YLFW-----LGIVGMGAGAIY--  39
+8091631   1                                                       MLAATVF--  7
+2736403   48                                                      LVASTAF--  54
+1256315   5           NFISFIGNADLSDPVN---F-T-FF--------------LGTMAMTAASAF--  36
+22421223  45                                                 LATAMMLASTVF--  56
+543177    24                                                  GYMAMFAAAIF--  34
+26386263  22                                                  GYMAMMAASIF--  32
+23755429  41                                                     CMVAATVF--  48
+22309386  53                                                    AMMLAFTVF--  61
+
+Query_1   44   ---FI------LTIKN-VDKKFQMSNI----------LSAVVM-VSA---FLLLYAQAQN  79
+11678712  46   ---FI------LTIKN-VDKKYRMSNI----------LSAVVM-VSA---ALLLYAQAGN  81
+9725117   46   ---FI------LTIKN-VDKKYRMSNI----------LSAVVM-VSA---ALLLYAQAGN  81
+12692711  45   ---FV------LTIKT-VAPRFRTSSV----------LSVVVM-VSA---FLLLYVQASN  80
+303949    45   ---FI------LTIKS-VAPKYRISSV----------LSVVVM-VSA---FLLLYAQSNN  80
+12301965  45   ---FV------LTIKY-VAPRFRLSSV----------LSVVVM-VSA---FLLLYVQAGN  80
+13218326  46   ---FI------LTMKS-VSVKYRISSV----------LSVVVM-VSA---FLLLYAQSQN  81
+9481050   48   ---FV------LTMKT-VAPKYRISSV----------LSVVVM-ISA---FLLLMIQQQN  83
+2044010   48   ---FV------LTIKT-VAPKYRISSV----------LSVVVM-VSA---FLLLLVQQQN  83
+18969509  35   ---FM------TTMRE-VAPRYRIASV----------LGGIVM-VSA---FLLLFAQWQS  70
+6496542   36   ---FI------MTIKD-SSPRYRLTSV----------ISSVVM-VSA---ALILFNQQQS  71
+34935     35   ---SL------ATSGS-ISPRYRLTSY----------LTGVVM-VSA---TLELGFLALR  70
+14908989  36   ---FL------VISQL-VAPKYRIATA----------LSCIVM-VSA---GLILVSQAGM  71
+27301268  39   ---FL------VVSQF-VAPKYRIATA----------LSCIVM-VSA---GLILNSQAVM  74
+2617052   52   ---FL------VVSQF-VAPKYRIATA----------LSCIVM-VSA---GLILNSQAVM  87
+200898    36   ---FA------MTAYQ-THPAFRATSI----------ISAVVM-VSA---ALEIGQLWML  71
+25672253  36   ---FA------MTAYQ-TAPAYRATSI----------ISAVVM-VSA---ALEIGQLWML  71
+17925808  48   ---FI------MASLQ-VAPRYRIVPI----------MSAIVM-ASA---GLSLMREFSL  83
+25812669  46   ---FL------MTSLQ-LAPRYRIVPI----------MSAIVM-VSA---GLSLLREFNA  81
+22157834  30   ---FI------LGRSQ-VSFRFRPALV----------MSALVV-GIA---GYHYWRIFNS  65
+14540700  64   ---FV------LAQGN-LSPKYRPAMV----------VSALVV-AIA---CYHYFRIFNS  99
+14383989  34   ---FV------MSQKN-LAPKYRISMM----------VSALVV-FIA---GYHYFRIFNS  69
+1240066   33   ---FL------SRKDQ-IAPRYRTATW----------LSLAVM-AAS---GFLFLRLGQS  68
+23107175  30   ---FI------VGRSQ-VGEKYRPALL----------VSGLVV-AIA---CYHYFRIFNS  65
+11170558  30   ---FW------FGRSQ-VGPAYKTALT----------ITGLVT-AIA---AYHYYRIFES  65
+4653487   45                  Q-VGRKYQVAVI----------ISGVVV-SIA---GYHYFRIFNS  74
+18796862  32   ---LL------SVQPR-VLARYRQALV----------ISAIVC-GIA---AYHYFRIFES  67
+16264973  30   ---TL------VSQSR-VLPKYRNALV----------LSSMVT----------FIAGYHY  59
+14587802  30   ---FL------LARNT-VAYKYQRVLE----------VGALIV-GIA---CYHYVRMFSS  65
+17776954  64                                                             ES  65
+23780608  30   ---TL------VSQHR-VLPKYRNALV----------LSSMVT-FIAGYHYIRIFDSFKD  68
+10355277  29   ---TL------VSTNR-VLPKYRNALV----------LSSMVT-FIA---GYHYIRIFDS  64
+15560190  8    ---MI------LARDR-VLPRYRMALI----------ISAIVT-GIA---AYHYFRIFTS  43
+12315303  28   ---LW------MRVPS-VHEKYKSALI----------ISGLVT-FIA---SYHYLRMFNS  63
+6443949   33   ---ML------VAQGR-VLPRYRQALI----------TSATVT-GIA---AYHYWRIFDS  68
+7321357   30   ---TL------VSQSR-VLPKYRPALV----------MSSMVT----------LIAGYHY  59
+8413012   23                                                             ES  24
+1326519   48   ---FF------LARSS-VAPKYRIALL----------ISGVVV-TIA---AYHYVRIFNS  83
+15691082  8    ---FW------LGRSQ-VSQTYKTALT----------ITGLVT-AIA---FYHYLRIFNS  43
+23020670  32   ---TL------VSQSR-VLPKYRGALV----------MSSMV----T---FIAAYHYMRI  64
+15535564  30   ---LW------FGRSQ-VGPAYKTALT----------ISGLVT-AIA---AYHYFRIFES  65
+15740468  35   ---FL------TQLGA-VSKAYRSAVA----------SAAVVV-GIA---GYHYYRIWSG  70
+11613817  44                 SE-VAPAYRTALV----------ISGLVT-AIA---AYHYFRIFQS  74
+17239728  27   ---FW------LNRSQ-VDRQYRTALT----------VSGLVT-LVA---FYHYFRMFES  62
+6673965   8    ---LL------VVMPR-VLPRYRQALA----------VSSIVC-LIA---AYHYWRIFNS  43
+15429244  32   ---LI------LVLPR-VLPRYRQAIV----------IAAIVC-GIA---AYHYFRIFDS  67
+9587242   43   ---SA------KTSSD-ISKAYRTAGN----------ASTLIC-WIA---TLAYVVLVLE  78
+9427141   30   ---FW------LSRSQ-VAAAYRTALT----------ISGLVT-GIA---AYHYFRIFES  65
+24378535  30   ---TL------VSQSR-VLPKYRAALV----------MSSMV----T---FIAAYHYFRI  62
+1403208   27   ---FW------LRLSA-VHEKYKTAMT----------ITGLVT-FIA---AYHYLRIFNS  62
+13946063  30   ---TL------VSQAR-VLPKYRNALV----------MSSMV----T---FIAGY---HY  59
+26340575  32   ---LW------FGRSQ-VSAAYKNAVT----------ISGLVT-AIA---AYHYLRIFES  67
+24711757  32   ---LL------IALPR-ILPRYRQAIT----------VAIVVC-GIA---AYHYFRIFDS  67
+21442498  34   ---FL------VSRNR-VAPQYR---------------SAVTM--SA---MICGIAGYHY  63
+11388173  49   ---FL------SRRDQ-IAPHYRTATW----------LSMAVM-AAS---GLLFFRLGQS  84
+18830278  36   ---FL------VSRNR-VAPQYR---------------SAVTM--SA---MICGIAAYHY  65
+23559453  30   ---TL------VSQSR-VLPKYRAALV----------MSSMV----T---FIAGYHYFRI  62
+10204896  30   ---FV------LAKEN-IAVKYKPAIV----------CSSLVV-LIA---GYHYFRIFQS  65
+17660041  33   ---FL------MARQQ-VGVTYRPALL----------FSALVV-GIA---CYHYFRIFDS  68
+2156049   16   ---TL------VSQAR-VLPKYRNALV----------ISSMV----T---FIAAYHYFRI  48
+16992851  32   ---LT------VSLKR-ILPRYRQAIT----------VAAIVC-GIA---AYHYFRIFNS  67
+12389570  30   ---TL------VSQGR-VLPKYRNALV----------MSSMV----T---FIAGYHYFRI  62
+13686176  30   ---FF------LGRSQ-VAPAYKTAIT----------ITGIVT-LIA---AYHYVRIFAS  65
+5111641   34   ---FL------TQMSS-VNKEYRPAVA----------ASAVVVGIAG---YHYL------  64
+13914836  33   ---FL------LARSY-VAPRYHIALY----------LSALIV-FIA---GYHYLRIFES  68
+25678525  34   ---FL------TQMNS-VAKQYRTGVA----------VSAVVV-GIA---GYHYYRIWQG  69
+24470310  29   ---TL------VSQAR-VLPKYRNALV----------LSSMV----T---FIAGY---HY  58
+2461256   32   ---LL------VVQPR-VLPRYRQALV----------VAAIVC-GIA---AYHYFRIFDS  67
+23661519  33   ---FL------VSRNR-VSPAYR---------------SAVTM--SA---MICGIAAYHY  62
+13893171  29   ---FW------LGRSQ-VAPAYKTALT----------ITGLVT-FIA---AYHYVRIGQS  64
+5913753   27   ---LF------VARER-VAPRYRMAVM----------VSGTVT-AIA---AYHYFRMFDD  62
+5176795   38   ---FF------LSLSQ-FDKKWRVSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+7319954   38   ---FF------LSMNS-YDRKWRTSIL----------VSGLIT-FIA---AVHYWYMRDY  73
+19129630  33   ---TL------VSQPR-VLPKYRKALV----------LSSMVT----------FIAGYHY  62
+20155878  34   ---FF------LSIRS-VDKKWSTSIL----------VSGLIT-FIA---AVHYFYMRDY  69
+7151328   33   ---FL------TQLKS-VKEQYRSAIS----------VSAVVV-GIA---G---YHYFRI  65
+5165822   32   ---LV------ICLPR-VLPRYRQAMT----------VAAIVC-GIA---AYHYFRIFSS  67
+5000302   64                                                             ES  65
+23202439  39   ---LL------VSQRR-VAPRYRNALV----------VSAIVC-GIA---AYHYIRIFNN  74
+9379376   38   ---FF------LSLSQ-FDKKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+14106473  38   ---FF------LSLSQ-FDKKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+24591592  28   ---FL------TQMRS-VNKQYQAGIA----------VSAIVV-GIA---GYHYY-----  58
+22836734  39   ---AV------FTQRE-VGARFRPATV----------ARLAVT-GVA---TLSYVIVLMG  74
+26926937  30   ---FF------LGRSQ-VAAPYKTAIT----------VTGLVT-LIAAYHYVRIFA---S  65
+15694710  35   ---LW------VARDR-VLPKYRLAVM----------VSATVT-SIA---AYHYFRMFDS  70
+18504213  15   ---FF------LSLNQ-FDRKWRTSVL----------VSGLIT-FIA---AVHYYYMRDY  50
+16219526  32   ---LW------FSRSQ-VAPAYKMAVT----------ISGLVT-AIA---GYHYLQIMLS  67
+4324661   35   ---FF------FELNN-TDKKWRTSLL----------VSG-----------LITFIAAVH  63
+10013794  42   ---FL------TQLGA-VSKAYRSAVA----------SAAVVV-GIA---GYHYYRIWSG  77
+5627318   30   ---FW------LGRSQ-VAPQYKSAMT----------ITGLVT-FIA---AYHYFRIFES  65
+23766800  34   ---FF------LSLNQ-FDKKWRTSVL----------VSGLIT-FIA---AVHYFYMKEY  69
+13877663  8    ---FL------VSRNR-VAPQYR---------------SAVTM--SA---MICGIAAYHY  37
+3921515   25   ---FF------LSLSQ-FDKKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  60
+3142803   38   ---FF------LSLNQ-FDRKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+12404917  49   ---FF------LSLSQ-FDKKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  84
+12994993  25   ---FF------LSLSQ-FDKKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  60
+11767283  33   ---FL------LARSY-VAPRYHIALY----------LSALIV-FIA---GYHYLRIFES  68
+762685    35   ---FF------FELSN-VEKKWRTSIL----------VSG-----------LITFIAAVH  63
+18298897  34   ---FF------LSLNQ-FDSKWRTSIL----------VSGLIT-FIA---AVHYYYMREA  69
+2865579   47   ---FF------VERDR-VSAKWKTSLT----------VSGLVT-GIA---FWHYLYMRGV  82
+2046718   37   ---FF------LSMNN-FDKKWRTS----------------IL-VSG---LITFIAAVHY  66
+19950362  32   ---II------ISLKR-VLPRYRQAMT----------VAAIVC-GIA---AYHYFRIFES  67
+9640772   27   ---FF------AQRSQ-VAPAYKTALT----------LSGLVC-LIA---FYHYLRMFDS  62
+19652476  38   ---FF------LSMNS-YDRKWRTSIL----------VSGLIT-FIA---AVHYWYMRDY  73
+16085898  36   ---FF------LSINM-VEGKWKTSLL----------VSGLIT-FIA---AVHYYYMRDY  71
+18273081  33   ---FF------LVRGS-VLPKYRPALI----------VSGLVT-LIA---CYHYFRIFNS  68
+24527227  38   ---FF------LSLSQ-FDRKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+23000605  33   ---FL------LARSY-VAPRYHIALY----------LSALIV-FIA---GYHYLRIFES  68
+10483952  30   ---FL------VERSS-LDPEYRSVAT----------VAALVT-FVA---AIHYYFMKDA  65
+16056065  38   ---FF------LSMSS-FDKKWRTSIL----------VSGLIT-FIA---AVHYYYMRGY  73
+2556825   54   ---FF------LETQR-VEGKWKTSLT----------VSGLVT-LVA---AVHYFYMRDV  89
+867242    36   ---FW------LQRKT-VPVQYQTALT----------VAGIICAVAA---F-------HY  65
+4118958   36   ---FF------SAMNL-VDAKWKTSML----------VSALIT-AIA---ALHYY-----  66
+18832802  47   ---FF------VERDQ-VSAKWKTSLT----------VSGLIT-GIA---FWHYLYMRGV  82
+24628910  29   ---TL------VSQNR-VLPKYRNALV----------LSSMVT-FIAGYHYLRIFDSFKH  67
+12198716  12   ---FAGFIRAWVTQHE-IGSRFRTATVSRLSLLAVATLSYVLL-IVG---FLSGY---DH  60
+25022098  30   ---FL------VERNS-LDPEYRSVAT----------VAALVT-FVA---AIHYYFMKDA  65
+2414952   59   ---FF------LERDR-VSAKWKTSLT----------VSGLVT-LVA---AVHYFYMREV  94
+919644    38   ---FF------LSLNQ-FNKKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+10255755  29   ---FF------IERDR-VAGKWKTSLT----------VSGLVT-LIA---AVHYFYMRDV  64
+11387097  41   ---FF------LSMNN-FDRKWKTSIL----------VSGLIT-FIA---AVHYWYMRDY  76
+20932222  37   ---FF------LSMSS-FDSKWRTSIL----------VSGLIT-FIA---AVHYWYMRDY  72
+21758289  33   ---FL------VSRNR-VSPAYR---------------SAVTM--SA---MICGIAAYHY  62
+18713586  40   ---FW------LSKND-VLPKYRSTLI----------VSGLIT-GIA---AYHYFTMANV  75
+10358648  57   ---FF------LETQR-VAPKWKTSLT----------VSGLVT-LVA---SVHYFYMRDV  92
+941297    33   ---FF------LEMGN-VAGKWRTSLL----------ISGLIT-FIA---AVHYFYMRDF  68
+22708786  38   ---FF------LSMNS-FDNKWKTSIL----------VSGLIT-FIA---AVHYWYMRDY  73
+4594676   38   ---FF------LSLSQ-FDSKWRTSIL----------VSGIIT-FIA---AVHYFYMRDY  73
+22926081  31   ---FV------MGRKL-VGPKYRLALV----------VSSLVV-LIA---GYHYWRIMGS  66
+17870278  39   ---FF------VERGS-VDGKWKTSLL----------VSGLIT-GIA---AVHYYYMRD-  73
+24738296  62   ---FL------VERQN-VDDKWKTSMT----------VAALVT-GVA---WY--------  89
+12378364  38   ---FF------LSLNQ-FDSKWRTSVL----------VSGLIT-FIA---AVHYFYMRDY  73
+20315575  30   ---TL------VSQGR-VLAKYRNALV----------MSSMV----T---FIAGY---HY  59
+15286927  29   ---FF------LSMNS-HDNKWRTSIL----------VSGLIT-FIA---AVHYWYMREY  64
+21767206  39   ---FF------VERGS-VDGKWKLSLL----------VSGLIT-GIA---AVHYYYMRDF  74
+18767637  38   ---FF------LSMNS-FDSKWRTSIL----------VSGLIT-FIA---AVHYWYMRDY  73
+9768853   42   ---FL------VERQN-VDDKWKTSMT----------VAALVT-GVA---WY--------  69
+5699033   36                                                     FLSLDAGGAK  45
+1424029   32   ---FF------FERGS-VDDKWKLSLL----------ISGLITGIAA---VHYFYM----  64
+25245048  40              LSMNS-FDKKWRTS----------------IL-VSG---LITFIAAVHY  67
+18946807  39   ---FF------VERSS-VSDKWKTSLL----------VSGLIT-GIA---AVHYYYMRD-  73
+1374505   65                                        LSYVVL-VAS---FALGY-----  78
+26428727  36   ---FF------SAMNL-VADKWKTSML----------VSALIT-AIA---ALHYY-----  66
+24075904  62   ---FL------VERQN-VPDKWKTSMT----------VAALVT-GVA---WY--------  89
+8253828   33   ---FF------VERGS-VSDKWKMSLL----------VSALITGIAA---VHYYYMRDYN  69
+7283781   62   ---FL------VERQN-VDDKWKTSMT----------VAALVT-GVA---WY--------  89
+21318468  49   ---FF------LETQR-VSAKWKTSLT----------VSGLVT-LVA---AVHYFYMRDV  84
+23734744  35   QAAFV------FTTRPLVEPKHQAAHI----------LSGVIA-LVA---GVA-YFQMQD  73
+26114359  38   ---FF------FERNQ-VEGKWKTSML----------VAGLIT-MIA---AVHYFYMRDV  73
+6077469   39   ---FF------VERGS-VDGKWKTSLL----------VSGLIT-GIA---AVHYYYMRD-  73
+21818244  32   ---FF------FELNT-TPTRWRTSVL----------VSGIIT-FIA---AVHYYYMRG-  66
+10525203  39   ---FF------AERSS-VDGKWKTSLL----------VSGLIT-GIA---AIHYYYMRD-  73
+5410368   33   ---FF------FERGS-VAKKWKTSLL----------VSGLIT-GIA---AVHYYYM---  65
+9389989   51   ---FF------METGN-VAAGWRTSVI----------VAGLVT-GIA---FIHYMYMREV  86
+16187790  30   ---FF------IERNS-VKASWRTSVT----------LSGLVT-GIA---FVHYMYMRDV  65
+10647223  40              LSMNQ-FDRKWRTSIL----------VSGLIT-FIA---AVHYWYMRDY  73
+18374693  52   ---FF------LEVGS-VSAAWRTSVT----------VAGLVT-GIA---FIHYMYMRGV  87
+25570361  10   ---FF------IERNS-VKASWRTSIT----------LSGLVT-GIA---FVHYMYMREV  45
+11075581  39   ---FF------FEMNN-VEGKWRTSLL----------VSGLIT-FIA---AVHYYYMRDF  74
+20366378  30   ---FF------LELNN-TSKEWRTSVL----------VSGLIT-FIA---AVHYYYMREY  65
+21596340  30   ---FF------IERNS-VKASWRTSIT----------LSGLVT-GIA---FVHYMYMREV  65
+18653937  42   ---FL------IERQN-VPDKWKTSMT----------VAALVT-GVA---WY--------  69
+5341437   39   ---FF------VQMTR-VDGKWKDSML----------VSGLIT-GIA---AVHYFYMRSF  74
+11321441  27   ---FW------LNRSQ-VDRRYRTAIT----------ISGIVT-LVA---FYHYFRMFES  62
+21318192  43   ---FF------LERSN-VPAKYRTTLT----------VSGLIT-GIA---CFHYFRMAAI  78
+661729    36   ---FI------VERGT-VNDKWKTSML----------ISALIT-FIA---AVHYFYMRGV  71
+10284593  52   ---FL------MEAGR-LPGKWKTAMT----------IGALVQ-IVA---AVHYFYMRDV  87
+11907149  34   ---FF------FERGS-VDGKWKLSML----------VSALIT-GIA---AVHYYYMRD-  68
+7843095   68   ---FL------VERQN-VAAKWKTSMT----------VAALVT-GIA---WYHYTYMRQH  103
+10420502  41   ---FW------LMMGT-VAKSYR----------------SVMV-VAG---IICAVACFHY  70
+24326113  52   ---FF------LETQR-VAGKWKTSLT----------VSGLVT-LVA---AVHYFYMREV  87
+26526065  40   ---LW------MLQGT-LSDKYKKVAI----------VAGIIC-AVA---CFHYYRMASI  75
+8091631   8    ---FF------IERDR-VDSKWKTSLT----------VSGLVT-LVA---AVHYFYMRDV  43
+2736403   55   ---FF------IETQR-VEGKWKTSLT----------VSGLVT-LVA---AVHYFYMRDV  90
+1256315   37   ---FF------LSLPQ-FDSKWRTSIL----------VSGLIT-FIA---AVHYYYMREA  72
+22421223  57   ---FI------LERQN-VAAKWKTSMT----------VAALVT-GVA---WYHYTYMRDH  92
+543177    35   ---FL------FERST-VADKWKTSLL----------ISGLIT-GIA---SVHYYYMRDY  70
+26386263  33   ---FF------FERSR-VSDKWKLSLL----------VSALIT-FIA---AVHYYYMRD-  67
+23755429  49   ---FL------METLN-VSSKWRTSMV----------VGALVT-LVA---AVHYFYMRDV  84
+22309386  62   ---FL------VERQN-VPDKWKTSMT----------VAALVT-GVA---WYHYTYMREV  97
+
+Query_1   80   W---T---S--SF------T-----F---NE--EV--GR--YF---L--DP---S-----  98
+11678712  82   W---T---S--SF------S-----F---DP--EA--GK--YF---L--NP---D-----  100
+9725117   82   W---T---S--SF------S-----F---DP--EA--GK--YF---L--NP---D-----  100
+12692711  81   W---T---E--SF------V-----F---DT--ER--GK--YF---L--GE---G-----  99
+303949    81   W---T---S--SF------V-----F---DA--ER--GL--YF---L--GA---G-----  99
+12301965  81   W---T---S--SF------V-----F---DQ--ER--GR--YF---L--GE---G-----  99
+13218326  82   W---T---N--SF------V-----F---DA--ER--GK--YF---L--GE---G-----  100
+9481050   84   W---T---N--AF------V-----F---DA--ES--GR--YF---L--GS---A-----  102
+2044010   84   W---T---G--AM------I-----Y---DA--ES--AR--YI---L--GD---G-----  102
+18969509  71   W---Q---T--TF------T-----FQ--NG--EF--VR---------------S-----  85
+6496542   72   W---Q---H--AF------A-----W---DG--NK-----------W--NP---S-----  86
+34935     71   W---N---N--AF------S-----W---NG--SV-----------Y--EL---S-----  85
+14908989  72   W---T---D--AF------A-----L-------EN--GV--YK---L--Q----------  86
+27301268  75   W---T---D--AY------A-----Y---VD------GS--YQ---L--Q----------  89
+2617052   88   W---T---D--AY------A-----Y---VD------GS--YQ---L--Q----------  102
+200898    72   W---N---E--SF------A-----F---NP--AT---Q--TF---Q--VV---D-----  89
+25672253  72   W---N---E--SF------A-----F---NP--ET---Q--MF---A--VV---E-----  89
+17925808  84   W---E---A--SF------N-----F---DG--AL------YQ---P--LS---E-----  100
+25812669  82   W---E---Q--SY------E-----F---VE------GM--YQ---P--LA---E-----  98
+22157834  66   W---D---G--AY------E-----I---NA--AG--TA--YV-------A---T-----  82
+14540700  100  W---N---E--SY------A-----L-------DA--GN--YV---A-------T-----  114
+14383989  70   W---E---A--AY------T-----L---NE--AM--GA--Y-------EY---S-----  86
+1240066   69   W---D---L--AF------A-------------QA--GA--DM---V--R----T-----  83
+23107175  66   W---E---S--AF----------------NL--IN--GE--YV-------P---S-----  80
+11170558  66   W---S---E--AY------A-----L---TD--GV-----------I--TA---S-----  80
+4653487   75   W---E---A--AY------A-----L---Q-------GS--TY---L---A---T-----  89
+18796862  68   F---K---A--AF------V-----T---DA--RG--GRG-TY---I--QA---A-----  87
+16264973  60   W---R---I--FN------S-----F---TD--AS--DG--YK---V--AT---S-----  78
+14587802  66   W---N---A--AF------S-----H---TE--T--------G---Y--AP---T-----  80
+17776954  66   W---N---A--AY------V-----L---KD--GV-----------I--AA---T-----  80
+23780608  69   A---T---A--DD------S-----F---NV--LV--D--------M--EK---G-----  84
+10355277  65   F---H---K--AS------M-----V---EG--AV--GK--VV---T--AG---H-----  83
+15560190  44   F---T---D--AF------G-------------EG--G-----------DP---A-----  55
+12315303  64   W---T---E--AY-----------------E--WT--GE--GE---L--AK---T-----  79
+6443949   69   F---R---H--AY------I-----Q---TT--VG--GD--YS---L--V----A-----  86
+7321357   60   W---RIF-N--SF------E-----E---ST--EN--GM--VK---I--GS---S-----  80
+8413012   25   W---S---G--AF------Q-----L---DI--ET--GT--YL-----------A-----  40
+1326519   84   F---E---A--AY------A-----L---NA--A---GV--Y-------AP---T-----  99
+15691082  44   W---E---A--SF------T-----T---TN------GQ-------L--VP---S-----  58
+23020670  65   F-------N--SF------E-----D---SY--AN--GA--VS---V--GT---G-----  82
+15535564  66   W---E---T--AY--------------------EV--RN--GV---I--TV---T-----  80
+15740468  71   W---A---E--GS------V----------------------------------------  76
+11613817  75   W---E---A--AF------L-----F---EN--GT-----------V--SA---A-----  89
+17239728  63   F---G---N--AF--------------------QV--KG--ST---V--SA---T-----  77
+6673965   44   F---T---E--AY------V-----A---EG--AG--EA--AM---AGSDP---TYVLVN  69
+15429244  68   F---K---D--AF------I-----T---DA--VG--GRG-TY---L--QA---E-----  87
+9587242   79   W---V---F--GF------T-----P---SA--DG--ST--YT---P--D----A-----  96
+9427141   66   W---N---A--AY------T-----L---KD--GV-----------V--LA---S-----  80
+24378535  63   F---N---S----------------F---NE--SS--MKEAVT---L--GT---S-----  80
+1403208   63   W---V---D--AY------E-----FPDVHE--GN--GD--SISI-Q--DPNL-T-----  88
+13946063  60   W---R---I--FN------S-----F---SE--SS--EG--MA---V--KV---S-----  78
+26340575  68   W---E---S--AY------H-----Y---VN--GV-----------V--SA---T-----  82
+24711757  68   F---K---A--AF------V-----T---DA--VG--GRG-DY---A--QA---A-----  87
+21442498  64   W-------------------------------------R--IF---G--QF---G-----  71
+11388173  85   W----------DL------A-----F---VE--QT--GQ--MV---R-------T-----  99
+18830278  66   W---R--------------I-----F---GQ-----------F---A--D----------  74
+23559453  63   F---N---S----------------F---NE--SS--MKNAVT---V--GT---S-----  80
+10204896  66   W---D---D--AY------A-----I---SE--S---GM--YV-------A---T-----  81
+17660041  69   F---E---S--AY------A-----L---AD--GV--YK-----------P---S-----  83
+2156049   49   F---N---S----------------F---NE--STMDGG--VT---V--GT---A-----  66
+16992851  68   F---T---E--AF------V-----T---DA--VG--GKG-IY---M--QA---P-----  87
+12389570  63   F---N---S----------------F---NE--AS--KD--MA---V--NV---S-----  78
+13686176  66   W---E---A--SY------S-----V---MA------GQ-------I--TA---T-----  80
+5111641   65   --------------------------------------R--IW---Q--DF---G-----  71
+13914836  69   W---V---G--AY------Q-----L---QE------GS--YV-------P---T-----  83
+25678525  70   W---A-----------------------------I--GE---------------------  74
+24470310  59   W---R---I--FN------S-----F---NEASSA--GM--VK---I--GS---E-----  79
+2461256   68   F---R---G--AF------V-----T---DA--VG--GQG-TY---T--QA---A-----  87
+23661519  63   W-------------------------------------R--MF---S--NF---A-----  70
+13893171  65   W---D---A--AF------D-----V---VD--GG--VQ--AT---A--VP---------  82
+5913753   63   F---K---H--AF------------------------------------GP---D-----  70
+5176795   74   W---A---S----------------F---GE--S--------------------------  80
+7319954   74   W---A---A--------------------NM--ES--PT--FF-----------------  84
+9268104   64                                         R--MF---S--NF---S-----  70
+2904434   64                                         R--MF---S--NF---S-----  70
+19129630  63   W---R---I--FN------S-----F---HE--AA--GD--GYSITV--RG---A-----  84
+20155878  70   W---A---E----------------F---AE--S--------------------------  76
+7151328   66   W-------S--DF-----------------------------------------------  69
+5165822   68   F---T---E--AF------V-----T---DA--VG--GRG-NY---T--QV---A-----  87
+5000302   66   W---N---A--AY------T-----L---KD--GV-----------I--AA---T-----  80
+23202439  75   F---G---E--AY------P-----A---GA--TV--DD--AH---V--A----S-----  92
+9379376   74   W---A---S----------------F---GE--S--------------------------  80
+14106473  74   W---A---S----------------F---GE--S--------------------------  80
+24591592  59   --------------------------------------R--IW---S--DF---G-----  65
+22836734  75   F---V---G--GY-----------------D--RV--GA--SY---L--PN---G-----  90
+26926937  66   W---E---A--SY------T-----V---LA------GQ-------V--SA---T-----  80
+15694710  71   F---H---A--AY------G-----G---MH--EG--DV--PG---I--VQ---A-----  89
+18504213  51   W---A---A----------------F---QE--S--------------------------  57
+16219526  68   W---D---A--AF------S-----V---TN--GT-----------I--ET---T-----  82
+4324661   64   Y---Y---Y--MR------G-----Y---NL--ET--GE----------SP---T-----  79
+10013794  78   W---A---E--GS------V----------------------------------------  83
+5627318   66   W---G---A--AY------D-----V---SD--GV-----------V--TT---T-----  80
+23766800  70   W---A----------------------------EV--GE----------SP---T-----  78
+13877663  38   W---R--------------I-----F---GQ-----------F---A--D----------  46
+3921515   61   W---A--------------T-----F---GE--S--------------------------  67
+3142803   74   W---A---A--------------------NM--ES--PT--FF-----------------  84
+12404917  85   W---A---S----------------F---GE--S--------------------------  91
+12994993  61   W---A---S----------------F---GE--S--------------------------  67
+11767283  69   W---V---G--AY------Q-----L---QD--GV-----------Y--VP---T-----  83
+762685    64   Y---Y---Y--MR------G-----Y---NL--DT--GE---------------------  76
+18298897  70   A---T---S--GG------V-----T---TE-----------------------------  78
+2865579   83   W---V----------------------------ET--GE----------SP---T-----  91
+2046718   67   WYM-R---D--YW------A-----V---NE--AS--PT--FF-----------------  83
+19950362  68   F---K---E--AF------V-----T---DA--IG--GAG-NY---V--QV---A-----  87
+22651651  5                                                          T-----  5
+9640772   63   F---N---H--AY------V-----L---SN--GV-----------V--ET---T-----  77
+19652476  74   W---A---A--------------------NA--ES--PT--FF-----------------  84
+16085898  72   W---A----------------------------EV--GE----------SP---T-----  80
+18273081  69   W---E---G--AY------V--------------L--GA--MG---Y--GP---S-----  83
+24527227  74   W---A--------------------V---NM--ES--PT--FF-----------------  84
+23000605  69   W---V---G--AY------Q-----L---QG--GV-----------Y--VP---T-----  83
+10483952  66   V---G---D--SG------L-----L---SE--IT--G----------------------  77
+16056065  74   WADVS---E--SP------T-----F----------------------------------  83
+2556825   90   W---I----------------------------ET--GS--TP---L--V----------  99
+867242    66   W---R---M--SG------I-----Y---LE--GV--AS--LF---T--AD---G-----  84
+4118958   67   ------------Y------M-----R---NA--AM-------------------E-----  74
+18832802  83   W---V---E--T------------------------------------------------  86
+24628910  68   A---T---A--EG------T-----F---NV--A-------HD---V--NT---S-----  83
+12198716  61   T---P---S--GY------I-----P---NS--EA--AN--AF---L--P----------  77
+25022098  66   V---G---D--SG------L-----L---SE--IT--G----------------------  77
+2414952   95   W---V---T--TG------S-----------------------------TP---T-----  103
+919644    74   W---F---A--------------------NV--ES--PT--FF-----------------  84
+10255755  65   W---V---S--TG------T-----S---PT--E--------------------------  74
+11387097  77   W---AGVGE--SP------T-----F----------------------------------  86
+20932222  73   W---A---S----------------F---GE--S----------------P---T-----  81
+21758289  63   W-------------------------------------R--MF---S--NF---A-----  70
+18713586  76   Y---K---S---------------------------------------------------  78
+10358648  93   W---I----------------------------EV--GS----------TP---T-----  101
+941297    69   W---V---T--NQ------T-----S---PT--E--------------------------  78
+22708786  74   W---A---T--NA------T-----------------------------SP---T-----  82
+4594676   74   W---E---A----------------F---GE--S--------------------------  80
+22926081  67   W---T---A--AY------A-----L---KD--GV--YK--L------------T-----  81
+17870278  74   -------------------------F---YL--QT--GS----------SP---T-----  83
+24738296  90   -----------HY------T-----Y---MR--EV--A----V---M--DG---G-----  103
+12378364  74   W-----------------------------D--AV--GE----------SP---T-----  82
+20315575  60   W---R---I--FN------S-----F---AE--AS--DG--MM---V--KV---S-----  78
+15286927  65   W---I---T--------------------NQ--TS--PT--FF-----------------  75
+21767206  75   Y---M---Q--TG------T-----------------------------SP---T-----  83
+18767637  74   W---A---T--------------------NA--ES--PT--FF-----------------  84
+9768853   70   -----------HY------T-----Y---MR--EV--A----V---M--EG---G-----  83
+5699033   46   W---R---T--SILVSGLIT-----F---IA--AV--HY--YY---M--RDASVS-----  73
+1424029   65   --------------------------------------R--DY---Y--MA---T-----  71
+25245048  68   WYM-R---D--YW------A-----V---NG--ES--PT--FF-----------------  84
+18946807  74   -------------------------F---YL--QT--GQ----------SP---T-----  83
+1374505   79   ------------------------------D--RK--GD--SW---V--PN---A-----  89
+26428727  67   ------------Y------M-----R---NA--AM-------------------E-----  74
+24075904  90   -----------HY------T-----Y---MR--EV--A---IM---A--DG---G-----  104
+8253828   70   L---V---TGDSP------T-----F----------------------------------  78
+7283781   90   -----------HY------T-----Y---MR--EV--A----V---M--EG---G-----  103
+21318468  85   W---I---A--T------------------------------------------------  88
+23734744  74   I---Y---R--DMLAELA-T-----V---VD--AT--DR--QT---L--MR---E-----  97
+26114359  74   W---L---T--TG------E-----S---PT--Q--------------------------  83
+6077469   74   -------------------------F---YL--QT--GS----------SP---T-----  83
+21818244  67   -------------------------Y---NL--ET--GA----------SP---T-----  76
+10525203  74   -------------------------F---YL--QT--GS----------SP---T-----  83
+5410368   66   --------------------------------------R--DY---Y--AM---T-----  72
+9389989   87   W---V---S--T------------------------------------------------  90
+16187790  66   W---V---T--TG------T-----------------------------SP---T-----  74
+10647223  74   W---A---T--------------------NM--ES--PT--FF-----------------  84
+18374693  88   W---V---Q--T------------------------------------------------  91
+25570361  46   W---V---S--TG------T-----------------------------SP---T-----  54
+11075581  75   W---I---E--NG------T-----S---PT--EL-------------------------  85
+20366378  66   Y---Q---E--T------------------Q--ES--PT--FF-----------------  76
+21596340  66   W---V---S--TG------T-----------------------------SP---T-----  74
+18653937  70   -----------HY------T-----Y---MR--EV--A----V---M--EG---G-----  83
+5341437   75   W---A---E--NQ------A-----S---PT--E--------------------------  84
+11321441  63   L---G---N--AF--------------------QV--KG--GT---V--SA---T-----  77
+21318192  79   Y-----------------------------------------------------E-----  80
+22414346  91                                RE--EL--LR--TS---Y--NA---I-----  102
+661729    72   W---L---E--TH------E-----S---PT--Q--------------------------  81
+10284593  88   W---V---T--T------------------------------------------------  91
+11907149  69   -----------------------------------------YY---L---A---T-----  73
+7843095   104  W---V-------------------------------------------------------  105
+10420502  71   F---R---M--SA------I-----Y---LE--QV--AG--LF------DA---A-----  88
+24326113  88   W---V---T--TG------S-----------------------------TP---T-----  96
+26526065  76   Y---A---E--SL------ANAITIV---DG--EV--SI--GE---L--SA---------  98
+3542055   79                                 E--RK--GD--SW---V--PN---A-----  89
+8091631   44   W---V---A--T------------------------------------------------  47
+2736403   91   W---V---N--TG------A-----------------------------TP---T-----  99
+1256315   73   A---T---S--GG------V-----T---TE-----------------------------  81
+22421223  93   W---A---E--SY------A-----A---VA--AD--GT--TG---V--GS---S-----  111
+543177    71   Y---V---T----------T-----H---ET--PI--A----------------------  80
+26386263  68   -----------------------------------------YY---L--AT---G-----  73
+23755429  85   W---V---A--T-------------------------------------GE---S-----  91
+22309386  98   W---A---D--AY------V-----T---E-------GA--AY---G--SP---L-----  113
+
+Query_1   99   G-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVSLTTSKFSSVR  137
+11678712  101  G-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVITLTKSKVSSVR  139
+9725117   101  G-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVTLTKSKVSSVR  139
+12692711  100  N-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVSLTTSKFSSVR  138
+303949    100  E-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVSLTKSKFSSIR  138
+12301965  100  Q-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVSLTKSNFSSVR  138
+13218326  101  T-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVSLTKSKFSSIR  139
+9481050   103  T-D---Q--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVSLTKSSFSSVR  141
+2044010   103  N-D---L--------FNNG-----YRYLNWLIDVPMLLFQ---I-LFVVTLTKSSFSSIR  141
+18969509  86   E-G---V--------FSNG-----FRYLNWLIDVPMLLLQ---L-VVILGLGAATSRRLG  124
+6496542   87   A-T---T--------FSNG-----FRYVNWSIDVPMLLTQ---L-LIVLGVSGAAFRRRW  125
+34935     86   G-D---L--------FSNG-----FRYMNWSIDVPVLLTQ---L-LIVAGITGMTFRKRW  124
+14908989  87   --D---IT-------FNNG-----YRYVNWMITIPCLLTQ---L-LIVLNYNKAQIVKKA  125
+27301268  90   --D---LT-------FSNG-----YRYVNWMATIPCLLLQ---L-LIVLNLKGKELFSTA  128
+2617052   103  --D---LT-------FSNG-----YRYVNWMATIPCLLLQ---L-LIVLNLKGKELFSTA  141
+200898    90   G-E---R--------FSNG-----YRYMNWMIDVPLLMTQ---L-VVVAGFTGAALFKKW  128
+25672253  90   G-E---R--------FSNG-----YRYMNWIIDVPMLMTQ---L-VVVAGFAGAALFRKW  128
+17925808  101  G-N---V--------FTNA-----FRYGNWTITVPILLTQ---L-PIAFALSRPDLHKRA  139
+25812669  99   N-S---T--------FTNA-----YRYGNWTITVPILLTQ---L-PLAFGLLRPELHVRA  137
+22157834  83   G-K---P--------FNDA-----YRYVDWLLTVPLLVAE---L-IAVMTLPKGKSGPMM  121
+14540700  115  A-I---P--------FNDA-----YRYADWILTVPLLLVE---A-VAVLALASNIASGMI  153
+14383989  87   G-E---P--------FNDA-----YRYVDWLLTVPLLVVE---L-VLVMDLPEGRSGPMA  125
+1240066   84   P-N---R--------FDGG-----LRYVNWFVTVPVLLVQ---V-LYALDLTRSVAQRLR  122
+23107175  81   G-K---P--------FNDA-----YRYVDWLLTVPLLLVE---L-IAVLALPKKDREGLF  119
+11170558  81   G-V---A--------FNDA-----YRYVDWLLTVPLLLIE---L-VLVMRLSQSATVSTS  119
+4653487   90   E-E---L--------FNDA-----YRYVDWLLTVPLLLIE---A-VAVLALSKEVARPLL  128
+18796862  88   G-E---S--------FNEG-----YRYVDWLLTVPLLLTE---L-IVVLALAHKLRNSLL  126
+16264973  79   GAG---S--------FNEA-----YRYVDWLLTVPLLLVE---V-IAVLALAKAASSSLI  118
+14587802  81   N-E---L--------FNEA-----YRYADWLLTVPLLLVE---L-IAVLYVTGQKRGSLI  119
+17776954  81   G-F---A--------FNDA-----YRYVDWLLTVPLLLIE---L-VLVMRLSPEQTSSKT  119
+23780608  85   Q-H---A--------FNEA-----YRYVDWILTVPLLLVE---V-IAVLALAKEASRSLI  123
+10355277  84   P-D---A--------FNEG-----YRYVDWILTVPLLLVE---V-IAVLALAKEASKSLI  122
+15560190  56   A--------------FNVG-----YRYVDWLLTVPLLLVE---T-VAVLALVAAARKSLL  92
+4265657   8                   FNEG-----YRYVDWLLTVPLLVAE---L-ILVLRLDKKVESTLI  43
+12315303  80   G-S---P--------FNDA-----YRYMDWLLTVPLLLIE---I-ILVMKLPADESKSKA  118
+6443949   87   G-E---G--------FNEA-----YRYVDWLLTVPLLLVE---T-VAVLALAKKVQSQLL  125
+7321357   81   E-G---A--------FNEA-----YRYVDWILTVPLLLVE---V-IAVLALARGASKSLM  119
+8413012   41   V-G---Q--------FNDA-----YRYVDWLLTVPLLVAE---L-VAVLGLSRRQSSSLT  79
+1326519   100  S-V---P--------FNDA-----YRYVDWLLTVPLLLVE---A-VAVLALARNVANSLI  138
+15691082  59   G-I---A--------FNDA-----YRYVDWLLTVPLLLIE---L-ILVMNL--SRQETVS  95
+23020670  83   K-G---T--------FNEG-----YRYVDWILTVPLLLVE---V-IAVLGLAKAASSSLI  121
+15535564  81   G-L---A--------FNDA-----YRYVDWLLTVPLLLIE---L-ILVMRLSQQETVSKS  119
+15740468  77   ----------------NEG-----YRYADWLITVPILVVE---L-LIVLGVTADRRRKLM  111
+11613817  90   G-Y---A--------FNDA-----YRYVDWLLTVPLLLIE---L-VLVMRLSCDETISKA  128
+17239728  78   G-L---A--------FNDA-----YRYVDWLLTVPLLVAE---L-ILVMGLSGAETRSRI  116
+6673965   70   G-E---G--------FNEG-----YRYIDWLLTVPLLLFE---A-IAVLALARMVRRSLM  108
+15429244  88   G-A---S--------FNEG-----YRYVDWLLTVPLLLVE---L-IAVLALARKVQTSLL  126
+9587242   97   G-T---V--------ITE------LRYMDWSVTVPLLTIE---I-LAVAALSRTQAFRLR  134
+9427141   81   G-F---A--------FNDA-----YRYVDWLLTVPLLLVE---L-ILVMRLSREETTSKT  119
+24378535  81   Q-G---S--------FNEA-----YRYVDWILTVPLLLVE---V-IAVLGLAKAVSKSLI  119
+1403208   89   G-K---P--------FNDA-----YRYMDWLLTVPLLLIE---I-IFCCNLSPDEVAKKA  127
+13946063  79   G-DQG-A--------FNEA-----YRYVDWLLTVPLLLVE---V-IAVLALAKEVSKSLI  119
+26340575  83   G-I---A--------FNDA-----YRYVDWLLTVPLLLIE---L-VLVMRLTREETVQKG  121
+24711757  88   G-A---G--------FNEG-----YRYVDWLLTVPLLLVE---L-IAVLALARSVQRGLL  126
+21442498  72   S-D---T--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGLSKEVAKRVT  110
+11388173  100  G-N---R--------FDGG-----LRYVNWLVTVPVLLVQ---V-LYVLDLSRPVVQRLR  138
+18830278  75   G-G---T--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGLSKEAAKKTT  113
+23559453  81   Q-G---S--------FNEA-----YRYVDWILTVPLLLVE---V-IAVLGLVKAASTSLI  119
+10204896  82   G-V---P--------FNDA-----YRYVDWLLTVPLLLVE---L-IVLLSLTRERMQDVL  120
+17660041  84   G-K---P--------FNDA-----YRYVDWMLTVPLLLVE---L-VAVLHLAKDVSRKML  122
+2156049   67   K-G---T--------FNEA-----YRYVDWILTVPLLLVE---V-IAVLALAKAAASSLI  105
+16992851  88   G-A---G--------FNEG-----YRYVDWLLTVPLLLLE---L-IAVLALARKLQTSLL  126
+12389570  79   G-SQG-A--------FNEA-----YRYVDWLLTVPLLLVE---V-IAVLALSKEISRSLI  119
+13686176  81   G-V---K--------FNDA-----YRYVDWLLTVPLLLIE---L-ILVMRLSPAETVSKG  119
+5111641   72   E-G---T--------MNEG-----YRYADWLITVPLLIVE---L-LIVLGVSSDQRKKLM  110
+13914836  84   G-K---P--------FNDF-----YRYADWILTVPLLLLE---L-ILVLGLSTARTWNLS  122
+25678525  75   ---------------MNEG-----YRYADWLITVPLLVIE---L-LIVLGVTAERRKALL  110
+24470310  80   Q-G---S--------FNEA-----YRYVDWVLTVPLLLVE---V-IAVLVLTKEISRSLI  118
+2461256   88   G-S---A--------FNEG-----YRYVDWLLTVPLLLVE---L-VVVLALAKKLQTSLL  126
+23661519  71   E-G---T--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGVSKAVAKKVT  109
+13893171  83   ---------------FNDA-----YRYVDWLLTVPLLLVE---L-ILVMNLPRRETVSKG  118
+5913753   71   G-MGVVA--------YNVG-----YRYVDWFLTVPLLLVE---T-VAVLALAAAVQRSML  112
+5176795   81   ----------------PTF-----FRYVDWVLTVPLMCLE---F-YLILKIAGAKQSLLW  115
+7319954   85   -------------------------RYVDWVLTVPLMCVE---F-FLILKVAGAK-KSLM  114
+9268104   71   G-G---E--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGVSKEVAKKVT  109
+2904434   71   G-G---E--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGVSKEVAKKVT  109
+19129630  85   N-N---A--------FNEG-----YRYVDWILTVPLLLVE---A-IAVLALAKEVASSLT  123
+20155878  77   ----------------PTF-----FRYIDWTLTVPLMCVE---F-FLILKVAGAKKSLMW  111
+7151328   70   G-D---LK-------MNEG-----YRYADWLITVPLLIIE---L-LIVLGVSADIRKRLM  109
+5890871   94                           FRYIDWLLTVPLLMVE---F-YLILAACTNVAGSLF  125
+14665624  94                           FRYIDWLLTVPLLMVE---F-YLILAACTNVAGSLF  125
+5165822   88   G-A---S--------FNEG-----YRYVDWLLTVPLLLLE---L-VAVLALARKVQSSLL  126
+5000302   81   G-F---A--------FNDA-----YRYVDWLLTVPLLLVE---L-VLVMRLSPEQTSSKT  119
+23202439  93   N-I---A--------FNEA-----YRYVDWLLTVPLLLIE---T-VAVMALTRDTQRALL  131
+9379376   81   ----------------PTF-----FRYVDWVLTVPLMCLE---F-YLILKVAGAKQSLLW  115
+14106473  81   ----------------PTF-----FRYVDWVLTVPLMCLE---F-YLILKVAGAKQSLLW  115
+24591592  66   E-G---V--------MNEG-----YRYADWLITVPLLIIE---L-LIVLGVAKQERRSLM  104
+22836734  91   T-A---I--------VAYA-----ARYMDWSVTVPLLTIE---L-MAVVAFTGSVARRGR  129
+15604988  94                           FRYIDWLLTVPLLMVE---F-YLILAACTNVAGSLF  125
+26926937  81   G-V---K--------FNDA-----YRYVDWLLTVPLLLIE---L-ILVMRLSAAETVAKG  119
+15694710  90   F-A---H--------YNVG-----YRYVDWFLTVPLLLVE---L-VAVLGLAREKQSSLL  128
+18504213  58   ----------------PTF-----FRYVDWILTVPLMCLE---F-YLILKVAGAK----T  88
+16219526  83   G-Y---A--------FNQA-----YRYVDWLLTVPLLLVE---L-ILVMRLSRSETVSKS  121
+4324661   80   ------------------F-----FRYVDWILTVPLMCVE---F-Y----LITKKVGATQ  108
+10013794  84   ----------------NEG-----YRYADWLITVPILVVE---L-LIVLGVTADRRRKLM  118
+5127719   94                           FRYIDWLLTVPLLICE---F-YLILAAATNVAGSLF  125
+5627318   81   G-Y---A--------FNQA-----YRYVDWFLTVPLLLVE---L-ILVMGLSRSETISRA  119
+23766800  79   F-----------------------FRYVDWILTVPLMCLE---F-YLILKVAGAKTNLLW  111
+13877663  47   G-G---T--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGLSKEAAKKTT  85
+3921515   68   ----------------PTF-----FRYVDWVLTVPLMCLE---F-YLILKVAGAKQSLLW  102
+103906    95                           FRYIDWLLTVPLLICE---F-YLILAAATNVAGSLF  126
+3142803   85   -------------------------RYVDWILTVPLMCVE---F-YLILKVAGAKQSLMW  115
+12404917  92   ----------------PTF-----FRYVDWVLTVPLMCLE---F-YLILKVAGAKQSLLW  126
+12994993  68   ----------------PTF-----FRYVDWVLTVPLMCLE---F-YLILKVAGAKQSLLW  102
+11767283  84   G-K---P--------FNDF-----YRYADWLLTVPLLLLE---L-ILVLGLTAARTWNLS  122
+762685    77   S-P---I--------F--------FRYVDWILTVPLMCVE---F-Y----LITKKAGAKM  108
+8192073   93                           FRYIDWLLTVPLLICE---F-YLILAAATNVAGSLF  124
+18298897  79   ------------------------IRYIDWILTVPLMCVE---F-YLILKAAGATTKHLS  110
+2865579   92   V-----------------------FRYIDWLLTVPLLICE---F-YLILAAATNVAGSLF  124
+2046718   84   -------------------------RYVDWILTVPLMCVE---F-YLILKVAGAK-KSLM  113
+19950362  88   G-A---G--------FNEG-----YRYVDWLLTVPLLLLE---L-IAVLALARKVQTGLL  126
+22651651  6    G-E---V--------FNDA-----YRYADWILTVPLLLTE---T-VAVLALSKEVAKPLL  44
+9640772   78   G-A---A--------FNDA-----YRYVDWLLTVPLLLLE---L-VLVMRLSKEETYSKG  116
+19652476  85   -------------------------RYVDWILTVPLMCVE---F-FLILKVAGAK-KALM  114
+16085898  81   F-----------------------FRYVDWTLTVPLMCVE---F-YLILKAAGAQTGLLW  113
+18273081  84   G-Q---P--------FNDA-----YRYVDWLLTVPLLLVE---L-VAVLALPVKLTRSLL  122
+21936172  106                          YRYIDWLITVPLLMIE---F-YLILSAITKVSTGVF  137
+24527227  85   -------------------------RYVDWILTVPLMCVE---F-YLILKVAGAKPSLMW  115
+23000605  84   G-K---P--------FNDF-----YRYADWLLTVPLLLLE---L-ILVLGLPPARTWNLG  122
+10483952  78   ---------------FPTE-----IRYIDWLVTTPLLLIK---F-PLLLSLQGKMKTGLL  113
+340730    88                           FRYIDWLLTVPLQICE---F-YLILAAATNVAGSLF  119
+16056065  84   ------------------------FRYVDWILTVPLMCVE---F-YLILKAA----GATK  111
+2556825   100  ------------------------YRYIDWLITVPLLMVE---F-YLILRAITNVSGGVF  131
+22979572  104                          YRYIDWMITVPLLIVE---F-YLILSAITKVPAGIF  135
+3395301   94                           FRYIDWLLTVPLLICE---F-YLILAAATNVAGSLF  125
+867242    85   T-R---IEGAAIKQ-FPTA-----YRYIDWLITVPLLVME---F-PLLLNLGKRGSELFR  130
+4118958   75   G-D---I---------TTA-----YRYVDWILTVPLMCVE---F-YLILKPSGATKSLLW  112
+7725806   95                           FRYIDWLLTVPLQMVE---F-YLILAACTSVAASLF  126
+15934951  95                           FRYIDWLLTVPLQMVE---F-YLILAACTSVAASLF  126
+18832802  87   G-D------------SPTV-----FRYIDWLLTVPLQMVE---F-YLILAACTNVAGSLF  124
+11073229  104                          YRYIDWLITVPLLMIE---F-YLILAAIAKVPTGVF  135
+24628910  84   S-M---A--------FNEA-----YRYVDWILTVPLLLVE---V-IAVLALAKEASKSLI  122
+12198716  78   -------------------------RYMDWSVTVPLLTVE---L-LAVCAVAGAVARRTQ  108
+25022098  78   ---------------FPTE-----IRYIDWLVTTPLLLVK---F-PLLLSLKGKMKTGLL  113
+2414952   104  V-----------------------FRYIDWLITVPLLMIE---F-YLILSAITKVPVGIF  136
+19356674  3                            YRYVDWLLTVPLLLVE---V-IAVLALAKEVSSSLI  34
+12695804  84                           FRYVDWVLTVPLMCVE---F-YLILKVAGAKPALMW  115
+919644    85   -------------------------RYVDWILTVPLMCVE---F-YLILKVAGAK-TGLM  114
+10255755  75   ------------------------FRYIDWLLTVPLLMIE---F-YLVLSAVTKVPSGVF  106
+11387097  87   ------------------------FRYVDWILTVPLMCVE---F-YLILKVAGAKKSLMW  118
+20932222  82   F-----------------------FRYVDWVLTVPLMCVE---F-YLILKAAGAQ-KSLM  113
+21758289  71   A-G---T--------WNEG-----YRYADWLLTVPLLVAE---L-VVVSGVSKAVAKKVT  109
+18713586  79   G-E------------FPTE-----YRYIDWIITTPLMLIK---F-PMLLGL------GAQ  110
+10358648  102  V-----------------------YRYIDWLITVPLLMIE---F-YLILTAITKVPAGVF  134
+941297    79   ------------------------FRYIDWILTVPLMCVE---F-YLILKAFGAKMDLLW  110
+22708786  83   F-----------------------FRYVDWVLTVPLMCVE---F-YLILRAA----GATK  111
+6351915   95                           FRYIDWLLTVPLQMVE---F-YLILAACTNVAASLF  126
+4594676   81   ----------------PTF-----FRYVDWTLTVPLMCVE---F-YLILKVAGAK-KSLL  114
+23930607  1                             RYVDWLLTVPLLLVE---V-IAVLALAKEVSRSLI  31
+22926081  82   G-E---P--------FNDA-----YRYVDWLLTVPLLLTE---L-VLVMKL           111
+11974359  1                            YRYADWLLTVPLLLVE---V-IAVLALAKEVSKSLI  32
+17870278  84   ------------------A-----FRYVDWTLTVPLMCVE---F-YLLTKPFGAKGSTLF  116
+20068445  94                           FRYINWLLTVPLQVVE---F-YLILAACTSVAASLF  125
+24738296  104  G-S---P--------LV-------YRYIDWLITVPLQVVE---FYLIMAAIGAATFAMFR  141
+654568    1                            YRYVDWLLTVPLLLVE---V-IAVLALAKEVSKSLI  32
+22953663  107                          FRYIDWLITVPLLMVE---F-YLILSAITKVPGGVF  138
+12378364  83   F-----------------------FRYVDWVLTVPLMCVE---F-FLILRAAGAK-KSLM  114
+20315575  79   G-DQG-A--------FNEA-----YRYVDWLLTVPLLLVE---V-VAVLALAKEVSRSLI  119
+7105377   110                          FRYIDWLITVPLLMVE---F-YLILSAVTKVSSGIF  141
+19316836  103                          FRYIDWLITVPLLMIE---F-YLILSAIAKVPTGVF  134
+16727856  2                            YRYVDWLLTVPLLLVE---V-IAVLALAKEVSRSLI  33
+15286927  76   -------------------------RYVDWILTVPLMCVE---F-YLILKAAGATTKLMW  106
+21767206  84   ------------------A-----FRYVDWTLTVPLMCVE---F-YLLTKPFGAKGSTLF  116
+16982495  1                            YRYADWLLTVPLLLVE---V-IAVLALTREVSRSLI  32
+18767637  85   -------------------------RYVDWVLTVPLMCVE---F-YLILKAA----GATK  111
+1803582   6                                                            SSLI  9
+9768853   84   G-S---P--------LV-------YRYIDWLITVPLQVVE---FYLIMAAIGAATFAMFR  121
+5699033   74   G-D---S--------VTF------FRYVDWILTVPLMCVE---F-YLILQKAGAQ-KSLM  110
+12407940  1                                               M-VLVMNLQKEKAKRLM  16
+1424029   72   G-D------------NPTF-----FRYVDWTLTVPLMCVE---F-Y----LLTRAAGATK  105
+25245048  85   -------------------------RYVDWILTVPLMCVE---F-YLILKVAGAKKSLMW  115
+18946807  84   A-----------------------FRYVDWTLTVPLMCVE---F-YLLTKPFGAKTSTL-  115
+1374505   90   N-A---I--------LSWA-----PRYFDWTVTVPLLVIE---L-LAVATLAGVAARRLR  128
+26428727  75   G-D---I---------TTA-----YRYVDWILTVPLMCVE---F-YLILKPSGATKSLLW  112
+24075904  105  S-P---L--------V--------YRYIDWLITVPLQVVE---FYLILAAIGVGTFVMFR  141
+8253828   79   ------------------------FRYVDWILTVPLMCVE---F-YLLTRLAGAT-KSLL  109
+7283781   104  G-S---P--------LV-------YRYIDWLITVPLQVVE---FYLIMAAIGAATFAMFR  141
+9752090   99                            RYVDWSVTVPLLTVE---L-LAVCALAGARARRVR  129
+21318468  89   G-D---T---------PTV-----YRYIDWLITVPLLMVE---F-YIILRAVGSASGGIF  126
+23734744  98   A-Y---P--------AVSQ-----YRYMDWAITTPLLLLT---M-VRLLNVSLRSIARPV  136
+26114359  84   ------------------------FRYIDWILTVPLMCVE---F-YLILRAFGANQSLLW  115
+6077469   84   ------------------A-----FRYVDWTLTVPLMCVE---F-YLLTKPFGAKGSTLF  116
+21818244  77   F-----------------------FRYVDWLLTVPLMCVE---F-Y----LITKKAGATI  105
+10525203  84   ------------------A-----FRYVDWTLTVPLMCVE---F-YLLTKPFGAKGATL-  115
+5410368   73   G-E------------NPTA-----LRYIDWTLTVPLMCVE---F-YLLTKAAGAKLGLLW  110
+9389989   91   G-D------------SPTV-----YRYIDWLITVPLQMVE---F-YLILSAVGKANSGMF  128
+16187790  75   V-----------------------FRYIDWLLTVPLLMIE---F-YFILSAVKKVSGGIF  107
+10647223  85   -------------------------RYVDWVLTVPLMCVE---F-FLILRVAGAKKSLMW  115
+18374693  92   G-D------------SPTV-----YRYIDWLITVPLQMVE---F-YLILAAVGKANSGMF  129
+25570361  55   V-----------------------FRYIDWLLTVPLLMVE---F-YFILSAVKKVSTGIF  87
+11075581  86   -------------------------RYIDWILTVPLMCVE---F-YLILKAFGAQIGLLW  116
+1217571   1                            YRYVDWLLTVPLLLVE---V-IAVLALTREVSRSLI  32
+19459228  79                            RYIDWILTTPFLLLS---L-IYVGLPAASDPEKKR  109
+20366378  77   -------------------------RYVDWLLTVPLMCVE-----FYLITKKSGGTTSLL  106
+21596340  75   V-----------------------FRYIDWLLTVPLLMVE---F-YFILSAVKKVSTGIF  107
+18653937  84   G-S---P--------LV-------YRYIDWLITVPLQVVE---FYLIMAAIGAATFAMFR  121
+10237124  98                           YRYIDWLITVPLLMLE---F-YFVLSAVNKADSGIF  129
+5341437   85   ------------------------FRYIDWILTVPLMCVE---F-YLIL----KAFGAKQ  112
+11321441  78   G-V---P--------FNDA-----YRYVDWLLTVPLLVAE---L-ILVMGLSAAETRS    114
+21318192  81   G-G---G--------FPTE-----YRYIDWIITTPLMLIK---F-PLLLGL-GAKGKKLF  118
+22414346  103  G-Q---L------------------RYIDWSVTTPLLLLK---T-VGMLKIKPSQAKTAI  136
+2566895   7                              YVDWLLTVPLMCVE---F-YLITKKAGAKVGLLW  36
+661729    82   ------------------------FRYIDWTLTVPLMCIE---Y-YLILKPAGAK-GGML  112
+10284593  92   G-D---T---------PTV-----YRYVDWLITVPLQMVE---F-YFILAAVAAVSAGIF  129
+11907149  74   G-E---T---------PTA-----LRYIDWTLTVPLMAVE---F-YLLTKPFGAKGVTLF  111
+21653690  88   G-E---S--------FNEG-----YRYVDWLLTVPLLLLE---L-IAILALARKVQNGLI  126
+11965843  3                            YRYVDWFITVPLQIIE---F-YVILAAVTVVSGSLF  34
+7843095   106  ----------------DNGSSPIVYRYIDWLLTVPLQIAE---FYLILAAIGVASVVMFR  146
+10420502  89   G-Q---RIAGKTITQFPTA-----YRYIDWLITV-PLLVL---E-VPLLLRLGRKGTGLF  134
+16141251  45                           YRYIDWLITVPLLMVE---F-YLILRAIGEVSGGIF  76
+9727269   2                            YRYVDWFLTVPLLLVE---T-VAVLALAKSLQSALL  33
+24326113  97   V-----------------------FRYIDWLITVPLLITE---F-YLILSAIAKPPVGIF  129
+8289605   1                             RYVDWLLTVPLLLVE---V-IAVLAPAKEVSKSLI  31
+26526065  99   ---------------FPTA-----YRYIDWLITVPLMVLE---F-PLLLALGKKS----K  130
+3542055   90   N-A---I--------LSWA-----PRYFDWTVTVPLLVIE---L-LAVATLVGAAARRLR  128
+17362009  1                             RYIDWLLTVPLLLVE---V-IAVLALAKAVASSMI  31
+1797821   75                           FRYVDWLLTVPLQIIE---F-YLILAAITLVAASVF  106
+8091631   48   G-E---T---------PTV-----YRYIDWLITVPLLMVE---F-FLILSAITAVPARVF  85
+2736403   100  V-----------------------YRYIDWLITVPLLMIE---F-YLILRAIANVSSGIF  132
+1256315   82   ------------------------IRYIDWILTVPLMCVE---F-YLILKVAGATTKHLS  113
+22421223  112  P-L---V--------L---------RYIDWLITVPLQVSEFYLI-LAAVGVATAAL----  145
+13499329  4                            YRYIDWLITVPLQMIE---F-YLILVAVRKANSGIF  35
+543177    81   ------------------------LRYIDWTLTVPLMVVE---F-YLLVRAAGAKVS-LL  111
+349919    1                             RYVDWLLTVPLLLVE---T-VAVLAIGRLAQKAML  31
+24278733  98                           YRYIDWLITVPLQMIE---F-YLILAAVRKVPTSIF  129
+26386263  74   E-N-------------PTA-----LRYIDWTLTVPLMCVE---F-YLLTKAAGAK-TSLL  109
+25175270  98                           YRYIDWLITVPLQMVE---F-YLILAAIRKANSGMF  129
+23755429  92   P-T---V--------F---------RYVDWLITVPLQMIE---F-YLILAACTTVALGVF  126
+22309386  114  V-----------------------YRYIDWLITVPLQVVE---FYLILAAIGVGTFVMFR  147
+
+Query_1   138  NQFW---F---S-----G--A--M------MIITGYIG----Q----F--Y------E--  158
+11678712  140  NQFW---F---S-----G--A--M------MIITGYIG----Q----Y--Y------E--  160
+9725117   140  NQFW---F---S-----G--A--M------MIITGYIG----Q----Y--Y------E--  160
+12692711  139  NQFW---F---S-----G--A--M------MIITGYIG----Q----F--Y------E--  159
+303949    139  NQFW---F---S-----G--A--L------MIITGYIG----Q----Y--Y------E--  159
+12301965  139  NQFW---F---S-----G--T--G------MIVTGYIG----Q----Y--Y------E--  159
+13218326  140  NQFW---F---S-----G--T--G------MIITGYIG----Q----F--Y------E--  160
+9481050   142  NQFW---F---S-----G--T--L------MILTGYVG----Q----Y--Y------E--  162
+2044010   142  NGFW---F---S-----G--T--G------MIVTGYIG----Q----Y--Y------E--  162
+18969509  125  IIFV---G---S-----G--V--A------MILLGYVG----Q----F--Y------E--  145
+6496542   126  VGLV---V---A-----G--I--L------MIYTGYVG----Q----F--Y------E--  146
+34935     125  ASFV---I---A-----G--L--A------MIWTGYIG----Q----F--D------E--  145
+14908989  126  ISLV---L---L-----A--W--G------MIITGYIG----Q----L--Y------E--  146
+27301268  129  TWLI---L---A-----A--W--G------MIITGYVG----Q----L--Y------E--  149
+2617052   142  TWLI---L---A-----A--W--G------MIITGYVG----Q----L--Y------E--  162
+200898    129  GLLT---F---T-----G--I--A------MIITGYVG----Q----Y--F------E--  149
+25672253  129  ALLT---F---T-----G--V--A------MILTGYVG----Q----Y--F------E--  149
+17925808  140  FRMA---I---P-----A--V--L------MIWTGLYG----Q----F--G------E--  160
+25812669  138  ARMC---I---P-----A--L--L------MIWTGLVG----Q----F--G------E--  158
+22157834  122  GKLI---I---A-----S--A--L------MIALGYPG-------------------E--  139
+14540700  154  WRLA---L---A-----A--F--V------MIATGYPG----E----I--S---------  173
+14383989  126  AKLG---F---A-----A--A--L------MIALGYPG-------------------E--  143
+1240066   123  VVLV---S---S-----G--V--L------MVFCGWVG----Q----F--S------A--  143
+23107175  120  GKLA---I---A-----A--F--L------MIALGYPG----E----L------------  138
+11170558  120  VRLG---S---A-----A--A--L------MIILGYPG----E----I--A------D--  140
+4653487   129  IKLA---T---A-----A--V--L------MIGTGYVG----E----V--A------D--  149
+18796862  127  WRLI---P---A-----S--A--L------MIALGYPG-------------------E--  144
+16264973  119  TRLV---P---A-----A--A--A------MIALGYPG----E----I---------S--  138
+14587802  120  NNLV---I---A-----A--V--L------MIVLGYPG----E----V------------  138
+17776954  120  VRLG---T---A-----A--A--L------MIVLGYPG----E----I------------  138
+23780608  124  TRLV---P---A-----S--A--A------MIALGYPG----E----I---------S--  143
+10355277  123  TRLV---P---A-----S--A--A------MIALGYPG----E----I--S---------  142
+15560190  93   MKLV---P---A-----S--F--L------MIALGYPG----D-------A------Q--  112
+4265657   44   QRNV---L---Y-----A--F--L------MIATGYIG----E----L--D------V--  64
+12315303  119  TTLG---I---A-----S--A--A------MIAIGYPG----EL---F--M------S--  140
+6443949   126  VRLV---P---A-----S--A--L------MIILGYPG----E----V------------  144
+7321357   120  TRLI---P---A-----S--A--A------MIALGYPG----E----I--S------T--  140
+8413012   80   FRLA---I---A-----A--A--L------MVILGYPG----E----I--A------A--  100
+1326519   139  LRLA---V---A-----A--T--L------MIVLGYPG----E----I--S---------  158
+15691082  96   KSFR---L---G-----GLAA--I------MIILGYPG----E----I--A------S--  118
+23020670  122  SRLV---P---A-----S--A--A------MIALGYPG----E----I--S------T--  142
+15535564  120  LKLG---F---A-----A--A--L------MIALGYPG----E----I--A------D--  140
+15740468  112  TTLV---P---A-----T--V--L------MIGLGYPG----E----V---------S--  131
+11613817  129  TRLG---V---A-----A--A--L------MVILGYPG----E----I--A------E--  149
+17239728  117  TSLG---G---A-----A--A--L------MIVLGYPG----E----V------------  135
+6673965   109  IKLI---P---A-----A--F--L------MIALGYPG----E----I---------S--  128
+15429244  127  WKLV---P---A-----A--T--L------MILLGYPG----E----I---------S--  146
+9587242   135  AIAV---P---A-----A--F--L------MIITGYLGVVFGQ----D--A------R--  159
+9427141   120  IRLG---S---A-----A--A--L------MIVLGYPG----E----I------------  138
+24378535  120  YRLV---P---A-----S--A--A------MIILGYPG----E----I--S------S--  140
+1403208   128  WALG---G---A-----A--G--L------MIILGYPG----E----LI-L------E--  149
+13946063  120  MRLV---P---A-----S--A--A------MIALGYPG----E----I--S------N--  140
+26340575  122  WRLG---L---A-----A--A--L------MIVLGYPG----E----I------------  140
+24711757  127  VRLV---P---A-----A--A--L------MIILGYPG----E----I--S------G--  147
+21442498  111  PRLI---V---A-----S--L--L------MIATGYPG----E----T--A------E--  131
+11388173  139  VVLV---T---S-----G--V--L------MVLCGYVG----Q----F--S------S--  159
+18830278  114  PRLV---V---A-----A--L--L------MIATGYPG----E----T--A------A--  134
+23559453  120  TRLV---P---A-----S--A--A------MIILGYPG----E----I--S------S--  140
+10204896  121  TRLV---I---A-----S--V--L------MIALGYPG----E----V--S------D--  141
+17660041  123  VKLI---I---A-----A--V--L------MIGLGYIG----E----G---------E--  142
+2156049   106  GRLV---P---A-----S--A--A------MIALGYPG----E----I--S------A--  126
+16992851  127  FRLI---P---A-----S--A--L------MIALGYPG----E----M---------S--  146
+12389570  120  TRLV---P---A-----S--A--A------MIALGYPG----E----I--S------S--  140
+13686176  120  TKLG---V---L-----A--A--L------MVVLGYPG----E----I--S------T--  140
+5111641   111  TTLI---P---A-----S--V--L------MLGLGYPG----E----V--A------D--  131
+13914836  123  LKLV---V---A-----S--L--L------MLGLGYVG----E----VN-T------E--  144
+25678525  111  KTLV---P---A-----T--V--L------MIGLGYPG----E----V---------A--  130
+24470310  119  SRLV---P---A-----S--A--A------MIALGYPG----E----I--S------N--  139
+2461256   127  VRLI---P---A-----S--A--L------MIALGYPG----E----I---------S--  146
+23661519  110  PRLV---V---G-----A--L--L------MIATGYPG----E----VAAH------G--  132
+13893171  119  VRLG---G---L-----A--A--L------MIVLGYPG----E----I--S------D--  139
+5913753   113  MKLV---P---A-----A--A--L------MIGLGYPGDA--Q----L--N------L--  135
+5176795   116  KMIV---Y---S--------L--V------MLVTGYFG----E----A--V------D--  135
+7319954   115  WKLI---L---A-----S--V--I------MLVTGYLG-------------------E--  132
+9268104   110  PRLV---I---A-----A--L--L------MIATGYPG----E----VAAH------G--  132
+2904434   110  PRLV---I---A-----A--L--L------MIATGYPG----E----VAAH------G--  132
+19129630  124  NRLV---I---A-----S--A--L------MIGLGYPG----E----I---------S--  143
+20155878  112  KLIL---F---S--------V--V------MLVTGYIG----E----A--I------D--  131
+7151328   110  KSLL---P---A-----T--V--L------MIGLGYPG----E----V--A------S--  130
+5890871   126  KKLL---I---G-----S--L--V------MLIAGYMG----E----S--G------S--  146
+14665624  126  KKLL---I---G-----S--L--V------MLIAGYMG----E----S--G------N--  146
+5165822   127  TRLI---P---A-----A--A--L------MIALGYPG----E----M--A------S--  147
+5000302   120  VRLG---S---A-----A--A--L------MIVLGYPG----E----I------------  138
+23202439  132  YKLV---P---A-----S--A--L------MIVLGYPG----E----L--S---------  151
+9379376   116  KMII---Y---S--------I--V------MLVTGYIG-------------------E--  132
+14106473  116  KMIV---Y---S--------I--V------MLVTGYIG-------------------E--  132
+24591592  105  LKLV---P---A-----T--I--L------MVGLGYPG----E----V--A------N--  125
+22836734  130  LIAA---A---S-----A--F--L------MIFTGFLG----A----I--IMPGGS-A--  155
+15604988  126  KKLL---G---G-----S--L--V------MLIAGYMG----E----S--G------S--  146
+26926937  120  TKLG---L---L-----A--A--L------MVVLGYPG----E----I--S------A--  140
+15694710  129  KRLV---P---A-----A--A--L------MIILGYPG----D----L--KLNLFGID--  155
+18504213  89   NLLWRMIF---L-----S--V--V------MLVTGYLG----EAV--F--P------E--  114
+16219526  122  VTLG---G---A-----A--A--L------MIILGYPG----E----V--A------E--  142
+4324661   109  GLLWKLIF---A-----S--L--V------MLVTGYIG----E----A--I------Y--  132
+10013794  119  TTLV---P---A-----T--V--L------MIGLGYPG----E----V---------S--  138
+5127719   126  KKLL---V---G-----S--L--V------MLVFGYMG----E----A--G------I--  146
+5627318   120  LRLG---I---L-----A--A--L------MIALGYPG----E----V--A------E--  140
+23766800  112  KMVV---L---S--------V--I------MLVTGYLG----E----T--V------Y--  131
+13877663  86   PRLV---V---A-----A--L--L------MIATGYPG----E----T--A------A--  106
+3921515   103  KMII---Y---S--------V--I------MLVTGYIG----E----V--I------S--  122
+103906    127  KKLL---V---G-----S--L--V------MLVFGYMG----E----A--G------I--  147
+3142803   116  KMIF---F---S--------V--I------MLVTGYFG----E----A--V------Y--  135
+12404917  127  KMII---Y---S--------V--I------MLVTGYIG----E----V--I------A--  146
+12994993  103  KMII---Y---S--------V--I------MLVTGYIG-------------------E--  119
+11767283  123  IKLV---V---A-----S--V--L------MLGLGYVG----E----VN-T------E--  144
+762685    109  GLLWKLIF---A-----S--V--V------MLVTGYIG----E-------A------V--  131
+8192073   125  KKLL---V---G-----S--L--V------MLVFGYMG----E----A--G------I--  145
+18298897  111  TLIW---A---S--------L--V------MLVTGYFG----E----V--S------D--  130
+2865579   125  KKLL---V---G-----S--L--V------MLVFGYMG----E----A--G------I--  145
+2046718   114  WKLI---F---L-----S--V--I------MLITGYLG----EAV--Y--K------E--  136
+19950362  127  YRLI---P---A-----S--A--L------MIILGYPG----E----L--S------G--  147
+22651651  45   IKLV---V---A-----S--V--L------MIATGYPG----E----V--S------D--  65
+9640772   117  TKLA---F---A-----A--A--L------MVALGYPG----E----I------------  135
+19652476  115  WKLI---I---L-----S--V--I------MLVFGYFG----E----A--V------D--  135
+16085898  114  KLIW---A---S--------V--V------MLVCGYFG----E----A--V------Y--  133
+18273081  123  TRLI---I---A-----S--V--I------MIAAGYPG----E----I---------S--  142
+21936172  138  WRLV---I---G-----T--L--V------MLVGGYVG----E----A--G------Y--  158
+24527227  116  KLIG---L---S--------V--I------MLVTGYFG----E----A--V------Y--  135
+23000605  123  VKLV---V---A-----S--V--L------MLGLGYVG----E----VN-T------E--  144
+10483952  114  TKLI---I---A-----D--I--I------MIVAGYLG----E----S--S------I--  134
+340730    120  KKLL---V---G-----S--L--V------MLVFGYMG----E----A--G------I--  140
+16056065  112  KHMWTLIV---A-----S--T--A------MLVFGYWG----E----A--V------D--  135
+2556825   132  WRLM---I---G-----T--L--V------MLSAGYAG----E----A--G------Y--  152
+22979572  136  WRLI---F---G-----A--L--F------MLVFGFLG----E----A--G------Y--  156
+3395301   126  KKLL---V---G-----S--L--V------MLVFGYMG----E----A--G------I--  146
+867242    131  GLVF---W---S--------L--V------MLVTAWVA----E----E--S------P--  150
+4118958   113  KLIG---L---S--------V--V------MLVTGYFG----E-------A------G--  131
+7725806   127  KKLL---A---G-----S--L--V------MLGAGFAG----E----A--G------L--  147
+15934951  127  KKLL---A---G-----S--L--V------MLGAGFAG----E----A--G------L--  147
+18832802  125  KKLL---F---G-----S--L--V------MLVGGFLG----E----A--G------M--  145
+11073229  136  WRLM---I---G-----T--L--V------MLVGGYLG----E----A--G------Y--  156
+24628910  123  TRLV---P---A-----S--A--A------MIALGYPG----E                   140
+12198716  109  ALAV---A---G-----A--F--L------MIFAGFLG----A----F--VIG----D--  131
+25022098  114  TKLI---V---A-----D--V--I------MIVAGYLG----E----S--S------I--  134
+2414952   137  WRLM---I---G-----T--L--V------MLIGGYLG----E----A--A------Y--  157
+19356674  35   SRLV---P---A-----S--A--A------MIALGYPG----E----I--S------S--  55
+12695804  116  KLIL---F---S--------V--I------MLVTGYFG----EAV--F--Q------D--  137
+919644    115  WRLI---V---L-----S--V--I------MLITGYFG----E--------------A--  133
+10255755  107  TRLL---V---G-----S--V--A------MLVFGYMG----E-------T------G--  126
+11387097  119  RLIG---L---S--------V--I------MLVTGYLG-------------------E--  135
+20932222  114  WKMI---F---L-----S--V--I------MLVTGYLG----E--------------T--  132
+21758289  110  PRLV---V---G-----A--L--L------MIATGYPG----E----VAAH------G--  132
+18713586  111  GKXW---L---TQLVVLD--L--I------MIVTAYIA----E----V--S------D--  136
+10358648  135  WRLM---I---G-----T--L--V------MLIGGYLG----E----A--G------Y--  155
+941297    111  KMIV---Y---S--------L--W------MLIFGYLG----ETV--F--R------D--  132
+22708786  112  QLMWKMIF---A-----S--A--V------MLVTGYFG----EA---V--Y------T--  136
+6351915   127  KKLL---A---G-----S--L--V------MLGAGFAG----E----A--G------L--  147
+4594676   115  WKLI---L---A-----S--V--V------MLVTGYFG----EA---V--Y------T--  136
+23930607  32   TRLV---P---A-----A--A--A------MIALGYPG----Q----I--S------T--  52
+11974359  33   MRLV---P---A-----S--A--A------MIALGYPG----E----I--T------S--  53
+17870278  117  -KLI---I---A-----S--L--V------MLVTGYIG-------------------E--  133
+20068445  126  KKLL---A---G-----S--L--V------XLGAGFAG----E----A--G------L--  146
+24738296  142  NLM----A---A-----S--I--V------MLVAGFFG----ESG--A--W------D--  163
+654568    33   ARLV---P---A-----S--A--A------MIALGYPG----E----I--S------N--  53
+22953663  139  WRLM---I---G-----T--L--V------MLVGGYLG----E----A--G------Y--  159
+12378364  115  WKLI---F---W-----S--V--V------MLVTGYFG-------------------E--  132
+20315575  120  TRLV---P---A-----S--A--A------MIALGYPG----E----I--S------S--  140
+7105377   142  WRLI---I---G-----T--F--V------MLIGGYAG----E----A--G------L--  162
+19316836  135  WRLM---I---G-----T--L--V------MLIGGYVG----E----A--G------Y--  155
+16727856  34   MRLV---P---A-----S--A--A------MIALGYPG-------------------E--  51
+15286927  107  RMIM---L---S--------V--V------MLVAGYLG----E----A--V------Y--  126
+21767206  117  -KLI---L---A-----S--L--V------MLITGYIG-------------------E--  133
+16982495  33   MRLV---P---A-----S--A--A------MIALGYPG----E----I--S------N--  53
+18767637  112  GLMWKMIF---A-----S--V--V------MLVTGYFG----E----A--V------Y--  135
+1803582   10   TRLV---P---A-----S--A--A------MIALGYPG----E----I--S------T--  30
+9768853   122  NLM----A---A-----S--I--V------MLVAGFFG----ESG--A--W------D--  143
+5699033   111  WQLI---L---L-----S--T--V------MLVTGYIG----E-----------------  128
+12407940  17   TILV---V---S-----A--V--L------MLLTGYFG----E----I--R------D--  37
+1424029   106  SLLWKLII---A-----S--V--W------MLVAGYIG----E----S--FNP----E--  131
+25245048  116  KLIL---L---S--------V--V------MLVTGYLG-------------------E--  132
+18946807  116  TKLI---L---A-----S--L--L------MLITGYIG-------------------E--  133
+1374505   129  AVGV---A---A-----A--F--L------MISTGFVG----G----V--VID----S--  151
+26428727  113  KLIA---L---S--------V--I------MLVTGYFG----E-------A------G--  131
+24075904  142  NLM----V---A-----S--I--V------MLVAGFFG----E----S--G------A--  161
+8253828   110  WKLI---F---A-----S--T--W------MLVCGYIG----E----A--F------NPG  132
+7283781   142  NLM----A---A-----S--I--V------MLVAGFFG----ESG--A--W------D--  163
+9752090   130  ASTM---A---A-----A--F--L------MVVTGFVG----SQV--V--A------E--  152
+21318468  127  WRLM---I---G-----T--L--V------MLVGGYMG----E----A--G------Y--  147
+23734744  137  ALML---V---A-----D--L--F------MIVTGYIG----EQQLTF--D------Q--  161
+26114359  116  KMIG---Y---S--------L--L------MLIAGYLG----ETA--F--R------E--  137
+6077469   117  -KLI---V---A-----S--L--L------MLVTGYIG-------------------E--  133
+21818244  106  GLLWKLII---A-----S--I--F------MLVTGYIG----E----A--M------H--  129
+10525203  116  TKLI---I---A-----S--L--V------MLVTGYIG-------------------E--  133
+5410368   111  KLI----L---A-----A--V--L------MLVAGYIG----E----A--FNP----E--  132
+9389989   129  WRLL---L---G-----S--I--V------MLVGGYLG----E----A--G------Y--  149
+16187790  108  WRLL---I---G-----T--I--I------MLVGGYLG----E----A--G------Y--  128
+10647223  116  KLIA---L---S--------V--I------MLVTGYFG-------------------E--  132
+18374693  130  WRLL---I---G-----S--V--V------MLVGGYLG----E----A--G------Y--  150
+25570361  88   WRLL---L---G-----T--L--V------MLIGGYLG----E-------A------G--  107
+11075581  117  KMIF---Y---S--------L--I------MLVAGYLG----ETV--F--R------D--  138
+1217571   33   VRLV---P---A-----S--A--A------MIALGYPG----E----I--S------N--  53
+19459228  110  QQSW---L---I-----G--S--VIFADIAMIATGAIA----N----F--S------V--  136
+20366378  107  WKMI---L---A-----S--V--V------MLVTGYWG----E-----------------  124
+21596340  108  WRLL---L---G-----T--L--V------MLIGGYLG----E-------A------G--  127
+18653937  122  N------L---M-----G--ASIV------MLVAGFFG----ESG--A--W------D--  143
+10237124  130  WRLM---L---G-----T--L--V------MLVGGYLG----E----A--G------Y--  150
+5341437   113  NLLWRMVF---W-----S--T--W------MLVIGYLG----ETV--F--R------D--  138
+21318192  119  AQLI---A---L-----D--L--V------MVATAYIA----E----V--S------T--  139
+22414346  137  FWLL---F---A-----D--L--F------MVITGYIG----E----Q--Q------I--  157
+2566895   37   KLI----F---A-----S--V--I------MLVTGYWG----E----A--V------A--  56
+661729    113  SRLI---F---G-----S--V--V------MLVAGYIG-------------------E--  130
+10284593  130  WRLM---I---G-----S--L--V------MLVAGYLG----E----A--G------L--  150
+11907149  112  -KLI---V---A-----A--A--A------MLIFGFIG-------------------E--  128
+21653690  127  VRLM---V---A-----A--G--L------MIILGYPG----E----I--S------G--  147
+11965843  35   WRLL---G---A-----S--L--V------MLVGGYLG----E----A--G------Y--  55
+7843095   147  NLM----L---A-----S--V--V------MLVAGFFG----ETG--A--W------D--  168
+10420502  135  RSLV---L---A-----S--I--V------MLVFAWIA----E----V--S------P--  155
+16141251  77   WRLM---I---G-----T--L--I------MLVGGYAG----E----V--G------Y--  97
+9727269   34   VRLV---P---A-----A--A--L------MIALGYPG----D----AG-L------D--  55
+24326113  130  WRLM---V---G-----I--F--V------MLVFGYLG----E----T--G------Y--  150
+8289605   32   TRLV---P---A-----S--A--A------MIALGHPG----E----I--S------N--  52
+26526065  131  GLFW---N---L-----G--A--LSLG---MLIFAWIA-------------------E--  151
+3542055   129  AAGI---A---A-----A--F--L------MISTGFIG----G----V--VID----S--  151
+17362009  32   NRLV---P---A-----A--V--A------MIALGYPG----E----I---------S--  51
+1797821   107  WRLL---I---A-----S--L--V------MLIAGYLG----E----I--G------A--  127
+8091631   86   WRLL---I---G-----T--T--L------MLVFGYLG----E-------A------G--  105
+2736403   133  WRLT---V---G-----T--L--I------MLVGGYAG----E----V--G------Y--  153
+1256315   114  VLIW---A---S-----L--G--M------LVF-GYFG----E----T--G------F--  133
+22421223  146  --FW---RLLGA-----S--L--V------MLITGFLA-------------------E--  164
+13499329  36   WRLL---I---G-----S--L--V------MLIGGYLG----E----A--G------Y--  56
+543177    112  YKLI---V---A-----A--V--V------MLVFGYIG----E----A--F------T--  132
+349919    32   SRLV---P---A-----A--V--A------MIVLGYPG----D-----------------  49
+24278733  130  WKLL---I---G-----S--L--V------MLIGGYLG----E----A--G------Y--  150
+26386263  110  WKLI---L---A-----S--V--W------MLVFGYIG----E----A--FNP----E--  132
+25175270  130  WRLL---I---G-----S--L--V------MLIGGYLG----E----A--G------Y--  150
+23755429  127  WRLL---V---G-----T--V--V------MLMGGYLG----E----A--G------F--  147
+22309386  148  NLM----V---A-----S--L--V------MLVAGFFG----E----S--G------A--  167
+
+Query_1   159  -VS--------N-------L---T-----A-F----L----V----W-----G--A--IS  172
+11678712  161  -VT--------N-------L---P-----A-F----F----I----W-----G--A--IS  174
+9725117   161  -VT--------N-------L---P-----A-F----F----I----W-----G--A--IS  174
+12692711  160  -VS--------N-------L---T-----A-F----L----V----W-----G--A--IS  173
+303949    160  -VT--------N-------L---P-----A-F----F----I----W-----G--A--IS  173
+12301965  160  -VT--------D-------F---M-----V-F----A----V----W-----G--A--IS  173
+13218326  161  -VT--------N-------I---A-----S-F----A----I----W-----G--A--IS  174
+9481050   163  -VT--------N-------P---T-----L-F----F----V----W-----G--A--IS  176
+2044010   163  -VT--------S-------P---S-----T-F----F----I----W-----G--F--IS  176
+18969509  146  -VT--------N-------L---T-----A-L----W----A----W-----G--G--IS  159
+6496542   147  -TT--------D-------I---T-----K-L----L----I----W-----G--A--IS  160
+34935     146  -VD--------G-------G---T-----Q-F----W----L----W-----G--A--IS  159
+14908989  147  -VS--------D-------L---G-----N-L----Y----I----W-----G--A--IS  160
+27301268  150  -VD--------D-------I---A-----Q-L----M----I----W-----G--A--VS  163
+2617052   163  -VD--------D-------I---A-----Q-L----M----I----W-----G--A--VS  176
+200898    150  -PAAAGIAGYEN-------G---E-----Q-L----W----I----W-----G--A--IS  171
+25672253  150  -PAAAGIPGYEN-------G---E-----Q-L----W----I----W-----G--A--IS  171
+17925808  161  -TG--------D-------F---A-----R-L----N----L----W-----G--V--IS  174
+25812669  159  -TG--------N-------Y---L-----R-L----N----V----W-----G--V--IS  172
+22157834  140  -VT--------ND------M---T-----T-A----L----V----W-----G--T--LS  154
+14540700  174  --G--------D-------T---T-----T-R----L----I----W-----G--T--IS  186
+14383989  144  -VS--------G-------D---T-----S-L----FGVRGL----W-----G--F--LS  161
+1240066   144  -GR--------D-------D---G-----T-L----L----L----W-----G--L--LG  157
+23107175  139  -SS--------D-------T---A-----T-R----A----V----W-----G--T--LS  152
+11170558  141  -NN--------S-------T---R-----A-----------L----W-----G--T--LS  152
+4653487   150  -----------S-------I---T-----T-R----A----I----W-----G--A--VS  161
+18796862  145  -ISG-------D-------N---T-----I-R----N----V----F-----G--L--LS  159
+16264973  139  -AD--------N-------G---T-----K-I----L---------W-----G--V--LS  151
+14587802  139  -AT--------D-------T---T-----T-R----L----F----W-----G--T--LS  152
+17776954  139  -AT--------D-------I---P-----T-R----A----L----W-----G--T--LS  152
+23780608  144  -TD--------D-------G---T-----K-V----L---------W-----G--V--LS  156
+10355277  143  --S--------D-------Q---G-----T-K----I----L----Y-----G--V--LS  155
+15560190  113  -LD--------W-------L---F-----P-P----P----V----W-----G--A--LS  126
+4265657   65   -QT--------S-------VVLDS-----S-R----T----I----W-----G--A--IS  81
+12315303  141  -ED--------N-------L---G-----G-R----W----V----Y-----W--I--GA  154
+6443949   145  -TA--------E-------I---G-----P-K----L----V----W-----G--A--LS  158
+7321357   141  -V-----------------I---S-----E-K----V----I----W-----G--S--LS  152
+8413012   101  -DN--------G-------T---R-----A-L--------------F-----G--F--LS  112
+1326519   159  --T--------N-------T---G-----T-R----F----L----W-----G--T--LS  171
+15691082  119  --D--------P-------T---T-----R-W----I----W----W-----G--A--AM  131
+23020670  143  -VN--------N-------T---K------------V----L----Y-----G--V--LS  154
+15535564  141  --D--------N-------V---T-----R------A----I----W-----G--T--LS  152
+15740468  132  -SD--------D-------G---T-----K-W----L----Y----W--------V--LA  144
+11613817  150  --S--------N-------G---T-----R-A----L---------W-----G--F--LS  161
+17239728  136  -AS--------D-------A---G-----T-R----W----L----W-----W--A--LA  149
+6673965   129  -TD--------N-------M---T-----R-G---------I----W-----G--F--LS  141
+15429244  147  -TS--------D-------G---T-----R-V----L---------W-----G--I--LS  159
+9587242   160  -VG--------T-------T---S-----A-L----W----I----W-----G--A--VS  173
+9427141   139  -AG--------D-------I---P-----T-R----A----I----W-----G--T--LS  152
+24378535  141  -VN--------G-------T---K------------I----L----Y-----G--I--LS  152
+1403208   150  -GP--------A-------LG--V-----R-F----L----F----W-----V--AAMVP  166
+13946063  141  -DQ--------N-------T---Q------------I----L----Y-----G--V--LS  152
+26340575  141  -AS--------D-------I---P-----T-R----A----L----W-----G--T--LS  154
+24711757  148  -DN--------G-------L---R-----G-L--------------F-----G--L--LS  159
+21442498  132  -FG--------S-----------N-----D-R----T----V----W-----G--I--VS  144
+11388173  160  -GR--------D-------D---G-----T-L----L----L----W-----G--L--LG  173
+18830278  135  -GG--------S-------S---T-----R------T----V----W-----G--I--IS  147
+23559453  141  --D--------N-------G---T-----K-I----L---------F-----G--V--LS  152
+10204896  142  -NT--------G-------T---Q-----ALF----F----V----L-----A--M--IP  156
+17660041  143  -LT--------N-------M---T-----T-R----A----I----W-----G--T--LS  156
+2156049   127  -VT--------N-------T---K------------V----L----F-----G--V--LS  138
+16992851  147  -GD--------N-------L---T-----R-G---------I----F-----G--F--LS  159
+12389570  141  -DK--------N-----------T-----A-I----L---------Y-----G--V--LS  152
+13686176  141  -VP--------G-----------T-----R-W----L----W----W-----G--L--AM  153
+5111641   132  --S--------N-------G---T-----K-W----T----F----W--------I--LA  143
+13914836  145  -PG--------P-------R---T-----L-W----G----V----L-----S--T--IP  158
+25678525  131  -TS--------D-------G---T-----K-W----T----F----W--------I--LA  143
+24470310  140  -VR--------N-------E---Q------------I----L----F-----G--V--LS  151
+2461256   147  -GD--------N-------L---T-----R-N---------V----F-----G--L--LS  159
+23661519  133  -SS--------D-------R---T-----------------V----W-----G--A--IS  143
+13893171  140  -----------G-------L---G-----A-S----F----L----W-----G--A--LS  151
+5913753   136  -LY--------Q-------G---D-----A-P----L---------W-----G--L--LS  148
+5176795   136  -PT--------N-------A----------------W----V----W-----G--L--VS  146
+7319954   133  -AV--------Y-------R---D-----A-A----E----I----W-----G--L--IS  146
+9268104   133  -SS--------D-------R---T-----------------L----W-----G--A--IS  143
+2904434   133  -SS--------D-------R---T-----------------L----W-----G--A--IS  143
+19129630  144  -MD--------N-------N---T-----K-I----L---------W-----G--V--LS  156
+20155878  132  -RE--------N-----------------A-W----L---------W-----G--L--IS  142
+7151328   131  -AS--------G-----------T-----K-W----L----F----W-----F--L--AM  143
+5890871   147  -LP--------V-------L---P-----A-F----L----V----------G--C--AA  159
+14665624  147  -LP--------V-------L---P-----A-F----L---------------------IG  156
+5165822   148  --D--------N-------L---T-----R-G---------I----F-----G--L--LS  159
+5000302   139  -AA--------D-------I---P-----T-R----A----L----W-----G--T--LS  152
+23202439  152  --G--------D-------L---G-----T-R----A----L----W-----G--F--LS  164
+9379376   133  -VI--------A-------P---D-----S-A----A----L----W-----G--F--IS  146
+14106473  133  -VI--------A-------P---E-----S-A----A----L----W-----G--F--IS  146
+24591592  126  --G--------N-------G---A-----K-W----T----F----W-----I--L--AI  138
+22836734  156  -DG--------G-------A---S-----S-L----L----L----W-----G--A--IS  169
+15604988  147  -LP--------V-------L---P-----A-F----I----V----------G--C--LA  159
+26926937  141  -LP--------G-----------T-----R-W----L----W----W-----A--L--AM  153
+15694710  156  -AH--------T-------S---S-----G-A----G----I----W-----G--A--LS  169
+18504213  115  -SA--------A-------L--------------------------W-----G--F--IS  123
+16219526  143  --G--------G-------A---T-----R-F----L----F----W               151
+4324661   133  -GT--------E-------T---Q-----S-W---------V----W-----G--A--IS  145
+10013794  139  -SD--------D-------G---T-----K-W----L----Y----W--------V--LA  151
+5127719   147  -MA--------A-------L---P-----A-F----I----I----------G--C--LA  159
+5627318   141  -----------T-------V---T-----A-R----W----I----W-----G--I--AS  152
+23766800  132  -AD--------Q-------A---A-----------------L----W-----G--G--IS  142
+13877663  107  -DG--------S-------S---T-----R------T----V----W-----G--I--IS  119
+3921515   123  -PE--------N-------A---A-----------------L----W-----G--F--IS  133
+103906    148  -MA--------A-------W---P-----A-F----I----I----------G--C--LA  160
+3142803   136  -PG--------Q-----------A-----A-F--------------W-----G--A--VS  146
+12404917  147  -PD--------N-------A---A-----------------L----W-----G--F--IS  157
+12994993  120  -VI--------A-------P---E-----S-A----A----L----W-----G--F--IS  133
+11767283  145  -PG--------P-------R---T-----------------L----W-----G--F--LS  155
+762685    132  -YG--------K-------E---T-----Q-S----W----I----W-----G--L--VS  145
+8192073   146  -MA--------A-------W---P-----A-F----I----I----------G--C--LA  158
+18298897  131  -TA--------N-------G---P-----A-----------L----W-----G--L--AS  142
+2865579   146  -MP--------A-------G---P-----A-F----I----I----------G--C--LA  158
+2046718   137  -QA--------Q-----------------------------I----W-----G--L--IS  145
+19950362  148  -DN--------G-------V---R-----G-----------L----F-----G--L--LS  159
+22651651  66   -----------S-------V---T-----A-R----V----I----W-----G--T--IS  77
+9640772   136  -SG--------D-------V---G-----T-R----W----M----W-----W--I--LA  149
+19652476  136  -RD--------N-----------------A-W----L---------W-----G--L--LS  146
+16085898  134  -TT--------G-----------T-----G-P----A----M----W-----G--L--FS  146
+18273081  143  -AD--------P-------S---T-----R-W----T----Y----W--------A--IS  155
+21936172  159  -AD--------V-------M---T-----S-F----I----V----------G--M--LG  171
+24527227  136  -PG--------Q-------A---A-----------------V----W-----G--G--IS  146
+23000605  145  -PG--------P-------R---T-----------------L----W-----G--A--LS  155
+10483952  135  -NL--------NGG-----F---T-----Q-L----G----L----W-----G--Y--IV  150
+340730    141  -MA--------A-------W---P-----A-F----I----I----------G--C--LA  153
+16056065  136  -PG--------R-------A---Q-----------------I----W-----G--A--IS  146
+2556825   153  -IS--------P-------L---I-----G-F----I----VGMAGW-----A--Y--IL  170
+22979572  157  -MA--------V-------L---P-----A-F----I---------------------FS  166
+3395301   147  -MA--------A-------W---P-----A-F----I----I----------G--C--LA  159
+867242    151  -TG--------S-----------Q-----Q-W----W----T----W-----Y--V--IS  163
+4118958   132  -IG--------P-------L---D-----A-Q----L---------W-----G--L--VS  144
+7725806   148  -AP--------V-------L---P-----A-F----I---------------------IG  157
+15934951  148  -AP--------V-------L---P-----A-F----I---------------------LG  157
+18832802  146  -MD--------V-------T---L-----A-F----V---------------------IG  155
+11073229  157  -MS--------V-------M---P-----A-F----I----I----------G--M--LG  169
+12198716  132  -GE--------S-------V---E-----A-L----L----T----W-----G--C--VS  145
+25022098  135  -NL--------NGG-----F---T-----Q-L----G----L----W-----G--Y--LV  150
+2414952   158  -MP--------V-------L---P-----A-F----I----I----------G--M--AG  170
+19356674  56   -DK--------N-----------T-----A-I----L---------Y-----G--V--LS  67
+12695804  138  -QA--------A-------L--------------------------W-----G--A--IS  146
+919644    134  -VF--------P-------G---Q-----A-A----L---------W-----G--A--IS  146
+10255755  127  -MM--------N-------V---TLAFVLA-M----L----S----W-----G--V----  143
+11387097  136  -AV--------Y-------R---D-----Q-A----Q----I----W-----G--L--IS  149
+20932222  133  -VY--------S-------G---Q-----A-A----L---------W-----G--A--IS  145
+21758289  133  -SS--------D-------R---T-----------------V----W-----G--A--IS  143
+18713586  137  -VN--------SGTWWTFFL---V-----A-V----V----A----W-----A--A--II  157
+10358648  156  -MA--------V-------W---P-----A-Y----I----I----------G--M--LG  168
+941297    133  -SS--------A-------M--------------------------W-----G--A--IS  141
+22708786  137  -TG--------S-------G---P-----A-----------V----W-----G--L--VS  148
+6351915   148  -AP--------V-------W---P-----A-F----I---------------------IG  157
+4594676   137  -TG--------S-------G---P-----A-----------V----W-----G--L--IS  148
+23930607  53   -VK--------N-------T---Q-----V-L--------------Y-----G--V--LS  64
+11974359  54   -DK--------N-----------T-----A-I----L---------Y-----G--V--LS  65
+17870278  134  -TS--------G-------I---E-----S-N----I----M----W-----G--I--IS  147
+20068445  147  -AP--------V-------L---P-----A-F----I---------------------IG  156
+24738296  164  -LF--------G-------D---S-----S-T----E----I----W-----W--V--IG  177
+654568    54   -DQ--------N-------T---Q------------I----M----Y-----G--V--LS  65
+22953663  160  -MN--------T-------W---L-----A-F----I----I----------G--M--AG  172
+12378364  133  -AV--------Q-------P---D-----W-S----W----Q----W-----G--L--LS  146
+20315575  141  -DQ--------N-------T---Q------------V----L----Y-----G--V--LS  152
+7105377   163  -MS--------V-------M---P-----A-F----I----I----------G--M--AG  175
+19316836  156  -VA--------V-------W---P-----A-F----I----V----------G--M--IG  168
+16727856  52   -VS--------ND------Q---N-----T-Q----V----L----Y-----G--V--LS  66
+15286927  127  -TT--------G-------V---G-----P------A----A----W-----G--L--IS  139
+21767206  134  -TS--------G-------I---D-----S-N----I----M----W-----G--I--IS  147
+16982495  54   -DQ--------N-------T---Q-----V-L--------------Y-----G--V--LS  65
+18767637  136  -TT--------G-------A---G-----P------A----A----W-----G--A--LS  148
+1803582   31   -DN--------N-------T---K------------V----L----W-----G--V--LS  42
+9768853   144  -VF--------G-------D---A-----S-T----E----I----W-----W--V--IG  157
+5699033   129  --A--------G-------L---G-----D-A----V----V----W-----G--T--IS  141
+12407940  38   -DT--------S-------L---L-----S-M----RG---F----W-----G--T--VS  52
+1424029   132  -GG--------D-------T---A-----H-S----V----K----W-----G--V--IS  145
+25245048  133  -TV--------Y-------R---D-----Q-A----Q----I----W-----G--L--IS  146
+18946807  134  -TS--------G-------I---E-----N-N----V----M----W-----G--I--IS  147
+1374505   152  -GT--------S-------I---P-----A-L----W----T----W-----G--V--IS  165
+26428727  132  -IG--------P-------L---D-----A-Q----L---------W-----G--L--AS  144
+24075904  162  -MDGTL-----E-------L---S-----A-T----V----W----WVI---G--M--LG  180
+8253828   133  GIG--------S-------T---T-----H-S----V----T----W-----G--V--LS  147
+7283781   164  -LF--------G-------D---S-----S-T----E----I----W-----W--V--IG  177
+9752090   153  -GR--------S-------T---G-----A-L----V----G----W-----G--L--VS  166
+21318468  148  -IN--------L-------W---A-----G-F----I----V-----------------G  157
+23734744  162  -EA--------I-------V---S-----A-K----L----I----W-----G--A--VS  175
+26114359  138  -NS---------------------------------V----L----W-----G--I--IS  146
+6077469   134  -TS--------G-------I---D-----S-N----I----F----W-----G--V--LS  147
+21818244  130  -GQ--------D-------A---S-----S-W---------I----W-----G--T--IS  142
+10525203  134  -TS--------G-------L---E-----N-N----I----F----W-----G--I--IS  147
+5410368   133  -GG--------S-------T---S-----H-S----V----T----W-----G--V--IS  146
+9389989   150  -IN--------A-------T---L-----G-F----I---------------------IG  159
+16187790  129  -IG--------I-------N---L-----G-F----I---------------------IG  138
+10647223  133  -AV--------Y-------R---D-----A-A----W----F----W-----G--L--VS  146
+18374693  151  -IN--------E-------M---L-----G-F----V---------------------IG  160
+25570361  108  -YM--------N-------I---N-----A-G----F----I----I-----G--M--AG  121
+11075581  139  -SS--------P-------L--------------------------W-----G--F--IS  147
+1217571   54   -DQ--------N-------T---Q-----V-L--------------Y-----G--V--LS  65
+19459228  137  -TT--------Q-------D---K-----T-----------V----W-----F--L--AS  148
+20366378  125  --A--------G-------L---G-----N-A----T----I----W-----G--T--LS  137
+21596340  128  -YM--------N-------I---N-----A-G----F----I----I-----G--M--AG  141
+18653937  144  -VF--------G-------D---M-----S-T----E----I----W-----W--V--IG  157
+10237124  151  -IN--------A-------T---L-----G-F----I---------------------IG  160
+5341437   139  -QS--------A-----------------------------I----W-----G--G--LS  147
+21318192  140  -VG--------G-------G---VWW---S-F----F----L----I-----A--C--VA  155
+22414346  158  -GA--------DGHIL---V---G-----D-K----L----I----W-----G--A--IS  175
+2566895   57   --R--------N-------Q---A-----A-F--------------W-----G--L--VS  67
+661729    131  -AV--------V-------P---A-----Q-N----I----M----W-----G--L--IS  144
+10284593  151  -VN--------A-------W---L-----G-F----V----V----G-----M--A--GW  164
+11907149  129  -TS--------G-------I---N-----S-N----I----M----W-----G--V--LS  142
+21653690  148  -DN--------G-------I---R-----G-----------I----F-----G--L--LS  159
+11965843  56   -MS--------A-------A---P-----A-F-----------------------A--IG  65
+7843095   169  -LF--------G-------D---A-----S-T----E----I----W-----W--A--IG  182
+10420502  156  -VG--------G-----------T-----S-W----W----V----N-----Y--L--IS  168
+16141251  98   -IN--------E-------W---L-----G-F----I----I----------G--M--AG  110
+9727269   56   -IG--------G-------V---S-----A-P---------I----W-----G--L--LS  68
+24326113  151  -MS--------V-------W---P-----A-F----I----V----------------SM  161
+8289605   53   -DQ--------N-------T---Q------------I----L----Y-----G--V--LS  64
+26526065  152  -TS--------P-------L---G-----G-G----V----W----W-----GFYI--VS  167
+3542055   152  -GT--------N-------T---G-----A-L----W----L----W-----G--I--IS  165
+17362009  52   -TD--------D-------G---T-----K-I----L---------W-----G--V--LS  64
+1797821   128  -VS--------------------------------------V----W-----GGFA--VG  137
+8091631   106  -YM--------D-------V---T-----A-G----F----V----L-----G------T  117
+2736403   154  -MN--------V-------W---L-----G-F----V---------------------IG  163
+1256315   134  -MG--------G-------S---A-----A-----------L----W-----G--L--LS  145
+22421223  165  -SG--------Q-------M---D-----D-G----L----T----WPLFGVG--M--LA  183
+13499329  57   -IN--------A-------T---L-----G-F----V---------------------IG  66
+543177    133  -DG--------T-------M---G-----H-S----V----L----W-----G--S--LS  146
+349919    50   --A--------K-------L---D-----L-FGISAP----I----W-----G--A--LS  66
+24278733  151  -IQ--------P-------F---V-----G-F----V---------------------IG  160
+26386263  133  -GG--------S-------S---S-----H-S----V----I----Y-----G--V--LS  146
+25175270  151  -IN--------A-------T---L-----G-F----V---------------------IG  160
+23755429  148  -IN--------V-------T---T-----G-F----V----I----------G--M--LG  160
+22309386  168  -MD--------G-------T---ALEF--S-A----E----I----W-----W--V--IG  184
+
+Query_1   173  S----AF-F---FHI---L---W------V----M------K--KV-INE-GKE-G-I--  194
+11678712  175  T----VF-F---FHI---L---W------L----M------N--KV-IKE-GKE-G-I--  196
+9725117   175  T----VF-F---FHI---L---W------L----M------N--KV-IKE-GKE-G-I--  196
+12692711  174  S----AF-F---FHI---L---W------V----M------K--KV-INE-GKE-G-I--  195
+303949    174  T----AF-F---IHI---L---F------V----M------Y--RV-IKE-GKE-G-I--  195
+12301965  174  T----IF-F---IHI---L---W------L----M------K--KV-IDE-GKE-G-I--  195
+13218326  175  T----VF-F---IHI---L---I------L----M------R--RV-ISE-GKE-G-I--  196
+9481050   177  T----VF-F---IHI---L---I------V----M------R--KV-ITE-GQQ-G-V--  198
+2044010   177  T----LF-F---FHI---L---W------L----M------K--KV-ITE-GKE-G-A--  198
+18969509  160  T----VF-Y---IIL---L---Y------Y----V------W--VE-IGR-ALP-R-M--  181
+6496542   161  T----VF-M---IYI---C---Y------I----V------G--IS-IAE-TNV-S-M--  182
+34935     160  T----VF-Y---FWL---L---Y------V----A------W--QT-VND-AKA-T-A--  181
+14908989  161  T----LF-F---IGL---N---F------I----V------G--KS-IAE-QKS-T-L--  182
+27301268  164  T----AF-F---VVM---N---W------I----V------G--TK-IFK-NRA-T-M--  185
+2617052   177  T----AF-F---VVM---N---W------I----V------G--TK-IFK-NRA-T-M--  198
+200898    172  T----VF-M---IWM---I---L------V----L------A--NA-VRD-PQG-E-A--  193
+25672253  172  T----AF-M---VWM---I---L------I----L------S--GA-VRN-IQG-E-H--  193
+17925808  175  T----VF-F---VWM---L---I------E----V------R--GV-ISQ-AVK-N-S--  196
+25812669  173  T----IF-F---VWL---I---I------E----V------R--GV-ISR-AI--A-M--  193
+22157834  155  S----IP-F---AYI---L---Y------V----L------W--GE-LSK-ATA-G-E--  176
+14540700  187  T----IP-F---IYI---L---Y------I----L------F--AE-LGK-AID-R-Q--  208
+14383989  162  T----LP-F---VYL---L---Y------V----L------F--TE-LGD-VIQ-K-Q--  183
+1240066   158  T----PP-F---VVL---L---A------A----L------V--PR-LLG-ARA-Y-L--  179
+23107175  153  S----IP-F---AYI---L---Y------V----L------W--SK-LGA-SLS-S-Q--  174
+11170558  153  S----IP-F---LYI---V---W------E----L------F--KG-LGD-AIE-R-Q--  174
+4653487   162  T----LP-F---LYI---L---F------I----L------W--TE-LSQ-AVE-R-Q--  183
+18796862  160  T----IP-F---LYI---L---Y------V----L------F--VE-LTR-SLD-R-Q--  181
+16264973  152  T----IP-F---LYI---L---Y------V----L----------F-VEL-GKSLD-R--  172
+14587802  153  T----IP-F---VYI---L---Y------V----L------W--TE-VGA-AMT-R-E--  174
+17776954  153  S----IP-F---VYI---V---W------E----L------F--RG-LGE-SIE-Q-Q--  174
+23780608  157  T----IP-F---LYI---L---Y------VLFVEL------G--KS-LDR-QPE-G-V--  182
+10355277  156  T----IP-F---LYI---L---Y------ILFVEL------S--KS-LDR-QPE-G-V--  181
+15560190  127  T----IP-F---LYI---L---Y------V----L------F--VE-LGR-SLQ-Y-Q--  148
+4265657   82   T----IF-F---VLI---L---R------D----L------F--GG-IDA-SFK-K-Q--  103
+12315303  155  M----LP-F---LYI---V---Q------T----L------L--VG-LND-ATQ-SEA--  177
+6443949   159  T----IP-F---LYI---L---W------I----L----------F-VEL-GKSMG-R--  179
+7321357   153  T----LP-F---LYI---L---Y------VLFVEL------S--KS-LGN-QPD-G-V--  178
+8413012   113  S----IP-F---VYI---V---Y------V----L------F--TE-LGG-AIQ-R-Q--  134
+1326519   172  T----IP-F---LYI---L---Y------I----L------W--VE-LAR-ATE-R-Q--  193
+15691082  132  V----PF-F---FIV---V---E------L----F------A--GL-RTA-LEQ------  151
+23020670  155  T----IP-F---LYI---L---Y------VLFVEL------S--KS-LDR-QPD-G-V--  180
+15535564  153  T----IP-F---LYI---V---W------E----L------F--RG-LGA-SIE-R-Q--  174
+15740468  145  M----IP-F---FYI---L---W------V----L------L--GE-LKA-AKS-R-E--  166
+11613817  162  T----IP-F---AYI---V---Y------E----L------F--SG-LGR-AIE-T-Q--  183
+17239728  150  M----VP-F---VYI---V---Y------A----L------Y--TG-LGE-SIA-R-Q--  171
+6673965   142  T----LP-F---LYI---L---Y------V----L------W--TQ-LS---KA-M-V--  161
+15429244  160  T----IP-F---IFI---L---Y------V----L------F--VE-LTK-SLD-R-Q--  181
+9587242   174  T----VF-F---VVL---Y---W------V----A------A--KA-YKA-TAD-Q-V--  195
+9427141   153  A----IP-F---VYI---V---W------E----L------F--RG-LGE-SIK-Q-Q--  174
+24378535  153  T----IP-F---LYI---L---Y------VLFAEL------T--KS-LER-QPE-G-V--  178
+1403208   167  F----AY-V---VHT---L---L------VG---L------K--EA-I---ASE-G----  186
+13946063  153  T----LP-F---LYI---L---Y------VLFVEL------G--KS-LDR-QPE-G-V--  178
+26340575  155  A----IP-F---VYI---V---W------E----L------F--SG-LGK-SIE-R-Q--  176
+24711757  160  T----VP-F---AYI---L---Y------VLFVQL------S--KS-LNQ-QPV-G-V--  185
+21442498  145  A----IF-M---LYV---L---Y------E----LFA----G--EV-GKA-LKS-Q-A--  168
+11388173  174  T----PP-F---VVL---L---A------V----L------V--PR-LLA-ARA-H-L--  195
+18830278  148  S----IF-M---LYV---L---Y------E----LFA----G--EV-GKA-LKS-Q-S--  171
+23559453  153  T----LP-F---LYI---L---Y------VLFVEL------T--KS-LER-QPE-G-V--  178
+10204896  157  F----VY-I---LRV---L---W------------------K--EL-AAE-IAE-E-D--  176
+17660041  157  S----IP-F---VYI---L---Y------V----L------W--VE-LGT-QVK-T-Q--  178
+2156049   139  T----IP-F---LYI---L---Y------VLFVEL------G--KS-LER-QPE-G-V--  164
+16992851  160  T----IP-F---VYI---L---W------V----L------F--VE-LTK-SLD-R-Q--  181
+12389570  153  T----IP-F---IYI---L---Y------V----L------F--VE-LGK-SLE-R----  173
+13686176  154  I----PF-L---IIVYD-L---F------VG---L------K--RS-IDS-QPE------  176
+5111641   144  I----IP-F---LYI---L---Y------T----L------Y--GQ-LQA-AAA-R-E--  165
+13914836  159  F----AY-I---LYV---L---W------VE---L------G--QA-IRE-GKY-G-A--  181
+25678525  144  M----IP-F---AYI---L---F------V----M------V--GE-LKA-AGS-R-E--  165
+24470310  152  T----IP-F---LYI---L---Y------VLFVEL------G--KS-LER-QPE-G-V--  177
+2461256   160  T----IP-F---LYI---L---Y------V----L------F--VE-LTR-SLD-R-Q--  181
+23661519  144  G----AF-M---LYV---L---Y------E----L----------F-AGEVGKA-L-K--  164
+13893171  152  M----IP-F---------L---W------I----V------Y--EL-FVG-LKD-S-I--  170
+5913753   149  T----IP-F---LYI---L---Y------V----L------F--VE-LGK-GLA-S-Q--  170
+5176795   147  G----IA-Y---FAI--------------V----Y------E--IW-MGE-ASK-L-A--  166
+7319954   147  G----LA-Y---FWI---V---Y------I----I------W-----FGE-AKK-L-A--  166
+9268104   144  G----AF-M---LYV---L---Y------E----LFA----G--EV-GKT-LKT-Q-T--  167
+2904434   144  G----AF-M---LYV---L---Y------E----LFA----G--EV-GKT-LKT-Q-T--  167
+19129630  157  T----IP-F---LYI---L---Y------V                                166
+20155878  143  G----IA-Y---FAIVYEI---W------L----G------KA-KK-IAE-NAG-G-A--  168
+7151328   144  I----PF-A---F-I---L---W------T----L------Y--GQ-LKA-AAT-R-E--  164
+5890871   160  W----LY-M---IYE---L---Y------A------------------GE-GKA-A-V--  176
+14665624  157  C----AA-W---LYM---I---Y------E----L------Y--A---GE-GKA-A-V--  176
+5165822   160  S----IP-F---AYI---L---Y------V----L------F--VE-LTR-SLE-R-Q--  181
+5000302   153  A----IP-F---VYI---V---W------E----L------F--RG-LGE-SIE-Q-Q--  174
+23202439  165  T----IP-F---VYL---L---W------V----L------------FVE-LSR-S-L--  183
+9379376   147  G----AA-Y---FLI--------------V----Y------E--IW-LGE-ASK-L-A--  166
+14106473  147  G----AA-Y---FAI--------------V----Y------E--IW-FGE-ASK-L-A--  166
+24591592  139  L----PF-I---YIL---K---T------L----Y------X--EL-QKA-GQR-E-T--  160
+22836734  170  C----VF-W---IVT---T---V------V----L------I--RA-VRA-SFS-T-L--  191
+15604988  160  W----FY-M---IYE---L---Y------A------------------GE-GKA-A-V--  176
+26926937  154  V----PF-LIIVFDL---F---V------G----L------K--KS-IAS-QPA-S-V--  178
+15694710  170  T----IP-F---LYI---L---Y------V----L------W--VE-LSK-SLS-G-Q--  191
+18504213  124  G----VA-Y---FIIVYDI---W------LG---A------A--SK-LAK-SAG-G-N--  149
+4324661   146  G----VA-Y---FYI---V---Y------L----IWFGDV-A--KL-AGS-AGP-A-V--  172
+10013794  152  M----IP-F---FYI---L---W------V----L------L--GE-LKA-AKS-R-E--  173
+5127719   160  W----IY-M---IYE---L---W------A------------------GE-GKS-A-CNT  178
+5627318   153  M----IP-F---LWI---V---Y------E----L------F--AG-LSK-SIA-S-Q--  174
+23766800  143  G----LA-Y---FVI---V---YEIWLGSA----A------K--LA-KNA-G---G-N--  168
+13877663  120  S----IF-M---LYV---L---Y------E----LFA----G--EV-GKA-LKS-Q-S--  143
+3921515   134  G----LA-Y---FLI--------------V----Y------E--IW-LGE-AAK-L-A--  153
+103906    161  W----VY-M---IYE---L---W------A------------------GE-GKS-A-CNT  179
+3142803   147  G----AA-Y---FYI---V---Y------E----IWFGSA-K--KL-AVE-AGG-D-I--  173
+12404917  158  G----VA-Y---FLI--------------V----Y------E--IW-LGE-AAK-L-A--  177
+12994993  134  G----LA-Y---FAI--------------V----Y------E--IW-LGE-AAK-L-A--  153
+11767283  156  TIPF-AY-I---LYV---L---W------VE---L------G--QA-IRE-AKF-G----  180
+762685    146  G----IA-Y---FYI---V---YLVWFGDV----A------K--LA-MNA-G--------  169
+8192073   159  W----VY-M---IYE---L---W------A------------------GE-GKS-A-CNT  177
+18298897  143  G----AA-Y---FYI---A---W------L----I------KF-GP-LAK-LAA-A-A--  165
+2865579   159  W----VY-M---IYE---L---W------A------------------GE-GKS-A-CNT  177
+2046718   146  G----IA-Y---FVI--------------V----Y------E--IW-LGS-AKK-L-A--  165
+19950362  160  T----IP-F---AYI---L---Y------V----L------F--VE-LTK-SLD-R-Q--  181
+22651651  78   TIPF-AY-I---LYL---L---W------I                                90
+9640772   150  M----IP-F---LYI---V---K------D----L------V--SG-LGA-SIS-K-Q--  171
+19652476  147  G----AA-Y---FVI--------------V----Y------E--IW-LGS-AKK-L-A--  166
+16085898  147  G----LA-Y---FYI---V---Y------L----I------M--FG-EAK-ALA-D-K--  168
+18273081  156  M----VP-F---LYI---Q---Y------V----L------W--VE-LSR-SLD-R-Q--  177
+21936172  172  --------W---FYI---L---YE-----I----F------A--GE-ASK-IAA-N-K--  191
+24527227  147  G----LA-Y---FVI--------------V----Y------E--IW-LGS-AKK-L-A--  166
+23000605  156  S----VP-F---FYI---L---Y------VLWVEL------G--QA-IRE-TRF-G-A--  181
+10483952  151  G----CIAW---LYI---I---Y------L----L------F--TN-VTK-AAE-T-S--  173
+340730    154  W----VY-M---IYE---L---W------A------------------GE-GKS-A-CNT  172
+16056065  147  G----AA-Y---FYV---V---Y------L----I----------F-FGE-LKN-L-A--  166
+2556825   171  Y----EI-F---FGE--------------A----G------Q--VA-SDQ-APE-S-V--  190
+22979572  167  M----AG-W---FFI---I---W------E----IYG----G--QA-GKI-NAE-S-S--  190
+3395301   160  W----VY-M---IYE---L---W------A------------------GE-GKS-A-CNT  178
+867242    164  C----GA-W---LYI---V---Y------M----L------F--TK-VTE-AMA-D-A--  185
+4118958   145  G----LA-Y---F---------W------I----L------Y--EV-AMG-GAA-Q-L--  163
+7725806   158  M----AG-W---LYM---I---Y------------------E--LY-MGE-GKA-A-VST  179
+15934951  158  M----AG-W---LYM---I---Y------E----L------H-----MGE-GKA-A-VST  179
+18832802  156  M----AG-W---LYM---I---Y------------------E--LY-MGE-GKA-A-VST  177
+11073229  170  W----AY-------I---L---W------E----IFGGE--A--SK-INA-NQ-------  189
+12198716  146  A----IF-W---IAT---N---L------V----L------I--QA-VRA-SLP-K-L--  167
+25022098  151  G----CFAW---LYI---I---Y------L----L------F--TN-VTK-AAE-S-S--  173
+2414952   171  W----AF-I---LYE---I---F-----------M------G--QA-SKI-NAQ-S-A--  191
+19356674  68   T----IP-F---LYI---L---Y------V----L----------F-VEL-GKSLD-R--  88
+12695804  147  G----AA-Y---FYI--------------V----Y------E--IW-LGS-AKK-L-A--  166
+919644    147  G----VA-Y---FVI--------------V----Y------D--IW-LGS-AKK-L-A--  166
+10255755  144  --------------I---L---WE-----I----F------K--GE-ASQ-INA-G-L--  160
+11387097  150  G----VA-Y---FAIVYEI---W------LGG--A------K--KL-AQE-AGG-S-I--  176
+20932222  146  G----AA-Y---FVI---V---Y------E----IWAGG--A--SK-LAA-SAG-G-A--  171
+21758289  144  G----AF-M---LYV---L---Y                                       152
+18713586  158  G----LL-F---TG---------------------------------IGG-AIE-G-A--  171
+10358648  169  W----AFIL---YEI---F---E------G----E------A--GR-INA-NQA-P-K--  191
+941297    142  TLGYVGI-F---YEV---W---F------G----S------A--KK-LSQ-GSN------  165
+22708786  149  G----LA-Y---F---------W------I----V------Y--EIWLGS-ASK-L-A--  168
+6351915   158  M----AG-W---LYM---I---Y------------------E--LY-MGE-GKA-A-VST  179
+4594676   149  G----LA-Y---FYI---V---Y------E----IWFGS--A--KK-LAE-QAG-G-A--  174
+23930607  65   T----IP-F---LYI---L---Y------V----L----------F-VEL-GKSLD-R--  85
+11974359  66   T----IP-F---LYI---L---Y------V----L------F--VE-LGK-SLE-R----  86
+17870278  148  T----LG-Y---LYI---V---Y------E----VFA----G--DV-AKL-AKE-S-D--  171
+20068445  157  X----AG-W---LYX---I---Y------E----L------Y--X---GE-GKA-A-VST  178
+24738296  178  M----AG-W---GYI---L---Y------A----LW-----S--GD-VKE-ASE-T-G--  200
+654568    66   T----LP-F---LYI---L---Y------VLFVEL------G--KS-LDR-QPE-G-V--  91
+22953663  173  W----AF-------I---L---WEI----F----L------G--EA-GKI-NAN-S-A--  193
+12378364  147  G----IA-Y---FII---V---Y------M----IWFGE--A--KK-LAE-KAG-G-N--  172
+20315575  153  T----LP-F---LYI---L---Y------VLFVEL------G--KS-LDR-QPE-G-V--  178
+7105377   176  W----AF-I---LYE---I---F------A-----------G--EA-SKA-NAS-L-S--  196
+19316836  169  --------W---FYI---L---Y------E----IFAGE--A--SK-INA-ASA------  189
+16727856  67   T----IP-F---LYI---L---Y------VLFVEL------G--KS-LDR-QPE-G-V--  92
+15286927  140  G----IA-Y---FVI--------------V----Y------D--IW-MGE-AKK-L-A--  159
+21767206  148  T----LG-Y---LYI---V---Y------E----VFA----G--DV-AKL-AKE-S-N--  171
+16982495  66   T----LP-F---LYI---L---Y------V----L----------F-VEL-GKSLD-R--  86
+18767637  149  G----AA-Y---FYI---L---YEVWAG-G----A------A--KL-AAA-AGG-A-V--  175
+1803582   43   T----IP-F---LYI---L---Y------V----LFVEL--S--KS-LDR-QPA-G-V--  68
+9768853   158  M----AG-W---GYI---L---Y------A----LWGGDV-K--EA-SET-GSD-G-V--  184
+5699033   142  G----IS-Y---FVI---V---Y------I----L------W-----FGS-AGQ-L-A--  161
+12407940  53   S----VF-F---VII---L---W------Q----L------I--QE-IWG-AAQ-R-E--  74
+1424029   146  T----IG-Y---IYI---L---Y------TAW--F------G--EV-AQL-AEK-S-N--  169
+25245048  147  G----IA-Y---FVI---V---Y------E----IWLGGA-N--KI-ARE-AGG-A-V--  173
+18946807  148  T----IG-Y---LYI---V---Y------E----VFA----G--DV-AKL-AKS-S-D--  171
+1374505   166  G----VF-M---VILY--L---L------V----I------Y--VV-VKG-GRD-L-K--  188
+26428727  145  G----LA-Y---FAI--------------V----A------E--VM-FGG-ASK-L-A--  164
+24075904  181  W----GY-I---LYE---L---W------------------S--GD-VKE-ASE-S-G--  200
+8253828   148  TLGY-LY-I---LHS---V---W------LGE--V------A--KL-SDS-SGS-E-V--  174
+7283781   178  M----AG-W---GYI---L---Y------A----LW-----A--GD-VKE-ASE-S-G--  200
+9752090   167  T----AF-F---GYL---Y---V------A----L------V--GA-VRG-SRG-S-M--  188
+21318468  158  M----AG-W---AYI---L---YE-----V----F------A--GE-AGK-MAA-D-K--  180
+23734744  176  T----LG-Y---AVV---P---W------T----L------Y--KL-YRQ---Y-G-A--  195
+26114359  147  T----VG-Y---VGI---LYEVW------F----G------S--AS-KLA-GNS-N----  170
+6077469   148  T----VG-Y---LYI---V---Y------E----VFA----G--DV-AKL-AKG-S-N--  171
+21818244  143  S----IG-Y---AYI---V---WL-----V----W------A--GD-VAK-LAK-S-S--  165
+10525203  148  T----LG-Y---LYI---V---Y------E----VFA----G--DV-AKL-SQS-S-D--  171
+5410368   147  T----IG-Y---VYI---L---Y------TSW--F------G--EV-AQL-SKS-S-G--  170
+9389989   160  M----AG-W---IYI---L---Y------E----I------F--S---GE-AGK-A-A--  179
+16187790  139  M----AG-W---IYI---L---Y------E----VFA----G--EA-GQE-AKK-L-K--  162
+10647223  147  G----IA-Y---FAI---V---Y------I----I------W-----FGE-AKK-L-A--  166
+18374693  161  M----AG-W---IYI---L---Y------------------E--VF-SGE-AGK-A-A--  180
+25570361  122  W----IF-I---LYE---V---F-----------S------G--EA-GRE-AAR-L-S--  142
+11075581  148  T----IG-Y---VGI---L---Y------E----VWFGS--A--KK-LAD-GSN------  171
+1217571   66   T----IP-F---LYI---L---Y------V----L----------F-VEL-GKSLD-R--  86
+19459228  149  M----AW-F---VVV---L---G------L----L------F--GQ-IRT-QIK-Q-D--  170
+20366378  138  A----IA-Y---FYIVYEV---W------MGD--V------K--KL-ATS-AGS-A-V--  164
+21596340  142  W----IF-I---LYE---V---F-----------S------G--EA-GRE-AAR-L-S--  162
+18653937  158  M----AG-W---GYI---L---Y------A----LWQGDV-K--EA-SAS-GSD-G-V--  184
+10237124  161  M----AG-W---VYI---L---Y------------------E--VF-SGE-AGK-R-A--  180
+5341437   148  S----VG-Y---FAV---F---Y------D----VWFGPA-K--KL-AGN-SND------  172
+21318192  156  E----AL-I---VAT---L---Y------FQ---M------K--DA-ILD-APR-P-I--  178
+22414346  176  T----VG-Y---III---P---V------V----L------W--NL-WKR-FKD-T-V--  197
+2566895   68   S----AA-Y---FWI---V---WM-----V----W------K--GE-MAQ-LSK-T-S--  90
+661729    145  T----AG-W---AII---I---Y------E----IYMGEA-S--KL-AAA-STS-E-A--  171
+10284593  165  A----YI-L---YEI---F---------------A------G--EA-GKV-SAE-S-A--  184
+11907149  143  T----AG-Y---LYI---V---Y------E----VFA----G--DI-AKL-TKQ-S-N--  166
+21653690  160  T----IP-F---AYI---L---F------V----L------F--RQ-LSK-SLA-S-Q--  181
+11965843  66   L----AG-W---GYI---I---W------E----IFAGEASK--AN-ANS-GN-------  90
+7843095   183  M----AG-W---IYI---I---YE-----I----F------R--GS-IND-AAQ-K-A--  205
+10420502  169  C----VA-W---FYI---V---Y------I----L------F--SQ-VSA-QMQ-A-Q--  190
+16141251  111  W----AY-I---LYE---V---F------A----G------E--A------GKM-S-A--  128
+9727269   69   S----IP-F---VYI---L---Y------V----L                           79
+24326113  162  G----GW-L---FVI---Y---E------I----F------A--GE-ASR-MSA-A-H--  183
+8289605   65   T----LP-F---LYI---L---Y------VLFVEL------G--KS-LDR-QPD-G-V--  90
+26526065  168  C----VF-W---LLI---V---K------Q----L------Y--GQ-VSN-AAS-H-L--  189
+3542055   166  G----IF-M---VVL---Y---V------L----V------V--YV-VVK-GRR-D-L--  187
+17362009  65   T----IP-F---LYI---L---Y------V----L----------F-VEL-GKSLD-R--  85
+1797821   138  M----AG-W---LYI---I---Y------E----VFAGE--A--SQ-INA-SKG------  161
+8091631   118  A----AW-L---YVL---Y---E------I----F------R--GE-AGQLNAE-N-A--  140
+2736403   164  M----AG-W---FYI---L---Y------E----I------F--AG--EA-GKL-S-A--  184
+1256315   146  G----IC-Y---FYI---A---Y------L----V------YF-GQ-LAK-LAA-A-A--  168
+22421223  184  W----IY-I---MYE---I---W------AGE--A------K--EK-VSE-TSE-G-T--  207
+13499329  67   M----AG-W---VYI---L---Y------E----I------F--S---GE-AGK-A-A--  86
+543177    147  T----LG-Y---VYI---L---Y------S----AWF----G--EV-AQL-AAA-S-Q--  170
+349919    67   T----IP-F---LYI---L---Y------V----L------F--VE-LTK-SLA-N-Q--  88
+24278733  161  M----AG-W---IYI---L---F------E----I------F--S---GE-AGQ-L-A--  180
+26386263  147  T----LG-Y---IYI---L---Y------TAW--I------G--EV-AKL-AKD-S-N--  170
+25175270  161  M----AG-W---VYI---L---Y------------------E--VF-SGE-AGR-A-A--  180
+23755429  161  W----LF-I---LYE---I---F------M----G------EAGKV-SSE-N--------  180
+22309386  185  M----AG-W---GYI---L---Y------E----LWQGDV-K--EA-SAS-GSD-G-V--  211
+
+Query_1   195  -S--P-AG---Q--KI-L----S---N----I----W----IL---F---L-I---SWTL  215
+11678712  197  -P--K-KG---Q--KI-L----S---N----I----W----IL---F---L-I---SWFL  217
+9725117   197  -P--K-KG---Q--KI-L----S---N----I----W----IL---F---L-I---SWFL  217
+12692711  196  -S--P-AG---Q--KI-L----S---N----I----W----IL---F---L-I---SWTL  216
+303949    196  -P--D-KG---K--KI-L----Q---S----I----W----VL---F---L-F---SWFL  216
+12301965  196  -P--V-AA---Q--NT-L----N---S----I----W----IL---F---L-I---SWML  216
+13218326  197  -P--A-KA---Q--KV-L----G---S----I----W----IL---F---L-F---AWML  217
+9481050   199  -P--E-KA---K--RY-I----G---M----I----W----TI---F---L-F---SWML  219
+2044010   199  -P--P-AA---Q--KY-L----G---S----I----W----TL---F---L-V---TWML  219
+18969509  182  -P--A-SA---A--AT-M----K---S----I----R----WL---F---L-I---AWTI  202
+6496542   183  -P--P-KA---A--RL-A----K---A----L----F----WL---L---V-V---AWTL  203
+34935     182  -P--P-HV---K--RL-F----G---A----V----W----IL---F---L-V---SWTI  202
+14908989  183  -T--H-GT---D--KT-I----M---K----V----F----WL---M---M-F---AWTL  203
+27301268  186  -L--G-GT---D--ST-I----T---K----V----F----WL---M---M-F---AWTL  206
+2617052   199  -L--G-GT---D--ST-I----T---K----V----F----WL---M---M-F---AWTL  219
+200898    194  -S--N-EV---R--KG-L----I---N----C----F----WF---L---V-I---TWAI  214
+25672253  194  -S--D-AV---R--KG-L----V---Q----C----F----WF---L---V-I---TWAI  214
+17925808  197  -P--P-QL---V--AW-P----K---N----I----W----WY---F---L-A---TWGI  217
+25812669  194  -G--P-AE---L--AAWP----K---N----I----W----WF---F---L-A---FWGL  215
+22157834  177  -S--P-EV---N--VL-F----R---N----T----K----LL---L---I-G---TWGF  197
+14540700  209  -P--P-RV---Q--VL-T----R---N----L----R----LL---L---F-A---SWGF  229
+14383989  184  -S--D-EV---A--KL-I----G---N----A----R----LL---L---L-F---TWGF  204
+1240066   180  -A--P-EA---A--TT-A----R---N----L----V----FV---V---V-F---FWGL  200
+23107175  175  -P--A-YV---Q--VL-M----K---N----I----R----LL---L---L-F---TWGF  195
+11170558  175  -P--E-SA---R--GL-I----K---Q----A----R----LL---T---F-A---SWGF  195
+4653487   184  -D--R-RV---K--TL-L----N---G----M----R----FL---L---L-F---SWGV  204
+18796862  182  -P--A-AV---R--QT-V----S---R----M----R----IL---L---L-A---TWGV  202
+16264973  173  -Q--P-AGV--A--GT-I----G---R----L----R----WL---L---L-A---TWGV  194
+14587802  175  -T--D-DV---K--GL-L----F---G----L----R----LL---L---L-A---SWGV  195
+17776954  175  -P--A-AA---R--DL-V----R---K----A----R----LL---T---F-A---SWGF  195
+23780608  183  -A------------AT-V----G---R----L----R----LL---L---I-A---TWGV  199
+10355277  182  -A------------AT-V----G---R----L----R----LL---L---I-A---SWGV  198
+15560190  149  -S--P-AV---R--KK-V----S---N----L----R----LL---L---I-A---TWGV  169
+4265657   104  -S--K-EI---Q--GI-F----K---V----L----R----VV---L---I-A---TWGV  124
+12315303  178  -D--P-AV---R--KL-I----K---G----V----Q----WW---T---V-I---AWCT  198
+6443949   180  -Q--P-AGV--A--KE-L----R---G----L----R----LT---L---I-A---TWGV  201
+7321357   179  -A------------AT-V----G---R----L----R----LL---L---I-G---TWGV  195
+8413012   135  -P--E-EA---R--VL-V----R---N----T----R----LL---L---L-A---TWGF  155
+1326519   194  -S--A-EV---K--VL-V----R---N----L----R----LL---L---L-L---SWGV  214
+15691082  152  -Q--P-KD---V--RG-L----V---N----TAR--W-----L---T---L-I---SWSF  173
+23020670  181  -A------------AT-V----G---R----L----R----LL---L---I-A---TWGV  197
+15535564  175  -P--E-SV---K--KL-I----K---T----A----R----LV---T---F-A---SWGF  195
+15740468  167  -T--G-VV---A--EL-I----N---K----A----T----II---L---L-G---TWMV  187
+11613817  184  -P--P-QV---R--SL-I----K---Q----A----R----LL---T---F-A---SWGF  204
+17239728  172  -P--E-GA---R--GL-I----E---L----A----R----TV---T---V-V---SWCF  192
+6673965   162  -T--Q-PG---QVRKD-L----N---G----L----R----LL---L---L-A---TWGV  184
+15429244  182  -P--P-QV---R--AL-I----S---R----L----R----IL---L---L-A---SWIV  202
+9587242   196  -S--A-ET---R--TS-Y----R---N----A----L----VL---L---F-S---VFGA  216
+9427141   175  -P--V-NV---Q--NL-V----R---K----A----R----LL---T---F-A---SWGF  195
+24378535  179  -A--A-TV---G--RL-R------------------W----LL-------L-A---TWGV  195
+1403208   187  -N--P-KV---A--TM-L----T---Q----V----C----YA---T---V-G---SWCT  207
+13946063  179  -A--A-T----------V----G---R----L----R----LL---L---I-A---TWGV  195
+26340575  177  -P--E-AV---R--GL-V----K---Q----A----R----LL---T---F-A---SWGF  197
+24711757  186  -----------R--RT-L----S---Q----L----R----FL---L---L-L---SWGV  202
+21442498  169  -G--E-VG---S--K--L----N---N----V----R----YL---L---L-A---TWGV  188
+11388173  196  -P--A-EA---G--TT-A----R---N----L----V----FV---F---A-F---FWGL  216
+18830278  172  -G--E-VG---S--K--L----N---N----V----R----YL---L---L-L---TWGV  191
+23559453  179  -A--A-T----------V----G---R----L----R----LL---L---I-A---TWGV  195
+10204896  177  -G--R-V----K--EL-I----E---Q----T----R----ML---L---M-I---SWLF  196
+17660041  179  -S--E-TV---R--GL-L----K---V----T----R----VV---L---V-A---TWGV  199
+2156049   165  -A------------AT-V----G---R----L----R----LL---L---V-A---TWGV  181
+16992851  182  -P--P-AV---R--KT-I----S---R----L----R----VL---L---L-A---TWGV  202
+12389570  174  -Q--P-AGV--A--ET-V----G---R----L----R----LL---L---I-A---TWGV  195
+13686176  177  ------SA---R--GL-I----S---T----A----R----WL---T---V-V---SWCF  195
+5111641   166  -T--P-AV---S--AA-I----K---N----A----T----MV---L---L-I---TWLV  186
+13914836  182  -R--V------L--EL-L----N---A----T----R----LV---L---L-M---SWGF  200
+25678525  166  -T--G-EV---A--SS-I----S---N----A----A----KI---L---L-V---TWMV  186
+24470310  178  -A--A-T----------V----G---R----L----R----LL---L---I-A---TWGV  194
+2461256   182  -P--P-AV---R--QT-V----S---R----L----R----IL---L---F-A---TWGV  202
+23661519  165  -S--Q-AG---EVGKK-L----N---N----V----R----YL---L---L-F---TWGI  187
+13893171  171  -AKQP-SD---V--RG-L----V---D----TAR--W----VT---V---L-----AWAF  194
+5913753   171  -S--E-AV---Q--RK-I----K---E----L----R----LL---L---L-A---TWGV  191
+5176795   167  -K--A-AG---G--EV-L----A---S----H----K----IL---CWFVL-V---GWAI  190
+7319954   167  -T--E-AG---G--AV-L----K---AHKTLC----W----FV-------L-V---GWAI  190
+9268104   168  -G--E-IG---K--K--L----N---N----L----R----YL---L---V-F---TWGI  187
+2904434   168  -G--E-IG---K--K--L----N---N----L----R----YL---L---V-F---TWGI  187
+20155878  169  -V--L-SA---H--KT-L----C-------------W----FV-------L-V---GWAI  186
+7151328   165  -T--A-EV---A--VA-I----K---N----A----T----YV---L---L-A---TWMV  185
+5890871   177  -T--T-AS---P--AV-M----SAYNT----M----M----LI---I---V-V---GWAI  200
+14665624  177  -T--T-AS---P--AV-M----SAYNT----M----M----LI---I---V-V---GWAI  200
+5165822   182  -P--A-TV---R--KT-I----S---L----L----R----LL---L---L-A---TWGV  202
+5000302   175  -P--V-AA---R--DL-V----R---R----A----R----LL---T---F-A---SWGF  195
+23202439  184  -D--R-QP---A--EV-V----H---T----I----K----ML---R---L-SLVGLWGV  207
+9379376   167  -T--A-AG---G--EV-L----K---A----H----K----IL---CWFVL-V---GWSI  190
+14106473  167  -A--A-AG---G--EV-L----K---A----H----K----IL---CWFVL-V---GWSI  190
+24591592  161  -G--A-VA---T--QI-X----N---A----T----Y----VL-------L-T---TWMV  180
+22836734  192  -T--P-AS---S--AL-L----R---N----A----T----IL---L---L-S---GWAV  212
+15604988  177  -T--T-AS---P--AV-M----SAYNT----M----M----LI---I---V-V---GWAI  200
+26926937  179  -----------R--GL-V----S---A----A----R----WL---T---V-G---SWCF  195
+15694710  192  -S--D-KV---R--RL-F----S---G----L----R----LL---L---I-A---TWGV  212
+18504213  150  -V--L-AA---H--KI-L----C-------------W----FV-------L-V---GWAI  167
+4324661   173  -A--K-A----N--KV-L----A-------------W----FV-------L-V---GWAI  189
+10013794  174  -T--G-VV---A--EL-I----N---K----A----T----II---L---L-G---TWMV  194
+5127719   179  AS--P-AV---Q--SA-Y----N---T----M----M----YI---I---I-F---GWLI  200
+5627318   175  -P--E-DA---R--GL-V----K---A----A----R----YV---V---V-G---SWAF  195
+23766800  169  -V--L-AA---H--KI-L----C-------------W----FV-------L-V---GWAI  186
+13877663  144  -G--E-VG---S--K--L----N---N----V----R----YL---L---L-F---TWGV  163
+3921515   154  -A--S-AGGEVQ--KA-H----K---I----L----C----WF---V---L-V---GWSI  177
+103906    180  AS--P-AV---Q--SA-Y----N---T----M----M----YI---I---I-V---GWAI  201
+3142803   174  -L--Y-A----H--KV-L----C-------------W----FV-------L-V---GWAI  190
+12404917  178  -A--S-AGGEVQ--KA-H----K---I----L----C----WF---V---L-V---GWSI  201
+12994993  154  -A--S-AGGEVQ--KA-H----K---I----L----C----WF---V---L-V---GWSI  177
+11767283  181  ----P-RV---L--EL-L----G---A----T----R----LV---L---L-M---SWGF  200
+762685    170  ----P-AV---T--KA-V----K---T----L----G----WF---V---L-V---GWAI  189
+8192073   178  AS--P-AV---Q--SA-Y----N---T----M----M----YI---I---I-F---GWAI  199
+18298897  166  -G--G-SV---E--KA-H----K---M----L----T----LF---V---L-I---GWAI  186
+2865579   178  AS--P-AV---Q--SA-Y----N---T----M----M----YI---I---I-I---GWAI  199
+2046718   166  -V--Q-AG---G--YV-L----Q---AHKTLC----W----FV-------L-V---GWAI  189
+19950362  182  -P--A-SV---R--RT-I----S---Q----L----R----LL---L---L-L---TWGV  202
+9640772   172  -P--K-AV---Q--GL-V----S---N----A----R----TL---T---I-L---SWTF  192
+19652476  167  -E--S-AG---G--AV-L----S---AHKMLC----W----FV-------L-V---GWAI  190
+16085898  169  -S--S-AG---V--QR-A----H---N----I----L----CK---FV--L-I---GWGI  190
+18273081  178  -P--G-SA---R--GL-I----S---G----A----R----AL---L---I-I---SWAF  198
+21936172  192  -A--P-ATV--Q--KA-F----N---T----M----R----LI---V---T-F---GWAI  213
+24527227  167  -V--A-AG---G--EI-L----K---A----H----K----IL---CWFVL-V---GWAI  190
+23000605  182  -R--V------L--EL-L----T---A----T----R----YV---L---L-M---SWGF  200
+10483952  174  -P--P-PI---R--KA-L----L---N----M----R----LF---I---L-I---GWAI  194
+340730    173  AS--P-AV---Q--SA-Y----N---T----M----M----YI---I---I-F---GWAI  194
+16056065  167  -T--S-AG---G--ET-L----RAH-N----I----L----AK---FV--L-I---GWAI  190
+2556825   191  -----------Q--NA-F----S---T----M----R----WI---V---T-I---GWAI  207
+22979572  191  -P--P-SV---Q--SA-F----K---L----M----R----SI---V---V-L---GWAI  211
+3395301   179  AS--P-AV---Q--SA-Y----N---T----M----M----YI---I---I-F---GWAI  200
+867242    186  -P--T-SI---Q--SS-L----K---T----M----R----LF---V---T-I---GWVI  206
+4118958   164  -A--KSAG---G--NV-E----S---A----H----K----MLVKFV---F-I---GWAI  188
+7725806   180  AS--P-AV---N--SA-Y----N---A----M----M----MI---I---V-V---GWAI  201
+15934951  180  AS--P-AV---N--SA-Y----N---A----M----M----KI---I---V-I---GWAI  201
+18832802  178  AS--P-AV---N--SA-Y----N---A----M----M----LI---I---V-V---GWSI  199
+11073229  190  -A--P-AN---V--QS-A----F---N----LMR--W----IV-------T-I---GWAI  211
+12198716  168  -T--P-AS---G--VA-L----K---R----A----T----IV---L---L-G---GWVI  188
+25022098  174  -P--A-PI---R--KA-L----L---N----M----R----LF---I---L-V---GWAI  194
+2414952   192  -P--P-SV---Q--SA-F----N---T----M----R----LI---V---T-F---GWAI  212
+19356674  89   -Q--P-AGV--G--ET-V----G---R----L----R----LL---L---I-A---TWGV  110
+12695804  167  -V--A-AG---G--DI-L----K---A----H----K----IL---CWFVL-V---GWAI  190
+919644    167  -V--A-AG---G--DI-L----K---T----H----K----IL---CWFVL-V---GWAI  190
+10255755  161  -S--N-ANV--Q--KA-Y----K---W----M----L----IC---V---S-I---GWSI  182
+11387097  177  -L--K-AH---K--TL-C------------------W----FV-------L-V---GWAI  193
+20932222  172  -V--Q-AA---H--KT-L----C-------------W----FV-------L-V---GWAI  189
+18713586  172  -A--E-PI---A--KG-L----R---Q----M----R----LF---I---A-V---GWVI  192
+10358648  192  -S--V-QG---S--FR-L----M---R----L----I----VT---F---------GWSI  210
+941297    166  -D--P-HL---Q--KA-F----N---T----L----A----WF---I---L-V---GWAI  186
+22708786  169  -A--S-AG---G--AV-Q----S---AHKTLC----W----FV-------L-V---GWAI  192
+6351915   180  AS--P-AV---N--SA-Y----N---A----M----M----VI---I---V-V---GWAI  201
+4594676   175  -V--L-TA---H--KT-L----C-------------W----FV-------L-V---GWAI  192
+23930607  86   -Q--P-AGV--G--ET-I----G---R----L----R----LL---L---V-A---TWGV  107
+11974359  87   -Q--P-AGV--A--ET-I----G---R----L----R----LL---L---I-A---TWGV  108
+17870278  172  -S--P-AM---G--RA-M----F---L----L----K----IF---I---T-L---GWSI  192
+20068445  179  AS--P-AV---N--SA-Y----N---A----X----X----XI---I---V-V---GWAI  200
+24738296  201  -S--D-GV---Q--FA-F----T---S----M----R----WI---V---T-V---GWAI  221
+654568    92   -A------------AT-I----G---R----L----R----LL---L---I-A---TWGV  108
+22953663  194  -P--P-AV---Q--SA-F----S---V----M----R----WI---V---V-I---GWAI  214
+12378364  173  -V--L-AA---H--KV-L----C-------------W----FV-------L-V---GWAI  190
+20315575  179  -A--A-T----------V----G---R----L----R----LL---L---V-A---TWGV  195
+7105377   197  -S--P-AV---K--SA-F----S---L----M----R----II---V---T-V---GWSI  217
+19316836  190  -P--P-SV---Q--SA-F----N---T----M----R----LI---V---T-F---GWAI  210
+16727856  93   -A------------AT-V----G---R----L----R----LL---L---I-A---TWGV  109
+15286927  160  -T--S-AG---G--AT-L----SAH-N----M----L----CK---FV--L-I---GWAI  183
+21767206  172  -S--P-AL---G--NA-M----F---L----L----K----IF---I---T-L---GWSI  192
+16982495  87   -Q--P-AGV--A--ET-V----G---R----L----R----LL---L---I-A---TWGV  108
+18767637  176  -Q--S-AX---Q--TL-V----K---F----V------------------F-X---GWAI  192
+1803582   69   -A------------AT-V----G---R----L----R----LL---L---I-A---TWGV  85
+9768853   185  -Q--F-A--------F-T----S---M----R----W----IV---S-----V---GWAI  201
+5699033   162  -Q--K-AG---G--AV-L----D---A----FNALKW----FV-------L-V---GWAI  185
+12407940  75   -S--G-QV---R--IL-V----R---N----I----L----LL---T---V-F---VWGF  95
+1424029   170  -S--E-VV---K--KG-V----R---T----L----A----WF---V---L-V---GWAI  190
+25245048  174  -L--S-AH---R--ML-C------------------W----FV-------L-V---GWAI  190
+18946807  172  -S--P-AL---G--RA-M----F---L----L----K----IF---I---T-L---GWSI  192
+1374505   189  -G--S-EA---A--TT-L----R---N----A----G----IL---L---I-V---TWMA  209
+26428727  165  -K--S-AG---G--NV-E----S---A----H----K----ML---CKFVL-I---GWAI  188
+24075904  201  -S--P-GV---Q--YA-F----N---A----M----R----MI---V---T-V---GWAI  221
+8253828   175  -V--K-KG---V--RA-L----A-------------W----FV-------L-V---GWAI  192
+7283781   201  -S--D-GV---Q--FA-F----T---S----M----R----WI---V---S-V---GWAI  221
+9752090   189  -S--A-ES---F--AS-L----R---N----A----A----VV---L---L-S---TFGV  209
+21318468  181  -A--P-ASV--Q--SA-F----S---T----M----R----WI---V---T-I---GWAI  202
+23734744  196  -V--P-SL---D--RS-F----R---L----V----A----LT---T---I-T---FWGI  216
+26114359  171  -D--P-AL---Q--SA-F----K---A----L----G----WF---V---L-V---GWAI  191
+6077469   172  -S--P-AL---G--RA-M----F---L----L----K----IF---I---T-L---GWSI  192
+21818244  166  -S--P-AV---A--AA-N----R---Y----L----G----WF---V---L-V---GWAI  186
+10525203  172  -S--P-AL---K--KA-M----F---L----L----K----IF---I---T-L---GWSI  192
+5410368   171  -N--P-TV---Q--RG-V----R---T----L----A----WF---V---L-V---GWAI  191
+9389989   180  -A--K-SG---N--KA-LVTAFG---A----M----R----MI---V---T-V---GWAI  204
+16187790  163  -G--A-AA---S--CF-E----F---C----K----W----IV-------T-I---GWAV  182
+10647223  167  -E--N-AG---G--AV-L----K---AHKTLC----W----FV-------L-V---GWAI  190
+18374693  181  -A--K-SG---N--KA-LVTAFG---A----M----R----MI---V---T-V---GWAI  205
+25570361  143  -G--P-AK---E--CF-E----F---C----K----W----IV-------T-I---GWSV  162
+11075581  172  -D--P-VL---Q--RA-F----K---T----L----A----WF---V---F-A---GWAI  192
+1217571   87   -Q--P-AGV--A--ET-V----G---R----L----R----LL---L---I-A---TW    106
+19459228  171  -N--P-KN---E--KA-Y----I---S----M----L----SF---L---L-V---LWVI  191
+20366378  165  -S--A-AN---S--AL-G------------------W----FV-------L-V---GWAI  181
+21596340  163  -G--P-AK---E--CF-E----F---C----K----W----IV-------T-I---GWSV  182
+18653937  185  -Q--F-A--------F-T----S---M----R----W----IV-------T-V---GWAI  201
+10237124  181  -A--K-SG---N--KA-LVTAFG---A----M----R----MI---V---T-V---GWAI  205
+5341437   173  ----P-IL---Q--KA-F----K---T----L----G----WF---I---L-A---GWAI  192
+21318192  179  -S--K-SV---R--LM-R----T---F----I------------------L-V---GWAI  195
+22414346  198  -Q--P-EE---R--TA-F----K---W----L----A----LS---T---V-T---TWGV  218
+2566895   91   -T--P-AV---Q--KA-I----E---S----L----L----KF---V---V-I---GWAV  111
+661729    172  -V--K-SG---Y--KV-M----R-------------W-----F---T---L-V---GWAI  189
+10284593  185  -P--E-AV---Q--KS-F----G---T----M----R----MI---V---T-V---GWAI  205
+11907149  167  -S--P-AL---A--NA-M----F---L----L----K----IF---I---T-L---GWSI  187
+21653690  182  -P--A-SV---R--GT-L----S---R----L----R----YL---L---L-L---SWGV  202
+11965843  91   ----A-AS---Q--KA-F----G---T----I----R----AI---V---T-F---GWAI  110
+7843095   206  -S--E-SV---Q--FA-F----N---S----M----R----WI---V---L-V---GWAI  226
+10420502  191  -P--E-SI---V--RA-L----K---G----L----R----MF---I---L-V---GWTI  211
+16141251  129  -D--Q-AP---E--SV-K----S---A----FSTMRW----IV-------T-I---GWAI  152
+24326113  184  -A--P-ASV--Q--SA-Y----Q---T----M----R----LI---V---V-F---GWAV  205
+8289605   91   -A------------AT-V----G---R----L----R----LL---L---I-A---TWGV  107
+26526065  190  -P--E-SF---Q--GQ-L----G---V----M----K----KF---I---A-I---GWII  210
+3542055   188  -KG-T-AA---A--AT-L----R---N----A----G----IL---L---I-V---TWLA  209
+17362009  86   -Q--P-AGV--A--AT-I----G---R----L----R----WL---L---L-A---TWGV  107
+1797821   162  -T--A-AS---Q--QC-F----S---A----L----R----LI---V---T-V---GWAI  182
+8091631   141  -S--P-AV---Q--SA-F----S---L----M----R----YI---V---T-F---GWAI  161
+2736403   185  -E--Q-AP---E--SV-K----S---A----FSTMRW----IV-------T-I---GWAI  208
+1256315   169  -G--G-SV---E--KA-H----K---T----L----T----LF---V---L-I---GWAI  189
+22421223  208  -----------Q--FA-F----K---A----M----A----LI---L---T-F---GWAI  224
+13499329  87   -A--K-SG---N--KA-LVTAFS---A----M----R----MI---V---T-V---GWAI  111
+543177    171  -S--E-AV---R--KG-V----R---A----L----A----WF---V---L-V---GWAI  191
+349919    89   -S--E-QV---R--AT-V----S---R----L----R----LL---L---I-G---TWGV  109
+24278733  181  -A--K-AG---N--KS-MTTAFS---A----M----R----II---V---T-I---GWAI  205
+26386263  171  -N--A-SI---Q--KT-V----R---I----L----A----WF---V---L-V---GWSI  191
+25175270  181  -A--K-SG---N--KA-L----S---T----A----FSAMRMI---V---T-V---GWAI  205
+23755429  181  -A--P-ES---V--KA-S----F---N----I----M----RL---I---VTI---GWAI  202
+22309386  212  -Q--F-A--------F-T----S---M----R----W----IV-------T-V---GWAI  228
+
+Query_1   216  YPGAYL-M----P---------Y--L-----T--G-V--D---GFLY-SEDG--V----M  239
+11678712  218  YPGAYL-M----P---------H--L-----A--G-I--E---GFLY-NESG--V----V  241
+9725117   218  YPGAYL-M----P---------H--L-----A--G-I--E---GFLY-NESG--V----V  241
+12692711  217  YPGAYL-M----P---------Y--L-----T--G-V--D---GFLY-SEDG--V----M  240
+303949    217  YPGAYL-M----P---------H--L-----L--G-I--E---GGFF-NEAG--V----V  240
+12301965  217  YPGAYL-M----P---------H--L-----A--G-I--E---GGFF-NETG--V----V  240
+13218326  218  YPGAYL-M----P---------H--L-----L--G-IGAE---AGFF-NETG--I----V  243
+9481050   220  YPGAYL-M----P---------Y--LFS---L--G-L--E---PAL--SEAA--V----V  244
+2044010   220  YPGAYL-M----P---------Y--LFS---L--G-L--E---PAL--TETA--V----V  244
+18969509  203  YPLAYI-M----P------------------------------AILP-TADG--V----V  220
+6496542   204  YPIAYL-I----P---------W--L-----S--P-------------TPNG--M----V  221
+34935     203  YPLGYL-M----P---------Q--I-----S--A-------------SSNG--V----V  220
+14908989  204  YPIAYM-V----P------------------------------AFMN-NADG--V----V  221
+27301268  207  YPIAYL-V----P------------------------------AFMN-NADG--V----V  224
+2617052   220  YPIAYL-V----P------------------------------AFMN-NADG--V----V  237
+200898    215  YPIAYM-W----P---------V--I-----D--G-------------SATG--V----V  232
+25672253  215  YPIAYM-W----P---------V---------------------FDS-SADG--V----V  232
+17925808  218  YPIAYA-L----P---------Q--L--------G-Q--T---G------DI--V----V  235
+25812669  216  YPIAYA-L----P---------Q--L-----G--------------H-TGDI--V----V  233
+22157834  198  YP-----I----T---------Y--L-----L--G-I--ESL-GLVS-GADA--L----V  219
+14540700  230  YPIAYL-M----P---------I--F-----L--G--------GGTL-SASG--V----V  251
+14383989  205  YPIVYM-V----P---------M--F-----I--G--------GYPG-EAPG--A----V  226
+1240066   201  YPIAYL-L----P------------------------------AFST-SAST--A----V  218
+23107175  196  YPITYM-L----P------------M-----F--G-I--Q--------AQSS--L----V  214
+11170558  196  YPIVYM-I----P---------Y--T-----N--L-A--G---GAV---ETG--V-----  216
+4653487   205  YPIAYL-L----P---------E--L--------G-I--A---G-----ATA--T----V  223
+18796862  203  YPIAYI-I----P-------------------------------LYF-SHAG--A----D  219
+16264973  195  YPISYL-F----P---------L--LGI---T--G-T--D---AFMY-------------  214
+14587802  196  YPIAYL-L----P---------L--L-----N-------------LD-PAVA--L----V  214
+17776954  196  YPIVYM-A----P---------F--------A--G-I--T---G-----ATA--T----T  214
+23780608  200  YPISYM-M----P---------L--L--------G-S--D---AM---DPQG--F----V  220
+10355277  199  YPIAYL-L----P---------I--I-----D--A----D---GAA--SSGA--Y----V  220
+15560190  170  YPITFL----------------F--N-----M--N-A--D---GF---EAGS--F----V  189
+4265657   125  YPIAYL-L----P---------T--I-----S--T-S--L---G-LT-AGDG--L----V  147
+12315303  199  YPVVYI-F----P------------M-----M--G-I--S---G-----SNA--I----V  217
+6443949   202  YPISYL-F----PAFGVWFNSDW--F-----E--G-P--G---SFVF-------------  228
+7321357   196  YPLSYL-I----P---------M--I-----I--T-N--P---TMEQ-AAGL--F----T  219
+8413012   156  YPIVYM-L----P---------F--L-----G--E-V--T---GTTF------------V  174
+1326519   215  YPIAYI-L----P---------M--L--------G-I--V---G-----SSA--V----V  233
+15691082  174  YPVVFV-F----P---------M--I-----G--F-T--G---G--A-AETA--V-----  194
+23020670  198  YPISYL-L----P---------I--L-----------------GQSA-TDPG--AF---V  218
+15535564  196  YPIVYM-V----P---------F--I-----N-------------LG-GSTV--E----T  214
+15740468  188  YPITYL-F----P---------V--F------------------FEY-PHDG--AE---T  207
+11613817  205  YPIVYM-A----P---------F--V--------G-L--E---G--P-TANT--V----I  225
+17239728  193  YPVVFI-L----P---------M--I-----------------GLTA-AGSV--N----M  212
+6673965   185  YPIAFL-L----P---------Q--L--------G-I--D---G-----ADS--F----V  203
+15429244  203  YPLAYA-L----P---------L--LGI---S--G-A--D---AWVL-KQGG--------  226
+9587242   217  YPLAYL-I----P---------A--V-----A--G-A--D---SGAW-G----------T  236
+9427141   196  YPIVYM-V----P---------Y--V-----G-------------LT-GGTV--T----T  214
+24378535  196  YPVSYL-I----P---------I--LVKDPST--S-Q--M---AMLF-TD----------  220
+1403208   208  YPVVYL-F----P---------M--L-----------------GF-R-GPGA--V----V  226
+13946063  196  YPVSYI-L--------------------------G-M--G---EGMA-SADQ--F----V  215
+26340575  198  YPIVYM-A----P---------Y--A-----N-------------LA-GPDV--E----T  216
+24711757  203  YPIAYL-L----P---------L--L-----SIAG-P--D---AWVY-KQVG--------  226
+21442498  189  YPIAYI-LGDSTS---------W--L-----S--T-T--L---G-LS-DSDA--M----T  215
+11388173  217  YPIAYL-L----P---------------------A-V--D---AGPA-SAVT--I-----  236
+18830278  192  YPIAYI-LGDSSS---------W--L-----S--E-T--L---GLSG-SEAS--T-----  218
+23559453  196  YPISYL-I----P---------I--L-----V--K-S--P---------SES--Q----M  214
+10204896  197  YPVAYV-F----N------------L-----A--G--------GTAE-AEIG--V-----  216
+17660041  200  YPITYL-L----P---------M--L--------G-I--D--------IQSS--V----V  218
+2156049   182  YPISYL-L----P---------I--L-----S-------D---TSAT-DPGA--F----V  203
+16992851  203  YPIAYL-L----P---------A--I--------G-A--N---G-----ADA--W----V  221
+12389570  196  YPVSYI-L----G---------M--N-----P--S-T--D---MAVA-GQQF--V-----  218
+13686176  196  YPVVFV-F----P---------M--I-----G--F-T--G---G------AA--T----T  214
+5111641   187  YPIAYL-F----P---------I--F-----D--D-T--S---GGLE-T-----------  205
+13914836  201  YPIAYA-L----G------------------T--W-L--P---GGAA-QE---------V  219
+25678525  187  YPIGYL-F----P---------V--I------------------FPA-GHEG--A----E  205
+24470310  195  YPVSYI-L--------------------------G-M--G---GDAA-ASQW--V----N  214
+2461256   203  YPIAYL-L----P------------L-----L--G-L--D---G-----ADA--W----V  221
+23661519  188  YPIFYI-LGDETS---------W--L-----A--K-Q--I---G-LS-VEEA--A----T  214
+13893171  195  YPVVYF-A----G---------I--F-----F--G-L--G---GGV--SETV--V-----  216
+5913753   192  YP-----I----S---------F--I-----F--N-M--N---ATGF-DESG--F----V  211
+5176795   191  YP-----L----G---------Y--M-----L--G-T--D---GWYT-GIIG--K----G  210
+7319954   191  YP-----I----G---------Y--M-----A--G-T--P---GWYE-GLFG--G----L  210
+9268104   188  YPIFYI-LGDSTS---------W--L-----A--E-Q--I---G-LS-PEEA--T----T  214
+2904434   188  YPIFYI-LGDSTS---------W--L-----A--E-Q--I---G-LS-PEEA--T----T  214
+20155878  187  YP-----I----G---------Y--M-----A--G-T--P---GWYD-GIFG--G----L  206
+7151328   186  YPIAYL-F----P---------V--F-----D--A-S--S---GTLE-T-----------  204
+5890871   201  YPAGYA-A----G---------Y--L-----M--G-G--D---G-VY-AQN---------  220
+14665624  201  YPAGYA-A----G---------Y--L-----M--G-G--D---G-VY-AQN---------  220
+5165822   203  YPIAYL-L----P---------G--I--------G-I--D---G-----SDA--W----V  221
+5000302   196  YPIVYM-A----P---------YANL-----T--G-A-------------TA--T----T  214
+23202439  208  YPIAYM-F----P---------M--I-----G--G-D-------FFG-GADG--F----V  229
+9379376   191  YPLGYM-M--------------------------G-T--T---GWYN-SFIP--A----G  210
+14106473  191  YPLGYM-M--------------------------G-T--T---GWYN-SFIP--A----G  210
+24591592  181  YPIAYL-F----P---------I--F-----D--G-----------E-SETL--E----T  199
+22836734  213  YPLVYL-I----Q---------I--L-----G-------D---GGAW-ATT---------  231
+15604988  201  YPAGYA-A----G---------Y--L-----M--G-G--D---G-VY-AQN---------  220
+26926937  196  YPVVFV-F----P---------M--I-----------------GFTG-SA-A--T----T  214
+15694710  213  YPITYI-L----A---------M--------------------GHEYPSASD--V----V  232
+18504213  168  YP-----L----G---------Y--M-----L--G-T--D---GWYT-SLLG--S----G  187
+4324661   190  YPLGYI-L----G---------T--N-----G--G-L--F---GMQL-VTDP--K----A  213
+10013794  195  YPITYL-F----P---------V--F------------------FEY-PHDG          211
+5127719   201  YPVGYA-S----G---------Y--L-----M--G-D--G---G-------S--A----M  218
+5627318   196  YP-----V----V---------Y--F-----A--G-A--V---G-LD-SAAA--T----V  214
+23766800  187  YP-----L----G---------Y--M-----L--G-T--D---GWYT-SILG--K----G  206
+13877663  164  YPIAYI-L                                                      170
+3921515   178  YPLGYM-M----G---------T--S-----G--W-Y--N---GFIP-AGN---------  198
+103906    202  YPVGYF-T----G---------Y--L-----M--G-D--G---G-------S--A----L  219
+3142803   191  YP-----L----G---------Y--M-----L--G-T--E---GWYT-SILG--S----G  210
+12404917  202  YPLGYM-M----G---------T--S-----G--W-Y--N---GFIP-AGN---------  222
+12994993  178  YPLGYM-M----G---------T--S-----G--W-Y--N---GFIP-AGN---------  198
+11767283  201  YPIAYA-L----G------------------T--W-L--P---GGAA-QE---------V  219
+762685    190  YPVGYI-A----G---------T--A-----G--G-L--F---GFRV-FEG--------L  211
+8192073   200  YPVGYF-T----G---------Y--L-----M--G-D--G---G-------S--A----L  217
+18298897  187  YP-----L----G---------Y--M-----I--G-T--D---GWYD-FVDG--IG---L  207
+2865579   200  YPIGYY-T----G---------Y--L-----M--G-D--G---G-------S--A----L  217
+2046718   190  YP-----I----G---------Y--M-----A--G-T--T---GWY----DG--IFDS-L  209
+19950362  203  YPIAYL-L----P------------L-----L--G-I--E--------SADA--W----V  221
+9640772   193  YPIVFI-L----P---------M--L--------G-I--G---GLVA-GEVN--A-----  214
+19652476  191  YP-----V----G---------Y--M-----A--G-T--P---GWYE-GIFG--G----I  210
+16085898  191  YP-----L----G---------Y--M-----I--G-T--D---GWYD-FVDG--IG---L  211
+18273081  199  YPIAFA-L----P---------M--L-----------------GSGT-PDSS--N----V  218
+21936172  214  YPLGYY-F----G---------Y--L-----T--G-S--D--------PASS--M----A  233
+24527227  191  YP-----L----G---------Y--M-----L--G-T--D---GWYT-SILG--T----G  210
+23000605  201  YPIAYA-L----G------------------T--W-L--P---GGAA-QE---------V  219
+10483952  195  YPIGYA-V----TL--------F--A-----T--G-I--E---VQL--------------  212
+340730    195  YPVGHF-T----G---------Y--L-----M--G-D--G---G-------S--A----L  212
+16056065  191  YPLGYM-I----G---------T--A-----D--G-QW-Y---SFLA-DAVG--Q----S  215
+2556825   208  YPLGYF-M----G---------Y--F-----T--G-A--G--------PEAS--A----A  227
+22979572  212  YPIGYF-L----G---------Y--L-----T--G-S--G--------PESS--M----K  231
+3395301   201  YLVGYF-T----G---------Y--L-----M--G-D--G---G-------S--A----L  218
+867242    207  YPVGFL-M----A--------------------------------LN-GGAG--E----S  222
+4118958   189  YP-----I----G---------Y--M-----A--G-T--D---GWYS-GIFS--S----L  208
+7725806   202  YPAGYA-A----G---------Y--L-----M--G-G--E---G-VY-ASN---------  221
+15934951  202  YPAGY-------------------------------A--A---GYLM-SGDG--V----Y  218
+18832802  200  YPAGYV-A----G---------Y--L-----M--G-G--E---G-VY-ASN---------  219
+11073229  212  YPIGYF-F----G---------Y--L-----S--G-A--D--------PVES--M----K  231
+12198716  189  YPIVYL-I----P---------L--L                                    198
+25022098  195  YPIGY-----------------------------A-V--T---LFAS-GVEV--Q----L  212
+2414952   213  YPIGYF-F----G---------Y--F-----T--G-S--S--------PANS--V----N  232
+19356674  111  YP                                                            112
+12695804  191  YP-----L----G---------Y--M-----L--G-T--D---GWYT-SILG--K----G  210
+919644    191  YP-----L----G---------Y--M-----L--G-T--E---GWYT-NILG--T----G  210
+10255755  183  YPIGYA-I----G---------Y--L-----G--G-------------GADP--A----M  200
+11387097  194  YP-----I----G---------Y--M-----A--G-T--P---GWYE-GMFG--G----L  213
+20932222  190  YP-----I----G---------Y--M-----A--G-T--E---GWYS-GIFG--G----L  209
+18713586  193  YPVGFL-L----A--------------------------------LA-GEDG--G----S  208
+10358648  211  YPIGYY-F----G---------Y--L-----A--G-L--N--------PADS--M----K  230
+941297    187  YPIGYM----------------------------A-I--P---GGLL-S--G--V----L  203
+22708786  193  YP-----I----G---------Y--M-----A--G-T--E---GWYS-GIFG--G----L  212
+6351915   202  YPAGYA-A----G---------Y--L-----M--G-G--E---GVYA-SN----------  221
+4594676   193  YP-----L----G---------Y--M-----A--G-T--P---GWY----DG--LGDLGL  213
+23930607  108  YP                                                            109
+11974359  109  YP                                                            110
+17870278  193  YPIGYM-V-----------------L-----P--G--------NLLS-GAFE--V----S  212
+20068445  201  YPAGYA-A----G---------Y--L-----X--G-G--E---GVYA-SN----------  220
+24738296  222  YPIGYM-MGN--D---------M--L-----S--G-F--D--------------V----D  239
+654568    109  YP                                                            110
+22953663  215  YPIGYF-L----G---------Y--L-----T--G-A--S--------PEKS--M----V  234
+12378364  191  YPVGYI-L----G---------T--P-----G--G-L--F---GYDF-GVDA--S----F  214
+20315575  196  YP-----I----S---------Y--I-----L--G-M--G---GDAT-AEQF--V-----  214
+7105377   218  YPIGYF-F----G---------Y--L-----T--S-S--E--------PAES--M----T  237
+19316836  211  YPIGYF-F----G---------Y--L-----T--G-A--G--------PESS--A----N  230
+16727856  110  YP                                                            111
+15286927  184  YP-----I----G---------Y--M-----A--G-T--E---GWYS-GIFG--G----L  203
+21767206  193  YPIGYM-V-----------------L-----P--G--------NLLS-GAFE--V----S  212
+16982495  109  YP                                                            110
+18767637  193  YP-----I----G---------Y--M-----A--G-T--E---GWYS-GIFG--G----L  212
+1803582   86   YPIAYL-L----P---------I--L--------G-Q--D---AL---DPAA--F----V  106
+9768853   202  YPIGYM-MGN--D---------M--L-----S--G-F--D--------------V----D  219
+5699033   186  YP-----I----G---------Y--M-----I--G-T--E---GWYD-FVDA--LG---W  206
+12407940  96   YPIVYM-A----P---------FYGL-----G--G-A--N---GQVF-LQVG--------  119
+1424029   191  YP-----I----G---------Y--M-----C--M-E--G---GWLS-SVMS--P----S  210
+25245048  191  YP-----I----G---------Y--M-----A--G-T--P---GWY----DG--IFSG-L  210
+18946807  193  YPLGYM-V-----------------L-----P--G--------NLLS-GAFE--V----S  212
+1374505   210  Y-----------P---------I--I-----F--G-L--Q---GWGH-GGAV--I----T  227
+26428727  189  YP-----I----G---------Y--M-----A--G-T--D---GWYS-GIFS--G----L  208
+24075904  222  YPIGYL-M----G---------A--G-----T----I--D---GM------G--A----D  239
+8253828   193  YPIGYM-C----------------------------M--D---GGWL-S--G--I----M  209
+7283781   222  YPIGYM-M----G---------N--D-----M----L--D---GFNA-DD----------  240
+9752090   210  YPLVYA-V----P---------V--F-----V--D-V--T---PSWF------------V  228
+21318468  203  YPLGYF-F----G---------Y--L-----T--G--------------GAS--M----E  219
+23734744  217  YPIGYI-L----S------------A-----T--G-V--D                      229
+26114359  192  YPIGYM-A-----------------------I--E-T--D---GWLR-GVID--V----R  212
+6077469   193  YPIGYM-V-----------------L-----P--G--------NLLS-GAFE--V----S  212
+21818244  187  YPVGYI-L----G---------T--T-----G--G-L--F---GSQM-VADP--K----A  210
+10525203  193  YPIGYM-V-----------------L-----P--G--------NLLS-GLFE--V----S  212
+5410368   192  YP-----I----G---------Y--M-----C--M-E--G---GWLN-IALGWEP----S  213
+9389989   205  YPLGYV-F----G---------Y--L-----T--G----------------G--V----D  219
+16187790  183  YPLGYL-F----G---------Y--M-----T--G-------------SADE--V-----  199
+10647223  191  YP-----L----G---------Y--M-----A--G-T--P---GWYE-GWFS--G----L  210
+18374693  206  YPLGYV-F----G---------Y--L-----T--G----------------G--V----D  220
+25570361  163  YPLGYL-F----G---------Y--M-----T--G-------------SANE--V-----  179
+11075581  193  YPIGYM-T----I---------E--G-----S--GWL--S---GVLA-SS----------  213
+19459228  192  YPVLWL-L--------------------------G-E--S---G--Y-STIS--P----T  209
+20366378  182  YPLGYL-I                                                      188
+21596340  183  YPLGYL-F----G---------Y--M-----T--G-------------SANE--V-----  199
+18653937  202  YPLGYM-MGN--D---------M--I-----S--G-F--D--------------V----D  219
+10237124  206  YPLGYI-F----G---------Y--L-----T--G----------------G--V----D  220
+5341437   193  YPIGYM-A----I---------P--G-----G--L-L--S---GILS-PE----------  212
+21318192  196  YPIGFL-M----A------------L-----T--G--------------DSG--G----A  211
+22414346  219  YPLGYI-------------------L-----T--T-V--D---GF                 231
+2566895   112  FP                                                            113
+661729    190  YPIGYM-ML---PGN-------L--L-----S--G-M--A---GNI--------------  209
+10284593  206  YPLGYF-L----G---------Y--L-----N--G-------------AADA--V-----  222
+11907149  188  YPIGYM-V-----------------L-----P--G--------NLLS-GVFE--V----K  207
+21653690  203  YPIAYL-L----P---------L--L-----N-------------IA-GSDA--W----V  221
+11965843  111  YPIGYY-V----A---------Y--L-----G--G-------------GSND--S----N  128
+7843095   227  YPLGYM-M--------------------------G-N--DMLPGF------G--E----N  244
+10420502  212  YPLGFL-M----A--------------------------------LV-GTQG--E----S  227
+16141251  153  YPLGYF-Y----G---------Y--L-----A--S-G--D--------PASA--A----N  172
+24326113  206  YPIGYF-L----G---------Y--L-----T--G-G--N--------PADS--S----N  225
+8289605   108  YP                                                            109
+26526065  211  YPVGFL-L----A--------------------------------LS-SNES--L-----  225
+3542055   210  YPIVF-----------------------------G-L--Q---GWGH-GGAV--I----T  227
+17362009  108  YP                                                            109
+1797821   183  YPLGYI-Y-----------------------------------GYAA-ATPD--V----A  199
+8091631   162  YP                                                            163
+2736403   209  YPLGYF-Y----G---------Y--L-----A--T-G--D--------PASS--A----D  228
+1256315   190  YP-----L----G---------Y--M-----I--G-T--D---GWYD-FVDA--IN---V  210
+22421223  225  YPIGFM-L----G---------Q--G-----D--G----------------G--T----D  239
+13499329  112  YPLGYV-F----G---------Y--L-----T--G----------------G--V----D  126
+543177    192  YPIGYMAM----P--------------------------G---GWLG-PDGA--G----L  211
+349919    110  YP                                                            111
+24278733  206  YPLGYI-F----G---------Y--L-----TG-G-V--D---A---------------N  222
+26386263  192  YPIGYMCM----P--------------------------G---GWLN-TGLG--W----D  211
+25175270  206  YPLGYV-F----G---------Y--L-----T--G----------------G--V----D  220
+23755429  203  YPLGYF-M----G---------Y--L-----A--G----------------G--A----D  217
+22309386  229  YPIGYL-M----G--------------------------A---GTLG-DSLG--A----D  247
+
+Query_1   240  A-----R----Q---L--V---YTIADVSSXVIYG-VLLGNLAITLSKN  270
+11678712  242  G-----R----Q---I--T---YTIADVCSKVIYG-VLLGNLALVLSNN  272
+9725117   242  G-----R----Q---I--T---YTIADVCSKVIYG-VLLGNLALVLSNN  272
+12692711  241  A-----R----Q---L--V---YTIADVSSKVIYG-VLLGNLAITLSKN  271
+303949    241  G-----R----Q---M--T---FTVADIASKVIYG-VLLTNLAMVLSK   270
+12301965  241  A-----R----Q---L--T---YTIADVSSKVIYG-ILLTVVAQHISRH  271
+13218326  244  A-----R----Q---I--T---YTIADVLSKVVYG-VLLTVVAQVRSQE  274
+9481050   245  G-----R----H---I--T---YTIADVSSKVIYG-ILLTLTAQEMSK   274
+2044010   245  A-----R----H---I--T---YTVADIGSKVIYG-ILLTLTAQEMSK   274
+18969509  221  L-----R----Q---A--I---YTVADITSKVIYG-VLVTKVAMDLSK   250
+6496542   222  A-----R----Q---I--L---YTIADITSKVIYG-VMLGQLATRLS    250
+34935     221  V-----R----S---L--V---YSFADIASKAVYG-IMLAVIAQKLSAH  251
+14908989  222  L-----R----Q---L--L---FTVADISSKVIYG-LMITYIAIRQSAS  252
+27301268  225  L-----R----Q---L--L---FTIADISSKVIYG-LMITYIAIQQS    253
+2617052   238  L-----R----Q---L--L---FTIADISSKVIYG-LMITYIAIQQS    266
+200898    233  V-----R----Q---T--L---YTVADVTSKLVFG-VMLSQVALRRSAE  263
+25672253  233  I-----R----Q---T--L---YTIADVTSKLVFG-VMLSQVALRRSAE  263
+17925808  236  V-----R----Q---L--L---FSIADISTKLVYG-IMLSRYVLRRS    264
+25812669  234  I-----R----Q---L--L---YSIADVFSKLVYG-IILSRYVLRRS    262
+22157834  220  S-----L----Q---V--G---YSIADIAAKCGYG-LMI            240
+14540700  252  G-----L----Q---V--G---YSIADILAKVGFG-TLI            272
+14383989  227  A-----TI---Q---V--G---YTIADICAKAGYG-VLIYNIARAKS    256
+1240066   219  A-----V----Q---L--L---FTAADVGSKVLYG-VMLAKLC        243
+23107175  215  G-----V----Q---I--G---YAIADVLAKAFYG-IMI            235
+11170558  217  -----------Q---I--G---YTIADLIAKAGVG-ILVYMIAVRKS    243
+4653487   224  G-----V----Q---V--G---YTIADLLAKPVFG-LLVFSIA        248
+18796862  220  AWAF--K----Q---V--G---YSVADILAKVLYG-LLIYKIA        247
+16264973  215  ------R----Q---V--G---YSVADVLAKCVFG-LTIYKIA        238
+14587802  215  G-----K----Q---V--G---YSIADVVAKPMYG-LMIYAIA        239
+17776954  215  V-----I----Q---L--G---YTIADIIAKAGVG-VLIYMISVRKSQ   244
+23780608  221  W-----R----Q---V--G---YTTADVLAKCLFG-LTIYKIA        245
+10355277  221  G-----R----Q---V--G---YTIADI                       231
+15560190  190  A-----R----E---I--G---YTVADVTAKCLFG-LLIYSIARTKS    218
+4265657   148  L-----K----Q---I--G---YTIADILAKPGYG-LLIWKIA        172
+12315303  218  G-----I----Q---L--G---YSVSDIISKCGVG-LLIYQITIAKS    246
+6443949   229  ------R----Q---Y--G---YSIADVLAKAVFG-LLIYKIA        252
+7321357   220  A-----R----Q---V--G---YTVADVLAKCVFG-LTIYKIA        244
+8413012   175  G-----V----Q---V--G---YAIADVAAKCGYG-LLIYAIARAKTR   204
+1326519   234  G-----V----Q---V--G---YTIADVLAKPLFG-LLIYAIAVAKTRD  264
+15691082  195  -----------Q---V--G---YTIADIVAKAVFG-VVIYMIAVRKSE   222
+23020670  219  N-----R----Q---I--G---YSIADVLAKCVFG-LTILKIA        243
+15535564  215  S-----L----Q---I--G---YTIADIIAKVGVG-ILIYMIAVRKSQ   244
+15740468  208  V-----R----Q---V--G---YTIADITAKALYG-LAIVSIAKARSGN  238
+11613817  226  -----------Q---I--G---YTVADLVAKVGLG-ILIYIIAVRKS    252
+17239728  213  Y-----V----Q---L--G---YTISDIIAKAGYG-VLIYQIAVAKS    241
+6673965   204  G-----R----Q---L--G---YSIADVLAKCLFG-LLIYKIA        228
+15429244  227  ----------------------YSIADIAAKAVYA-LIIYRIA        246
+9587242   237  T-----E----Q---L--V---FTFSDIIAKAGFG-ILIHKVA        261
+9427141   215  T-----I----Q---I--G---YTIADIVAKAGLG-ILI            235
+24378535  221  ------R----Q---I--G---YTVADVLAKCVFG-LTIYKIA        244
+1403208   227  A-----I----Q---L--G---YCAADIISKCGVG-FLIYNITVTKS    255
+13946063  216  G-----V----Q---V--G---YTIADVLAKCVFG-LTILKIA        240
+26340575  217  V-----I----Q---I--G---YTIADLIAKAGVG-LLVFAIAARKSE   246
+24711757  227  ----------------------YSIADILAKAVYA-LIIFQVA        246
+21442498  216  T-----I----Q---V--G---YTVADILAKPGYG-LLIMSIAIARS    244
+11388173  237  -----------Q---V--L---FTVADIGSKVLYG-VMLAKIC        259
+18830278  219  A-----I----Q---F--G---YTIADVLAKPGYG-LIILGIAIARS    247
+23559453  215  AMLFTNR----Q---I--G---YTVADVLAKCVFG-LTIYKIA        244
+10204896  217  -----------Q---V--G---YTIADIVSKCVYG-VMV            235
+17660041  219  A-----I----Q---V--G---YALADVAAKCGYG-LLI            239
+2156049   204  N-----R----Q---I--G---YTMADVLAKCVFG-ITIMKIA        228
+16992851  222  G-----K----Q---I--G---YSVADILAKCLYG-LIIYRVA        246
+12389570  219  G-----V----Q---V--G---YTIADILAKCVFG-LTILKIA        243
+13686176  215  A-----V----Q---V--G---YTVADIVAKAVFG-VLIYMIAVRKS    243
+5111641   206  L-----R----Q---V--G---YTVADITSKGLYG-LMVLGIA        230
+13914836  220  A-----I----Q---V--G---YSLADLIAKPIYG-LLV--FAIARAKS  248
+25678525  206  AG----R----Q---L--A---YTVADITAKALYG-IMILNIA        231
+24470310  215  V----------Q---M--G---YTIADVLAKCVFG-LTIYKIA        238
+2461256   222  G-----K----Q---A--G---YSIADILAKALYG-LLIYRIA        246
+23661519  215  V-----I----Q---V--G---YSASDVLAKAGYG-LVIMSIALARSES  245
+13893171  217  -----------Q---V--G---YTVADIVAKAGFG-ILIYMIAVRKSQH  245
+5913753   212  L-----R----E---T--G---YTIADILAKCLFG-LIIFTIA        236
+5176795   211  N-----V----D---V--A---YNIADAINKIGFG-LVIYNLAVKSTKD  241
+7319954   211  S-----M----D---V--V---YNIGDAINKIGFG-LVVYNLAVVASTK  241
+9268104   215  V-----I----Q---V--G---YSASDVLAKAGYG-LVIMSIALARSES  245
+2904434   215  V-----I----Q---V--G---YSASDVLAKAGYG-LVIMSIALARSES  245
+20155878  207  N-----L----D---V--I---YNLGDAVNKIGFG-LVIYNLAVKSSEK  237
+7151328   205  L-----R----Q---V--G---YTFADITAKGLYG-LMIVGIAKARSTS  235
+5890871   221  ------L----N---V--I---YNLADFVNKILFG-LVIWHVAVKESSN  250
+14665624  221  ------L----N---V--I---YNLADFVNKILFG-LVIWHVAVKESSN  250
+5165822   222  G-----L----Q---I--G---YSVADILAKCLYG-LIIYRIA        246
+5000302   215  V-----I----Q---L--G---YTIADIVAKAGVG-VLIFMISVRKSQ   244
+23202439  230  L-----R----Q---A--G---YSIADILAKAAFG-LAIYKIARVKSR   259
+9379376   211  N-----I----D---V--V---YNIADAINKIGFG-LVIYSLAVKSSKD  241
+14106473  211  N-----I----D---V--V---YNIADAINKIGFG-LVIYSLAVKSSKD  241
+24591592  200  L-----R----Q---V--G---YTFADITAKGLYG-LMI            220
+22836734  232  ------M----Q---V--T---LCFADAVVKIGFG-TLIHRVA        255
+15604988  221  ------L----N---V--I---YNLADFVNKILFG-LVIWHVAVKESSN  250
+26926937  215  A-----V----Q---V--G---YTVADIVAKAVFG-VLVYMIAVRKS    243
+15694710  233  A-----R----E---V--G---YTIADILAKCLFG-LIIFTIA        257
+18504213  188  S-----V----D---V--A---YNIADAINKIGFG-LVIYNLAVKSQPN  218
+4324661   214  A-----QASM-D---I--V---YNIADAINKIGFG-LVIYALSRSEEK   246
+5127719   219  N-----L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  249
+5627318   215  I-----V----E---V--G---YTIADITAKAVFG-VLI            235
+23766800  207  S-----V----D---I--A---YNIADAINKIGFG-LVIYNLAVQSQKD  237
+3921515   199  ------I----D---V--A---YNIADAINKIGFG-LVIYSLAVKSSKD  228
+103906    220  N-----L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  250
+3142803   211  S-----V----D---V--A---YNIADAINKIGFG-LVIYALAV       236
+12404917  223  ------I----D---V--A---YNIADAINKIGFG-LVIYSLAVKSSKD  252
+12994993  199  ------I----D---V--A---YNIADAINKIGFG-LVIYSLAVKSSKD  228
+11767283  220  A-----I----Q---I--G---YSLADLIAKPIYG-LLV--FAIARAKS  248
+762685    212  S-----M----D---I--V---YNIGDAVNKIGFG-LVIYSLAQT      238
+8192073   218  N-----L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  248
+18298897  208  N-----M----D---V--V---YNIGDAINKIGFG-LVVYAAAVS      234
+2865579   218  N-----L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSH  248
+2046718   210  S-----M----D---V--I---YNIGDAINKIGFG-LVIYNLAINVAAK  240
+19950362  222  G-----K----Q---I--G---YSIADILAKALYG-LIIYRIA        246
+9640772   215  A-----V----Q---V--G---YTIADIVAKAMFG-VMI            235
+19652476  211  S-----M----D---V--I---YNIGDAINKIGFG-LVVYNLAVTATAK  241
+16085898  212  N-----M----D---V--V---YNIGDAINKIGFG-LVIYSLAVS      238
+18273081  219  P-----L----Q---I--G---YSIADIVSKVGLG-L              237
+21936172  234  S-----L----N---I--I---YNLADVLNKIAFG-VIIWSVAVSESK   263
+24527227  211  G-----V----D---V--A---YNIADAINKIGFG-LVIYTLAV       236
+23000605  220  A-----I----Q---L--G---YSLADLIAKPVYG-LLI--FAIARAKS  248
+10483952  213  V-----R----E---L--I---YNVADLINKVGFG-LI             232
+340730    213  N-----L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  243
+16056065  216  G-----R----D---V--V---YNVGDAINKIGFG-LVVYGWAVAGSKE  246
+2556825   228  S-----L----N---I--I---YNLADVINKIAFG-VIIWNVAVT      254
+22979572  232  T-----L----N---I--V---YNLADVVNKIGFG-VIIWTVAVSESDK  262
+3395301   219  N-----L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  249
+867242    223  W-----R----E---V--C---YNVADVINKVFFG-LVC            243
+4118958   209  A-----G----Q---MDVI---YNIGDAVNKIGFG-LVVYNLAVS      237
+7725806   222  ------L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  251
+15934951  219  A-----SNL--N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  251
+18832802  220  ------L----N---L--I---YNLADFINKILFG-LIIWHVAVKESS   248
+11073229  232  T-----L----N---I--V---YNLADVLNKIAFG-VIIWSVAVTESEK  262
+25022098  213  V-----R----E---L--I---YNVADLVNKVGFG-LI             232
+2414952   233  A-----L----N---I--I---YNLADVLNKIAFG-LIIWTVAVNESES  263
+12695804  211  S-----V----D---V--A---YNIADAINKIGFG-LVIYALAV       236
+919644    211  S-----V----D---V--V---YNIADAINKIGFG-LVIYALAV       236
+10255755  201  ------L----N---I--V---YNLADFVNKIAFG-VIIWSAAVADSE   229
+11387097  214  A-----M----D---V--I---YNIGDAINKIGFG-LVVYAAAVASQVN  244
+20932222  210  D-----M----D---V--I---YNVGDAINKIGFG-LVVYQLAV       235
+18713586  209  I-----R----E---I--A---YNIADVINKVGFG-LV             228
+10358648  231  A-----L----N---I--V---YNFADVINKIAFG-VIIWTVAVS      257
+941297    204  P-----L----ESLDI--I---YNIGDAINKIGFG-LVIYSLAISSGKK  237
+22708786  213  P-----M----D---V--V---YNVGDAINKIGFG-LVVYNLAV       238
+6351915   222  ------L----N---L--I---YNLADLVNKILFG-LIIWNVAVKESSN  251
+4594676   214  N-----M----D---V--I---YNIGDAINKIGFG-LVVYSAAVTAKKT  244
+17870278  213  S-----I----D---L--F---YNLADAINKIGFG-LVIYYVAITESSK  243
+20068445  221  ------L----N---L--I---YNLADFVNKILFG-LIIWNVAVKESSN  250
+24738296  240  D-----M----N---I--I---YNVADLVNKTAFG-MMV            260
+22953663  235  L-----L----N---V--V---YNFADVVNKIAFG-VII            255
+12378364  215  ------M----D---V--V---YNIGDAVNKIGFG-LVVYSLAV       239
+20315575  215  G-----V----Q---V--G---YTIADILAKCVFG-LTILKIA        239
+7105377   238  T-----L----N---L--V---YNLADVLNKIAFG-VII            258
+19316836  231  A-----L----N---I--I---YNAADVLNKIAFG-LIIWSVAVAETER  261
+15286927  204  E-----M----D---V--I---YNVGDAINKIGFG-LVVYNLAV       229
+21767206  213  S-----I----D---L--F---YNLADAINKIGFG-LVIYSVAV       238
+18767637  213  P-----M----D---V--I---YNVGDAINKIGFG-LVVYNLAV       238
+1803582   107  N-----R----Q---I--G---YTIADVLAKCVFG-LTILKIA        131
+9768853   220  D-----M----N---I--I---YNIADLVNKTAFG-MMV            240
+5699033   207  N-----M----E---V--V---YNVGDAINKIGFG-LVIYNLAVT      233
+12407940  120  ----------------------YSLADIIAKAGYG-LMIYAIA        139
+1424029   211  D-----V----D---L--W---YNIADAINKIGFG-LVVYNIAVTESK   240
+25245048  211  S-----M----D---V--V---YNIGDAINKIGFG-LVVYNLAVTATSN  241
+18946807  213  S-----I----D---L--F---YNLADAINKIGFG-LVIYSVAIS      239
+1374505   228  W-----M----Q---V--V---LSAADIVAKVGFG-AMIHKVA        252
+26428727  209  A-----G----Q---MDVI---YNVGDAVNKIGFG-LVVYNLAVS      237
+24075904  240  D-----M----N---I--L---YNVADLVNKGAFG-MMI            260
+8253828   210  S-----P----N---K--IDVWYNLADAINKIGFG-LVVYSIAVAES    241
+7283781   241  ------M----N---I--I---YNLADLVNKTAFG-MMV            260
+9752090   229  G-----M----Q---V--A---YSAADVVAKVGFG-VLVFKVA        253
+21318468  220  S-----L----N---V--I---YNLADVLNKIAFG-VIIWNVATVESK   249
+26114359  213  N-----M----D---L--I---YNIGDAINKIGFG-LVIYSLAVSSSKG  243
+6077469   213  S-----I----D---L--F---YNLADAINKIGFG-LVIYTVAISESNK  243
+21818244  211  A-----QYSM-D---I--V---YNIGDAVNKIGFG-LVI            234
+10525203  213  S-----I----D---L--F---YNLADAINKIGFG-LVIYSVAIKESNK  243
+5410368   214  S-----V----D---L--F---YNIADAVNKIGFG-LVVYNIAVTSSND  244
+9389989   220  A-----E----S---LNVV---YNLADFVNKIAFG-LVI            242
+16187790  200  S-----L----N---I--I---YNLADFINKLIFG-LVIWHTAKSLT    228
+10647223  211  N-----M----D---V--I---YNIGDAINKIGFG-LVVYNLATMASSG  241
+18374693  221  A-----N----S---LNVI---YNLADFLNKIAFG-LVI            243
+25570361  180  T-----L----N---L--I---YNLADFINKILFG-LVIYKTAASLTP   209
+11075581  214  S-----M----D---L--I---YNIGDAVNKIGFG-LVIYSLAVSSRK   243
+19459228  210  S-----E----A---A--V---YAVVDVTAKAVFGTVLLASL         234
+21596340  200  T-----L----N---L--I---YNLADFINKILFG-LVIYKTAASLTP   229
+18653937  220  D-----M----N---I--I---YNIADLVNKTAFG-MMV            240
+10237124  221  A-----N----S---LNVI---YNAADFLNKIAFG-LII            243
+5341437   213  S-----L----D---I--I---YNIGDAINKIGFG-LVIYSLAAS      239
+21318192  212  L-----R----E---L--F---YNVADIINKVGFG-LV             231
+661729    210  -----------D---L--A---YNIADAVNKIGFG-LVVYSIA        232
+10284593  223  T-----L----N---V--I---YNVADVVNKIAF                 239
+11907149  208  S-----I----D---L--F---YNIADAINKIGFG-LVIYSVA        232
+21653690  222  A-----K----Q---V--G---YSVADIVAKAIYA-LII            242
+11965843  129  A-----L----N---V--I---YNLADLVNKAAFG-VAI            149
+7843095   245  D-----M----N---I--I---YNLADLVNKTAFG-MMV            265
+10420502  228  I-----R----E---I--C---YNIADVINKVGFG-LVC            248
+16141251  173  S-----L----N---V--I---YNLADVLNKIAFG-VIIWNVAVTESE   202
+24326113  226  A-----L----N---I--V---YNLADVLNKIAFG-VVI            246
+26526065  226  ------R----E---I--A---YNVADVINKVGFG-VACVIAAQMLTK   254
+3542055   228  W-----M----Q---V--I---LSAADIVAKVGFG-SMIHKIA        252
+1797821   200  S-----L----N---I--I---YNLADFVNKIAFG-VAI            220
+2736403   229  S-----L----N---V--I---YNLADVLNKIAFG-VIIWNVAVTETE   258
+1256315   211  N-----M----D---V--V---YNIGDAINKIGFG-LVVYAAAVS      237
+22421223  240  N-----L----N---I--L---YNIADVVNKTAFG-MMVWYAATMDSKS  270
+13499329  127  A-----N----S---LNVV---YNLADFINKIAFG-LVIWAAAVS      155
+543177    212  L-----RPHDLD---L--L---YNIADAINKIGFG-LVVYSIA        240
+24278733  223  A-----L----N---I--I---YNLADFVNKIAFG-LVI            243
+26386263  212  S-----ANV--D---L--F---YNIADAINKIGFG-LVVYSLAI       239
+25175270  221  A-----N----S---LNVV---YNLADFINKIAFG-LVIWAAAIS      249
+23755429  218  A-----N----T---LNII---YNVADV                       230
+22309386  248  E-----M----N---I--I---YNIADLVNKGAFG-MMI            268
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 768116603776
+
+
+  Database: ./nr
+    Posted date:  Feb 17, 2021  1:46 PM
+  Number of letters in database: 9,881,117,767
+  Number of sequences in database:  27,325,400
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
