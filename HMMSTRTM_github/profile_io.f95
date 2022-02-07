@@ -33,7 +33,7 @@ contains
 ! read from a formatted amino acid profile file
 type(Profile) function read_profile(profile_file) result(this_profile)
      implicit none
-     character(len=60) :: profile_file
+     character(len=100) :: profile_file
      character(len=300) :: aline
      character(len=30),dimension(30) :: args
      integer :: titr, bitr, ios
@@ -120,7 +120,7 @@ type(Profile) function get_profile(database, last_record) result(this_profile)
       ! -----------------
       implicit none
       ! ----------------- Params
-      character(len=30) :: database      
+      character(len=100) :: database      
       integer :: last_record
       ! ----------------- Return is this_profile
       ! -----------------

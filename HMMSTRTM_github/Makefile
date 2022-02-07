@@ -36,7 +36,7 @@ help :
 bin32 :
 	make all
 
-all : xtrain xscratch xgetchain xinject clean 
+all : xtrain xscratch xgetchain xinject xrenumber_one x3to1 xmsa2profile xmaster2drct xrama2drct clean  
 
 # TRAIN A VERSION OF HMMSTRTM:
 xtrain : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_train.f95
@@ -54,6 +54,18 @@ xscratch : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_run.f95
 xgetchain : getchain.f95
 	$(FF) -o xgetchain getchain.f95
 
+xrenumber_one : renumber_one.f95
+	$(FF) -o xrenumber_one renumber_one.f95
+
+xmaster2drct : master2drct.f95
+	$(FF) -o xmaster2drct master2drct.f95
+
+xrama2drct : rama2drct.f95
+	$(FF) -o xrama2drct rama2drct.f95
+
+x3to1 : 3to1.f95
+	$(FF) -o x3to1 3to1.f95
+
 # RUN a single pdb through HMMSTRTM (inject)
 xinject : profile_io.f95 hmm_inject.f95 
 	$(FF) -c -fdefault-double-8 profile_io.f95 hmm_inject.f95
@@ -64,6 +76,9 @@ xmakeprofile: profile_io.f95 make_profile.f95
 	$(FF) -c -fdefault-double-8 profile_io.f95 make_profile.f95 -fcheck=all
 	$(FF) -o xmakeprofile profile_io.o make_profile.o
 	# "xmakeprofile database code"
+
+xmsa2profile: msa2profile.f95
+	$(FF) -o xmsa2profile msa2profile.f95
 
 clean:
 	rm *.mod

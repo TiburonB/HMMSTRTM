@@ -7,4 +7,11 @@ xscratch HMMfile drctfile code
 To run an amino acid sequence from the command line:
 xinject HMMfile SEQUENCE <code> <chain>
 
+# some dependencies for python files
+pip3 install Bio
+pip3 install scipy
+pip3 install matplotlib
+pip3 install numpy
+pip3 install tqdm
+pip3 install rmsd
 

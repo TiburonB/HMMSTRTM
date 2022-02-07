@@ -22,6 +22,7 @@ program hmm_run
     endif
 
     write(*,*) "SCRATCHING CODE :", code
+    write(*,*) "DRCT File = " , drctfile
     call scratch_hmm(modelfile, drctfile, code)
 
 end program hmm_run
