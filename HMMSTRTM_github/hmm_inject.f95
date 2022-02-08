@@ -56,12 +56,12 @@ program hmm_inject
     seq_profile%chain = chain
 
 
-    write(*,*) "Writing to file"
+    !write(*,*) "Writing to file"
     call write_profile(seq_profile, './tmp/'//code//chain//'.profile')
     deallocate(seq_code)
     deallocate(aa_profile)
 
-    write(*,*) './xscratch '//HMMFILE//' ./tmp/'//code//chain//'.profile'
+    !write(*,*) './xscratch '//HMMFILE//' ./tmp/'//code//chain//'.profile'
     call execute_command_line("./xscratch '"//HMMFILE//"' ./tmp/"//code//chain//'.profile')
 
 end program hmm_inject

@@ -1,0 +1,1436 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./nr
+           27,325,400 sequences; 9,881,117,767 total letters
+
+
+
+Query= NULL:A
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+5VKG_A Solution-state NMR structural ensemble of human Tsg101 UEV...  280     6e-96
+XP_033059843.1 tumor susceptibility gene 101 protein isoform X1 [...  285     2e-94
+EAW68386.1 tumor susceptibility gene 101, isoform CRA_e [Homo sap...  284     3e-94
+XP_029811899.1 tumor susceptibility gene 101 protein isoform X1 [...  281     4e-93
+XP_036208091.1 LOW QUALITY PROTEIN: tumor susceptibility gene 101...  276     3e-91
+XP_007174899.1 tumor susceptibility gene 101 protein isoform X2 [...  276     3e-91
+XP_001366388.1 PREDICTED: tumor susceptibility gene 101 protein i...  274     4e-90
+XP_038620737.1 tumor susceptibility gene 101 protein isoform X4 [...  268     9e-89
+NP_001335017.1 tumor susceptibility gene 101 protein isoform 2 [M...  266     5e-88
+XP_038169952.1 tumor susceptibility gene 101 protein [Arvicola am...  266     2e-87
+TFK08673.1 G-protein coupled receptor 26 [Platysternon megacephalum]  265     7e-87
+XP_014815455.1 PREDICTED: tumor susceptibility gene 101 protein i...  265     1e-86
+XP_010392566.1 tumor susceptibility gene 101 protein isoform X2 [...  264     2e-86
+XP_021381321.1 tumor susceptibility gene 101 protein isoform X1 [...  264     3e-86
+XP_012429474.2 tumor susceptibility gene 101 protein isoform X2 [...  264     3e-86
+XP_032045147.1 tumor susceptibility gene 101 protein isoform X1 [...  262     1e-85
+ELR52840.1 Tumor susceptibility 101 protein, partial [Bos mutus]      261     2e-85
+XP_035182639.1 tumor susceptibility gene 101 protein isoform X1 [...  261     2e-85
+XP_030307288.1 tumor susceptibility gene 101 protein isoform X1 [...  261     4e-85
+XP_005900761.1 PREDICTED: tumor susceptibility gene 101 protein [...  262     7e-85
+NXO03002.1 TS101 protein [Rhinopomastus cyanomelas]                   258     6e-84
+XP_034272827.1 tumor susceptibility gene 101 protein isoform X3 [...  258     6e-84
+XP_015675101.1 tumor susceptibility gene 101 protein isoform X1 [...  253     8e-82
+XP_033909196.1 tumor susceptibility gene 101 protein-like isoform...  250     8e-81
+PWA24737.1 hypothetical protein CCH79_00010035 [Gambusia affinis]     249     1e-80
+XP_015820333.1 PREDICTED: tumor susceptibility gene 101 protein i...  249     2e-80
+ABI63711.1 tumor susceptibility protein 101, partial [Macaca mula...  247     3e-80
+XP_009083464.1 PREDICTED: tumor susceptibility gene 101 protein-l...  241     3e-80
+XP_036962222.1 tumor susceptibility 101a [Acanthopagrus latus]        248     3e-80
+ABI63706.1 tumor susceptibility protein 101, partial [Macaca mula...  245     1e-79
+XP_016325033.1 PREDICTED: tumor susceptibility gene 101 protein-l...  246     2e-79
+KAF1387040.1 hypothetical protein PFLUV_G00101150 [Perca fluviati...  246     2e-79
+XP_036391181.1 tumor susceptibility gene 101 protein-like isoform...  246     2e-79
+KGL82811.1 Tumor susceptibility 101, partial [Tinamus guttatus]       246     3e-79
+XP_026270275.1 tumor susceptibility gene 101 protein isoform X2 [...  245     3e-79
+NWZ65082.1 TS101 protein [Acrocephalus arundinaceus]                  246     4e-79
+NXB98218.1 TS101 protein [Orthonyx spaldingii]                        246     5e-79
+XP_018763409.1 tumor susceptibility gene 101 protein isoform X1 [...  245     8e-79
+NWI54646.1 TS101 protein [Calyptomena viridis]                        245     8e-79
+NXR18292.1 TS101 protein [Cinclus mexicanus]                          244     9e-79
+NXM56045.1 TS101 protein [Illadopsis cleaveri]                        244     9e-79
+NWW62199.1 TS101 protein [Ifrita kowaldi]                             244     1e-78
+XP_037621980.1 tumor susceptibility 101a [Sebastes umbrosus]          244     1e-78
+NXF16938.1 TS101 protein [Rhodinocichla rosea]                        244     1e-78
+NXN55487.1 TS101 protein [Rynchops niger]                             244     1e-78
+XP_017582054.1 PREDICTED: tumor susceptibility gene 101 protein, ...  244     2e-78
+KFP84844.1 Tumor susceptibility 101, partial [Apaloderma vittatum]    243     2e-78
+NXK10982.1 TS101 protein [Herpetotheres cachinnans]                   243     2e-78
+NXL02775.1 TS101 protein [Mesembrinibis cayennensis]                  243     2e-78
+NXR88154.1 TS101 protein [Hypocryptadius cinnamomeus]                 243     3e-78
+NWY31998.1 TS101 protein [Pheucticus melanocephalus]                  243     3e-78
+NXH92748.1 TS101 protein [Edolisoma coerulescens]                     243     3e-78
+KFV01410.1 Tumor susceptibility 101, partial [Tauraco erythrolophus]  242     4e-78
+XP_026793184.1 tumor susceptibility gene 101 protein [Pangasianod...  243     7e-78
+NXR16171.1 TS101 protein [Semnornis frantzii]                         235     2e-77
+XP_026869593.1 tumor susceptibility gene 101 protein isoform X1 [...  241     3e-77
+XP_018928146.1 PREDICTED: tumor susceptibility gene 101 protein-l...  233     5e-77
+NWT85470.1 TS101 protein [Lanius ludovicianus]                        239     6e-77
+ABI63710.1 tumor susceptibility protein 101, partial [Macaca mula...  234     4e-75
+KAF4091059.1 hypothetical protein AMELA_G00032680 [Ameiurus melas]    233     3e-74
+RXN25074.1 tumor susceptibility gene 101 protein [Labeo rohita]       236     3e-74
+XP_016430481.1 PREDICTED: tumor susceptibility gene 101 protein [...  230     4e-73
+XP_012981909.1 tumor susceptibility gene 101 protein isoform X2 [...  216     8e-68
+ABI63720.1 tumor susceptibility protein 101, partial [Macaca mula...  212     1e-66
+XP_036181508.1 tumor susceptibility gene 101 protein isoform X3 [...  211     4e-66
+ABI63691.1 tumor susceptibility protein 101, partial [Macaca mula...  205     3e-64
+XP_008588867.1 PREDICTED: tumor susceptibility gene 101 protein i...  203     4e-63
+XP_009954726.1 PREDICTED: tumor susceptibility gene 101 protein [...  202     1e-62
+XP_020666557.1 tumor susceptibility gene 101 protein isoform X4 [...  200     1e-61
+XP_022439498.1 tumor susceptibility gene 101 protein isoform X4 [...  196     4e-60
+XP_019621055.1 PREDICTED: tumor susceptibility gene 101 protein-l...  191     8e-58
+VDI00463.1 ESCRT-I complex subunit TSG101 [Mytilus galloprovincia...  180     1e-52
+TRY56271.1 hypothetical protein DNTS_028387 [Danionella translucida]  172     6e-51
+XP_027624299.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  172     2e-50
+XP_015193734.1 PREDICTED: tumor susceptibility gene 101 protein i...  171     2e-50
+XP_034976560.1 ubiquitin-conjugating enzyme E2 variant 3 [Zootoca...  173     5e-50
+XP_037879282.1 tumor susceptibility gene 101 protein [Glossina fu...  171     6e-50
+XP_025734167.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  169     1e-49
+XP_023702457.1 tumor susceptibility gene 101 protein isoform X5 [...  171     1e-49
+XP_026743998.1 tumor susceptibility gene 101 protein [Trichoplusi...  170     2e-49
+XP_038263150.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  166     2e-49
+AAM52739.1 RE26756p [Drosophila melanogaster]                         165     2e-49
+KAF5903333.1 tumor susceptibility protein, partial [Clarias magur]    168     3e-49
+XP_030029025.2 tumor susceptibility gene 101 protein [Manduca sexta]  169     4e-49
+XP_005190067.1 PREDICTED: tumor susceptibility gene 101 protein [...  169     5e-49
+XP_010368482.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  163     5e-49
+XP_018320962.1 tumor susceptibility gene 101 protein isoform X2 [...  168     8e-49
+XP_025734165.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  170     8e-49
+KNC21064.1 hypothetical protein FF38_11196 [Lucilia cuprina]          169     1e-48
+XP_014731783.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  169     2e-48
+XP_029851237.1 tumor susceptibility gene 101 protein isoform X2 [...  167     4e-48
+OPJ73817.1 ubiquitin-conjugating enzyme E2 variant 3 isoform A [P...  167     1e-47
+EEC18719.1 tumor susceptibility protein, putative, partial [Ixode...  164     2e-47
+XP_008546334.1 PREDICTED: tumor susceptibility gene 101 protein [...  164     5e-47
+XP_015121937.1 tumor susceptibility gene 101 protein [Diachasma a...  164     5e-47
+XP_004752159.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  165     5e-47
+XP_032546611.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  165     5e-47
+XP_010368478.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  165     6e-47
+XP_017713601.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  165     6e-47
+XP_005578495.2 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  162     1e-46
+XP_025948586.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  165     2e-46
+XP_021541513.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  164     2e-46
+XP_006770951.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  163     3e-46
+XP_037593464.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  161     3e-46
+NXU66001.1 UEVLD enzyme [Horornis vulcanius]                          163     3e-46
+XP_038663519.1 ubiquitin-conjugating enzyme E2 variant 3 [Scylior...  163     3e-46
+VDI68368.1 ESCRT-I complex subunit TSG101 [Mytilus galloprovincia...  157     3e-46
+XP_033212081.1 tumor susceptibility gene 101 protein isoform X1 [...  162     4e-46
+XP_023442062.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  157     4e-46
+XP_029065098.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  162     5e-46
+XP_025213871.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  163     6e-46
+XP_024899940.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  160     9e-46
+XP_036882850.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  162     9e-46
+XP_032022336.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  160     1e-45
+EFN61055.1 Tumor susceptibility gene 101 protein [Camponotus flor...  160     2e-45
+XP_001173464.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  161     2e-45
+XP_011266914.2 tumor susceptibility gene 101 protein [Camponotus ...  159     2e-45
+XP_002127340.1 tumor susceptibility gene 101 protein-like isoform...  159     3e-45
+XP_011152298.1 tumor susceptibility gene 101 protein [Harpegnatho...  159     3e-45
+XP_008058892.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  158     4e-45
+XP_009460925.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  160     5e-45
+XP_027315108.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  160     5e-45
+XP_021510876.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  157     5e-45
+NWS84324.1 UEVLD enzyme [Toxostoma redivivum]                         159     6e-45
+XP_014607209.1 PREDICTED: tumor susceptibility gene 101 protein [...  158     1e-44
+XP_007465808.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  159     1e-44
+XP_025934691.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  154     2e-44
+XP_020035771.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  158     2e-44
+XP_008058890.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  158     2e-44
+XP_009672754.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  158     2e-44
+XP_021056778.1 ubiquitin-conjugating enzyme E2 variant 3 [Mus pah...  158     3e-44
+XP_005326795.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  157     4e-44
+XP_315964.4 AGAP005934-PA [Anopheles gambiae str. PEST] EAA11918....  156     4e-44
+RZF47139.1 hypothetical protein LSTR_LSTR005217 [Laodelphax stria...  155     4e-44
+NP_001035785.1 ubiquitin-conjugating enzyme E2 variant 3 [Mus mus...  157     4e-44
+XP_026928810.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  157     5e-44
+XP_005087776.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  157     6e-44
+NWW21101.1 UEVLD enzyme [Falcunculus frontatus]                       157     6e-44
+XP_036282633.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  156     8e-44
+XP_037995136.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  152     1e-43
+RWS30997.1 tumor susceptibility protein-like protein [Leptotrombi...  155     1e-43
+NXO90066.1 UEVLD enzyme [Certhia brachydactyla]                       155     2e-43
+NXK33178.1 UEVLD enzyme [Piprites chloris]                            155     3e-43
+NXP64379.1 UEVLD enzyme [Chloropsis cyanopogon]                       155     3e-43
+NXQ97445.1 UEVLD enzyme [Sagittarius serpentarius]                    155     4e-43
+XP_009287035.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  154     7e-43
+NWH22710.1 UEVLD enzyme [Grus americana]                              154     8e-43
+NXM29620.1 UEVLD enzyme [Oxyruncus cristatus]                         154     1e-42
+NXK10987.1 UEVLD enzyme [Herpetotheres cachinnans]                    154     1e-42
+XP_019530841.2 tumor susceptibility gene 101 protein [Aedes albop...  152     1e-42
+KAF1643183.1 Ubiquitin-conjugating enzyme E2 variant 3, partial [...  153     1e-42
+XP_032840758.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  153     2e-42
+KAF1666822.1 Ubiquitin-conjugating enzyme E2 variant 3, partial [...  153     2e-42
+NWZ32294.1 UEVLD enzyme [Asarcornis scutulata]                        153     2e-42
+XP_030056975.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  152     3e-42
+XP_032840759.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  149     3e-42
+XP_036716053.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  152     3e-42
+KAF0303824.1 Tsg101 [Amphibalanus amphitrite]                         150     4e-42
+NWX12991.1 UEVLD enzyme [Aegotheles bennettii]                        152     5e-42
+NXO49467.1 UEVLD enzyme [Aramus guarauna]                             151     1e-41
+NXG87688.1 UEVLD enzyme [Stercorarius parasiticus]                    150     2e-41
+KAF4095343.1 hypothetical protein G5714_024421 [Onychostoma macro...  150     2e-41
+XP_028409156.1 tumor susceptibility gene 101 protein-like [Dendro...  150     3e-41
+KFO18656.1 Ubiquitin-conjugating enzyme E2 variant 3 [Fukomys dam...  149     8e-41
+XP_023811956.1 ubiquitin-conjugating enzyme E2 variant 3 [Oryzias...  150     1e-40
+XP_016091672.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  148     2e-40
+XP_020907355.1 tumor susceptibility gene 101 protein [Exaiptasia ...  146     4e-40
+XP_015820349.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  147     6e-40
+XP_028588897.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  142     2e-38
+CAD7439726.1 unnamed protein product [Timema bartmani]                141     2e-38
+XP_033009953.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  141     4e-38
+XP_013861023.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  140     1e-37
+XP_019749644.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  140     1e-37
+XP_009864015.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  139     2e-37
+XP_005737759.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  139     3e-37
+XP_026971028.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  138     4e-37
+XP_037006417.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  138     5e-37
+NP_001248314.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  135     7e-37
+XP_009947380.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  138     8e-37
+NWR71937.1 UEVLD enzyme [Centropus unirufus]                          137     9e-37
+XP_039092715.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  137     1e-36
+XP_029770510.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  137     1e-36
+KAF6343852.1 UEV and lactate/malate dehyrogenase domains [Pipistr...  135     1e-36
+XP_038131666.1 tumor susceptibility gene 101 protein [Cyprinodon ...  130     1e-36
+XP_003967411.2 ubiquitin-conjugating enzyme E2 variant 3-like [Ta...  135     9e-36
+XP_027661146.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  130     2e-35
+PNJ47592.1 UEVLD isoform 6 [Pongo abelii]                             134     2e-35
+XP_008058891.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  134     3e-35
+XP_006816177.1 PREDICTED: uncharacterized protein LOC102802857 [S...  135     3e-35
+CAB3409008.1 unnamed protein product [Caenorhabditis bovis]           130     2e-34
+KHN86380.1 Tumor susceptibility transcribed protein [Toxocara canis]  128     2e-33
+KAF7492467.1 Tumor susceptibility -like protein [Sarcoptes scabiei]   127     4e-33
+XP_008685139.1 PREDICTED: ubiquitin-conjugating enzyme E2 variant...  122     2e-31
+XP_015099104.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  119     5e-30
+VUZ43876.1 unnamed protein product [Hymenolepis diminuta]             118     1e-29
+CAD2194002.1 unnamed protein product [Meloidogyne enterolobii]        117     3e-29
+XP_019636297.1 PREDICTED: uncharacterized protein LOC109478932 [B...  114     1e-28
+XP_034071743.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  115     2e-28
+KAA0192723.1 hypothetical protein FBUS_05949 [Fasciolopsis buski]     113     9e-28
+XP_027045011.1 probable serine/threonine-protein kinase DDB_G0271...  112     7e-27
+TMW67751.1 hypothetical protein Poli38472_007423 [Pythium oligand...  112     7e-27
+XP_002902818.1 conserved hypothetical protein [Phytophthora infes...  110     3e-26
+XP_008898619.1 hypothetical protein, variant 1 [Phytophthora para...  108     4e-26
+ETI31247.1 hypothetical protein, variant 2 [Phytophthora parasiti...  107     4e-26
+KAF2977143.1 hypothetical protein EK904_007928 [Melospiza melodia...  105     1e-25
+KAF9951419.1 hypothetical protein BGZ72_007082 [Mortierella alpina]   105     5e-25
+KAG0030475.1 hypothetical protein BGZ82_007412 [Podila clonocystis]   104     6e-25
+KFY09777.1 hypothetical protein V491_07981, partial [Pseudogymnoa...  103     7e-25
+RHZ66644.1 hypothetical protein Glove_306g36 [Diversispora epigaea]   105     2e-24
+KAF2615731.1 hypothetical protein F2Q70_00009854 [Brassica cretica]   103     2e-24
+KAF9317940.1 hypothetical protein BGZ91_005260 [Linnemannia elong...  103     2e-24
+KAE8264517.1 hypothetical protein A4X09_0g6947, partial [Tilletia...  102     7e-24
+CZR53033.1 related to component of actin cortical patches LAS17 [...  103     8e-24
+PMD23535.1 UEV-domain-containing protein [Hyaloscypha hepaticicola]   103     1e-23
+XP_034205161.1 protein ELC-like [Prunus dulcis] VVA27322.1 PREDIC...  102     2e-23
+KAG2315559.1 hypothetical protein Bca52824_018681 [Brassica carin...  101     2e-23
+XP_007288337.1 UEV domain-containing protein [Marssonina brunnea ...  102     2e-23
+EWM29890.1 hypothetical protein Naga_100035g6 [Nannochloropsis ga...  99.4    2e-23
+XP_021881569.1 UEV domain-domain-containing protein [Lobosporangi...  100     3e-23
+TLD20464.1 hypothetical protein PspLS_08649 [Pyricularia sp. CBS ...  102     3e-23
+KHN95176.1 Ubiquitin-conjugating enzyme/RWD-like protein [Metarhi...  101     4e-23
+KID96966.1 ESCRT-I component, partial [Metarhizium majus ARSEF 297]   101     6e-23
+KPM37747.1 hypothetical protein AK830_g8817 [Neonectria ditissima]    101     7e-23
+PON69875.1 Ubiquitin-fold modifier-conjugating enzyme [Trema orie...  100     8e-23
+RYP45584.1 hypothetical protein DL768_008099 [Monosporascus sp. m...  100     1e-22
+TGJ88630.1 hypothetical protein E0Z10_g24 [Xylaria hypoxylon]         100     1e-22
+OTB02773.1 hypothetical protein M426DRAFT_322369 [Hypoxylon sp. C...  100     1e-22
+OQR99144.1 hypothetical protein ACHHYP_07257 [Achlya hypogyna]        99.0    2e-22
+XP_013318879.1 hypothetical protein PV05_02825 [Exophiala xenobio...  100     2e-22
+XP_007751166.1 hypothetical protein A1O5_12407 [Cladophialophora ...  100     2e-22
+KIN05671.1 hypothetical protein OIDMADRAFT_154047 [Oidiodendron m...  99.8    2e-22
+XP_010557897.1 PREDICTED: protein ELC-like [Tarenaya hassleriana]     98.6    3e-22
+XP_033439443.1 uncharacterized protein GL218_01083 [Daldinia chil...  99.0    4e-22
+TVY36455.1 Tumor susceptibility protein 101 protein, partial [Lac...  98.6    5e-22
+XP_016323566.1 PREDICTED: uncharacterized protein LOC107674166 is...  98.6    6e-22
+TIC91897.1 Tumor susceptibility gene 101 protein [Colletotrichum ...  96.7    6e-22
+RYP89148.1 hypothetical protein DL769_000196 [Monosporascus sp. C...  97.8    9e-22
+KXG46612.1 Steadiness box [Penicillium griseofulvum]                  97.8    1e-21
+KAG2082797.1 hypothetical protein CcaCcLH18_13058 [Colletotrichum...  97.8    1e-21
+XP_014174057.1 endosomal sorting complex protein [Grosmannia clav...  94.7    1e-21
+XP_018446247.1 PREDICTED: protein ELC-like [Raphanus sativus]         96.7    1e-21
+KGO73709.1 Ubiquitin E2 variant, N-terminal [Penicillium italicum]    97.4    1e-21
+KAA0719233.1 E3 ubiquitin-protein ligase RNF31 [Triplophysa tibet...  97.4    1e-21
+AYO43681.1 Tumor susceptibility gene 101 protein [Malassezia rest...  95.9    2e-21
+XP_022956430.1 protein ELC-like [Cucurbita moschata]                  96.3    2e-21
+XP_020973757.1 protein ELC-like [Arachis ipaensis]                    96.3    2e-21
+KAF8472074.1 UEV domain-containing protein [Kalaharituber pfeilii]    96.7    2e-21
+KEP52977.1 hypothetical protein V565_037020 [Rhizoctonia solani 1...  96.7    3e-21
+XP_024406228.1 hypothetical protein TGAM01_v202385 [Trichoderma g...  96.3    3e-21
+KAF3071787.1 Tumor susceptibility protein [Trichoderma lentiforme]    96.3    3e-21
+GES61263.1 hypothetical protein ATETN484_0005072200 [Aspergillus ...  96.3    3e-21
+KAF8682609.1 UEV protein [Rhizoctonia solani]                         95.9    4e-21
+XP_028502227.1 hypothetical protein AA0111_g10224 [Alternaria arb...  95.5    6e-21
+KAF1986432.1 UEV-domain-containing protein [Aulographum hederae C...  95.5    6e-21
+RDX65700.1 Protein ELC, partial [Mucuna pruriens]                     95.1    7e-21
+KAG0153588.1 hypothetical protein PDIDSM_2242 [Penicillium digita...  95.5    7e-21
+OAL00154.1 UEV-domain-containing protein [Stagonospora sp. SRC1ls...  95.1    8e-21
+XP_013272642.1 hypothetical protein Z518_06378 [Rhinocladiella ma...  95.1    8e-21
+KAF3390325.1 Tumor susceptibility protein [Penicillium rolfsii]       95.1    9e-21
+RYC61539.1 hypothetical protein CHU98_g4667 [Xylaria longipes]        95.1    1e-20
+MBA0571118.1 hypothetical protein [Gossypium lobatum]                 94.0    1e-20
+KAE8329397.1 UEV domain-containing protein [Aspergillus sergii]       94.7    1e-20
+XP_017645441.1 PREDICTED: protein ELC-like [Gossypium arboreum]       94.0    1e-20
+EIT81769.1 vacuolar sorting protein/ubiquitin receptor VPS23 [Asp...  94.4    2e-20
+ATY62675.1 tumor susceptibility [Cordyceps militaris]                 94.4    2e-20
+TIC45967.1 UEV-domain-containing protein [Wallemia mellicola] TIC...  94.0    2e-20
+OHW99411.1 ESCRT-I component [Colletotrichum incanum]                 92.0    2e-20
+EQB51758.1 hypothetical protein CGLO_08661 [Colletotrichum gloeos...  94.0    2e-20
+SZF02708.1 unnamed protein product [Blumeria graminis f. sp. hordei]  93.6    3e-20
+ORX61753.1 UEV-domain-containing protein, partial [Hesseltinella ...  88.6    3e-20
+GAX28370.1 ESCRT-I complex subunit TSG101 [Fistulifera solaris]       92.8    4e-20
+XP_030058309.1 tumor susceptibility gene 101 protein [Microcaecil...  91.3    6e-20
+XP_036411837.1 uncharacterized protein si:dkey-181m9.8 isoform X2...  92.8    6e-20
+KAF8590553.1 UEV-domain-containing protein [Ramaria rubella]          92.4    7e-20
+KAF2669792.1 UEV-domain-containing protein, partial [Microthyrium...  92.4    7e-20
+XP_002271662.1 PREDICTED: protein ELC [Vitis vinifera]                91.7    9e-20
+NP_196890.1 ELCH-like protein [Arabidopsis thaliana] Q9FFY6.1 Rec...  90.9    1e-19
+KAF8350739.1 UEV domain-containing protein [Amanita rubescens]        91.7    1e-19
+DAA78518.1 TPA_exp: putative Endosomal sorting complex protein TS...  91.7    1e-19
+ETS62236.1 hypothetical protein PaG_03813 [Moesziomyces aphidis D...  91.7    1e-19
+XP_035656573.1 E3 ubiquitin-protein ligase lubel isoform X2 [Onco...  91.7    1e-19
+CEG63405.1 hypothetical protein RMATCC62417_00552 [Rhizopus micro...  90.9    1e-19
+KXT03617.1 hypothetical protein AC578_10013 [Pseudocercospora eum...  91.7    2e-19
+XP_024194280.1 protein ELC-like [Rosa chinensis] PRQ38058.1 putat...  90.9    2e-19
+PIA41506.1 hypothetical protein AQUCO_02200138v1 [Aquilegia coeru...  90.9    2e-19
+XP_019964985.1 PREDICTED: E3 ubiquitin-protein ligase RNF31-like ...  91.3    2e-19
+XP_036544231.1 actin cortical patch protein [Fusarium subglutinan...  90.9    2e-19
+XP_025590304.1 uncharacterized protein FVRRES_03099 [Fusarium ven...  90.1    5e-19
+XP_039016578.1 protein ELC-like [Hibiscus syriacus] KAE8689555.1 ...  89.7    5e-19
+TEY60136.1 ESCRT-I complex subunit TSG101 [Salvia splendens]          89.4    5e-19
+ENH74531.1 hypothetical protein FOC1_g10009950 [Fusarium oxysporu...  89.7    6e-19
+TVY66302.1 Tumor susceptibility gene 101 protein [Fusarium oxyspo...  89.7    6e-19
+KAG2132481.1 UEV domain-containing protein, partial [Suillus bovi...  89.4    8e-19
+XP_027877041.1 E3 ubiquitin-protein ligase RNF31-like isoform X2 ...  89.4    8e-19
+KAG1969937.1 E3 ubiquitin-protein ligase RNF31 [Pimephales promelas]  89.4    1e-18
+KAF8845001.1 UEV-domain-containing protein [Paxillus ammoniavires...  89.0    1e-18
+CAB4104300.1 unnamed protein product [Lactuca saligna]                88.6    1e-18
+PNP61134.1 hypothetical protein FNYG_14222 [Fusarium nygamai]         89.0    1e-18
+XP_018534594.1 PREDICTED: uncharacterized protein LOC108884948 is...  89.0    1e-18
+XP_031482040.1 protein ELC-like [Nymphaea colorata]                   88.6    1e-18
+CAB4091190.1 unnamed protein product [Lactuca saligna]                88.2    2e-18
+OTA37794.1 hypothetical protein BTJ68_01902 [Hortaea werneckii EX...  88.6    2e-18
+KAF2865148.1 UEV domain-containing protein [Massariosphaeria phae...  88.6    2e-18
+KAF1383136.1 hypothetical protein PFLUV_G00128170 [Perca fluviati...  88.2    2e-18
+XP_029380234.1 E3 ubiquitin-protein ligase RNF31-like isoform X1 ...  88.2    3e-18
+KAF2103504.1 UEV-domain-containing protein, partial [Rhizodiscina...  83.6    4e-18
+RMZ23054.1 hypothetical protein D0859_12910 [Hortaea werneckii]       87.4    5e-18
+KAF8545434.1 UEV domain-containing protein [Trichophaea hybrida]      87.0    6e-18
+XP_030096694.1 LOW QUALITY PROTEIN: ubiquitin-conjugating enzyme ...  84.3    6e-18
+TNY23685.1 UEV domain-containing protein [Rhodotorula diobovata]      87.0    7e-18
+GER34933.1 tumor susceptibility gene 101 family protein [Striga a...  86.3    7e-18
+XP_024988304.1 protein ELC-like [Cynara cardunculus var. scolymus...  86.3    8e-18
+XP_018039968.1 UEV-domain-containing protein [Paraphaeosphaeria s...  86.7    9e-18
+XP_034410913.1 E3 ubiquitin-protein ligase RNF31 isoform X3 [Cycl...  86.3    1e-17
+KAF4335098.1 component of actin cortical patches LAS17 [Fusarium ...  85.9    1e-17
+XP_017296085.1 E3 ubiquitin-protein ligase RNF31 isoform X4 [Kryp...  86.3    1e-17
+XP_017296084.1 E3 ubiquitin-protein ligase RNF31 isoform X2 [Kryp...  86.3    1e-17
+XP_034410915.1 E3 ubiquitin-protein ligase RNF31 isoform X4 [Cycl...  85.9    1e-17
+XP_034071744.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  85.5    2e-17
+KAE8782012.1 Protein ELC [Hordeum vulgare]                            85.1    2e-17
+KAF5851680.1 hypothetical protein GGP41_000448 [Bipolaris sorokin...  85.5    2e-17
+VAI35805.1 unnamed protein product [Triticum turgidum subsp. durum]   84.7    2e-17
+XP_037443090.1 protein ELC-like [Triticum dicoccoides]                84.7    3e-17
+KAA8916246.1 hypothetical protein TRICI_001598 [Trichomonascus ci...  84.7    4e-17
+THW43527.1 UEV-domain-containing protein [Aureobasidium pullulans]    84.7    4e-17
+EPT05999.1 hypothetical protein FOMPIDRAFT_134050 [Fomitopsis pin...  84.7    4e-17
+KAF9227963.1 UEV-domain-containing protein [Gyrodon lividus]          84.3    6e-17
+RKP08826.1 UEV domain-containing protein [Thamnocephalis sphaeros...  83.6    6e-17
+XP_028484028.1 putative endosomal sorting complex protein TSG101 ...  84.0    8e-17
+XP_012780511.1 E3 ubiquitin-protein ligase RNF31 [Maylandia zebra]    83.6    9e-17
+XP_031600557.1 E3 ubiquitin-protein ligase RNF31-like isoform X1 ...  83.6    9e-17
+PSS00205.1 Protein ELC like [Actinidia chinensis var. chinensis]      83.2    1e-16
+XP_030258950.1 uncharacterized protein LOC115572697 isoform X7 [S...  82.8    2e-16
+XP_036940811.1 E3 ubiquitin-protein ligase RNF31 isoform X4 [Acan...  82.8    2e-16
+PGH34555.1 ESCRT-I complex subunit [Emmonsia crescens]                82.4    2e-16
+XP_025401367.1 UEV-domain-containing protein [Aspergillus heterom...  82.4    3e-16
+OJD18703.1 hypothetical protein AJ78_01318 [Emergomyces pasteuria...  82.0    3e-16
+XP_008335691.1 E3 ubiquitin-protein ligase RNF31-like isoform X3 ...  81.3    7e-16
+XP_033969755.1 uncharacterized protein si:dkey-181m9.8 isoform X2...  80.5    8e-16
+XP_035490528.1 E3 ubiquitin-protein ligase RNF31 isoform X1 [Scop...  80.1    1e-15
+VDN19407.1 unnamed protein product, partial [Gongylonema pulchrum]    73.9    4e-15
+PCH38230.1 UEV-domain-containing protein [Wolfiporia cocos MD-104...  77.8    8e-15
+OQO09864.1 hypothetical protein B0A48_04216 [Rachicladosporium an...  78.2    8e-15
+XP_003037551.1 uncharacterized protein SCHCODRAFT_13774 [Schizoph...  78.2    9e-15
+XP_019643561.1 PREDICTED: protein starmaker-like [Branchiostoma b...  77.8    1e-14
+XP_028987431.1 E3 ubiquitin-protein ligase RNF31-like isoform X3 ...  77.0    2e-14
+KAF4555007.1 UEV domain-containing protein [Elsinoe fawcettii]        73.9    2e-13
+KDE06540.1 hypothetical protein MVLG_03189 [Microbotryum lychnidi...  73.6    3e-13
+ODO02700.1 ESCRT-I complex subunit TSG101 [Cryptococcus depaupera...  73.2    4e-13
+XP_007894970.1 PREDICTED: uncharacterized protein LOC103180748 is...  72.4    9e-13
+GHJ86573.1 hypothetical protein NliqN6_2975 [Naganishia liquefaci...  71.6    1e-12
+OVA09873.1 Ubiquitin E2 variant [Macleaya cordata]                    68.2    2e-11
+CAD7635492.1 unnamed protein product, partial [Medioppia subpecti...  66.6    5e-11
+CDY45999.1 BnaA02g17970D [Brassica napus]                             66.6    6e-11
+SCZ97415.1 BZ3500_MvSof-1268-A1-R1_Chr4-2g07199 [Microbotryum sap...  67.0    6e-11
+XP_004833224.1 conserved hypothetical protein [Theileria equi str...  66.2    9e-11
+RHY70067.1 hypothetical protein DYB34_008703 [Aphanomyces astaci]     65.5    1e-10
+XP_023575195.1 ubiquitin-conjugating enzyme E2 variant 3 isoform ...  65.9    1e-10
+KAF0991883.1 hypothetical protein HZS_3970 [Henneguya salminicola]    63.5    1e-10
+KIY31120.1 ESCRT-I complex subunit TSG101 [Cryptococcus gattii E566]  65.1    3e-10
+OWZ32018.1 ESCRT-I complex subunit TSG101 [Cryptococcus neoforman...  63.9    8e-10
+ETE69613.1 Tumor susceptibility protein, partial [Ophiophagus han...  59.7    2e-09
+KNG45737.1 cysteine desulfurase [Stemphylium lycopersici]             60.8    8e-09
+RAR00130.1 cysteine desulfurase [Stemphylium lycopersici]             60.8    8e-09
+XP_026170418.1 E3 ubiquitin-protein ligase RNF31-like isoform X4 ...  60.5    1e-08
+MCI24223.1 protein ELC-like [Trifolium medium]                        58.2    2e-08
+XP_001610993.1 hypothetical protein [Babesia bovis T2Bo] EDO07425...  58.5    5e-08
+KAF1741675.1 hypothetical protein MXB_903 [Myxobolus squamalis]       55.8    3e-07
+KAF8643402.1 hypothetical protein HU200_066886 [Digitaria exilis]...  55.5    5e-07
+XP_013618186.1 PREDICTED: uncharacterized protein LOC106324755 [B...  54.7    8e-07
+PHU22081.1 hypothetical protein BC332_07188 [Capsicum chinense]       54.3    1e-06
+XP_004247334.1 protein ELC-like [Solanum lycopersicum]                53.5    3e-06
+XP_022466155.1 hypothetical protein KNAG_0I01190 [Kazachstania na...  52.8    6e-06
+XP_018674476.1 PREDICTED: protein ELC-like isoform X1 [Musa acumi...  52.4    7e-06
+XP_002499131.1 uncharacterized protein ZYRO0E04554g [Zygosaccharo...  51.6    1e-05
+KAF3773145.1 ELC-like protein [Nymphaea thermarum]                    51.6    1e-05
+MBA0778592.1 hypothetical protein [Gossypium trilobum]                50.1    3e-05
+KAF0492182.1 UEV-domain-containing protein [Gigaspora margarita]      50.4    4e-05
+XP_007200881.1 protein ELC [Prunus persica] ONH91932.1 hypothetic...  49.7    4e-05
+NP_181417.2 Ubiquitin-conjugating enzyme/RWD-like protein [Arabid...  49.7    5e-05
+AJQ32201.1 Stp22p [Saccharomyces cerevisiae YJM1383] AJQ32787.1 S...  49.7    7e-05
+CAC42964.1 hypothetical protein [Saccharomyces cerevisiae]            49.3    7e-05
+XP_034227432.1 protein ELC-like isoform X2 [Prunus dulcis] XP_034...  49.3    8e-05
+EZF10796.1 hypothetical protein H100_08027 [Trichophyton rubrum M...  48.9    1e-04
+ESQ52560.1 hypothetical protein EUTSA_v10016907mg [Eutrema salsug...  48.9    1e-04
+KAF5209211.1 hypothetical protein E0198_004487 [Clavispora lusita...  48.5    2e-04
+EXL79142.1 hypothetical protein FOPG_06884 [Fusarium oxysporum f....  47.8    3e-04
+XP_010279323.1 PREDICTED: protein ELC-like [Nelumbo nucifera] DAD...  47.8    3e-04
+BAP70466.1 suppressor protein STP22 of temperature-sensitive alph...  47.8    3e-04
+XP_011026074.1 PREDICTED: protein ELC [Populus euphratica]            47.0    5e-04
+GCE99343.1 hypothetical protein ZYGM_003492 [Zygosaccharomyces me...  47.0    6e-04
+XP_025336543.1 uncharacterized protein CXQ87_003449 [[Candida] du...  47.0    6e-04
+XP_006689532.1 UEV-domain-containing protein [Yamadazyma tenuis A...  46.6    8e-04
+
+
+
+Query_1   1    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETVNVI----TLYK----D-L  34
+2697858   2    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETVNVI----TLYK----D-L  35
+25529199  2    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETVNVI----TLYK----D-L  35
+26934703  2    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETVNVI----TLYK----D-L  35
+25112369  2    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETVNVI----TLYK----D-L  35
+26170011  2    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETINVI----TLYK----D-L  35
+13134792  2    AGSESQLKK-MVSK--------YKYR--D--L--T--VRETVSVI----TLYK----D-L  35
+18311443  2    AMPESQLKK-MLSK--------YKYR--D--L--T--VRETVSVI----TLYK----D-L  35
+12156214  2    AVPDSQLKK-MLFK--------YKYR--D--L--T--LREIVNVI----TLYK----D-L  35
+8674420   2    AVSESQLKK-MMSK--------YKYR--D--L--T--VRQTVNVI----AMYK----D-L  35
+4647597   2    AVSESQLKK-MMSK--------YKYR--D--L--T--VRQTVNVI----ALYK----D-L  35
+13135480  2    ALSEPQLKK-MLAK--------YKYR--D--L--T--VQETTSVI----TQYK----D-L  35
+16094543  2    AVSESQLKK-MLTK--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+3408953   2    AVSESQLKK-MLAK--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+20659901  2    AVSESQLKK-MLTK--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+3106982   2    AVSESQLKK-MLTK--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+21626599  2    AFSESQLKK-MLAK--------YKYR--D--L--T--VQETTSVI----TQYK----D-L  35
+3893427   1                 Q--------YKYR--D--L--T--VRETVNVI----SLYK----D-L  22
+14692324  2    AFSESQLKK-MLAK--------YKYR--D--L--T--VQETTSVI----TQYK----D-L  35
+19905914  2    AVSESQLKK-MVAK--------YKYR--D--L--T--VQETTCVI----TQYK----D-L  35
+2570049   61               SD--------YKYR--D--L--T--VRETVNVI----SLYK----D-L  83
+12301591  2    AVSESQLKK-MLTK--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+17169015  2    AFSESQLKK-MLAK--------YKYR--D--L--A--VQETVNVT----GQYK----D-L  35
+8299395   2    AMSETQLKK-MLAK--------YKYR--D--L--A--VQETVNVT----GQYK----D-L  35
+2504766   4     VIESSLKK-MLSK--------YKYR--D--L--T--VREITNVI----SQYK----D-L  36
+26099318  4     VNESALKK-MLKQ--------YKYR--D--L--T--VREITNVI----SQYK----D-L  36
+8680421   5      NEGNLKK-LLKQ--------YKYR--D--L--T--VREIFNVV----TQYR----D-L  36
+21579609  1                                      T--VRETVNVI----TLYK----D-L  15
+6091705   3    VVSEVISFS-FVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  36
+9173628   4     VNEGALKK-MLKQ--------YKYR--D--L--T--VREITNVI----SQYK----D-L  36
+16193702  1                                         VRETVNVI----TLYK----D-L  14
+8837869   4     VNEGALKK-MLKQ--------YKYK--D--L--T--VREITNVI----SQYK----D-L  36
+26304562  4     VNEGALKK-MLKQ--------YKYR--D--L--T--VREITNVI----SQYK----D-L  36
+7057284   3    AVNEGALKK-MLSKQ-------YKYR--D--L--T--VREIINVI----CHYK----D-L  37
+4864863   1                 Q--------YKYR--D--L--T--VQETSSVI----TQYK----D-L  22
+1453122   2    AVSESQLKK-MVSK--------YKYR--D--L--T--VRETVNVI----TLYK----D-L  35
+18333994  11             FVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+17832082  1     VSEVIFFS-FVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  33
+6121938   6          VNK-GKTK--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  33
+26805978  11             FVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+23473060  1              LVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  25
+27322622  1                 Q--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  22
+8549708   11             FVFQ--------YKYR--D--L--T--IQETTSVI----SQYK----D-L  35
+7065901   4     INDGALKK-MLKQ--------YKYR--D--L--T--VREITNVI----SQYK----D-L  36
+22962657  3     VSEVISFS-FVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  35
+24183926  1                 Q--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  22
+16782863  18             FVFQ--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  42
+13568965  1                 Q--------YKYR--D--L--T--VQETTSVI----TQYK----D-L  22
+16398118  6              FVFQ--------YKYR--D--L--T--VQETTSVI----TQYK----D-L  30
+23415903  1                          YKYR--D--L--T--VQETTSVI----TQYK----D-L  21
+3334382   1                 Q--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  22
+15434099  11             FVFQ--------YKYR--D--L--T--IQETTSVI----SQYK----D-L  35
+3234053   1               VFQ--------YKYR--D--L--T--IQETTSVI----SQYK----D-L  24
+16578913  1                 Q--------YKYR--D--L--T--VQETTSVI----TQYK----D-L  22
+11668663  2    AVNENALRK-MIFKS-------YKYR--D--L--T--TREVTNVI----NQYK----D-L  36
+5154529   1     VSKVIVSL-FLFQ--------YKYR--D--L--T--IQETNSVI----SQYK----D-L  33
+12978279  2    AINENALRK-MLSKMDFLVAQGYKYR--D--L--T--VREITNVT----TQYK----D-L  43
+18766051  3    AINESSLRK-MLSKI-------YKYR--D--L--T--ARDITNAT----SHYK----D-I  37
+9125215   1                 Q--------YKYR--D--L--T--IQETTSVI----TQYK----D-L  22
+19209580  1                                              HVI----TLYK----D-L  9
+1740485   2    AVNENALRKPLVKS--------YKYR--D--L--T--MRDVTSVI----NQYK----D-L  36
+4452325   121               Q--------YKYR--D--L--T--VREITNVI----SQYK----D-L  142
+4452325   8          LRR-ILPKT-------YNHR--R--E--V--LSEISTVL----SQHQ----Y-L  36
+12750263  3    AIIESSLRK-TLSKI-------YKYR--D--L--T--SRDITSVA----SHYT----D-L  37
+7664607   1                                                      MYK----D-L  5
+6396904   3                                           DTFNKL----TRFK----V-F  14
+15747439  7       EQYLKN-CLAK--------YKNK--D--V--T--KREVLQVF----TSYS----D-L  37
+11785869  48     NEQMLKS-YLSK--------YKYA--D--I--A--KKDILGVF----SQYK----D-L  79
+9672228   4     VNEGALKK-MLKQ--------YKYR--D--L--T--VREITNVI----SQYK----D-L  36
+20297788  8          LRR-LLSK--------YKFR--D--L--T--VEELKNVN----TFFP----H-F  35
+24319108  4      SEEQLRK-WLSK--------YKFR--D--L--T--IEELKSVH----ELYP----N-T  35
+13420253  4    AAEEAQIAK-LLSK--------YKHA--N--V--T--KKEVIDVI----ANYR----S-L  37
+12338093  10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  37
+22773015  6       EEKIKQ-SLSN--------YQNP--D--I--T--RRDVINTIQHYPSLTT----H-L  40
+17234909  8          LKQ-YLSK--------YKHR--D--Y--T--AREVINLI----QVYR----S-L  35
+25308471  4      SEEALRT-QLVK--------YKFR--D--L--T--IEELKNVV----KIYP----N-F  35
+22237548  3    AVEETQITK-YLSK--------YKYV--A--A--T--KKDVVDVV----TSFRSLTYD-L  40
+7841672   2    ANDDSMLKH-YLSK--------YKHR--D--Y--T--CREVISLI----QVYR----S-L  35
+19352886  4    AGEEAQITK-LLSK--------YKHM--N--A--T--RKEVIDVV----TNYR----S-L  37
+5908483   8          LRR-QLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+24846636  2     VDENRIRQ-WLTS--------ANYHNPD--I--T--LREILNVV----KHYP----G-L  36
+20363502  10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  37
+9003515   4    ASEEAQIAK-LLSK--------YKHV--N--A--T--KKEVVDVI----TSYR----S-L  37
+17995357  1     MAEETLRR-QLGK--------YKFR--D--L--T--MEELKNVS----MTYP----N-F  33
+25281025  9          LSS-LLTK--------YHYP--D--Q--A--KKDVSNAL----QHYR----N-L  36
+1220706   2    ALAEEALRK-QLGK--------YKFR--D--L--T--IEELKNVN----KTYP----N-F  35
+19360824  15                Q--------YHYP--D--Q--A--KKDVSNAL----QHYR----N-L  36
+4721844   9       EEKIKQ-YLNK--------YQNP--V--V--T--RREVINVL----KEYK----G-L  39
+3981165   7     MDEAKLKQ-CLLK--------YQNP--E--V--T--RREILNVM----KEYK----S-L  39
+13623430  10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  37
+3130131   2    ALAEEALRR-QLGK--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  35
+3317488   8          LRR-QLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+4391599   8          LRR-QLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+1397881   8          LRR-LLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+5118496   3     LREEALRK-QLGK--------YKFR--D--L--T--IEELKNVI----KTYP----N-F  35
+5076837   10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  37
+687282    8          LRR-LLGK--------YKFR--D--L--T--VEELKNVN----TFFP----H-F  35
+24078665  10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  37
+6726296   1                 Q--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  22
+23774693  4      NEMALKK-QLGK--------YKFR--D--L--T--IEELKNVH----HKFP----D-L  35
+2537672   8          LKL-YLSK--------YKDA--D--L--A--NQDILAVF----SQYK----D-L  35
+22193904  9       ETSIKQ-ALSK--------YQNA--E--I--T--RRDVINVL----QIYK----G-L  39
+1020772   8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+23619348  8          VRR-LLGK--------YKFR--D--L--T--MEELENVN----TFFP----H-F  35
+9176751   56         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  83
+5086327   8          LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+25809121  8          LRR-LLGK--------YKFR--D--L--T--VEELRNVN----MFFP----H-F  35
+11327661  8          LRR-LLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+15992311  7     LDEGRIRQ-GLTK--------YQNP--D--I--T--KKHVVSVL----NLYKGLVFE-I  43
+16496421  8          LRR-LLGK--------YKFR--D--L--T--VEELKNVN----VFFP----H-F  35
+1084447   7     LDEGRIRQ-GLTK--------YQNP--D--I--T--KKHVVSVL----NLYKGLVFE-I  43
+11576347  16           Q-MQGK--------YTQL--D--L--A--KKDALSLM----HHYK----D-L  41
+5900577   7     LDEGRIRQ-GLAR--------YQNP--D--I--T--KKHVVSVL----NLYK----G-L  39
+25339860  8          LRR-LLCK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+23466309  2    AFAEETLRE-PLRK--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  35
+19039845  2    AFAAEELRK-QLGR--------YKFR--D--L--T--IEELKTVN----KTYP----N-F  35
+1262238   8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----AFFP----H-F  35
+17231292  1                 Q--------YKFR--D--L--T--IEELKNLS----MTYP----N-F  22
+941506    9       EGKIRQ-GLTK--------YQNP--E--I--T--KAQVLNVL----STYK----G-L  39
+771087    8          VRR-LLGK--------YKFR--D--L--T--MEELKNVN----MFFP----H-F  35
+74291     5       EEALKK-QLGK--------YKFR--D--L--T--IEELKNFN----KTYP----N-F  35
+12156223  8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+26115187  8          LRR-LLCK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+2439105   8                 K--------YKFR--D--L--T--IEELKNVN----KTYP----N-F  29
+1622492   8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----VSFP----H-F  35
+12202648  8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+19018520  4     LDENALAR-MLSS--------YRDP--T--T--T--KKDVMNAL----RIYH----G-L  36
+18480010  5      EEAKIKQ-LLTK--------YQNP--E--I--T--CRDIIAAL----NEYH----G-L  36
+7788278   8          VRR-LLGK--------YKFR--D--L--T--VEELKNVS----VSFP----H-F  35
+18251266  7                 Q--------YKFR--D--L--T--VEELKNVN----RFFP----H-F  28
+16886617  8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----THFP----H-F  35
+13138621  7                SQ--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  29
+23368367  30                K--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  51
+5702942   14           K-NAPS--------YKFR--D--L--T--IEELKDVS----NTYP----N-F  39
+23865706  12               AK--------YRYQ--D--Q--A--KRHITNVI----TNYR----G-L  34
+2377111   1                 Q--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  22
+25277693  1                 Q--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  22
+21306551  1                 Q--------YKFR--D--L--T--IEELKDVS----KTYP----N-F  22
+11657466  1                 Q--------YKFR--D--L--T--IEELKNVN----KTYP----N-F  22
+19104356  19               SQ--------YKFR--D--L--T--IEELKNVN----KTYP----S-F  41
+7889051   1                 Q--------YKFR--D--L--T--IEELKNVS----RTYP----N-F  22
+11065157  1                 Q--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  22
+12127722  1                 Q--------YKFR--D--L--T--IEELKNVN----KSYP----N-F  22
+19104185  7          IGR-MLVN--------YIDP--T--A--T--KKDVSECL----KQYK----A-L  34
+1468971   1                 Q--------YKFR--D--L--T--IEELKNVN----KTYP----N-F  22
+17265742  2    AFSAGGAAE-ALGK--------YKFR--D--L--T--IEELKNVN----KTYP----N-F  35
+22106377  1                 Q--------YKFR--D--L--T--IEELKNVN----KTYP----S-F  22
+11477210  9                 Q--------YKFR--D--L--T--IEELKTVN----KTYP----N-F  30
+24961506  17      EENVRL-RLGK--------YKFR--D--L--T--VEDLKNVH----KRYP----N-F  47
+21399786  2    AFSAGGAAE-ALGK--------YKFR--D--L--T--IEELKNVN----KTYP----N-F  35
+26565559  21      ETQLRY----Q--------YKFR--D--L--T--MEELKNVN----MFFP----H-F  48
+6779998   6       ESQIKQ-YLTK--------YKNP--V--T--T--NGDVMNAL----RHYR----G-L  36
+25235518  1                 Q--------YKFR--D--L--T--IEEIQNVN----KTYP----N-F  22
+1258714   1                 Q--------YKFR--D--L--T--IEELKNVN----RTYP----N-F  22
+13793799  1                 Q--------YKFR--D--L--T--IEELKNVS----KTYP----N-F  22
+25529475  5      SES-VKK-VISK--------YKFR--D--V--A--IEELQKVS----RLHP----D-M  35
+25617092  12          KF-ALRR--------YPNA--A--Q--A--LRDANSAL----KQYQ----T-L  38
+16583675  63         LAQ-CLRV--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  90
+17695407  105       KIQR-ILSK--------YKFR--D--L--A--VEELEKVN----RIYP----D-M  133
+3415520   5      SES-VKK-VLSK--------YKFR--D--V--A--IEELNKVS----RVHP----D-M  35
+23406708  7          LND-KLRT--------YQHK--D--L--C--KRQILPAI----NAYK----D-L  34
+20506918  27        KIQR-ILSK--------YKFH--D--V--A--VEELQKIH----RLFP----E-M  55
+8750866   7         KIQR-ILSK--------YKFH--D--V--A--LEELQKIH----RVFP----E-M  35
+18349840  7         KIQR-VISK--------YKFH--D--V--A--LEELDKIE----STFP----G-M  35
+10482353  2                          YKFR--D--V--A--VEELEKIN----RIYP----G-M  22
+5481094   10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  37
+20664186  10         LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  37
+11013380  8          LRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+19876375  8          IKK-MLPR--------GYQR--K--Y--V--AHQVFIAI----TYFK----D-L  35
+17045844  3     LSSDKIHK-ILSK--------YKFH--D--V--A--IEELQKIH----RIFP----D-M  35
+19010906  8          VRR-LLGK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+22323700  8          LRR-LLCK--------YKFR--D--L--T--VEELKNVN----MFFP----H-F  35
+24577586  219             VKN--------YKHK--N--A--V--KRDVHETL----ADYR----N-L  242
+24577586  10   AVSPSQIKT-LCRK--------AKYK--D--E--TKVIEDLRPVF----QRFP----T-L  45
+13923766  13               SN--------AKYS--D--S--A--KKDILGAL----NQFK----D-M  35
+12794580  14               TK--------AKYV--E--S--A--KTDIITAL----NFFH----D-L  36
+12232669  4         EVHR-MLSK--------LKYH--Y--VKEA--KKDIGDVL----QQYR----N-L  34
+13197649  5        TNLAN-GLAS--------YKYR--D--A--A--KSDIEKAS----QAFH----S-L  34
+6684212   16               AR--------MKFC--S--E--A--KEDLVNVL----NNFK----D-L  38
+24484837  7         KIQR-ILSK--------YKFH--D--V--A--VEELQKIY----RIYP----E-M  35
+16218845  8          LAD-NLKS--------YKYA--R--D--V--TKDVKCAL----SAYN----E-L  35
+4442557   7          IRR-GLAK--------YEFS--K--L--C--KADVLEVL----KHYP----T-L  34
+19346596  2    AVSESQLKK-MLTK--------YKYR--D--L--T--IQETTSVI----SQYK----D-L  35
+24551137  18                         YQHR--D--R--M--YADVEAVL----RLFQ----NFL  39
+26832280  18                         YQHR--D--R--M--YADVEAVL----RLFQ----NFL  39
+1637565   16             LTSE--------YQDV--N--R--T--YHDVAQAL----SHYS----S-L  40
+3288896   25                         YAHP--D--R--V--FRDVDACL----GVFK----A-L  45
+15853836  36                                  L--I--RQHLLNLI----SSYP----S-L  51
+11476752  18                         YQHR--D--R--M--YADVESVL----RLFQ----NFL  39
+6883347   32                                              VL----IAFS----S-L  39
+15377025  16             LTSE--------YRDV--N--R--T--YNDVAQTL----SHYS----S-L  40
+2840577   16             LTSE--------YTDV--N--R--T--YNDVAQAL----SHYS----S-L  40
+11035479  46                                            VSLT----TAYP----S-L  55
+287947    36                                  L--I--RQHLLNLI----SSYP----S-L  51
+16286136  16             LTSE--------YKDV--N--R--T--YTDVAQTL----SHYS----S-L  40
+6726896   61                                            AQVR----TLIP----K-V  70
+8509650   18                         YQHK--E--R--M--YADVEAVL----RRFQ----NFL  39
+22057262  15             LTSE--------YHDV--N--R--T--YNDVAQVL----SQYP----S-L  39
+4169130   15             LTSE--------YHDV--N--R--T--YNDVAQAL----TQYP----T-L  39
+11917632  15             LTSE--------YHDV--N--R--T--YNDVAQAL----TQYP----T-L  39
+6752099   15             LTSE--------YHDV--N--R--A--YNDVAQAL----TQYP----S-L  39
+8589768   43                                  L--I--RQHLVSLT----TAYP----S-L  58
+20769747  15             LTSE--------YHDV--N--R--T--YNDVAQAL----SQYS----S-L  39
+16053922  15             LTSE--------YHDV--N--R--T--YNDVAQAI----SQYP----S-L  39
+7112323   15             LTSE--------YQDV--N--R--T--YNDVAQAL----SQYP----S-L  39
+14425962  15              VLK--------REYR--DPNR--T--YSDLAHVL----ARNP----G-F  40
+14870184  19                E--------YHDP--N--R--T--YSDLAHIL----ARNP----S-F  40
+16882214  16             LTSE--------YKDV--N--R--T--YNDVAQTL----SHYS----S-L  40
+16433088  39                                  L--I--RQHLLNLV----SSYP----S-L  54
+12359809  15             LTSE--------YQDV--N--R--T--YNDVAQAL----SQYP----S-L  39
+13531222  27             LTSE--------YKDV--N--R--T--YNDVAQTL----SHYS----S-L  51
+21170128  18                         YCYP--D--E--V--LDDIKDVA----TDFP----H-L  38
+21565296  15             LTSE--------YHDV--N--R--T--YNDVAQAL----SHYS----S-L  39
+21422717  15             LTSE--------YHDV--N--R--T--YNDVAQAL----SQHP----S-L  39
+1366051   26                         YRDP--N--R--T--YHDVVNAL----SQYP----S-L  46
+25376195  15             LTSE--------YHDV--N--R--T--YNDVAQAL----SQYP----S-L  39
+25998349  15             LTSE--------YQDV--N--R--T--YNDVAQAL----SQFP----S-L  39
+10970255  46                                            LTLI----SSYS----S-L  55
+13852318  26                           YR--DPNR--T--YHDVANAL----SQYP----S-L  46
+26248100  46                                              VS----TDYP----D-L  53
+532270    13             LVPQ--------YKER--A--R--I--MSDMDTIL----TEYP----T-L  37
+22198934  43                                  L--I--RQHLVSLT----TAFP----S-L  58
+1817615   39                                  L--I--RQHLVAVT----TTYP----S-L  54
+6799973   31                                     T--YSDVIQAL----RVIP----T-L  45
+13409458  4    SLTQKWLKQ-VLGP--------YPQK--E--Q--I--YNDVDATL----AVYP----A-L  37
+9987979   15             LTSE--------YHDV--N--R--T--YGDIATVL----ARYP----T-L  39
+16952619  15             LTSE--------YHDV--N--R--T--YNDVATVL----ARYP----T-L  39
+
+Query_1   35   ----K----PVLD----S----Y----GGS----REL-MNLTGTIPVPYRGNTYNIPICL  69
+2697858   36   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  74
+25529199  36   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  74
+26934703  36   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  74
+25112369  36   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYKGNIYNIPICL  74
+26170011  36   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTVPVLYRGNTYNIPICL  74
+13134792  36   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGTTYNIPICL  74
+18311443  36   ----K----PVLD----S----YVFNDGNS----REL-MSLTGTIPVPYRGNIYNIPICL  74
+12156214  36   ----K----PLLD----A----YVFNDGNS----REL-MSLTGTIPVSYRGNTYNIPICL  74
+8674420   36   ----K----PVLD----S----YVFNDGSS----REL-VNLTGTIPVRYRGNIYNIPICL  74
+4647597   36   ----K----PVLD----S----YVFNDGSS----REL-VNLTGTIPVRYRGNTYNIPICL  74
+13135480  36   ----K----PVMD----A----YVFNDGSS----RDL-MSLTGTIPVPYRGNTYNIPICL  74
+16094543  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+3408953   36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+20659901  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+3106982   36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+21626599  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+3893427   23   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  61
+14692324  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+19905914  36   ----K----PVMD----S----YVFNDGSS----REL-MSLCGTIPVPYRGNKYNIPICL  74
+2570049   84   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  122
+12301591  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVSYRGHTYNIPICL  74
+17169015  36   ----K----PVMD----N----YVFNDGSS----REL-MSLTGTIPVNYRGNIYNIPICL  74
+8299395   36   ----K----PVMD----N----YVFNDGSS----REL-MSLTGTIPVNYRGNIYNIPICL  74
+2504766   37   ----K----PVMD----A----YVFNDGST----KDL-MSLTGTVPVSYRGNTYNIPVCL  75
+26099318  37   ----K----PVMD----A----YVFNDGTS----RDL-MSLTGTVPVSYRGNVYNIPVCL  75
+8680421   37   ----K----PVMD----A----YVFNDGSS----RDL-MSLTGTVPVSYRGNTYNIPVCL  75
+21579609  16   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  54
+6091705   37   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  75
+9173628   37   ----K----PVMD----A----YVFNDGST----RDL-MSLTGTVPVSYRGNIYNIPVCL  75
+16193702  15   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  53
+8837869   37   ----K----PVMD----A----YVFNDGLS----RDL-MSLTGTVPVSYRGNVYNIPVCL  75
+26304562  37   ----K----PLMD----A----YVFNDGST----RDL-MSLTGTVPVSYRGNIYNIPVCL  75
+7057284   38   ----K----PVMD----A----YVFNDGSS----RDL-MSLAGTVPVSYRGNVYNIPICL  76
+4864863   23   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  61
+1453122   36   ----K----PVLD----S----Y----G-----------------------NTYNIPICL  52
+18333994  36   ----K----PVMD----S----YVFNDGSS----REL-MSLTGTIPVPYRGNTYNIPICL  74
+17832082  34   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  72
+6121938   34   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  72
+26805978  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+23473060  26   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  64
+27322622  23   ----K----PVMD----S----YVFNDGSS----REL-MSLTGTIPVPYRGNTYNIPICL  61
+8549708   36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+7065901   37   ----K----PLMD----A----YVFNDGST----RDL-MSLTGTVPVSYRGNIYNIPVCL  75
+22962657  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+24183926  23   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  61
+16782863  43   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  81
+13568965  23   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  61
+16398118  31   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYKGNTYNIPICL  69
+23415903  22   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  60
+3334382   23   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  61
+15434099  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  74
+3234053   25   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRGNTYNIPICL  63
+16578913  23   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPFRGNTYNIPICL  61
+11668663  37   ----K----PVMD----T----YVFNDGSN----REL-LSLTGTVPVSFKGNVYNIPICL  75
+5154529   34   ----K----PVMD----S----YVFNDGSS----REL-MSLTGTIPVPYRGNTYNIPICL  72
+12978279  44   ----R----PVMD----N----YVFNDGST----KEL-LSLTGTVPVTYRGNIYNIPICL  82
+18766051  38   ----K----PVMD----N----YVFNDGST----KEL-LSLTGTVPVSYRGNVYNIPICL  76
+9125215   23   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVSYRGNTYNIPVCL  61
+19209580  10   ----K----PVLD----S----YVFNDGSS----REL-MNLTGTIPVPYRGNTYNIPICL  48
+1740485   37   ----K----PVID----T----YVFNDGNN----REL-LSLTGTVPVNFKGTVYNIPICL  75
+4452325   143  ----K----PVMD----A----YVFNDGSS----RDL-MSLTGTVPVSYRGNVYNIPVCL  181
+4452325   37   ----Q----PVLE----K----FVFNDGTA----KML-INLTGTIEVIYNGKRYNIPVSL  75
+12750263  38   ----K----PVMD----N----YVFNDGST----KEL-LSLTGTVPVNYRGNVYNIPICL  76
+7664607   6    ----K----PVLD----S----YVFNDGSS----REL-VNLTGTIPVRYRGNTYNIPICL  44
+21629814  7                               GSS----REL-MNLTGTIPVPYRGNTYNIPICL  34
+6396904   15   ----N----D-----------------GSS----REL-MNLTGTVPVLYRGNTYNIPICL  44
+8592910   1                                       EL-MNLTGTIPVPYRGNTYNIPICL  24
+6248069   1                                          MNLTGTIPVPYRGNTYNIPICL  22
+16240723  1               MD----S----YVFNDGSS----REL-MSLSGTIPVPYKGNTYNIPICL  36
+3859124   9                               GSS----REL-MSLTGTIPVSYRGNTYNIPICL  36
+11616213  1                                          MNLTGTIPVPYRGTTYNIPICL  22
+15747439  38   ----K----PNLQ----P----HIFNDGSR----KDL-LTLEGTIPVQYRGTTYNIPVCM  76
+11785869  80   ----R----PTHG----P----FIFNDGSQ----KDL-VNLDGTIPVNYRGNIYNIPIGI  118
+9672228   37   ----K----PVMD----A----YVFNDGSS----RDL-MSLTGTVPVSYRGNVYNIPVCL  75
+20297788  36   ----R----YSMD----T----YVFKDSSQ----KEL-LNFTGTIPVMYQGNTYNIPICF  74
+17435576  27                                                     GNVYNIPVCL  36
+24319108  36   ----T----FAMN----T----YTFKDGSQ----KDL-LNCSGTVPVKYQGNSYNIPIFL  74
+13420253  38   ----Q----YQLQ----K----FVFNDGSS----KDL-FNLQGTIPVVYKNNTYYIPICI  76
+12338093  38   ----R----YSMD----T----YVFKDSSQ----KDL-LNLTGTIPVMYQGNTYNIPICL  76
+22773015  41   ----E----PFVF----N----D----GSK----REL-FNLEGTIPVTYKGNTYNIPICI  75
+17234909  36   ----T----YRLE----A----FVFNNGAR----KDL-LNLEGTIPVNYKGAFYNIPVCI  74
+25308471  36   ----R----FSMD----T----YTFKDGSL----KDL-LNFSGTIPVKYQGNSYNIPICL  74
+22237548  41   ----Q----RFVF----N----D----GSS----KEL-FTIQGTIPVVYKNNTYYIPICI  75
+24236949  1                                                       NVYNIPVCL  9
+7841672   36   ----T----FRLE----V----FVFNNGAR----KDL-LNLEGTIPVNYKGAYYNIPVCI  74
+19352886  38   ----T----YKLQ----K----FVFNDGSS----KDL-FNLQGTIPVVYKNNTYYIPICI  76
+5908483   36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  74
+24846636  37   ----T----PLNE----T----YMFNDGTQ----MDL-VNLGGTIPVRYKGNVYNIPICI  75
+20363502  38   ----R----YSMD----T----YVFKDSSQ----KDL-LNLTGTIPVMYQGNTYNIPICL  76
+9003515   38   ----S----YNLQ----K----FVFNDGST----KDL-FNLQGTIPVVYKNNTYYIPICI  76
+17995357  34   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPICL  71
+25281025  37   ----S----PMSS----Q----FVFNDGTK----KEL-FCLDGTIPVSYKGNVYNIPVCV  75
+1220706   36   ----T----FSMN----T----YTFKDGSQ----KEL-LNFSGTVPVKY-GNSYNIPIRL  73
+19360824  37   ----S----PMSS----Q----FVFNDGTK----KEL-FCLDGTIPVSYKGNVYNIPVCV  75
+4721844   40   ----Q----PASE----R----FVFNDGSC----QDL-FNLQGTIPVNYKGNVYNIPICI  78
+3981165   40   ----H----GNSE----S----FVFNDGSC----QEL-FNLQGTIPVMFKGSVYNIPICI  78
+13623430  38   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRL  76
+3130131   36   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIQL  73
+3317488   36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  74
+4391599   36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  74
+1397881   36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  74
+5118496   36   ----V----FSMN----T----YTFKDGSQ----KDL-LNCSGTVPVKY-GNSYNIPICL  73
+5076837   38   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRL  76
+687282    36   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTVPVMYQGNTYNIPIRL  74
+24078665  38   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  76
+6726296   23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPICL  60
+23774693  36   ----K----LSMD----T----YTFSDGSQ----KDL-LSLIGTIPIRYQGHSYNIPIQI  74
+2537672   36   ----R----PSHG----P----FIFNDGSR----KDL-VNLDGTIPINYRGNIFNIPIGI  74
+22193904  40   ----Q----HKME----P----YVFNDGSR----KEL-LNLQGTIPVTYKGHVYHIPISI  78
+1020772   36   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMFQGNTYNIPIHF  74
+23619348  36   ----R----YSMD----T----YVFKDSSQ----KNL-LNFTGTIPVMYQGNTYNIPIRL  74
+9176751   84   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  122
+5086327   36   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTVPVMYQGNTYNIPIRL  74
+25809121  36   ----R----YSMD----T----YVFKDNSQ----KDL-LNFTGTVPVMYQGHTYNIPIRL  74
+11327661  36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNVPIRF  74
+15992311  44   ----E----PFVF----N----D----GSR----KEL-LNLQGTIPVVYKGTCYNIPICI  78
+16496421  36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  74
+1084447   44   ----E----PFVF----N----D----GSR----KEL-LNLQGTIPVVYKGTCYNIPICI  78
+11576347  42   ----Q----PKMD----R----FIYNDGST----KNL-MSLCGTIPVNYKGTTYNIPIAI  80
+5900577   40   ----QYEIEPFVF----N----D----GSR----KEL-INLQGTIPVAYKGAYYNIPICI  78
+25339860  36   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPIIYQGNTYNIPIRF  74
+23466309  36   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  73
+19039845  36   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIRL  73
+1262238   36   ----R----YSMD----T----YVFKDTSQ----KDL-LNFTGTIPVMHQGNTYNIPIRF  74
+17231292  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPVCL  60
+941506    40   ----Q----YEIE----P----FVFVDGTQ----KEL-FNLQGTIPVTYKGNRYNIPICI  78
+771087    36   ----R----YSMD----T----YVFKDSSQ----KNL-LNFTGTIPVMYQGNTYNIPIRL  74
+74291     36   ----V----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPVHL  73
+12156223  36   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPVRF  74
+26115187  36   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPIIYQGNTYNIPIRF  74
+2439105   30   ----V----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPICL  67
+1622492   36   ----R----YSVD----T----YVFKDTSQ----KDL-LNFTGTIPVMYQGKTYNIPIRF  74
+12202648  36   ----K----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGHTYNIPIRF  74
+19018520  37   ----Q----HRVE----E----YVFNDGST----KML-LNLHGTIPVKYKGNTYNIPICI  75
+18480010  37   ACKQE----PYVF----S----D----GRR----MDL-LNLSGTIPVLFKGVVYNFPVCI  75
+7788278   36   ----R----YSVD----T----YVFKDTSQ----KDL-LNFTGTIPVMYQGKTYNIPIRF  74
+18251266  29   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYHGNTYNIPIRL  67
+16886617  36   ----R----YSMD----T----YVFKDTSQ----KDL-LNFTGTIPVMYQGITYNIPIRF  74
+13138621  30   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIRL  67
+23368367  52   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTIPVMYHGNTYNIPVRL  90
+5702942   40   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKYAGNSYNIPVRL  78
+23865706  35   ----E----PKLE----K----YTFTNGKE----KEL-VALSGTIPVNFRGKYYHFPVCL  73
+2377111   23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIRL  60
+25277693  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIQL  60
+21306551  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  60
+11657466  23   ----T----FSMN----T----YTFKDGSQ----KEL-LNFSGTVPVKY-GNSYNIPIRL  60
+19104356  42   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  79
+7889051   23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  60
+11065157  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIQL  60
+12127722  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  60
+19104185  35   ----S----CRYE----E----YVFNDGTV----KQL-INLQGTIPVRYKGNTYHIPICI  73
+1468971   23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  60
+17265742  36   ----M----FSMN----T----YTFRDGSQ----KDL-LNFSGTVPVKY-GNFYNIPIQL  73
+22106377  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  60
+11477210  31   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GNSYNIPIRL  68
+24961506  48   ----I----FSMD----T----YTFRDGSQ----KDL-LNFVGTIPMTYQGNSYNIPVQL  86
+21399786  36   ----M----FSMN----T----YTFRDGSQ----KDL-LNFSGTVPVKY-GNFYNIPIQL  73
+26565559  49   ----R----YSMD----T----YVFKDSSQ----KNL-LNFTGTIPVMYQGNTYNIPIRL  87
+6779998   37   ----Q----AKLS----P----FVFDDGTR----QEL-CCLEGTIPVQYKGSTYNIPLCI  75
+25235518  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GDSYNIPIRL  60
+1258714   23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GSSYNIPIRL  60
+13793799  23   ----T----FSMN----T----YTFKDGSQ----KDL-LNFSGTVPVKY-GDFYNIPIHV  60
+25529475  36   ----K----LISG----I----Y----TSSDSFQKDL-LKLVGNIPVRYQGCAYNLPILL  74
+25617092  39   ----K----PNVK----H----FVSPEGWN----KEL-VCLEGTIPVNYRGTNYNIPICI  77
+16583675  91   ----R----YSMD----T----YVFKDSSQ----KDL-LNFTGTLPVMYQGHQYNIPVRF  129
+17695407  134  ----Q----VSTA----T----F----TFSDSTQKDL-LKITGVIPVKYEGRSYNFPIQL  172
+3415520   36   ----K----VISA----T----Y----TSSDSLQKDL-LKLVGNIAVRYHGRSYNLPILL  74
+23406708  35   ----R----PSTQ----N----FVHNDGRR----MDL-FALEGTIPVNFRGSTYNIPICL  73
+20506918  56   ----R----PSTA----T----YTYTDSTQ----KDL-LKLTGVIPVKYKGRSYNIPIKL  94
+220622    9                               GSQ----KDL-LNCSGTVPVKYQGNSYNIPIFL  36
+24963832  34                    S----N----GAK----KKL-AQLVGIIPVTFKGNVYNIPVCI  63
+9292932   9                               GSQ----KDL-LNCSGTVPVKYQGNLYNIPIFL  36
+8750866   36   ----R----PSTG----T----YTFTDSSQ----KDL-LKLTGVIPVKYDGRSYNFPIQL  74
+18349840  36   ----I----PTVG----R----YTFNDGSQ----KEL-LKLNGNLPVKYEGRSYNFPIQL  74
+20963016  9                               GSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  35
+10482353  23   ----T----LSTG----T----Y----TFSDSTQKDL-LKLTGTIPVQYEGRSYNFPIQL  61
+24795327  1               MD----T----YVFKDSSQ----KNL-LNFTGTIPVMYQGNTYNIPIRL  36
+873153    21                                     KDL-LNFTGTIPVMYQGNTYNIPIRL  45
+22807952  1               MD----T----YVFKDSSQ----KDL-LNFTGTIPVMYQGNTYNIPIRF  36
+24754576  9                               GSQ----KDL-LNFSGTVPVKY-GNSYNIPIHL  35
+19733678  4                               GSQ----KDL-LNFSGTIPVKY-GNSYNIPIQL  30
+5481094   38   ----R----YSMD----T----Y----G-----------------------NTYNIPIRL  54
+20664186  38   ----R----YSMD----T----Y----G-----------------------NTYNIPIRL  54
+11013380  36   ----R----YSMD----T----Y----G-----------------------NTYNIPVRL  52
+19876375  36   ----V----PAVE----E----FVYRDGSR----KNL-MNLTGIIPVVYKDKSYNIPICV  74
+17045844  36   ----I----PSSG----T----YTFTDSTQ----KDL-LKLIGNLAVQYGGRTYNFPVQL  74
+10303190  9                               GSQ----KDL-LNFTGTVPVRY-GNSYNIPIHL  35
+19010906  36   ----K----YSMD----T----Y----G-----------------------NTYNIPIRF  52
+22323700  36   ----R----YSMD----T----Y----G-----------------------NTYNIPIRF  52
+24577586  243  ----N----PRLDDKEDS----N----GRL----IKT-MNLTGTVPITYQGNVYNIPICV  281
+24577586  46   ----K----LLVE----N----YVFTDGSE----KTL-LNLAGTVPVCFQGNNYNIPIRI  84
+13923766  36   ----G----PMTE----N----FMFPDGKR----RNA-FKLVGTIPINYKGNLYNIPISV  74
+12794580  37   ----S----PDAE----N----FTFP-DGT----RNLTFRLKGTIPVLYKGTTYNIPVAL  75
+12232669  35   ----H----ASIE----KCTLPT----GVQ----REL-VVLKGTIPVTFKKNVYNIPISI  73
+6859986   2                                                    YQGNTYNIPIRL  13
+17449291  2                                                    HQGNTYNIPIRL  13
+13197649  35   ----R----LKIQ----D----YTADNGQT----SRL-LCLDGTIPVKYDGNMYNIPLAV  73
+6684212   39   ----K----PDIS----N----FTFGDGIN----KNC-LTLDGTIPIHYKGGNYHIPVIL  77
+2783284   1                                                               M  1
+24484837  36   ----M----PSTG----T----Y----SRS-----------------------YNIPIQL  52
+16218845  36   ----R----LKVE----N----FTFNDGRS----NNL-VCLNGTIPVVYCEQTYNIPIAI  74
+4442557   35   ----L----PSQD----R----FVYNDGSE----VEL-FNLKGTIPVLIRGVKHQIPLQI  73
+22554637  51                              GTT----STL-LNLEGTIPIFYRGNQYNIPVEF  78
+26324386  356                             GTT----STL-LNLEGTIPIFYRGNQYNIPVEF  383
+21019827  51                              GTT----STL-LNLEGTIPIFYRGNQYNIPVEF  78
+9055004   51                              GTT----STL-LNLEGTIPIFYRGNQYNIPVEF  78
+19346596  36   ----K----PVMD----S----YVFNDGSS----REL-MSLSGTIPVPYRG-MHHIFLCQ  73
+24551137  40   ----V----PMAE----T----YTHDNGRS----QLL-LSLIGTVPIVYQSATYNIPVAF  78
+26832280  40   ----V----PKAE----T----YTHDNGRS----QLL-LSLIGTVPIVYQSATYNIPVAF  78
+1637565   41   ----S----PKTE----V----YTYENGVS----ELL-LQLSGTLPVAFRGTTYRFPVTV  79
+3288896   46   ----T----PQTD----T----YTYDDGKS----KVL-LCLHGTIPITYQSTLYNIPVDF  84
+15853836  52   ----E----PKTA----T----FIHNDGRS----VNL-LQADGTIPMPYHGVTYNIPVII  90
+11476752  40   ----V----PKAE----T----YTHDDGRS----QLL-LSLIGTVPIVYQSATYNIPVAF  78
+6883347   40   ----S----PRTE----V----YTHDDGRS----QLL-LELTGTIPIQYKGNTYHIPVSF  78
+15377025  41   ----S----PRTD----V----YTYENGKS----ALL-LQLSGTLPVVFRGTTYRFPITL  79
+2840577   41   ----S----PRTD----V----YTYENGVS----ALL-LHISGTLPVVFRGTTYRFPIAL  79
+11035479  56   ----D----PKTA----T----FTHNDGRS----VNL-LQAEGTVPMSFQGVTYNIPVII  94
+287947    52   ----E----PKTA----T----FIHNDGRS----VNL-LQADGTIPMPYHGVTYNIPVII  90
+16286136  41   ----S----PRTD----V----YTYENGKP----ALL-LHISGTLPVVFRGTTYRFPVAI  79
+6726896   71   ----E----KFIH----N----N----GTE----SEL-LVLSGTVAINYQSRQYNIPVEV  105
+8509650   40   ----V----PHAD----T----YTHDNGRS----QLL-LSLVGTIPIVYQSATYNIPVAF  78
+22057262  40   ----S----PRTD----V----HTFPNGVS----ALL-LHLTGTIPVIFRGNTYRFPISL  78
+4169130   40   ----S----PRTDVHTFS----N----GSS----ALL-LHITGTIPVDFRGNTYRFPISI  78
+11917632  40   ----S----PRTDVHTFS----N----GSS----ALL-LHITGTIPVNFRGNTYRFPISI  78
+6752099   40   ----A----PRTDVHTFS----H----GAN----ALL-LHLSGTLPVNFRGTTYRFPVSI  78
+8589768   59   ----E----PKTA----T----FTHNDGRS----VNL-LQADGTVPMSFQGVTYNIPVVV  97
+20769747  40   ----S----PRTD----V----HTFDNGIS----ALL-LHLSGTIPVVFRGTTYRFPISI  78
+16053922  40   ----S----PRTD----V----HTFDNGVS----ALL-LHLSGTIPVAFRGTTYRFPISI  78
+7112323   40   ----S----PRTD----V----HTFDNGVS----ALL-LHLTGTIPVIFRGTTYRFPISL  78
+3216999   51                              GTT----STM-LSLSGTIPIYYNGNQYNIPVEI  78
+14425962  41   ----A----PRTD----V----FTFENGAS----ALL-VHFRGTIPVNFRGNIYRFPISL  79
+14870184  41   ----A----PRTD----V----YTFENGAS----ALL-LQFKGTIPVNFRGNTYRFPIAI  79
+16882214  41   ----S----PRTD----V----YTYETGAS----ALL-LHLSGTIPVVFRGTTYRFPIAI  79
+16433088  55   ----E----PKTA----T----FTHNDGRS----VNL-LQADGTVPMPYQGVTYNIPVVI  93
+12359809  40   ----S----PRTD----V----HTFDNGVS----ALL-LHLSGTIPVTFRGTTYRFPISL  78
+13531222  52   ----S----PRTE----V----YTYENGAS----ALL-LQLSGTLPVNFRGTTYRFPVAL  90
+21170128  39   ----Q----LYVD----Y----YLYPNNDK----KKL-VYLGGTVPITYEGATYNIPVCI  77
+21565296  40   ----S----PRTD----V----HTFDNGAS----ALL-LHLSGTLPVIFRGTTYRFPISI  78
+21422717  40   ----S----PRTD----V----HTFDNGIS----ALL-LHLSGTIPVVFRGTTYRFPISI  78
+1366051   47   ----S----PRTD----V----YTYETGFS----ALL-LHLVGTLPVTFRGTTYRFPIAL  85
+25376195  40   ----S----PRTD----V----HTFDTGVS----ALL-LHLTGTVPVIFRGTTYRFPISV  78
+25998349  40   ----S----PRTDVHTFS----N----GAS----ALL-LHLSGTLPAVFRGTTYRYPISV  78
+10970255  56   ----E----PKTA----T----FTHNDGRS----AIL-LQADGTIPMPFQGVSYNIPVVV  94
+13852318  47   ----S----PRTD----V----YTYETGFS----ALL-LHLVGTLPVTFRGTTYRFPIAL  85
+26248100  54   ----Q----LYVD----Y----YFYPNNDK----KKL-VYLGGTVPVTYEGNKYNIPVCV  92
+532270    38   ----R----PRTD----V----YTYNDGRS----MLL-LLLDGTIAVPFRGSVYNIPMHF  76
+22198934  59   ----V----PRTA----T----FTHNDGRS----INL-LQSDGTVPMSFQGVTYNIPVVI  97
+1817615   55   ----E----PKTA----T----FTHNDGRS----VNL-LQADGTIPMSFQGVTYNIPVLI  93
+6799973   46   ----S----PRTD----V----YTHENGRS----QLL-LCLYGTLPAKFRGAVYNIPVLL  84
+13409458  38   ----K----PKND----V----YTFNDGRA----QLL-LCVHGLIPITFRQATYNIPIAI  76
+9987979   40   ----A----PRTD----V----YTYPNGAS----SLL-VHLTGTIPTLFRGTTYRFPVSI  78
+16952619  40   ----A----PRTD----V----HTFPNGAS----ALL-VHLTGTIPVLFRGTTYRFPVSI  78
+
+Query_1   70   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  109
+2697858   75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+25529199  75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+26934703  75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+25112369  75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+26170011  75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+13134792  75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+18311443  75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+12156214  75   WLLDSYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+8674420   75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+4647597   75   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+13135480  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+16094543  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+3408953   75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+20659901  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+3106982   75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+21626599  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+3893427   62   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+14692324  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+19905914  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+2570049   123  WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  162
+12301591  75   WLLDTYPF-----------------NPPICFVKPTSTMTIKT-G-K-HVDANGKIYLPYL  114
+17169015  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGRIYLPYL  114
+8299395   75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGRIYLPYL  114
+2504766   76   WLLDVYPY-----------------NPPICFVKPTSAMMIKT-G-K-HVDANGKIYLPYL  115
+26099318  76   WLLDTYPY-----------------NPPICFVKPTSTMMIKT-G-K-HIDANGKIYLPYL  115
+8680421   76   WLLDTYPY-----------------NPPICFVKPTSSMMIKT-G-K-HIDANGKIYLPYL  115
+21579609  55   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  94
+6091705   76   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  115
+9173628   76   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  115
+16193702  54   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  93
+8837869   76   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  115
+26304562  76   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  115
+7057284   77   WLLDSYPY-----------------NPPICFVKPTSTMMIKT-G-K-HIDANGKIYLPYL  116
+4864863   62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+1453122   53   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  92
+18333994  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+17832082  73   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  112
+6121938   73   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  112
+26805978  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+23473060  65   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  104
+27322622  62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+8549708   75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+7065901   76   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  115
+22962657  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+24183926  62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+16782863  82   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  121
+13568965  62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+16398118  70   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  109
+23415903  61   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  100
+3334382   62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+15434099  75   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  114
+3234053   64   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  103
+16578913  62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+11668663  76   WLLDTYPY-----------------NPPICFVKPTSSMMIKT-G-K-HVDANGKIYLPYL  115
+5154529   73   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  112
+12978279  83   WLLDSYPY-----------------NPPICFVKPTSTMMIKT-G-K-HIDANGKIYLPYL  122
+18766051  77   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HVDANGKIYLPYL  116
+9125215   62   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  101
+19209580  49   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  88
+1740485   76   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HVDANGKIYLPYL  115
+4452325   182  WLLDTYPF-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  221
+4452325   76   WLKENYPR-----------------TAPICYLKPTSEMVIVP-S-R-HVNSSGEITMPYL  115
+12750263  77   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HVDANGKIYLPYL  116
+7664607   45   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  84
+21629814  35   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  74
+6396904   45   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  84
+8592910   25   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  64
+6248069   23   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  62
+16240723  37   WLLDTYPF-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  76
+3859124   37   WLLDTYPF-----------------NPPICFVKPTSTMTIKT-G-K-HVDANGKIYLPYL  76
+11616213  23   WLLDTYPY-----------------NPPICFVKPTSSMTIKT-G-K-HVDANGKIYLPYL  62
+15747439  77   YLMETHPF-----------------NPPLCYVRPTATMEIKT-G-K-HVDSSGRVYLPYL  116
+11785869  119  FILDTHPY-----------------NPPICYVKPTNTMQIKQ-G-T-NVDANGKVDLPYL  158
+9672228   76   WLLDTYPY-----------------NPPICFVKPT-------------------------  93
+20297788  75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAHGRIYLPYL  114
+17435576  37   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  76
+24319108  75   WILDSHPF-----------------TPPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  114
+13420253  77   WLMDTHPV-----------------NAPFCYVKPTQNMQIKV-S-M-YVDHNGRIYLPYL  116
+12338093  77   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  116
+22773015  76   WLMDTHPY-----------------NAPMCYVKPTSGMQIKV-S-I-FVDHNGKIYLPYL  115
+17234909  75   WLMDTHPQ-----------------NAPLCFVKPTSDMSIKV-S-K-YVDSNGKVYLPFL  114
+25308471  75   WILDSHPF-----------------APPICLLKPTINMEISV-G-K-HVDAHGRIYLPYL  114
+22237548  76   WLMDTHPQ-----------------NAPMCFVKPTPTMQIKV-S-M-YVDHNGKVYLPYL  115
+24236949  10   WLLDTYPY-----------------NPPICFVKPTSAMMIKT-G-K-HIDANGKIYLPYL  49
+7841672   75   WLMDTHPQ-----------------NAPLCFVKPTSDMSIKV-S-K-YVDNNGKIYLPYL  114
+19352886  77   WLMDTHPM-----------------NAPICYVKPTPTMQIKV-S-M-YVDHNGRIYLPYL  116
+5908483   75   WILDSYPF-----------------APPICFLKPTANMEISV-G-K-HVDAQGRIYLPYL  114
+24846636  76   WLMDTHPK-----------------NAPICYVKPTSDMAIKV-S-M-FVDQNGKIYLPYL  115
+20363502  77   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  116
+9003515   77   WLMDTHPM-----------------NAPMCFVKPTPNMLIKV-S-M-YVDYNGRIYLPYL  116
+17995357  72   WILDSHPF-----------------APPICFLKPTSNMGIAV-G-K-HVDARGRIYLPYL  111
+25281025  76   WLLDTHPY-----------------NSPMCYVKPTAYMQIKV-S-R-HVDQTGRVFLPYL  115
+1220706   74   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAHGRIYLPYL  113
+19360824  76   WLLDTHPY-----------------NSPMCYVKPTAYMQIKV-S-R-HVDQTGRVFLPYL  115
+4721844   79   WLMDTHPN-----------------NAPMCYVRPTADMTIKV-S-M-YVDHNGKIYLPYL  118
+3981165   79   WLMDTHPN-----------------NAPMCYVRPTADMTIKV-S-M-YVDHNGKIYLPYL  118
+13623430  77   WILDSYPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  116
+3130131   74   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAHGRIYLPYL  113
+3317488   75   WILDSYPF-----------------APPICFLKPTANMEISV-G-K-HVDAQGRIYLPYL  114
+4391599   75   WILDSYPF-----------------APPICFLKPTANMEISV-G-K-HVDAQGRIYLPYL  114
+1397881   75   WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAQGRIYLPYL  114
+5118496   74   WIMDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  113
+5076837   77   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  116
+687282    75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+24078665  77   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  116
+6726296   61   WILDSHPF-----------------APPICFLKPTANMSIAV-G-K-HVDARGRIYLPYL  100
+23774693  75   WILDSHPF-----------------GPPLCFLRPTSNMIIRE-G-K-HVDAQGRIYLPYL  114
+2537672   75   FLLDTHPY-----------------NSPIVYVKPTNTMVIKQ-G-P-NVDADGKVDMPYL  114
+22193904  79   WLMDTHPN-----------------NAPMCYVTPTADMSIKV-S-M-YVDHNGKIYLPYL  118
+1020772   75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+23619348  75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+9176751   123  WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAQGRIYLPYL  162
+5086327   75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+25809121  75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+11327661  75   WILDSHPF-----------------APPICFLKPTANMGILV-G-K-HVDAQGRIYLPYL  114
+15992311  79   WLMDTHPN-----------------NAPMCYVKPTADMHIKV-S-M-FVDHNGKIYLPYL  118
+16496421  75   WILDSHPF-----------------APPICFLKPTANMGILV-G-K-HVDAQGRIYLPYL  114
+1084447   79   WLMDTHPN-----------------NAPMCYVKPTADMHIKV-S-M-FVDHNGKIYLPYL  118
+11576347  81   WLQESHPQ-----------------LPPLCFVKPTSNMQVKQ-G-K-HVDANGRVYLPYL  120
+5900577   79   WLMDTHPN-----------------NAPMCYVKPTADMNIKV-S-M-FVDHNGKIYLPYL  118
+25339860  75   WILDSHPF-----------------APPICFLKPTANMGICV-G-K-HVDAQGRIYLPYL  114
+23466309  74   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  113
+19039845  74   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAHGRIYLPYL  113
+1262238   75   WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAKGRIYLPYL  114
+17231292  61   WILDSHPF-----------------APPICFLKPTANMGIAV-G-K-HVDARGRIYLPYL  100
+941506    79   WLMDTHPN-----------------NAPICYVKPTSDMSIKV-S-M-YVDHNGQIYLPYL  118
+771087    75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+74291     74   WIMDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  113
+12156223  75   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  114
+26115187  75   WILDSHPF-----------------APPICFLKPTANMGICV-G-K-HVDAQGRIYLPYL  114
+2439105   68   WIMDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  107
+1622492   75   WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAKGRIYLPYL  114
+12202648  75   WILDSHPF-----------------APPICFLKPTANMGISI-G-K-HVDAQGRIYLPYL  114
+19018520  76   WLMDTHPK-----------------NAPICYVKPTPEMRIKV-S-A-YVDFNGKIYLPYL  115
+18480010  76   WLMDTHPN-----------------NAPVCYVKPTPDMSIKI-S-C-YVDQTGKIYLPYL  115
+7788278   75   WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAKGRIYLPYL  114
+18251266  68   WILDSHPF-----------------APPICFLKPTANMGVSV-G-K-HVDAQGRIYLPYL  107
+16886617  75   WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAKGRIYLPYL  114
+13138621  68   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  107
+23368367  91   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  130
+5702942   79   WILDSHPF-----------------APPICFLKPTANMGIAV-G-K-HVDARGRIYLPYL  118
+23865706  74   FINDTYPY-----------------SPPVCYVRPTPEMCIKE-S-K-YVDASGTIFLPYL  113
+2377111   61   WILDSHPF-----------------APPICFLKPTANMGIAV-G-K-HVDAQGRIYLPYL  100
+25277693  61   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAHGRIYLPYL  100
+21306551  61   WILDSHPF-----------------APPICFLKPTANMGIAV-G-K-HVDARGRIYLPYL  100
+11657466  61   WILDSHPF-----------------APPICFLKPTANMGILV-G-K-HVDAHGRIYLPYL  100
+19104356  80   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  119
+7889051   61   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  100
+11065157  61   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDTRGRIYLPYL  100
+12127722  61   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  100
+19104185  74   WLLDTHPR-----------------YAPICYVKPTSDMHIKV-S-M-YVDHNGKIYLPYL  113
+1468971   61   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  100
+17265742  74   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  113
+22106377  61   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  100
+11477210  69   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAHGRIYLPYL  108
+24961506  87   WILDSHPF-----------------APPLCFLKPTATMGIHV-G-K-HVDTQGRIYLPYL  126
+21399786  74   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  113
+26565559  88   WILDSHPF-----------------APPICFLKPTANMGISI-G-K-HVDTQGRIYLPYL  127
+6779998   76   WLMQQHPL-----------------VAPLVFVKPTADMQIKV-S-K-HVDYNGKVYLPYL  115
+25235518  61   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  100
+1258714   61   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  100
+13793799  61   WILDSHPF-----------------APPICFLKPTVNMAISV-G-K-HVDAHGRIYLPYL  100
+25529475  75   WLLDSFPF-----------------TPPICFLRPTSSMLIRE-G-K-HVDSKGRIHLPGL  114
+25617092  78   WLQEKHPF-----------------MPPLVYVVPTAEMEIKS-G-R-HVDNNGRVYLPFL  117
+16583675  130  WILDSHPF-----------------APPICFLKPTANMAISV-G-K-HVDAQGRIYLPYL  169
+17695407  173  WLLDSFPF-----------------TPPICLLKPTSSMVIRE-G-K-HVDAKGRVHLPGL  212
+3415520   75   WLLDSFPF-----------------APPICFLRPTSSMVIRE-G-K-HVDSKGRIHLPGL  114
+23406708  74   FLQERHPF-----------------IPPMVYVRPTNTMAIKV-S-K-HVDNTGRVFLPYL  113
+20506918  95   WLLDSFPF-----------------TPPICLLRPTSNMVIRE-G-K-HVNAKGRIYLPGL  134
+220622    37   WILDSHPF-----------------TPPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  76
+24963832  64   WLMDTHPN-----------------NAPMCYVKPTPDMQIKA-S-M-FVDQSGKIYLPYL  103
+9292932   37   WILDSHPF-----------------TPPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  76
+8750866   75   WLLDSFPF-----------------TPPICLLKPTSNMVIRE-G-K-HVDARGRIHLPGL  114
+18349840  75   WLMDSFPV-----------------TPPICLLRPTSDMMIRE-G-K-HVDARGRIYLPML  114
+20963016  36   WILDSHPF-----------------APPICFLKPTASMGISV-G-K-HVDARGRIYLPYL  75
+10482353  62   WLLDSFPF-----------------TPPICHLKPTSNMVIRE-G-K-HVDAHGRIHLPGL  101
+24795327  37   WILDSHPF-----------------APPICFLKPTANMGILV-G-K-HVDAQGRIYLPYL  76
+873153    46   WILDSHPF-----------------APPICFLKPTANMEISV-G-K-HVDAQGRIYLPYL  85
+22807952  37   WILDSHPF-----------------APPICFLKPTANMGILV-G-K-HVDAQGRIYLPYL  76
+24754576  36   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDARGRIYLPYL  75
+19733678  31   WILDSHPF-----------------APPICFLKPTVNMGISV-G-K-HVDAHGRIYLPYL  70
+5481094   55   WILDSHPF-----------------APPICFLKPTANMGVSV-G-K-HVDAQGRIYLPYL  94
+20664186  55   WILDSHPF-----------------APPICFLKPTANMGVSV-G-K-HVDAQGRIYLPYL  94
+11013380  53   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  92
+19876375  75   WIEPNYPN-----------------VAPMCFVKPTHEMIIVK-G-K-YISSDGKVRMPYL  114
+17045844  75   WLLDSFPF-----------------TPPICLLRPTANMVIRE-G-K-HVDARGRIFLPGL  114
+10303190  36   WILDSHPF-----------------APPICFLKPTVNMGILV-G-K-HVDAHGRIYLPYL  75
+19010906  53   WILDSHPF-----------------APPICFLKPTANMGILV-G-K-HVDAQGRIYLPYL  92
+22323700  53   WILDSHPF-----------------APPICFLKPTANMGICV-G-K-HVDAQGRIYLPYL  92
+24577586  282  WIPREYPD-----------------CRPLCFLRPTPDMAIKA-S-P-YVDPAGKILLPYL  321
+24577586  85   WFERTHPE-----------------DGPICYVEPTSDMYVEP-S-Q-YVDREGKIYLPYL  124
+13923766  75   ILWDTHPY-----------------YAPLCYVTPTSKMIIKE-S-E-HVNKEGKVFLPYL  114
+12794580  76   YLWDTHPY-----------------YAPICYVCPTPNMMVKE-S-K-TVDKQGRIYLPYL  115
+12232669  74   WILGNHPE-----------------SAPYCWVNPTKDMTIRV-S-Q-HVDNFGRVYLPYL  113
+6859986   14   WILDSHPF-----------------APPICFLKPTANMGISV-G-K-HVDAQGRIYLPYL  53
+17449291  14   WILDSHPF-----------------APPICFLKPTANMRISV-G-K-HVDAQGRIYLPYL  53
+13197649  74   YFIHQHPY-----------------YPPIAYVRPTPNMQIKP-S-Q-NVDTSGKIFLPYL  113
+6684212   78   YFLDNHPY-----------------MGPHCYVKPTQNMRIKP-S-K-VVDSAGRIYLPYL  117
+2783284   2    FLMKTHPF-----------------NPPLCYVVPTDTMVINT-G-K-HVDHNGRIYLPYL  41
+24484837  53   WLMDSFPF-----------------TPPICLLRPTSNMVIRE-G-K-HVDKEGRLHLPGL  92
+16218845  75   FVQESHPH-----------------TAPIVYVRPTSTMEIAP-S-Y-FVDNTGLVKLPYL  114
+4442557   74   WLQERHPC-----------------VPPLVFVTPTSTMAINP-S-P-HVDTNGKVYHPYL  113
+22554637  79   WMVETYPM-----------------SPPVCFVRPTADMMVKP-G-HPHVTSDGFVKIPYI  119
+26324386  384  WVVETYPM-----------------APPVCFVRPTADMMVKP-G-HPHVTSDGYVKIPYT  424
+21019827  79   WVVEAYPM-----------------SPPVCFVRPTADMMVKP-G-HPHVTSDGYVKIPYT  119
+9055004   79   WVVEAYPM-----------------SPPVCFVRPTADMMVKP-G-HPHVTSDGYVKIPYT  119
+19346596  74   SSFPNYPYPGGVPFPATTSVQYYPSQPPVTTVGPSRDGTI                      113
+24551137  79   WLPTSYPS-----------------VAPIVFVTPTALMLVKA-G-K-YVDISGRCYHPYL  118
+26832280  79   WLPTSYPS-----------------VAPIVFVTPTALMLVKA-G-K-YVDISGRCYHPYL  118
+1637565   80   WIPHQYPR-----------------AEPVVYVSPADGMMVRA-G-Q-HVDPQGRVYHPYL  119
+3288896   85   WIPTEYPK-----------------VPPIAFVVPTSSMLVKP-S-R-NVDVSGRCYHPYL  124
+15853836  91   WLLESYPR-----------------HPPCVYVNPTADMIIKRPH-A-HVTPSGLVSLPYL  131
+11476752  79   WLPTSYPS-----------------VAPIVFVTPTALMLVKA-G-K-YVDISGRCYHPYL  118
+6883347   79   WIPHGYPR-----------------EPPIVYVTPTTTMLVRK-G-K-HVDPNGRVSVDYL  118
+15377025  80   WIPHAYPL-----------------EPPLVYATPTEGMMVRP-G-Q-HVDPQGKIYHPYL  119
+2840577   80   WVPHAYPL-----------------EAPLVYVTPTEGMMVRP-G-Q-HVDPQGKVYHPYL  119
+11035479  95   WLMESYPR-----------------QPPVVYVNPTRDMIIKRPH-A-HVTPSGLVSIPYL  135
+287947    91   WLLESYPR-----------------HPPCVYVNPTADMIIKRPH-A-HVTPSGLVSLPYL  131
+16286136  80   WVPHAYPM-----------------EPPLVYAAPTDGMMVRP-G-Q-HVDSQGKVYHPYL  119
+6726896   106  YISEPYPE-----------------APPRCYVRPTKEMDIKV-GHR-HVDRDGLIYLPYL  146
+8509650   79   WLPTSYPS-----------------VAPIVFVTPTALMLVRA-G-K-HVDISGRCYHPYL  118
+22057262  79   WVPHAYPR-----------------EPPLVYVTPTENMVVRP-G-Q-HVDPQGQVYHPYL  118
+4169130   79   WVPHAYPR-----------------EPPVVYVTPTETMMVRP-G-Q-HVDPQGQVYHPYL  118
+11917632  79   WVPHAYPR-----------------EPPLVYVTPTENMMVRP-G-Q-HVDPQGQVYHPYL  118
+6752099   79   WVPHAYPR-----------------EPPMVYVVPTETMMIRP-G-Q-HVDPQGLIYHPYL  118
+8589768   98   WLMETYPR-----------------HPPCVYVNPTRDMIIKR-P-HPHVNPSGLVSIPYL  138
+20769747  79   WVPHAYPR-----------------EAPLAYVTPTENMMVRP-G-Q-HVDPQGRIYHPYL  118
+16053922  79   WIPHAYPR-----------------EPPLGYVTPTDTMVVRP-G-Q-HVDPQGRIYHPYL  118
+7112323   79   WIPHAYPR-----------------EAPLGYVTPTENMMVRP-G-Q-HVDPQGRIYHPYL  118
+3216999   79   WMPEAYPF-----------------AAPTCYVRPTADMMIRP-G-HPHVDQNGLILLPYS  119
+14425962  80   WVPHTYPY-----------------EPPIWYVTPTEDMMIRP-G-Q-HVSGDGKVYHPYL  119
+14870184  80   WVPHAYPY-----------------EAPMCYVTPTEEMMIRP-G-Q-HVGGDGKIYHPYL  119
+16882214  80   WVPHGYPR-----------------EAPVVYVTPTDGMVVRP-G-Q-HVDPQGKIYHPYL  119
+16433088  94   WLLESYPR-----------------HPPCAYVNPTRDMIIKRPH-S-HVTPSGLVSVPYL  134
+12359809  79   WIPHAYPR-----------------EAPLGYVTPTENMMVRP-G-Q-HVDPQGRIYHPYL  118
+13531222  91   WVQHGYPQ-----------------EAPLVYVTPTEGMAVRP-G-Q-HVDPQGKIYHPYL  130
+21170128  78   WIHETHPK-----------------NPPRCFVCPSPSMIINA-KTS-NVDANGRVLLHCL  118
+21565296  79   WVPHAYPR-----------------EAPLVYVTPTETMMVRP-G-Q-HVDPQGQIYHPYL  118
+21422717  79   WVPHAYPR-----------------EAPLAYVTPTENMMVRP-G-Q-HVDPQGRIYHPYL  118
+1366051   86   WIPNTYPR-----------------DPPIAYVTPTQEMTVRV-G-Q-HVTLEGQVYHHYL  125
+25376195  79   WVPHAYPR-----------------EAPLVYVTPTESMMVRP-G-Q-HVDPQGQVYHPYL  118
+25998349  79   WVPHAYPR-----------------EAPLVYVTPTENMMVRP-G-Q-HVDPQGQVYHPYL  118
+10970255  95   WLLESYPR-----------------DPPRVYVNPTRDMIIKRPH-S-NVSPSGLVSLPYL  135
+13852318  86   WIPNTYPR-----------------EPPIAYVTPTQEMTVRV-G-Q-HVTLEGQVYHHYL  125
+26248100  93   WIHETHPK-----------------NPPRCFVCPSPTMVINAKS-S-NVDASGCVLLHCL  133
+532270    77   WFPRVYPQ-----------------EPPIVYVVPMRDMLLRS-G-A-HTTPEGCVQVPYI  116
+22198934  98   WLMESYPR-----------------HPPCVYVNPTRDMIIKR-S-HPHVNPSGMVSIPYL  138
+1817615   94   WLMESYPR-----------------HAPCVYVNPTRDMIIKR-P-HPHVNPSGLVSVPYL  134
+6799973   85   WIPYQYPL-----------------QPPITFVNPSRDMLIRP-G-N-HVDGNGRCYHPYL  124
+13409458  77   WLPLEYPR-----------------LPPLVYVVPTSDMLVKS-G-R-NVDPSGECTFDYL  116
+9987979   79   WVPHAYPR-----------------EAPLAYVTPTETMMVRP-G-Q-HVDPQGQVYHPYL  118
+16952619  79   WVPHAYPR-----------------EAPLVYVTPTETMMVRP-G-Q-HVDPQGQVYHPYL  118
+
+Query_1   110  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  140
+2697858   115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  145
+25529199  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  145
+26934703  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  145
+25112369  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  145
+26170011  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGGEPPVFSR   144
+13134792  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGEEPPVFSRP  145
+18311443  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  145
+12156214  115  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  145
+8674420   115  HDW-----K---H--P--RS--ELLE---LIQIMIVIFGEEPPVFSRP  145
+4647597   115  HDW-----K---H--P--RS--ELLE---LIQIMIVIFGEEPPVFSRP  145
+13135480  115  HEW-----K---H--P--QS--DLIG---LIQIMIVVFGEEPPVFSRP  145
+16094543  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+3408953   115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+20659901  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+3106982   115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+21626599  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+3893427   102  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  132
+14692324  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+19905914  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+2570049   163  HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  193
+12301591  115  HEW-----K---Y--P--QS--DLLD---LIQVMIVVFGEEPPVFSRP  145
+17169015  115  HEW-----K---H--P--QS--DLIG---LIQVMIVVFGEEPPVFSRP  145
+8299395   115  HEW-----K---H--P--QS--DLIG---LIQVMIVVFGEEPPVFSRP  145
+2504766   116  HEW-----K---H--P--QS--DLYG---LIQVMVVVFGEEPPVFSRP  146
+26099318  116  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  146
+8680421   116  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  146
+21579609  95   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  125
+6091705   116  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  146
+9173628   116  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  146
+16193702  94   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  124
+8837869   116  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  146
+26304562  116  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  146
+7057284   117  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  147
+4864863   102  HEW-----K---H--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+1453122   93   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  123
+18333994  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+17832082  113  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  143
+6121938   113  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  143
+26805978  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+23473060  105  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  135
+27322622  102  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+8549708   115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGDEPPVFSRP  145
+7065901   116  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  146
+22962657  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+24183926  102  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+16782863  122  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  152
+13568965  102  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+16398118  110  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  140
+23415903  101  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  131
+3334382   102  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+15434099  115  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  145
+3234053   104  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  134
+16578913  102  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+11668663  116  HEW-----K---H--P--ES--DLFG---LIQVMIVVFGEEPPVFARP  146
+5154529   113  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFTEEPPVFSRP  143
+12978279  123  HEW-----K---H--P--QS--DLFG---LIQVMIVVFGEEPPVFSRP  153
+18766051  117  HEW-----K---P--P--QS--ELLG---LIQVMIVVFGEEPPVFSRP  147
+9125215   102  HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  132
+19209580  89   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  119
+1740485   116  HEW-----K---H--P--ES--DLFG---LIQVMIVVFGEEPPVFARP  146
+4452325   222  HEW-----K---H--P--QS--DLYG---LIQVMIVVFGEEPPVFSRP  252
+4452325   116  DEW-----R---H                                     120
+12750263  117  HEW-----K---P--P--QS--ELLG---LIQVMIVVFGEEPPVFSRP  147
+7664607   85   HDW-----K---H--P--RS--ELLE---LIQIMIVVFGEEPPVFSRP  115
+21629814  75   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  105
+6396904   85   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  115
+8592910   65   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  95
+6248069   63   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGDEPPVFSRP  93
+16240723  77   HEW-----K---Y--P--QS--DLLE---LIQVMIVVFGEEPPVFSRP  107
+3859124   77   HEW-----K---H--P--QS--DLIG---LIQVMIVVFGEEPPVFSRP  107
+11616213  63   HEW-----K---H--P--QS--DLLG---LIQVMIVVFGEEPPVFSR   92
+15747439  117  HEW-----K---H--P--KS--DLIG---LIEVMRIVFGEEPPVFAK   146
+11785869  159  RDW-----R---Y--P--QS--DLLG---LIQILVIVFSEEPPVFSR   188
+9672228   94   ----------------------NLYG---LIQVMIVVFGEEPPVFSRP  116
+20297788  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  145
+17435576  77   HEW-----K---H--P--QS--DLFG---LIQVMIVVFGEEPPVFSRP  107
+24319108  115  QKW-----S---H--P--QS--MIIG---LLKEMSAKFEEELPLFS    143
+13420253  117  HDW-----Q---P--N--SS--DLLS---LIQVMIVTFGEHPPVYSKP  147
+12338093  117  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  147
+22773015  116  HDW-----V---P--N--SS--DLLG---LIQVMIVTFGEQPPVYAK   145
+17234909  115  HEW-----T---Q--N--GS--TLQK---LIQCMITAFGELPPVYSKP  145
+25308471  115  QNW-----S---H--P--KS--IIIG---LIKEMIEKFEEELPLYS    143
+22237548  116  HDW-----Q---P--H--SS--DLLS---LIQVMIVTFGDHPPVYSKP  146
+24236949  50   HEW-----K---H--P--QS--DLFG---LIQVMIVVFGEEPPVFSRP  80
+7841672   115  HEW-----T---Q--N--GS--TLQK---LVQCMIAAFGELPPVYSKP  145
+19352886  117  HDW-----Q---P--H--SS--DLLS---LIQIMIVVFGDFPPVYSKP  147
+5908483   115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  145
+24846636  116  HDW-----V---P--H--TS--DLLG---LIQVMIVTFGEQPPVFAKP  146
+20363502  117  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  147
+9003515   117  HDW-----Q---P--N--SS--DLLS---LIQVMIVTFGDHPPVFS    145
+17995357  112  QNW-----S---H--P--KS--TLIG---LIKEMISKFEEELPLYS    140
+25281025  116  HEW-----N---P--N--SS--DLLG---LIQVMIIVFGETPPVFSKP  146
+1220706   114  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    142
+19360824  116  HEW-----N---P--N--SS--DLLG---LIQVMIIVFGETPPVFSKP  146
+4721844   119  HDW-----V---P--H--SS--DLLS---LIQIMIVTFGENPPVFAK   148
+3981165   119  HDW-----V---P--H--SS--DLLG---LIQVMIVTFGEHPPVFAK   148
+13623430  117  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  147
+3130131   114  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    142
+3317488   115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  145
+4391599   115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  145
+1397881   115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+5118496   114  QSW-----S---H--P--KS--TVTG---LIEEMIAKFEEELPLYS    142
+5076837   117  QSW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  147
+687282    115  QNW-----S---H--P--KS--VVVG---LIKEMIAKFQEELPLYS    143
+24078665  117  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    145
+6726296   101  QNW-----S---H--P--KS--TLIG---LIKEMIAKFEEELPLYS    129
+23774693  115  QHW-----S---H--P--KT--DVTG---LLNEMMAEFEKTPPLYTKP  145
+2537672   115  HDW-----K---Y--P--DS--NLLG---LIQLLSIVFEEEPPVFSR   144
+22193904  119  HDWVPLSFQ---H-----SS--DLLG---LIQVMIVTFGDHPPVYAKP  153
+1020772   115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+23619348  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  145
+9176751   163  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  193
+5086327   115  QNW-----T---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+25809121  115  QNW-----S---H--P--KS--VIVG---LIQEMISKFQEELPLYSLP  145
+11327661  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+15992311  119  HDW-----V---P--H--NS--DLLA---LIQVMIVTFGEQPPVYAK   148
+16496421  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPMYS    143
+1084447   119  HDW-----V---P--H--NS--DLLA---LIQVMIVTFGEQPPVYAK   148
+11576347  121  NEW-----T---P--H--RH--TLIG---LTQVLVAMFGEEPPVFAK   150
+5900577   119  HDW-----V---P--H--NS--DLLA---LIQVMIVTFGEQPPVYAK   148
+25339860  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+23466309  114  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    142
+19039845  114  QNW-----S---H--P--KS--TIVG---LIKEMIAKFEEELPLYS    142
+1262238   115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+17231292  101  QNW-----S---H--P--KS--TLIG---LIKEMIAKFEEELPLYS    129
+941506    119  HDW-----L---P--H--TS--DLHG---LIQVMVVTFGEHPPVYA    147
+771087    115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+74291     114  QSW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    142
+12156223  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+26115187  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+2439105   108  QSW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    136
+1622492   115  QNW-----S---H--P--KS--AIVG---LIKEMIAKFQEELPLYSTP  145
+12202648  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    143
+19018520  116  HDW-----N---P--K--NA--DLLD---LIQIMSVTFGEVPPVYSK   145
+18480010  116  HDW-----S---P--A--SS--DLLG---LIQVMICIFGDHPPVYAKP  146
+7788278   115  QNW-----S---H--P--KS--AIVG---LIKEMIAKFQEELPLYSIP  145
+18251266  108  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  138
+16886617  115  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSVP  145
+13138621  108  QNW-----S---H--P--KS--TLIG---LIKEMIAKFEEELPLYS    136
+23368367  131  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    159
+5702942   119  QNW-----S---H--P--KS--TLIG---LIKEMIAKFEEELPLYS    147
+23865706  114  SDW-----D---P--N--TS--DLLG---VIQVMIILFGETPPVYQKP  144
+2377111   101  QNW-----S---H--P--KS--TLVG---LITEMIAKFEEELPLYS    129
+25277693  101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+21306551  101  QSW-----S---H--P--KS--TLIG---LIKEMIAKFEEELPLYS    129
+11657466  101  QNW-----S---H--P--KS--TVVG---LIKEMIAKFEEELPLYS    129
+19104356  120  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    148
+7889051   101  QNW-----S---H--P--KS--TVIG---LIKEMITKFEEELPLYS    129
+11065157  101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+12127722  101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+19104185  114  HEW-----T---P--M--QS--DLLG---LIQVMIVTFGEYPPVYSKP  144
+1468971   101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+17265742  114  QNW-----S---H--P--KS--TVNG---LIKEMIAKFEEELPLYS    142
+22106377  101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+11477210  109  QNW-----S---H--P--KS--TIVG---LIKEMIAKFEEELPLYS    137
+24961506  127  QNW-----S---H--P--KS--TVLG---LFAEMILKFEEELPLYS    155
+21399786  114  QNW-----S---H--P--KS--TVNG---LIKEMIAKFEEELPLYS    142
+26565559  128  QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    156
+6779998   116  SDW-----S---Q--A--SS--DLLG---LIQVLVIIFSEAPPVFARP  146
+25235518  101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+1258714   101  QNW-----S---H--P--KS--TVIG---LIKEMITKFEEELPLYS    129
+13793799  101  QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    129
+25529475  115  HNW-----D---H--P--KS--SVNG---LLAEMIAKFEEEPPLGTK   144
+25617092  118  TDW-----K---H--P--QS--DLLG---LIQVLCLIFAEQPPVFAR   147
+16583675  170  QNW-----S---H--P--KS--VIVG---LIKEMTAKFQEELPLYSLP  200
+17695407  213  HNW-----D---Y--P--KS--SVVG---LLPEMIAKFEEDPPLSSK   242
+3415520   115  HSW-----D---H--P--KS--SVNG---LLAEMIAKFEEEPPLGTK   144
+23406708  114  SEW-----A---H--P--KS--DIAA---LIQILCCIFAEEPPVYAK   143
+20506918  135  HNW-----D---Y--P--KS--SVVG---LLNEMISKFEEEPPLSSK   164
+220622    77   QNW-----S---H--P--QS--MIIG---LLKEMSAKFEEELPLFS    105
+24963832  104  HEW-----S---P--S--SS--DLLG---LIQIMIVTFSDQPPVYAR   133
+9292932   77   QNW-----S---H--P--QS--MIIG---LLKEMSAKFEEELPLFS    105
+8750866   115  HTW-----D---Y--P--KS--SVVG---LLKEMSVKFEEDPPLATK   144
+18349840  115  HNW-----D---H--P--KS--SVIQ---LLEEMISKFQEDPPLSS    143
+20963016  76   QNW-----S---H--P--KS--TIIG---LIKEMVAKFEEELPLYS    104
+10482353  102  HNW-----D---H--P--KS--SVVG---LLNEMVTKFQEDPPLSSK   131
+24795327  77   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  107
+873153    86   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    114
+22807952  77   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPMYS    105
+24754576  76   QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    104
+19733678  71   QNW-----S---H--P--KS--TVIG---LIKEMIAKFEEELPLYS    99
+5481094   95   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  125
+20664186  95   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  125
+11013380  93   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    121
+19876375  115  KDW-----K---K--G--EG--DLFS---LLQVMVAVFGEFPPLAMRP  145
+17045844  115  QNW-----D---Y--P--KS--SVVG---LLREMTAKFEEDPPLSSK   144
+10303190  76   QNW-----S---H--P--KS--TVIG---LIKEMVTKFEEELPLYS    104
+19010906  93   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPMYS    121
+22323700  93   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYS    121
+24577586  322  QHW-----K---H--P--NS--DLRG---LIQVMSVEFGKDCPIYS    350
+24577586  125  HEW-----N---Y--P--AF--TTAG---LLGVIIAAFSEKMPVYAR   154
+13923766  115  NEW-----R---F--P--GH--DLSG---LLQIMTMVFQEKCPVFAR   144
+12794580  116  TDW-----R---H--P--GY--DLIG---LLQVMALTFRESCPVFAKP  146
+12232669  114  SNW-----T---S--Q--TS--DLLG---VIQVMIILFGENPPLFMKP  144
+6859986   54   QNW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYSLP  84
+17449291  54   QSW-----S---H--P--KS--VIVG---LIKEMIAKFQEELPLYA    82
+13197649  114  TEW-----K---Y--P--GS--STQK---LLEILQGVFGARTPVFSKP  144
+6684212   118  SEW-----Q---Y--P--NY--DTAG---LLQVITISFQEKCPVYT    146
+2783284   42   HEW-----K---H--P--NS--DLIG---LIEVMRVVFGEVPPVLASP  72
+24484837  93   HNW-----D---Y--P--KS--TVVG---LLTEMISKFEEDPPLSSK   122
+16218845  115  SDW-----K---H--P--ES--DLVG---LLQVLQVTFGEKSPVFAK   144
+4442557   114  HEW-----K---F--S--SQ--DVFDLSTLLKTLCEVFSLQSPVFKR   146
+22554637  120  TEW-----R---Q-----DF--ILVE---LVAHMCSIFGNIPPVFRRP  149
+26324386  425  SDW-----R------P--DF--TMLE---LVAHMCSIFGNMPPVFRRP  454
+21019827  120  SDW-----R------P--DF--TMLE---LVAHMCSIFGNMPPVFRRP  149
+9055004   120  SDW-----R------P--DF--TMLE---LVAHMCSIFGNMPPVFRRP  149
+24551137  119  AYW-----S---NR-S--DS--NLVD---LISIMQGVFSQEPPVYAK   149
+26832280  119  AYWS----Q---R--S--DS--NLVD---LIGIMQGVFSQEPPVYAK   149
+1637565   120  AGW-----AEF-H--D--KS--NILD---FLAILRDVFAKEPPVVSR   151
+3288896   125  HHW-----STQPN--D--ES--NLIT---ICTIFQTIFGQNPPVYTKP  158
+15853836  132  QNW-----V---Y--P--SS--NLVD---LVSDLGAAFANDPPLYSR   161
+11476752  119  AYW-----S---NR-S--DS--NLVE---LIGIMQGVFSQEPPVYAK   149
+6883347   119  DVWS----R---K--P--EAC-NLID---LIHACREIFSQQPPVYAKP  151
+15377025  120  VGW-----A---EFWD--KS--NVLD---FLAILREIFAKEPPVIS    150
+2840577   120  VGW-----A---EF-D--RS--NILD---FLAILRDIFGREPPVISR   150
+11035479  136  HNW-----V---Y--P--SS--NLVE---LAKNLSAVFGQDPPLFSQ   165
+287947    132  QNW-----V---Y--P--SS--NLVD---LVSDLGAAFALDPPLYSR   161
+16286136  120  VGW-----A---EFWD--KS--NILD---FMAILREIFAKEPPVVSR   151
+6726896   147  HEW-----N---A--R--SH--NVTE---LCAAMSSVFGLDPPVYA    175
+8509650   119  AYW-----S---NK-S--DS--NLVE---LIGIMQKVFSLDPPVYSK   149
+22057262  119  VGW-----S---SFWD--KS--TVLD---FLAILRDVFAKEPPVVAK   150
+4169130   119  VGW-----A---QFWD--KS--NIRD---FMSVLSDVFAKEPPVVSR   150
+11917632  119  VGW-----A---QFWD--KS--NIHD---FMSVLSDIFAKEPPVVSR   150
+6752099   119  VRW-----A---EFWH--KS--NLQD---LLGIVTDIFAKEPPVISR   150
+8589768   139  QNW-----V---Y--P--SS--NLVD---LVRTLSLVFGRDPPLYSQ   168
+20769747  119  AAW-----P---EFWD--KS--SLLD---FLAILRDIFAKEPPVVSK   150
+16053922  119  VRW-----A---EFWD--KS--SLVD---FIAILRDIFAKEPPVVAR   150
+7112323   119  VGW-----T---EFWD--KS--SLLD---FITILRDIFAKEPPVVSR   150
+3216999   120  THW-----D---S--D--HS---LVE---LIGYQCSVFGTQPPVYKRP  149
+14425962  120  AHW-----R---E--AWERS--NIVD---FLSILSDVFAKEPPVVAR   151
+14870184  120  AHW-----R---EHWE--RS--NILD---FLSILSDIFAKEPPVMSR   151
+16882214  120  VGW-----A---EFWD--KS--NVLD---FLAILRDIFAKEPPVISR   151
+16433088  135  QNW-----V---Y--P--SS--NLVD---LVSELSAVFSCDPPLYAQ   164
+12359809  119  VGW-----A---EFWD--KS--SLLD---FIAILRDIFAKEPPVVSR   150
+13531222  131  VGW-----A---EYWD--KS--NIVD---FLAILRDVFANEPPVISR   162
+21170128  119  SNW-----K---I--G--WS--NLSI---VLEEMIAAFQRETPLFA    147
+21565296  119  VGW-----A---AFWD--KS--TILD---FLAILRDIFAKEPPVIAR   150
+21422717  119  AAW-----P---EFWD--KS--SLLD---FLAILRDIFAKEPPVISK   150
+1366051   126  AHW-----A---E--AWERS--TIAD---FLSILQDIFAKEPPVRYR   157
+25376195  119  VGW-----S---AFWD--KS--TILD---FLAILRDIFAKEPPVIARP  151
+25998349  119  VGW-----S---EFWD--KS--SIVD---FLAILRDVFAKEPPVIAR   150
+10970255  136  HAW-----V---Y--P--SS--NLLD---LAAQLSSAFSRDPPLYSQ   165
+13852318  126  AHW-----A---E--AWDRS--TIAD---LLSILRDIFAKEPPV      154
+26248100  134  SNW-----K---I--G--WS--NLSI---VLEEMIAAFQREPPLFA    162
+532270    117  HTWLR---K---P--E--AS--SLLE---LVRECQAAFSLEPPVMAK   148
+22198934  139  QNW-----I---Y--P--SS--NLVE---LVRNLSVMFGRDPPLYSQ   168
+1817615   135  QNW-----V---Y--P--SS--NLVD---LVRDLGVIFGRDPPLYSQ   164
+6799973   125  SGW-----E---SYFD--KS--NIAD---LCDVLKGVFGREPPVYAK   156
+13409458  117  DNW-----R---R--K--SEGCNLRS---LIEVMQDVFSREPPVYAKP  149
+9987979   119  AGW-----G---DFWD--KS--SLND---FLSVLSDVFAKEPPVISR   150
+16952619  119  AGW-----V---DFWD--KS--SLND---FLSVLSDVFAKEPPVISR   150
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 245418276845
+
+
+  Database: ./nr
+    Posted date:  Feb 17, 2021  1:46 PM
+  Number of letters in database: 9,881,117,767
+  Number of sequences in database:  27,325,400
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

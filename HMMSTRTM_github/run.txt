@@ -1,0 +1,72 @@
+ ATOM      1  N   MET A  20       3.119  -3.043   0.441  1.00  0.97           N
+ all done. atoms out=         668
+RUNNING BLAST .... 
+PARSING BLAST .... 
+python3 blaster.py -if '/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.blastp' -e parse
+wrote to ./tmp/1cisA.fa
+Making profile file... 
+/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/xmsa2profile '/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.fa' '/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.profile'
+Making drct file ....
+python3 makedrct.py -p '/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cis.pdb' -f '/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.profile' -c A
+ Output file is /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.drct
+ Sequence Length:         66
+ Last Record:         66
+ Total Size:        264 bytes. 
+drct3d.pl v.0.1 Yu Shao (shaoy@rpi.edu) Oct 2003
+**************************************************
+/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.drct (len = 66):
+--------------------------------------------------
+MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVR
+LAVDKLDNIAQVPRVG
+**************************************************
+/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cis.pdb (len = 66):
+--------------------------------------------------
+MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVR
+LAVDKLDNIAQVPRVG
+**************************************************
+Alignment size: 66, score: 66, mismatches: 0, gaps: 0
+--------------------------------------------------
+ DRCT:     1  MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVR      50
+                                                                
+  PDB:     1  MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVR      50
+
+ DRCT:    51  LAVDKLDNIAQVPRVG                                        66
+                              
+  PDB:    51  LAVDKLDNIAQVPRVG                                        66
+
+**************************************************
+done.
+ OPENING /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.drct                                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dssp reported sequence  = MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVRLAVDKLDNIAQVPRVG
+dssp SS sequence        = --SB-TTTTTSBHHHHHHHHHHHSTT-EEEEESSS---S--SS--TTEEEEEB-TTSBB-S--B--
+fasta reported sequence = MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVRLAVDKLDNIAQVPRVG
+aligned AA seq          = MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVRLAVDKLDNIAQVPRVG
+aligned dssp seq        = --SB-TTTTTSBHHHHHHHHHHHSTT-EEEEESSS---S--SS--TTEEEEEB-TTSBB-S--B--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PRINTING SEQUENCES
+AA = MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVRLAVDKLDNIAQVPRVG
+SS = --SB-TTTTTSBHHHHHHHHHHHSTT-EEEEESSS---S--SS--TTEEEEEB-TTSBB-S--B--
+TM = 111111111111111111111111111111111111111111111111111111111111111111
+./xmaster2drct MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVRLAVDKLDNIAQVPRVG --SB-TTTTTSBHHHHHHHHHHHSTT-EEEEESSS---S--SS--TTEEEEEB-TTSBB-S--B-- 111111111111111111111111111111111111111111111111111111111111111111 /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.profile 1cisA /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.drct
+./xrama2drct /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.drct /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA_1.drct
+Scratching HMMSTR ...
+/home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/xscratch ./HMMSTR/HMMSTR_100.hmm /home/tiburon/Warehouse/Summer2021/HMMSTRTM_github/tmp/1cisA.drct 1cis
+ GROUND TRUTH
+ MKTEWPELVGKSVEEAKKVILQDKPEAQIIVLEKQAVDNAYAEYRIDRVRLAVDKLDNIAQVPRVG
+ --SB-TTTTTSBHHHHHHHHHHHSTT-EEEEESSS---S--SS--TTEEEEEB-TTSBB-S--B--
+ ?EGEdHHHBlEBHHHHHHHHHHHdHHBbbEEeEBbbdHbBBBBBdGHBEEEbEBHGLEbHeBBEH?
+ 111111111111111111111111111111111111111111111111111111111111111111
+ VITERBI PREDICTIONS
+ MSDDAAEALLEELLELLEELLEAYPEVVVVVLSPELLEELLELLEELGVKVVVDLEELLELLEELG
+ ETSSHHHHHHHHHHHHHHHHHHHSTTEEEEESSHHHHHHHHHHHHHHTTEEEEEHHHHHHHHHHHT
+ BBEBHHHHHHHHHHHHHHHHHHHdHHEEEEEBBHHHHHHHHHHHHHHlBBEEEBHHHHHHHHHHHl
+ 111111111111111111111111111111111111111111111111111111111111111111
+ VITERBI MDA ACCURACY =   0.43939393758773804     
+ GAMMA VOTED
+ SPPGLPELLGALLEALLALLLALLPGLLVVLLPLGLLLLLLLALLLGLLLLLLDADGLLLLLPLLA
+ ESSSSTTEETSSHHHHHHHHHTTSTTTEEEEEETTTEEEEEEETTTTEEEEEEETTTTEEEEETTH
+ BBBBBBHHHxHHHHHHHHHHHHHEBHEEEEEEBBxBEEEEEEHEBBHEEEEEEBHHlBEEEEBEBH
+ 111111111111111111111111111111111111111111111111111111111111111111
+ .seq file = ./HMMSTR/HMMSTR_1001cis.seq
+ GAMMA VOTED MDA ACCURACY =   0.50000000000000000     

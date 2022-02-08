@@ -21,8 +21,8 @@ program hmm_run
             call getarg(3, code)
     endif
 
-    write(*,*) "SCRATCHING CODE :", code
-    write(*,*) "DRCT File = " , drctfile
+    !write(*,*) "SCRATCHING CODE :", code
+    !write(*,*) "DRCT File = " , drctfile
     call scratch_hmm(modelfile, drctfile, code)
 
 end program hmm_run

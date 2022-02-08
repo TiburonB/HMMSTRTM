@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+  <! Here is a comment, it will be ignored. End it with a  >
+  <TITLE>my server</TITLE>
+  <LINK REV=MADE HREF="mailto:bystrc@rpi.edu">
+</HEAD>
+<! ===== BODY starts the main content of the page ===== >
+<BODY bgcolor=white>
+  <! ---- start a HTML form ---- >
+  <FORM METHOD="GET" 
+        ACTION="server.cgi" 
+        ENCTYPE="multipart/form-data">
+  <center><hr size="2" width="90%"></center> <!--- a horizonal line ---->
+  <! ---- create CGI params using INPUT tags---- >
+  <! ---- In the CGI script, params are referenced by NAME ---- >
+  <! ---- If the user does not enter a value, the value is VALUE ---- >
+  <p>
+  Textbox entry:<br>
+  <! ---- The parameter "header" is a string, which must be one line. ---- >
+  <INPUT TYPE="text" 
+         NAME="header" 
+         VALUE="default text" 
+         SIZE=50>
+  <br>
+  Small text box:
+  <INPUT TYPE="text" 
+         NAME="code" 
+         VALUE="7dfr" 
+         SIZE=4>
+  <br>
+  Large text box: <br>
+  <! --- TEXTAREA creates a multi-line string parameter. --- >
+  <! --- TEXTAREA requires and end-tag \TEXTAREA         --- >
+  <TEXTAREA NAME="sequence" VALUE="" COLS=90 ROWS=12 >
+  Here is the default value of the textarea
+  It can be multiple
+  lines
+  of
+  text
+  </TEXTAREA>
+  <! --- Input type "file" allows CGI to read a client-side file --- >
+  <! --- A button will appear client-side "Browse"  --- >
+  <br>
+  Upload a file:
+  <INPUT TYPE="file" 
+         NAME="pdbfile" 
+         VALUE="junk.pdb" 
+         MAXLENGTH=1000 
+         SIZE=37>
+  <br>
+  <A HREF="explanation.html">link to explanatory material</A><br>
+  <! --- Input type "radio" allows pre-defined option input. 1 option only--- >
+  <p>Input type:<br>
+  <INPUT TYPE="radio" CHECKED NAME="InputFormat" VALUE="single_sequence">
+  Sequence in 1-letter code.
+  <INPUT TYPE="radio" NAME="InputFormat" VALUE="threeletter">
+  Sequence in 3-letter code.
+  <INPUT TYPE="radio" NAME="InputFormat" VALUE="pdb_input">
+  Sequence from PDB coordinates.<br>
+  <! --- "radio" buttons come in sets, defined by NAME         --- >
+  <p>Output type:<br>
+  <INPUT TYPE="radio"  NAME="OutputFormat" VALUE="text">
+  Text output
+  <INPUT TYPE="radio"  NAME="OutputFormat" VALUE="image">
+  Graphical output
+
+  <p>Check as many as you like:
+  <INPUT TYPE="checkbox" CHECKED NAME="checklist" VALUE="1">
+  1
+  <INPUT TYPE="checkbox" NAME="checklist" VALUE="2">
+  2
+  <INPUT TYPE="checkbox" NAME="checklist" VALUE="3">
+  3
+  <INPUT TYPE="checkbox" CHECKED NAME="checklist" VALUE="4">
+  4
+  <p>
+  <! --- "reset" and "submit" buttons must appear before closing tag /FORM  --- >
+  <INPUT TYPE="reset">
+  <INPUT TYPE="submit" NAME=".submit" VALUE="Submit">
+</FORM>
+
+<center><hr width="50%"></center>  <! --- horizontal line --->
+<font size=2><a href="downloads/myinstallpackages.html">Download source</A>
+<br><font size=2><a href="http://www.bioinfo.rpi.edu/bystrc/servers.html">back to calling page</A>
+<br><font size=2>Last updated:   <! in vi, type !!date on the next line >
+Wed Oct  3 11:54:50 EDT 2007
+</font>
+<!==== This is a useful link for debugging an HTML page. ====>
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer" >
+       <img 
+        src="http://www.w3.org/Icons/valid-html401"
+        alt="Valid HTML 4.01 Transitional" 
+        height="31" 
+        width="88" 
+        border="0">
+    </a>
+  </p>
+  
+
+</BODY>

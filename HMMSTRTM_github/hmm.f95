@@ -87,17 +87,17 @@ subroutine write_seq(HMMSTR, tgamma, nres, code, ground_truth_profiles, paradigm
 
    write(3, '(A4)') code
    write(szstr,'(I4)') nres
-   format_string = '(' // szstr // 'A)'
+   format_string = '(14A,' // szstr // 'A)'
    write(3,'(A12)') "GROUND TRUTH"
-   write(3,format_string,iostat=ios) ground_truth_profiles(1,:nres)
-   write(3,format_string,iostat=ios) ground_truth_profiles(2,:nres)
-   write(3,format_string,iostat=ios) ground_truth_profiles(3,:nres)
-   write(3,format_string,iostat=ios) ground_truth_profiles(4,:nres)
+   write(3,format_string,iostat=ios) 'AA SEQUENCE   ',ground_truth_profiles(1,:nres)
+   write(3,format_string,iostat=ios) 'SS SEQUENCE   ',ground_truth_profiles(2,:nres)
+   write(3,format_string,iostat=ios) 'RAMA SEQUENCE ',ground_truth_profiles(3,:nres)
+   write(3,format_string,iostat=ios) 'TM SEQUENCE   ',ground_truth_profiles(4,:nres)
    write(3,'(A16)') "VITERBI PARADIGM"
-   write(3,format_string,iostat=ios) paradigm(1,:)
-   write(3,format_string,iostat=ios) paradigm(2,:)
-   write(3,format_string,iostat=ios) paradigm(3,:)
-   write(3,format_string,iostat=ios) paradigm(4,:)
+   write(3,format_string,iostat=ios) 'AA SEQUENCE   ',paradigm(1,:)
+   write(3,format_string,iostat=ios) 'SS SEQUENCE   ',paradigm(2,:)
+   write(3,format_string,iostat=ios) 'RAMA SEQUENCE ',paradigm(3,:)
+   write(3,format_string,iostat=ios) 'TM SEQUENCE   ',paradigm(4,:)
    allocate(seq1(nres))
    allocate(ssseq1(nres))
    allocate(tmseq1(nres))
@@ -106,11 +106,16 @@ subroutine write_seq(HMMSTR, tgamma, nres, code, ground_truth_profiles, paradigm
    call gamma_voting(nres, HMMSTR, tgamma, seq1, ssseq1, ramaseq1, tmseq1)
 
    write(3,'(A11)') "GAMMA VOTED"
-   do titr=1, this_profile%nres-1
-      format_string = '(I4,4A4,I3,3F11.5)' 
-      write(3, format_string,iostat=ios) titr, seq1(titr), ssseq1(titr), ramaseq1(titr), tmseq1(titr), &
-              tmda(titr), this_profile%dihs(:,titr)
-   enddo
+   write(3,format_string,iostat=ios) 'AA SEQUENCE   ',seq1(:)
+   write(3,format_string,iostat=ios) 'SS SEQUENCE   ',ssseq1(:)
+   write(3,format_string,iostat=ios) 'RAMA SEQUENCE ',ramaseq1(:)
+   write(3,format_string,iostat=ios) 'TM SEQUENCE   ',tmseq1(:)
+   
+   !do titr=1, this_profile%nres-1
+   !   format_string = '(I4,4A4,I3,3F11.5)' 
+   !   write(3, format_string,iostat=ios) titr, seq1(titr), ssseq1(titr), ramaseq1(titr), tmseq1(titr), &
+   !           tmda(titr), this_profile%dihs(:,titr)
+   !enddo
    deallocate(seq1)
    deallocate(ssseq1)
    deallocate(ramaseq1)
@@ -418,11 +423,11 @@ subroutine run_hmm(HMMSTR, tgamma, zeta, zeta_dict, alg_flags, eval_flags)
            write(*,*) ssseq1(:)
            write(*,*) ramaseq1(:)
            write(*,*) tmseq1(:)
+          call write_seq(HMMSTR, tgamma, nres, this_profile%code, ground_truth_profiles, paradigm)
              paradigm(1,:) = seq1(:nres) ! change paradigm to fit gamma-voted profiles.
   paradigm(2,:) = ssseq1(:nres)
   paradigm(3,:) = ramaseq1(:nres)
   paradigm(4,:) = tmseq1(:nres)
-          call write_seq(HMMSTR, tgamma, nres, this_profile%code, ground_truth_profiles, paradigm)
           call get_mda(ground_truth_profiles, paradigm, mda_wa, nres, tmda)
           write(*,*) "GAMMA VOTED MDA ACCURACY = ", mda_wa(2)
    endif 
