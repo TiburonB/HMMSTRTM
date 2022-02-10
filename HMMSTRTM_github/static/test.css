@@ -7,3 +7,10 @@ h2 {
     margin-left: 20px;
     text-align: center;
 }
+div#loading {
+    width: 35px;
+    height: 35px;
+    display: none;
+    background: url(/static/loading-buffering.gif) no-repeat;
+    cursor: wait;
+    }

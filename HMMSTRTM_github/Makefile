@@ -36,7 +36,7 @@ help :
 bin32 :
 	make all
 
-all : xtrain xscratch xgetchain xinject xrenumber_one x3to1 xmsa2profile xmaster2drct xrama2drct clean  
+all : xtrain xscratch xgetchain xinject xrenumber_one x3to1 xmsa2profile xmaster2drct xrama2drct xreadgamma xprofile2drct clean  
 
 # TRAIN A VERSION OF HMMSTRTM:
 xtrain : hmm_io.f95 profile_io.f95 gamma_io.f95 hmm.f95 hmm_train.f95
@@ -60,8 +60,15 @@ xrenumber_one : renumber_one.f95
 xmaster2drct : master2drct.f95
 	$(FF) -o xmaster2drct master2drct.f95
 
+xprofile2drct : profile2drct.f95
+	$(FF) -o xprofile2drct profile2drct.f95
+
 xrama2drct : rama2drct.f95
 	$(FF) -o xrama2drct rama2drct.f95
+
+xreadgamma : gamma_read.f95 gamma_io.f95 profile_io.f95 hmm_io.f95
+	$(FF) -c -fdefault-double-8 profile_io.f95 hmm_io.f95 gamma_io.f95 gamma_read.f95 -fcheck=all
+	$(FF) -o xreadgamma profile_io.o hmm_io.o gamma_io.o gamma_read.o
 
 x3to1 : 3to1.f95
 	$(FF) -o x3to1 3to1.f95
@@ -83,3 +90,4 @@ xmsa2profile: msa2profile.f95
 clean:
 	rm *.mod
 	rm *.o
+	rm ./static/*.jpg

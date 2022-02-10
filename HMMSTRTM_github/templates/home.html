@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <div id="loading"></div>
+    <title> HMMSTR SERVER  </title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/test.css">
+    </head>
+    <body>
+        <h3> RUN PDB </h3>
+        <p>
+            <form enctype="multipart/form-data"action="/run_pdb" method="post">
+	      <br>
+		  Upload a file:
+		 <input type=file name=pdbfile>
+                 chain: <input type="text" name="chain" /><br />
+              <br>
+	      <p> Check this to run BLAST
+                <INPUT TYPE="checkbox" NAME="RUN_BLAST" VALUE="0"> </p>
+                <input type=submit value=Upload onclick="loading();"/>
+            </form>
+        </p>
+    </body>
+    <body>
+	    <hr></hr>		    
+       <h3> Inject </h3>
+        <p>
+            Inject a sequence into HMMSTR:<br>
+            <form action="/inject" method="post">
+		    sequence: <br> 
+          <TEXTAREA NAME="sequence" VALUE="" COLS=90 ROWS=12 ></TEXTAREA> <br />
+                code: <input type="text" name="code" /><br />
+                chain: <input type="text" name="chain" /><br />
+		<p> Check this to run BLAST 
+		<INPUT TYPE="checkbox" NAME="RUN_BLAST" VALUE="0"> </p>
+		<input type="submit" name= "form" value="Submit" onclick="loading();" />
+            </form>
+        </p>
+    </body> 
+ <a href="/shutdown">Close Server</a>
+
+<script type="text/javascript">// <![CDATA[
+        function loading(){
+            $("#loading").show();
+            $("#content").hide();       
+        }
+// ]]></script>
+
+</html>
+

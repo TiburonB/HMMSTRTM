@@ -1,0 +1,2349 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./nr
+           27,325,400 sequences; 9,881,117,767 total letters
+
+
+
+Query= 5yox:A
+
+Length=215
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AJR76518.1 hypothetical protein H748_YJM193G00153 [Saccharomyces ...  446     2e-159
+EGA58764.1 YGL101W-like protein [Saccharomyces cerevisiae FostersB]   444     1e-158
+ONH72608.1 hypothetical protein BON23_4773 [Saccharomyces cerevis...  448     5e-158
+AJP88320.1 hypothetical protein H829_YJM1479B00351 [Saccharomyces...  300     3e-101
+CUS21312.1 LAQU0S02e10836g1_1 [Lachancea quebecensis]                 296     5e-100
+AJP87199.1 hypothetical protein H826_YJM1463B00351 [Saccharomyces...  295     2e-99 
+SCU77897.1 LADA_0A02762g1_1 [Lachancea dasiensis]                     292     2e-98 
+BAP70397.1 HD domain-containing protein YBR242W [Kluyveromyces ma...  292     8e-98 
+XP_017988305.1 HER030Wp [Eremothecium sinecaudum] AMD21309.1 HER0...  273     5e-91 
+CDF88917.1 ZYBA0S03-04918g1_1 [Zygosaccharomyces bailii CLIB 213]...  269     1e-89 
+XP_003955013.1 hypothetical protein KAFR_0A04430 [Kazachstania af...  228     2e-73 
+EWG92569.1 hypothetical protein P301_B12501 [Saccharomyces cerevi...  217     7e-70 
+SGZ47777.1 CIC11C00000002586 [[Candida] intermedia]                   210     3e-66 
+XP_020064539.1 uncharacterized protein CANTADRAFT_52065 [Suhomyce...  205     6e-64 
+GBL49762.1 hypothetical protein CAJCM15448_20360 [[Candida] auris]    191     1e-58 
+KAF0267751.1 hypothetical protein FOG48_03248 [Hanseniaspora uvar...  189     4e-58 
+XP_018713810.1 hypothetical protein METBIDRAFT_29829 [Metschnikow...  189     5e-58 
+ODV96153.1 hypothetical protein PACTADRAFT_41023 [Pachysolen tann...  188     6e-57 
+KAF3175857.1 hypothetical protein TWF788_008327 [Arthrobotrys oli...  182     2e-55 
+EPS35959.1 hypothetical protein H072_10597 [Dactylellina haptotyl...  181     2e-54 
+KAF3921127.1 hypothetical protein ABW21_db0200728 [Drechslerella ...  179     4e-54 
+XP_013934184.1 HD domain-containing protein [Ogataea parapolymorp...  177     4e-53 
+XP_038778081.1 uncharacterized protein FOA43_001846 [Brettanomyce...  177     6e-53 
+KAF3938915.1 hypothetical protein ABW19_dt0200494 [Dactylella cyl...  176     9e-53 
+XP_019432423.1 PREDICTED: HD domain-containing protein 2-like [Lu...  162     5e-47 
+THY96015.1 hypothetical protein D6C95_05264 [Aureobasidium pullul...  162     7e-47 
+CDH54416.1 protein [Lichtheimia corymbifera JMRC:FSU:9682]            159     1e-46 
+KDR67713.1 hypothetical protein GALMADRAFT_273060 [Galerina margi...  160     2e-46 
+KAF1843580.1 hypothetical protein K460DRAFT_407925 [Cucurbitaria ...  160     3e-46 
+OJD28274.1 hypothetical protein ACJ73_00326 [Blastomyces percursus]   159     6e-46 
+XP_023897668.1 HD domain-containing protein C4G3.17-like [Quercus...  160     7e-46 
+KEQ61738.1 hypothetical protein M437DRAFT_76402 [Aureobasidium me...  160     8e-46 
+KAF1361136.1 HD domain-containing protein [Lizonia empirigonia]       157     4e-45 
+XP_033656172.1 uncharacterized protein EI97DRAFT_430902 [Westerdy...  157     6e-45 
+RFN50542.1 hydrolase-hd superfamily protein [Fusarium flagelliforme]  157     7e-45 
+KAF8159907.1 HD domain-containing protein [Crassisporium funariop...  154     2e-44 
+TFK86985.1 HD domain-containing protein [Polyporus arcularius HHB...  154     2e-44 
+KAF9694034.1 hypothetical protein EKO04_007873 [Ascochyta lentis]     155     4e-44 
+KAG2199187.1 hypothetical protein INT46_011634 [Mucor plumbeus]       153     5e-44 
+EPB81421.1 hydrolase-HD superfamily protein [Mucor circinelloides...  152     5e-44 
+KAG1057059.1 hypothetical protein G6F43_001083 [Rhizopus delemar]...  152     9e-44 
+KFZ00890.1 hypothetical protein V501_10372 [Pseudogymnoascus sp. ...  153     2e-43 
+PGG97489.1 hypothetical protein GX51_07301 [Blastomyces parvus]       152     3e-43 
+KAF9068270.1 HD domain-containing protein [Rhodocollybia butyracea]   152     3e-43 
+OCK73967.1 hypothetical protein K432DRAFT_430289 [Lepidopterella ...  152     4e-43 
+XP_001275457.1 HD family hydrolase, putative [Aspergillus clavatu...  152     4e-43 
+KFY22909.1 hypothetical protein V493_06234 [Pseudogymnoascus sp. ...  152     5e-43 
+KLO84030.1 HD family hydrolase [Fusarium fujikuroi]                   152     6e-43 
+ROW15317.1 hypothetical protein VPNG_03069 [Cytospora leucostoma]     152     9e-43 
+XP_027916458.1 HD domain-containing protein 2 isoform X1 [Vigna u...  151     9e-43 
+KFA61990.1 hypothetical protein S40285_07915 [Stachybotrys chloro...  152     1e-42 
+XP_037170172.1 uncharacterized protein HO173_000716 [Letharia col...  151     1e-42 
+RMY90811.1 hypothetical protein D0862_09880 [Hortaea werneckii]       152     2e-42 
+KAA1468957.1 HD domain-containing protein [Dentipellis sp. KUC8613]   149     3e-42 
+RWR75393.1 HD domain-containing protein 2-like protein [Cinnamomu...  149     3e-42 
+KAG0076719.1 HD domain-containing protein 2 [Linnemannia elongata]    151     4e-42 
+KKF93744.1 HD domain-containing protein C4G3.17 [Ceratocystis pla...  149     4e-42 
+TDZ47393.1 HD domain-containing protein [Colletotrichum trifolii]     150     4e-42 
+PTB76915.1 hypothetical protein M440DRAFT_1355184 [Trichoderma lo...  150     4e-42 
+KAF5986515.1 HD family hydrolase [Fusarium bulbicola]                 149     4e-42 
+EMT70035.1 HD domain-containing protein C4G3.17 [Fusarium odorati...  150     5e-42 
+XP_037211888.1 hydrolase-HD superfamily [Fusarium tjaetaba] KAF56...  150     5e-42 
+KAF8948181.1 HD domain-containing protein 2 [Haplosporangium grac...  151     6e-42 
+TWU77313.1 hypothetical protein ED733_004964 [Metarhizium rileyi]     150     6e-42 
+XP_021756844.1 HD domain-containing protein 2-like [Chenopodium q...  149     6e-42 
+KAF4994967.1 hypothetical protein FGRMN_5458 [Fusarium graminum]      149     7e-42 
+XP_031908020.1 HD domain-containing protein [Aspergillus pseudota...  148     9e-42 
+RSL75813.1 hypothetical protein CEP51_010545 [Fusarium floridanum]    149     9e-42 
+RXW15351.1 hypothetical protein EST38_g10503 [Psathyrella aberdar...  157     1e-41 
+KAF4984277.1 hypothetical protein FZEAL_489 [Fusarium zealandicum]    148     1e-41 
+KAF5137119.1 HD domain-containing protein [Metarhizium anisopliae]    149     2e-41 
+PYI08236.1 hypothetical protein BO78DRAFT_339838 [Aspergillus scl...  147     2e-41 
+XP_025556836.1 hypothetical protein BO97DRAFT_381250 [Aspergillus...  147     2e-41 
+XP_009626145.1 HD domain-containing protein 2 homolog [Nicotiana ...  148     2e-41 
+KKO97865.1 hydrolase-HD superfamily protein [Trichoderma harzianum]   148     3e-41 
+XP_016554751.1 PREDICTED: HD domain-containing protein 2 isoform ...  147     3e-41 
+KAF7850903.1 hypothetical protein BT93_L4880 [Corymbia citriodora...  148     3e-41 
+KKY35888.1 putative hd family [Diaporthe ampelina]                    148     4e-41 
+CRL21659.1 Metal-dependent phosphohydrolase, HD domain [Penicilli...  146     4e-41 
+XP_025460888.1 hypothetical protein BO96DRAFT_452578 [Aspergillus...  146     5e-41 
+XP_020409635.1 HD domain-containing protein 2 isoform X2 [Prunus ...  147     6e-41 
+XP_023895709.1 HD domain-containing protein 2 isoform X1 [Quercus...  146     1e-40 
+PCH44457.1 hypothetical protein WOLCODRAFT_139023 [Wolfiporia coc...  145     2e-40 
+EMR66225.1 putative hd domain-containing protein [Eutypa lata UCR...  145     3e-40 
+GAP82805.1 putative hd domain-containing protein [Rosellinia neca...  145     3e-40 
+KPI94979.1 HD domain-containing protein 2 [Papilio xuthus] BAM198...  143     3e-40 
+OAR03001.1 hypothetical protein LLEC1_06637 [Akanthomyces lecanii]    145     4e-40 
+KIK81526.1 hypothetical protein PAXRUDRAFT_155946 [Paxillus rubic...  144     4e-40 
+XP_003015964.1 hypothetical protein ARB_06276 [Trichophyton benha...  143     6e-40 
+KAG0050647.1 HD domain-containing protein 2 [Gryganskiella cystoj...  146     6e-40 
+XP_010681364.1 PREDICTED: HD domain-containing protein 2 homolog ...  144     6e-40 
+GAW10193.1 HD domain-containing protein [Lentinula edodes]            143     6e-40 
+PBP24117.1 HD domain-containing protein [Diplocarpon rosae]           144     9e-40 
+KAF4968955.1 hypothetical protein FSARC_3719 [Fusarium sarcochroum]   145     9e-40 
+XP_013657110.1 HD domain-containing protein 2 homolog [Brassica n...  144     1e-39 
+OCH96353.1 HD domain-containing protein [Obba rivulosa]               143     1e-39 
+GBN37542.1 HD domain-containing protein 2 [Araneus ventricosus]       143     1e-39 
+OAL69099.1 hypothetical protein A7D00_6858 [Trichophyton violaceum]   142     1e-39 
+PIA37034.1 hypothetical protein AQUCO_03100053v1 [Aquilegia coeru...  142     2e-39 
+ORY64793.1 HD domain-domain-containing protein, partial [Pseudoma...  142     2e-39 
+RYP39589.1 hypothetical protein DL767_002137 [Monosporascus sp. M...  144     2e-39 
+NWY83086.1 HDDC2 protein [Rhegmatorhina hoffmannsi]                   140     3e-39 
+KAG2110576.1 HD domain-containing protein [Suillus discolor]          141     3e-39 
+XP_004083777.1 HD domain-containing protein 2 [Oryzias latipes]       141     3e-39 
+KKA30778.1 hypothetical protein TD95_004407 [Thielaviopsis punctu...  144     3e-39 
+KAF9326202.1 HD domain-containing protein 2 [Podila minutissima]      144     3e-39 
+XP_010477889.1 PREDICTED: HD domain-containing protein 2 homolog ...  142     5e-39 
+XP_015669653.1 HD domain-containing protein 2 [Protobothrops mucr...  140     5e-39 
+XP_035346639.1 uncharacterized protein TRUGW13939_07607 [Talaromy...  141     5e-39 
+XP_009219467.1 HD family hydrolase [Gaeumannomyces tritici R3-111...  143     5e-39 
+XP_020683421.1 HD domain-containing protein 2 homolog [Dendrobium...  142     6e-39 
+CAA7036330.1 unnamed protein product [Microthlaspi erraticum]         142     6e-39 
+RLN59808.1 hypothetical protein BBP00_00006299 [Phytophthora kern...  140     7e-39 
+XP_030054347.1 HD domain-containing protein 2 [Microcaecilia unic...  140     7e-39 
+XP_025960840.1 HD domain-containing protein 2 isoform X2 [Dromaiu...  139     7e-39 
+XP_022153358.1 HD domain-containing protein 2 [Momordica charantia]   140     7e-39 
+KAF1663118.1 HD domain-containing protein 2, partial [Aptenodytes...  139     9e-39 
+RVE56130.1 hypothetical protein OJAV_G00233080 [Oryzias javanicus]    140     9e-39 
+XP_034436825.1 HD domain-containing protein 2 [Hippoglossus hippo...  140     1e-38 
+QDZ18749.1 HD domain-containing protein [Chloropicon primus]          139     1e-38 
+POS80298.1 hydrolase-HD superfamily protein [Diaporthe helianthi]     142     1e-38 
+XP_005850838.1 hypothetical protein CHLNCDRAFT_140428 [Chlorella ...  139     1e-38 
+KAF5362511.1 hypothetical protein D9756_002677 [Leucoagaricus leu...  140     1e-38 
+NWZ62486.1 HDDC2 protein [Acrocephalus arundinaceus]                  139     1e-38 
+XP_030985766.1 uncharacterized protein PgNI_03553 [Pyricularia gr...  141     1e-38 
+XP_022734900.1 HD domain-containing protein 2 isoform X3 [Durio z...  141     2e-38 
+OMJ25454.1 HD domain-containing protein 2 [Smittium culicis]          138     2e-38 
+NXM24443.1 HDDC2 protein [Oxyruncus cristatus]                        139     2e-38 
+OMO83063.1 hypothetical protein CCACVL1_11587 [Corchorus capsularis]  140     2e-38 
+RKP25495.1 HD domain-containing protein [Syncephalis pseudoplumig...  138     3e-38 
+TVY86101.1 HD domain-containing protein [Lachnellula willkommii]      139     3e-38 
+XP_028057769.1 HD domain-containing protein C4G3.17-like [Camelli...  140     3e-38 
+XP_010265347.1 PREDICTED: HD domain-containing protein 2-like [Ne...  140     3e-38 
+KAF0739874.1 hypothetical protein Ae201684_004575 [Aphanomyces eu...  138     3e-38 
+CAD5319330.1 unnamed protein product [Arabidopsis thaliana]           139     3e-38 
+XP_022731015.1 HD domain-containing protein 2-like [Durio zibethi...  140     3e-38 
+NWU80993.1 HDDC2 protein [Onychorhynchus coronatus]                   138     4e-38 
+XP_030510223.1 HD domain-containing protein 2 [Cannabis sativa] K...  139     4e-38 
+VAI44528.1 unnamed protein product [Triticum turgidum subsp. durum]   138     5e-38 
+XP_037304732.1 HD domain-containing protein 2 [Pungitius pungitius]   137     6e-38 
+XP_017264664.1 HD domain-containing protein 2 [Kryptolebias marmo...  138     7e-38 
+KQK81411.1 HD domain-containing protein 2 [Amazona aestiva]           137     8e-38 
+XP_009609686.1 HD domain-containing protein 2 [Nicotiana tomentos...  139     8e-38 
+EPS64938.1 hypothetical protein M569_09841, partial [Genlisea aurea]  137     9e-38 
+XP_034316637.1 5'-deoxynucleotidase HDDC2 [Crassostrea gigas]         136     1e-37 
+KAF9511401.1 hypothetical protein BS47DRAFT_1185728 [Hydnum rufes...  137     1e-37 
+XP_029985177.1 HD domain-containing protein 2 [Sphaeramia orbicul...  137     1e-37 
+NWZ04954.1 HDDC2 protein [Agelaius phoeniceus] NXV65784.1 HDDC2 p...  136     1e-37 
+TYH76693.1 hypothetical protein ES332_D04G104000v1 [Gossypium tom...  138     1e-37 
+XP_010560814.1 PREDICTED: HD domain-containing protein 2 [Haliaee...  136     2e-37 
+KAF8045126.1 hypothetical protein N665_5566s0002 [Sinapis alba]       138     2e-37 
+KAA8532785.1 hypothetical protein F0562_032818 [Nyssa sinensis]       140     2e-37 
+TIA73616.1 hypothetical protein E3P91_01418 [Wallemia ichthyophag...  136     3e-37 
+XP_006348596.1 PREDICTED: HD domain-containing protein 2 [Solanum...  137     3e-37 
+NXQ34700.1 HDDC2 protein [Alaudala cheleensis]                        135     3e-37 
+XP_029742631.1 hypothetical protein EX895_000644 [Sporisorium gra...  145     4e-37 
+KAF7715997.1 HD domain-containing protein [Penicillium sp. S1M29]...  135     5e-37 
+XP_014537362.1 HD family hydrolase, putative [Penicillium digitat...  135     6e-37 
+XP_003060998.1 predicted protein [Micromonas pusilla CCMP1545] EE...  134     6e-37 
+OXB63103.1 hypothetical protein ASZ78_008676 [Callipepla squamata]    135     6e-37 
+OOQ86024.1 HD domain-containing protein [Penicillium brasilianum]     135     6e-37 
+KAF2636843.1 HD domain-containing protein [Massarina eburnea CBS ...  135     6e-37 
+XP_023216406.1 HD domain-containing protein 2-like [Centruroides ...  134     7e-37 
+NWV96906.1 HDDC2 protein [Machaerirhynchus nigripectus]               133     1e-36 
+XP_021300405.1 LOW QUALITY PROTEIN: HD domain-containing protein ...  136     1e-36 
+NWY60936.1 HDDC2 protein [Chionis minor]                              133     1e-36 
+XP_015074789.1 HD domain-containing protein 2 [Solanum pennellii]...  135     2e-36 
+CEL61882.1 HD domain-containing protein 2 OS=Danio rerio GN=hddc2...  133     2e-36 
+KAE8791435.1 HD domain-containing protein 2-like [Hordeum vulgare]    134     2e-36 
+KAF1465499.1 HD domain-containing protein 2, partial [Pygoscelis ...  132     3e-36 
+CDQ57465.1 unnamed protein product [Oncorhynchus mykiss]              133     3e-36 
+KAF1445594.1 HD domain-containing protein 2, partial [Spheniscus ...  132     4e-36 
+NWT09213.1 HDDC2 protein [Vireo altiloquus]                           132     4e-36 
+NXV44211.1 HDDC2 protein [Uria aalge]                                 132     5e-36 
+KDO70158.1 hypothetical protein CISIN_1g043096mg [Citrus sinensis]    134     5e-36 
+XP_021976607.1 5'-deoxynucleotidase HDDC2 [Helianthus annuus] KAF...  134     8e-36 
+XP_014659552.1 hD domain-containing protein [Moesziomyces antarct...  141     8e-36 
+NWI86953.1 HDDC2 protein [Pitta sordida]                              131     9e-36 
+NXM00832.1 HDDC2 protein [Tyrannus savana]                            131     1e-35 
+NXR34199.1 HDDC2 protein [Zosterops hypoxanthus]                      131     1e-35 
+VDD13391.1 unnamed protein product [Brassica rapa]                    133     1e-35 
+NXT07779.1 HDDC2 protein [Prunella fulvescens]                        131     1e-35 
+NWZ98945.1 HDDC2 protein [Nesospiza acunhae] NXQ66094.1 HDDC2 pro...  130     2e-35 
+XP_021402814.1 HD domain-containing protein 2 isoform X1 [Lonchur...  131     4e-35 
+RDW91046.1 hypothetical protein BP5796_02211 [Coleophoma craterif...  132     5e-35 
+XP_001568512.1 conserved hypothetical protein [Leishmania brazili...  130     5e-35 
+EEF27927.1 catalytic, putative [Ricinus communis]                     130     8e-35 
+XP_037867018.1 5'-deoxynucleotidase HDDC2 isoform X2 [Bombyx mori]    129     1e-34 
+KFO05714.1 HD domain-containing protein 2, partial [Balearica reg...  128     1e-34 
+XP_025368351.1 hypothetical protein IE81DRAFT_315509 [Ceraceosoru...  138     1e-34 
+KAF8284477.1 metal dependent 5-nucleotidase [Trypanosoma cruzi] P...  128     1e-34 
+NWU01305.1 HDDC2 protein [Urocynchramus pylzowi]                      128     2e-34 
+KAE8726279.1 Metal-dependent phosphohydrolase isoform 2 [Hibiscus...  130     2e-34 
+KAF3974628.1 hypothetical protein CMV_002059 [Castanea mollissima]    130     2e-34 
+XP_019008905.1 hypothetical protein I206_06592 [Kwoniella pini CB...  130     4e-34 
+RZC74748.1 hypothetical protein C5167_050228 [Papaver somniferum]     129     5e-34 
+RKF56362.1 HD domain-containing protein C4G3.17 [Golovinomyces ci...  129     1e-33 
+XP_038925882.1 uncharacterized protein LCP9604111_8103 [Penicilli...  126     2e-33 
+XP_033795491.1 HD domain-containing protein 2 isoform X1 [Geotryp...  127     2e-33 
+OQE04696.1 hypothetical protein PENVUL_c030G02929 [Penicillium vu...  126     2e-33 
+RKF78937.1 HD domain-containing protein C4G3.17 [Golovinomyces ci...  128     4e-33 
+VDN96917.1 unnamed protein product [Rodentolepis nana]                125     4e-33 
+XP_019031804.1 hypothetical protein L198_04273 [Cryptococcus wing...  127     5e-33 
+KAF4678970.1 HD domain-containing protein 2 [Perkinsus olseni]        127     7e-33 
+KPM43148.1 hypothetical protein AK830_g3375 [Neonectria ditissima]    125     1e-32 
+XP_024068684.2 LOW QUALITY PROTEIN: HD domain-containing protein ...  124     1e-32 
+XP_037578654.1 5'-deoxynucleotidase HDDC2-like [Dermacentor silva...  123     2e-32 
+XP_018918382.1 PREDICTED: HD domain-containing protein 2-like [Cy...  123     2e-32 
+OJD26706.1 hypothetical protein ACJ73_01914 [Blastomyces percursus]   127     2e-32 
+XP_014612278.1 PREDICTED: HD domain-containing protein 2 [Poliste...  122     3e-32 
+EGU76134.1 hypothetical protein FOXB_13380 [Fusarium oxysporum Fo...  122     7e-32 
+CCC93039.1 conserved hypothetical protein [Trypanosoma congolense...  120     2e-31 
+XP_006462190.1 hypothetical protein AGABI2DRAFT_206438 [Agaricus ...  121     2e-31 
+XP_018265905.1 hypothetical protein I303_02282 [Kwoniella dejecti...  122     3e-31 
+KAF6114080.1 HD domain containing 2 [Phyllostomus discolor]           120     3e-31 
+XP_028579165.1 HD domain-containing protein 2 isoform X4 [Podarci...  119     4e-31 
+CEO95162.1 hypothetical protein PBRA_003928 [Plasmodiophora brass...  120     4e-31 
+XP_028579161.1 HD domain-containing protein 2 isoform X1 [Podarci...  120     4e-31 
+XP_011163412.1 HD domain-containing protein 2 [Solenopsis invicta]    119     5e-31 
+KRZ52982.1 HD domain-containing protein 2 [Trichinella nativa]        120     5e-31 
+XP_012059810.1 PREDICTED: HD domain-containing protein 2 [Atta ce...  119     5e-31 
+XP_002057852.1 uncharacterized protein LOC6633988 [Drosophila vir...  124     8e-31 
+XP_030561458.1 uncharacterized protein LOC115763150 [Drosophila n...  124     9e-31 
+XP_026843874.1 HD domain-containing protein 2-like [Drosophila pe...  119     9e-31 
+XP_014472070.1 PREDICTED: HD domain-containing protein 2 [Dinopon...  118     2e-30 
+XP_003397851.1 HD domain-containing protein 2 isoform X1 [Bombus ...  118     2e-30 
+ALC39015.1 CG11050 [Drosophila busckii] ALC39535.1 CG11050 [Droso...  123     2e-30 
+KHN30290.1 HD domain-containing protein 2 [Glycine soja]              116     2e-30 
+KIH88255.1 hydrolase of HD superfamily [Sporothrix brasiliensis 5...  119     3e-30 
+EGI68167.1 HD domain-containing protein 2 [Acromyrmex echinatior]     120     4e-30 
+KAF8449344.1 HD domain-containing protein [Boletus edulis BED1]       117     5e-30 
+RYR56448.1 hypothetical protein Ahy_A05g022154 isoform B [Arachis...  116     2e-29 
+RYR08793.1 hypothetical protein Ahy_B05g076620 isoform B [Arachis...  116     2e-29 
+XP_011252351.1 HD domain-containing protein 2 [Camponotus florida...  115     3e-29 
+XP_002002515.1 uncharacterized protein LOC6576526 [Drosophila moj...  120     4e-29 
+XP_020999096.1 HD domain-containing protein 2 isoform X2 [Arachis...  116     4e-29 
+XP_016945270.1 uncharacterized protein LOC108021193 isoform X1 [D...  119     4e-29 
+XP_033167969.1 HD domain-containing protein 2 [Drosophila mauriti...  119     4e-29 
+XP_016964166.1 PREDICTED: uncharacterized protein LOC108033968 [D...  119     4e-29 
+XP_009157539.1 cytidylate kinase [Exophiala dermatitidis NIH/UT86...  118     9e-29 
+XP_026693844.1 HD domain-containing protein 2-like isoform X2 [Ci...  113     1e-28 
+EEC71163.1 hypothetical protein OsI_03023 [Oryza sativa Indica Gr...  117     1e-28 
+EEE55066.1 hypothetical protein OsJ_02782 [Oryza sativa Japonica ...  117     2e-28 
+KAG2468761.1 HDDC2 protein, partial [Polypterus senegalus]            112     4e-28 
+CEQ38957.1 SPOSA6832_00456 [Sporidiobolus salmonicolor]               113     5e-28 
+XP_015783947.1 HD domain-containing protein 2 [Tetranychus urtica...  113     5e-28 
+XP_006567478.1 HD domain-containing protein 2 isoform X2 [Apis me...  111     6e-28 
+XP_014676665.1 PREDICTED: HD domain-containing protein 2-like [Pr...  110     1e-27 
+TXT13371.1 hypothetical protein VHUM_00738 [Vanrija humicola]         113     1e-27 
+KAF3329626.1 HD domain-containing protein 2 [Carex littledalei]       112     1e-27 
+XP_013154229.1 HD domain-containing protein 2 [Falco peregrinus] ...  108     3e-27 
+KAA3464071.1 HD domain-containing protein 2-like [Gossypium austr...  110     4e-27 
+XP_011331615.1 HD domain-containing protein 2 [Ooceraea biroi] EZ...  109     5e-27 
+XP_009356558.1 PREDICTED: HD domain-containing protein 2-like [Py...  108     1e-26 
+KAA0039664.1 HD domain-containing protein C4G3.17 [Cucumis melo v...  107     1e-26 
+XP_023341986.1 uncharacterized protein LOC111711782 [Eurytemora a...  114     3e-26 
+SCZ90603.1 BZ3500_MvSof-1268-A1-R1_Chr1-3g02093 [Microbotryum sap...  110     3e-26 
+ODO00917.1 hypothetical protein L204_01641 [Cryptococcus depauper...  108     3e-26 
+XP_029409317.1 uncharacterized protein LOC105233395 isoform X1 [B...  112     4e-26 
+RGP68079.1 hd family hydrolase [Fusarium sporotrichioides]            105     5e-26 
+MQM01066.1 hypothetical protein [Colocasia esculenta]                 109     5e-26 
+VFV36276.1 hd domain-containing protein 2-like [Lynx pardinus]        107     6e-26 
+CAD5148110.1 unnamed protein product [Bursaphelenchus xylophilus]     111     9e-26 
+EPZ33402.1 HD domain-containing protein [Rozella allomycis CSF55]...  106     9e-26 
+CAD6996650.1 unnamed protein product [Ceratitis capitata]             111     1e-25 
+XP_036232479.1 uncharacterized protein LOC106625883 [Bactrocera o...  111     1e-25 
+XP_004530925.1 uncharacterized protein LOC101457275 isoform X1 [C...  111     2e-25 
+XP_306780.4 AGAP012582-PA [Anopheles gambiae str. PEST] EAA02016....  105     2e-25 
+KOX73540.1 HD domain-containing protein 2 [Melipona quadrifasciata]   105     2e-25 
+XP_019057534.1 PREDICTED: HD domain-containing protein 2, partial...  103     2e-25 
+PAV91767.1 hypothetical protein WR25_24316 [Diploscapter pachys]      105     2e-25 
+XP_007650653.1 5'-deoxynucleotidase HDDC2 isoform X1 [Cricetulus ...  104     5e-25 
+KAF5261770.1 hypothetical protein FOXYS1_7526 [Fusarium oxysporum]    103     5e-25 
+WP_043399288.1 HD domain-containing protein [Archangium violaceum...  103     8e-25 
+OGY11169.1 hypothetical protein A3D26_04730 [Candidatus Blackburn...  103     8e-25 
+KAF5809647.1 putative HD/PDEase domain, metal-dependent nucleosid...  102     1e-24 
+KAD2393497.1 hypothetical protein E3N88_40474 [Mikania micrantha]     102     2e-24 
+WP_108065873.1 HD domain-containing protein [Vitiosangium sp. GDM...  103     2e-24 
+PIL96929.1 HD domain protein [Toxoplasma gondii COUG]                 105     3e-24 
+MBI2583572.1 HD domain-containing protein [Candidatus Aenigmarcha...  101     3e-24 
+KYF47447.1 HD domain protein [Toxoplasma gondii ARI]                  104     3e-24 
+XP_016016834.1 5'-deoxynucleotidase HDDC2 [Rousettus aegyptiacus]...  101     8e-24 
+GAX11443.1 putative hydrolases of HD superfamily [Fistulifera sol...  102     1e-23 
+XP_011887048.1 PREDICTED: HD domain-containing protein 2 [Cercoce...  100     1e-23 
+NP_001068869.1 5'-deoxynucleotidase HDDC2 [Bos taurus] XP_0198226...  100     2e-23 
+KAF0852344.1 conserved mitochondrial HD domain-containing protein...  100     2e-23 
+TAQ88848.1 hypothetical protein B7494_g2833 [Chlorociboria aerugi...  99.8    2e-23 
+XP_031236583.1 HD domain-containing protein 2 isoform X1 [Mastomy...  99.8    3e-23 
+XP_032014150.1 HD domain-containing protein 2 isoform X2 [Hylobat...  99.4    5e-23 
+CDJ51924.1 HD domain-containing protein, putative [Eimeria brunetti]  98.2    6e-23 
+XP_036173942.1 5'-deoxynucleotidase HDDC2 isoform X2 [Myotis myotis]  99.0    7e-23 
+XP_030665495.1 HD domain-containing protein 2 isoform X3 [Nomascu...  98.2    1e-22 
+KAF4958654.1 hypothetical protein FSARC_10968 [Fusarium sarcochroum]  101     2e-22 
+XP_027752899.1 HD domain-containing protein 2 isoform X2 [Empidon...  96.7    3e-22 
+HHG32603.1 HD domain-containing protein [Candidatus Bathyarchaeot...  96.3    4e-22 
+HHL41098.1 HD domain-containing protein [Candidatus Bathyarchaeot...  95.9    5e-22 
+KAF9625799.1 hypothetical protein IFM89_027131 [Coptis chinensis]     95.9    4e-21 
+VAH62105.1 unnamed protein product [Triticum turgidum subsp. durum]   93.6    5e-21 
+QQG39521.1 HD domain-containing protein [Candidatus Aenigmarchaeo...  93.6    7e-21 
+KAG0137305.1 hypothetical protein IHE44_000152 [Lamprotornis supe...  95.1    9e-21 
+KAF1840120.1 cytidylate kinase [Cucurbitaria berberidis CBS 394.84]   96.3    1e-20 
+WP_073631197.1 HD domain-containing protein [Scytonema sp. HK-05]...  92.4    2e-20 
+OGD53793.1 hypothetical protein A3K81_04725 [Candidatus Bathyarch...  92.0    3e-20 
+KPL88001.1 hypothetical protein SE16_10840 [Ardenticatena maritim...  92.0    3e-20 
+OLQ09950.1 HD domain-containing protein 2-like [Symbiodinium micr...  94.0    4e-20 
+XP_014389404.1 PREDICTED: HD domain-containing protein 2 [Myotis ...  92.0    4e-20 
+ALC38442.1 maker429 [Drosophila busckii]                              90.9    5e-20 
+WP_067960714.1 HD domain-containing protein [Nitrosopumilus sp. N...  90.1    1e-19 
+RLJ01709.1 phosphohydrolase [Candidatus Aenigmarchaeota archaeon]     90.1    1e-19 
+HDD42096.1 HD domain-containing protein [Nitrososphaeria archaeon]    90.5    1e-19 
+KPL08173.1 hypothetical protein AMJ86_01710 [bacterium SM23_57]       89.7    1e-19 
+WP_014789339.1 HD family hydrolase [Thermococcus cleftensis] AFL9...  89.7    1e-19 
+KNZ49578.1 uncharacterized protein VP01_492g8 [Puccinia sorghi]       88.6    2e-19 
+KAF6001022.1 HD domain-containing protein 2 [Cyanidiococcus yangm...  89.4    2e-19 
+OAA60576.1 HD domain protein [Sporothrix insectorum RCEF 264]         92.0    2e-19 
+WP_179369452.1 HD domain-containing protein [Candidatus Nitrosote...  88.6    3e-19 
+RSL89943.1 hypothetical protein CDV31_015782 [Fusarium ambrosium]     92.8    4e-19 
+RLG09312.1 hypothetical protein DRN68_01870 [Thaumarchaeota archa...  88.2    5e-19 
+TLX67377.1 HD domain-containing protein [Thaumarchaeota archaeon]     88.6    6e-19 
+NIO22999.1 HD domain-containing protein [Candidatus Aenigmarchaeo...  87.8    9e-19 
+KON31379.1 hypothetical protein AC482_00940 [miscellaneous Crenar...  87.4    1e-18 
+XP_008570716.1 PREDICTED: HD domain-containing protein 2 isoform ...  86.3    1e-18 
+HEU03948.1 HD domain-containing protein [Nitrosopumilus sp.]          86.7    2e-18 
+ELQ32785.1 hypothetical protein OOU_Y34scaffold01039g6 [Pyricular...  85.5    3e-18 
+TLX88379.1 HD domain-containing protein [Thaumarchaeota archaeon]     86.3    3e-18 
+EST48232.1 HD domain-containing protein [Spironucleus salmonicida]    85.5    5e-18 
+NTU79893.1 HD domain-containing protein [Chloroflexales bacterium]    85.5    8e-18 
+VVC86678.1 unnamed protein product, partial [Leptidea sinapis]        83.2    9e-18 
+HIH88314.1 HD domain-containing protein [Candidatus Bathyarchaeot...  85.1    9e-18 
+TET19853.1 HD domain-containing protein [Candidatus Bathyarchaeot...  84.7    2e-17 
+HDJ22034.1 HD domain-containing protein [Candidatus Bathyarchaeot...  84.3    2e-17 
+XP_034709360.1 5'-deoxynucleotidase HDDC2-like isoform X1 [Vitis ...  85.9    2e-17 
+HAL91716.1 phosphodiesterase [Verrucomicrobia bacterium]              84.3    3e-17 
+HDJ30360.1 HD domain-containing protein [bacterium]                   87.4    3e-17 
+HGS23091.1 HD domain-containing protein [Anaerolinea thermolimosa]    84.0    3e-17 
+GBD18713.1 5'-deoxynucleotidase YfbR [bacterium HR27]                 84.0    5e-17 
+OLD41302.1 phosphohydrolase [Thaumarchaeota archaeon 13_1_40CM_2_...  82.8    6e-17 
+OGD93073.1 hypothetical protein A2697_02075 [Candidatus Curtissba...  82.4    9e-17 
+HFD40289.1 HD family hydrolase [Anaerolineae bacterium]               82.8    1e-16 
+HBM96353.1 hypothetical protein [bacterium UBP9_UBA11836]             82.8    1e-16 
+WP_015909135.1 HD domain-containing protein [Chloroflexus auranti...  82.4    1e-16 
+EXK26554.1 hypothetical protein FOMG_16878 [Fusarium oxysporum f....  85.5    1e-16 
+RLF99953.1 phosphohydrolase [Thaumarchaeota archaeon]                 82.0    1e-16 
+HGB91738.1 HD family hydrolase [Nitrososphaeria archaeon]             82.0    1e-16 
+MBI4016026.1 HD domain-containing protein [Candidatus Aenigmarcha...  81.6    2e-16 
+CZS92468.1 uncharacterized protein RAG0_03043 [Rhynchosporium agr...  84.7    2e-16 
+WP_148703371.1 MULTISPECIES: HD domain-containing protein [Nitros...  81.6    2e-16 
+WP_042680334.1 HD family hydrolase [Thermococcus paralvinellae] A...  80.9    3e-16 
+RLC94170.1 hypothetical protein DRI77_11185 [Chloroflexi bacterium]   80.9    4e-16 
+RVW88365.1 HD domain-containing protein 2 [Vitis vinifera]            78.2    4e-16 
+HBQ14080.1 oxetanocin [Myxococcales bacterium]                        80.9    5e-16 
+WP_013561057.1 HD domain-containing protein [Anaerolinea thermoph...  80.9    5e-16 
+PIR71751.1 hypothetical protein COU43_00795 [Candidatus Nealsonba...  82.8    1e-15 
+WP_193384572.1 HD domain-containing protein [Pyrococcus sp. ST04]     79.0    2e-15 
+2CQZ_A Crystal Structure of PH0347 protein from Pyrococcus horiko...  78.6    2e-15 
+MBA2470111.1 HD domain-containing protein [Chloroflexia bacterium]    79.3    2e-15 
+HGU02635.1 HD family hydrolase [Nitrososphaeria archaeon]             77.8    4e-15 
+KAG2232302.1 hypothetical protein INT48_009323 [Thamnidium elegans]   76.3    4e-15 
+PIS38665.1 hypothetical protein COT34_02440 [Candidatus Nealsonba...  80.9    7e-15 
+KPV52223.1 phosphohydrolase [Kouleothrix aurantiaca]                  77.4    7e-15 
+WP_169219023.1 HD domain-containing protein [Brasilonema sp. UFV-...  77.8    7e-15 
+CAA9582735.1 hypothetical protein AVDCRST_MAG87-3568 [uncultured ...  78.2    7e-15 
+MBI5253255.1 HD domain-containing protein [Euryarchaeota archaeon]    77.0    8e-15 
+WP_048147114.1 HD family hydrolase [Pyrococcus abyssi] CCE71080.1...  77.0    9e-15 
+WP_005452659.1 HD domain-containing protein [Vibrio harveyi] EKM3...  77.0    1e-14 
+KAB2834545.1 HD domain-containing protein, partial [Caedimonadace...  77.0    1e-14 
+PJA02385.1 hypothetical protein COX73_01065 [bacterium (Candidatu...  79.0    3e-14 
+RMW40709.1 HD domain-containing protein [Candidatus Nitrosopelagi...  75.5    3e-14 
+RLB51387.1 oxetanocin [Deltaproteobacteria bacterium]                 75.5    4e-14 
+WP_199482065.1 HD domain-containing protein [Vibrio owensii]          75.5    4e-14 
+WP_199449670.1 HD domain-containing protein [Vibrio harveyi]          75.5    4e-14 
+KAG1817087.1 hypothetical protein BJ212DRAFT_1446699 [Suillus sub...  75.5    6e-14 
+MBC7911109.1 HD family hydrolase [Pyrinomonadaceae bacterium]         75.1    6e-14 
+DAC14870.1 TPA: HD domain-containing protein [Candidatus Poseidon...  73.9    7e-14 
+WP_013467071.1 HD family hydrolase [Thermococcus barophilus] ADT8...  74.7    7e-14 
+RAH10477.1 HD domain-containing protein [Euryarchaeota archaeon] ...  73.2    2e-13 
+HHH42217.1 HD family hydrolase [Chloroflexi bacterium]                73.6    3e-13 
+MBA3496673.1 HD domain-containing protein [Gemmatimonadales bacte...  73.6    3e-13 
+WP_045393723.1 HD domain-containing protein [Vibrio rotiferianus]     73.2    3e-13 
+ALS89324.1 HD domain protein, partial [uncultured bacterium]          72.8    4e-13 
+RJU98329.1 HD domain-containing protein [Candidatus Poseidoniales...  72.0    4e-13 
+ALS89601.1 HD domain protein, partial [uncultured bacterium]          72.8    4e-13 
+WP_148856135.1 HD family hydrolase [Natronococcus sp. LS1_42] TYL...  73.6    5e-13 
+WP_199455361.1 HD domain-containing protein [Vibrio owensii]          72.8    5e-13 
+WP_141199645.1 HD family hydrolase [Persicimonas caeni] QDG53184....  72.0    1e-12 
+WP_164637150.1 HD domain-containing protein [Rhodopseudomonas sp....  72.0    1e-12 
+MBG45835.1 hypothetical protein [Euryarchaeota archaeon]              70.9    1e-12 
+MBE57008.1 phosphodiesterase [Euryarchaeota archaeon]                 71.2    1e-12 
+MAH91314.1 hypothetical protein [Euryarchaeota archaeon]              70.9    2e-12 
+XP_004998529.1 uncharacterized protein PTSG_01053 [Salpingoeca ro...  70.9    2e-12 
+MBA3920117.1 phosphohydrolase [Gemmatimonas sp.]                      71.2    2e-12 
+PMP88993.1 hypothetical protein C0172_01305 [Caldisphaera sp.]        70.9    2e-12 
+HED49468.1 HD domain-containing protein [Thermoprotei archaeon]       72.0    2e-12 
+KAF1074843.1 hypothetical protein MKHDV_02395 [Halodesulfovibrio ...  71.2    2e-12 
+XP_024507984.1 HD domain-containing protein [Strongyloides ratti]...  73.2    2e-12 
+WP_101295640.1 HD domain-containing protein [Halegenticoccus soli]    72.0    3e-12 
+MBI2113373.1 HD domain-containing protein [Candidatus Wildermuthb...  70.9    4e-12 
+MAF93521.1 phosphohydrolase [Candidatus Woesearchaeota archaeon]      69.3    4e-12 
+EKD58978.1 hypothetical protein ACD_56C00015G0006 [uncultured bac...  68.6    6e-12 
+OGY23725.1 hypothetical protein A2126_01415 [Candidatus Woykebact...  72.0    7e-12 
+TVR05333.1 HD family hydrolase, partial [Spirochaetaceae bacterium]   68.9    1e-11 
+RAH13104.1 oxetanocin [Euryarchaeota archaeon]                        68.2    1e-11 
+PSP56476.1 phosphohydrolase [Halobacteriales archaeon QH_7_66_36]     69.3    2e-11 
+VDO83377.1 unnamed protein product [Schistosoma margrebowiei]         65.1    3e-11 
+WP_090382852.1 HD family hydrolase [Natronobacterium texcoconense]    68.2    4e-11 
+SDQ88709.1 putative hydrolases of HD superfamily [Natronobacteriu...  68.2    4e-11 
+NIV29285.1 HD domain-containing protein [Anaerolineae bacterium]      67.8    4e-11 
+NSL75490.1 HD domain-containing protein [Thaumarchaeota archaeon]...  67.0    4e-11 
+RLF63776.1 oxetanocin [Thermoplasmata archaeon]                       67.4    5e-11 
+WP_087687229.1 HD domain-containing protein [Pandoraea sp. PE-S2R-1]  67.0    5e-11 
+MAG02184.1 hypothetical protein [Candidatus Pacearchaeota archaeon]   67.0    8e-11 
+RKZ06038.1 hypothetical protein DRQ25_14800 [Candidatus Fermentib...  66.6    9e-11 
+WP_083870285.1 HD family hydrolase [Haloterrigena salina]             67.0    9e-11 
+WP_141956644.1 HD domain-containing protein [Actinoallomurus bryo...  66.6    9e-11 
+RLF65399.1 oxetanocin [Thermoplasmata archaeon]                       66.6    9e-11 
+PMB77773.1 hypothetical protein C0177_02115 [Fervidicoccus fontis]    66.2    1e-10 
+QBM02108.1 hypothetical protein [uncultured archaeon]                 68.6    1e-10 
+MBL8988385.1 HD domain-containing protein [Gemmatimonadetes bacte...  66.2    2e-10 
+WP_098130853.1 HD domain-containing protein [Bacillus wiedmannii]...  66.2    2e-10 
+PWT91348.1 oxetanocin [Blastocatellia bacterium]                      66.2    2e-10 
+MCI31846.1 HD domain-containing protein 2-like [Trifolium medium]     62.4    2e-10 
+WP_016098024.1 HD domain-containing protein [Bacillus cereus] EOP...  65.9    2e-10 
+PCI92280.1 HAD family hydrolase [Candidatus Aerophobetes bacterium]   65.9    2e-10 
+OGH21450.1 hypothetical protein A2629_01375 [Candidatus Levybacte...  65.9    2e-10 
+EAO55056.1 Hydrolase (HAD superfamily) [Bacillus thuringiensis se...  65.9    2e-10 
+WP_097960338.1 MULTISPECIES: HD domain-containing protein [Bacill...  65.9    2e-10 
+WP_016082192.1 MULTISPECIES: HD domain-containing protein [Bacill...  65.5    3e-10 
+WP_100583643.1 HD domain-containing protein [Streptomyces sp. CB0...  65.5    3e-10 
+WP_185913451.1 HD domain-containing protein [Bacillus luti] RGN78...  65.5    3e-10 
+WP_000400766.1 MULTISPECIES: HD domain-containing protein [Bacill...  65.1    3e-10 
+WP_000400773.1 MULTISPECIES: HD domain-containing protein [Bacill...  65.1    3e-10 
+WP_088020781.1 HD domain-containing protein [Bacillus thuringiens...  65.1    4e-10 
+KKP38527.1 hypothetical protein UR29_C0014G0034 [Candidatus Woese...  64.7    4e-10 
+WP_090235198.1 HD domain-containing protein [Lentibacillus halodu...  64.7    4e-10 
+WP_000400780.1 MULTISPECIES: HD domain-containing protein [Bacill...  64.7    5e-10 
+WP_144859778.1 HD family hydrolase [Haloferax volcanii] TVT88920....  64.7    6e-10 
+WP_002064609.1 MULTISPECIES: HD domain-containing protein [Bacill...  64.3    7e-10 
+WP_087094736.1 HD domain-containing protein [Bacillus cytotoxicus...  64.3    7e-10 
+MBE5061779.1 HD domain-containing protein [Lachnospiraceae bacter...  64.3    7e-10 
+WP_025967093.1 HD domain-containing protein [Bacillus cereus] ANE...  64.3    7e-10 
+WP_149797338.1 HD family hydrolase [Halorubrum xinjiangense] SDE9...  64.7    8e-10 
+WP_065212107.1 MULTISPECIES: HD domain-containing protein [Bacill...  64.3    8e-10 
+WP_140388407.1 HD domain-containing protein [Bacillus cytotoxicus...  64.3    9e-10 
+PWM71165.1 phosphohydrolase [Lentisphaerae bacterium]                 63.9    9e-10 
+PLX45131.1 phosphohydrolase [Deltaproteobacteria bacterium]           63.9    1e-09 
+WP_097902225.1 HD domain-containing protein [Bacillus cereus] PEC...  63.9    1e-09 
+WP_186046570.1 HD domain-containing protein [Burkholderia gladioli]   63.9    1e-09 
+WP_066138043.1 HD family hydrolase [Haladaptatus sp. R4] KZN26498...  63.9    1e-09 
+WP_144608124.1 HD domain-containing protein [Bacillus cereus]         63.9    1e-09 
+WP_125792165.1 HD domain-containing protein [Amycolatopsis sp. WA...  63.2    1e-09 
+WP_200320396.1 HD domain-containing protein [Prauserella sp. ASG ...  63.5    1e-09 
+WP_098360903.1 HD domain-containing protein [Bacillus thuringiens...  63.5    1e-09 
+WP_020566093.1 HD domain-containing protein [Trinickia symbiotica...  63.5    1e-09 
+TDW98238.1 putative hydrolase of HD superfamily [Kribbella sp. VK...  63.5    1e-09 
+WP_188424372.1 HD domain-containing protein [Haloferax sulfurifon...  63.5    2e-09 
+WP_179844086.1 HD domain-containing protein [Actinomadura luteofl...  63.2    2e-09 
+WP_092684536.1 HD domain-containing protein [Rhodopseudomonas pse...  63.2    2e-09 
+WP_007276385.1 HD family hydrolase [Haloferax sulfurifontis] ELZ8...  63.2    2e-09 
+WP_007994681.1 HD family hydrolase [Halorubrum arcis] EMA71268.1 ...  63.5    2e-09 
+WP_188148465.1 HD domain-containing protein [Haloferax sp. AS1] M...  63.2    2e-09 
+WP_159368966.1 HD domain-containing protein [Halorubrum terrestre...  63.5    2e-09 
+WP_078179188.1 HD domain-containing protein [Bacillus mycoides] O...  63.2    2e-09 
+MSS92080.1 HD domain-containing protein [Eisenbergiella tayi]         62.8    3e-09 
+OHA64367.1 hypothetical protein A2842_00560 [Candidatus Wildermut...  63.2    3e-09 
+WP_008365979.1 HD family hydrolase [Halorubrum litoreum] EMA61603...  63.5    3e-09 
+WP_072030412.1 HD family hydrolase [Amycolatopsis keratiniphila] ...  62.4    3e-09 
+WP_133848492.1 HD domain-containing protein [Labedaea rhizosphaer...  62.4    3e-09 
+WP_094580473.1 MULTISPECIES: HD family hydrolase [Halorubrum] OYR...  63.2    3e-09 
+WP_111727991.1 HD family hydrolase [Lujinxingia litoralis] RAL248...  62.4    4e-09 
+GGQ06567.1 haloacid dehalogenase [Streptosporangium pseudovulgare]    62.4    4e-09 
+MBI4177586.1 HD domain-containing protein [Candidatus Aenigmarcha...  62.0    4e-09 
+OGM27052.1 hypothetical protein A2627_01825 [Candidatus Woesebact...  60.5    4e-09 
+WP_090862441.1 HD domain-containing protein [Bacillus toyonensis]...  62.0    5e-09 
+WP_148551128.1 HD domain-containing protein [Paraclostridium bife...  62.0    5e-09 
+WP_049952003.1 HD family hydrolase [Halostagnicola larsenii] AHF9...  62.4    5e-09 
+WP_168086958.1 HD domain-containing protein [Streptomyces bohaien...  62.0    5e-09 
+WP_012289690.1 HD family hydrolase [Halobacterium salinarum] CAP1...  62.0    5e-09 
+WP_192265236.1 HD domain-containing protein [Paenibacillus sp. JN...  62.0    5e-09 
+ERE81618.1 HD domain-containing protein 2 [Cricetulus griseus]        61.6    5e-09 
+WP_008849004.1 HD family hydrolase [Halorubrum kocurii] EMA61843....  62.0    6e-09 
+WP_059630904.1 HD domain-containing protein [Burkholderia ubonens...  61.6    6e-09 
+WP_060404781.1 HD domain-containing protein [Burkholderia ubonens...  61.6    7e-09 
+WP_059850254.1 HD domain-containing protein [Burkholderia ubonens...  61.6    7e-09 
+TVY12538.1 HD domain-containing protein 2 [Lachnellula arida]         59.7    8e-09 
+OGD87102.1 hypothetical protein A2693_04060 [Candidatus Curtissba...  61.2    8e-09 
+WP_175875012.1 HD domain-containing protein [Burkholderia sp. BCC...  61.2    9e-09 
+WP_002149179.1 HD domain-containing protein [Bacillus cereus] EJQ...  61.2    1e-08 
+WP_187223642.1 HD domain-containing protein [Actinokineospora sp....  61.2    1e-08 
+WP_121127353.1 HD domain-containing protein [Sphingobacterium put...  61.2    1e-08 
+WP_150719720.1 HD domain-containing protein [Pandoraea capi] VVD6...  60.8    1e-08 
+MBI2121232.1 HD domain-containing protein [Candidatus Wildermuthb...  61.2    1e-08 
+PWW40806.1 putative hydrolase of HD superfamily [Paenibacillus pa...  60.8    1e-08 
+KXH73225.1 hypothetical protein AM326_00320 [Candidatus Thorarcha...  60.8    1e-08 
+WP_025128243.1 HD domain-containing protein [Pseudomonas sp. PH1b]    60.8    1e-08 
+WP_078365052.1 HD domain-containing protein [Rhodoferax fermentan...  60.8    1e-08 
+KKR30096.1 Metal-dependent phosphohydrolase, HD superfamily prote...  60.5    2e-08 
+WP_081100308.1 GNAT family N-acetyltransferase [Pseudomonas putid...  62.0    2e-08 
+WP_186713481.1 GNAT family N-acetyltransferase [Pseudomonas sp. B...  62.0    2e-08 
+WP_167122124.1 HD domain-containing protein [Cupidesulfovibrio li...  60.8    2e-08 
+WP_001728190.1 HD domain-containing protein [Salmonella enterica]...  60.5    2e-08 
+
+
+
+Query_1   1     MTAVNIWKP-EDN--I--PR-EILAIL-----S---K-P------H-P-------N----  27
+23616906  1     MTAVNIWKP-EDN--I--PR-EILAIL-----S---K-P------H-P-------N----  27
+24020270  1     MTAVNIWKP-EDN--I--PR-EILAIL-----S---K-P------H-P-------N----  27
+5450591   152   MTAVNIWKP-EDN--I--PR-EILAIL-----S---K-P------H-P-------N----  178
+6673525   26          WKP-ESQ--V--PQ-YVKNEL-----S---K-P------H-P-------N----  46
+15733548  20    MTA-PVWKP-QDH--V--PQ-EVKDLL-----Q---S-S------G-D-------N----  45
+12787231  26          WKP-ESQ--V--PQ-YVKNEL-----S---K-P------H-P-------N----  46
+7569571   20      ATPVWRP-QDH--V--PK-EVKDLL-----S---S-S------Q-Q-------S----  44
+21643532  52          WNP-KDH--V--PI-EVKEIL-----A---E-T------Q-P-------N----  72
+2460927   4         DIWMP-EDH--I--PV-EVRDML-----S---E-P------S-P-------N----  26
+17298346  5           WNP-RDY--L--PQ-DVKLLL-----A---K-P------Q-H-------D----  25
+22541837  4         NLWNP-EDH--I--PL-HIKESL-----S---K-L------S-P-------N----  26
+2502327   4         SVWKP-QAA--V--PS-KIKSLL-----S---T-E------D-PI------N----  27
+21368319  12     TTENVWKP-ETA--V--PE-HIKKLL-----V---P-K------G-P-------NHEIN  41
+16120921  3           WKP-QDA--V--PE-RVQQLL-----A---S-P------S-KL------N----  24
+15022913  1     MSTTNKWLP-QDH--V--SK-ALKEVFIENAAR---E-M------T-P-------T----  32
+14445410  4         NQWTP-ERA--V--PE-RLQHLL-----Q---E-K------T-PV------N----  27
+20977974  31          WNP-ESA--V--PL-EIKQLLIPKQTT---S-S------S-Y-------S----  56
+11508915  1     MASEGTWTV-ESA--L--AGLDSLHPL-----T---H-P------T-P-------TST--  30
+5004243   6           WDP-RHA--L--PA-DIRKLL-----T---P-A------E-A-------NGKNY  30
+23849503  14          WDP-RKQ--V--PQ-KILDLL-----T---P-AKINDGHN-Y-------N----  40
+4858907   13                S--I--PK-VLNPMP-----T---P-P------NSA-------S----  29
+19814024  73                                          P------S-P-------S----  76
+22141957  33                      PD-TVLSTL-----APF-E-K------H-S-------S----  48
+362186    1                               M-----A---Q-S------S-P-------A----  7
+26058789  28                                                           N----  28
+17664774  32                          VESVL-----S---E-I------T-P-------R----  42
+10831985  39                           LVIA-----T---L-P------H-P-------P----  48
+17037433  39     AAVALAKP-ADSHWT--PE-TVLSTL-----PARPE-P------H-T-------P----  69
+8209672   26     SQVSQWTP-ET----------VLSTM-----T---P-L------E-K-------N----  46
+2562929   21                          VLADI-----E---H-G------Y-PENT----D----  34
+2595128   53                                                           N----  53
+15797881  34               DK--V--VK-EIPGGA-----P---K-E------E-S-------S----  50
+26404367  1                               M-----A---Q-S------N-P-------A----  7
+23262463  1                               M-----A---Q-S------N-P-------A----  7
+5832854   1                               M-----A---Q-S------N-P-------A----  7
+8678864   9           WAV-ED---V--AA-SMIGGA-----P---E-S------G-S-------E----  28
+18661437  14                       Q-SVIATL-----A---H-PPLE---N-T-------P----  29
+4059410   27                      PE-SVLSTL-----EH--R-P------Q-E-------N----  41
+10436002  21                                          P------H-P-------P----  24
+20363311  37                   V--PK--VLATL-----P---T-G------V-PQENS---T----  54
+10076972  47                                          P------S-A-------S----  50
+17524741  43                       R-SALANL-----P---T-A------R-P-------T----  55
+19289608  35                      PH-TVLSTL-----P---D-P------Y-P-------TNPT-  51
+8542269   25                T--V--EK-ALKAVP-----G---T-P------A-PTNS----D----  43
+22292849  38               DK--V--VK-EIPGGA-----P---T-E------E-S-------S----  54
+8047799   38               DK--V--VK-EIPGGA-----P---T-E------E-S-------S----  54
+26259395  40            P-GDD--A--P-----------------K-S------E-G-------Q----  50
+27324570  52                                                   P-------S----  53
+15142294  35                                                           N----  35
+26842307  14                       Q-SVLATL-----------P------H-P-------P----  24
+16896472  13                      PQ-SVLSTL-----------P------H-P-------P----  24
+4558814   14                       Q-SVLATL-----------P------H-P-------P----  24
+16237145  42                          VLATI-----P---T-G------A-PQENS---S----  56
+24857995  10                      PE-TVLSTL-----PY--R-P------E-E-------N----  24
+21140335  17                             LA-----S---L-P------H-P-------P----  24
+7904385   47            P-SSN--A--DR-EATSSS-----S---S-A------P-A-------S----  65
+4228225   84                                          P------S-A-------S----  87
+12824142  21            P-KIS--E--PW-TVEKVL-----A---T-I------H-PEPPVTGSS----  46
+12981394  32                         KVLATV-----S---P-T------P-PAEGT---D----  47
+19716332  3                SN--T--PW-TTQSVI-----S---TLP------H-PLAENG--S----  25
+20841327  83                                                           N----  83
+1753571   3                SN--T--PW-TTQSVI-----S---TLP------H-PLAENG--S----  25
+21762857  4           WVP-APV--ISEPW-SVEKVL-----A---T-I------Y-PAPPEEGTS----  33
+8504008   21            P-KIS--E--PW-TVEKVL-----A---T-I------H-PTPPAEGSS----  46
+5434179   6                       PR-ADDAVA-----A---G-A------M-G-------N----  19
+25794756  11               DW--T--PW-SVLSTL-----------P------H-PIEENS--T----  30
+22436400  1                            MAMA-----T---G-A------K-A-------L----  10
+16192211  4                       PM-EAAAGV-----N---L-S------N-L-------S----  17
+17846320  1                               M-----K---K-PGV----E-P-------K----  9
+14883206  41                         KVLATI-----S---T-G------A-PTENS---S----  56
+5857234   14                            AAT-----A---L-P------S-P-------A----  22
+16865225  38                      PE-KVLDTL-----T---T-G------K-PTEGS---D----  55
+9904218   3                                                  N-P-------A----  5
+19070443  72                           VAAA-----T---T-P------P-P-------S----  81
+24213497  12                                                           N----  12
+22150506  88                                                   P-------S----  89
+17515703  82                                                   P-------S----  83
+12202970  10                      PQ-SVLSTV-----------P------H-P-------P----  21
+16082358  10                      PE-TVLSTL-----PY--R-P------E-E-------N----  24
+1441610   10                      PQ-TVLSTL-----------P------H-PPEENT--T----  26
+6200078   2                                                    P-------S----  3
+3410654   67                            GVP-----S---R-L------S-S-------S----  75
+11968045  83                                                   P-------S----  84
+5844755   8           WSP-ET----------VLSTL-----PY--R-P------E-E-------N----  24
+15416645  6         STWTP-ET----------VLSTL-----PH--R-P------E-E-------N----  24
+18784898  42     TDVNVSKPIKDD--A--AA-PAFGAG-----G---K-PL-----P-P-------P----  69
+13269252  31         IGKL-EET--I--TR-ELL------------------------------------  43
+8369784   14                                                   P-------R----  15
+21284217  13                                                   P-------A----  14
+
+Query_1   28    -YQ---------LA--FL-NIIQLLKTQRRTGWVD-HGI--D---------------P--  54
+23616906  28    -YQ---------LA--FL-NIIQLLKTQRRTGWVD-HGI--D---------------P--  54
+24020270  28    -YQ---------LA--FL-NIIQLLKTQRRTGWVD-HGI--X---------------P--  54
+5450591   179   -YQ---------LA--FL-NIIQLLKTQRRTGWVD-HGI--D---------------P--  205
+6673525   47    -YI---------LA--FL-NVVQQLKIQRRTGYLD-LGI--K---------------E--  73
+15733548  46    -HV---------LA--FL-HIVQLLKVQRRTGWLD-HNI--S---------------P--  72
+12787231  47    -YI---------LA--FL-NVVQQLKIQRRTGYLD-LGI--K---------------E--  73
+7569571   45    -HV---------LA--FL-HVVQLLKIQKRTGWLD-HNI--E---------------P--  71
+21643532  73    -YV---------LA--FM-HIVEQLKLQKRTGWLD-HDI--K---------------P--  99
+2460927   27    -YV---------IM--FL-NIVELLKVQRRTGWVD-YDI--S---------------P--  53
+17298346  26    -RL---------LA--FH-HIVGQLKVQRRTGWLD-HDI--N---------------D--  52
+22541837  27    -YV---------LA--FF-NLVQSLKLQKRTGWLN-NNI--S---------------N--  53
+2502327   28    -NM---------LA--FT-QIVRLLKTQPRTGWVD-RGIPVE---------------K--  56
+21368319  42    -YI---------LA--FF-QIVRLLKTQKRTGWID-RGIPTD---------------K--  70
+16120921  25    -SM---------LA--FT-QIVRLLKTQPRTGWVD-RGV--P---------------R--  51
+15022913  33    -RQ---------ML--YVFHIAEALKYQRRTGWVD-RGI--E---------------D--  60
+14445410  28    -SM---------LA--FV-QIVRLLKTQPRTGWID-KKI--P---------------QIN  56
+20977974  57    -YI---------LA--FH-QILDLLKSQKRTGWLN-HNI--S---------------N--  83
+11508915  31    -VP---------LA--FL-HIIDRLKHIPRTGWVV-EGV--D---------------K--  57
+11890858  36                LA--FL-HIIDRLKHIPRTGWVV-DGV--E---------------K--  60
+24223007  26                IA--FL-HVIERLKTNKREGWKR-QGI--Y---------------H--  50
+5004243   31    NYI---------NA--FY-QIASLLKQQKRTGWID-HQV--P---------------N--  58
+23849503  41    -YI---------SA--FY-QIVSLLKEQKRTGWIDKNKI--T---------------N--  68
+4858907   30    -SP---------IA--FL-HVIERLKTSHREGWKR-HGI--V------------------  55
+19814024  77    -SA---------ID--FL-SICHRLKTTKRTGWVR-KEV--E---------------D--  103
+22141957  49    -SP---------VP--FF-HLLERLKTTKREGWRR-FGI--N---------------H--  75
+362186    8     -SV---------IQ--FL-HIIQNLKVTKRTGWVD-NGI--K---------------Q--  34
+26058789  29    -DK---------LA--FI-HILERLKTQKRTGWVD-HEI--P---------------N--  55
+17664774  43    -YAENTDSP---VP--FF-HLLERLKTTKRAGWRR-FGI--L---------------D--  75
+10831985  49    -LENTPTP----VP--FF-HLLERLKTIKREGWRR-FGI--A---------------H--  80
+17037433  70    -SP---------LP--FF-HTLELLKTTKREGWRR-FNI--V---------------N--  96
+8209672   47    -SSSP-------VP--FF-HLLERLKTTKREGWRR-FGI--N---------------H--  75
+2562929   35    -SP---------VP--FF-HLLERLKTTKRAGWRR-FGI--D---------------N--  61
+2595128   54    -SP---------IP--FF-HLLERLKTTPRAGWKR-FGV--P---------------N--  80
+15797881  51    -SP---------LP--FF-HMLERLKTTKREGWRR-FGI--D---------------R--  77
+20438184  24      R---------LA--FI-HVIERLKTQKRTGWVN-HKI--P---------------N--  49
+21430396  27      R---------LA--FF-HILERLKTQKRTGWVD-HKV--P---------------S--  52
+26987110  51                VP--FF-HLLERLKTTKRAGWRR-FGI--D---------------H--  75
+26404367  8     -NV---------IK--FL-HVIENLKRTKRTGWLD-NGI--K---------------G--  34
+23262463  8     -NV---------IK--FL-HVIENLKRTKRTGWLD-NGI--K---------------G--  34
+5832854   8     -NV---------IK--FL-HVIENLKRTKRTGWLD-NGI--K---------------Q--  34
+8678864   29    -SP---------VP--FF-HMLQQLKTTKREGWRR-FGI--D---------------Q--  55
+18661437  30    -TP---------VP--FF-HLLERLKTTKREGWRR-FGI--P---------------H--  56
+15161006  19      R---------LA--FF-HILERLKTQKRTGWVN-NAI--P---------------N--  44
+4059410   42    -TESP-------VP--FF-HILERLKTTPRAGWQR-FGI--G---------------Y--  70
+10436002  25    -EENSASP----IP--FF-HLLERLKTTKREGWRR-FGI--N---------------T--  56
+17547272  31                VP--FF-HMLQRLKTTKREGWRR-FGI--D---------------Q--  55
+14208332  38                IS--FF-HLLGLLKTTKREGWKR-HGI--N---------------P--  62
+20363311  55    -SP---------VP--YF-HILERLKTTKREGWRR-FGI--N---------------R--  81
+10076972  51    -SV---------ID--FL-SICQRLKTTKRTGWLR-KDV--K---------------N--  77
+14081317  52                LP--FF-HMLERLKTTKREGWRR-FGI--S---------------R--  76
+17524741  56    -SQSTSP-----LP--FL-HLLERLKTTKREGWRR-FGI--T---------------S--  86
+19289608  52    -TP---------IP--FF-HLLERLKTTKREGWRR-FGI--N---------------H--  78
+7850670   29      R---------LA--FF-HILERLKTQKRTGWVD-HNI--P---------------N--  54
+1305844   32                    FL-SLCHRLKTTKRTGWIY-RGI--Q---------------D--  54
+10637026  121               LQ--FL-HIVEKLKRTKRTGWVN-HGV--K---------------P--  145
+20967019  46                VP--FI-HILERLKTTKREGWRR-FGI--T---------------Y--  70
+8542269   44    -SP---------LP--YF-HILERLKTTKREGWRR-FGV--E---------------K--  70
+22523182  54                IP--FF-HMLSRLKTTKREGWRR-FGI--E---------------R--  78
+24574254  38                IS--FF-HLLGLLKTTKREGWKR-HGI--N---------------P--  62
+22292849  55    -SP---------LP--FF-HMLERLKTTKREGWRR-FGI--S---------------R--  81
+8047799   55    -SP---------LP--FF-HMLERLKTTKREGWRR-FGI--S---------------R--  81
+14406119  121               LQ--FL-HIVEKLKRTKRTGWIN-HGI--Q---------------P--  145
+26259395  51    -SP---------LA--FF-HMIERLKTTKREGWRR-FGI--E---------------R--  77
+27324570  54    -SA---------ID--FL-TLCHRLKTTKRAGWVK-REV--Q---------------N--  80
+15142294  36    -SP---------IS--FF-HLLGILKTTKREGWKR-HGI--D---------------P--  62
+26842307  25    -EENSASP----IP--FF-HLLERLKTTKREGWRR-FGI--T---------------A--  56
+17102858  59                VP--FF-HLLERLKTTKREGWRR-FGI--E---------------R--  83
+23322974  702     R---------LA--FI-HILERLKTQKRTGWVN-HKV--P---------------N--  727
+24220066  38                IS--FF-HLVGGLKTTKREGWKR-HGI--D---------------P--  62
+1878037   69                LA--FF-HMIERLKTTKREGWRR-FGI--E---------------R--  93
+16896472  25    -EENSASP----IP--FF-HLLERLKTTKREGWRR-FGI--N---------------S--  56
+4558814   25    -EENSASP----VP--FF-HLLERLKTTKREGWRR-FGI--N---------------A--  56
+10740353  70                    FL-TLCHRLKTTKREGWVR-RGV--N---------------A--  92
+10231093  54                IP--FF-HMLSRLKTTKREGWRR-FGI--E---------------R--  78
+16597786  59                    FL-TLCHRLKTTKRAGWVR-RGV--N---------------D--  81
+17610447  104                   FL-TLCHRLKTTKRAGWVR-RDV--K---------------D--  126
+16237145  57    -SP---------VP--YF-HMLERLKTTKREGWRR-FGI--A---------------R--  83
+24857995  25    -STSP-------IP--FF-HLIQRLKTTKRAGWCR-FGI--E---------------N--  53
+21140335  25    -EENSASP----IP--FF-HLLERLKTTKREGWRR-FGI--N---------------S--  56
+7904385   66    -SA---------ID--FL-SLCHRLKTTKRAGWVK-RDV--K---------------D--  92
+4228225   88    -SA---------ID--FL-SLCHRLKTTKRAGWVK-RDV--K---------------D--  114
+6350872   30      R---------LA--FF-HILERLKTQKRTGWID-HNI--P---------------G--  55
+12824142  47    -SP---------IP--FF-HVLERLKTNKREGWRR-FGI--N---------------R--  73
+12981394  48    -SP---------VP--YF-HMLERLKTNKREGWRR-FGI--E---------------R--  74
+27104086  11                LE--FL-ELVGRLKHVKRTGWVL-CNI--E---------------D--  35
+17835405  59                LA--FF-HMLERLKTTKREGWRR-FGI--E---------------R--  83
+15628187  29      R---------LA--FF-HVLERLKTQKRTGWVD-HGI--P---------------N--  54
+19716332  26    -SP---------IP--FF-HLLERLKTTKREGWRR-FDI--S---------------N--  52
+26085122  127               LQ--FL-HTVEKLKRTKRTGWVN-NGI--K---------------P--  151
+26255469  84                    FL-TLCHRLKTTKRKGWIN-HGI--K---------------G--  106
+6232986   23      R---------LA--FF-HILERLK--KRTGWVN-NNI--R---------------N--  46
+22578998  47                IP--FF-HLLERLKTTKREGWRR-FGI--T---------------T--  71
+20841327  84    -SP---------IS--FF-HLLGSLKTTKREGWKR-HGI--N---------------P--  110
+17367653  71                    FL-TLCHRLKTTKRKGWIN-QGI--N---------------G--  93
+6229703   34      R---------LA--FF-HILERLKTQKRTGWVD-NKV--P---------------G--  59
+11450374  51                LE--FF-MLVGKLKHLKRTGWMM-RNV--S---------------N--  75
+1753571   26    -SP---------IP--FF-HLLERLKTTKREGWRR-FNI--S---------------N--  52
+13468856  66                    FL-TLCHSLKVTKRTGWVR-RGI--E---------------N--  88
+21762857  34    -SP---------LP--FF-HVLERLKTNKREGWRR-FGI--D---------------R--  60
+8504008   47    -SP---------IP--FF-HILERLKTNKREGWRR-FGI--N---------------R--  73
+25709421  10                LP--FL-RLLGQLKRVPRTGWVY-RNV--E---------------K--  34
+696508    28      R---------LA--FF-HLLERLKTQKRTGWVD-NKI--P---------------N--  53
+14774866  15                LK--FL-KIIGQLKRVPRTGWVY-RKV--K---------------E--  39
+9810361   124               IE--YF-HLLERLKIVKREGWKR-HGI--L---------------R--  148
+16612569  124               LQ--FL-HIVEKLKRTKRTGWIN-NGI--K---------------P--  148
+13451700  82                    FL-TLCHRLKTTKRKGWIN-QGI--N---------------G--  104
+5434179   20    -L----------LQ--FL-KLVGQLKRVPRTGWVY-RKV--N---------------N--  45
+25794756  31    -SP---------IP--FF-HLLERLKTTKREGWRR-FGL--D---------------H--  57
+16485649  58                LP--YF-HLLERLKTTKREGWRR-FKI--D---------------R--  82
+17185705  92                IG--FL-SLCHRLKTTKRAGWVR-KGV--R---------------E--  116
+18820405  80                    FL-TLCHRLKTTKRKGWIN-QGI--N---------------G--  102
+22436400  11    -NA---------IE--FL-RLCGRLKTLKRTGWVN-SKV--A---------------L--  37
+23699696  13                LQ--FL-KLVGQLKRVPRTGWVY-RKI--E---------------N--  37
+8850712   10                LQ--FL-RLVGQLKRVPRTGWVY-RNV--E---------------K--  34
+22418684  40                    FL-TLCQRLKTTKRTGWIQ-RRV--K---------------D--  62
+16449822  13                LS--FL-RLLGQLKRVPRTGWVY-RNV--A---------------K--  37
+27102858  15                LK--FL-KIIGQLKRVPRTGWVY-NKV--K---------------E--  39
+16192211  18    -NM---------LQ--FM-KLIGQLKRVPRTGWVY-REV--K---------------K--  44
+17846320  10    -RA---------ID--FL-RILQNLKATKRTGWVR-KGV--R---------------G--  36
+14883206  57    -SP---------VP--YF-HMLERLKTTKREGWRR-FGI--A---------------R--  83
+5857234   23    -QA---------VE--FL-TLLQQLKAQKRTGWVK-RGV--R---------------G--  49
+4712180   40      R---------LA--FF-HILERLKTQKRTGWLN-NNI--P---------------D--  65
+6836530   12                LS--FL-RLLGQLKRVPRTGWVY-RNV--E---------------N--  36
+16865225  56    -SP---------VP--YF-HLLERLKTTKREGWRR-FGI--E---------------R--  82
+11081703  81                    FL-TLCHSLKTTKRKGWIN-HGI--K---------------G--  103
+9904218   6     -NM---------LE--FF-HLLENLKTIKRTGWIY-SNV--P---------------N--  32
+5058098   10                LP--FL-RLLGQLKRIPRTGWVY-RSV--A---------------K--  34
+2392409   77                    FL-TLCHSLKTTKRKGWIN-HGI--K---------------G--  99
+3723396   4                 LE--FF-HLCENLKRTKRTGWVE-HGI--Q---------------Q--  28
+6191256   42                VP--FF-HMLERLKTTKREGWRR-FNI--T---------------Q--  66
+21690875  81                    FL-TLCHRLKTTKRKGWVN-HGI--K---------------G--  103
+25475111  102                   FL-TLCHRLKTTKRKGWIN-HGI--K---------------G--  124
+14457008  14                    FL-RICGQLKRLKRTGWVN-HKV--N---------------A--  36
+6337017   37                    FL-SLCTRLKTTPRAGWIK-RDV--K---------------D--  59
+19070443  82    -AS---------SAIDFL-TLCHRLKTTKRAGWVR-RDV--K---------------N--  110
+691289    10                LA--FL-RLLGQLKRVPRTGWVY-RNV--A---------------K--  34
+21641453  72                    FL-SLCHRLKTTKRAGWVK-RDV--K---------------D--  94
+4444456   70                    FL-TLCYRLKTTKRAGWVR-RGV--P---------------G--  92
+15522056  15                LQ--FM-KFIGQLKRVPRTGWVY-RNV--E---------------K--  39
+24213497  13    -NM---------LQ--FM-KLIGQLKRVPRTGWVY-RKV--K---------------E--  39
+4159438   12                LP--FL-RLLGQLKRVPRTGWVY-RNV--A---------------K--  36
+22150506  90    -NA---------ID--FL-TLCHSLKTQKRKGWVN-HGI--K---------------G--  116
+2904536   27                    FL-TLCHSLKTTKRSGWVR-RKV--Q---------------E--  49
+4530694   9                 LK--FM-TLIGDLKRVKRTGWVL-RQV--K---------------E--  33
+22156830  15      R---------LA--FF-HLLERLKTQKRTGWIN-NHV--P---------------D--  40
+15739001  13                LQ--FM-KLIGQLKRVPRTGWVY-RNV--K---------------Q--  37
+16036477  11                LP--FL-RLLGQLKRVPRTGWVY-RNV--A---------------K--  35
+11192711  84                    FL-TLCHRLKTTKRAGWVR-RDV--Q---------------N--  106
+3314295   13                LP--FL-RLLGQLKRVPRTGWVY-RNV--A---------------K--  37
+26654283  77                    FL-SLCSRLKTTPREGWVK-RDV--K---------------N--  99
+2838902   159                   FL-TLCHNLKSTKRKGWIN-HGI--K---------------G--  181
+11924218  24      R---------LR--FM-HLIEYAKTQKRTGWLR-SGV--N---------------G--  49
+17515703  84    -NA---------ID--FL-TLCHSLKTTKRKGWVN-HAI--K---------------G--  110
+17108727  12                LP--FL-RLLGQLKRVPRTGWVY-RDV--A---------------N--  36
+7074544   1486              IK--FM-HVVEQLKTNKRTGWLH-HRV--P---------------A--  1510
+12202970  22    -EENTASP----IP--FF-HLLERLKTTKREGWRR-FGI--N------------------  52
+16082358  25    -SESP-------VP--FF-HLIERLKTTKREGWRR-FGI--D---------------N--  53
+287834    12                    FL-HLTRNLKTTPRTGWVN-HGV--D---------------K--  34
+15713778  11                LP--FL-RLLGQLKRVPRTGWVY-RNV--A---------------K--  35
+1441610   27    -SP---------IP--FF-HLLERLKTTKREGWRR-FGI--N------------------  52
+3654561   1                      M-HLLERLKTTKRAGWCR-FGI--Q---------------N--  22
+6200078   4     -KL---------VE--FM-MLIGKLKRVRRTGWVM-RNI--P---------------D--  30
+26388721  5                                  RTGWVY-RNV--A---------------N--  15
+3410654   76    -ST---------AA--LL-IFHTVVSTTKRKGWIN-HGI--K---------------G--  102
+18470102  5                                  RTGWVY-RNV--E---------------K--  15
+11968045  85    -NA---------ID--FL-TLCHSLKTTKRKGWVN-HAI--K---------------G--  111
+4906607   13      R---------LA--FF-HVLESLKTQKRTGWIK-SKV--P---------------N--  38
+11990579  75                    FL-TLCYRLKTTKRAGWVR-RGV--Q---------------G--  97
+24767283  5                                  RTGWVY-RNV--A---------------K--  15
+23785865  5                 LQ--FM-KLIGQLKRVPRTGWVY-RNV--K---------------Q--  29
+17706146  5                                  RTGWVY-RNV--A---------------K--  15
+8963266   5                                  RTGWVY-RNV--A---------------N--  15
+16998446  22                            LKAIPRTGWVY-RNV--A---------------K--  37
+13032256  88                    FL-TLCHSLKTTKRKGWIN-HGI--K---------------G--  110
+4441460   71                    FL-TLCHSLKTTKRKGWVN-QGI--K---------------G--  93
+8700833   2606                  FM-HVVEQLKTNKRTGWMH-HRV--P---------------A--  2628
+5704850   6                                  RTGWVY-RNV--A---------------K--  16
+14545940  5                                  RTGWVY-RNV--A---------------K--  15
+146309    5                                  RTGWVY-RNV--P---------------D--  15
+18570192  81                    FL-SLCSRLKTTPRAGWGK-RDV--K---------------N--  103
+6841753   21                            LKRVPRTGWVY-RNV--A---------------K--  36
+2110134   5                                  RTGWVY-RNV--A---------------K--  15
+19085780  58                            LKRVPRTGWVY-RNV--A---------------E--  73
+22258784  44                VP--FF-HMIERLKTTKREGWRR-FGI--ETYESIPPGGALLTVSS--  83
+18854516  14                IS--FL-HTIGRLKDTPRRGWVE-HQI--C---------------R--  38
+14426338  87                    FL-SLCHSLKKTKRAGWIK-RDV--K---------------N--  109
+5944926   1                 MY--FL-RSIVEPKHVKRTGWIL-CDI--N---------------D--  25
+10958580  5                                  RTGWVY-RNV--A---------------K--  15
+23676038  1284              LG--FM-HRLERLKINKRTGWYH-HRI--S---------------R--  1308
+15275174  6                 IT--FL-RTVGKLKETDRTGWVE-HGI--P---------------N--  30
+3404045   5                                  RTGWVY-RNV--A---------------K--  15
+9626070   43                    FL-TLCHSLKTTKRAGWVR-RDV--Q---------------N--  65
+23533241  78                    FL-TLCHRLKTTKRKGWIN-HGI--K---------------G--  100
+22525288  57                LA--FL-HLLEQLKVQKRSGWIR-EGV--K---------------E--  81
+26569041  94                    FL-TLCHRLKTTKRKGWVN-HGI--K---------------G--  116
+20512949  84                VP--FF-HILERLKTTPREGWRR-FGK--K---------------N--  108
+5844755   25    -STSP-------VP--FF-HLIERLKTTKREGWRR-FGI--N------------------  52
+20916681  78                                 RTGWVY-RNI--E---------------N--  88
+15416645  25    -STSP-------VP--FF-HLIERLKTTKREGWRR-FGI--N------------------  52
+10730735  84                VS--FF-HILERLKTTPREGWRR-FGK--K---------------N--  108
+19683910  9                     FL-LACGKIKRTVRTGWTR-YGV--N---------------E--  31
+18784898  70    -YKSTGNEALDTLA--FL-HMLEQLKVQKRSGWIR-EGV--E---------------G--  105
+25959771  31                    FM-HFIGQLKTLRRTGWVR-SGV--P---------------D--  53
+13269252  44    ----------------LF-RIATKLKAVDRAGWIR-HGI--E---------------N--  66
+20260746  14                LQ--FL-RLVGQLKRLPXTGWVY-RNV--E---------------K--  38
+22715875  8                 LS--YF-MLIGKLKGIRRTGWVL-RGV--P---------------D--  32
+12454093  5                 LQ--FM-KLVGQLKRVPRTGWVY-RNI--K---------------Q--  29
+26092372  12                LP--FL-YLMHNLKTTPRTGWLR-TIK--N---------------P--  36
+18733088  9                     FM-ELVGRLKHMKRTGWVI-RNI--P---------------D--  31
+13261838  7                     FL-HTIGNLKGVRRTGWVE-TGV--L---------------Q--  29
+16511081  20      R---------LA--FI-HILERLKTQKRTGWIN-NGI--P---------------D--  45
+8634678   56                LA--FL-HLLEQLKVQKRSGWIR-EGL--M---------------P--  80
+8369784   16    -NL---------LQ--FL-RLVGQLKRVQRTGWVY-RNV--E---------------R--  42
+19813121  5                 LQ--FL-KLVGQLKRVPRTGWVY-RNV--A---------------N--  29
+21284217  15    -AL---------LE--FF-LICGRLKTTKRAGWVQ-QGV--H---------------Q--  41
+20805621  5                 LQ--FL-KLVGQLKRVPRTGWVY-RNV--A---------------N--  29
+21220188  10                    FM-ELVGRLKHMKRMGWVK-RNI--P---------------D--  32
+12404756  41                    FC-KLVGHLKHLPRTGWLY-KGI--E---------------N--  63
+24115420  10                    FM-ELVGRLKHMKRMGWVK-RNI--S---------------D--  32
+11453837  210               LQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  234
+12539369  210               LQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  234
+20605049  1                      M-ELIGNLKHTKRTGWVL-RDV--N---------------D--  22
+21971090  9                     FM-ELVGRLKHMKRTGWVK-RNI--P---------------D--  31
+8872296   9                     FM-ELVGRLKHMKRTGWVH-KNV--S---------------D--  31
+8166359   209               LQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  233
+26415283  35                IT--FF-HILERLKTTKRQGWLR-HGI--N---------------A--  59
+513081    120                   FM-ELVGRLKHMKRTGWVK-RNI--S---------------D--  142
+12028712  20      R---------LA--FF-HVLERLKTQKRTGWID-HNV--L---------------N--  45
+19661644  93                    FL-TLCHRLKTTKRKGWIN-HGI--K---------------S--  115
+6886154   92                    FL-TLCHRLKTTKRKGWIN-HGI--K---------------S--  114
+11398677  10                    FM-ELVGRLKHMKRTGWVK-RNI--P---------------D--  32
+10771608  226               LQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  250
+4509687   93                    FL-TLCHRLKTTKRKGWIN-HGI--K---------------S--  115
+16794105  188               IQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  212
+17067476  181               LQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  205
+26770434  188               IQ--FM-ELIGNLKHTKRTGWVL-RDV--N---------------D--  212
+21825963  7                 FA--FL-RVLEALKNIQRKGWAK-RGI--Q---------------S--  31
+11656109  19                IK--FL-TMVGKLKRTKRSGWVM-RGV--N---------------D--  43
+27101808  86                    FL-TLCHRLKTTKRKGWIN-HSI--K---------------G--  108
+16124648  87                    FL-TLCHRLKTTKRKGWIN-HSI--K---------------G--  109
+2806728   4                                  RTGWVY-RNI--K---------------K--  14
+17570038  27                LG--FF-HTIERLKTNKRTGWVN-QGM--D---------------K--  51
+17536458  5       K---------LK--FL-EEVGKLKRTARRGWVI-KNI--D---------------E--  30
+17527567  2                                 KRTGWVL-KNV--S---------------D--  13
+6033387   49                LA--FL-HLLEQLKVEKRSGWIR-EGL--Q---------------L--  73
+17027746  68                    FL-TLCHRLKTTKRAGWIR-RDV--K---------------G--  90
+
+Query_1   55    C----------E--SISDHMYRMGLTTML----I------T----D---K----------  75
+23616906  55    C----------E--SISDHMYRMGLTTML----I------T----D---K----------  75
+24020270  55    C----------E--SISDHMYRMGLTTML----I------T----D---K----------  75
+5450591   206   C----------E--SISDHMYRMGLTTML----I------T----D---K----------  226
+6673525   74    C----------E--SISDHMYRLGIITML----I------K----D---S----------  94
+15733548  73    C----------E--SIADHMYRMGITAML----I------R----D---P----------  93
+12787231  74    C----------E--SISDHMYRLSIITML----I------K----D---S----------  94
+7569571   72    C----------E--SIADHMYRMGITAML----I------K----D---A----------  92
+21643532  100   C----------E--SISDHMYRMGVTAML----I------K----D---P----------  120
+2460927   54    C----------E--SISDHMYRMSVTCML----L------K----D---T----------  74
+17298346  53    C----------E--SISDHMYRMGIMSML----I------K----D---P----------  73
+22541837  54    P----------E--SISDHMYRMGIMSAI----L------K----T---P----------  74
+20420573  1                        MYRLSIITML----I------K----D---S----------  14
+2502327   57    T----------E--SIADHMYRMSIIAMA----I------P----A---E----------  77
+21368319  71    V----------E--SIGDHMYRMSIISMA----I------P----N---N----------  91
+16120921  52    A----------ETESISDHMYRMSIIAMA----I------P----N---K----------  74
+15022913  61    C----------E--SISDHLFRITFMSQF----L------K----T---P----------  81
+14445410  57    A----------E--SISDHMYRMLIIAMA----L------P----R---L----------  77
+20977974  84    P----------E--SISDHMYRMSIIAMS----L------N----S---S----------  104
+11508915  58    P----------E--TIASHMYRMSILAML----C------P----D---T----------  78
+11890858  61    P----------E--TIASHMYRMAILAML----C------P----D---Q----------  81
+24223007  51    G----------E--TIADHMYRMSVITML----C------P----D---P----------  71
+5004243   59    P----------E--SIADHMYRMSIIAMS----L------NGDAFS---Q----------  83
+23849503  69    P----------E--SIADHMYRMSIIAMS----L-----------D---KFAFTKESNGK  98
+4858907   56    G----------E--SIADHMYRMSVITML----C------P----D---P----------  76
+19814024  104   S----------E--SIADHMYRMGLMALI----A------A----DI--P----------  125
+22141957  76    G----------E--SISDHMYRMSIITML----C------PPSL-S---S----------  99
+362186    35    P----------E--SIADHMHRMGVMAML----V------D----D---A----------  55
+26058789  56    P----------E--SISDHMYRMALLAML----S------E----D---H----------  76
+17664774  76    C----------E--SISDHMYRMSILTMM----A------P----S---SIGS-------  99
+10831985  81    G----------E--SISDHMYRMSIMTMFAPP-V------L----A---S----------  104
+17037433  97    G----------E--SISDHMYRMALISFH----C------P--------A----------  116
+8209672   76    G----------E--SISDHMYRMSIITML----C------PPSL-S---S----------  99
+2562929   62    C----------E--SISDHMYRMSILTMM----APAS---V----S---A----------  85
+2595128   81    C----------E--SISDHMYRMSILTMM----A------PASI-S---S----------  104
+15797881  78    G----------E--SISDHMYRMSLISMF----A------P----P---TLAP-------  101
+20438184  50    P----------E--SISDHMYRMAVLAML----C------D----D---T----------  70
+21430396  53    P----------E--SISDHMYRMAILAMC----T------S----D---A----------  73
+26987110  76    C----------E--SISDHMYRMSILTMM----APQS---I----S---S----------  99
+26404367  35    A----------E--SISDHMHRMGIMAML----V------N----D---P----------  55
+23262463  35    A----------E--SISDHMHRMGIMAML----V------N----D---P----------  55
+5832854   35    A----------E--SISDHMHRMGIMAML----V------S----D---P----------  55
+8678864   56    G----------E--SIADHMYRMSLITMF----A------PPSL-S---S----------  79
+18661437  57    G----------E--SISDHMYRMSIMTMF----A------PPAL-S---A----------  80
+15161006  45    P----------E--SISDHMYRMALLSMC----T------S----D---A----------  65
+4059410   71    G----------E--SISDHMYRMSILTML----A------P----E---S----------  91
+10436002  57    G----------E--SISDHMYRMSIMTML----A------P----P---S----------  77
+17547272  56    G----------E--SIADHMYRMSLITMF----A------P----P---S----------  76
+14208332  63    -----------E--SVADHSYRMGMVAMF-----------A----P---Q----------  81
+20363311  82    G----------E--SISDHMYRMAMISMF----V------P----PTLAG----------  105
+10076972  78    P----------E--SIADHMYRMGLMALI----A------P----DV--S----------  99
+14081317  77    G----------E--SISDHMYRMSLISMF----A------P----P---ELAP-------  100
+17524741  87    G----------E--SISDHMYRMSIITML----A------PPSL-S---S----------  110
+19289608  79    G----------E--SIADHMYRMSIMTLL----C------P----PTLAS----------  102
+7850670   55    S----------E--SISDHMYRMAVLALC----S------S----D---T----------  75
+1305844   55    P----------E--SISDHMYRMGIMALV----A------P----DI--P----------  76
+10637026  146   A----------E--SIADHMYRMGIMAML----I------D----E---KTA--------  168
+20967019  71    C----------E--SISDHMYRMAIMAMI----L------P----A---SLAA-------  94
+8542269   71    G----------E--SIADHMYRMSLLSMLCPP-A------L----A---S----------  94
+22523182  79    G----------E--SISDHMYRMSLITMF----A------P----PALAK----------  102
+24574254  63    -----------E--SVADHSYRMGMVAMF-----------A----P---Q----------  81
+22292849  82    G----------E--SIADHMYRMSLISMF----A------P----P---SLAP-------  105
+8047799   82    G----------E--SIADHMYRMSLISMF----A------P----P---SLAP-------  105
+14406119  146   A----------E--SIADHMYRMGIMAML----I------D----E---KTA--------  168
+26259395  78    G----------E--SIADHMYRMSIISMF----A------P----PSLAK----------  101
+27324570  81    P----------E--SISDHMYRMGLMALI----S------A----DI--P----------  102
+15142294  63    -----------E--SVADHSYRMGMIAMF-----------A----P---Q----------  81
+26842307  57    G----------E--SISDHMYRMSVMTML----A------P----P---S----------  77
+17102858  84    G----------E--SIADHMYRMSMISMF----A------P----P---SLAP-------  107
+23322974  728   P----------E--SISDHMYRMAILSML----T------T----D---Q----------  748
+24220066  63    -----------E--SVADHSYRMGMIAMF-----------A----P---Q----------  81
+1878037   94    G----------E--SIADHMYRMSIISMF----A------PPSL-A---K----------  117
+16896472  57    G----------E--SISDHMYRMSVMTML----A------P----P---S----------  77
+4558814   57    G----------E--SISDHMYRMSIMTML----A------P----P---S----------  77
+10740353  93    P----------E--SIADHMYRMGVMALI----A------A----DL--P----------  114
+10231093  79    G----------E--SISDHMYRMSLITMF----A------P----PALAK----------  102
+16597786  82    P----------E--SIADHMYRMGVMALI----S------A----DL--P----------  103
+17610447  127   P----------E--SIADHMYRMGLMALI----S------A----DI--P----------  148
+16237145  84    G----------E--SIADHMYRMAMISML----A------P----P---SLRA-------  107
+24857995  54    G----------E--SISDHMYRMSIMTMM----APPS---V----A---K----------  77
+21140335  57    G----------E--SISDHMYRMSVMTML----A------P----P---S----------  77
+7904385   93    P----------E--SIADHMYRMGLMALI----A------S----DI--P----------  114
+4228225   115   P----------E--SIADHMYRMGLMALI----A------S----DI--P----------  136
+6350872   56    S----------E--SISDHMYRMAVLAMC----T------S----D---T----------  76
+12824142  74    G----------E--SISDHMYRMSLMSML----C------P----P---ALLP-------  97
+12981394  75    G----------E--SISDHMYRMSLMTMLCPP-T------L----A---P----------  98
+27104086  36    C----------E--SIAGHMYRMGLMTFL----L------T----E---E----------  56
+17835405  84    G----------E--SIADHMYRMSLISMF----A------P----P---SLAP-------  107
+15628187  55    P----------E--SISDHMYRMSILAMC----A------S----D---T----------  75
+19716332  53    G----------E--SIADHMYRMSVMTML----A------P----P---S----------  73
+26085122  152   A----------E--SIADHMYRMGIMALL----I------D----E---KTA--------  174
+26255469  107   P----------E--SIADHMYRMSLMGLI----V------G----DI--P----------  128
+6232986   47    P----------E--SISDHMYRMAVLSMC----T------S----D---K----------  67
+22578998  72    G----------E--SIADHMYRMSIITML----A------PPSL-S---S----------  95
+20841327  111   -----------E--SVADHSYRMGMIA-L----F------A----P---Q----------  129
+17367653  94    A----------E--SIADHMYRMSLMALI----A------G----DL--T----------  115
+6229703   60    P----------E--SISDHMYRMAVLAMC----T------S----D---T----------  80
+11450374  76    C----------E--DVAGHMYRMGIMAFL----L------D----D---EASS-------  99
+1753571   53    G----------E--SIADHMYRMSVMTML----A------P----P---S----------  73
+13468856  89    P----------E--SIADHMYRMGLMALI----A------L----DFP-P----------  111
+21762857  61    G----------E--SISDHMYRMSMMTLL----C------P----PTLAS----------  84
+8504008   74    G----------E--SISDHMYRMSLMSML----C------P----P---SLLS-------  97
+25709421  35    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  55
+696508    54    A----------E--SISDHMYRMAVLAMC----T------S----D---S----------  74
+14774866  40    P----------E--SVSDHMYRMAVMSLT----I------T----D---P----------  60
+9810361   149   G----------E--SIADHMYRMSMMAMCPPPSL------I----S---Q----------  173
+16612569  149   A----------E--SIADHMYRMGIMAML----I------D----E---KTA--------  171
+13451700  105   P----------E--SIADHMYRMAIMALI----A------G----DL--T----------  126
+5434179   46    P----------E--SVSDHMYRMAIMAMV----T------E----D---K----------  66
+25794756  58    A----------E--SISDHMYRMSIITML----A------PPSL-S---S----------  81
+16485649  83    G----------E--SIADHMYRMAMMSML----A------P----P---ALAP-------  106
+17185705  117   P----------E--SVADHMYRMSVMA-L----I------A----DYS-P----------  138
+18820405  103   P----------E--SIADHMYRMALMALI----A------G----DL--A----------  124
+22436400  38    P----------E--SVADHMYRMSMCCML----L------D----D---D----------  58
+23699696  38    P----------E--SVSDHMYRMAVMAFL----V------K----D---Q----------  58
+8850712   35    P----------E--SVSDHMYRMAVMALM----T------K----D---K----------  55
+22418684  63    P----------E--SIADHMYRMGIMALI----S------S----DI--P----------  84
+16449822  38    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  58
+27102858  40    P----------E--SVSDHMYRMAVMSLT----I------T----D---P----------  60
+16192211  45    P----------E--SVSDHMYRMAMMSLT----I------T----D---P----------  65
+17846320  37    P----------E--SIADHMYRMSVMAMI----A------G----D---D----------  57
+14883206  84    G----------E--SIADHMYRMAMISML----C------P----P---SLRG-------  107
+5857234   50    P----------E--SIADHMYRMGLMAML----V------Q----G---T----------  70
+4712180   66    A----------E--SISDHMYRMAVLAMC----T------S----D---D----------  86
+6836530   37    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  57
+16865225  83    G----------E--SIADHMYRMSLMSML----A------P----P---ALAP-------  106
+11081703  104   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  125
+9904218   33    P----------E--SIADHMYRMSIMAMS----I------E----D---T----------  53
+5058098   35    P----------E--SVSDHMYRMAVMALV----T------E----D---K----------  55
+2392409   100   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  121
+3723396   29    P----------E--SIADHMHRMALMAML----V------D----D---P----------  49
+6191256   67    G----------E--SISDHMYRMALITMF----A------P----P---S----------  87
+21690875  104   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  125
+25475111  125   A----------E--SIADHMYRMALMALI----A------G----DL--P----------  146
+14457008  37    P----------E--SVADHMYRMAMCTML----LD-----G----D---S----------  58
+6337017   60    P----------E--SIADHMYRMGLMALI----S------S----DI--P----------  81
+19070443  111   P----------E--SIADHMYRMGLMALI----A------C----DI--P----------  132
+691289    35    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  55
+21641453  95    P----------E--SVADHMYRMGVMALI----A------K----DI--P----------  116
+4444456   93    P----------E--SVADHMYRMGVMALV----A------A----DLP-A----------  115
+15522056  40    P----------E--SVSDHMYRMAMMALT----I------T----D---P----------  60
+24213497  40    P----------E--SVSDHMYRMAVMSLT----I------T----D---P----------  60
+4159438   37    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  57
+22150506  117   P----------E--SIADHMYLMSVMALI----A------S----DL--P----------  138
+2904536   50    P----------E--SVADHMYRMGLMALI----A------S----DI--P----------  71
+4530694   34    P----------E--SVADHMYRMAILSFL----VDP----T----S---S----------  56
+22156830  41    P----------E--SISDHMYRMSVLALC----S------S----D---P----------  61
+15739001  38    P----------E--SVSDHMYRMAMMSLT----I------T----D---P----------  58
+16036477  36    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  56
+11192711  107   P----------E--SIADHMYRMGLMALI----A------S----DI--P----------  128
+3314295   38    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  58
+26654283  100   P----------E--SIADHMYRMGLMALV----S------S----DI--P----------  121
+2838902   182   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  203
+11924218  50    A----------E--SISDHMWRMSIMSLV----C------A----D---E----------  70
+17515703  111   S----------E--SIADHMYRMSLMALI----V------G----DL--P----------  132
+17108727  37    P----------E--SVSDHMYRMAIMALV----T------E----D---K----------  57
+7074544   1511  P----------E--SIADHMYRMAMLSLL----CP-----A----E---A----------  1532
+12202970  53    G----------E--SISDHMYRMSIMTMF----A------P----P---E----------  73
+16082358  54    G----------E--SISDHMYRMSIMTMM----A------P----P---SLAA-------  77
+287834    35    P----------E--SIADHMYRMSLMAMV----A------S----K---SMP--------  57
+15713778  36    P----------E--SVADHMYRMAMMALV----T------E----D---K----------  56
+1441610   53    G----------E--SISDHMYRMSIMTMF----A------P----P---E----------  73
+3654561   23    G----------E--SISDHMYRMSIFTMMAPKDV------T----D--------------  46
+6200078   31    A----------E--SVADHMYRMGVLAML----L------N----S---D----------  51
+26388721  16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+3410654   103   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  124
+18470102  16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+11968045  112   S----------E--SIADHMYRMSLMALI----V------G----DL--P----------  133
+4906607   39    P----------E--SIADHMHRMSILALC----T------S----D---T----------  59
+11990579  98    P----------E--SVADHMYRMGVMALV----A------A----DLP-A----------  120
+24767283  16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+23785865  30    P----------E--SVSDHMYRMSMMALT----I------A----D---H----------  50
+17706146  16    P----------E--SVSDHMYRMAVMALV----T------E----D---K----------  36
+8963266   16    P----------E--SVSDHMYRMAMMALV----T------A----D---K----------  36
+16998446  38    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  58
+13032256  111   P----------E--SIADHMYRMALMALI----A------G----DI--P----------  132
+4441460   94    P----------E--SIADHMYRMALMALV----A------D----DL--P----------  115
+8700833   2629  P----------E--SIADHMYRMAMLSLL----CP-----A----E---H----------  2650
+5704850   17    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  37
+14545940  16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+146309    16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+18570192  104   P----------E--SIADHMYRMGLMALI----S------S----DI--P----------  125
+6841753   37    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  57
+2110134   16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+19085780  74    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  94
+22258784  84    G----------E--SIADHMYRMSLITMC----A------P----A---SLTA-------  107
+18854516  39    P----------E--SISDHMYRMSLMCMM----C------P----D---T----------  59
+14426338  110   P----------E--SIADHMYRMGLMALI----A------P----DI--P----------  131
+5944926   26    C----------E--TIAGHMYRMGIMTFL----L------T----E---E----------  46
+10958580  16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+23676038  1309  P----------E--SIADHMYRMAVLAML----N------P----A---Q----------  1329
+15275174  31    P----------E--SVSDHMYRVAVMCMM----C------P----D---E----------  51
+3404045   16    P----------E--SVSDHMYRMAMMALV----T------E----D---K----------  36
+9626070   66    P----------E--SIADHMYRMGLMALI----A------S----DI--P----------  87
+23533241  101   P----------E--SIADHMYRMALMALI----A------A----DLP-S----------  123
+22525288  82    A----------E--SISDHMCRMALMAMM----I------P----QDPAK----------  105
+26569041  117   P----------E--SIADHMYRMAIMALI----A------G----DL--P----------  138
+20512949  109   G----------E--SISDHMYRMAMMAMF----A------P----EPLRG----------  132
+5844755   53    G----------E--SISDHMYRMSIMTMM----A------P----P---SLAT-------  76
+20916681  89    P----------E--SVSDHMYRMAIMAFL----V------K----D---Q----------  109
+15416645  53    G----------E--SIADHMYRMSIMTMM----A------P----P---SLAT-------  76
+10730735  109   G----------E--SISDHMYRMAMMAMF----A------P----EPLRG----------  132
+19683910  32    P----------E--SVSDHMYRMALLSIL----L------P----S---T----------  52
+18784898  106   A----------E--SISDHMCRMALMAMM----VPNT---S----E---R----------  129
+25959771  54    P----------E--SDCDHMHRCAVMAML----T------PAD--K---K----------  76
+13269252  67    P----------E--SVAAHSWGMTFLALF----V------P----L---E----------  87
+20260746  39    P----------E--SISDHMYGMAVVALV----T------E----D---K----------  59
+22715875  33    P----------E--RISGHMYRMSIMAMM----V------G----NDPEA----------  56
+12454093  30    P----------E--SVSDHMYRMSMMALT----I------Q----D---I----------  50
+26092372  37    -----------E--SVADHSFRLALLAML----A------P----E--------------  55
+18733088  32    P----------E--TIAGHMYRMAILSLL----TD-----S----N---N----------  53
+20363065  9                E--SVADHSYRMGMVAMF-----------A----P---Q----------  27
+13261838  30    P----------E--SVSDHMYRVALMCMM----C------P----D---S----------  50
+16511081  46    A----------E--SISDHMYRMAVLAMC----S------S----D---I----------  66
+8634678   81    Q----------KC-SISDHMCRMALMAMM----I------P----QDPAR----------  105
+8369784   43    P----------E--SVSDHMYRMAIMALV----T------K----D---D----------  63
+19813121  30    P----------E--SVSDHMYRMAIMAMV----T------E----D---K----------  50
+21284217  42    P----------E--SVADHMYRMGMMALA----FDGEPGHS----G---E----------  68
+20805621  30    P----------E--SVSDHMYRMAIMAMV----T------E----D---K----------  50
+21220188  33    P----------E--TIAGHMYRMAMLSFL----V------D----G---KE---------  54
+12404756  64    P----------E--TVAAHMYRMAVLTFF----L------Q----N---E----------  84
+24115420  33    P----------E--TIAGHMYRMAMLSFL----V------D----G---KE---------  54
+11453837  235   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  256
+12539369  235   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  256
+20605049  23    C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  44
+21971090  32    P----------E--TIAGHMYRMAMLSFL----V------D----G---KD---------  53
+8872296   32    P----------E--TIAGHMYRMAILSFL----V------NN---D---E----------  53
+8166359   234   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  255
+14285352  1                        MYRMSLMALI----A------S----DV--P----------  15
+26415283  60    SGVLTAGHFSGE--SIADHMHRMGIMVLF----APPS---V----R---A----------  93
+513081    143   P----------E--TIAGHMYRMAMLSFL----V------D----G---KE---------  164
+12028712  46    P----------E--SISDHMYRMAILAMC----T------S----D---A----------  66
+19661644  116   A----------E--SIADHMYRMALMALI----A------A----DV--P----------  137
+6886154   115   A----------E--SIADHMYRMALMALI----A------A----DV--P----------  136
+11398677  33    P----------E--TIAGHMYRMAMLSFL----V------D----G---KE---------  54
+10771608  251   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  272
+4509687   116   A----------E--SIADHMYRMALMALI----A------A----DV--P----------  137
+16794105  213   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  234
+17067476  206   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  227
+26770434  213   C----------E--SISGHMYRMSMLTFL----LD-----G----S---E----------  234
+21825963  32    P----------E--SVSDHMYRMAVMVWM----I------P----EI--D----------  53
+11656109  44    P----------E--SVSDHMY---------------------------------------  52
+27101808  109   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  130
+16124648  110   P----------E--SIADHMYRMALMALI----A------G----DL--P----------  131
+2806728   15    P----------E--SVADHMYRMAVLAFL----I------E----D---K----------  35
+17570038  52    P----------E--SIADHMYRMAMMCLA----F------P----EL--G----------  73
+17536458  31    P----------E--TISGHMYRMSLMPLL----V------M----E---NLV--------  53
+17527567  14    P----------E--TIAGHMYRMAMFSFL----V------D----N---E----------  34
+20907535  1                        MYRMAVMSML----F------E----N---KY---------  15
+6033387   74    T----------A--SIADHMCRMALMAMM----IPST---A----E---R----------  97
+17027746  91    P----------E--SIADHMYRMGIMALV----A------P----DI--P----------  112
+
+Query_1   76    -N--------VDR---N----K---CIRIALVHDFAE-SLVGDITPN--D-P-MTK--EE  109
+23616906  76    -N--------VDR---N----K---CIRIALVHDFAE-SLVGDITPN--D-P-MTK--EE  109
+24020270  76    -N--------VDR---N----K---CIRIALVHDFAE-SLVGDITPN--D-P-MTK--EE  109
+5450591   227   -N--------VDR---N----K---CIRIALVHDFAE-SLVGDITPN--D-P-MTK--EE  260
+6673525   95    -R--------VNR---D----K---CVRIALVHDIAE-SLVGDITPV--D-P-IGK--EE  128
+15733548  94    -K--------INR---D----K---CVRIALVHDIAE-ALVGDITPL--D-P-VGK--EE  127
+12787231  95    -R--------VNR---D----K---CVRIALVHDIAE-SLVGDITPV--D-P-IGK--EE  128
+7569571   93    -R--------VNR---D----K---CVRIAMVHDIAE-SLVGDITPF--D-P-VGK--EE  126
+21643532  121   -K--------VDV---K----R---CVRIALVHDIAE-SLVGDITPF--D-P-VTK--EE  154
+2460927   75    -S--------INK---E----K---CVRIALVHDLAE-ALVGDITPF--D-A-VTK--EE  108
+17298346  74    -K--------VNR---D----K---CVRIALVHDIAE-SLVGDITPF--A-P-VTK--EE  107
+22541837  75    -N--------VNT---D----K---CVKISLVHDIAE-SIVGDITPF--DVK-IDK--EE  109
+20420573  15    -R--------VNR---D----K---CVRIALVHDIAE-SLVGDITPV--D-P-IGK--EE  48
+2502327   78    -S--------VSI---D----K---CVKIALVHDIAE-SLVGDITPF--G-G-VTK--EE  111
+21368319  92    -D--------INI---D----Q---CAKIALVHDIAE-SLVGDITPF--G-G-VSK--KE  125
+16120921  75    -S--------INI---D----R---CVKIALVHDIAE-SLVGDITPF--G-G-TTK--QE  108
+15022913  82    -G--------LDI---S----K---CFSIALAHDVAE-AIVGDITPT--DVK-IDK--TE  116
+14445410  78    -K--------VDV---D----K---CVKIALVHDIAE-ALVGDITPA--E-N-MPK--QE  111
+20977974  105   -NFPENNNEKLDL---S----K---CVKISLIHDIAE-ALVGDIVPH--D-TTVNK--EE  147
+11508915  79    -S--------LDR---S----K---CMKMALVHDIAE-SVVGDFTPM--D-P-ISK--EE  112
+11890858  82    -E--------IDR---G----K---CIKMALVHDIAE-SVVGDFTPM--D-P-ISK--EE  115
+24223007  72    -E--------IQK---D----K---CIKMAIVHDMAE-CLVGDITPL--D-G-IPK--AE  105
+5004243   84    -K--------PDL---T----K---CAKIALVHDIAE-SLVGDIVPH--D-ANIDK--KE  118
+23849503  99    TT--------PDL---S----Q---CVKIALIHDIAE-SLVGDIVPQ--D-PNVKK--AE  134
+4858907   77    -S--------IKK---D----K---CVKMAIVHDMAE-SLVGDITPL--D-G-IPK--PE  110
+19814024  126   -G--------VDR---N----K---CVKMAIVHDIAE-AIVGDITPS--D-G-ISK--AE  159
+22141957  100   -R--------LDV---P----R---CTRMALIHDMAE-ALVGDITPV--D-G-VPK--SE  133
+362186    56    -A--------LDR---N----K---CVKMAIVHDLAE-SVVGDITPH--A-G-VSK--EE  89
+26058789  77    -N--------IDV---S----K---CVMMALVHDLAE-AQVGDIAPR--E-G-IPK--AE  110
+17664774  100   -K--------LDI---L----R---CCRMALIHDMAE-SLVGDITPV--D-P-VSK--EE  133
+10831985  105   -K--------LNV---P----R---CTKMALIHDMAE-SIVGDITPA--D-THITK--VE  139
+17037433  117   -H--------LDR---A----R---CINMALIHDMAE-SLVGDITPV--D-N-VPK--SE  150
+8209672   100   -R--------LDV---P----R---CTRMALIHDMAE-ALVGDITPV--D-G-VPK--SE  133
+2562929   86    -K--------LDM---L----R---CCRMALIHDMAE-SLVGDITPV--D-P-ISK--EE  119
+2595128   105   -K--------LDI---L----K---CCRMALIHDMAE-SLVGDITPV--D-P-VSK--EE  138
+15797881  102   -K--------LDL---A----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VPK--PE  135
+20438184  71    -Q--------LDV---S----K---CVMMALVHDLAE-AQVGDITPS--E-G-IPK--AE  104
+21430396  74    -T--------LDV---S----K---CVMMALVHDLAE-AQVGDIAPR--E-G-IPK--AE  107
+26987110  100   -K--------LDI---L----R---CCRMALIHDMAE-SLVGDITPV--D-P-VSK--EE  133
+26404367  56    -S--------INR---E----R---CIKMAIVHDLAE-AVVGDITPH--A-G-VSK--EE  89
+23262463  56    -S--------INR---E----R---CIKMAIVHDLAE-AVVGDITPH--A-G-VSK--EE  89
+5832854   56    -S--------INR---E----K---CIKMAIVHDLAE-AVVGDITPH--A-G-VSK--EE  89
+8678864   80    -K--------LNI---P----H---CTKMALIHDMAE-ALVGDITPM--D-G-VSK--PE  113
+18661437  81    -R--------LNI---P----R---CTKMALIHDMAE-SIVGDITPA--D-THIPK--VE  115
+15161006  66    -K--------LDV---A----K---CVMLSVVHDLAE-AQVGDIAPS--H-G-ISK--EE  99
+4059410   92    -L--------SSRLNIP----R---CTKMALIHDMAE-ALVGDITPV--D-N-VTK--EE  128
+10436002  78    -L--------AARLNLP----H---CTKMALVHDMAE-SLVGDITPV--D-K-VDK--KE  114
+17547272  77    -L--------SSRLNIP----H---CTKMALVHDMAE-ALVGDITPM--D-G-VSK--PE  113
+14208332  82    -E--------LDQ---A----K---CMKMCLVHDIAE-SVVGDITPF--S-G-VSR--TE  115
+20363311  106   -R--------IDQ---N----K---CIKMCLIHDMAE-SLVGDITPV--D-G-VAK--PE  139
+10076972  100   -G--------FDR---N----K---CIKLAIVHDIAE-AIVGDITPM--D-G-VSK--QE  133
+14081317  101   -K--------LDL---H----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VSK--PE  134
+17524741  111   -R--------LDV---P----H---CTKMALVHDMAE-LLVGDITPR--D-Q-VPK--EE  144
+19289608  103   -T--------LDL---P----R---CTRMALVHDMAE-SLVGDITPV--D-G-VTK--TE  136
+7850670   76    -K--------LDI---A----K---CVMIAVVHDLAE-AQVGDIAPR--E-G-IPK--AE  109
+1305844   77    -G--------VNR---D----R---CVKMAIVHDIAE-AIVGDITPS--D-G-ISK--SE  110
+10637026  169   -G--------VNK---D----K---CIKMAIVHDLAE-SLVGDITPY--D-G-VTV--ED  202
+20967019  95    -R--------VDQ---D----K---CIKMALIHDMAE-LLVGDITPV--D-G-VPK--PE  128
+8542269   95    -R--------VDL---A----R---CMKMCLIHDMAE-SLVGDITPV--D-G-VPK--PE  128
+22523182  103   -K--------LDL---A----K---CMRMALIHDMAE-LLVGDITPV--D-G-VPK--TE  136
+24574254  82    -E--------LDQ---A----K---CMKMCLVHDIAE-SVVGDITPF--S-G-VSR--TE  115
+22292849  106   -K--------LDL---P----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VPK--PE  139
+8047799   106   -K--------LDL---P----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VPK--PE  139
+14406119  169   -G--------VNK---D----R---CIKMAIVHDLAE-SLVGDITPY--D-G-VTI--ED  202
+26259395  102   -R--------IDL---H----K---CMKMCLIHDMAE-LLVGDITPV--D-G-IPK--PE  135
+27324570  103   -G--------VNR---D----K---CVKMAIVHDMAE-AIVGDITPC--D-G-ISK--TE  136
+15142294  82    -G--------LDQ---A----K---CIKMCLVHDIAE-SAVGDITPF--S-G-VSR--AE  115
+26842307  78    -L--------APRLNLP----H---CMKMALIHDMAE-SLVGDITPV--D-N-VDK--KE  114
+17102858  108   -K--------LDL---A----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VPK--PE  141
+23322974  749   -S--------LDV---S----K---CVMMALVHDLAE-AQVGDITPY--E-N-FTK--EE  782
+24220066  82    -G--------LDQ---V----K---CMKMCLFHDVAE-SVVGDITPF--S-G-VSK--AE  115
+1878037   118   -R--------IDL---H----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VPK--PE  151
+16896472  78    -L--------ASRLNLP----H---CMKMALIHDMAE-SLVGDITPV--D-K-VDK--PE  114
+4558814   78    -L--------AGRLNLA----H---CMKMALVHDMAE-SLVGDITPV--D-K-VDK--KE  114
+10740353  115   -G--------VDR---D----K---CVKMAIVHDIAE-AIVGDITPA--D-G-ISK--DE  148
+10231093  103   -K--------LDL---Q----K---CMKMALIHDMAE-LLVGDITPV--D-G-VPK--TE  136
+16597786  104   -G--------VDR---D----K---CIKMAIVHDIAE-AIVGDITPA--D-G-ISK--DE  137
+17610447  149   -G--------VDR---N----K---CIKMAIVHDIAE-AIVGDITPS--D-G-ISK--AE  182
+16237145  108   -R--------VDR---D----K---CTRMCLVHDMAE-SLVGDITPV--D-G-VPK--PE  141
+24857995  78    -E--------VNI---P----R---CIKMALIHDMAE-ALVGDITPA--D-P-VTK--PE  111
+21140335  78    -L--------ASRLNLP----H---CMKMALIHDMAE-SLVGDITPV--D-R-VDK--TE  114
+7904385   115   -G--------VDR---D----K---CIKIALVHDIAE-AIVGDITPS--D-G-VPK--AE  148
+4228225   137   -G--------LDR---D----K---CIKIAIVHDIAE-AIVGDITPS--D-G-ISK--AE  170
+6350872   77    -K--------LDI---S----K---CVMMCLVYDLAE-AQVGDIAPR--E-G-IPK--AE  110
+12824142  98    -K--------IDL---A----K---CMKMCLIHDMAE-ALVGDITPV--D-G-VAK--PE  131
+12981394  99    -K--------LDL---F----K---CMKMCLIHDMAE-AIVGDITPV--D-G-VAK--PE  132
+27104086  57    -NNPTK----LDR---F----K---CLQIALVHDLAE-CIVGDLTPH--C-G-VSP--EE  94
+17835405  108   -K--------LDL---P----K---CMKMCLIHDMAE-LLVGDITPV--D-G-VPK--PE  141
+15628187  76    -A--------LDI---S----K---CVMMCVVHDLAE-AHVGDIAPN--E-G-ISK--EE  109
+19716332  74    -L--------ASK---L----NILHCTKMALVHDMAE-SIVGDITPV--D-TEVTK--AE  111
+26085122  175   -G--------VDK---D----R---CIKMAIVHDLAE-SLVGDITPY--D-G-VSN--ED  208
+26255469  129   -G--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-IPK--EE  162
+6232986   68    -N--------LDV---A----K---CVMLSVVHDLAE-AQVGDIAPS--H-G-ISK--EE  101
+22578998  96    -K--------LNI---P----H---CTKMALIHDMAE-ALVGDITPV--D-G-VAK--HE  129
+20841327  130   -G--------LDQ---A----K---CMKMCLFHDIAE-SVVGDITPF--S-G-VSK--AE  163
+17367653  116   -G--------IDR---E----R---CIKMAIVHDIAE-AIVGDITPS--D-G-VPK--EE  149
+6229703   81    -R--------LDI---S----K---CVMMALIHDLAE-AQVGDIAPR--E-G-IPK--SE  114
+11450374  100   -N--------VDR---N----K---CIKMALVHDIAE-CIVGDLTPF--C-G-ISK--DE  133
+1753571   74    -L--------ASK---L----NILHCTKMALVHDMAE-SIVGDITPV--D-TEVTK--AE  111
+13468856  112   -G--------VDR---N----K---CVKMAIVHDIAE-AIVGDITPA--D-G-VPK--EE  145
+21762857  85    -K--------LDL---A----K---CMKMCLIHDMAE-SIVGDITPV--D-G-VPK--SE  118
+8504008   98    -K--------IDL---P----K---CMKMCLIHDMAE-AIVGDITPV--D-G-VPK--PE  131
+25709421  56    -S--------LNK---D----R---CIRLALVHDMAE-SIVGDIAPA--D-N-VSK--EE  89
+696508    75    -A--------LDV---S----K---CVMMAVVHDLAE-AQVGDITPR--E-G-ISK--QE  108
+14774866  61    -A--------VDK---D----R---CIKLALVHDMAE-SIVGDIAPS--D-N-VSK--EE  94
+9810361   174   -G--------LDL---N----K---CIKMCLIHDIAE-AVVGDITPA--D-L-VSK--VE  207
+16612569  172   -G--------VNK---D----R---CLKMAIVHDLAE-SLVGDITPY--D-G-VSV--DD  205
+13451700  127   -G--------LDR---E----R---CIKMAIVHDIAE-AIVGDITPS--D-G-VPK--EE  160
+5434179   67    -T--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  100
+25794756  82    -K--------LNI---A----H---CTKMALVHDMAE-SLVGDITPV--DTS-VTK--PE  116
+16485649  107   -R--------LDL---N----K---CMKMCLIHDMAE-SLVGDITPV--D-G-VPK--PE  140
+17185705  139   -D--------IDR---D----R---CIKMALVHDIAE-AIVGDITPS--D-G-VPK--DE  172
+18820405  125   -G--------VNR---E----R---CIKMAIVHDIAE-AIVGDITPS--D-G-VPK--EE  158
+22436400  59    -NKA------VNR---S----K---CIKMAIVHDLAE-SLVGDITPH--D-G-VAE--ED  94
+23699696  59    -Q--------LNK---D----R---CVRLALVHDMAE-CIVGDIAPA--D-N-VSK--EE  92
+8850712   56    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  89
+22418684  85    -G--------IDR---D----K---CIKMAIVHDIAE-AIVGDITPF--D-G-ISK--LE  118
+16449822  59    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  92
+27102858  61    -T--------VDK---D----R---CIKLALVHDMAE-SIVGDIAPS--D-N-VSK--EE  94
+16192211  66    -T--------VDK---D----R---CIKLALVHDMAE-CIVGDIAPS--D-N-VSK--AE  99
+17846320  58    -GGK------LDR---N----K---CIKLAIAHDIAE-AIAGDIAPS--D-N-VPK--EE  93
+14883206  108   -R--------IDR---D----K---CTRMCLVHDMAE-SLVGDITPV--D-G-VPK--PE  141
+5857234   71    -E--------YDY---H----R---CIKLALVHDVAE-AIVGDITPT--C-G-VSD--ED  104
+4712180   87    -K--------LDV---P----K---CVMMCVVHDLAE-AQVGDIAPR--E-G-IPK--ET  120
+6836530   58    -G--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  91
+16865225  107   -R--------LDL---N----K---CIKMCLIHDMAE-SLVGDITPV--D-G-VAK--PE  140
+11081703  126   -G--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--EE  159
+9904218   54    -T--------VDK---I----R---CVKMALVHDIAE-SIAGDITPH--D-K-VTK--SE  87
+5058098   56    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  89
+2392409   122   -A--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--EE  155
+3723396   50    -S--------INR---E----R---CVKMAIVHDLAE-AIVGDITPH--A-G-VSK--EE  83
+6191256   88    -L--------SSRLNIP----H---CTKMALVHDMAE-ALVGDITPV--D-G-VSK--PE  124
+21690875  126   -G--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--QE  159
+25475111  147   -G--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPA--D-G-VPK--AE  180
+14457008  59    -S--------LDR---T----R---CIKMAIVHDLAE-SYVGDITPH--D-G-VSN--EE  92
+6337017   82    -G--------VNR---D----K---CMKMAIVHDIAE-AIVGDITPS--C-G-ISK--EE  115
+19070443  133   -G--------IDR---D----K---CVKMAIVHDIAE-AIVGDITPS--D-G-ISK--AE  166
+691289    56    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  89
+21641453  117   -G--------VDR---D----K---CIKMAIVHDIAE-AIVGDITPS--D-G-VSK--TE  150
+4444456   116   -G--------VNR---D----R---CVKMAIVHDIAE-AIVGDITPA--D-G-VPK--EE  149
+15522056  61    -T--------VDK---D----R---CIKLALVHDMAE-CIVGDIAPS--D-N-VSK--AE  94
+24213497  61    -T--------VDR---D----R---CVRLALVHDMAE-CIVGDIAPS--D-N-VSK--AE  94
+4159438   58    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  91
+22150506  139   -D--------VNR---E----R---CIKMAIVHDIAE-AIVGDITPS--D-G-VPK--AE  172
+2904536   72    -G--------VNR---E----K---CIKMAIVHDIAE-AIVGDITPS--D-G-IPK--EE  105
+4530694   57    -G--------LNK---D----R---CIKISLVHDLAE-CIVGDLTPQ--D-N-IPK--AE  90
+22156830  62    -D--------LDV---S----K---CTMMCIVHDIAE-AQVGDIAPS--H-G-IAK--EE  95
+15739001  59    -S--------VDK---D----R---CIKLALVHDMAE-CIVGDIAPS--D-N-ISK--AE  92
+16036477  57    -N--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  90
+11192711  129   -G--------IDQ---D----K---CVKMAIVHDIAE-AIVGDITPS--D-G-IYK--AE  162
+3314295   59    -S--------LNK---D----R---CMRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  92
+26654283  122   -G--------VNR---D----K---CMKMAIVHDIAE-AIVGDITPS--C-G-VSK--EE  155
+2838902   204   -G--------VDR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--KE  237
+11924218  71    -R--------IDH---I----K---ASQMAIVHDIAE-CIVGDIAPS--D-N-ITK--PV  104
+17515703  133   -G--------VNR---E----R---CIKMAIVHDIAE-AIVGDITPS--D-G-VPK--AE  166
+17108727  58    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  91
+7074544   1533  -D--------VDL---G----K---CVQLAIVHDLAE-AEVGDLTPL--D-G-VNK--HE  1566
+12202970  74    -L--------ASRLNIP----H---CTKMALIHDMAE-SLVGDITPV--D-KDVTK--TE  111
+16082358  78    -K--------INI---P----R---CIKMALIHDMAE-ALVGDITPV--D-G-ITK--AE  111
+287834    58    -H--------LDQ---S----R---CVKLALIHDLAE-AIVGDITPH--D-P-VTK--VE  91
+15713778  57    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  90
+1441610   74    -L--------ASKLNIQ----H---CTKMALIHDMAE-SLVGDITPV--D-KDVTK--AE  111
+3654561   47    -G--------LNV---L----H---CCRMALIHDMAE-ALVGDITPV--D-N-VSK--AE  80
+6200078   52    -NGSQH----LDK---D----K---CVKMSLVHDLAE-CIVGDITPH--C-G-VSN--EE  89
+26388721  37    -N--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  70
+3410654   125   -G--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--EE  158
+18470102  37    -S--------LNK---D----R---CVRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  70
+11968045  134   -G--------VNR---E----R---CIKMAIVHDIAE-AIVGDITPS--D-G-VPK--AE  167
+4906607   60    -S--------LDI---S----K---CVMMAVVHDLAE-AVVGDIAPW--E-G-VSK--AE  93
+11990579  121   -G--------VNR---D----R---CVKMAIVHDIAE-AIVGDITPV--D-G-VPK--EE  154
+24767283  37    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  70
+23785865  51    -N--------VNK---E----R---CMKLALVHDMAE-CIVGDIAPA--D-N-VSK--AE  84
+17706146  37    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  70
+8963266   37    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  70
+16998446  59    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  92
+13032256  133   -G--------VDR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--EV  166
+4441460   116   -G--------INR---E----R---CIKIALVHDIAE-AIVGDITPS--D-G-VPK--VE  149
+8700833   2651  -D--------VDL---G----K---CVQLAVVHDLAE-AEVGDLTPL--D-G-VGK--SE  2684
+5704850   38    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  71
+14545940  37    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  70
+146309    37    -G--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  70
+18570192  126   -G--------VNR---D----E---CIKMAIVHDIAE-AIVGDITPS--C-G-IPK--EE  159
+6841753   58    -N--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  91
+2110134   37    -N--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  70
+19085780  95    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  128
+22258784  108   -K--------LDI---P----R---CTRMALIHDVAE-ALVGDITPV--D-G-VPK--PE  141
+18854516  60    -S--------LNR---D----R---MIKMALCHDTGE-SIIGDISPA--M-K-VPK--EV  93
+14426338  132   -G--------IDR---D----K---CVKMAIVHDIAE-AIVGDITPS--D-G-IPK--EE  165
+5944926   47    -NNPTK----LDR---I----K---CLQIALIHDLAE-CIVGDLTPH--C-G-VSP--EE  84
+10958580  37    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  70
+23676038  1330  -D--------VDI---G----K---CVQLALVHDMAE-AEVGDLTPL--D-G-VDK--DE  1363
+15275174  52    -K--------LDR---N----K---LIRMALCHDAGE-SIVGDISPK--M-G-VSK--ED  85
+3404045   37    -S--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-IPK--EE  70
+9626070   88    -G--------IDR---DNIFFR---CVKMAIVHDIAEAAIVGDITPS--D-G-ISK--DE  126
+23533241  124   -G--------LNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-VPK--EE  157
+22525288  106   -P--------LDI---P----R---CVMMALVHDLAE-AHVGDITPV--E-G-VPP--HV  139
+26569041  139   -G--------VNR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-IPK--AE  172
+20512949  133   -L--------LDI---Q----R---CTNMALIHDMAE-SLVGDITPV--E-G-ISK--EE  166
+5844755   77    -K--------INI---P----H---CTKMALIHDMAE-ALVGDITPV--DYH-IPK--AE  111
+20916681  110   -Q--------LNK---D----R---CMRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  143
+15416645  77    -K--------INI---P----H---CTKMALIHDMAE-ALVGDITPV--DYH-ITK--SE  111
+10730735  133   -L--------LDI---Q----R---CTNMALIHDMAE-ALVGDITPV--E-G-ISK--EE  166
+19683910  53    -E--------AFKP--E----K---VMKMAIIHDLAE-CIVGDITPF--C-G-VSK--QE  87
+18784898  130   -P--------LDI---P----R---CVMMALVHDLAE-AYVGDITPV--E-G-VPV--EV  163
+25959771  77    -D--------FDR---Q----R---TIRMALVHDLAE-AVAGDITPF--C-G-VSK--EE  110
+13269252  88    -S--------IDR---S----R---VVFMAIIHDLAE-VLVGDVTPH--D-P-ISR--KE  121
+20260746  60    -Q--------LNK---D----R---WVRLALVHDMAE-CIVGDIAPA--D-N-ISK--EE  93
+22715875  57    -G--------VDK---D----K---CIRMALVHDMGE-CIVGDITPT--C-G-VSK--EE  90
+12454093  51    -T--------VNK---E----R---CMKLALVHDLAE-CIVGDIAPA--D-N-VSK--AE  84
+26092372  56    -G--------VNR---E----R---CIFLALCHDMAE-SVVGDIPTY--A-G-VPK--EH  89
+18733088  54    -N--------LDK---N----K---ILQMTIIHDLAE-CIVGDITPF--C-G-VSP--EE  87
+20363065  28    -E--------LDQ---T----K---CMKMCLVHDIAE-SVVGDITPF--S-G-VSR--IE  61
+13261838  51    -S--------LNK---D----R---LIRMALCHDVGE-SIIGDISPK--M-G-VPK--EE  84
+16511081  67    -S--------LDI---S----K---CVMMCIVHDLAE-AQVGDIAPK--E-G-ISK--EK  100
+8634678   106   -P--------LDI---P----R---CVMMALVHDLAE-AHVGDITPV--E-G-VPP--HV  139
+8369784   64    -H--------LNK---D----R---CVRLALVHDMAE-CIVGDIAPA--D-N-VPK--EE  97
+19813121  51    -A--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-VSK--EE  84
+21284217  69    -R--------LDF---S----K---VVRMAIVHDLAE-SIVGDITPS--D-N-VPE--DK  102
+20805621  51    -A--------LNK---D----R---CIRLALVHDMAE-CIVGDIAPA--D-N-VSK--EE  84
+21220188  55    -N--------LDK---T----K---IMQMTLIHDLAE-CIVGDITPY--C-G-VPP--DE  88
+12404756  85    -D--------LDT---S----R---CMKMALVHDLGE-SIIGDITPF--D-N-ISA--EE  118
+24115420  55    -K--------LDK---I----K---IMQMTLIHDLAE-CIVGDITPY--C-G-ISP--DE  88
+11453837  257   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--EE  290
+12539369  257   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--EE  290
+20605049  45    -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--EE  78
+21971090  54    -N--------LDK---T----K---IMQMTLIHDLAE-CIVGDITPY--C-G-IPP--DE  87
+8872296   54    -N--------LDT---V----K---IMQMSLIHDLAE-CIVGDITPH--C-G-IPP--DV  87
+8166359   256   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--DE  289
+14285352  16    -G--------VDR---N----K---CIKMAIVHDIAE-AIVGDITPL--D-G-VSK--AE  49
+26415283  94    -A--------VNL---D----K---CLKMALLHDVAE-TIVGDITPS--D-G-VPR--DE  127
+513081    165   -K--------LDK---I----K---IMQMTLIHDLAE-CIVGDITPY--C-G-IPP--DE  198
+12028712  67    -T--------LDV---P----K---CVMMCVVHDLAE-AQVGDITPR--E-G-ISK--EE  100
+19661644  138   -G--------LNR---E----R---CIKIALVHDIAE-AIVGDITPS--D-G-VPK--AE  171
+6886154   137   -G--------LNR---E----R---CIKIALVHDIAE-AIVGDITPS--D-G-VPK--AE  170
+11398677  55    -N--------LDK---T----K---IMQMTLIHDLAE-CIVGDITPL--C-G-IPP--DE  88
+10771608  273   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--DD  306
+4509687   138   -G--------LNR---E----R---CIKIALVHDIAE-AIVGDITPS--D-G-VPK--AE  171
+16794105  235   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--DE  268
+17067476  228   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-ISK--DD  261
+26770434  235   -G--------LNQ---I----R---CMELALVHDLAE-SLVGDITPF--C-G-VSK--DE  268
+21825963  54    -N--------EIR---M----R---AVKMALAHDMGE-AIVGDITPS--D-G-VPR--DE  87
+11656109  53    ---------------------S---CIKLCLIHDMAE-CIVGDITPY--D-N-VSK--EE  81
+27101808  131   -A--------VDR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-IPK--AE  164
+16124648  132   -A--------VDR---E----R---CIKIAIVHDIAE-AIVGDITPS--D-G-IPK--AE  165
+2806728   36    -K--------LNK---D----R---CIKLALIHDMAE-CIVGDIAPS--D-N-ISK--EE  69
+17570038  74    -T--------LDI---S----K---CVMLSIVHDMAE-ADVGDITPEHAS-G-VSK--ET  109
+17536458  54    -N--------LDT---N----K---IIKLCLIHDLAE-CIVGDITPH--D-N-VSKTETE  89
+17527567  35    -N--------LDK---V----K---IMQMALIHDLAE-CIVGDITPS--C-G-IPS--EI  68
+20907535  16    -G--------LDR---T----K---CIKLSLVHDMAE-ALVGDLTPH--D-N-VPK--KE  49
+6033387   98    -P--------LDI---P----R---CVMMALVHDLAE-AYVGDITPI--E-G-VPA--HV  131
+17027746  113   -G--------IDR---D----R---FLFLYAYDLINA-AIVGDITPA--D-G-VPK--SE  146
+
+Query_1   110   KHRREFETV-KYLC--ES---I-I----R---PC------SE---------S-A-S-RE-  136
+23616906  110   KHRREFETV-KYLC--ES---I-I----R---PC------SE---------S-A-S-RE-  136
+24020270  110   KHRREFETV-KYLC--ES---I-I----R---PC------SE---------S-A-S-RE-  136
+5450591   261   KHRREFETV-KYLC--ES---I-I----R---PC------SE---------S-A-S-RE-  287
+6673525   129   KHRREWETI-KYLC--NA---L-I----K---PY------NE---------I-A-A-KE-  155
+15733548  128   KHRREWETI-QYLC--ED---L-V----K---PY------NA---------Q-A-A-QE-  154
+12787231  129   KHRREWKTI-KYLC--NA---L-I----K---PY------NE---------I-A-A-KE-  155
+7569571   127   KHRRELATI-KYLC--DE---L-I----E---PY------NP---------E-A-A-RE-  153
+21643532  155   KHQRELDTI-TYLC--DE---I-I----K---PY------NE---------E-A-A-TE-  181
+2460927   109   KHRREWETI-KYLC--GN---F-I----S---KY------NE---------E-A-A-TE-  135
+17298346  108   KHRREWETI-QFLC--NE---F-I----G---KS------NQ---------I-A-A-KE-  134
+22541837  110   KHYRELSTI-KYIC--NG---L-I----K---PY------NT---------T-A-A-QE-  136
+20420573  49    KHRREWETI-KYLC--NA---L-I----K---PY------NE---------I-A-A-KE-  75
+2502327   112   KHRRELETI-EYLV--E----L-I----Q---PY------NE---------R-F-A-NE-  137
+21368319  126   KHRRELESI-EFLA---S---I-I----R---PY------NK---------K-F-S-HE-  151
+16120921  109   KHRRESETI-DYLV--E----L-V----S---PY------NV---------D-F-A-NE-  134
+15022913  117   KSYREKITI-EYIT--D----L-I----K---PY------NE---------K-A-A-LK-  142
+14445410  112   KHRRELAAI-EYMA--NL---V-S----T---YN------SE---------F-A-T--E-  137
+20977974  148   KNKREYNTI-LYMS--Q----L-I----K---NY------NP---------I-F-A-QE-  173
+11508915  113   KYRRESTTI-EYFS--KK---L-L----E---KI------NP---------V-V-A-KE-  139
+11890858  116   KYRRESTTI-EYFS--KT---L-L----E---KV------NP---------T-V-A-KE-  142
+24223007  106   KHRRELEAM-VYLT--KD---L-L----A---PI------SE---------S-I-A-AE-  132
+5004243   119   KNRREYSTI-LYLS--E----V-I----K---PY------NA---------A-F-S-EE-  144
+23849503  135   KHSREYKTI-QFLS--E----V-I----K---PY------NE---------N-F-S-KE-  160
+4858907   111   KHRRELATM-EYLT--GT---L-L----A---PI------SE---------S-I-A-AE-  137
+19814024  160   KSRREQEAL-DHMC--KV---L-----------G------GG---------S-R-A-KE-  183
+22141957  134   KNRREADTM-DYIC--SD---L-L----G---KV------GG---------G-L-SGQE-  161
+362186    90    KYKRESAAM-QDF---QS---M-L---------G------NT---------P-V-A-QE-  113
+26058789  111   KHRLEAEAM-HNFV--HD---M-L----H-----------DS---------P-A-A-QR-  135
+17664774  134   KSRRESETM-DYIC--TN---L-L----G---KF------NG---------GLN-G-KE-  161
+10831985  140   KARREAEVI-EYIT--KS---L-L----G---AV------PG---------L-A-T-QD-  166
+17037433  151   KSRREGETM-DFLC--GG---L-L----G---KV------GD---------G-ARG-KE-  178
+8209672   134   KNRREAETM-DYIC--ST---L-L----G---KV------GG---------G-L-SGQE-  161
+2562929   120   KSRRESETM-DYIC--TN---L-L----G---NF------NA---------G-L-NGRD-  147
+2595128   139   KSRRESETM-DYIC--GN---L-L----G---KF------NG---------G-LNG-RE-  166
+15797881  136   KSRRESETM-DFLT--KN---L-L----R---NV------AG---------G-T-T-GED  163
+20438184  105   KHRLEAEAM-HNFT--HD---M-L----H-----------DS---------P-A-A-QR-  129
+21430396  108   KQRLEAEAM-HNFV--HE---M-L----H-----------DS---------P-A-A-QR-  132
+26987110  134   KSRRESETM-DYIC--TN---L-L----G---NF------NG---------G-LNG-QD-  161
+26404367  90    KFTLEKNAM-DSFK--ES---L-----------G------NT---------D-T-A-NE-  113
+23262463  90    KFNLEKTAM-DGFK--ES---L-----------G------NT---------D-T-A-NE-  113
+5832854   90    K----FTLE-KNAM--NS---F-I----K---TL------GD---------T-E-MIKE-  113
+8678864   114   KSRRESTTM-DYFV--NG---L-L----G---KV------NG---------GMT-G-KD-  141
+18661437  116   KARREAEVI-EYIT--KS---L-L----G---AV------PG---------V-A-A-QD-  142
+15161006  100   KSRLESEAI-RVFV--HE---M-L----H-----------NS---------P-A-A-QR-  124
+4059410   129   KSRREAETM-DYLCS-GL---L-G----K---VG------GG---------L-S-G-EE-  156
+10436002  115   KARREAEVM-DYIA--KN---L-L----GGV-PG------GM---------L-S-A-QE-  143
+17547272  114   KSRRESTTM-DYFV--DG---L-LG---R---VN------GG---------M-T-G-KD-  141
+14208332  116   KGRREASTI-AYIA--SR---W-S----G---PY------TA----------------E-  138
+20363311  140   KSRREAETM-DYLT--KN---L-L----A---NVWGGK--GA---------A-N-G-DE-  170
+10076972  134   KSHLEQTAL-DHMC--KV---L-----------G------GG---------S-A-A-TE-  157
+14081317  135   KNRREAATM-DFLT--KS---L-L----R---NV------AG---------G-A-T-GED  162
+17524741  145   KARREAETM-EYLCGEEG---L-LGQWGR---GE------QG---------K-G-I-RA-  177
+19289608  137   KSRRETETM-DYIC--SA---L-L----G---SLPGQ---SN---------A-H-A-REQ  167
+7850670   110   KHRLEADAM-HNFV--HD---M-L----H-----------NS---------S-A-A-QR-  134
+1305844   111   KSRREQEAM-DYMC--KL---L-----------G------GG---------S-R-A-ME-  134
+10637026  203   KHTQERNAM-HHLC--HE---L-L---------G------WN---------A-Q-A-QE-  227
+20967019  129   KSRRESQTM-DYLT--KT---L-LG---R---FD------GG---------L-A-G-KQ-  156
+8542269   129   KNRREAETM-DYIT--KG---L-L----G---SVY-----GG---------M-V-G-SE-  156
+22523182  137   KNRREAETM-DFLT--KN---L-L----R---GV------AG---------GDV-G-AQ-  164
+24574254  116   KGRREATTI-AYIA--NR---W-S----G---PY------T----------------AE-  138
+22292849  140   KSRREAETM-DFLT--KN---L-L----R---NV------AG---------G-T-T-GED  167
+8047799   140   KSRREAETM-DFLT--KN---L-L----R---NV------AG---------G-T-T-GED  167
+14406119  203   KHTQERNAM-HHLC--HE---L-L----G---WN------AQ-------------A-QE-  227
+26259395  136   KSRRESLTM-DYLT--KN---L-F----G---NK------DD---------T-A-V-GED  163
+27324570  137   KSRREREAL-DHMC--NL---L-----------G------GG---------S-R-A-KE-  160
+15142294  116   KGRREASTI-DYVA--NR---W-S----G---PH------TA----------------E-  138
+26842307  115   KARREADVM-NYIT--KN---L-L----GGV-PG------GM---------L-T-G-DE-  143
+17102858  142   KSRREAETM-DFLT--KN---L-L----R---NV------AG---------G-T-T-GED  169
+23322974  783   KHRLEQEAM-NNFV--HT---M-L----R-----------NS---------P-A-A-QR-  807
+24220066  116   KSRRETSTI-EYIA--TR---W-S----G---PY------TS----------------E-  138
+1878037   152   KSRRESLTM-HYLT--KN---L-L----G---NK------DD---------A-A-V-GED  179
+16896472  115   KARREAAVM-DYIA--NN---L-L----GGV-PG------GM---------L-S-G-QE-  143
+4558814   115   KARREADVM-DYIA--GK---L-L----GGV-PG------GA---------M-T-G-QD-  143
+10740353  149   KSRRERAAL-EDMC--KL---L-----------G------GG---------P-R-A-KE-  172
+10231093  137   KNRREAETM-DFLT--KN---L-L----R---SV------AG---------GDV-G-AE-  164
+16597786  138   KSRRERAAL-EDMC--KL---L-----------G------GG---------S-R-A-KE-  161
+17610447  183   KSRRESEAL-DHMC--RL---L-----------G------GE---------S-Q-A-KE-  206
+16237145  142   KSRREAETM-DYLS--RN---L-L----R---GLWGGGDAGG---------A-A-G-DE-  174
+24857995  112   KARREASVM-DYIT--TT---L-L----GKV-PG------GV---------L-S-G-KE-  140
+21140335  115   KARREAAVM-DYIA--NN---L-L----GGV-PG------GM---------L-T-G-QE-  143
+7904385   149   KSRREQEAL-DHMC--KL---L------------------GG---------G-K-I-EE-  171
+4228225   171   KSQREREAL-DHMC--KL---L-----------G------GG---------S-R-A-QE-  194
+6350872   111   KRRLEAEAM-HNFV--HE---M-L----H-----------NN---------P-A-A-QR-  135
+12824142  132   KSRREAETM-DYIS--EK---L-L----G---GV------YG---------GLA-G-QD-  159
+12981394  133   KSRREAETM-DYIS--KN---L-L----G---NV------YG---------GLA-G-TE-  160
+27104086  95    KHRQEDEAM-KKIA--E----------------L------TG---------I-A-G-DR-  116
+17835405  142   KNRREASTM-DYLT--TN---L-L----R---GV------AG---------G-V-TGAE-  169
+15628187  110   KRRLETEAM-HNFV--HG---M-L----H---AS------PA---------A-L-R-IE-  136
+19716332  112   KARREAEVM-EYIS--KT---L-L----G---SV------FG---------G-T-P-GE-  138
+26085122  209   KHTQERNAM-HHLC--HE---L-L----G---WT------AQ-------------A-QE-  233
+26255469  163   KSRREQAAL-NEMC--EV---L-----------G------GG---------M-R-A-DE-  186
+6232986   102   KSRLEAEAM-HIFI--HE---M-L----H---DS-----------------P-A-A-QR-  126
+22578998  130   KNRREGTTM-EYLT--NG---L-L----G---RV------NE---------GIT-G-QE-  157
+20841327  164   KGRREASTI-EY---------I-A----T---RW------SG---------R-Y-T-AE-  186
+17367653  150   KSRREKAAL-EEMC--EV---L-----------G------GG---------L-R-A-EE-  173
+6229703   115   KRRLEAEAM-HNFV--HG---M-L----H-----------NS---------P-A-A-QR-  139
+11450374  134   KHRKELEAM-ERLC--SL---------------A------GE---------K-V-G-KE-  156
+1753571   112   KARREAEVM-EYIS--KT---L-L----G---SV------FG---------G-T-P-GE-  138
+13468856  146   KSRREREAL-DHMC--KL---L-----------G------GG---------V-R-A-KE-  169
+21762857  119   KNRRETATM-DYIA--NN---L-L----G---NV------YG---------GLA-G-KD-  146
+8504008   132   KSRREAETM-DYIS--QK---L-L----G---NV------YG---------GLA-G-QD-  159
+25709421  90    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  112
+696508    109   KQRLEAEAM-HNFV--HD---M-L----H---GS------PA---------A-L-R-IE-  135
+14774866  95    KHRREKEAM-RHLT--SL---L------------------PE---------G-L-K-KE-  117
+9810361   208   KKRRETVTV-DYIS--DR---L-L----R---GA------T--------------G-EE-  231
+16612569  206   KQTRERNAM-YHLC--HE---L-L----G----W------SE---------Q-A---QE-  230
+13451700  161   KSRREKAAL-KEMC--EV---L-----------G------GG---------L-R-A-EE-  184
+5434179   101   KHRQEKEAM-KHLT--------------R---LL------SE---------D-V-G-KE-  123
+25794756  117   KARREAATM-DYIE--TT---L-L----RGV-PG------GA---------L-S-G-GE-  145
+16485649  141   KARREASTM-DYIT--ST---L-L----G---KT------YG---------S-S-S-GG-  167
+17185705  173   KSRREREAI-NHMC--NL---L-----------G------GG---------S-R-A-KE-  196
+18820405  159   KNRRETAAL-KEMC--KV---L-----------G------GG---------L-R-A-EE-  182
+22436400  95    KHRMEKEAL-DEIC--SK---L-G----D---TP------SA---------A-E-I-RE-  121
+23699696  93    KHRREKEAM-------EQ---L-T----R---LL------SA---------D-L-K-KE-  115
+8850712   90    KHRREEAAV-QQLT--QL---L------------------SE---------D-L-R-KE-  112
+22418684  119   KNRREREAL-DHMC--KL---L-----------G------GG---------P-R-A-KE-  142
+16449822  93    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  115
+27102858  95    KHRREKEAM-THLT--SL---L------------------PE---------G-L-K-KE-  117
+16192211  100   KHRREEEAM-RHL----S---G-L----L---P--------E---------G-L-K-QE-  122
+17846320  94    KHRLEREAL-ESMT--E------V----L---GG------DR---------E-V-S-EE-  118
+14883206  142   KSRREAETM-DYLT--SN---L-L----G---GL------WGGGGGGKDGVA-V-G-QE-  177
+5857234   105   KFRLEAGAV-QRM---RG---M-L----G---GS------SS---------L-A-G-KE-  130
+4712180   121   KARLEVEAM-HNFV--HD---M-L----H---DS------PA---------A-Q-R-IE-  147
+6836530   92    KHRREKTAM-QQLT--QL---L------------------SE---------D-L-R-KE-  114
+16865225  141   KARREAATM-DYIT--ST---L-L----SNVYGG------GN---------T-V-G-AE-  170
+11081703  160   KSRREQAAL-TEMC--KI---L-----------G------GG---------M-R-A-EE-  183
+9904218   88    KYKLEFDSI-QKIK--SL---F-N----K---DS------SF---------S-E-E-ME-  114
+5058098   90    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  112
+2392409   156   KSRREQAAL-TEMC--KI---L-----------G------GG---------M-R-A-EE-  179
+3723396   84    KHRMEQDAM-ERIR--DM---L-----------G------NT---------E-Q-A-NE-  107
+6191256   125   KNRREGTTM-DYFT--QS---L-L----S---KV------NN---------GMT-G-AE-  152
+21690875  160   KSRLEQAAL-NEMC--EV---L-G----G---GL------RA---------E-E-M-KE-  186
+25475111  181   KSRREQEAL-DEMC--EV---L-----------G------GG---------L-R-A-EE-  204
+14457008  93    KHRLEKNAI-DDIC--AK---L-----------G------PS---------Q-A-A-VE-  116
+6337017   116   KNRRESEAL-EHMC--KL---L-----------G------GG---------E-R-A-KE-  139
+19070443  167   KSRREREAL-DCMC--KL---L-----------G------GG---------S-R-G-KE-  190
+691289    90    KHRREEAAM-QQLT--QL---L------------------SD---------D-L-R-KE-  112
+21641453  151   KSRREREAL-DQMC--KL---L-----------G------GG---------S-R-A-EE-  174
+4444456   150   KSRREKEAL-DHMC--AL---L-----------G------GG---------S-R-A-DE-  173
+15522056  95    KHRREEEAM-RHL----S---A-L----L---P--------E---------G-L-K-EE-  117
+24213497  95    KHRREEEAM-RHLT--SL---L------------------PE---------G-L-K-QE-  117
+4159438   92    KHRREEAAM-QQLT--------------R---LL------SE---------E-L-R-KE-  114
+22150506  173   KSRREQAAL-NEMC--KI---L-----------G------GG---------M-R-A-EE-  196
+2904536   106   KSRREREAL-KSMC--DL---L-----------G------GG---------E-R-A-KE-  129
+4530694   91    KQKQEMDAM-KQIC--SL---V------------------PE---------E-V-G-RE-  113
+22156830  96    KIRLETEAM-RNIV--HD---M-L----H-----------NS---------S-A-A-QR-  120
+15739001  93    KHRREEEAM-RHL----S---G-L----L---P--------D---------G-L-K-QE-  115
+16036477  91    KHRREETAM-QQLT--HL---L------------------SE---------D-L-R-KE-  113
+11192711  163   KSRREREAL-DHMC--KL---L-----------G------GG---------S-R-A-KE-  186
+3314295   93    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  115
+26654283  156   KNRRESEAL-EHMC--KL---L-----------G------GG---------E-R-A-EE-  179
+2838902   238   KSRREQAAL-NEMC--QV---L-----------G------GG---------M-R-A-EE-  261
+11924218  105   KNNLERQAM-NDIV--HK---Y-L----H---GS------YQ-------------A-RY-  129
+17515703  167   KSRLEQAAL-TEMC--EV---L-----------G------GG---------M-R-A-EE-  190
+17108727  92    KHRREEAAM-QQLT--QL---L------------------SE---------N-L-R-KE-  114
+7074544   1567  KMRREKEAI-QYFV--HD---L-L----G-----------SS---------A-A-G-LR-  1591
+12202970  112   KARREADTM-DYIT--ET---L-L----GKI-PG------GA---------L-S-A-QE-  140
+16082358  112   KARREASVM-DYIT--TT---L-L----GKV-PG------GA---------L-S-G-GE-  140
+287834    92    KAAMETGAM-RLIR--GM---L-----------G------DD---------L-G-G-DE-  115
+15713778  91    KHRREEAAM-RQLT--QL---L------------------SE---------D-L-K-KE-  113
+1441610   112   KARREADTM-DYIT--ET---L-L----GKV-PG------GV---------L-S-A-QE-  140
+3654561   81    KSRREADTM-DYIC--TN---L-L----G---KF------NG---------G-LNG-QD-  108
+6200078   90    KHEKEKAAM-IHLT--TL---L-D----K---KI------GE----------------E-  112
+26388721  71    KHRREETAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+3410654   159   KSRREQAAL-TEMC--KI---L-----------G------GG---------M-R-A-EE-  182
+18470102  71    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+11968045  168   KSRLEQAAL-TEMC--KV---L-----------G------GG---------M-R-A-EE-  191
+4906607   94    KVQREREGM-RNML--SD---M-L----H-----------DG---------P-G-A-IR-  118
+11990579  155   KSRREKEAL-DHMC--TL---L-----------G------GG---------S-R-A-DE-  178
+24767283  71    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+23785865  85    KHKREEEAM-RHLT--GL---L------------------QE---------G-M-R-KE-  107
+17706146  71    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+8963266   71    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+16998446  93    KHRREEAAM-QQLS--QL---L------------------SE---------D-L-R-KE-  115
+13032256  167   KSRMEQEAL-NEMC--KV---L-----------G------GG---------M-R-A-EE-  190
+4441460   150   KSRLEQAAL-TEMC--EV---L-----------G------GG---------K-R-A-EE-  173
+8700833   2685  KARREKEAI-EYFV--HD---L-L----G-----------SS---------A-A-G-LR-  2709
+5704850   72    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  94
+14545940  71    KHRREEAAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+146309    71    KHRREKTAM-QQLT--QL---L------------------SE---------D-L-R-KE-  93
+18570192  160   KNRRESEAL-EHMC--KL---L-----------G------GG---------E-R-A-EE-  183
+6841753   92    KHRREETAM-QQLT--HL---L------------------SE---------D-L-R-KE-  114
+2110134   71    KHRREETAM-QQLT--HL---L------------------SE---------D-L-R-KE-  93
+19085780  129   KHRREETAM-QQLT--HL---L------------------SE---------D-L-R-RE-  151
+22258784  142   KNRRESTTM-DYLT--GPGGLL-G----K---FN------GG---------L-N-G-KE-  171
+18854516  94    KKQRETQAV-QSLC--KL---V-S----S---SP------NT---------T-F-S-EE-  120
+14426338  166   KSRKEREAL-DHMC--KL---L-----------G------GG---------L-R-A-KE-  189
+5944926   85    KHRREDEAM-K----------T-I----S---GL------TG---------I-A-G-DR-  106
+10958580  71    KHRREEAAM-QQLT--QL---L------------------PE---------D-L-R-KE-  93
+23676038  1364  KTKREAQAM-EYLV--HD---L-L----G-----------SS---------P-A-A-LR-  1388
+15275174  86    KYNQEKAAV-LHLT--GL---L-E----K-----------ES---------P-L-S-RE-  110
+3404045   71    KHRREETAM-QQLT--HL---L------------------SE---------D-L-R-KE-  93
+9626070   127   KSRREREAL-DHMC--KL---L-----------G------GG---------S-R-A-KE-  150
+23533241  158   KSRMEQAAL-SEMC--KV---L-----------G------GG---------M-R-A-EE-  181
+22525288  140   KHQLEEQAM-DSFL--NE---M-L----G---GA------GN---------K-D-A-RE-  166
+26569041  173   KSRREQAAL-NEMC---------V----L---LG------GG---------L-R-A-DE-  196
+20512949  167   KNRRETTTM-DFLT--TN---I-L----G---NV------DG---------GRI-A-QN-  194
+5844755   112   KARREASVM-EYIA--TT---L-L----DKV-PG------GA---------F-S-G-GK-  140
+20916681  144   KHRREKEAM-EQLT--SL---L------------------SV---------D-L-K-KE-  166
+15416645  112   KARREASVM-DYIT--TT---L-L----GKV-PG------GI---------L-S-G-EE-  140
+10730735  167   KNRRETTTM-DFLT--KN---I-L----G---NV------EG---------GRI-A-QN-  194
+19683910  88    KHRREEEAI-TFIC--SS---L------------------PE---------D-I-G-PE-  110
+18784898  164   KHQLEEQAMDSFLN--EM---L-G----S---EG------NK---------E-A-K-ER-  191
+25959771  111   KHQLEREGL-KRML--SS---L-R----ED--PG------SR---------G-T-A-QE-  138
+13269252  122   KKRREDETM-DLLA--SM---L------------------SK---------T-D-G-EY-  144
+20260746  94    KHRXEEAAL-KHLT--QL---L------------------SG---------D-L-R-KE-  116
+22715875  91    KYRRESDAM-DCLG--K----L-V----D---NV------SA---------A-E-F-RS-  116
+12454093  85    KHRREKDAM-VH---------I-T----G---LL------DD---------G-L-R-KE-  107
+26092372  90    KRKLEDSGF-RYIS--NL---LHF----K---P------------------N-L-G-QD-  114
+18733088  88    KHKREDAAM-EEIC--QL---L-------------------G---------D-K-G-PT-  109
+20363065  62    KGRREASTI-AYIA--NR---W-S----G---PY------TA----------------E-  84
+13261838  85    KYRMEREAV-TFLS--GL---L-Q----R---ES------PL---------S-G----E-  109
+16511081  101   KQQLESEAM-HNFV--HD---M-L----H-----------DS---------P-A-A-QR-  125
+8634678   140   KHQLEEQAMDSFLN--EM---L-G----G---RG------NR---------D-A-R-ER-  167
+8369784   98    KHRREEAAM-KQLT--QL---L------------------SV---------D-L-G-KE-  120
+19813121  85    KHRREEEAM-KHLT--QV---L------------------SE---------E-L-R-KE-  107
+21284217  103   KHEMEESAM-REIT--ED---L-------------------G---------D-A-G-RM-  124
+20805621  85    KHRREEEAM-KHLT--QV---L------------------SE---------E-L-R-KE-  107
+21220188  89    KHRREDEAM-ENIC--KL---L-------------------G---------D-K-G-PE-  110
+12404756  119   KQKREEDAM-KKIA--S------L----L---PA------GR-------------G-EE-  141
+24115420  89    KHRMEDEAM-KDIC--KL---L-------------------G---------D-K-G-PE-  110
+11453837  291   KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  312
+12539369  291   KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  312
+20605049  79    KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  100
+21971090  88    KHRLEDEAM-EDIC--KL---L-------------------G---------D-K-G-SD-  109
+8872296   88    KHKLEDEAM-ENIC--KL---L-------------------G---------D-R-G-LT-  109
+8166359   290   KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  311
+14285352  50    KNQREQEAL-DHMC--KV---L-----------G------GG---------S-T-A-KE-  73
+26415283  128   KSRREAITV-DFFV--DR---L-L----G---SAHGG---DD---------A-S-A-AE-  157
+513081    199   KHRMEDEAM-EDIC--KL---L-------------------G---------D-K-G-PE-  220
+12028712  101   KRRLEAEAM-HNFV--HD---M-L----H---AS------PA---------A-L-R-IE-  127
+19661644  172   KSKREKAAL-SEMC--EL---L-----------G------GG---------M-R-A-EE-  195
+6886154   171   KSKREKAAL-SEMC--EL---L-----------G------GG---------M-R-A-EE-  194
+11398677  89    KHMMEDKAM-EDIC--KL---L-------------------D---------D-K-G-PE-  110
+10771608  307   KRALEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  328
+4509687   172   KSKREKAAL-SEMC--EL---L-----------G------GG---------M-R-A-EE-  195
+16794105  269   KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  290
+17067476  262   KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  283
+26770434  269   KRAMEFKAM-EDIC--KL---I-------------------E---------P-R-G-KR-  290
+21825963  88    KLLKERLAL-AYLA---C---L-I----R---PV------NP---------S-F-A-DE-  113
+11656109  82    KHAREKKAM-QEL----S---S-L----L---P--------D---------E-A-A-TE-  104
+27101808  165   KSRREQKAL-NEMC--EV---L-----------G------GG---------P-I-A-DE-  188
+16124648  166   KSRREQKAL-NEMC--EV---L-----------G------GG---------P-I-A-DE-  189
+2806728   70    KHRREKE-----------------------------------------------------  76
+17570038  110   KLALEEKAM-ERYQ--GL---L-G----H---PS------IP---------S-L-R-IK-  136
+17536458  90    KHKRETDAI-NHLA---S---L-L----P---NI------RA---------A-E-L-KD-  115
+17527567  69    KHKLEDEAM-EDIC--KL---L-------------------G---------D-R-G-PM-  90
+20907535  50    KHLRETQAM-KLMC--SL---L------------------SK---------E-L-G-NE-  72
+6033387   132   KHQLEEQAMDSFLN--EM---L-G----G---EG------NR---------Q-A-R-ER-  159
+17027746  147   KSRMEREAL-DHMC--TL---L-G----E---P------------------S-R-A-KE-  170
+
+Query_1   137   ILDD------------------WLA-YEKQT--------CLEGRYVKD-----I--DK-Y  161
+23616906  137   ILDD------------------WLA-YEKQT--------CLEGRYVKD-----I--DK-Y  161
+24020270  137   ILDD------------------WLA-YEKQT--------CLEGRYVKD-----I--DK-Y  161
+5450591   288   ILDD------------------WLA-YEKQT--------CLEGRYVKD-----I--DK-Y  312
+6673525   156   IMDD------------------WLA-YENVT--------SLEARYVKD-----I--DK-Y  180
+15733548  155   IMDD------------------WLA-YENIA--------SPEARYVKD-----I--DK-F  179
+12787231  156   IMDD------------------WLA-YENVT--------SLEARYVKD-----I--DK-Y  180
+7569571   154   ILED------------------WLA-YENIT--------SLEARYVKD-----I--DK-F  178
+21643532  182   ILND------------------WLA-YENVS--------SLEARYVKD-----I--DK-F  206
+2460927   136   IKRD------------------WLS-YENLD--------CPEARYVKD-----I--DK-F  160
+17298346  135   MMSD------------------WLA-YENIS--------SLEARYVKD-----I--DK-Y  159
+22541837  137   ILDC------------------WLD-YEDER--------SLEGSLVRD-----L--DK-F  161
+20420573  76    IMDD------------------WLA-YENVT--------SLEARYVKD-----I--DK-Y  100
+2502327   138   MKEL------------------WLD-YEEIR--------CLEARYVKD-----I--DK-L  162
+21368319  152   IMEL------------------WLD-YEEIR--------TVEARYVKD-----V--DK-F  176
+16120921  135   MKEL------------------WLE-YEEIK--------SPEAVYVKD-----I--DK-F  159
+15022913  143   LKED------------------WNA-YEYQT--------CLEAKYVKD-----L--DK-Y  167
+14445410  138   MTEL------------------WWD-YEEIR--------CLEARYVKD-----I--DK-Y  162
+20977974  174   IIES------------------WLD-YEEQR--------NFEAKIVKD-----I--DK-Y  198
+11508915  140   LVEL------------------FEE-YEAGT--------TKEAVFVKD-----I--DV-Y  164
+11890858  143   LVEL------------------FEE-YEAGE--------SKEAIFVKD-----I--DV-Y  167
+24223007  133   FMDI------------------WLE-YEAGQ--------TPEAIFVKD-----V--DR-Y  157
+5004243   145   IVQL------------------WLD-YEDQR--------NFEASIVKD-----I--DK-Y  169
+23849503  161   IVDL------------------WLD-YEYQR--------NLEGTIVKD-----I--DK-Y  185
+4858907   138   FMDL------------------WME-YEDGK--------TPEAIFVKD-----V--DR-Y  162
+19814024  184   IADL------------------WVE-YESNS--------SQEAKFVKD-----L--DK-V  208
+22141957  162   MRAV------------------WQE-YEDSQ--------TLESKFVHD-----V--DK-I  186
+362186    114   IVDL------------------WQE-YEDAK--------TPEALLVKD-----L--DK-F  138
+26058789  136   INAL------------------WLE-YEEGQ--------TAEAKFVKD-----L--DR-F  160
+17664774  162   IRQI------------------WQE-YEDSE--------TPESLFVHD-----I--DK-I  186
+10831985  167   IQDI------------------FQE-YEDNV--------TLEAKFVHD-----I--DK-M  191
+17037433  179   MREI------------------WQE-YEDSQ--------TPESHFVHD-----V--DK-L  203
+8209672   162   MRAV------------------WQE-YEDSQ--------TLESKFVHD-----V--DK-I  186
+2562929   148   VRHI------------------WQE-YEDSE--------TPESLFVHD-----I--DK-I  172
+2595128   167   LRAI------------------WQE-YEDSE--------TLESKFVHD-----I--DK-V  191
+15797881  164   IRAI------------------WQE-YEDSE--------TLDSHFVHD-----V--DK-M  188
+20438184  130   ITSL------------------WQE-YEDGQ--------SAEAKFVKD-----L--DR-F  154
+21430396  133   IMAL------------------WNE-YEAQD--------TQEARFVKD-----L--DR-F  157
+26987110  162   VRQI------------------WQE-YEDSE--------TPESLFVHD-----I--DK-M  186
+26404367  114   IVDL------------------WHE-YEDAK--------SPEALFVKD-----L--DK-F  138
+23262463  114   IVDL------------------WHE-YEDAK--------TPEALFVKD-----L--DK-F  138
+5832854   114   IASL------------------WHE-YEDAK--------TSEALFVKD-----L--DK-F  138
+8678864   142   IMAI------------------WQE-YEDSV--------TLESQFVHD-----V--DK-I  166
+18661437  143   IQEI------------------FQE-YEDNV--------TLEAKFVHD-----I--DK-L  167
+15161006  125   IEAL------------------WKE-YEERK--------TPEACFVKD-----L--DR-F  149
+4059410   157   IRRV------------------WQE-YEDSE--------TLESRFVHD-----I--DK-I  181
+10436002  144   ILKV------------------FHE-YEANE--------TLEAQFVHD-----V--DK-M  168
+17547272  142   IKEI------------------WQE-YEDGV--------TLESQFVHD-----V--DK-I  166
+14208332  139   IEKL------------------WHE-FEAGE--------TPEAQFAQD-----I--DK-I  163
+20363311  171   IRAI------------------WQE-YEDSK--------TLDSHFVHD-----I--DK-M  195
+10076972  158   ITEL------------------WME-YESNT--------SLEAKFVKD-----L--DK-V  182
+14081317  163   IRAI------------------WQE-YEDSQ--------TIDSLFVHD-----V--DK-M  187
+17524741  178   IFEE----------------------YEESK--------TLESLFVHD-----V--DK-V  199
+19289608  168   IRAA------------------WQE-YEDSQ--------TPESHFVHD-----V--DK-I  192
+7850670   135   IEAL------------------WKE-YEDQS--------SDEARFVKD-----L--DR-F  159
+1305844   135   IAEL------------------WKE-YEENS--------SLEAKVVKD-----F--DK-V  159
+10637026  228   ISGL------------------WAE-YEAAT--------TPEALLVKD-----F--DK-F  252
+20967019  157   IREI------------------WQE-YEDSK--------TFESIVVHD-----L--DK-L  181
+8542269   157   IRAI------------------WQE-YEDSK--------TLESHFVHD-----L--DK-M  181
+22523182  165   IRAI------------------WQE-YEDSE--------TLDSHFVHD-----V--DK-I  189
+24574254  139   IEKL------------------WHE-FEAGE--------TPEAQFAQD-----I--DK-I  163
+22292849  168   IRAI------------------WQE-YEDSE--------TLDSHFVHD-----V--DK-M  192
+8047799   168   IRAI------------------WQE-YEDSE--------TLDSHFVHD-----V--DK-M  192
+14406119  228   ISGL------------------WAE-YEAAT--------TPEALLVKD-----F--DK-F  252
+26259395  164   IRAI------------------WDE-YENSK--------TLESQYVHD-----I--DK-M  188
+27324570  161   IHDL------------------WME-YEESS--------SLEAKIVKD-----F--DK-V  185
+15142294  139   IQGL------------------WHE-FEAGE--------TPEAQFAQD-----I--DK-I  163
+26842307  144   VMKV------------------FQE-YEDNE--------TLEAKYVHD-----I--DK-M  168
+17102858  170   IRAI------------------WQE-YEDSK--------TLESHFVHD-----V--DK-M  194
+23322974  808   IEAL------------------WRE-YEGGE--------TPEAKFVKD-----L--DR-F  832
+24220066  139   LREL------------------WHE-FEASE--------TPEAQFAQD-----I--DK-I  163
+1878037   180   IRAI------------------WDE-YEDSK--------TLESQYVHD-----I--DK-M  204
+16896472  144   ILKV------------------FNE-YEANE--------TLEAQFVHD-----V--DK-M  168
+4558814   144   ILGV------------------FHE-YEANE--------TLEAQFVHD-----V--DK-M  168
+10740353  173   ISDL------------------WME-YEENS--------SLEAKVVKD-----F--DK-V  197
+10231093  165   IRAV------------------WQE-YEDSK--------TLDSHFVHD-----V--DK-I  189
+16597786  162   ISDL------------------WME-YEENS--------TLEAKVVKD-----F--DK-V  186
+17610447  207   INEL------------------WME-YEANL--------SPEAKVVKD-----F--DK-V  231
+16237145  175   IRAL------------------WQE-YEDSE--------TLDSHFVHD-----I--DK-V  199
+24857995  141   IKEI------------------FED-YEANT--------SKEAEFVHD-----I--DK-I  165
+21140335  144   ILKV------------------FNE-YEANE--------TLEAQFVHD-----V--DK-M  168
+7904385   172   IGEL------------------WME-YEGNS--------SPEAKIVKD-----L--DK-V  196
+4228225   195   IGEL------------------WLE-YEENS--------SPEAKIVKD-----L--DK-V  219
+6350872   136   IEAL------------------WQE-YEDGQ--------TKEARFVKD-----L--DR-F  160
+12824142  160   IRAI------------------WQE-YEDSE--------TLDSHFVHD-----I--DK-I  184
+12981394  161   IREI------------------WQE-YEDSK--------TLESHFVHD-----L--DK-I  185
+27104086  117   MYDL------------------YKE-YENQT--------SPEAKFAKD-----L--DR-Y  141
+17835405  170   VRAI------------------WQE-YEDSQ--------TLDSHFVHD-----V--DK-M  194
+15628187  137   AL--------------------WKE-YEEGM--------TDEARFVKGTSQTHL--DR-L  164
+19716332  139   GLQK------------------IFEEYEEDK--------TLEARFVHD-----I--DK-M  164
+26085122  234   ISGL------------------WAE-YEAAA--------TPEALLVKD-----F--DK-F  258
+26255469  187   IKEL------------------WAE-YENNS--------SLEANLVKD-----F--DK-V  211
+6232986   127   IGAL------------------WKE-YEDRE--------TPEARFVKD-----L--DR-F  151
+22578998  158   LKAV------------------WQE-YEDSA--------TPESQFVHD-----V--DK-I  182
+20841327  187   IQEL------------------WNE-FEAGE--------TPEAQFAQD-----I--DK-I  211
+17367653  174   ITEL------------------WLE-YENNA--------SLEANLVKD-----F--DK-V  198
+6229703   140   IEAL------------------WKE-YEDGE--------TEEARFVKD-----L--DR-F  164
+11450374  157   FLDL------------------YKE-YEEQS--------TTEAKTVKD-----L--DK-F  181
+1753571   139   GFQK------------------IFEEYEEDR--------TLEARFVHD-----I--DK-M  164
+13468856  170   ISEL------------------WME-YEENS--------SPEAKLVKD-----F--DK-V  194
+21762857  147   IRAI------------------WQE-YEDSA--------TIDSHFVHD-----L--DK-M  171
+8504008   160   IRAI------------------WQE-YEDSE--------TIDSHFVHD-----I--DK-I  184
+25709421  113   IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  137
+696508    136   AL--------------------WNE-YEEGE--------TDEAKFVKD-----L--DR-L  158
+14774866  118   IYSL------------------WEE-YEFQS--------SSEARLVKQ-----F--DL-L  142
+9810361   232   LKSI------------------WHE-HEDGV--------TLESCFVQD-----L--DK-L  256
+16612569  231   ISGL------------------WEE-YEAAS--------TPEALLVKD-----F--DK-F  255
+13451700  185   ITEL------------------WLE-YENNA--------SLEANLVKD-----F--DK-V  209
+5434179   124   IYEL------------------WEE-YECQS--------TAEAKFVKQ-----L--DQ-S  148
+25794756  146   IRRI------------------FQE-YEDNE--------TPEAQFVHD-----V--DK-I  170
+16485649  168   ATADGSATGPLGKLVGEDIRAIWQE-YEDSK--------TLESKYVHD-----I--DK-M  210
+17185705  197   MLEL------------------WME-YEENS--------SLEAKVVKD-----F--DK-V  221
+18820405  183   ITEL------------------WLE-YENNA--------SLEANLVKD-----F--DK-V  207
+22436400  122   L---------------------WAE-YEAGS--------TEEAKMVKD-----F--DK-F  143
+23699696  116   VYEL------------------WEE-YEGQS--------SAEAKFVKD-----L--DQ-C  140
+8850712   113   ICEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  137
+22418684  143   IGEL------------------WMD-YENNS--------SPEAEIVKD-----L--DK-V  167
+16449822  116   IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  140
+27102858  118   IYSL------------------WEE-YEFQS--------SSEARLVKQ-----F--DL-L  142
+16192211  123   MYGL------------------WEE-YESQS--------SAEARLVKQ-----F--DL-L  147
+17846320  119   LSEL------------------WHE-YEAGE--------TEEAKLLKD-----L--DK-V  143
+14883206  178   IRAL------------------WQE-YEDSE--------TLDSHFVHD-----I--DK-V  202
+5857234   131   IELL------------------WQE-YEQAQ--------TPEARLVKD-----F--DK-L  155
+4712180   148   AL--------------------WHE-YEEGK--------TPEAKFVKD-----L--DR-F  170
+6836530   115   IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  139
+16865225  171   MRAI------------------WQE-YEDSE--------TLESKYVHD-----I--DK-M  195
+11081703  184   IQEL------------------WAE-YENNA--------SLEANLVKD-----F--DK-V  208
+9904218   115   SL--------------------WLE-YEECA--------TPEARLVKN-----L--DL-F  137
+5058098   113   IYEL------------------WEE-YEKQC--------TAEAKFVKQ-----L--DQ-C  137
+2392409   180   IQEL------------------WEE-YENNA--------SLEANLVKD-----F--DK-V  204
+3723396   108   IYAL------------------WQE-YEEAR--------TDEALFVKD-----L--DK-Y  132
+6191256   153   IRAV------------------WQE-YEDSE--------TLESKFVHD-----V--DK-I  177
+21690875  187   L---------------------WAE-YENNS--------SIEANLVKD-----F--DK-V  208
+25475111  205   IKEL------------------WAE-YENNS--------SIEANLVKD-----F--DK-V  229
+14457008  117   IKEL------------------WQE-YEDAS--------TDEAKMVKD-----F--DK-F  141
+6337017   140   IAEL------------------WRE-YEENS--------SPEAKVVKD-----F--DK-V  164
+19070443  191   IEEL------------------WTE-YEENS--------STEAKIVKD-----L--DK-V  215
+691289    113   IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  137
+21641453  175   IGEL------------------WME-YEQNS--------SPEAKIVKD-----F--DK-V  199
+4444456   174   IREL------------------WME-YENNA--------TLEAKVVKD-----F--DK-V  198
+15522056  118   IYGL------------------WEE-YESQS--------SPEARLVKQ-----F--DL-L  142
+24213497  118   IFAL------------------WEE-YEHQS--------TPEAKLVKQ-----F--DL-L  142
+4159438   115   IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  139
+22150506  197   IKEL------------------WQE-YENNA--------SLEANLVKD-----F--DK-V  221
+2904536   130   ISDL------------------FLE-YEANS--------STEAKIVKD-----F--DKVV  155
+4530694   114   LYEL------------------WED-YEFQR--------SEEAKFVKD-----L--DK-F  138
+22156830  121   IEAL------------------WQE-YEAGE--------TAEAKFVKD-----L--DR-I  145
+15739001  116   VYAL------------------WEE-YETQS--------SPEARLVKQ-----F--DL-L  140
+16036477  114   IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  138
+11192711  187   IEEL------------------WME-YEENT--------SSEAKIVKD-----F--DK-V  211
+3314295   116   IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  140
+26654283  180   IAEL------------------WRE-YEANA--------SPEAKVVKD-----F--DK-L  204
+2838902   262   IKEL------------------WEE-YENNS--------SMEANLVKD-----F--DK-V  286
+11924218  130   LMAI------------------WEE-YEQQS--------SAESTFVKD-----L--DR-L  154
+17515703  191   IKEL------------------WQE-YENNA--------SLEANLVKD-----F--DK-V  215
+17108727  115   IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  139
+7074544   1592  IEAL------------------WEE-YEARE--------TKESKLVKD-----L--DR-F  1616
+12202970  141   IKRV------------------FQE-YEDNV--------TLEAQFVHD-----I--DK-M  165
+16082358  141   IKEI------------------FEE-YEADK--------SDEAHFVHD-----I--DK-M  165
+287834    116   IEAL------------------WQE-YEDGV--------TDEAKLVKD-----L--DK-L  140
+15713778  114   IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  138
+1441610   141   IKRV------------------FQE-YEDNV--------TLEAQFVHD-----I--DK-M  165
+3654561   109   IRAI------------------WQE-YEDSV--------TKESVFVHD-----I--DK-V  133
+6200078   113   IFAL------------------WKE-YEEQN--------TPESRAVKD-----L--DR-F  137
+26388721  94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+3410654   183   IQEL------------------WAE-YESNA--------SLEANLVKD-----F--DK-V  207
+18470102  94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+11968045  192   IKEL------------------WQE-YENNA--------SLEANLVKD-----F--DK-V  216
+4906607   119   IQEL------------------WEE-YEAQA--------TPEARFVKD-----L--DR-L  143
+11990579  179   VREL------------------WME-YENNA--------TLEAKVVKD-----F--DK-V  203
+24767283  94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+23785865  108   IYEL------------------WEE-YESQM--------SAEAKLVKE-----F--DL-L  132
+17706146  94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+8963266   94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+16998446  116   IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  140
+13032256  191   IQEL------------------WAE-YENNA--------SIEANLVKD-----F--DK-V  215
+4441460   174   IKEL------------------WRE-YEDNA--------SLEANLVKD-----F--DK-I  198
+8700833   2710  IEAL------------------WEE-YEARE--------TKESKLVKD-----L--DR-F  2734
+5704850   95    IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  119
+14545940  94    IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  118
+146309    94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+18570192  184   IAEL------------------WRE-YEANT--------SPEAKVVKD-----F--DK-L  208
+6841753   115   IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  139
+2110134   94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+19085780  152   IYEL------------------WEE-YENQS--------SAEAKFVKQ-----L--DQ-C  176
+22258784  172   IKAI------------------WQE-YEDGV--------TEESKFVHD-----V--DK-I  196
+18854516  121   LRDL------------------FEE-YEAQE--------TAESRFVKD-----M--DL-L  145
+14426338  190   ISQL------------------WME-YEENS--------SPEAKIVKD-----F--DK-V  214
+5944926   107   MYEL------------------YKE-YEDQS--------SPEAKFAKD-----L--DR-Y  131
+10958580  94    IYEL------------------WEE-YENQC--------TAEAKFVKQ-----L--DQ-C  118
+23676038  1389  LMAL------------------WQE-YEARA--------TKEAKLVKD-----L--DR-F  1413
+15275174  111   LHEL------------------WEE-YEAQQ--------TPEAQFLKD-----I--DL-L  135
+3404045   94    IYEL------------------WEE-YENQS--------TAEAKFVKQ-----L--DQ-C  118
+9626070   151   IAEL------------------WME-YEENS--------SSEAKIVKD-----F--DN-L  175
+23533241  182   IEEL------------------WQE-YENNS--------SLEANLVKD-----F--DK-V  206
+22525288  167   RFRSL-----------------WDE-YEARE--------TPESKLVKD-----L--DR-V  192
+26569041  197   IQEL------------------WTE-YENNA--------SIEANLVKD-----F--DK-V  221
+20512949  195   IRSL------------------WQE-YEDGV--------TLESKFVHD-----L--DK-I  219
+5844755   141   IKEI------------------FEE-YEKDE--------TLEAHFVHD-----I--DK-M  165
+20916681  167   VYEL------------------WDE-YECQS--------SAEAKFVKD-----L--DQ-C  191
+15416645  141   IKKV------------------FEE-YEKDE--------TLEAHFVHD-----I--DK-M  165
+10730735  195   IRSL------------------WQE-YEDGV--------TLESKFVHD-----L--DK-I  219
+19683910  111   LVSL------------------WKE-YDEQK--------TPESLVCKD-----L--DK-F  135
+18784898  192   FRSL------------------FEE-YEARE--------TPESKLVKD-----L--DR-L  216
+25959771  139   IEDL------------------WNE-FEAGV--------TQEAIYAKD-----I--DK-F  163
+13269252  145   ILGL------------------WRE-FEDGK--------TKESLVAQD-----L--DK-I  169
+20260746  117   IYEL------------------WEE-YEHQS--------TAEARFVKE-----L--DQ-C  141
+22715875  117   L---------------------WEE-YEAQN--------SPESKVVKD-----L--DM-F  138
+12454093  108   IYSL------------------WEE-YETQS--------SPEAKLVKE-----L--DQ-L  132
+26092372  115   IRDA------------------WVE-YENGE--------TKEAQWVRE-----M--DK-F  139
+18733088  110   ILQM------------------FRE-YERQE--------SPEAQYVKD-----L--DR-L  134
+20363065  85    IEKL------------------WHE-FEAGE--------TPEAQFAQD-----I--DK-I  109
+13261838  110   LQEL------------------WEE-YEAQD--------SPEARFLRD-----M--DL-L  134
+16511081  126   IQAL------------------WHE-YEQGQ--------TPEAKFRR---------QK-S  148
+8634678   168   FRSL------------------WDE-YETRE--------TPESKLVKD-----L--DR-V  192
+8369784   121   LYEL------------------WEE-YETQS--------TAEAKFVKQ-----L--DQ-C  145
+19813121  108   IYEL------------------WEE-YEHQS--------TAEAKFVKE-----L--DQ-C  132
+21284217  125   IYDL------------------FVE-YERGQ--------TPEAKLVKD-----F--DK-L  149
+20805621  108   IYEL------------------WEE-YEHQS--------TAEAKFVKE-----L--DQ-C  132
+21220188  111   ILQI------------------FRE-YEKQE--------SPEAQYVKD-----L--DR-L  135
+12404756  142   VLQL------------------FQE-YEEGK--------TAVAKFVKD-----L--DK-F  166
+24115420  111   ILQI------------------FRE-YEKQE--------SPEAQYVKD-----L--DR-L  135
+11453837  313   IMEL------------------FEE-YEHAQ--------SAESKFVKD-----L--DR-L  337
+12539369  313   IMEL------------------FEE-YEHAQ--------SAESKFVKD-----L--DR-L  337
+20605049  101   IMEL------------------FEE-YEHAE--------SAESRFVKD-----L--DR-L  125
+21971090  110   ILHI------------------FRE-YEKQE--------TPEAQYVKD-----L--DR-L  134
+8872296   110   ILEI------------------FRE-YEKQE--------TPEAKYVKD-----L--DR-L  134
+8166359   312   IMEL------------------FEE-YEHAQ--------SPESRFVKD-----L--DR-L  336
+14285352  74    IAEL------------------WME-YEANS--------SPEAKFVKD-----L--DK-V  98
+26415283  158   MRAV------------------WNE-FESGTIDGVPDSASPERAFVQD-----L--DK-I  190
+513081    221   ILQI------------------FRE-YEKQE--------SPEAQYVKD-----L--DR-L  245
+12028712  128   AL--------------------YKE-YEEGM--------TPEAKFVKG-----TYSTG-V  152
+19661644  196   IKEL------------------WEE-YENNS--------SKEANLVKD-----F--DK-V  220
+6886154   195   IKEL------------------WEE-YENNS--------SKEANLVKD-----F--DK-V  219
+11398677  111   ILQI------------------FRE-YEKQE--------SAEAQYVKD-----L--DR-L  135
+10771608  329   IMEL------------------FEE-YENAQ--------SPESKFVKD-----L--DR-L  353
+4509687   196   IKEL------------------WEE-YENNS--------SKEANLVKD-----F--DK    219
+16794105  291   IMEL------------------FEE-YEHGE--------TAESKFVKD-----L--DR-L  315
+17067476  284   IMEL------------------FEE-YEHGQ--------TAESKFVKD-----L--DR-L  308
+26770434  291   IMEL------------------FEE-YEHGE--------TAESKFVKD-----L--DR-L  315
+21825963  114   IEEL------------------WSE-FEAGD--------SKTAQLVRS-----V--DA-L  138
+11656109  105   IMEL------------------FEE-YESQS--------TEEARYVKD-----L--DR-F  129
+27101808  189   IKEL------------------WEE-YENNS--------SIEANLVKD-----F--DK-R  213
+16124648  190   IKEL------------------WEE-YENNS--------SIEANLVKD-----F--DK-R  214
+2806728   77    --------------------------YEYQS--------SPEAKLVKE-----L--DQ-C  94
+17570038  137   AL--------------------WDE-YEERE--------TAESKFVKD-----L--DL-F  159
+17536458  116   LFDE----------------------YENQE--------TPESQLTKD-----F--DL-Y  137
+17527567  91    ILEI------------------FRE-YEKQE--------SPEAKYVKD-----L--DR-L  115
+20907535  73    MYTL------------------WEE-YEAQE--------TPEARVVKD-----L--DR-F  97
+6033387   160   FRSL------------------WEE-YEARE--------TPESKLVKD-----L--DR-L  184
+17027746  171   IHEL------------------WME-YEENS--------SPEAKIVKD-----F--DK-V  195
+
+Query_1   162   EMLVQCF------EYEQ----KY-N-GK-K-----DLKQ-FL------GAI-ND-IKTD-  193
+23616906  162   EMLVQCF------EYEQ----KY-N-GK-K-----DLKQ-FW------GAI-ND-IKTD-  193
+24020270  162   EMLVQCF------EYEQ----KY-N-GK-K-----DLKQ-FW------GAI-ND-IKTD-  193
+5450591   313   EMLVQCF------EYEQ----KY-N-GK-K-----DLKQ-FW------GAI-ND-IKTD-  344
+6673525   181   EMLVQCF------EYER----EY-K-GT-K-----NFDD-FF------GAV-AS-IKTD-  212
+15733548  180   EMLVQCF------EYEK----LQ-N-GK-R-----DLDQ-FW------GAM-SS-IKTE-  211
+12787231  181   EMLVQCF------EYER----EY-K-GT-K-----NFDD-FF------GAV-AS-IKTD-  212
+7569571   179   EMLVQCF------EYEK----NA-G-GK-R-----DLDQ-FW------SAL-NS-IKTE-  210
+21643532  207   EMLVQCF------EYEK----RH-K-GT-K-----DLSQ-FY------SAV-DS-IKTE-  238
+2460927   161   EMLMQCF------EYER----RH-K-GE-K-----KLDQ-FW------SIV-DA-IQTT-  192
+17298346  160   EMLVQCF------EYEK----RL-N-DP-N-----KLKQ-FW------SAV-SN-IKTE-  191
+22541837  162   EMLVQCF------EYEK----SH-N----K-----QMDS-FY------DCV-PV-IKNQ-  191
+20420573  101   EMLVQCF------EYER----EY-K-GT-K-----NFDD-FF------GAV-AS-IKTD-  132
+2502327   163   EMIQQAW------DYEQ----EY-G-LK-Y-----DLSE-FY------LSR-AS-IKTK-  194
+21368319  177   ELIQQAW------EYEQ----EY-G-VK-Y-----DLSE-FY------ASR-SA-VVSK-  208
+16120921  160   EMIQQAW------DYEQ----DY-G-LK-Y-----NLNE-FY------VAR-SA-IKTP-  191
+15022913  168   EMLVQAM------EYEK----RH-P-G--V-----DLEE-FW------SAL-EV-IKTD-  198
+14445410  163   EMIQQAW------DYEQ----DF-G-LS-R-----DLSE-FY------LAR-SG-IVTE-  194
+20977974  199   ELLLSAF------HYER----EY-K-GE-K-----DLSE-FF------SAR-EL-IKTQ-  230
+11508915  165   DMLLQAF------EYEK----GS-K-GE-K-----SLER-FF------ESE-RR-LTTD-  196
+11890858  168   DMILQAF------EYEK----EA-R-GT-K-----SHER-FM------KAE-RR-LKTD-  199
+24223007  158   ELVLQTI------EYEK----TY----K-K-----DLKE-FL------HVV-DG-VRTP-  187
+5004243   170   EMLIQAF------EYEK----A----TK-K-----SLDE-FF------RSR-AL-IKHP-  199
+23849503  186   ELLVQTF------EYER----LH-G-IR-M-----D--E-FY------NCK-SL-IKHE-  215
+4858907   163   ELVLQTI------EYEK----TH----Q-I-----DLKE-FL------HVA-EG-VKTP-  192
+19814024  209   EMILQAL------EYED----EQ-G----K-----DLNE-FFQ-----STA-GK-FQTD-  239
+22141957  187   ELLLQMM------EYER----SH-E-GR-I-----DLGE-FS------WVA-QK-IELP-  218
+362186    139   EMIVQAL------EYEK-------S-DK-K-----SLQS-FF------DSTKGK-FQHP-  169
+26058789  161   EMASQAL------EYE-----KN-H-GA-Q-----TLQP-FFD-----SSI-PK-LQHP-  192
+17664774  187   ELLVQMV------EYER----SS-K-CE-R-----DLGE-FT------WVA-QK-IQSD-  218
+10831985  192   ELLLQAV------EYER----SH-A-GK-L-----DLSE-FF------HVL-EG-IKLP-  223
+17037433  204   ELLLQMM------EYER----RE----K-Q-----DLSE-FS------YVA-TR-IQSP-  233
+8209672   187   ELLLQMM------EYER----SH-Q-GR-I-----DLGE-FS------WVA-RK-IELP-  218
+2562929   173   ELLLQML------EYER----SQ-K-CE-T-----DLGE-FT------WVA-HK-IQSP-  204
+2595128   192   ELLVQML------EYER----TH-G----K-----DLGE-FT------WVA-TK-IQSA-  221
+15797881  189   ELLLQMV------EYEK----RG-E-GR-V-----DLGE-FA------YVA-TR-MHLD-  220
+20438184  155   EMASQAL------EYER----AH-S-TT-T-----LQPF-FN------NSI-PN-IQHS-  186
+21430396  158   EMASQAF------EYER----NH-D-MR-N-----LQPF-FD------SSL-PF-LRHP-  189
+26987110  187   ELLLQMV------EYER----SQ-K-CE-T-----DLGE-FT------WVS-QK-IQSP-  218
+26404367  139   EMIVQAL------EYEK----SD-N----K-----KLQG-FF------DSTRGK-FQHP-  169
+23262463  139   EMIVQAL------EYEK-------S-DK-K-----KLQG-FF------DSTKGK-FQHP-  169
+5832854   139   EMIVQAV------EYEK-------S-DK-K-----KLQG-FF------DST-KDKFQHP-  169
+8678864   167   ELILQMF------EYEK----SK-Q-GK-L-----DLGE-FT------WVA-TK-IKMP-  198
+18661437  168   ELLLQAV------EYER----SH-A-GK-L-----DLTE-FF------HVL-EG-IKLP-  199
+15161006  150   EMATQAL------EYEK----VL-D-AP-R-----LQAF-YD------SSI-PD-IKHP-  181
+4059410   182   ELILQMV------EYER----SH-K-GQ-I-----DLGE-FT------WVA-RK-IVLP-  213
+10436002  169   ELLLQMV------EYER----AH-G----I-----DLTE-FC------HVA-GR-IQLD-  198
+17547272  167   ELVLQMF------EYEK----SK-Q-GK-L-----DLGE-FT------WVA-TK-IMMP-  198
+14208332  164   ELLLQAV------EYER----ES-K-NK-K-----DLGE-FM------GVA-RK-LRTE-  195
+20363311  196   ELLLQMV------EYEK----RG-E-RK-L-----DLSE-FT------YVA-TK-MALD-  227
+10076972  183   EMILQAL------EYED----EQ-G----K-----DLEE-FFR-----STA-GK-FQTE-  213
+14081317  188   ELLLQMM------EYER----RS-E-GK-L-----DLGE-FA------YVA-SK-VVLP-  219
+17524741  200   ELLLQMV------EYEH----RG-E-GE-L-----DLGE-FS------WVA-QK-VKLD-  231
+19289608  193   ELLLQMV------EYER----AH-G-RS-EESAGLDLGE-FS------RVA-GK-IALP-  229
+7850670   160   EMATQAL------EYER----EH-N-VP--------LQS-FFD-----SSL-PN-LRHP-  190
+1305844   160   EMILQAL------EYEN----EQ-G----K-----DLDE-FFQ-----STA-GK-FQTD-  190
+10637026  253   EMIMQAL------EYEK-------S-EE-V-----TLED-FFA-----GTR-GK-FKHP-  283
+20967019  182   ELLHQMV------DYEK----RA-N-GE-L-----DLGE-FT------YVA-TK-VVTP-  213
+8542269   182   ELLLQMM------EYEK----RG-Q-GK-L-----DLGE-FA------YVA-TK-FTLN-  213
+22523182  190   ELMLQMV------EYEK----QG-K-GQ-V-----DLGE-FA------YVA-RK-VTLP-  221
+24574254  164   ELLLQAV------EYER----ES-K-NE-K-----DLGE-FM------GVA-RK-LRTE-  195
+22292849  193   ELLLQMV------EYEK----RG-E-GK-V-----DLGE-FA------YVA-TR-MTLP-  224
+8047799   193   ELLLQMV------EYEK----RG-E-GK-V-----DLGE-FA------YVA-TR-MTLP-  224
+14406119  253   EMIMQAL------EYEK----SE-D-VTLE-----DF---FA------GTR-GK-FKHP-  283
+26259395  189   ELLLQMM------EYEK----RA-E-GA-L-----DLGE-FA------YVS-SR-ITLE-  220
+27324570  186   EMILQAL------EYEK----EQ-G----K-----DLEE-FFE-----STA-GK-FQTD-  216
+15142294  164   ELLLQAV------EYER----NT-E-SE-R-----DLGE-FM------GVA-RK-LRSE-  195
+26842307  169   ELLLQMV------EYER----TH-D----L-----DLSE-FC------HVA-NR-VQLP-  198
+17102858  195   ELLLQMV------EYEK----HG-D-GK-L-----DLGE-FA------YVA-TR-ITLP-  226
+23322974  833   EMASQAL------EYER----NH---GV-S-----TLQP-FFD-----SSV-PR-LQHP-  864
+24220066  164   ELLLQAV------EYER----DG-K-GK-R-----DLGE-FM------GVV-RK-LRSE-  195
+1878037   205   ELLLQMM------EYEK----RA-E-GA-L-----DLGE-FS------YVS-SK-MVLD-  236
+16896472  169   ELLLQMV------EYE-----RA-N-G--I-----DLTE-FC------HVA-GK-VQLP-  198
+4558814   169   ELLLQMV------EYER----AS-G----V-----DLTE-FC------HVA-GR-IQLP-  198
+10740353  198   EMILQAL------EYEN----EQ-G----K-----DLEE-FFQ-----STA-GK-FQTD-  228
+10231093  190   ELMLQMV------EYEK----QG-K-GH-V-----DLGE-FA------YVA-TK-VTLP-  221
+16597786  187   EMILQAL------EYEN----EQ-G----K-----DLDE-FFQ-----STA-GK-FQTE-  217
+17610447  232   EMILQAL------EYEN----EQ-G----K-----DLNEFFV------STA-GK-FQTE-  262
+16237145  200   ELLLQMV------EYER----RG-E-RK-L-----DLGE-FT------YVA-TR-LALD-  231
+24857995  166   ELLLQMV------EYER-------S-SG-I-----DLTE-FT------HVK-GK-IQSG-  195
+21140335  169   ELLLQMV------EYE-----RA-N-G--I-----DLSE-FC------HVA-NK-VQLP-  198
+7904385   197   EMILQAL------EYEK----DQ-G----K-----DLEE-FFQ-----STA-GK-FQTD-  227
+4228225   220   EMILQAL------EYEN----EQ-G----K-----DLDE-FFQ-----STA-GK-FQTE-  250
+6350872   161   EMASQAL------EYER----AH-N-AQ--------LQT-FFE-----SSL-PN-IRHP-  191
+12824142  185   ELLTQMV------EYEK----RV-D-CR-L-----DLGE-FA------YVA-TK-VQLP-  216
+12981394  186   ELLTQMV------EYEK----RA-N-KT-L-----DLGE-FA------YVA-TK-VMLP-  217
+27104086  142   DMILQAF------EYEK----RE-N-AP-K-----KLEE-FF------KA            166
+17835405  195   ELLLQMM------EYER----RG-R-GH-V-----DLGE-FA------YVS-GK-MTLP-  226
+15628187  165   EMALQAR------EYEQ----AH-SKSR-G-----ELQG-FFD-----GSL-PY-LQHP-  198
+19716332  165   ELLLQTV------EYER----AH-G-GK-L-----DLTE-FY------HVF-KK-IRLP-  196
+26085122  259   EMIMQAL------EYEK----SE-DITL-E-----DF---FA------GTR-GK-FKHP-  289
+26255469  212   EMILQAL------EYET----EH-G-MV-L-----D-EF-FL------STA-GK-FQTE-  242
+6232986   152   EMATQAL------EYER----DL-N-AS-R-----LQSF-YD------SSI-PY-IEHP-  183
+22578998  183   ELILQMV------EYER----MH-E-QK-L-----DLGE-FS------WVA-TR-IVMP-  214
+20841327  212   ELLLQAV------EYER----NG-E-SQ-R-----DLGE-FM------GVA-RK-LRSE-  243
+17367653  199   EMILQAL------EYES----EH---GK-V-----LDEF-FI------STA-GK-FQTE-  229
+6229703   165   EMASQAL------EYER----NH---GM-K-----TLQP-FFD-----SSL-PF-IRHP-  196
+11450374  182   DMILQAF------EYEK----ES-E-FT-L-----SLQD-FF------NSTEGT-FQNP-  214
+1753571   165   ELLLQTV------EYER----AH-G-GK-L-----DLTE-FY------HVF-KK-IRLP-  196
+13468856  195   EMILQAL------EYEN----EQ-G----K-----NLDE-FF------QST-AG-I      221
+21762857  172   ELLCQMV------EYEK----RA-N-HC-L-----DLSE-FV------YVA-KR-LVLT-  203
+8504008   185   ELLTQMV------EYER----RV-D-RR-L-----DLGE-FA------YVA-TK-VQLS-  216
+25709421  138   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     159
+696508    159   EMALQAR------EYEM----AH----A-L-----DLQP-FFD-----SSL-PH-LRHA-  189
+14774866  143   EMILQAH------EYEE----LE-G-TP-G-----RLQE-FFD-----STA-GR-FQHQ-  175
+9810361   257   EMLLQMA------EYES----RS-N-GQ-I-----NLED-FT------YVT-TK-IQLP-  288
+16612569  256   EMIMQAL------EYEQ----SE-D-TM-L-----E-SF-FA------GTK-GK-FKHP-  286
+13451700  210   EMILQAL------EYEA----EH---GK-V-----LDEF-FI------STA-GK-FQTE-  240
+5434179   149   EMIIQAL------EYEE                                             159
+25794756  171   ELLLQMV------EYER----EH-G----K-----DLSE-FS------HVA-SR-ITLP-  200
+16485649  211   ELLCQMV------EYEK----RC-E-GK-L-----DLGE-FA------YVA-SR-MELP-  242
+17185705  222   EMILQAL------EYEQ----EQ-G-MI-L-----D-EF-FQ------STA-GK-FQTD-  252
+18820405  208   EMILQAL------EYES----EH---GK-V-----LDEF-FI------STA-GK-FQTE-  238
+22436400  144   EMILQAD------DYER----AQ-N-IP--------LDD-FF------QST-KDKFRTP-  174
+23699696  141   EMILQAL------EYEE----LE-K-NP-G-----RLQE-F                     162
+8850712   138   EMILQAF------EYEE----LE-N                                     151
+22418684  168   EMILQAL------EYEN----EQ-G----K-----DLDE-FFQ-----STA-GK-FQTE-  198
+16449822  141   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     162
+27102858  143   EMILQAH------EYEE----LE-G-TP-G-----RLQE-FF                    165
+16192211  148   EMILQAH------EYEE----LE-G-AP-G-----RLQE-FF------DST-NGRFQHP-  180
+17846320  144   EMILQAL------EYED----Q--Q-AD-L-----DLAE-FF------DSVEGK-LKTE-  175
+14883206  203   ELLLQMV------EYER----RG-E-RA-L-----DLGE-FA------YVA-TR-LALD-  234
+5857234   156   EMILQAH------EYEC----GQ-G----M-----QLQE-FFD-----STA-GK-WRTE-  186
+4712180   171   EMASQAL------EYEK----RH-N----K-----ELQP-FLD-----SSI-PK-LNHP-  201
+6836530   140   EMILQAF------EYEE----LE-N-TP-G-----RLQD-FF                    162
+16865225  196   ELICQMV------EYEK----RG-E-GR-L-----DLGE-FA------WVA-KK-MVLP-  227
+11081703  209   EMILQAL------EYEM----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  239
+9904218   138   EMVCQAF------EYEK----KH-D-I--------DLSQ-FF------TS            160
+5058098   138   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     159
+2392409   205   EMILQAL------EYEM----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  235
+3723396   133   EMIVQAL------EYEK----GK-R-AS-M-----AMPR-LMRASTAQGAT-LD-SFFD-  170
+6191256   178   ELVLQMV------EYER----VE-K-KR-L-----DLGE-FS------WVA-SK-IVMQ-  209
+21690875  209   EMILQAL------EYET----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  239
+25475111  230   EMILQAL------EYEV----DH---GK-V-----LDEF-FL------STA-GK-FQTE-  260
+14457008  142   EMILQAD------EYES----VQ-D----V-----NLDQ-FF------TSTEGK-FKTP-  172
+6337017   165   ELILQAL------EYEQ----DQ-G----K-----DLEE-FFQ-----STA-GK-FQTD-  195
+19070443  216   EMILQAL------EYEN----EQ-G----V-----DLDE-FFQ-----STA-GK-FQTK-  246
+691289    138   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     159
+21641453  200   EMILQAL------EYEN----EQ-G----K-----DLDE-FFQ-----STA-GK-FQTE-  230
+4444456   199   EMILQAL------EYEK----EQ-G----R-----DLEE-FF                    219
+15522056  143   EMILQAH------EYEE----LE-G-TP-G-----RLQE-FF------DST-N         169
+24213497  143   EMILQAH------EYEE----LE-G-SP-G-----RLQE-FF                    165
+4159438   140   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     161
+22150506  222   EMILQAL------EYES----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  252
+2904536   156   EMILQAL------EYEN----EQ-G----K-----DLEE-FFE-----STA-GK-FQTE-  186
+4530694   139   EMILQAH------EYET----LS-D-CP-G-----HLQE-FFD-----STA-GK-FKTE-  171
+22156830  146   EMALQAS------EYEK----RH-D----K-----DLQA-FFD-----SSL-PK-IRHP-  176
+15739001  141   EMILQAH------EYEE----LE-G-AP-G-----RLQE-FF------DST-NGRFHHP-  173
+16036477  139   EMILQAF------EYEE----LE-K-TP-G-----RLQD-FF                    161
+11192711  212   EMILQAL------EYEN----EQ-G----V-----DLDE-FFQ-----STA-GK-FQTE-  242
+3314295   141   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     162
+26654283  205   EMILQAL------EYEQ----EQ-G----K-----DLEE-FFQ-----STA-GK-FQTD-  235
+2838902   287   EMILQAL------EYEM----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  317
+11924218  155   EMCLQAF------EYER----IQ-N----I-----NLNG-FY------TSL-ES-IKND-  184
+17515703  216   EMILQAL------EYES----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  246
+17108727  140   EMILQAF------EYEE----LE-D-TP-G-----RLQD-FF                    162
+7074544   1617  ELSLQAM------EYER----RY---GI-D-----DLQA-FWE-----GSI-PH-VGHP-  1648
+12202970  166   ELLLQMV------EYER----TH----E-V-----DLSE-FT------RVA-SR-VQLP-  195
+16082358  166   ELLLQMV------EYER----LH----K-I-----DLTE-FM------HVK-DR-IQLT-  195
+287834    141   EMIVQAG------EYER----EQ-G----K-----DLSD-FF------ASTRGK-FATD-  171
+15713778  139   EMILQAL------EYEE----LE-N-TP-G-----RLQD-F                     160
+1441610   166   ELLLQMV------EYER----AH-D----V-----DLSE-FE------RVA-SR-VQLP-  195
+3654561   134   ELISQMV------EYER----EL-K-CE-K-----DLGE-FT------WVS-LK-IQGE-  165
+6200078   138   DMILQAY------EYED----ML-E-QP-S-----SLEE-FF------NTT-NGKFQNP-  170
+26388721  119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-FF------DS            143
+3410654   208   EMILQAL------EYEM----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  238
+18470102  119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-FY------NS            143
+11968045  217   EMILQAL------EYES----EH---GK-V-----LDEF-FL------STA-GK-FQTE-  247
+4906607   144   EMALQAA------EYEK----HFPD-EP-K-----KLQP-FFD-----SSI-PN-IKHP-  177
+11990579  204   EMILQAL------EYEK                                             214
+24767283  119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     140
+23785865  133   EMILQAH------EYEE----LE-G-KP-G-----RLQE-FF------DST-QGRFHHP-  165
+17706146  119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     140
+8963266   119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-FF------DS            143
+16998446  141   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     162
+13032256  216   EMILQAL------EYEM----EH-G----K-----VLDE-FF                    236
+4441460   199   EMILQAL------EYET----EH-D-RI-L-----D-EF-FL------STA-GK-FQTE-  229
+8700833   2735  ELGLQAV------EYER----RY---GI-D-----DLQA-FWD-----GSL-PH-IAHP-  2766
+5704850   120   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     141
+14545940  119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-F                     140
+146309    119   EMILQAF------EYEE----LE-N-TP-G-----RLQD-FF------DS            143
+18570192  209   ELILQAL------EYEQ----EQ-G----K-----DLEE-FFE-----STA-GK-FQTD-  239
+6841753   140   EMILQAF------EYEE----LE-K-TP-G-----RLQD-FF------DS            164
+2110134   119   EMILQAF------EYEE----LE-K-TP-G-----RLQD-FF------DS            143
+19085780  177   EMILQAF------EYEE----LE-K-TP-G-----RLQD-FF                    199
+22258784  197   ELVLQMV------EYER----MG-H-GK-Y-----DLGE-FS------WVA-SR-IEMP-  228
+18854516  146   EMIVQAH------SYES-----M-N-PG-K-----DLNS-FF------RSG-AG-IRHP-  176
+14426338  215   EMILQAL------EYEN                                             225
+5944926   132   DMILQAF------EYEK----RE-N-TP-K-----KCQE-FF------TA            156
+10958580  119   EMILQAF------EYEA----LE-N-TP-G-----RLQD-F                     140
+23676038  1414  ELCLQAL------EYER----S--E-SI-A-----DLQP-FYQ-----GSI-GY-ITSP-  1445
+15275174  136   EMVAQAH------AYEL----AH-P--K-K-----DLSS-FF------VSG-EK-IKHP-  166
+3404045   119   EMVLQAF------EYEE----LE-K-TP-G-----RLQD-FF------DS            143
+9626070   176   EMILQAL------EYEN----EQ-G----V-----DLDE-FF------QST-SGKFQTD-  206
+23533241  207   ELILQAL------EYET----QH-G----K-----VLDE-FF                    227
+22525288  193   ELALQAV------EYER----SQ-D-IQ-S-----LSPF-FI------GSI-PH-LENP-  224
+26569041  222   EMILQAL------EYE                                              231
+20512949  220   ELILQMV------EYER----AS-A-CK-C-----DLGE-FT------WVY-CK-IMLP-  251
+5844755   166   ELLLQMV------EYER-------S-DK-V-----DLTE-FT------HVA-SR-IRLP-  195
+20916681  192   EMILQAL------EYEE----LK-K-KP-G-----CLQE-FYD-----STA-GN-FRHP-  224
+15416645  166   ELLLQMV------EYER-------S-NE-V-----DLTE-FT------HVA-SR-IRLP-  195
+10730735  220   ELILQMV------EYER----AS-A-CK-C-----DLGE-FT------WVH-CK-IILP-  251
+19683910  136   EMILQAY------EYEL----EA-N-RP-G-----WLEE-FF------KST-EG-LFTY-  167
+18784898  217   ELALQAV------EYER----TQ-E-VL-T-----LAPF-FR------GSI-PN-LEHP-  248
+25959771  164   EMVLQAY------EYEK----AH-E-G                                   178
+13269252  170   DMVLQAL------TYEE----SI---GR-G-----KLDE-FM------HAV-NK-IKTP-  200
+20260746  142   EMILQAS------EYEE                                             152
+22715875  139   DMILQAH------EYEV----EM-Q-DP-G-----KLQE-FF------DST-NGRFQHR-  171
+12454093  133   EMIIQAH------EYEE----LE-G-KP-G-----RLQE-FF------TST-EG-L      161
+26092372  140   ECLVQAH------EYEQ----MT-Y-GR-G-----DLEE-FQ------GLS-SK-IKSP-  171
+18733088  135   DLIMQAY------EYEK----RD-N-IP-G-----QLQE-FFT-----SSV-DK-IKNP-  167
+20363065  110   ELLLQAV------EYER----ES-K-KE-K-----DLGE-FM------GVA-RK-LRTE-  141
+13261838  135   EMVSQAH------SYEQ-----V-N-PE-L-----NFDS-FF------VSG-EQ-IKHP-  165
+16511081  149   QKLIIFFLQKLALEYEK----RH---GK-H-----LQPF-FD------SSI-PK-LNHP-  185
+8634678   193   ELALQAV------EYER----SQ-D-IQ-S-----LSPF-FV------GSI-PH-LENP-  224
+8369784   146   EMILQAS------EYED----LE-N-RP-G-----RLQE-F                     167
+19813121  133   EMILQAL------EYEE----LE-K-KP-G-----RLQD-F                     154
+21284217  150   DMIVQAF------EYER----SQ-G-ST--------LEQ-FF------EST-RG-RFTHP  180
+20805621  133   EMILQAL------EYEE----LE-K-KP-G-----RLQD-F                     154
+21220188  136   DLLMQAY------EYEK----RD-N-IL-G-----ELDE-FF------IAI-NGKIRHP-  168
+12404756  167   DMIMQAF------EYEM----ST-S-RQ-G-----QLEE-FF------HS--ST-FRTE-  197
+24115420  136   DLLMQAY------EYEK----RD-N-IP-G-----ELNE-FF------VAI-NGKIRHP-  168
+11453837  338   DMVMQAF------EYEK----RD-N-CL-L-----KHQE-FF------DSTEGK-FNHP-  370
+12539369  338   DMVMQAF------EYEK----RD-N-CL-L-----KHQE-FF------DSTEGK-FNHP-  370
+20605049  126   DMVMQAF------EYEK----RD-N-CL-L-----KHQE-FF------DSTEGK-FNHP-  158
+21971090  135   DLLMQAF------EYEK----RD-N-IF-G-----KLEE-FF------VTT-NGKIKHP-  167
+8872296   135   DLIMQAY------EYEK----RD-N-IP-G-----KLEE-FF------SAN-GK-IGHP-  166
+8166359   337   DMVMQAF------EYEK----RD-N-CL-L-----KHQE-FF------DSTEGK-FNHP-  369
+14285352  99    EMILQAL------EYED----EQ-G----K-----DLDE-FFQ-----STA-GK-FQTE-  129
+26415283  191   EMLLQMS------EYER----RH-G----V-----NLDE-FT------YSA-TK-IRMP-  220
+513081    246   DLLMQAY------EYEK----RD-N-IP-G-----ELNE-FF------VAI-NGKIRHP-  278
+12028712  153   DADVSSR------EYEK----AHAR-DR-G-----DLQG-FFD-----SSL-PY-LRHP-  186
+19661644  221   HI                                                            222
+6886154   220   HI                                                            221
+11398677  136   DLLMQAY------EYEK----RD-N-IP-G-----ELNE-FF------VAIQGK-IRHP-  168
+10771608  354   DMVMQAF------EYEK----RD-N-CL-L-----KHQE-FF------DSTEGK-FNHP-  386
+16794105  316   DMVMQAF------EYEK----RD-N                                     329
+17067476  309   DMVMQAF------EYEK----RD-N                                     322
+26770434  316   DMVMQAF------EYEK----RD-N                                     329
+21825963  139   ECMHQAV------VYEE----RS-Q-LV-K-----DLGE-FM------ELE-TK-VSAS-  170
+11656109  130   EMILQAR------HYEE-------G-EG-M-----CLQE-FY------DSV-DGKIKNQ-  160
+27101808  214   GVM                                                           216
+16124648  215   GVM                                                           217
+2806728   95    EMILQAY------EYEM----SE-K-SP-G-----RLQE-FF------DST-KA-HRT    125
+17570038  160   ELCMQAV------EYEN----S--Q-GC-R-----TLQE-FFE-----TTI-PR-IQHP-  191
+17536458  138   DMVHQAF------EYEKLQFDKT-G-VI-P-----DLSE-FFCQT---KVL-SR-IRNK-  176
+17527567  116   DLIMQAY------EYEK----RD-N-IP-G-----KLEE-FF------TTT-SGKIRHP-  148
+20907535  98    DMVMQAY------EYER----LE-D-RA-G-----EFQE-FY------QST-NGTFRHP-  130
+6033387   185   ELVLQAV------EYER----CE-L-GV-W-----PHSM-GA------HPL-PS-PGHP-  216
+17027746  196   EMILQAL------EYEN----EQ-G----H-----DLEE-FFQ-----STA-GK-FQTD-  226
+
+Query_1   194   E---------VKKWTQSLLEDRQAFFDSLKE  215
+23616906  194   E---------VKKWTQSLLEDRQAFFDSLKE  215
+24020270  194   E---------VKKWTQSLLEDRQAFFDSLKE  215
+5450591   345   E---------VKKWTQSLLEDRQAFFDSLKE  366
+6673525   213   E---------VKGWTSDLVVQRQKYFADLTQ  234
+15733548  212   E---------VKGWAQDLLRKREQFYDSLEK  233
+12787231  213   E---------VKGWTSDLVVQRQKYFADLTQ  234
+7569571   211   E---------VKSWALDLVKKREEFYSSL    230
+21643532  239   E---------VKSWTADLMRRRTQFFENL    258
+2460927   193   E---------VGAWVKDLYARRNSFFESLE   213
+17298346  192   E---------VKGWAQSLLDARAEFFES     210
+22541837  192   E---------VIQWTAQLLNERSKYFN      209
+20420573  133   E---------VKGWTSDLVVQRQKYFADLTQ  154
+2502327   195   E---------IGDLCDELIRQRDAFIGKLK   215
+21368319  209   E---------IGDLCDEVIRQREEFVKQLRQ  230
+16120921  192   E---------IGALCDEVIRQRTQFVEEQK   212
+15022913  199   E---------VKGWAKELIQERE          212
+14445410  195   E---------IGDLCDEVIRQRTAFVKTLKE  216
+20977974  231   E---------IAKIADELLKERDLFWRNIKK  252
+11508915  197   Y---------VKQWNRELREERDKFWESIK   217
+11890858  200   Y---------VRQWNRELLEERAKFWSSIE   220
+24223007  188   F---------MKEWVAEAVATRK          201
+5004243   200   E---------IQGLADSLLEERKAFWGA     218
+23849503  216   E---------MKRLTDELMRQRKEFLDQHK   236
+4858907   193   F---------MKEWVAEALSQR           205
+19814024  240   I---------GKAWASEIVSRRR          253
+22141957  219   E---------VKAWCNDLLREREAFWAGLKK  240
+362186    170   T---------VKAWAEALYAERK          183
+26058789  193   Q---------VQEWGHGLMNERE          206
+17664774  219   E---------VKTWAEQVFRERQEMW       235
+10831985  224   E---------VKEWAMVVMRERESYW       240
+17037433  234   E---------VKAWADELLAERDKFWASLGQ  255
+8209672   219   E---------VKEWCNDLLREREVFWAEL    238
+2562929   205   E---------IKAWAVAVFRERQQLW       221
+2595128   222   E---------VKAWADVIFWERVQLWKS     240
+15797881  221   E---------MKAWGQDVLKEREAFWGSKK   241
+20438184  187   Q---------VQDWGKSLLAERE          200
+21430396  190   E---------VKEWGEDLARERQ          203
+26987110  219   E---------IKTWAAAVFRERQALW       235
+26404367  170   T---------VKAWAEALYKEREDVLKNLE   190
+23262463  170   T---------VKAWAEALYKEREDVLKNLE   190
+5832854   170   V---------VKAWAEELYKEREEILKTI    189
+8678864   199   E---------VKAWSDAVMKEREEFWKA     217
+18661437  200   E---------MKEWATVVMRERETFW       216
+15161006  182   E---------VQGWGKDLLEERSRLFPS     200
+4059410   214   E---------VKAWCDEVLKERIEYWKSI    233
+10436002  199   E---------VKEWAAAVLKEREAFW       215
+17547272  199   E---------VKAWSDAVMKEREEFWNA     217
+14208332  196   A---------GKAWANEILGDRERFWEG     214
+20363311  228   E---------TKEWAAELMKEREAYWNG     246
+10076972  214   T---------GKAWASEIVSRRKNKF       230
+14081317  220   E---------VRKWADELLEEREKFW       236
+17524741  232   G---------MKEWCREILRERVEFWKGL    251
+19289608  230   E---------MQSWAQELLQERRRFWEG     248
+7850670   191   E---------VQGWGADLSRQRE          204
+1305844   191   V---------GKAWAAEIAARRK          204
+10637026  284   M---------VTGWVDELEAER           296
+20967019  214   E---------INDMAAQVLAERKAFWES     232
+8542269   214   E---------TKEWADALLKEREDFW       230
+22523182  222   E---------MREWAEELLRERDAFW       238
+24574254  196   A---------GKAWANEILGDREKFWEG     214
+22292849  225   E---------MKAWGQEVLKEREAFWGS     243
+8047799   225   E---------MKAWGQEVLKEREAFWGS     243
+14406119  284   M---------VTGWVDELEAER           296
+26259395  221   E---------TKAWAEELLQEREKFWGA     239
+27324570  217   V---------GKAWALEIASRR           229
+15142294  196   A---------GKTWANEILSEREKFWEG     214
+26842307  199   E---------IKEWAATVLQEREAFW       215
+17102858  227   E---------MKAWGQEVLKEREAFWGS     245
+23322974  865   E---------VQAWGKDLMKERE          878
+24220066  196   A---------GKAWADEILRERETLWEG     214
+1878037   237   E---------TKAWAKELIEEREKFWGT     255
+16896472  199   E---------TKEWAAAVLQERETFWKS     217
+4558814   199   E---------VKEWAATVMQEREAFW       215
+10740353  229   V---------GKAWAAEVASRRK          242
+10231093  222   E---------MKEWADELLKERDEFW       238
+16597786  218   V---------GKAWASEVASRRK          231
+17610447  263   L---------GKAWASEIASRRK          276
+16237145  232   E---------TKEWAGEILKEREAYW       248
+24857995  196   P---------MKEWADKVMEGR           208
+21140335  199   E---------TKEWAATVLQEREKFWKS     217
+7904385   228   L---------GKSWASEVASRRK          241
+4228225   251   L---------GKAWALEIASRRR          264
+6350872   192   E---------VQEWGRDLLDERE          205
+12824142  217   E---------IKAWADEILRERDALW       233
+12981394  218   E---------TKKWAEKVLKERDEFWGT     236
+17835405  227   E---------TRAWADELIAEREAFWGARK   247
+15628187  199   E---------VRQWGEALARKREA         213
+19716332  197   E---------IQAWGEEVIREREAFW       213
+26085122  290   M---------VTAWVNELEAER           302
+26255469  243   I---------GKSWAAEVISRRKSTLAS     261
+6232986   184   E---------VQQWGQDLLEERGRLLGAI    203
+22578998  215   E---------VKEWSDALLQEREEFWGA     233
+20841327  244   A---------GKTWANEILREREKFWDG     262
+17367653  230   I---------GKSWAAEINARRRS         244
+6229703   197   E---------VQEWGRDLAAERE          210
+11450374  215   L---------ILKWVQELKLER           227
+1753571   197   E---------IQAWGEEVIREREAFW       213
+21762857  204   E---------TQEWAQDILKERVAFWN      221
+8504008   217   E---------IKQWADEILRERDEFWGT     235
+696508    190   E---------IKRWGESLAQTR           202
+14774866  176   D---------VLQLISSLDEER           188
+9810361   289   E---------MKQWAEEILQDRPEFW       305
+16612569  287   M---------VTAWVNELDAER           299
+13451700  241   I---------GKSWAAEINARRKS         255
+25794756  201   E---------VKEWAEAIMKERR          214
+16485649  243   E---------TIAWGQEVLREREAFWAS     261
+17185705  253   V---------GKAWALEITSRRR          266
+18820405  239   I---------GKSWAAEINARRK          252
+22436400  175   L---------VQSWVEELTTQRNARLEVGKE  196
+22418684  199   L---------GRAWASEIVSRRR          212
+16192211  181   D---------VLQLVSSLNEER           193
+17846320  176   T---------GRKW                   180
+14883206  235   E---------TKEWAAEIIKEREAYW       251
+5857234   187   L---------GQSWAEEIYKRRKA         201
+4712180   202   E---------VKEWGSDLVAER           214
+16865225  228   E---------MIARGEEILKEREAFW       244
+11081703  240   I---------GKSWAAEINSRRNS         254
+2392409   236   I---------GKSWAAEINSRRNA         250
+3723396   171   STLGRFQHPLVRGWVNELMQER           192
+6191256   210   E---------VKDWAEEVLKEREEFWGEVE   230
+21690875  240   I---------GKSWAAEIISRRNS         254
+25475111  261   I---------GKNWAAEITSRRNS         275
+14457008  173   L---------VQSWVAELNAQRHA         187
+6337017   196   I---------GKAWASEIVSRRR          209
+19070443  247   V---------GKAWASEIASRRK          260
+21641453  231   L---------GKAWASEIASRRK          244
+22150506  253   I---------GKSWAAEIHSRRNS         267
+2904536   187   V---------GKSWALEVASRRR          200
+4530694   172   L---------VKEWVKKLTTDRTG         186
+22156830  177   E---------VRDWAEDLERERTA         191
+15739001  174   D---------VLQFVKCLNEERRS         188
+11192711  243   V---------GKAWASEIASRRK          256
+26654283  236   I---------GKAWALEIASRRR          249
+2838902   318   L---------GKSWAAEIISRRNS         332
+11924218  185   Q---------VRIYAELLIQERKHLFN      202
+17515703  247   I---------GKSWAAEI               255
+7074544   1649  R---------IRKWAQELARER           1661
+12202970  196   E---------IKVWAEQVMAER           208
+16082358  196   P---------IKEWADEVIRGR           208
+287834    172   V---------GKAWEAEIVSRRAG         186
+1441610   196   E---------IKVWAQQVVAER           208
+3654561   166   A---------VKGWADQLLRERQLMW       182
+6200078   171   Q---------IIKWTEEL               179
+3410654   239   I---------GKSWAAEINSRRNS         253
+11968045  248   I---------GKSWAAEI               256
+4906607   178   E---------VSQWGRDLEDER           190
+23785865  166   E---------VIQFVKSLNEERAGHLAA     184
+4441460   230   I---------GKSWAAEIIARRNS         244
+8700833   2767  R---------IRRWATELALERQRMWN      2784
+18570192  240   I---------GKAWALYIASRRR          253
+22258784  229   E---------VKAWADEVLQERATFWAELGE  250
+18854516  177   W---------ARAIFETLLETR           189
+23676038  1446  L---------VRCWAVELAREREALWN      1463
+15275174  167   W---------ARNIYETLLRTRSS         181
+9626070   207   V---------GKAWASEISSRRSS         221
+22525288  225   T---------IQKWAETLMEERRQLWAS     243
+20512949  252   E---------TKAWAKTILDEREELWGG     270
+5844755   196   E---------IQAWAAEVIQER           208
+20916681  225   E---------IVQLVATINEERNS         239
+15416645  196   E---------IQAWAAEVIQER           208
+10730735  252   E---------TKAWAKTILDEREELWGG     270
+19683910  168   PC--------VREWVDALRKERSEF        184
+18784898  249   A---------VRSWAETLMEERKQLWES     267
+13269252  201   E---------LKSFASKILQGR           213
+22715875  172   I---------VKTWVEELYKLR           184
+26092372  172   K---------AKEWLALLQQERQAHFSKLRQ  193
+18733088  168   F---------VNKIATEIIIERNRLFPNLSE  189
+20363065  142   A---------GKAWANEILGDRERFWQG     160
+13261838  166   W---------ARGIYETLVSTR           178
+16511081  186   E---------IKQWGSDLLAERSSYHES     204
+8634678   225   T---------IQKWAETLMEERRQLWAS     243
+21284217  181   K---------IKRVVEILYERRK          194
+21220188  169   F---------INKIAVDINEERDKLCRSM    188
+12404756  198   T---------IAEWA                  203
+24115420  169   V---------INKIAIDITEERDKF        184
+11453837  371   F---------VKKLVNEIYEQRQ          384
+12539369  371   F---------VKKLVNEIYEQRQ          384
+20605049  159   F---------VKKLVNEIYEQRNVL        174
+21971090  168   F---------ISKLANDITSERQILLNG     186
+8872296   167   F---------IKKLASEITATRQAL        182
+8166359   370   F---------VKKLVNEIYEQRQ          383
+14285352  130   T---------GKAWASEIVSRRK          143
+26415283  221   E---------MRAWADEILAGR           233
+513081    279   V---------INKIAIDITEERDKF        294
+12028712  187   E---------VRHWGDTLASER           199
+11398677  169   F---------INKIAIDITEERDKLLN      186
+10771608  387   F---------VKKLVNEIYEQRQ          400
+21825963  171   E---------LRDWAKCLKQERDTLWSS     189
+11656109  161   E---------IISLATTLVESRR          174
+17570038  192   V---------VKGWARDLLAERRA         206
+17536458  177   E---------VNDLVNEIIKQRVIFWNQNSE  198
+17527567  149   F---------IQKLASEIIARRQAL        164
+20907535  131   E---------VKDWVVEL               139
+6033387   217   H---------VRKWAESAMEERKQLW       233
+17027746  227   V---------GKAWAAEVASRRK          240
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 470486367659
+
+
+  Database: ./nr
+    Posted date:  Feb 17, 2021  1:46 PM
+  Number of letters in database: 9,881,117,767
+  Number of sequences in database:  27,325,400
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

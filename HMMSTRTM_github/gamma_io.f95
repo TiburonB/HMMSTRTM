@@ -98,7 +98,7 @@ module gamma_io
           character(len=1) :: chain
           integer :: vrecsize
           vrecsize = n*8 + 9
-          write(*,*) vrecsize
+          !write(*,*) vrecsize
            !write(*,*) ("WRITING GAMMAS to " // gamma_file)
            open(3, file=trim(gamma_file),status='OLD', form = 'unformatted', &
                    access = 'direct', recl= vrecsize, iostat = ios)

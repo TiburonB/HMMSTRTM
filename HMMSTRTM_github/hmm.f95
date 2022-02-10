@@ -138,7 +138,7 @@ subroutine scratch_hmm(modelfile, drctfile, code)
   training_flags = [1, 0, 0, 0]
                    !AA RAMA SS TM
   ! [ mda, Viterbi, pt, gamma, seq]
-  eval_flags = [ 0., 0., 0., 0., 1., 0.]
+  eval_flags = [ 0., 0., 0., 1., 1., 0.]
   HMMSTR = read_hmm(modelfile, .true.) ! READ THE MODEL
     call get_intrans(intrans,HMMSTR)   ! get indeces of nodes transferring into each node
     call get_outtrans(outtrans,HMMSTR) ! get indeces of nodes transferred to from each node
