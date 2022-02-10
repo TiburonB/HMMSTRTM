@@ -40,7 +40,7 @@ if __name__ == '__main__':
     
     HMM = hmm(modelfile)
     HMM.read()
-    HMM_GAMMA_IMAGE(HMM, gamma, './static/' + of)
+    HMM_GAMMA_IMAGE(HMM, gamma, './tmp/' + of)
 
 
 

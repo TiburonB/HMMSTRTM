@@ -46,7 +46,7 @@ if __name__ == '__main__':
     #plt.show()
     name = ftitr[ftitr.rfind('/')+1:]
     if server: # server expects image to reside in static directory
-        save_path = './static/'+name+'.jpg'
+        save_path = './tmp/'+name+'.jpg'
         print(save_path)
         plt.savefig(save_path)
     else:
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     ax1.set_title('Gamma-voted Ramachandran Distribution.')
     ax1.axis('equal')
     if server:
-        save_path = './static/'+name+'rama.jpg'
+        save_path = './tmp/'+name+'rama.jpg'
         print(save_path)
         plt.savefig(save_path)
     else:
@@ -120,7 +120,7 @@ if __name__ == '__main__':
     ax1.set_title('Gamma-voted Secondary Structure Distribution.')
     ax1.axis('equal')
     if server:
-        save_path = './static/'+name+'ss.jpg'
+        save_path = './tmp/'+name+'ss.jpg'
         print(save_path)
         plt.savefig(save_path)
     else:
