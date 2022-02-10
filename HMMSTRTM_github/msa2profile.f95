@@ -88,6 +88,7 @@ program msa2profile
     !! Should be the same for all entries in the MSA. 
     nres = max(nres,len_trim(myseq(ntaxa)))
   enddo
+  masterseq = trim(myseq(1))
   close(11)
   !!---------------------------------------------------------------------------
   !! trim the MSA to the master seq
@@ -116,28 +117,33 @@ program msa2profile
   !do i=1,ntaxa
   !  write(*,*) i,trim(label(i)),trim(myseq(i))
   !enddo
-  dmatrix = 0.0
-  do i=1,ntaxa
-    do j=1,i-1
-      pid = getpid(myseq(i),myseq(j))
-      if (pid <= ranpid) then
-         pid = ranpid + 0.01
-        !! diagnostic
-        !write(0,*) "WARNING: %id below random ",i,j
-        x = 0!huge(x)
-      endif
-      !! Convert to Jukes-Cantor
-      x = -log((pid-ranpid)/(1-ranpid))
-      dmatrix(i,j) = x
-      dmatrix(j,i) = x
-    enddo
-  enddo
-  !!--------------------------------------------------------------------------
-  !! Get sequence weights using sum-of-distance method
-  do i=1,ntaxa
-    seqweight(i) = sum(dmatrix(i,:))
-  enddo
-  seqweight = seqweight/sum(seqweight(:))
+  if ( ntaxa > 1 ) then 
+          dmatrix = 0.0
+          do i=1,ntaxa
+            do j=1,i-1
+              pid = getpid(myseq(i),myseq(j))
+              if (pid <= ranpid) then
+                 pid = ranpid + 0.01
+                !! diagnostic
+                !write(0,*) "WARNING: %id below random ",i,j
+                x = 0!huge(x)
+              endif
+              !! Convert to Jukes-Cantor
+              x = -log((pid-ranpid)/(1-ranpid))
+              dmatrix(i,j) = x
+              dmatrix(j,i) = x
+            enddo
+          enddo
+          !!--------------------------------------------------------------------------
+          !! Get sequence weights using sum-of-distance method
+          do i=1,ntaxa
+            seqweight(i) = sum(dmatrix(i,:))
+          enddo
+          seqweight = seqweight/sum(seqweight(:))
+  else
+        seqweight(1) = 1
+  endif
+
   !!--------------------------------------------------------------------------
   !! Calculate profile with pseudocounts
   write(ounit,'("#PROFILE Col# AA_of_seq_1 Prob_A C D E F G H I K L M N P Q R S T V W Y")')

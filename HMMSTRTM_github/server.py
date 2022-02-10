@@ -82,7 +82,10 @@ def run_pdb():
             pdb_file.save(os.path.join('./tmp', filename))
         pdb_name = pdb_file.filename[:pdb_file.filename.rfind('.')]
         chain = request.form['chain']
-        os.system('./RUNPDB.csh ' + HMM_file + ' '  + pdb_name + ' ' + chain)
+        if request.form.get('RUN_BLAST'):
+            os.system('./RUNPDB.csh ' + HMM_file + ' '  + pdb_name + ' ' + chain + ' 1')
+        else:
+            os.system('./RUNPDB.csh ' + HMM_file + ' '  + pdb_name + ' ' + chain )
         seqfile = HMM_file_prefix+pdb_name+'.seq'
         html_string = """ <head>
         <link rel="stylesheet" type="text/css" href="static/test.css">
@@ -113,6 +116,7 @@ def gamma_pie(name, titr):
     html += '<img src=../../static/'+name+str(titr)+'rama.jpg alt="Gamma-voted Ramachandran prediction piechart" width="450" height="333">'
     html += '<img src=../../static/'+name+str(titr)+'ss.jpg alt="Gamma-voted Secondary Structure prediction piechart" width="450" height="333">'
     html += html_tail
+    html += '<br>'
     html += "<a href=/gamma-heat/"+name+"/"+str(titr)+">View Gamma Heatmap</a>"
     return html
 
@@ -125,7 +129,7 @@ def gamma_heat(name, titr): # get the .gv.png file for gamma_heat at this timepo
     os.system(s)
     print(name + str(titr) + '_heat.jpg')
     html = '<h3> GAMMA Heatmap FOR RESIDUE ' + str(titr) + ' OF ' + name.upper() + ' </h3><br>'
-    html += '<img src=../../static/'+name+str(titr)+'_heat.jpg alt="Gamma Heatmap" width="600" height="1000">'
+    html += '<img src=../../static/'+name+str(titr)+'_heat.jpg alt="Gamma Heatmap" width="601" height="702">'
     html += html_tail
     return html
 
@@ -176,4 +180,4 @@ if __name__ == '__main__':
     app.secret_key = 'super secret key'
     app.config['SESSION_TYPE'] = 'filesystem'
     app.debug = True
-    app.run(host = '0.0.0.0', port = 4541)
+    app.run(host = '0.0.0.0', port = 4550)

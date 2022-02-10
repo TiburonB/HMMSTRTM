@@ -1,0 +1,1312 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./nr
+           27,325,400 sequences; 9,881,117,767 total letters
+
+
+
+Query= NULL:A
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+6E6Z_A Structure of Wild Type Human Transthyretin in Complex with...  234     1e-78
+5EZP_A Human transthyretin (TTR) complexed with 4-hydroxy-chalcon...  234     1e-78
+1BZD_A Tertiary Structures Of Three Amyloidogenic Transthyretin V...  234     1e-78
+1BM7_A Human Transthyretin (Prealbumin) Complex With Flufenamic A...  233     2e-78
+AKI71138.1 TTR, partial [synthetic construct]                         234     2e-78
+AAA60018.1 prealbumin [Homo sapiens] AKI71137.1 TTR, partial [syn...  234     3e-78
+6E72_A Structure of Human Transthyretin Val30Met Mutant in Comple...  233     3e-78
+4TLT_A Crystal structure of human transthyretin [Homo sapiens] 4T...  233     3e-78
+1TTC_A THE X-RAY CRYSTAL STRUCTURE REFINEMENTS OF NORMAL HUMAN TR...  233     4e-78
+3I9I_A Crystal structure of human transthyretin variant A25T - #2...  232     7e-78
+3A4F_A Crystal Structure of Human Transthyretin (E54K) [Homo sapi...  232     7e-78
+3CXF_A Crystal structure of transthyretin variant Y114H [Homo sap...  231     1e-77
+4MRC_A Human Transthyretin Ser52Pro Mutant [Homo sapiens] 4MRC_B ...  231     1e-77
+1GKO_A An Engineered Transthyretin Monomer that is Non-amyloidoge...  231     2e-77
+4TLS_A Crystal Structure of Human Transthyretin Glu92Pro Mutant [...  231     3e-77
+2B14_A The crystal structure of 2,4-dinitrophenol in complex with...  230     3e-77
+4TKW_A Crystal Structure of Human Transthyretin Leu55Pro Mutant [...  230     4e-77
+XP_011788674.1 PREDICTED: transthyretin isoform X3 [Colobus angol...  229     2e-76
+NP_001009137.1 transthyretin precursor [Pan troglodytes] Q5U7I5.1...  229     2e-76
+NP_001127064.1 transthyretin precursor [Pongo abelii] Q5NVS2.1 Re...  225     7e-75
+1FH2_A Transthyretin Stability As A Key Factor In Amyloidogenesis...  222     4e-74
+XP_036176822.1 transthyretin [Myotis myotis] KAF6331263.1 transth...  204     1e-66
+BAL44722.1 transthyretin [Saguinus midas]                             196     3e-63
+KFR10426.1 Transthyretin [Opisthocomus hoazin]                        191     2e-61
+NXU47974.1 TTHY protein [Turnix velox]                                190     7e-61
+XP_010199950.1 PREDICTED: transthyretin [Colius striatus] KFP3160...  189     1e-60
+XP_035173261.1 transthyretin [Oxyura jamaicensis]                     189     1e-60
+NP_001278332.1 transthyretin precursor [Meleagris gallopavo] XP_0...  189     2e-60
+NWW51075.1 TTHY protein [Pedionomus torquatus]                        188     3e-60
+XP_009698263.1 PREDICTED: transthyretin [Cariama cristata] XP_009...  188     4e-60
+XP_009812736.1 PREDICTED: LOW QUALITY PROTEIN: transthyretin [Gav...  188     6e-60
+NXC38089.1 TTHY protein [Penelope pileata]                            187     8e-60
+XP_010152258.1 PREDICTED: transthyretin [Eurypyga helias] KFW0745...  186     2e-59
+XP_027605798.1 transthyretin [Pipra filicauda]                        186     3e-59
+XP_009476272.1 PREDICTED: transthyretin [Pelecanus crispus] KFQ58...  186     3e-59
+NXG76376.1 TTHY protein [Baryphthengus martii]                        185     4e-59
+NWH73763.1 TTHY protein [Piaya cayana]                                181     2e-57
+NXB17590.1 TTHY protein [Rhagologus leucostigma] NXB34142.1 TTHY ...  178     4e-56
+XP_007443587.1 transthyretin [Python bivittatus]                      175     7e-55
+XP_038622638.1 transthyretin [Tachyglossus aculeatus]                 174     1e-54
+XP_026554929.1 transthyretin [Pseudonaja textilis]                    173     4e-54
+NWX65307.1 TTHY protein [Promerops cafer]                             172     9e-54
+XP_022442489.1 transthyretin-like [Delphinapterus leucas] XP_0224...  172     1e-53
+NXS40405.1 TTHY protein [Balaeniceps rex]                             165     4e-51
+NXT34042.1 TTHY protein [Pelecanoides urinatrix]                      161     1e-49
+NXE74688.1 TTHY protein [Cochlearius cochlearius]                     159     1e-48
+NXK29200.1 TTHY protein [Arenaria interpres]                          158     2e-48
+XP_005233498.1 transthyretin-like [Falco peregrinus]                  157     1e-47
+NXY67573.1 TTHY protein [Glareola pratincola]                         155     2e-47
+XP_026646889.1 transthyretin isoform X2 [Zonotrichia albicollis]      154     8e-47
+NWV53191.1 TTHY protein [Daphoenositta chrysoptera]                   154     1e-46
+NXC38088.1 TTHY protein [Penelope pileata]                            154     2e-46
+NXU44963.1 TTHY protein [Drymodes brunneopygia]                       152     3e-46
+XP_010707220.3 LOW QUALITY PROTEIN: transthyretin-like [Meleagris...  152     9e-46
+NXK59469.1 TTHY protein [Sylvietta virens]                            150     3e-45
+XP_030148077.1 transthyretin isoform X1 [Lynx canadensis]             151     3e-45
+NXN03106.1 TTHY protein [Sylvia borin]                                149     6e-45
+XP_030346145.1 transthyretin-like [Strigops habroptila]               149     7e-45
+NWH73764.1 TTHY protein [Piaya cayana]                                149     9e-45
+NWU38322.1 TTHY protein [Hylia prasina]                               147     3e-44
+TRZ15230.1 hypothetical protein HGM15179_011888 [Zosterops borbon...  149     2e-43
+XP_008643124.1 PREDICTED: transthyretin [Corvus brachyrhynchos] X...  144     6e-43
+XP_018925508.1 PREDICTED: transthyretin-like [Cyprinus carpio]        142     4e-42
+CAD66520.2 putative thyroid hormone carrier [Cyprinus carpio]         142     5e-42
+XP_009884286.1 PREDICTED: transthyretin-like [Charadrius vociferu...  142     8e-42
+XP_036378543.1 transthyretin [Megalops cyprinoides]                   139     9e-41
+CAB1324032.1 unnamed protein product [Coregonus sp. 'balchen']        140     9e-41
+XP_020502021.1 transthyretin-like [Labrus bergylta]                   138     2e-40
+1SN0_A Crystal Structure Of Sea Bream Transthyretin in complex wi...  136     6e-40
+AFP99134.1 transthyretin precursor, partial [Sebastiscus marmoratus]  137     8e-40
+XP_019487172.1 PREDICTED: transthyretin, partial [Hipposideros ar...  134     2e-39
+BAO04161.1 transthyretin, partial [Oncorhynchus mykiss]               134     5e-39
+XP_023859751.1 transthyretin [Salvelinus alpinus] XP_038858769.1 ...  134     9e-39
+XP_033790834.1 transthyretin isoform X1 [Geotrypetes seraphini]       132     6e-38
+XP_020365676.1 transthyretin-like [Rhincodon typus]                   126     9e-36
+AFM89881.1 transthyretin precursor [Callorhinchus milii]              123     4e-34
+AFM89919.1 transthyretin precursor [Callorhinchus milii]              122     5e-34
+AFM89936.1 transthyretin precursor [Callorhinchus milii]              120     5e-33
+AFM90152.1 transthyretin precursor [Callorhinchus milii]              120     5e-33
+BAX00165.1 transthyretin [Eptatretus atami]                           111     7e-30
+XP_034439520.1 LOW QUALITY PROTEIN: transthyretin [Hippoglossus h...  107     3e-28
+KAF5900441.1 transthyretin, partial [Clarias magur]                   104     7e-28
+XP_028258060.1 5-hydroxyisourate hydrolase-like [Parambassis ranga]   90.5    1e-21
+XP_004067257.1 5-hydroxyisourate hydrolase isoform X2 [Oryzias la...  88.6    5e-21
+XP_003442376.2 5-hydroxyisourate hydrolase [Oreochromis niloticus]    87.8    1e-20
+TMS13396.1 5-hydroxyisourate hydrolase [Larimichthys crocea]          87.4    2e-20
+XP_030270294.1 5-hydroxyisourate hydrolase-like isoform X2 [Sparu...  86.3    3e-20
+XP_025761752.1 5-hydroxyisourate hydrolase isoform X2 [Oreochromi...  86.3    5e-20
+XP_030270293.1 5-hydroxyisourate hydrolase-like isoform X1 [Sparu...  86.3    5e-20
+XP_035508232.1 5-hydroxyisourate hydrolase [Morone saxatilis]         85.9    7e-20
+XP_033844682.1 5-hydroxyisourate hydrolase [Periophthalmus magnus...  83.2    9e-19
+XP_029354741.1 5-hydroxyisourate hydrolase-like [Echeneis naucrates]  82.8    1e-18
+XP_014914711.1 PREDICTED: 5-hydroxyisourate hydrolase-like [Poeci...  79.7    1e-17
+XP_016408976.1 PREDICTED: 5-hydroxyisourate hydrolase-like [Sinoc...  79.3    3e-17
+TRZ00356.1 hypothetical protein DNTS_030398 [Danionella translucida]  79.3    3e-17
+ELU04386.1 hypothetical protein CAPTEDRAFT_223510 [Capitella teleta]  78.6    6e-17
+XP_007549945.1 PREDICTED: 5-hydroxyisourate hydrolase-like isofor...  75.1    1e-15
+XP_014184524.1 PREDICTED: 5-hydroxyisourate hydrolase-like [Haplo...  73.9    2e-15
+TKS70088.1 5-hydroxyisourate hydrolase [Collichthys lucidus]          74.3    2e-15
+KAF9958009.1 hypothetical protein BGZ72_001038 [Mortierella alpina]   72.4    8e-15
+XP_018515977.1 PREDICTED: 5-hydroxyisourate hydrolase-like isofor...  72.8    9e-15
+XP_029464190.1 5-hydroxyisourate hydrolase-like isoform X2 [Rhina...  71.6    2e-14
+XP_037109059.1 5-hydroxyisourate hydrolase b [Syngnathus acus]        71.2    3e-14
+KAG0369034.1 hypothetical protein BGZ54_000542 [Gamsiella multidi...  70.5    6e-14
+KAF9409349.1 hypothetical protein BGZ94_001979 [Podila epigama]       69.7    1e-13
+XP_026856861.1 5-hydroxyisourate hydrolase b [Electrophorus elect...  69.7    1e-13
+XP_026331233.1 5-hydroxyisourate hydrolase [Hyposmocoma kahamanoa]    69.3    1e-13
+NXR99191.1 TTHY protein [Oxylabes madagascariensis]                   68.2    1e-13
+XP_007244322.2 5-hydroxyisourate hydrolase-like isoform X2 [Astya...  68.2    4e-13
+WP_196287832.1 hydroxyisourate hydrolase [Hymenobacter sp. BT439]...  67.4    7e-13
+XP_031244609.1 5-hydroxyisourate hydrolase isoform X1 [Mastomys c...  67.8    9e-13
+XP_004638915.1 5-hydroxyisourate hydrolase-like [Octodon degus]       67.8    9e-13
+KAG0039642.1 hypothetical protein BGZ83_002743 [Gryganskiella cys...  67.4    1e-12
+WP_110643169.1 hydroxyisourate hydrolase [Salinicola sp. CPA57]       67.0    1e-12
+WP_183387788.1 hydroxyisourate hydrolase [Halomonas organivorans]...  67.0    2e-12
+XP_017369480.1 5-hydroxyisourate hydrolase-like [Cebus imitator]      66.6    2e-12
+XP_004704544.1 5-hydroxyisourate hydrolase-like [Echinops telfairi]   66.2    3e-12
+WP_151080024.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  65.5    4e-12
+WP_171592418.1 hydroxyisourate hydrolase [Hymenobacter sp. TS19] ...  65.1    5e-12
+HAF89459.1 hydroxyisourate hydrolase [Deltaproteobacteria bacterium]  65.1    5e-12
+WP_170837298.1 hydroxyisourate hydrolase [Actinopolyspora xinjian...  65.1    6e-12
+MBC7872781.1 hydroxyisourate hydrolase [Ferruginibacter sp.]          64.7    7e-12
+XP_010812905.1 5-hydroxyisourate hydrolase isoform X2 [Bos taurus...  64.7    7e-12
+WP_084105585.1 hydroxyisourate hydrolase [Demequina sp. NBRC 110056]  64.7    8e-12
+WP_084038162.1 hydroxyisourate hydrolase [Demequina sp. NBRC 110053]  64.7    8e-12
+BAO04162.1 5-hydroxyisourate hydrolase, partial [Oncorhynchus myk...  64.3    9e-12
+MBA2761180.1 hydroxyisourate hydrolase [Segetibacter sp.]             64.3    1e-11
+KAF0719105.1 hypothetical protein As57867_001281 [Aphanomyces ste...  64.7    1e-11
+WP_067716807.1 hydroxyisourate hydrolase [Nocardia yamanashiensis]    63.5    2e-11
+CAD7090726.1 unnamed protein product [Hermetia illucens]              64.3    2e-11
+WP_020785789.1 MULTISPECIES: hydroxyisourate hydrolase [Mycobacte...  63.5    2e-11
+WP_118056131.1 MULTISPECIES: hydroxyisourate hydrolase [Proteobac...  63.5    2e-11
+TNF04988.1 hydroxyisourate hydrolase [Deltaproteobacteria bacterium]  63.5    2e-11
+WP_084349627.1 hydroxyisourate hydrolase [Moraxella oblonga]          63.9    2e-11
+ORY93863.1 hydroxyisourate hydrolase [Syncephalastrum racemosum]      63.5    2e-11
+XP_032245832.1 5-hydroxyisourate hydrolase-like [Phoca vitulina] ...  64.3    2e-11
+WP_200834082.1 hydroxyisourate hydrolase [Nitrincola tapanii]         63.5    3e-11
+WP_173079587.1 hydroxyisourate hydrolase [Phytohabitans rumicis] ...  63.2    3e-11
+KAF6271164.1 hypothetical protein mMyoMyo1_020226 [Myotis myotis]     63.2    3e-11
+KAF9925483.1 hypothetical protein FBU30_004735 [Linnemannia zychae]   63.2    3e-11
+WP_176423454.1 hydroxyisourate hydrolase [Myxococcus sp. AM009] N...  62.8    4e-11
+MBA3241109.1 hydroxyisourate hydrolase [Acidobacteria bacterium]      62.8    5e-11
+WP_024032837.1 hydroxyisourate hydrolase [Pseudoalteromonas agari...  62.8    5e-11
+XP_019927176.2 5-hydroxyisourate hydrolase isoform X1 [Crassostre...  63.5    5e-11
+NXF98837.1 HIUH hydrolase [Sakesphorus luctuosus]                     62.8    5e-11
+XP_021561317.1 5-hydroxyisourate hydrolase-like [Neomonachus scha...  63.2    5e-11
+WP_201023496.1 hydroxyisourate hydrolase [Pseudoalteromonas sp. 1...  62.4    5e-11
+WP_063017456.1 hydroxyisourate hydrolase [Nocardia niwae]             62.4    6e-11
+XP_028932098.1 cadherin-1-like isoform X1 [Ornithorhynchus anatinus]  65.9    6e-11
+MBD73277.1 hydroxyisourate hydrolase [Candidatus Marinimicrobia b...  62.4    7e-11
+WP_005243427.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  62.8    8e-11
+WP_197184955.1 hydroxyisourate hydrolase [Pseudoalteromonas sp. N...  62.0    8e-11
+XP_009249358.2 5-hydroxyisourate hydrolase-like [Pongo abelii]        62.8    9e-11
+OQR86692.1 hypothetical protein ACHHYP_10277 [Achlya hypogyna]        62.0    1e-10
+WP_084127489.1 hydroxyisourate hydrolase [Demequina sp. NBRC 110054]  61.6    1e-10
+WP_011045589.1 MULTISPECIES: hydroxyisourate hydrolase [Colwellia...  61.6    1e-10
+XP_007468547.1 PREDICTED: 5-hydroxyisourate hydrolase-like [Lipot...  62.8    1e-10
+XP_038854584.1 5-hydroxyisourate hydrolase-like isoform X2 [Salve...  61.2    1e-10
+XP_014692005.1 PREDICTED: 5-hydroxyisourate hydrolase-like isofor...  61.6    1e-10
+WP_114332409.1 hydroxyisourate hydrolase [Rhodococcus sp. Eu-32] ...  61.2    1e-10
+XP_022367383.1 5-hydroxyisourate hydrolase-like [Enhydra lutris k...  62.0    2e-10
+WP_153804064.1 hydroxyisourate hydrolase [Nocardia sp. SYP-A9097]...  60.8    2e-10
+NXV77221.1 HIUH hydrolase [Atlantisia rogersi]                        61.2    2e-10
+WP_101236839.1 hydroxyisourate hydrolase [Acinetobacter proteolyt...  61.2    2e-10
+XP_029697788.1 5-hydroxyisourate hydrolase-like isoform X2 [Takif...  61.6    2e-10
+XP_037306728.1 5-hydroxyisourate hydrolase-like isoform X2 [Pungi...  60.8    2e-10
+WP_164009672.1 hydroxyisourate hydrolase [Pyxidicoccus trucidator]    60.8    2e-10
+XP_036690306.1 5-hydroxyisourate hydrolase-like isoform X5 [Balae...  60.8    2e-10
+AAI41765.1 LOC100049770 protein, partial [Xenopus laevis]             61.2    3e-10
+XP_014692002.1 PREDICTED: 5-hydroxyisourate hydrolase-like isofor...  61.6    3e-10
+RTL38402.1 hydroxyisourate hydrolase [Candidatus Melainabacteria ...  60.5    3e-10
+WP_112780019.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  61.2    3e-10
+WP_033028479.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudoalt...  60.5    3e-10
+XP_031780935.1 probable 5-hydroxyisourate hydrolase R09H10.3 [Nas...  61.2    3e-10
+WP_003438508.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudomon...  61.2    3e-10
+WP_058767132.1 hydroxyisourate hydrolase [Pseudomonas psychrotole...  60.8    3e-10
+WP_000750473.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  60.8    3e-10
+WP_126300661.1 hydroxyisourate hydrolase [Enterobacter bugandensi...  60.8    3e-10
+WP_198551855.1 hydroxyisourate hydrolase [Pseudoalteromonas sp. 7...  60.5    4e-10
+HAW2947066.1 hydroxyisourate hydrolase [Escherichia coli]             60.8    4e-10
+CDQ34279.1 5-hydroxyisourate hydrolase precursor [Virgibacillus h...  60.8    4e-10
+WP_045907932.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  60.8    4e-10
+RME73305.1 hydroxyisourate hydrolase [Planctomycetes bacterium]       60.5    4e-10
+NWZ28306.1 HIUH hydrolase [Asarcornis scutulata]                      60.5    4e-10
+WP_126287231.1 hydroxyisourate hydrolase [Enterobacter roggenkamp...  60.8    4e-10
+WP_180264780.1 hydroxyisourate hydrolase [Enterobacter hormaechei...  60.8    4e-10
+WP_101230085.1 hydroxyisourate hydrolase [Colwellia sp. 75C3] PKG...  60.1    5e-10
+HAF15415.1 hydroxyisourate hydrolase [Blastocatellia bacterium] H...  60.1    5e-10
+PYO73043.1 hydroxyisourate hydrolase, partial [Gemmatimonadetes b...  59.7    5e-10
+WP_005322985.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  60.5    6e-10
+WP_130576094.1 hydroxyisourate hydrolase [Acinetobacter junii] NK...  60.1    6e-10
+WP_150872783.1 hydroxyisourate hydrolase [Leclercia adecarboxylat...  60.1    7e-10
+KAF1625132.1 5-hydroxyisourate hydrolase, partial [Eudyptes filholi]  60.1    7e-10
+WP_043484552.1 hydroxyisourate hydrolase [Arthrobacter sp. SPG23]...  59.7    7e-10
+WP_048980220.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  60.1    8e-10
+WP_126545737.1 hydroxyisourate hydrolase [Enterobacter mori] RTN2...  60.1    9e-10
+WP_033147068.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  60.1    9e-10
+NWT61507.1 HIUH hydrolase [Erythrocercus mccallii]                    59.7    1e-09
+WP_136195872.1 hydroxyisourate hydrolase [Enterobacter sp. AD2-3]...  59.7    1e-09
+XP_018421991.1 PREDICTED: 5-hydroxyisourate hydrolase-like isofor...  59.7    1e-09
+WP_072920290.1 hydroxyisourate hydrolase [Geodermatophilus obscur...  58.9    1e-09
+WP_104643891.1 hydroxyisourate hydrolase [Pseudoalteromonas carra...  58.9    1e-09
+NXA35076.1 HIUH hydrolase [Eudromia elegans]                          59.3    1e-09
+XP_017480629.1 PREDICTED: 5-hydroxyisourate hydrolase-like [Rhago...  60.1    1e-09
+WP_146436652.1 hydroxyisourate hydrolase [Tsukamurella sputi] TWS...  58.9    1e-09
+WP_130351465.1 hydroxyisourate hydrolase [Agromyces ramosus] RZS6...  58.9    1e-09
+WP_084494663.1 hydroxyisourate hydrolase [Alkanindiges illinoisen...  59.7    1e-09
+XP_035422153.1 5-hydroxyisourate hydrolase-like isoform X2 [Cygnu...  59.7    1e-09
+WP_000750474.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  59.3    1e-09
+NXL47649.1 HIUH hydrolase [Podilymbus podiceps]                       59.3    1e-09
+WP_057170893.1 hydroxyisourate hydrolase [Mycobacterium sp. Root2...  58.5    1e-09
+RYY18367.1 hydroxyisourate hydrolase [Cytophagaceae bacterium]        58.5    2e-09
+WP_174475778.1 hydroxyisourate hydrolase [Myxococcus sp. CA033] N...  58.5    2e-09
+WP_046738052.1 hydroxyisourate hydrolase [Acinetobacter sp. AG1] ...  59.3    2e-09
+WP_173244219.1 hydroxyisourate hydrolase [Rathayibacter agropyri]...  58.5    2e-09
+WP_045821349.1 hydroxyisourate hydrolase [Williamsia herbipolensis]   58.5    2e-09
+WP_201095688.1 hydroxyisourate hydrolase [Entomomonas sp. F2A] QQ...  58.9    2e-09
+WP_105759721.1 hydroxyisourate hydrolase [Erwinia billingiae] PRB...  59.3    2e-09
+NXH72498.1 HIUH hydrolase [Hydrobates tethys]                         58.5    2e-09
+WP_183078763.1 hydroxyisourate hydrolase [Sphingobacterium puteale]   58.5    2e-09
+MBI3554927.1 hydroxyisourate hydrolase [Deltaproteobacteria bacte...  58.5    3e-09
+WP_128914698.1 hydroxyisourate hydrolase [Granulicella sibirica] ...  58.2    3e-09
+WP_144046695.1 hydroxyisourate hydrolase [Shewanella sp. YLB-06] ...  58.2    3e-09
+MBK9024731.1 hydroxyisourate hydrolase [Saprospiraceae bacterium]     58.5    3e-09
+WP_005406363.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  58.5    3e-09
+WP_137324224.1 hydroxyisourate hydrolase [Arthrobacter sp. 24S4-2...  58.2    3e-09
+WP_165468482.1 hydroxyisourate hydrolase [Enterobacter hormaechei...  58.5    3e-09
+HAV1811412.1 hydroxyisourate hydrolase [Enterobacter hormaechei s...  58.5    3e-09
+WP_066055950.1 MULTISPECIES: hydroxyisourate hydrolase [Halioglob...  58.2    3e-09
+WP_097021611.1 hydroxyisourate hydrolase [Chromohalobacter canade...  58.5    3e-09
+WP_086621235.1 MULTISPECIES: hydroxyisourate hydrolase [Kushneria...  58.5    3e-09
+WP_189020456.1 hydroxyisourate hydrolase [Paenarthrobacter histid...  57.8    3e-09
+WP_006434554.1 MULTISPECIES: hydroxyisourate hydrolase [Gordonia]...  57.4    4e-09
+RCH79062.1 hypothetical protein CU097_002421 [Rhizopus azygosporu...  57.8    4e-09
+WP_168700219.1 hydroxyisourate hydrolase [Gordonia paraffinivorans]   57.4    5e-09
+XP_010998259.1 5-hydroxyisourate hydrolase isoform X2 [Camelus dr...  58.2    5e-09
+MBL0048505.1 hydroxyisourate hydrolase [Bacteroidetes bacterium]      57.4    6e-09
+WP_184360749.1 hydroxyisourate hydrolase [Nocardiopsis metallicus...  57.4    6e-09
+WP_017338855.1 hydroxyisourate hydrolase [Pseudomonas fluorescens...  57.8    6e-09
+WP_064389035.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudomon...  57.8    6e-09
+WP_168127066.1 hydroxyisourate hydrolase [Sphingobacterium kitahi...  57.8    7e-09
+MBK8218202.1 hydroxyisourate hydrolase [Myxococcales bacterium]       57.0    7e-09
+KAF6767138.1 Transthyretin/hydroxyisourate hydrolase, superfamily...  57.4    7e-09
+WP_146562454.1 hydroxyisourate hydrolase [Tsukamurella asaccharol...  57.0    7e-09
+WP_041477438.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudomon...  57.4    8e-09
+NXQ01321.1 HIUH hydrolase [Vidua macroura]                            57.4    8e-09
+WP_195129245.1 hydroxyisourate hydrolase [Nocardia amamiensis] MB...  56.6    8e-09
+WP_101156981.1 hydroxyisourate hydrolase [Pseudomonas sp. Choline...  57.4    9e-09
+WP_066216358.1 hydroxyisourate hydrolase [Arthrobacter woluwensis...  57.0    9e-09
+WP_048631688.1 hydroxyisourate hydrolase [Mycolicibacterium aurum...  56.6    9e-09
+WP_105708598.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  57.4    9e-09
+XP_021263957.1 5-hydroxyisourate hydrolase-like isoform X3 [Numid...  57.0    9e-09
+XP_014164030.1 5-hydroxyisourate hydrolase-like [Geospiza fortis]     57.0    9e-09
+TMF66914.1 hydroxyisourate hydrolase [Chloroflexi bacterium] TMG1...  56.6    1e-08
+OZG11405.1 hypothetical protein FL83_14071, partial [Caenorhabdit...  57.4    1e-08
+WP_199611084.1 hydroxyisourate hydrolase [Pseudoalteromonas sp. S...  56.6    1e-08
+XP_015262177.1 PREDICTED: B-cadherin-like [Gekko japonicus]           59.7    1e-08
+WP_045400400.1 MULTISPECIES: hydroxyisourate hydrolase [Enterobac...  57.0    1e-08
+WP_159615242.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  56.6    1e-08
+NKB62377.1 hydroxyisourate hydrolase [Gammaproteobacteria bacterium]  56.6    1e-08
+NWT92530.1 HIUH hydrolase [Urocynchramus pylzowi]                     56.6    1e-08
+WP_078107482.1 hydroxyisourate hydrolase [Arthrobacter sp. SRS-W-...  56.6    1e-08
+XP_033373015.1 5-hydroxyisourate hydrolase-like isoform X4 [Parus...  56.6    1e-08
+NWX62051.1 HIUH hydrolase [Promerops cafer]                           56.6    1e-08
+WP_027611151.1 hydroxyisourate hydrolase [Pseudomonas sp. URIL14H...  57.0    1e-08
+MBL7738842.1 hydroxyisourate hydrolase [Chitinophagaceae bacterium]   56.2    1e-08
+WP_116759661.1 hydroxyisourate hydrolase [Acinetobacter sp. AM] P...  56.6    2e-08
+WP_044574933.1 hydroxyisourate hydrolase [Arthrobacter alpinus] A...  56.2    2e-08
+MBA4105583.1 hydroxyisourate hydrolase [Pirellula sp.]                56.2    2e-08
+WP_004021644.1 MULTISPECIES: hydroxyisourate hydrolase [Gordonia]...  55.8    2e-08
+WP_020584569.1 hydroxyisourate hydrolase [Endozoicomonas elysicol...  55.8    2e-08
+WP_120374109.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  55.8    2e-08
+WP_013127569.1 hydroxyisourate hydrolase [Tsukamurella paurometab...  55.8    2e-08
+WP_077689364.1 MULTISPECIES: hydroxyisourate hydrolase [Nocardiop...  55.8    2e-08
+WP_126797216.1 hydroxyisourate hydrolase [Enterobacter asburiae] ...  56.2    2e-08
+XP_032086338.1 cadherin-1-like isoform X2 [Thamnophis elegans]        58.5    2e-08
+WP_032445656.1 MULTISPECIES: hydroxyisourate hydrolase [Klebsiell...  56.2    2e-08
+WP_138646696.1 hydroxyisourate hydrolase [Actinomadura sp. 14C53]...  55.5    3e-08
+WP_163145911.1 hydroxyisourate hydrolase [Acinetobacter indicus] ...  55.8    3e-08
+MRT42890.1 hydroxyisourate hydrolase [Enterobacteriaceae bacteriu...  56.2    3e-08
+WP_004981585.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  55.8    3e-08
+WP_078731065.1 hydroxyisourate hydrolase [Pseudomonas fluorescens...  55.8    3e-08
+WP_168378003.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  55.8    3e-08
+NP_001040981.1 putative 5-hydroxyisourate hydrolase R09H10.3 [Cae...  55.5    3e-08
+WP_068911419.1 hydroxyisourate hydrolase [Acinetobacter sp. WCHAc...  55.8    3e-08
+NWX15571.1 HIUH hydrolase [Aegotheles bennettii]                      55.5    3e-08
+WP_088486253.1 hydroxyisourate hydrolase [Pelomonas puraquae] OWQ...  56.2    3e-08
+WP_095280086.1 MULTISPECIES: hydroxyisourate hydrolase [Lelliotti...  55.8    3e-08
+WP_134722422.1 hydroxyisourate hydrolase [Pseudomonas viridiflava]    55.8    3e-08
+WP_114115378.1 hydroxyisourate hydrolase [Candidatus Thioglobus s...  55.1    4e-08
+MBI1804665.1 hydroxyisourate hydrolase [Ignavibacteria bacterium]...  55.1    4e-08
+WP_077570124.1 hydroxyisourate hydrolase [Pseudomonas koreensis] ...  55.8    4e-08
+NWW09044.1 HIUH hydrolase [Oreocharis arfaki]                         55.5    4e-08
+WP_065511160.1 hydroxyisourate hydrolase [Mycolicibacterium porci...  55.1    4e-08
+NXK22374.1 HIUH hydrolase [Arenaria interpres]                        55.5    4e-08
+NWQ88146.1 HIUH hydrolase [Burhinus bistriatus]                       55.5    4e-08
+WP_045730832.1 hydroxyisourate hydrolase [Pseudarthrobacter chlor...  55.1    4e-08
+WP_096777432.1 hydroxyisourate hydrolase [Neisseria dumasiana] OS...  55.5    5e-08
+WP_061337640.1 hydroxyisourate hydrolase [Pseudomonas balearica] ...  55.5    5e-08
+WP_117007350.1 hydroxyisourate hydrolase [Acinetobacter sp. SWAC5...  54.7    5e-08
+WP_191807456.1 hydroxyisourate hydrolase [Arthrobacter sp. Sa2CUA...  54.7    5e-08
+XP_023461404.1 transthyretin [Rhizopus microsporus ATCC 52813] OR...  55.1    5e-08
+WP_100846622.1 hydroxyisourate hydrolase [Pseudomonas baetica] PK...  55.5    5e-08
+NQX27719.1 hydroxyisourate hydrolase [Microbacteriaceae bacterium...  54.7    5e-08
+XP_016156725.1 PREDICTED: 5-hydroxyisourate hydrolase-like isofor...  56.6    6e-08
+WP_169572037.1 hydroxyisourate hydrolase [Sphingobium sp. AR-3-1]...  55.1    6e-08
+WP_123204485.1 hydroxyisourate hydrolase [Pedobacter jejuensis] R...  55.1    6e-08
+WP_074586715.1 hydroxyisourate hydrolase [Arthrobacter cupressi] ...  54.7    6e-08
+WP_152321724.1 hydroxyisourate hydrolase [Erwinia endophytica] KA...  54.7    6e-08
+WP_126526182.1 hydroxyisourate hydrolase [Pseudomonas stutzeri] V...  55.1    6e-08
+WP_030444191.1 hydroxyisourate hydrolase [Actinocatenispora sera]     54.3    7e-08
+WP_184444017.1 hydroxyisourate hydrolase [Mycobacterium sp. AZCC_...  54.3    7e-08
+XP_036819726.1 5-hydroxyisourate hydrolase isoform X2 [Oncorhynch...  54.7    7e-08
+PYH01203.1 hydroxyisourate hydrolase [Arthrobacter stackebrandtii]    54.3    8e-08
+OXG49115.1 hydroxyisourate hydrolase [Cryptococcus neoformans var...  54.7    8e-08
+WP_123470452.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudomon...  54.7    8e-08
+HEC54724.1 hydroxyisourate hydrolase [Gammaproteobacteria bacterium]  54.7    8e-08
+GIH68143.1 5-hydroxyisourate hydrolase [Sphaerimonospora thailand...  54.3    9e-08
+WP_099825600.1 hydroxyisourate hydrolase [Tatumella sp. OPLPL6] P...  54.7    9e-08
+WP_052546677.1 hydroxyisourate hydrolase [Enhygromyxa salina]         54.3    9e-08
+WP_017976736.1 hydroxyisourate hydrolase [Actinopolyspora halophila]  54.3    9e-08
+OCB86163.1 hypothetical protein A7U60_g6752 [Sanghuangporus baumii]   54.7    9e-08
+WP_165433007.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  54.7    1e-07
+WP_176290835.1 hydroxyisourate hydrolase [Vibrio natriegens] NVC9...  54.3    1e-07
+CAD7585699.1 unnamed protein product [Timema genevievae]              56.6    1e-07
+MBB3328973.1 5-hydroxyisourate hydrolase [Microlunatus antarcticus]   54.3    1e-07
+OAJ41027.1 hydroxyisourate hydrolase [Batrachochytrium dendrobati...  54.3    1e-07
+ELW90275.1 hydroxyisourate hydrolase [Acinetobacter sp. WC-743] E...  54.3    1e-07
+WP_086794832.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudomon...  54.7    1e-07
+MBL8072121.1 hydroxyisourate hydrolase [Nitrospira sp.]               53.9    1e-07
+WP_102820250.1 hydroxyisourate hydrolase [Pseudomonas stutzeri] P...  54.3    1e-07
+WP_075274351.1 hydroxyisourate hydrolase [Thalassolituus oleivora...  53.9    1e-07
+WP_138610508.1 hydroxyisourate hydrolase [Pseudarthrobacter sp. N...  53.9    1e-07
+WP_115560979.1 hydroxyisourate hydrolase [Xanthomonas arboricola]     53.9    1e-07
+WP_199281777.1 hydroxyisourate hydrolase [Salinibacterium sp. CAN...  53.5    1e-07
+OQP75983.1 hydroxyisourate hydrolase [Xanthomonas phaseoli pv. sy...  53.9    1e-07
+RGB33322.1 hydroxyisourate hydrolase [Rhizophagus diaphanus] [Rhi...  54.3    1e-07
+WP_039528945.1 hydroxyisourate hydrolase [Xanthomonas sp. 3272] N...  53.5    1e-07
+WP_123732154.1 hydroxyisourate hydrolase [Rathayibacter sp. PhB15...  53.9    1e-07
+WP_142773040.1 hydroxyisourate hydrolase [Spirosoma sp. KCTC 4254...  53.5    1e-07
+WP_157589313.1 hydroxyisourate hydrolase [Spirosoma sp. HMF4905] ...  53.5    1e-07
+WP_128482442.1 hydroxyisourate hydrolase [Kosakonia cowanii] QAR4...  54.3    1e-07
+WP_121436335.1 hydroxyisourate hydrolase [Actinomadura pelletieri...  53.5    1e-07
+XP_022323819.1 5-hydroxyisourate hydrolase-like isoform X3 [Crass...  54.3    1e-07
+KAG2193461.1 hypothetical protein INT46_007729 [Mucor plumbeus]       54.3    1e-07
+TQL54372.1 5-hydroxyisourate hydrolase [Subtercola boreus]            53.5    1e-07
+WP_026112148.1 hydroxyisourate hydrolase [Xanthomonas vasicola] K...  53.9    2e-07
+RLU03614.1 hydroxyisourate hydrolase [Ketobacter sp.]                 53.5    2e-07
+WP_131382060.1 hydroxyisourate hydrolase [Acinetobacter sp. ANC 4...  53.9    2e-07
+WP_168546980.1 hydroxyisourate hydrolase [Tsukamurella spumae] NK...  53.5    2e-07
+NWI19800.1 HIUH hydrolase [Crypturellus soui]                         53.9    2e-07
+WP_201457187.1 hydroxyisourate hydrolase [Campylobacter jejuni] E...  53.9    2e-07
+WP_135719193.1 hydroxyisourate hydrolase [Klebsiella quasipneumon...  53.9    2e-07
+WP_040751263.1 hydroxyisourate hydrolase [Nocardia transvalensis]...  53.1    2e-07
+MBJ7462090.1 hydroxyisourate hydrolase [Mycolicibacterium sp.]        53.1    2e-07
+ECR2039200.1 hydroxyisourate hydrolase [Campylobacter jejuni]         53.9    2e-07
+WP_044778939.1 hydroxyisourate hydrolase [Campylobacter jejuni] E...  53.9    2e-07
+EDP6558771.1 hydroxyisourate hydrolase [Campylobacter jejuni] EGG...  53.5    2e-07
+WP_116282213.1 hydroxyisourate hydrolase [Subtercola boreus] RFA1...  53.5    2e-07
+WP_149604397.1 hydroxyisourate hydrolase, partial [Enterobacter h...  53.5    2e-07
+KAG0117258.1 hypothetical protein IHE44_002904, partial [Lamproto...  55.8    2e-07
+WP_010379915.1 hydroxyisourate hydrolase [Xanthomonas vasicola] K...  53.5    2e-07
+NXI13245.1 HIUH hydrolase [Irena cyanogastra]                         53.5    2e-07
+WP_159185723.1 hydroxyisourate hydrolase [Klebsiella pneumoniae]      53.9    2e-07
+WP_141832693.1 hydroxyisourate hydrolase [Herbaspirillum sp. SJZ1...  53.9    2e-07
+WP_029424662.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  53.5    2e-07
+WP_200282327.1 hydroxyisourate hydrolase [Campylobacter sp. 2018M...  53.9    2e-07
+WP_146810685.1 hydroxyisourate hydrolase [Empedobacter brevis]        53.5    2e-07
+WP_080884211.1 hydroxyisourate hydrolase [Klebsiella pneumoniae] ...  53.5    2e-07
+EDP4661038.1 hydroxyisourate hydrolase [Campylobacter jejuni] HAA...  53.5    2e-07
+WP_047290767.1 MULTISPECIES: hydroxyisourate hydrolase [Pseudomon...  53.5    2e-07
+WP_002882291.1 hydroxyisourate hydrolase [Campylobacter jejuni] E...  53.5    2e-07
+WP_067505775.1 hydroxyisourate hydrolase [Nocardia puris] RBO9064...  52.8    2e-07
+WP_202668257.1 hydroxyisourate hydrolase [Lelliottia amnigena] MB...  53.5    2e-07
+OYY09521.1 hydroxyisourate hydrolase [Rhizobiales bacterium 35-68-8]  53.1    2e-07
+CCK77439.1 Transthyretin family protein [Oleispira antarctica RB-8]   53.1    2e-07
+WP_044261162.1 MULTISPECIES: hydroxyisourate hydrolase [Campyloba...  53.5    2e-07
+WP_135730544.1 hydroxyisourate hydrolase [Klebsiella quasipneumon...  53.5    2e-07
+NBF41517.1 hydroxyisourate hydrolase [Spirochaetes bacterium]         53.1    2e-07
+WP_195824773.1 hydroxyisourate hydrolase [Rahnella sp. SAP-29] MB...  53.5    2e-07
+WP_169895607.1 hydroxyisourate hydrolase [Pseudomonas lundensis] ...  53.5    3e-07
+WP_194183920.1 hydroxyisourate hydrolase [Faecalibacter sp. WQ 11...  53.5    3e-07
+WP_032001380.1 hydroxyisourate hydrolase [Acinetobacter baumannii...  53.5    3e-07
+WP_017898816.1 MULTISPECIES: hydroxyisourate hydrolase [Klebsiell...  53.5    3e-07
+WP_005068395.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  53.5    3e-07
+EFN3887902.1 hydroxyisourate hydrolase [Escherichia coli]             53.5    3e-07
+NAK75660.1 hydroxyisourate hydrolase [Escherichia coli]               52.8    3e-07
+WP_133347763.1 hydroxyisourate hydrolase [Arthrobacter nitropheno...  52.8    3e-07
+WP_135556086.1 hydroxyisourate hydrolase, partial [Escherichia co...  52.8    3e-07
+WP_108569860.1 hydroxyisourate hydrolase [Pantoea sp. RIT 413] RA...  53.5    3e-07
+WP_071800569.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  53.1    3e-07
+KAG2180969.1 hypothetical protein INT43_008551 [Umbelopsis isabel...  53.1    3e-07
+WP_004791348.1 MULTISPECIES: hydroxyisourate hydrolase [Acinetoba...  53.1    3e-07
+QNW95875.1 hydroxyisourate hydrolase [Acinetobacter seifertii] QN...  53.1    3e-07
+EEY3529390.1 hydroxyisourate hydrolase [Escherichia coli] EFN7310...  53.1    3e-07
+WP_130161800.1 hydroxyisourate hydrolase [Acinetobacter halotoler...  53.1    3e-07
+ODT56115.1 hydroxyisourate hydrolase [bacterium SCN 62-11]            52.8    3e-07
+MYE60141.1 hydroxyisourate hydrolase [Alphaproteobacteria bacterium]  52.8    4e-07
+NUS37329.1 hydroxyisourate hydrolase [Pseudarthrobacter sp.]          52.8    4e-07
+WP_070376802.1 hydroxyisourate hydrolase [Colwellia sp. PAMC 2091...  52.8    4e-07
+WP_107779983.1 hydroxyisourate hydrolase [Nocardioides sp. CF167]...  52.8    4e-07
+PIA18357.1 Hydroxyisourate hydrolase [Coemansia reversa NRRL 1564]    52.8    4e-07
+XP_025032908.1 blastomere cadherin-like, partial [Python bivittatus]  55.1    4e-07
+WP_151743222.1 hydroxyisourate hydrolase [Acinetobacter calcoacet...  53.1    4e-07
+WP_045125701.1 hydroxyisourate hydrolase [Acinetobacter calcoacet...  53.1    4e-07
+WP_176263355.1 hydroxyisourate hydrolase [Escherichia sp. 94.0001...  53.1    4e-07
+XP_026498137.1 uncharacterized protein LOC113402168 [Vanessa tame...  52.8    4e-07
+WP_182215978.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  52.8    4e-07
+RZC32383.1 uncharacterized protein BDFB_001555 [Asbolus verrucosus]   54.7    4e-07
+HBV90836.1 hydroxyisourate hydrolase [Pantoea sp.]                    53.1    4e-07
+PYS82786.1 hydroxyisourate hydrolase [Acidobacteria bacterium]        52.4    5e-07
+WP_167132232.1 hydroxyisourate hydrolase [Microbacterium sp. HY54]    52.4    5e-07
+OLC16772.1 hydroxyisourate hydrolase [Actinobacteria bacterium 13...  52.4    5e-07
+WP_195119705.1 hydroxyisourate hydrolase [Nocardia terpenica] MBF...  52.0    5e-07
+WP_136159122.1 hydroxyisourate hydrolase [Escherichia coli]           52.8    5e-07
+MBA7816510.1 hydroxyisourate hydrolase [Escherichia coli]             52.8    5e-07
+EDO9712278.1 hydroxyisourate hydrolase [Campylobacter jejuni]         52.8    5e-07
+HBB99917.1 hydroxyisourate hydrolase [Pseudomonas sp.]                52.8    5e-07
+EAK7676972.1 hydroxyisourate hydrolase [Campylobacter jejuni]         52.8    5e-07
+WP_054803833.1 hydroxyisourate hydrolase [Kosakonia cowanii] APZ0...  52.8    5e-07
+KJF77720.1 hydroxyisourate hydrolase [Morganella morganii]            52.8    5e-07
+WP_167257290.1 hydroxyisourate hydrolase [Dyella sp. SG562] NII74...  52.8    5e-07
+HAJ3375430.1 hydroxyisourate hydrolase [Escherichia coli]             52.8    5e-07
+WP_080929928.1 hydroxyisourate hydrolase [Klebsiella variicola] S...  52.8    5e-07
+EGD8490445.1 hydroxyisourate hydrolase [Shigella flexneri]            52.8    5e-07
+XP_015607061.1 5-hydroxyisourate hydrolase-like [Cephus cinctus]      52.4    5e-07
+EFH5644407.1 hydroxyisourate hydrolase [Escherichia coli]             52.8    6e-07
+XP_017866254.1 PREDICTED: 5-hydroxyisourate hydrolase [Drosophila...  52.0    6e-07
+HAW0782636.1 hydroxyisourate hydrolase [Escherichia coli]             52.8    6e-07
+WP_124035226.1 hydroxyisourate hydrolase [Escherichia coli]           52.8    6e-07
+WP_137429163.1 hydroxyisourate hydrolase [Escherichia coli] GCO24...  52.8    6e-07
+WP_155075194.1 hydroxyisourate hydrolase [Raoultella ornithinolyt...  52.0    7e-07
+RLS33612.1 hydroxyisourate hydrolase [Planctomycetes bacterium] R...  52.8    7e-07
+WP_092270423.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  52.4    7e-07
+WP_076038123.1 hydroxyisourate hydrolase [Xanthomonas campestris]...  52.0    7e-07
+XP_036246428.1 cadherin-1-like [Molothrus ater]                       54.3    7e-07
+EFW2794833.1 hydroxyisourate hydrolase [Shigella flexneri]            52.0    7e-07
+MBB1575091.1 hydroxyisourate hydrolase [Flavobacteriaceae bacterium]  52.4    7e-07
+WP_014509375.1 hydroxyisourate hydrolase [Xanthomonas campestris]...  51.6    7e-07
+EGN4669682.1 hydroxyisourate hydrolase [Escherichia coli]             52.4    7e-07
+EFA4795043.1 hydroxyisourate hydrolase [Escherichia coli]             52.4    8e-07
+WP_135290007.1 hydroxyisourate hydrolase [Pseudomonas kairouanens...  52.4    8e-07
+MPY82559.1 hydroxyisourate hydrolase [Actinophytocola sp.]            51.6    8e-07
+BAS15885.1 5-hydroxyisourate hydrolase [Arthrobacter sp. Hiyo8]       52.4    8e-07
+EAH7273830.1 hydroxyisourate hydrolase [Campylobacter jejuni] EAI...  52.4    8e-07
+WP_104921151.1 hydroxyisourate hydrolase [Rahnella sp. ERMR1:05] ...  52.4    8e-07
+OYX87505.1 hydroxyisourate hydrolase [Azorhizobium sp. 32-67-21]      51.6    8e-07
+WP_067633615.1 hydroxyisourate hydrolase [Actinomadura latina] NK...  51.6    8e-07
+WP_106741484.1 hydroxyisourate hydrolase [Neisseria iguanae] PSJ8...  52.0    8e-07
+WP_044002471.1 hydroxyisourate hydrolase [Hymenobacter swuensis] ...  51.6    8e-07
+WP_096885858.1 hydroxyisourate hydrolase [Escherichia coli] EFL37...  52.4    8e-07
+WP_128592726.1 hydroxyisourate hydrolase [Shigella flexneri] HAP0...  52.0    8e-07
+WP_142631943.1 hydroxyisourate hydrolase [Raoultella ornithinolyt...  52.0    8e-07
+PVW62644.1 hydroxyisourate hydrolase, partial [Klebsiella pneumon...  51.6    9e-07
+WP_014543526.1 hydroxyisourate hydrolase [Erwinia sp. Ejp617] ADP...  51.6    9e-07
+WP_092721003.1 hydroxyisourate hydrolase [Acinetobacter albensis]...  52.0    9e-07
+NXC22668.1 HIUH hydrolase [Corythaeola cristata]                      50.8    9e-07
+WP_053236466.1 hydroxyisourate hydrolase [Sandaracinus amylolytic...  51.6    9e-07
+REF36191.1 5-hydroxyisourate hydrolase [Thermasporomyces composti]    51.6    9e-07
+WP_007300574.1 MULTISPECIES: hydroxyisourate hydrolase [Rhodococc...  51.6    1e-06
+CBJ42575.1 putative transthyretin-like protein [Ralstonia solanac...  51.6    1e-06
+WP_131964167.1 hydroxyisourate hydrolase [Actinomadura sp. KC06] ...  51.2    1e-06
+EAW3291046.1 hydroxyisourate hydrolase [Salmonella enterica]          50.8    1e-06
+WP_152679126.1 hydroxyisourate hydrolase [Kallotenue sp. CFH 73958]   53.9    1e-06
+WP_171420881.1 hydroxyisourate hydrolase [Corallococcus exercitus...  52.0    1e-06
+WP_096280607.1 hydroxyisourate hydrolase [Escherichia coli]           52.0    1e-06
+WP_100702170.1 hydroxyisourate hydrolase [Pantoea rodasii] ORM656...  51.2    1e-06
+WP_038648808.1 MULTISPECIES: hydroxyisourate hydrolase [Erwiniace...  51.2    1e-06
+EAK2292794.1 hydroxyisourate hydrolase [Campylobacter jejuni]         52.0    1e-06
+WP_024912307.1 hydroxyisourate hydrolase [Chania multitudinisentens]  52.0    1e-06
+WP_042200172.1 hydroxyisourate hydrolase [Escherichia coli] EFA41...  51.6    1e-06
+AFJ46417.1 transthyretin-like protein precursor YedX [Shimwellia ...  52.0    1e-06
+WP_025094392.1 hydroxyisourate hydrolase [Acinetobacter soli]         51.6    1e-06
+KAF9415710.1 hypothetical protein HW555_006744 [Spodoptera exigua]    51.2    1e-06
+XP_034255258.1 uncharacterized protein LOC117653581 isoform X1 [T...  53.5    1e-06
+KAF7741130.1 hypothetical protein DSO57_021160 [Entomophthora mus...  51.2    1e-06
+PZS37010.1 hydroxyisourate hydrolase [Pseudonocardiales bacterium]    50.8    1e-06
+MBA2575226.1 hydroxyisourate hydrolase [Euzebyaceae bacterium]        51.2    1e-06
+MBL4687759.1 hydroxyisourate hydrolase [Nannocystaceae bacterium]     50.8    1e-06
+GIE64442.1 5-hydroxyisourate hydrolase [Actinoplanes palleronii]      51.2    2e-06
+HAM9403338.1 hydroxyisourate hydrolase [Escherichia coli]             51.6    2e-06
+WP_159478673.1 hydroxyisourate hydrolase [Dyadobacter sp. 3J3]        51.6    2e-06
+WP_111208419.1 MULTISPECIES: hydroxyisourate hydrolase [unclassif...  51.6    2e-06
+XP_018567685.1 uncharacterized protein LOC108908220 isoform X1 [A...  53.1    2e-06
+WP_001548700.1 hydroxyisourate hydrolase [Escherichia coli] EFC96...  51.6    2e-06
+WP_063249924.1 hydroxyisourate hydrolase [Brevibacterium casei] K...  50.8    2e-06
+WP_083018983.1 hydroxyisourate hydrolase [Mycobacteroides saopaul...  50.8    2e-06
+WP_095099657.1 hydroxyisourate hydrolase [Pseudomonas sp. Irchel ...  50.8    2e-06
+WP_012688489.1 hydroxyisourate hydrolase [Rhodococcus opacus] BAH...  50.8    2e-06
+KAF4319963.1 hypothetical protein G195_006749 [Phytophthora kerno...  50.8    2e-06
+WP_043356391.1 hydroxyisourate hydrolase [Methylobacterium sp. B1]    50.8    2e-06
+WP_115905447.1 hydroxyisourate hydrolase [Escherichia coli] EFB58...  51.2    2e-06
+WP_133397023.1 hydroxyisourate hydrolase [Primorskyibacter sp. SS...  51.2    2e-06
+WP_157276269.1 hydroxyisourate hydrolase [Escherichia coli]           51.2    2e-06
+WP_194583679.1 hydroxyisourate hydrolase [Microbacterium sp. VKM ...  50.4    2e-06
+MBD0023352.1 hydroxyisourate hydrolase [Gordonia sp.] QHN25838.1 ...  50.4    2e-06
+WP_140248032.1 hydroxyisourate hydrolase, partial [Escherichia co...  50.4    2e-06
+RYZ34920.1 hydroxyisourate hydrolase [Myxococcaceae bacterium]        50.8    2e-06
+WP_005539234.1 hydroxyisourate hydrolase [Aggregatibacter actinom...  51.2    2e-06
+PYX20959.1 hydroxyisourate hydrolase [Acidobacteria bacterium] PY...  50.8    2e-06
+
+
+
+Query_1   1    PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  39
+26725287  2    PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  40
+4733251   6    PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  44
+502273    11   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  49
+24152820  11   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  49
+20883314  31   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  69
+19565887  31   PLMVKVLDAVRG--SPA--INV--A-M--HV--FR-K-AAD---D----T-WEPFASGKT  69
+5765155   2    PLMVKVLDAVRG--SPA--INV--A-M--HV--FR-K-AAD---D----T-WEPFASGKT  40
+24819201  3    PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  41
+25059841  11   PLMVKVLDAVRG--SPA--INV--A-M--HV--FR-K-AAD---D----T-WEPFASGKT  49
+19149573  2    PLMVKVLDAVRG--SPT--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  40
+11140004  11   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  49
+24960156  11   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  49
+176391    10   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  48
+3694712   11   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  49
+12675200  3    PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  41
+7616299   11   PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  49
+699487    3    PLMVKVLDAVRG--SPA--INV--A-V--HV--FR-K-AAD---D----T-WEPFASGKT  41
+23396587  31   PLMVKVLDAVRG--SPA--INV--A-V--NV--FK-K-AAD---E----T-WEPFASGKT  69
+15769146  31   PLMVKVLDAVRG--SPA--INV--A-V--HV--FK-K-AAD---E----T-WEPFASGKT  69
+7141256   31   PLMVKVLDAVRG--SPA--VNV--A-V--NV--FK-R-AAD---E----T-WEPFASGKT  69
+19392001  2    PLMVKVLDAVRG--SPA--INV--AMV--HV--FR-K-AAD---D----T-WEPFASGKT  41
+25295502  29   PLMVKVLDAVRG--SPA--VNV--A-V--KV--FK-K-AAD---G----A-WEPFAEGKT  67
+26571408  28   PLMVKVLDAVQG--RPA--INV--A-V--SV--FK-K-AAD---E----T-WEPFAFGKT  66
+5333437   34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+16251840  34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+9986373   34   PLMVKVLDAVRG--SPA--VNV--A-V--KV--YK-K-AAD---G----S-WQDFATGKT  72
+14182854  34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+7283617   34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----T-WQDFATGKT  72
+16722138  34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQEFATGKT  72
+1278378   34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+24128203  53   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  91
+10754596  34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+22234365  34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+24532702  34   PLMVKVLDAVRG--SPA--SNV--A-V--KV--FK-Q-AAD---G----S-WQDFATGKT  72
+875621    34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFAAGKT  72
+10161538  34   PLMVKVLDAVRG--SPA--ANV--A-V--KV--FK-K-AAD---G----S-WQDFATGKT  72
+12112216  34   PLMVKVLDAVRG--SPA--ANV--A-V--EV--FK-Q-AAD---G----S-WQDFAAGKT  72
+18337702  34   PLMVKVLDAVRG--SPA--SDV--A-V--KV--FK-Q-AED---G----S-WQDFAAGKT  72
+10678064  34   PLMVKVLDAVRG--SPA--TSL--P-V--KV--FK-K-GED---G----T-WKEFANGKT  72
+14201680  33   PLMVKVLDAVRG--SPS--SNV--A-V--KV--FK-Q-AAD---E----S-WELFASGKT  71
+20181003  34   PLMVKVLDAVRG--TPA--TSL--P-V--KV--FK-K-GED---G----T-WKEFSSGKT  72
+5989487   34   PLMVKVLDAVRG--SPA--SGV--T-V--KV--FK-Q-AED---G----S-WQDFAVGKT  72
+10218679  31   PLMVKVLDVVQG--IPA--VNV--G-V--KV--FK-K-AAD---E----N-WEPFASGKT  69
+13816207  31   PLFIKILDSVRG--SPA--PNV--A-V--KL--YK-E-AAD---G----S-WELFSSKQT  69
+2269572   31   PLFIKILDSVRG--SPA--PNV--P-V--KL--YK-E-AAD---G----S-WEVLNSKQT  69
+8708083   31   PLFIKILDSVRG--SPA--PNV--P-V--KL--YK-E-AAD---G----S-WELLNSKQT  69
+24588391  31   PLFIKILDSVRG--SPA--QNV--P-V--KL--YK-E-AAD---G----S-WELLNSKQT  69
+21503839  31   PLFIKILDSVRG--SPA--PNV--P-V--KL--YK-E-AAD---G----S-RELLSSKQT  69
+2292942   31   PLFIKILDSVRG--SPA--QNV--P-V--KL--YK-E-AAD---G----S-WELLNSKQT  69
+3393088   31   PLSVKVVDSVRG--SPA--TNV--A-V--KL--YK-G-TAD---G----S-WELLNSQQT  69
+21454678  31   PLYVKVVDSVRG--SPA--PNV--P-V--KL--YK-E-AAD---G----S-WELLSSKQT  69
+16742309  31   PLVVKVLDSVRG--IPA--SNV--P-V--KL--YK-A-AAD---G----S-WELLNSKQT  69
+4574989   31   PLFVKVVDSVRG--SPA--SNV--P-V--KL--YK-E-AAD---G----S-WELLSSKQT  69
+15123899  51   PLVVKILDSVRG--SPA--PNV--P-V--KL--YK-A-AAD---G----S-WELLNTKQT  89
+8887459   31   PLFIKVLDSVRG--SPA--PNV--P-V--KL--YK-E-GAD---G----S-WELLNSKQT  69
+2539304   30   PLMVKVLDAVQG--SPA--VNV--A-V--KV--FK-K-AAD---E----S-WEPFASGKT  68
+24070790  31   PLYVKVVDSVRG--SPA--SNV--P-V--KL--YK-E-SAD---G----S-WELLNSKQT  69
+17337077  31   PLFIKILDSVRG--SPA--PNV--P-V--KL--YK-E-AAD---G----S-WELLNSKQT  69
+15075027  31   PLVIKILDSVRG--SPA--PIV--P-V--KL--YK-E-AAD---G----S-WELLNSKQT  69
+24275616  31   PLYVRVVDSVRG--SPA--SNV--P-V--KL--YK-E-AAG---G----A-WELLNSKQT  69
+7595373   118  PLYVKVVDSVRG--SPA--QNV--P-V--KL--YK-E-AAD---G----S-WELLNTKQT  156
+7595373   29   PLMVKVLDAVRG--SPA--SDV--T-V--KV--FK-Q-AAD---G----S-WQDFAVGKT  67
+6614564   31   PLFVKVVDSVRG--SPA--PNV--P-V--KL--YK-E-AAD---G----S-WELLNSKQT  69
+14014034  39   PLTVKILDAVKG--TPA--GNI--A-L--DV--YR-Q-DQG---G----T-WEKIASGKV  77
+13570914  33   PLTVKILDAVKG--TPA--GNI--A-L--DV--YR-Q-DQG---G----T-WEKIASGKV  71
+20982620  31   PLFIKILDSVRG--SPA--QNV--L-L--KL--YK-E-DAD---G----A-WQLLNSKQT  69
+19837783  34   PLTVKVLDAVRG--LPA--AAV--K-L--RV--SR-K-AAD---G----S-WADVTSGIT  72
+621738    55   PLMVKILDAVKG--VPA--GSV--A-L--SV--SR-R-VNG---M----T-WAQVASGVT  93
+2374645   34   PLTVKILDAVKG--SPA--GSV--A-L--KV--SQ-K-TAD---G----G-WTHIANGVT  72
+10988292  14   PLMVKILDAVKG--TPA--GSV--A-L--KV--SQ-K-TAD---G----G-WTQIATGVT  52
+3112472   49   PLMVKILDAVKG--TPA--GSV--A-L--KV--SQ-R-TAD---G----G-WTQIATGMT  87
+11032192  6                                                              KT  7
+17835963  6    PLMVKILDAVKG--VPA--GAV--A-L--SV--SR-R-VNG---M----T-WAQVASGVT  44
+6837093   33   PLMVKILDAVKG--VPA--GAV--A-L--SV--SR-R-VNG---V----T-WAQVASGVT  71
+75577     36   PLLVKIVDNVRG--VPA--SEI--A-V--QG--YR-K-AED---G----S-WILFASGKS  74
+20255627  30   PINIKVLNAVNG--TPA--ANL--R-L--QI--YR-Q-NAD---L----S-WQQLNTGIT  68
+15426556  34   PIVIKVLDAVRG--IPA--SNV--T-V--KI--LK-E-DES---H----S-WTVLSTGMT  72
+22636660  34   PIVIKVLDAVRG--IPA--SNV--T-V--KI--LK-E-DES---H----S-WTVLSTGMT  72
+22427189  34   PIVIKVLDAVRG--IPA--SNV--T-V--KI--LK-E-DES---H----S-WTVLSTGMT  72
+10390510  34   PIVIKVLDAVRG--IPA--SNV--T-V--KI--LK-E-DES---H----S-WTVLSTGMT  72
+7204348   34   PLMVKALDAVRG--IPA--VGL--A-V--TV--YR-K-T-D---D----T-WTEVVTGVT  71
+17431908  18   PLMVKILXALKG--TPA--GSV--P-L--KV--SQ-K-TAD---G----G-WRLIATGVT  56
+14288047  11   PLNVKILDALKG--APA--GNV--A-L--TV--FR-Q-GAD---K----T-WEKLTSGHS  49
+1501449   28   PLTTHVLNTALG--VPG--SNM--T-I--CL--YR-QDSST---N----A-WSLITTGKT  67
+6301303   24   PLTTHVLNVAMG--VPA--SNV--T-L--RL--YR-QDPSS---K----T-WQLLNTGIT  63
+15926775  28   PLTTHVLNTAMG--VPG--SNM--A-L--SL--YQ-QDPST---N----T-WNLITTGTT  67
+4313511   28   PLTTHVLNTAMG--VPG--SNL--A-L--SL--YR-QDPCT---N----A-WSLITTGST  67
+22685678  7    PLTTHVLNTGMG--VPG--SNM--A-L--SL--YR-QDPST---N----V-WSLITTGTT  46
+18227852  28   PLTTHVLNTAMG--VPG--SNM--A-L--SL--YQ-QDPST---N----T-WNLITTGTT  67
+7746503   28   PLTTHVLNTGMG--VPG--SNM--A-L--SL--YR-QDPST---N----V-WSLITTGTT  67
+17552786  28   PLTTHVLNTAMG--VPG--SNM--A-L--SL--YQ-QDPST---N----A-WSLITTGTT  67
+20049058  28   PLSTHVLNIALG--VPG--SNV--S-L--SL--YR-QDTPS---E----V-WSLITTGIT  67
+22422400  28   PLSTHVLNTAMG--VPG--SNL--A-L--SL--YR-Q-DPNT--S----T-WHLITTGTT  67
+78574     5    PLTTHVLNTALG--VPG--SNV--T-L--RL--YQ-QDPST---D----V-WHLITTGTT  44
+7492237   26   PLTTHVLNTAQG--VPG--GNM--T-I--SL--HRLN-PIS---S----E-WYLLTTGIT  65
+20256144  27   PLTTHVLNTAQG--IPG--ANM--S-L--DL--HR-QDPSS---S----V-WILLTTGRT  66
+17419249  26   PLTTHILDTASG--SPA--ANV--P-I--LL--YK-E-ASS--------S-WTLIAEGST  63
+22868733  28   PLTTHVLNTALG--VPG--SNM--T-I--RL--YQ-QDRSA---N----V-WHLLTAGTT  67
+17542697  6    PLTTHVLNATDG--VPA--ARM--A-L--SL--HQ-L-DSKL--M----I-WAMLSVGTT  45
+9647311   28   PLTTHVLNTAMG--VPG--SNL--A-L--SL--YR-QDPCT---N----A-WSLITTGST  67
+15306559  6    PITCHVLDSSRG--VPG--RNV--S-VSLEM--LD-P-AVN---N----T-WGTLAQGKT  46
+14755209  22   PLTTHVLNTADG--VPA--AKM--A-L--TL--HR-L-DSKL--M----I-WNMLSVGTT  61
+24180354  8    PLTTHVLDTSLG--TPA--VGL--M-L--QL--ARLE-ESS---K----K-WIELTTGST  47
+16527933  7    PLTTHVLNISDG--VPA--SRV--S-L--SL--HR-L-DSQL--K----L-WNMLNVGTT  46
+26695120  6    PITCHVLDSTHG--RPG--RNV--P-V--KLEALN-T-AAN---N----T-WSGLAEGLT  46
+7146375   6    PVTCHVLDSSCG--RPG--RNV--P-VKLEL--LN-P-TAN---N----T-WSGLATGLT  46
+10879537  9    PLTTHVLNTADG--VPG--AHI--D-L--SV--HR-L-DPK---L----VLWNLITLGST  48
+362027    6     LSTHVLDTAVG--SPA--VGV--F-I--EL--FK-Q-HNE---G----S-WTQWHSAVT  43
+4331281   26   PLYVKVVDSVRG--SPA--PNV--P-V--KL--YK-G-AAD---G----S-WELLNSKQT  64
+22162170  10    LTTHVLNTADG--VPG--ARM--A-L--SL--HR-L-DPQM--A----L-WNLVSKGTT  48
+17108665  8         ILDTTKG--KPA--ANV--S-I--AL--MQ-Q-VGD--------S-WQEIARGKT  40
+26122023  30   PLTTHVLDTAAG--LPA--QGL--C-L--RL--SRLE-APS---Q----Q-WMELRTSYT  69
+16360454  30   PLTTHVLDTTSG--LPA--VGL--C-L--RL--SQLM-DLG---Q----Q-WTELRKSST  69
+12123902  7    PITCHILDSTRG--KPG--RNV--P-VKLEM--LN-P-AAN---N----A-WASIAYGLT  47
+20507163  26   PISVHVLNTQTG--KPS--AGV--A-V--KL--EH-R-A-D---G----Q-WETIATGTT  63
+17314643  25   PLSVHVLDIQSG--QPS--PGV--E-V--QL---E-K-QTE---S----G-WETLATGTT  62
+795190    30   PLTTHVLDTASG--VPA--RGL--C-L--CL--SRLE-DHS---Q----Q-WMELRTSYT  69
+10813432  32   PLTTHVLDTASG--QPA--QGL--S-L--RL--SRLE-ESS---Q----Q-WTELRQSYT  71
+16627790  8         ILDTTLG--KPA--AGV--T-I--AL--SA-Q-QAG---D----T-WQELARGTT  41
+15486682  4     LTTHILDTTRG--KPA--AGV--S-I--TL--YR-Q-QAQ--------S-WTTLATGTT  40
+21659040  3    PITTHILDTSKG--CPI--TNV--L-V--RL--EQ-Q-NQD---G----S-WRELSSGTT  41
+20319326  13        VLDSSRG--LPA--AGI--E-V--SL---E-Q-AVQ---D----G-WTPVGEAVT  45
+23223146  4     LTTHILDTTKG--KPA--PGV--T-I---I--LY-Q-GEN---D----A-WTEMARGIT  40
+6027715   7    PLTTHVLDTASG--LPA--QGL--Y-L--RL--SRLE-DCG---Q----Q-WTELKKSCT  46
+7051186   8         VLDAVSG--TPA--AGI--A-V--TL--SE-R-GGE---G------WEPLASGVT  40
+15562486  8         VLDAVSG--EPA--AGV--A-V--TL--SE-R-GGE---G------WEPVASGVT  40
+4547175   3         VLNTGMG--VPG--AHM--A-L--SL--HRMD-PST---S----L-WNLLTTGTT  37
+21496027  8         VLDTTTG--KPA--EGI--R-A--ML--YK-G-GSD---E------WTEITRGIT  40
+15781904  18   PVTSHVLDTAIG--APA--ANI--M-V--RL--ER-Q-TAN---G----G-WEVVGAVKT  56
+23793343  4     LSTHVLDAVRG--APA--AGV--T-V--RL--------SD---A----S-GAELAGGKT  37
+11865372  39        ILDTSRG--RAA--TNV--P-V--TL--F--K-LEN---D----I-WKQISQNVT  71
+26264126  3     LSTHVLDAVSG--RPA--AGV--A-V--EL--------TD---A----A-GTPLASGRT  36
+23556785  4     ITTHILDTTRG--LPA--TNV--P-I--TL--FA-Q-NGD--------S-WTKINSGVT  40
+11828927  4     ITTHVLDTAKG--KPG--KGI--Q-V--TL--EK-K-SGN---E------YQRIGGGKT  40
+9440262   21    LTSHVLDTNAG--TPA--TGV--K-V--QL--FK-Q-NGN---K------WEELDTKAT  57
+25210832  4    PITCHVLVASQG--KPG--RNV--Q-V--KI--EK-I-DAA---G----A-FQTLNVSRT  42
+10773677  28   PLTTHVLDTASG--LPA--QGL--C-L--CL--SRLE-DHG---R----Q-WTELRKSYT  67
+2167185   15        VLDTARG--VPA--QGI--L-L--HL--LQ-H-R-E---Q----A-WHPLALGIT  47
+6148479   3     LSTHVLDNATG--EPA--RGV--P-V--RL--ER-R-SGD---G------WTPVAAGRT  39
+19504907  7    PLTTHVLDTASG--LPA--QGL--C-L--CL--SRLE-NHG---Q----Q-WTELRRSYT  46
+6537114   7    PITCHVLDSSCG--KPG--NNV--P-VKLEM--LN-P-AAN---N----A-WDSVAYGLT  47
+8202501   4     LSTHVLDTNRG--RPA--AGV--P-I--TL--EL-Q-GDS---G----E-WKQLARGVT  41
+24124470  4     ITTHVLDISKG--RPA--GGV--P-V--RL--EV-K-GAS---G----E-WELLGEGRT  41
+2758232   5    PITTHILDTSTG--KPA--ENV--A-V--QL--F--V-YAN---N----E-WQLIAQGKT  42
+22124185  35   PLTTHVLDTARG--IPG--GGI--N-M--VL--LI-Q-TGN---G----E-FREIERGTT  73
+1989571   13    LTTHVLNTVTG--LPA--AGL--A-I--RL--DQLQ-EPG---L----Q-WRELAQRHT  51
+14102215  28   PLTTHVLDTASG--LPA--QGL--C-L--CL--SRFE-DHV---R----Q-WTELRKSYT  67
+5497825   5    PITTHILDTSTG--KPA--ADV--A-V--QL--FV---YTN---N----K-WELIAQGKT  42
+22561791  4     LSTHVLDAVRG--APA--TGV--T-V--TL--YQ-R-E-------------RQLDSGET  36
+1354210   261  PLTTHVLDTASG--LPA--QGL--L-L--RL--SRLE-NSN---Q----Q-WTELRKSYT  300
+14300996  4    PITTHVLDTVRG--CPA--IEIHAV-L--EV--LN-K-L-----E----T-WETVGEGHT  42
+352351    23   PLSVHVLNQQNG--LPA--ADV--T-V---V--LE-A-QQK---N----Q-WIEINQAKT  60
+15184511  5    PITTHILDTSTG--KPA--ANV--A-V--QL--FL---LTN---N----E-WQLIAQGKT  42
+9714556   31    LTTHVLDTASG--LPA--RGL--C-L--RLS-WL-E-DHS---Q----Q-WVELRTSYT  69
+910098    17   PVTSHVLDTSRG--VPA--ANL--R-V--EL--ER-E-ASP---G----I-WVPVGQGVT  55
+26614179  8         VLDAVAG--VPA--AGI--A-V--TL--SR-R-GAE---G------WEPVAQGLT  40
+1910717   4     ITTHILDTTRG--LPA--KNV--P-I--TL--FA-Q-DGE---G------WKEVNGGVT  40
+9910426   44   PLTTHVLDTASG--LPA--EGL--C-L--RV--SRLE-DHG---Q----Q-WTELRKSYT  83
+19768942  15                                                      WNLVTVGTT  23
+20570847  7    PLTTHVLDTASG--LPA--QGL--C-L--RL--SRLE-DHG---Q----Q-WTELRKSYT  46
+21817262  8         VLDAVRG--TPA--VGV--R-V--EL--FT-N-GVE-------------IASALT  36
+25708882  28   PLTTHVLDTTSG--LPA--QGL--C-L--CL--SRLE-DQG---Q----H-WTDLRKSYT  67
+9353398   4     LSTHVLDAVHG--APA--AGV--T-V--TL--FD-W-AGT---E---------LASGST  37
+24457207  17    LTTHVLNTATG--LPA--AGL--A-V--YL--SRLQ-EPG---L----Q-WTELAQRWT  55
+14173076  23   PLSVHVLNQQNG--LPA--ADV--T-V---V--LE-A-QQK---N----Q-WIEINQAKT  60
+16779412  32   PLTIHVLNTGDG--IPA--ARM--A-L--SL--HR-L-DSK---L----M-IWNMISVGT  70
+17574781  7     LTTHVLNGADG--EPA--PGV--A-L--SL--HRLD-PPL---M----V-WSLLGLGTT  45
+20093272  4     LSTHVLDTHRG--RPA--AGV--P-I--TL--EL-Q-GPA---G----T-WKELARGIT  41
+11260187  7    PLSTHVLDTASG--LPA--QGL--C-L--RL--SRLE-DHG---Q----H-WTELRKSYT  46
+18443888  18    LTTHVLNVAEG--IPA--KGL--T-M--TL--SRHD-VTQ---G----K-WVQMSRSVT  56
+9505154   30   PLTTHVLDTASG--LPA--QGL--C-L--RL--SRLE-DHG---Q----Q-WTELRKSYT  69
+6879737   4     ITTHVLDTAKG--RPG--SGI--K-V---V--LE-F-KND---E----E-WKEIASGQT  40
+21615466  27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----T-WTPVASGKT  63
+1033991   9    PITTHILDTSTG--KPA--ANV--A-V--KL--F--K-LTN---N----E-WVQLTQGTT  46
+27249979  29    ISIHVIDTGKG--SGA--NEA--P-V--KL--YK-S-KSN---D----D-WLLVSQGKT  66
+13262983  26   PLSVHVLNLENGLPSPG--VNV--T-L-------E-K-HVG---Q----N-WQPLAQGVT  63
+22444324  22   PLSVHVLNLETG--EPS--AGV--H-V--TL--ER-Q-VGE--------S-WQPLAEEVT  59
+266146    27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+14981272  27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+5635513   5    PITTHILDTSTG--KPA--ANV--A-V--KL--F--K-LTN---N----E-WVQLTQGTT  42
+16363572  27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+1757139   25   PLSVHVLNIQSG--QPS--PGV--E-V--QL---E-K-RTE---S----G-WESLATGVT  62
+8057526   28    LSVHILDQQTG--TPP--PGV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  64
+631451    4     LSTHVLDTAAG--RPA--PGV--T-V--RI--EQLD-EAS---G----S-WRTLGEGVT  42
+14296557  7     LTTHVLNTATG--LPA--ARL--A-L--RL--AQLQ-EPG---A----Q-WRELAQRWT  45
+17269284  27    LSVHILDQQTG--MPP--SDV--S-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+1696960   27    LSVHVLDQQTG--MPP--ADV--V-V---T--LE-K-QEQ---D----K-WTPIASGKT  63
+22432138  4     ITTHILDTTRG--LPA--QNV--P-I--TL--FA-Q-DGE---G------WKEVNGGVT  40
+5949182   8         ILDLSRG--APA--GGV--A-V--YL--EA-Q-NPN---E----S-WTELSHAWT  41
+6062259   8         VLDTARG--RPA--AGI--A-V--SL--AR-R-AG----D----A-WTELAAART  40
+10508009  23   PLSVHVLNQQNG--LPA--ADV--T-V---V--LE-A-QQK---N----Q-WIEINQAKT  60
+6684841   23   PLSVHVLNLENG--LPS--ANV--E-V---V--LE-K-SSG---D----Q-WIKLNQKLT  60
+24343045  27    LSVHILDQQTG--TPP--PGV--T-V---T--LE-K-QQQ---D----K-WTPLASGKT  63
+2232351   17    LTTHVLNTATG--LPA--AGL--A-I--HL--AQLQ-EPG---P----Q-WTELVQRWT  55
+8243802   10        ILDTGAG--RPA--AGV--A-V--GL--YA-R-DGG--------A-WNLVASGTT  42
+11043743  27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+23855931  27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+22274906  27    LSVHILDQQTG--MPP--SDV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+16113303  13    LTTHVLNTASG--LPA--AGL--A-V--RL--ARLQ-EPG---Q----Q-WTELAQRHT  51
+11906979  28    LSVHILDQQTG--TPP--PGV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  64
+11691770  27    LSTHVLNTVEG--IPA--KGL--T-L--TL--SKFN-ARE---A----K-WEHVSRSIT  65
+20516041  4     LSTHVLDAVSG--QPA--VGV--R-V--SL--ER-R-VGE---E------WRPLGDGVT  40
+9084475   5    PITTHILDTSTG--KPA--ANV--A-V--QL--FL---LTN---N----E-WQLIAQGKT  42
+22684088  17    MTTHVLNTVSG--QPA--AGL--A-L--RL--ARLQ-GPG---P----Q-WTELAQRVT  55
+13524026  58        ILDTTVG--QAA--PNV--N-I--TI--YR-L-EGG---D----D-WQKLNVETT  91
+12981020  8         VLDTARG--VPA--AGV--P-I--RM--ER-L-GPD---G----T-VDPVAQGVT  41
+17372255  6     ITTHVLDATTG--RPA--AGV--A-V--EL--YV-R-AGD---G------WSSIATGAT  42
+16232487  34   PLSVHVLNLQTG--LPS--ENV--A-V---I--LE-Q-QNK---D----G-WKKLNEGIT  71
+3751892   32    LTTHVLNTATG--LPA--ARL--A-L--RL--AQLQ-EPG---A----Q-WRELAQRWT  70
+19738120  27    LSVHILDQQTG--MPP--SYV--T-V---T--LE-K-QQQ---D----K-WTPIASGKT  63
+8707666   17    LTTHVLNTATG--LPA--AGL--T-I--RL--ARLQ-EPG---L----Q-WTELVQRRT  55
+18951936  3     LSTHVLDATTG--RPA--VGV--V-V--TL-----T-AAG---T----T----VADGLT  35
+3070744   4     LTTHILDTTKG--QPA--AGV--A-I--AL--HE-Q-AGD---D------WREIARGLT  40
+11601912  4     LSTHVLDTHRG--RPA--AGV--P-I--AL--EV-Q-VSS---G----E-WKELARGVT  41
+3845283   23   PLSVHVLNLENG--LPS--ANV--E-V---V--LE-K-SSG---D----Q-WIKLNQKFT  60
+16722944  12        VLDAVRG--RPA--QDV--P-V--SL--ES-R-AGS---D------WERLAEART  44
+1848130   4     LSTHVLDAVAG--LPA--VGV--A-V--SL--TG-A-GGD---Q---------IATGTT  37
+26134108  15   PLSVHVLNLQTG--LPS--SNV--E-V---V--LE-E-KNG---D----S-WKLLNKQTT  52
+10064112  30   PLSVHVLNLETG--TPT--PGV--E-V--EL--QQ-R-QKD---N------WVNLASGKT  67
+10145106  15    LTTHVLNTVTG--LPA--AGV--T-V--RL--AQLQ-EPG---P----Q-WTELVQRRT  53
+13251578  24        ILDISKG--SPA--PNV--Q-V--DL--ER-L-MPN---K----Q-WTSVASEKT  57
+17416401  8    PITTHVLDLSRG--KPAAGIPV--L-L--EL--GL-V-SGDPDAQ----L-WKPIGKGET  51
+13000805  7         ILDTSLG--RPA--ANV--P-V--SL--AR-A-GEN---K----R-WVPLNQMVT  40
+2552902   8         VLDITRG--LPA--RGL--P-I--TL--FA-Q-TGD--------A-WQELASGIT  40
+18538436  31        ILDITQG--KPA--SNV--K-I--SL--SK-Q-DKK---G----N-WNIIDEKYT  64
+19937153  23   PLSVHVLNLETG--LPS--SNV--E-V---T--LE-E-QVK---G----K-WVQISQSKT  60
+19120880  10        ILDTGAG--RPA--AGV--A-V--VL--YA-R-AGA---G------WNLVAAGTT  42
+13401323  27    LSVHVLDQQTG--MPP--ADV--A-V---T--LE-K-QEQ---D----K-WTSIASGKT  63
+6949651   27    LSVHVLDQQTG--MTP--ADV--A-V---T--LE-K-QEQ---D----K-WTPIASGKT  63
+25028947  4     ITTHILDTARG--CPA--AEV--A-I--TL--CR-Q-E-Q---N----T-WVIMGEGIT  40
+16315355  25   PLSVHVLNIQSG--QPS--PGI--E-V--QL---E-K-RTE---S----G-WKSLATGIT  62
+4409906   26   PISVHVLNTQTG--KPS--SGV--E-V--KL---E-H-QTD---N----G-WETVATDTT  63
+9765636   10        ILDTGSG--RPA--AGV--A-V--VL--YV-R-DGD---D------WTLVGKGET  42
+2337982   4     LSTHVLDATSG--APA--VGV--E-V--SL--------QD---A----S-GTELSSGQT  37
+8254371   8    PITCHVLIASLG--TPG--QGI--D-V--KI---E-K-LDH---Q----G-FNTLSTAQT  45
+17690820  4     LSTHVLDATSG--SPA--VGV--E-V--SL--------QD---A----S-GTELSSGRT  37
+10722888  30   PLTTHVLDTVSG--LPA--QGL--C-L--RL--SRLE-DHG---Q----Q-WTELRKSYT  69
+22800298  4     LTTHILDTTIG--KPA--QGV--H-I--QL---E-Q-NKS---G----Q-WLPLAYGKT  40
+25793412  8         ILDAALG--KPA--RDV--P-V--RL-----E-AAV---DPGRSS-WKTVAEGRT  43
+11307703  26   PLSVHVLNLQDG--LPS--PGV--N-V--TL--EK-Q-DGK---D------WDMLNSAKT  63
+10515723  26   PLSVHVLNLENGLPSPG--INV--T-L-------E-K-HVG---Q----N-WQPLAQGTT  63
+25951028  31        ILDITTG--KPA--TNV--K-I--TL--SK-M-NKN---D----T-WTMVEEKNT  64
+14131033  8         ILDTTFG--KPA--ANV--P-V---L--LE-K-RGD---G----R-WEKEGAGVT  40
+23990681  5    PITCHVLDSTLG--KPA--SNV--R-V--QLE-AL-S-PLN---S----Q-FHILATGST  44
+16228138  8         VLDTARG--VPA--AGV--P-I--RM--DR-I-GPD---G----A-VEPVAKGVT  41
+4612347   26   PLSVHVLNLENGLPSPG--INV--T-L-------E-K-HVG---E----N-WQPLAQGTT  63
+7854658   17        VLNTATG--LPA--AGL--A-V--RL--ARLQ-EPG---L----Q-WTELAQRHT  51
+1066756   4     LSTHVLDAVRG--IPA--VGV--T-V--AL--YR-Q-A-------------RQLDSGET  36
+21370309  26   PLSVHVLNLENGLPSPG--INV--T-L-------E-K-HVG---E----N-WQPLAQGTT  63
+8775      6     ITTHILDTGSG--RPA--ADV--P-V--IL--FA-N-A-D---G----A-WNEIARGVT  42
+15445089  4     LSTHVLDAVSG--RPA--VGV--A-V--TL--------TD---S----D-AAVLASALT  37
+
+Query_1   40   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  81
+26725287  41   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  82
+4733251   45   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  86
+502273    50   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  91
+24152820  50   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  91
+20883314  70   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEVDTKSYWKALGI-SP-FHEHA  111
+19565887  70   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  111
+5765155   41   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  82
+24819201  42   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  83
+25059841  50   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  91
+19149573  41   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  82
+11140004  50   SESGK----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  91
+24960156  50   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  91
+176391    49   SEPGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  90
+3694712   50   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-MHEHA  91
+12675200  42   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  83
+7616299   50   SESGE----PHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  91
+699487    42   SESGE----PHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  83
+23396587  70   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  111
+15769146  70   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  111
+7141256   70   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  111
+19392001  42   SESGE----LHG-L--T-T-E-E-E-FV-E--G-IYKVEIDTKSYWKALGI-SP-FHEHA  83
+25295502  68   SEFGE----LHG-L--T-T-P-E-K-FV-E--G-IYKVELDTKAYWKELGI-SP-FHEYA  109
+26571408  67   SESGE----LHG-L--T-T-E-E-K-FV-K--G-IYKVEINSKSYWHNLGI-AS-FHEHA  108
+5333437   73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYRVEFDTSSYWKGLGL-SP-FHEYA  114
+16251840  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-VYKVEFDTSSYWKGLGL-SP-FHEYA  114
+9986373   73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYKVEFDTSSYWKRLGL-SP-FHEYA  114
+14182854  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYRVEFDTSSYWKGLGL-SP-FHEYA  114
+7283617   73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-VYRVEFDTSSYWKGLGL-SP-FHEYA  114
+16722138  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYRVEFDTSSYWKGLGL-SP-FHEYA  114
+1278378   73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYRVEFDTSSYWKGLGL-SP-FHEYA  114
+24128203  92   TEYGE----IHE-L--T-T-E-E-K-FV-E--G-IYRVEFDTSSYWKGLGL-SP-FHEYA  133
+10754596  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-LYRVEFDTSSYWKGLGL-SP-FHEYA  114
+22234365  73   TEYGE----IHE-L--T-T-E-E-L-FV-E--G-IYRVEFDTSSYWKGLGL-SP-FHEYA  114
+24532702  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYMVKFDTSSYWKGLGL-SP-FHEYA  114
+875621    73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-TYRVEFDTSSYWKGLGL-SP-FHEYA  114
+10161538  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-IYRVEFGTSSYWKGLGL-SP-FHEYA  114
+12112216  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-KYKVVFYTSSYWKALGL-SP-FHEYA  114
+18337702  73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-KYMVKFDTSSYWKALGL-SA-FHEYA  114
+10678064  73   NDFGE----IHE-L--T-T-D-E-F-FI-E--G-LYKVEFDTSSYWRALGV-SP-FHEYA  114
+14201680  72   SEFGE----IHE-L--T-T-D-E-K-FV-E--G-VYRVEFDTKSYWKALGL-SP-FHEKA  113
+20181003  73   NEFGE----IHE-L--T-T-D-E-L-FI-E--G-LYKVEFDTSVYWKELGI-SP-FHEYA  114
+5989487   73   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-KYMVKFETSSYWKALGL-SA-FHEYA  114
+10218679  70   SEFGE----LHG-L--T-T-D-E-K-LV-E--G-IYKVELDTKSYWKSLGF-SP-FHEYA  111
+13816207  70   NDNGD----LHE-L--T-T-K-E-Q-FV-T--G-IYKIELDTASYWKRLGL-NP-FHHHA  111
+2269572   70   NDNGE----LHE-L--T-T-K-E-Q-FV-T--G-IYKIELDTASYWKRLGL-NP-FHHHA  111
+8708083   70   NDKGE----LHE-L--T-T-K-E-Q-FV-T--G-IYKIELDTASYWKRLGL-NP-FHHHA  111
+24588391  70   NDNGE----FHE-L--T-T-R-E-Q-FI-A--G-IYKIELDTASYWKKLGL-NP-FHHHA  111
+21503839  70   NDNGE----LHE-L--T-T-K-E-Q-FV-T--G-IYKIELDTASYWKRLGL-NP-FHHHA  111
+2292942   70   NDNGE----FHE-L--T-T-K-E-Q-FV-T--G-TYKIELDTASYWKKLGL-NP-FHHHA  111
+3393088   70   NERGG----LSE-L--T-T-K-E-Q-FV-A--G-LYKLEFDTASYWKSMGL-NP-FHQHA  111
+21454678  70   TEKGV----LPE-L--T-T-K-E-Q-FV-A--G-IYKLEIDTASYWKSMGL-NP-FHHHA  111
+16742309  70   DENGK----LQE-L--I-T-K-E-Q-FV-T--G-IYKIELDTASYWKKLGL-NP-FHQHA  111
+4574989   70   NEKGG----LPE-L--T-T-K-E-Q-FV-A--G-LYKLELDTSSYWKSLGL-NP-FHHHA  111
+15123899  90   NENGE----LQE-L--T-T-K-E-Q-FV-T--G-XYKIELDTASYWKKLGL-NP-FHQHA  131
+8887459   70   NEKGG----LPE-L--T-T-K-E-Q-FV-A--G-LYKLELDTTSYWKSLGL-NP-FHHHA  111
+2539304   69   SEFGE----LHG-L--T-T-A-E-N-FV-E--G-VYKVEIDTKSYWKSLGI-SP-FHEYA  110
+24070790  70   NEKGG----LPE-L--T-T-K-E-Q-FV-A--G-LYKLELDTASYWKSLGL-NP-FHHHA  111
+17337077  70   DDNGG----LHE-L--T-T-K-E-Q-FV-A--G-LYKIELGTASYWKSLGL-NP-FHHHA  111
+15075027  70   NDNGE----LHE-L--T-T-K-D-Q-FV-T--G-IYKIELDTATYWKRLGL-NP-FHHHA  111
+24275616  70   NEKGG----LPE-L--T-T-K-E-Q-FV-A--G-LYKLELDTASYWKSLGL-NP-FHDHA  111
+7595373   157  NEKGG----LPE-L--T-T-K-E-Q-FV-A--G-LYKLELDTASYWKSLGL-NP-FHHHA  198
+7595373   68   TEYGE----IHE-L--T-T-E-E-Q-FV-E--G-KYMVKFETSSYWKALGL-SA-FHEYA  109
+6614564   70   NDRGV----LPE-L--T-T-K-E-Q-FV-A--G-IYKLELDTASYWKSMGL-NP-FYRHA  111
+14014034  78   DMTGE----VHN-L--I-T-E-Q-E-FT-P--G-VYRVEFDTKAYWKAEGR-TP-FHQLA  119
+13570914  72   DMTGE----VHN-L--I-T-E-Q-E-FT-P--G-VYRVEFDTKAYWKAEGR-TP-FHQLA  113
+20982620  70   DDNGE----SQE-L--T-T-K-E-H-FA-A--G-IYKIELDTASYWKRLGL-NP-FHHYV  111
+19837783  73   DATGE----VHD-L--I-S-E-Q-D-FI-A--G-VYKVAFETKAYWKAEGR-TP-FHEVA  114
+621738    94   DLTGE----VHN-L--I-S-E-Q-D-FQ-S--G-VYRVEFDTKAYWKSQGT-TP-FHETA  135
+2374645   73   DATGE----IHN-L--I-T-E-Q-Q-FP-A--G-VYRVEFDTKTYWKNEGS-VP-FHEVA  114
+10988292  53   DATGE----IHN-L--I-T-E-Q-Q-FP-A--G-VYRVEFDTKAYWTNQGS-TP-FHEVA  94
+3112472   88   NATGE----VHD-L--I-T-E-Q-Q-FP-A--G-VYRVEFDTKTYWKNEGS-VP-FHETA  129
+11032192  8    SEFGE----LHG-L--T-T-T-D-K-FV-E--G-IYKVVLDTKSYWKALGI-SP-FHEYA  49
+17835963  45   DLTGE----VHN-L--I-S-D-Q-D-FQ-S--G-VYRVEFDTKAYWKSQGT-TP-FHETA  86
+6837093   72   DLTGE----VHN-L--I-S-D-Q-D-FQ-S--G-VYRVEFDTKAYWKSQGT-TP-FHETA  113
+75577     75   TKFGE----IHD-L--I-N-E-E-Q-FT-K--G-MYKFEFQTKAYWKNLGI-TA-FYEYA  116
+20255627  69   AINGE----AHN-L--T-T-E-A-D-FI-P--G-MYKVHFNTADYWRNLGY-TP-FHECV  110
+15426556  73   GQAGE----VHD-I--V-T-E-A-T-FV-E--G-VYKVHFETSTYWSSLGL-AP-FYDCA  114
+22636660  73   GQAGE----VHD-I--V-T-E-A-T-FV-E--G-VYKVHFETSTYWSSLGL-AP-FYDCA  114
+22427189  73   GQAGE----VHD-I--V-T-E-A-T-FV-G--G-VYKVHFETSTYWSSLGL-AP-FYDCA  114
+10390510  73   GQAGE----VHD-I--V-T-G-A-T-FV-E--G-VYKVHFETSTYWSSLGL-AP-FYDCA  114
+7204348   72   GRTGE----IHN-L--M-T-D-A-D-FP-A--G-LYKVKFDTKPYWKKAGI-SA-FAEYL  113
+17431908  57   DATRE----IHN-L--I-T-E-E-Q-FP-A--G-VYLIQFNTKAYXKNEGS-ML-FHE--  96
+14288047  50   NIAGE----VHE-L--L-T-E-E-D-FK-P--G-VYRVEFDTKAYWKTEGR-TP-FHEFA  91
+1501449   68   NDDGR----CPG-L--I-T-K-Q-Q-FT-S--G-VYKMFFDTTQYWTNIGE-TS-FYPYV  109
+6301303   64   NADGR----YPG-L--I-T-K-E-L-FT-A--G-VYKLHFETAQYWASLGD-TS-FYPYV  105
+15926775  68   NDDGR----CPG-L--I-A-K-E-S-FT-S--G-VYKMHFETAQYWASLGE-TC-FYPYV  109
+4313511   68   NDDGR----CPG-L--I-T-R-Q-M-FI-S--G-VYKIRFETAQYWESMGE-TC-FYPYV  109
+22685678  47   NDDGR----CPG-L--I-T-K-E-T-FT-P--G-VYRIHFETAQYWESLGE-TC-FYPYV  88
+18227852  68   NDDGR----CPG-L--I-A-K-Q-S-FT-S--G-VYKMHFETAQYWASMGE-TC-FYPYV  109
+7746503   68   NDDGR----CPG-L--I-T-K-E-T-FT-P--G-VYRIHFETAQYWESLGE-TC-FYPYV  109
+17552786  68   NDDGR----CPG-L--I-T-K-Q-T-FT-S--G-VYKIRFETAQYWKSIGE-TS-FYPYV  109
+20049058  68   NADGR----CPG-L--I-T-K-E-M-FT-S--G-VYKLRFETQQYWESIGE-AS-FYPYV  109
+22422400  68   NADGR----CPG-L--I-T-K-D-L-FT-P--G-VYRMHFETAQYWASMGE-TS-FYPYV  109
+78574     45   NDDGR----CPG-L--I-T-Q-Q-Q-FK-S--G-VYKLHFETGQYWARMGQ-TS-FYPYV  86
+7492237   66   NDDGR----CPG-L--I-T-K-E-S-FI-A--G-VYKMHFETGKYWDALGE-TC-FYPYV  107
+20256144  67   NADGR----CPG-L--I-S-T-E-H-LV-A--G-VYKLRFETEAYWKELGE-TS-FYPYV  108
+17419249  64   NSDGR----CPG-L--L-T-Q-S-E-FT-A--G-TYKIHFNTKAYFNSLGI-KG-FYPYV  105
+22868733  68   NSDGR----CPG-L--I-T-Q-Q-Q-FV-P--A-VYKLHFETGQYWASLGQ-NS-FYPYV  109
+17542697  46   NQDGR----CPG-L--I-N-Q-E-A-FT-P--G-MYKLRFETGSYWEGLGQ-PS-FYPYV  87
+9647311   68   NDDGR----CPA-L--I-T-R-Q-M-FI-S--G-VYKIRFETAQYWESMGE-TC-FYPYV  109
+15306559  47   DSDGR----VST-L--L-DPS-H-Q-LV-A--G-IYRMTFQTSEYWASVGVTSY-FHPYV  90
+14755209  62   NKDGR----CPG-L--I-S-R-E-A-FT-P--G-MYKLRFETGLYWESLGQ-TS-FYPYV  103
+24180354  48   NADGR----CPG-L--L-S-P-M-Q-FT-A--G-TYKMRFETGDYWQQFKM-MS-FYPYV  89
+16527933  47   DEDGR----CPG-L--I-S-R-E-A-FV-P--G-MYKLRFETGSYWTSLDR-DS-FYPYA  88
+26695120  47   DADGR----VST-L--L-DPS-H-Q-LV-A--G-VYRMTFQTADYWASVGV-SGYFHPYV  90
+7146375   47   DSDGR----VGN-L--LDP-S-H-Q-LV-S--G-IYRMTFQTAEYWASVGVTSY-FHPYV  90
+10879537  49   DEHGR----CSG-L--I-T-K-E-A-FT-A--G-MYKIRFETGQYWENLGQ-TS-FYPYV  90
+362027    44   SSDGR----ALF-P--F-S-K-E-S-MA-P--G-TYKLKFDVDTYYKTLGK-KT-IYDYV  85
+4331281   65   NDKGG----LPE-L--T-T-K-E-Q-FV-A--G-LY                          84
+22162170  49   DEDGQ----CSD-L--I-S-R-D-E-FT-A--G-MYKLRFETRQYWESLCQ-SS-FYPYI  90
+17108665  41   NADGR----IPD-L--L-P-K-E-K-QV-EL-G-VYKMKFYTQEYFAQDGT-AN-FYPFV  83
+26122023  70   NLDGR----CPG-L--L-T-P-S-Q-IK-P--G-TYKLFFDTERYWKERGQ-ES-FYPYV  111
+16360454  70   DMDGR----CPG-L--L-K-P-G-Q-LK-P--G-TYKLSFDTGDYWKKRGQ-AS-FYPYV  111
+12123902  48   DGDGR----VGT-L--L-DPS-H-Q-LV-A--G-IYRMTFQTAEYWAATGV-TGFFYPYV  91
+20507163  64   SEDGR----ISA-L--Y-P-E-S-ETFE-S--G-VYRAVFETGDWYRARGS-AT-FFPEI  106
+17314643  63   AESGR----ISA-L--Y-P-D-D-QPFT-P--G-IYRVTFETGDWFAAHDT-QT-FFPEI  105
+795190    70   DPDGR----CPG-L--L-T-Q-D-Q-MK-A--G-TYKLTFDTAAYWRKRGQ-ES-FYPYV  111
+10813432  72   NADGR----CPG-L--L-E-P-S-Q-MK-G--G-TYKLSFNTEGYWRKRGQ-ET-FYPYV  113
+16627790  42   NQDGR----IPD-L--LPK-E-Q-Q-LP-P--G-VYKMKFFTQAYFERQGT-PN-FYPFV  84
+15486682  41   NSDGR----ISD-L--L-P-K-D-E-VLPS--G-TYKLKFLTQEYFDQQGV-VT-FYPFV  83
+21659040  42   DNDGR----IMN-L--L-P-E-E-E-VL-DS-G-VYQMIFLTAPYFEKQGG-SF-FYPEI  84
+20319326  46   NEDGR----VKR-L--G---P-S-R-LT-E--G-TYRLTFETAAYFQRLGI-DS-FYPQV  86
+23223146  41   NADGR----VTG-L--L-K-T-G-D-LL-QP-G-IYKMRFETKDYFDKEAI-AT-FYPYV  83
+6027715   47   DRDGR----CPG-L--L-P-P-G-Q-MK-A--G-TYKLSFDTKGYWQKRGQ-ES-FYPYV  88
+7051186   41   NADGR----IPE-L--G---P-D-H-LD-D--G-VYQVRFDTGMYFSTRDV-AT-FY--P  79
+15562486  41   DADGR----IGD-L--G---P-D-R-LD-E--G-VYQVRFDTGMYFSTRDV-AT-FY--P  79
+4547175   38   NDDGR----CPG-L--I-T-R-E-T-FT-P--A-VYKIRFETGQYWGSLGE-TS-FYPYV  79
+21496027  41   NKDGR----IHK-L--LPT-D-E-P-LQ-Q--G-IYKIRFETKDYFDKNQI-AT-FYPYV  83
+15781904  57   NADGR----VPG-L--S-T-V-G-Q-DL-R--G-LCRLTFETAAYFEARGI-RE-YF-YP  97
+23793343  38   DADGR----IGA-L--G-A-E-----LP-P--G-VYRLVFATGDYFAAQGV-DA-FYPEV  77
+11865372  72   NQDGR----APG-L--V-P-N-G-D-LT-V--G-LYKLHFDTAEYFKQTTT-RF-LYPFV  113
+26264126  37   DDDGR----IKS-L--G-A-T-----LA-A--G-IYRLRFDTGEYFAASGT-AG-FYPEV  76
+23556785  41   NDDGR----LPG-L--L-A-D-D-EKLP-A--G-VYRMHFATAAYFEANKE-EG-FYPYV  83
+11828927  41   NDDGR----LPG-L--L-A-D-DHE-LE-S--G-IYRISFDTGSYYKSEGL-KC-FYPEA  83
+9440262   58   NDNGR----IPN-FLPQ-T-D-P-K-SG-E--G-VYKLVFFTRDYYQQKGI-HT-IYPYV  101
+25210832  43   NEDGR----CPG-L--L-P-M-E-G-RA-EK-G-IYRITFETKAFFDSIGE-QC-FYPYV  85
+10773677  68   DSDGR----CPG-L--L-P-P-G-P-MK-A--G-TYKLSFDTEGYWKKRGQ-ES-FYPYV  109
+2167185   48   NTDGR----VMD-L--L-LPE-Q-R-LP-A--G-RYRMRFELSPYWQAQQQ-RT-FYPQV  90
+6148479   40   DTDGR----LRD-W--V-P-D-A-G-WG-A--G-TYRLVFDTAAH---LGP-DA-FFPEV  78
+19504907  47   NPDGR----CPG-L--L-L-P-G-Q-MK-A--G-TYKLTFDTEGYWKKRGQ-DS-FYPYV  88
+6537114   48   DSDGR----VGT-L--L-DPS-H-Q-LV-A--G-IYRMTFQTAEYWAAKGV-TGFFYPYV  91
+8202501   42   NDDGR----VRD-F--L-P-Q-G-A-RV-EP-G-VYRMSFDTGAYFRALGV-RG-FYPSV  84
+24124470  42   DEDGR----LRT-L--V-P-E-GVR-PG-A--A-THRLTFDTAAYFDAQGV-EG-FYPEA  84
+2758232   43   NSDGR----ITDWL--N-T-D-V-E-F-----A-TYKLVFDLDSYYESQET-PA-FYPEA  83
+22124185  74   TNDGR----GGF-L--S-S-S-S-L-QA-G--A-VYKLFFDTDCYFKSIGV-KG-FYPYV  115
+1989571   52   DTDGR----CQP-L--L-A-A-G-Q-AK-A--G-TYKLRFETAAYWQGLGH-TS-FYPYV  93
+14102215  68   DSDGR----CPG-L--L-P-P-G-P-MK-A--G-TYKLSFDTEGYWKKRGQ-ES-FYPYV  109
+5497825   43   NSDGR----ITDWL--N-T-D-V-E-F-----A-TYKLVFDLDSYYKNQPT-PA-FYPEA  83
+22561791  37   GADGR----IRA-L--G-----E-A-LE-P--G-TYRLVFDTGAYFARQGV-ET-FYPEV  76
+1354210   301  NADGR----CPG-L--L-T-S-S-Q-LK-P--G-TYKLFFDTGSYWNQMGQ-TS-FYPYV  342
+14300996  43   DADGR----INN-L--L-S-D-N-K-LI-SP-G-TYRLTFYVSPYFQSQNV-DS-FYSAI  85
+352351    61   DQNGR----ITA-LY-P-T-Q-Q-Q-LK-S--G-IYKVTFKTGDWYKAQKQ-SS-FFPEV  103
+15184511  43   NSDGR----ITDWL--N-T-D-V-E-F-----A-TYKLVFDLDSYYQNKET-PA-FYPEA  83
+9714556   70   DPDGR----CPG-L--L-T-P-D-Q-MK-A--G-TYKLTFDTEGYWRKRGQ-ES-FYPYV  111
+910098    56   NADGR----VPG-L--T-A-V-G-Q-DV-S--G-TCRITFHTQAYFEANGT-TEYFYPVV  98
+26614179  41   DADGR----VRE-L----G-P-D-V-LD-D--G-VYQVRFETGIYFAKRQV-ET-FYPEV  81
+1910717   41   NEDGR----LPG-LL-A-V-D-E-T-LA-A--G-VYRMHFATAVYFKANNE-AG-FYPYV  83
+9910426   84   DPDGR----CPG-L--L-L-P-G-Q-MK-A--G-TYKLSFDTEGYWQKRGQ-ET-FYPYV  125
+19768942  24   DEDGR----CPG-L--I-T-T-K-A-FT-P--G-MYKMRFETGQYWESLGH-NS-FYPYV  65
+20570847  47   DPDGR----CPG-L--L-P-P-G-Q-MK-V--G-TYKLSFDTEGYWRKRGQ-ES-FYPYV  88
+21817262  37   DTDGR----VPE-L--L---P-G-P-VD-E--G-TYRLSFDTGTYFDALGT-RT-FYPEV  77
+25708882  68   NSDGR----CPG-L--L-P-P-G-P-MK-T--G-TYKLSFDTEGYWKERGQ-ES-FYPYV  109
+9353398   38   DADGR----IGA-L--A-------E-VA-A--G-DYRLRFDTGGYFTAQGV-DA-FYPEV  76
+24457207  56   DEDGR----CLP-L--L-A-W-E-Q-AE-A--G-TYKLRFETAAYWQGQGH-TS-FYPFV  97
+14173076  61   DQNGR----ITA-LY-P-T-Q-Q-Q-LK-S--G-VYKVTFKTGDWYKAQKQ-SS-FFPEV  103
+16779412  71   DEDGC----CPG-L--I-P-H-P-D-FL-P--G-LYKLRFETGPYWESLGH-IS-FYPYV  112
+17574781  46   DEDGR----CSG-L--G-A-R-E-A-LR-P--G-TYKLRFETGSFWESRGQ-AS-FFPYV  87
+20093272  42   NDDGR----VRD-F--L-P-Q-G-A-RV-ET-G-VYRMAFDTGAYFRAQGE-KG-FYPSV  84
+11260187  47   DPDGR----CPG-L--L-L-P-G-Q-MK-V--G-TYKLSFDTEGYWQKRGQ-ES-FYPYV  88
+18443888  57   NEDGR----CPG-L--L-R-G-E-A-LC-A--G-TYQLCFDTGDYWKQMHK-ES-FYPYV  98
+9505154   70   DPDGR----CPG-L--L-P-P-G-Q-MK-V--G-TYKLSFDTEGYWRKRGQ-ES-FYPYV  111
+6879737   41   NFDGR----LPD-L--I-K-D-GFH-LL-E--G-IYRLTFDTHSYYESQNE-HG-FYPTV  83
+21615466  64   DHDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHGKKL-ET-FFPEI  106
+1033991   47   DTDGR----ITDWL--N-T-E-V-E-F-----A-TYKLVFDLDSYYQNQPT-PA-FYPEA  87
+27249979  67   GASGR----LTD-F--T-S-S-TLK-FT-K--G-IYKFTVGAKDYYSAAGQ-ET-LFPVI  109
+13262983  64   NEQGR----IGE-L--F-P-E-K-Q-AM-EA-G-QYRVVFKTGEYFKKAGR-DT-FFPEI  106
+22444324  60   NEQGR----VPA-L--F-P-E-D-QTFA-K--G-EYRVVFKTGDYYRQQGR-SG-FFPEI  102
+266146    64   DHDGR----IKS-L--Y-P-E-D-Q-DM-QP-G-VYKVAFKTADYFHGKKL-DS-FFPEI  106
+14981272  64   DQDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHGKKL-DT-FFPEI  106
+5635513   43   DTDGR----ITDWL--N-T-E-V-E-F-----A-TYKLVFDLDSYYQNQPT-PA-FYPEA  83
+16363572  64   DHDGR----IKS-L--Y-P-E-D-Q-DM-QP-G-VYKVAFKTADYFHGKKL-DS-FFPEI  106
+1757139   63   AESGR----ISA-L--Y-P-D-D-QAFT-P--G-IYRVTFETGEWFAEHDT-QT-FFPEI  105
+8057526   65   DQDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHGKKL-DS-FFPEI  107
+631451    43   DEDGR----VRE-L--L-P-PGA-D-LA-P--G-IYRMHFETGAYFAACGV-EG-FYPYA  85
+14296557  46   DEDGR----CLP-L--L-P-P-G-Q-AK-A--G-TYKLHFETAEYWESLGY-SS-FYPFV  87
+17269284  64   DHDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHSKKL-DS-FFPKI  106
+1696960   64   DHDGR----IKS-LY-P-Q-D-Q-D-MA-P--G-VYKVTFKTADYFHGKKL-DS-FFPEV  106
+22432138  41   NGDGR----LPG-L--L-A-DNE-K-LP-A--G-VYRMHFATASYFQANNE-TG-FYPYV  83
+5949182   42   DEDGR----VKPFF--L-V-E-V-P-LP-G--G-TYRLVFDTEHYFMGLGV-DF-FYPQV  84
+6062259   41   DAAGR----VAN-L--LPT-D-L-E-NP-I--G-TYRLRFDTGAYFKAQGV-PS-LHPLI  83
+10508009  61   DQNGR----IPA-LY-P-A-Q-Q-Q-LK-S--G-IYKVTFKTGDWYKAQKQ-SS-FFPEI  103
+6684841   61   GENGR----ITA-L--Y-P-E-N-K-AL-EK-G-IYKVTFKTEAWFNQQKQ-QT-FFPEV  103
+24343045  64   DQDGR----IKS-LY-P-A-D-Q-D-MQ-P--G-VYKVTFKTAEYFHGNKL-ES-FFPEI  106
+2232351   56   DKDGR----CLF-L--L-A-P-G-K-AK-A--G-TYKLRFETAAYWQGLGH-AS-FYPFV  97
+8243802   43   DADGR----AKD-L--G---P-E-L-LP-A--G-TYRLNFSTGAYYEGLGT-AT-FFPEV  83
+11043743  64   DHDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHGKKL-DS-FFPEI  106
+23855931  64   DHDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTADYFHGKKL-DS-FFPEI  106
+22274906  64   DHDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHGKKL-DS-FFPEI  106
+16113303  52   DVDGR----CQP-L--L-A-P-G-Q-AK-S--G-TYKLHFETAEYWQGLGH-TS-FYPFV  93
+11906979  65   DHDGR----IKS-L--Y-P-Q-D-Q-DM-QP-G-VYKVTFKTAEYFHVKKL-DS-FFPEI  107
+11691770  66   DEDGR----SPG-L--L-R-G-E-P-LT-A--G-TFQLRFDTGDYWKQQKH-ET-FYPYV  107
+20516041  41   DVDGR----LRD-L----A-P-D-G-LD-L--G-AHRLVFATGEYFAATGQ-TG-FYPEV  81
+9084475   43   NSDGR----ITDWL--N-I-D-V-E-F-----A-TYKLVFDLDSYYENQEK-PA-FYPEA  83
+22684088  56   DADGR----CLP-L--L-A-P-G-Q-AA-A--G-TYQLRFETAPYWQRLGH-SS-FYPYV  97
+13524026  92   NQDGR----VNQ-L--V-S-A-S-Q-YK-A--G-IYKLHFDVASYNAERGV-KS-FYPFI  133
+12981020  42   DDDGR----IRD-L----G-P-D-D-LA-A--G-VYRLTFDTGRYAAATGQ-EN-FFPEV  82
+17372255  43   DADGR----IST-L--G-P-D-E-P--A-S--G-EYRLRFDTGAYFRARGA-ET-FYPEV  83
+16232487  72   NQQGR----ITA-LY-P-A-D-Q-K-LA-K--G-IYRVTFKTGDWFKAHQQ-PS-FFPEV  114
+3751892   71   DEDGR----CLP-L--L-P-P-G-Q-AK-A--G-TYKLRFETGEYWQSLGH-TS-FYPFV  112
+19738120  64   DHDGR----IKS-L--Y-P-E-D-Q-DM-QP-G-VYKVAFKTADYFHGKKL-DS-FFPEI  106
+8707666   56   DEDGR----CQP-L--L-V-P-G-Q-AK-A--G-TYKLRFETAAYWQGLGH-AS-FYPFV  97
+18951936  36   DADGR----IAG-L------G-E-D-LA-A--G-VYRLHFDTGAYFAAEGI-NG-FYPEV  75
+3070744   41   NADGR----VPD-L--LPP-T-Q-R-LA-A--G-TYKLKFFTREYFEREGT-AH-FYPFV  83
+11601912  42   NDDGR----VRD-F--L-P-A-G-A-RV-EP-G-VYRMSFDTGTYFHSLGV-KG-FYPSV  84
+3845283   61   GENGR----ITA-L--Y-P-E-N-K-AL-EK-G-IYKVTFKTEAWFDQQKQ-QT-FFPEV  103
+16722944  45   DADGR----VSA-F--G---P-E-W-LS-A--G-VYRVVFDTGAWFAAAGT-ES-FYPEV  85
+1848130   38   DSDGR----IAA-L--A-----E-G-LE-A--G-VYRITFDTGAWFAEHGV-DG-FYPEV  77
+26134108  53   DENGR----IMA-L--F-P-N-K-E-TM-K--NSVYRVTFKTEKWFEENNI-ET-FFPEV  95
+10064112  68   DDHGR----IAA-L--F-P-Q-D-KPMT-E--G-DYKVVFKTGDYYKRAGK-PT-FFPEI  110
+10145106  54   DEDGR----C---L--L-A-P-G-E-VK-A--G-TYKLRFETAAYWQGLGQ-SS-FFPFV  93
+13251578  58   DSNGR----ISNFL--L-A-G-E-H-EN-K--G-IYKLKFYTGSYFLIQSL-ET-FYPFI  100
+17416401  52   DSDGR----VAT-L--L-P-PGS-P-IA-E--S-TYRLTFQTAAYFKKHGV-SG-FYPYV  94
+13000805  41   DADGR----CRS-L--L-P-E-D-EALT-P--G-VYIVHFDTASYYEAQEV-PG-LYPYV  83
+2552902   41   NSDGR----IAG-L--L-A-D-G-V-VL-DA-G-VYRMHFETKCYFNANNE-KG-FYPFV  83
+18538436  65   DENGR----IKN-F--L-K-E-E-K-GT-DHKG-IYKLTFYTAPYFKKMGQ-DS-FYPFI  108
+19937153  61   NENGR----ITA-L--Y-P-E-N-KNFH-Q--G-LYKVTFKTGDWFKTQKQ-DT-FFPEI  103
+19120880  43   DADGR----AKD-L--G---P-A-L-LP-A--G-TYRLNFDTGTYYDGLGT-AT-FFPEV  83
+13401323  64   DHDGR----IKS-LY-P-Q-D-Q-D-MA-P--G-VYKVTFKTADYFHGKKL-DS-FFPEV  106
+6949651   64   DHDGR----IKS-LY-P-Q-D-Q-D-MA-P--G-VYKVTFKTADYFHGKKL-DS-FFPEV  106
+25028947  41   NEDGR----VAD-L--C-P-Q-D-L-VLPA--G-TYRMHFATAAYFQRHGQ-TV-FYPWA  83
+16315355  63   AESGR----ISA-L--Y-P-D-D-QAFT-P--G-IYRVTFETGDWFAEHDT-RT-FFPEI  105
+4409906   64   SEDGR----ISA-L--F-P-E-G-E-TL-ES-G-VYRAVFGTGDWYKKQDI-ST-FFPEI  106
+9765636   43   DADGR----IKN-L--G---P-E-R-IP-G--G-AYRLNFATGAYYEGLGT-ET-FFPEV  83
+2337982   38   DSDGR----I-G-E--I-N-P-E-P-LV-P--G-IYHLVFDTGNWFSDNDI-KA-FYPEI  78
+8254371   46   NNDGR----CPN-L--L-P-N-D-Y-KV-EK-G-IYRVTFETQAYFQKLGQ-AC-FYPYV  88
+17690820  38   DSDGR----I-G-Q--V-N-D-E-P-LV-P--G-IYHLVFDTGSWFADNDV-KG-FYPEV  78
+10722888  70   NPDGR----CPG-L--L-P-P-G-Q-VK-T--G-TYKLSFDTEGYWKERGQ-ES-FYPYV  111
+22800298  41   NSDGR----ISN-L--L-P-A-E-K-IL-DT-G-VYRLIFDTGSYFKSQNS-KS-FYPSV  83
+25793412  44   NSDGR----VPD-L--G-P-E-Q---LR-A--G-YYRVVFDTGSYFEAIGQ-KG-FYPEV  84
+11307703  64   NEQGR----ITG-L--Y-P-E-G-R-GL-EK-G-TYRVTFKTGEWFKSHKT-SS-FFPEV  106
+10515723  64   NEQGR----IAE-LF-P-A-K-Q-P-FE-A--G-EYRVVFKTGEYYKKIKH-DT-FFPEI  106
+25951028  65   DSNGR----IKDFL--K-H-D-G-K-DN-T--G-IYKLTFHTSPYFKSLGN-KS-FYPFI  107
+14131033  41   DADGR----IRD-L--V-P-E-G-K-LE-V--A-TYRITFDTSAYFHLQGM-EC-FYPEV  82
+23990681  45   NADGRCPDLLAG-H--T-S-Q-D-V-LAPK--G-IFKMTFFTGEYFDKAGR-NT-FYPQV  91
+16228138  42   DDDGR----VRD-L----G-P-D-D-LA-A--G-LYRLSFDTASYAAATGQ-EN-FFPEV  82
+4612347   64   NEQGR----IAE-LF-P-A-K-Q-P-FE-A--G-EYRVVFKTGEYYQKIKH-ET-FFPEI  106
+7854658   52   DADGR----CQP-L--L-A-P-G-Q-AK-A--G-TYKLHFETAEYWQGLGH-TS-FYPFV  93
+1066756   37   DADGR----IRA-L--G-----E-A-LE-P--G-TYRLVFDTGAYFAGQEV-ET-FYPEV  76
+21370309  64   NEQGR----IAE-LF-P-A-K-Q-T-FE-A--G-EYRVVFKTGEYYQKIKH-ET-FFPEI  106
+8775      43   DADGR----IKN-L--G---P-E-S-VP-G--G-TYKLNFATGAYYEGQGQ-ST-FFPEV  83
+15445089  38   DGDGR----VR-----S-V-A-E-N-LT-A--G-VYRLHFDTGSYFRSQEV-AA-FYPEV  77
+
+Query_1   82   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  114
+26725287  83   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  115
+4733251   87   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  119
+502273    92   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  124
+24152820  92   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  124
+20883314  112  E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  144
+19565887  112  E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  144
+5765155   83   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  115
+24819201  84   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  116
+25059841  92   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  124
+19149573  83   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  115
+11140004  92   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  124
+24960156  92   E------VVF--T-ANDSGPR--R-YTIAALLSPHSYST-TAVVTN  124
+176391    91   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  123
+3694712   92   E------VVF--T-ANDSGPR--R-YTIAAMLSPYSYST-TAVVTN  124
+12675200  84   P------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  116
+7616299   92   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  124
+699487    84   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  116
+23396587  112  E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  144
+15769146  112  E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TAVVT   143
+7141256   112  E------VVF--A-ANDSGPR--R-YTIAALLSPYSYST-TAVVTN  144
+19392001  84   E------VVF--T-ANDSGPR--R-YTIAALLSPYSYSTMTAVVT   116
+25295502  110  E------VVF--T-ANDSGPR--R-YTIAALLSPYSYST-TALV    140
+26571408  109  D------VIF--S-ANDSGPR--H-YIVAALLSPYSYST-TAVVSD  141
+5333437   115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVTN  147
+16251840  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVTD  147
+9986373   115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVT   146
+14182854  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVTD  147
+7283617   115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+16722138  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+1278378   115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+24128203  134  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  166
+10754596  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+22234365  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+24532702  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVTD  147
+875621    115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+10161538  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+12112216  115  D------VVF--T-ANDSGHR--H-YTLAALLSPYSYST-TAVVSD  147
+18337702  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVTD  147
+10678064  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+14201680  114  D------VWF--S-TKDSGHR--H-VTIATLISPFSFST-TAVVSD  146
+20181003  115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVSD  147
+5989487   115  D------VVF--T-ANDSGHR--H-YTIAALLSPFSYST-TAVVTD  147
+10218679  112  E------VV-----TAESGHR--H-YTIMALLSPCTYST-TALISG  142
+13816207  112  D------VVF--T-ANDAGYR--H-YSIAILLSPFSYST-TAVVS   143
+2269572   112  D------VVF--T-ANDAGYR--H-YSIAVLLSPFSYST-TAVVS   143
+8708083   112  D------VAF--T-ANDAGYR--H-YSIAVLLSPFSYST-TAVVS   143
+24588391  112  D------VVF--T-ANDAGYR--H-YTIAVVLSPFSFST-TAVVS   143
+21503839  112  D------VVF--T-ANDAGYR--H-YTIAFVLSPFSYST-TAVVS   143
+2292942   112  D------VVF--T-ANDAGYR--H-YSIAVVLSPFSYAT-TAVVS   143
+3393088   112  D------VVF--T-ANDAGNR--R-YKIAVVLTPFSYST-TAVVS   143
+21454678  112  D------VVF--P-ANDAGNR--H-YTIAVILSPFSYST-TAVVS   143
+16742309  112  D------VVF--T-ANDVGYR--H-YSIATVLSPFSYST-TAVVS   143
+4574989   112  D------VVF--T-ANDAGNR--H-YKIGVLLSPFSYTT-TAVVS   143
+15123899  132  D------VVF--T-ANDVGYR--H-YSITTVLSPFSYST-TAAVS   163
+8887459   112  D------VVF--T-ANDAGNR--H-YKIVVVLSPFSYST-TAVVS   143
+2539304   111  E                                               111
+24070790  112  D------VVF--T-ANDAGSR--H-YKIVVVLSPFSYST-TAVVS   143
+17337077  112  D------MVF--T-ANDGSYR--H-YSIVVLLSPFSYST-TAVVS   143
+15075027  112  D------VVF--T-ANDAGYR--H-YSITFFLSPFSYAS-TAVVS   143
+24275616  112  D------VVF--T-ANDAGNR--H-YNIVVVLSPFSYST-TAVVS   143
+7595373   199  D------VVF--S-ANDAGNR--H-YKIVVVLSPFSYST-TAVVS   230
+7595373   110  D------NPF--D-AK                                116
+6614564   112  D------VVF--T-ANDVVNR--H-HTIAVVLSPFSYST-TAVVS   143
+14014034  120  D------VVF--E-AHAEGHR--H-YTLALLLSPFSYTT-TAVVVK  152
+13570914  114  D------VVF--E-AHAEGHR--H-YTLALLLSPFSYTT-TAVVVK  146
+20982620  112  D------VVF--T-ANDSGYR--H-YSIAVLLSPFSYSI-AAVVGD  144
+19837783  115  D------VVF--E-AHTDGHR--H-YTLALLLSPFSYTT-TAVITN  147
+621738    136  E------VVF--E-AHAEGHR--H-YTLALLLSPFSYTT-TAVVMN  168
+2374645   115  E------VVF--E-AHAEGHR--H-YTLALLLSPFSYTT-TAVVTN  147
+10988292  95   E------VVF--D-AHPEGHR--H-YTLALLLSPFSYTT-TAVVSS  127
+3112472   130  D------VVF--E-AHAEGHR--H-YTLALLLSPYSFTT-TAVVT   161
+11032192  50   E------VVF--T-ANDSGQR--K-YTIAALLSPFSYST-TALVST  82
+17835963  87   E------VVF--E-AHAEGHR--H-YTLALLLSPFSYTT-TAVV    117
+6837093   114  E------VVF--E-AHAEGHR--H-YTLALLLSPFSYTT-TAVV    144
+75577     117  Q------VDF--T-AHDPVHR--H-YTIALFISPFAFIT-TAVVSD  149
+20255627  111  N------VVF--R-VGESPHQ--H-YTLALLLSPYSYST-TGMIRN  143
+15426556  115  D------MVF--S-TIHRGHH--H-YTLALLLSPYSYSA-TAVVKD  147
+22636660  115  D------MVF--S-TIHRGHH--H-YTLALLLSPYSYSA-TAVVKD  147
+22427189  115  D------MVF--S-TIHRGHH--H-YTLALLLSPYSYSA-TAVVKD  147
+10390510  115  D------MVF--S-TIHRGHH--H-YTLALLLSPYSYSA-TAVVKD  147
+7204348   114  E------IVF--E-AHAGVHT--H-YTLPVLMSPFFQAS-GAI     143
+17431908  97   E------LMF--E-AHADGHR--H-YTLALLLNPYSYTT-TAV     126
+14288047  92   E                                               92
+1501449   110  E------IVF--T-INDPG-Q--K-YHIPLLLSRFSYST         135
+6301303   106  E------IVF--T-INDPG-Q--K-YHVPLLLSRFSYST         131
+15926775  110  E------IVF--T-INDPG-Q--K-YHIPLLLSRFSYST         135
+4313511   110  E------IIF--T-IDDPG-Q--K-YHIPLLLSRFSYST         135
+22685678  89   E------IVF--T-INNPG-Q--K-YHIPLLLSRFSYST         114
+18227852  110  E------IVF--T-INDPG-Q--K-YHIPLLLSRFSYST         135
+7746503   110  E------IVF--T-INNPG-Q--K-YHIPLLLSRFSYST         135
+17552786  110  E------IAF--T-INDPG-Q--K-YHVPLLLSRFSYST         135
+20049058  110  E------IVF--T-ISDPG-Q--K-YHIPLLMSRFSYST         135
+22422400  110  Q------IVF--A-VNDPG-Q--K-YHIPLLLSRFSYST         135
+78574     87   E------IVF--T-ITDP-EQ--K-YHVPLLVSRFSYST         112
+7492237   108  E------VIF--T-ITDPS-Q--K-YHVPLLLSRFSYST         133
+20256144  109  E------VVF--K-IREPS-Q--K-FHIPLLLSPFSYST         134
+17419249  106  E------VVF--E-I-ERPLE--H-YHVPLLLSPFA            128
+22868733  110  E------IVF--T-ITDPD-Q--T-YHVPLLVSRFSFST         135
+17542697  88   E------VVF--T-ISEP-EQ--R-FHIPLLMSRFSYST         113
+9647311   110  E------IVF--T-IDDPWPK                           121
+15306559  91   Q------IIFE-I-AAGAEKQ--H-YHIPLLLSPFSYTT         118
+14755209  104  E------VVF--T-ITDP-EQ--R-FHLPLLMSRFSYST         129
+24180354  90   E------IVF--T-ITVPN-Q--K-YHVPLLLSPFSYTT         115
+16527933  89   E------VVF--T-VTDSMQS--L-H-LPLLMSRFSFST         114
+26695120  91   Q------IIFE-I-APGAEKQ--H-YHIPLLLSPYSYTT         118
+7146375   91   Q------IIFD-V-PAGAGQQ--H-YHIPLLLSPFSYTT         118
+10879537  91   E------IVF--T-ITDLD-Q--T-FHLPLLLSRYAYTT         116
+362027    86   E------IVF--T-TEED--Q--H-YHMPLLLSPYGYTT         110
+22162170  91   E------IVF--T-ITDLD-Q--T-FHLPLLLSRYSYST         116
+17108665  84   E------IVF--N-VAENA----H-YHVPLLLNPFGYST         108
+26122023  112  E------VVF--T-ITKES-Q--K-FHVPLLLSPWSYTT         137
+16360454  112  E------VVF--TISNDS--Q--K-FHVPLLLSPWSYTT         137
+12123902  92   Q------IIFE-V-AAGAEKQ--H-YHIPLLLSPYSYTT         119
+20507163  107  T------VPF--E-VADT-QQ--H-YHIPLLLSPYAYST         132
+17314643  106  P------VPF--E-VTDSA-Q--H-YHIPLLLSPYGYST         131
+795190    112  E------VVF--T-IPSEA-Q--K-FHVPLLLSPWSYTT         137
+10813432  114  E------VVF--TVTNDT--Q--K-FHVPLLLSPWSYTT         139
+16627790  85   E------IVF-----HLSAAE--H-YHIPLLLNPFGYST         109
+15486682  84   E------IVF--A-ITTS--E--H-YHVPLLLNPFGYST         108
+21659040  85   E------IRF--L-LQHP-EQ--H-YHIPLLLSPFGYST         110
+20319326  87   Q------ITF--R-LADS-EQ--H-YHVPLLLSPFAYST         112
+23223146  84   E------IVF--D-ITTG--E--H-YHIPLLLNPYGYST         108
+6027715   89   E------VVF--T-ITNET-H--K-FHVPLLLSPWSYTT         114
+7051186   80   E------VVI--T-FEVAGGD--H-YHVPLLLSPFAYST         106
+15562486  80   E------VLI--T-FEVAGGS--H-YHVPLLLSPFAYST         106
+4547175   80   E------IVF--T-ITDHS-Q--K-FHVPLLCSRFSY           103
+21496027  84   E------IIF--E-VTSS--E--H-YHIPLLLNPFGYTT         108
+15781904  98   E------VVL--T-FRLTTTD--H-YHVPLLLAPFGFST         124
+23793343  78   S------IAF--T-VG--GER--H-YHVPLLLSPFAYST         102
+11865372  114  E------IVF--N-CDELG----H-YHIPLLLNPFGYST         138
+26264126  77   V------IAF--D-LTDV-DA--Q-YHVPLLLSPYAYST         102
+23556785  84   D------IVF--E-IDASG-T--H-YHIPLLLTAYGYST         109
+11828927  84   S------IVF--E-IENP-TE--H-FHVPLLISGYGYST         109
+9440262   102  D------VIF--E-LKNDG-R--H-YHIPLTLSPYSYST         127
+25210832  86   Q------IVF--E-LTNP-EQ--H-YHIPLLLSPYSYTT         111
+10773677  110  E------VVF--T-ITDET-H--R-FHVPLLLSPWSYTT         135
+2167185   91   E------IEF--C-VEESGA---H-YHIPLLLSPFGYST         116
+6148479   79   A------VVF--Q-VADAG-R--H-YHVPLLLSPYGYTT         104
+19504907  89   E------VVF--T-ITNET-H--K-FHVPLLLSPWSYTT         114
+6537114   92   Q------IIF--E-VVPGAEK--QHYHIPLLLSPYSYTT         119
+8202501   85   T------VVFELA-APDE-----H-YHVPLLLSPFGYST         110
+24124470  85   S------IVF--A-VRDPA-E--H-YHVPLLLSPYGYST         110
+2758232   84   Q------ITF--R-LQDK--K--H-HHIPLLLSPFGYST         108
+22124185  116  E------VVF--R-IEDP-SQ--H-YHVPLLLSPYGYST         141
+1989571   94   E------VVF--T-ITDPA-Q--K-LHVPLLISPYSYST         119
+14102215  110  E------VVF--T-ITDET-H--R-FHVPLLLSPWSYTT         135
+5497825   84   Q------ITF--R-LQDQ--K--H-HHIPLLLSPFGYST         108
+22561791  77   S------IAF--V-VDDD--R--R-YHVPLLLSPFAFST         101
+1354210   343  E------VIF--T-VTNE-TK--K-LHVPLLLSPFSYTT         368
+14300996  86   P------IVF--T-INNP-EQ--H-YHIPLLLNPFGYST         111
+352351    104  P------VIF--E-VDGTLP---H-YHIPLLLSPYGYST         129
+15184511  84   Q------ITF--R-LQDK--K--H-HHIPLLLSPFGYST         108
+9714556   112  E------VVF--T-IT-SKAQ--K-FHVPLLLSPWSYTT         137
+910098    99   S------IVF--R-VVDA-TA--H-YHVPLLINPFGYST         124
+26614179  82   E------IAF--S-V--AGGD--H-YHVPLLLSPFAYST         106
+1910717   84   D------IVF--E-IDASG-T--H-YHIPLLLTAYGYST         109
+9910426   126  E------VVF--T-ITNE-TH--K-FHVPLLLSPWSYTT         151
+19768942  66   E------IVF--T-ITNPN-E--R-FHLPLLLSRFSYST         91
+20570847  89   E------VIF--T-ITNET-H--K-FHVPLLLSPWSYTT         114
+21817262  78   S------ISF--A-VADSG-A--H-YHVPLLLSPFAYST         103
+25708882  110  E------VVF--S-ITNET-H--R-FHVPLLLSPWSYTT         135
+9353398   77   T------IAF--A-V--TGER--H-YHVPLLLSPFAYST         101
+24457207  98   E------VVF--T-ITDPV-R--K-LHVPLLISPYSYMT         123
+14173076  104  P------VIF--E-VDGTLP---Y-YHIPLLLSPYGYST         129
+16779412  113  E------VVI--L-ISE-GEE--R-FHLPLLISRFSYST         138
+17574781  88   E------VVF--S-ISDQ-QQ--R-IHLPLLMTRFSYST         113
+20093272  85   T------VVFELT-APDE-----H-YHVPLLLSPFGYST         110
+11260187  89   E------VVF--T-VTNET-H--K-FHVPLLLSPWSYTT         114
+18443888  99   E------IAF--T-ITDP-KQ--K-YHVPLLLSPFSYTT         124
+9505154   112  E------VIF--T-ITNET-H--K-FHVPLLLSPWSYTT         137
+6879737   84   S------IVF--E-VKDPS-Q--H-YHVPLLLSPFGYST         109
+21615466  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+1033991   88   Q------ITF--R-LQDT--K--H-HHIPLLLSPFGYST         112
+27249979  110  D------IIF--N-IDDTN-Q--H-YHIPLLLNAYGYST         135
+13262983  107  P------VIF--E-VKNAD-Q--H-YHIPLLLSPYGFST         132
+22444324  103  P------VVF--E-VTQPA-Q--H-YHIPLLLSPYGFST         128
+266146    107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+14981272  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+5635513   84   Q------IAF--R-LQDT--K--H-HHIPLLLSPFGYST         108
+16363572  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+1757139   106  P------VPF--E-VTDTS-Q--H-YHIPLLLSPYGYST         131
+8057526   108  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         133
+631451    86   D------VVF--R-VREPG-S--H-YHVPLLLSPFGYTT         111
+14296557  88   E------VVF--T-ITDPT-Q--K-LHIPLLISPYSYTT         113
+17269284  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+1696960   107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+22432138  84   D------IVF--E-IDASG-T--H-YHIPLLLTAYGYST         109
+5949182   85   T------VVF--K-IDDEA-Q--H-YHVPLLISPYGYST         110
+6062259   84   E------IVF--E-VRDA                              92
+10508009  104  P------VIF--E-VDGTLP---H-YHIPLLLSPYGYST         129
+6684841   104  P------VIF--K-V-DGTVK--H-YHIPLLLSPYGYST         129
+24343045  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+2232351   98   E------VVF--T-IADPT-Q--R-LHIPLLISPYSYTT         123
+8243802   84   D------LVF--T-VSDAG-E--H-YHVPLLLSPFAYST         109
+11043743  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+23855931  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+22274906  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+16113303  94   E------VVF--I-ITDPA-Q--K-LHVPLLISPYSYTT         119
+11906979  108  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         133
+11691770  108  E------VVF--T-IIDP-KQ--K-YHVPLLITPFSYST         133
+20516041  82   T------VAF--T-VTED--R--H-YHVPLLLSPYAFST         106
+9084475   84   Q------ITF--R-LQDK--K--H-HHIPLLLSPFGYST         108
+22684088  98   E------VVF--S-VTDPA-Q--E-LHVPLLISPYSYT          122
+13524026  134  E------IVV--Q-CERN--Q--H-YHIPLLLNPFGYTT         158
+12981020  83   S------IVF--N-LRAEGGSVPH-HHVPLLLSPFHYST         111
+17372255  84   V------LTV--L-VADDG-R--H-VHAPLLLSPFAYST         109
+16232487  115  P------VIF--E-V-DGSVL--H-YHIPLLLSPYGYST         140
+3751892   113  E------VVF--T-ITDPA-Q--K-LHIPLLISPYSYTT         138
+19738120  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+8707666   98   E------VVF--T-LTEPA-Q--K-LHIPLLISPFSYTT         123
+18951936  76   V------IAF--E-ITDL-TG--H-YHVPLLLSPYSYST         101
+3070744   84   E------ICF--A-VRDDA----H-YHVPLLLNPFGFST         108
+11601912  85   S------VVFELA-APD---E--H-YHVPLLLSPFGYST         110
+3845283   104  P------VIF--K-V-DGTVK--H-YHIPLLLSPYGYST         129
+16722944  86   A------VVF--R-VDGRSAH--L-H-IPLLLSPFAYST         111
+1848130   78   V------ICF--T-VVDV-AR--H-HHVPVLLSPYAYST         103
+26134108  96   P------VIF--K-A-DSNTK--H-YHIPLLISPYGYST         121
+10064112  111  P------VLF--H-VENGG----H-YHIPLLLSQYGYST         135
+10145106  94   E------VTF--T-VADP-VQ--K-LHIPLLISPYSYTT         119
+13251578  101  E------VVF--E-IKDE--K--H-YHVPITISPFGYST         125
+17416401  95   Q------IVF--D-AADAS-Q--H-YHVPLLLSPHGYST         120
+13000805  84   Q------IVF--T-V-EAGQA--H-YHIPLLLTANGYTT         109
+2552902   84   D------IVF--E-L-DGTNS--H-YHIPLLLTAFGYST         109
+18538436  109  D------VVF--E-LKDNN----H-YHVPITLSPFGYST         133
+19937153  104  P------VIF--E-VNGTVP---H-YHIPLLLSPYGYST         129
+19120880  84   D------LVF--A-VSDAG-E--H-YHVPLLLSPFAYST         109
+13401323  107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+6949651   107  P------VLF--T-VTRTNEK--L-H-IPLLLSQYGYST         132
+25028947  84   E------VVF--N-IEEDGA---H-YHIPLLLSGFGYST         109
+16315355  106  P------VPF--E-VTDTS-Q--H-YHIPLLLSPYGYST         131
+4409906   107  T------VPF--Q-V-DNVDQ--H-YHIPLLLSPYAYST         132
+9765636   84   D------LNF--T-VSDAG-E--H-YHVPLLLSPFAFST         109
+2337982   79   D------ICF--E-VDDAD-R--H-YHVPVLLSPFAYST         104
+8254371   89   Q------IVF--E-I-DQPEQ--H-YHIPLLISPYSYTT         114
+17690820  79   D------ICF--E-VDDP-DG--H-YHVPVLLSPFAYST         104
+10722888  112  ECLLCSQVVF--T-ITNE-TH--K-FHVPLLLSPWSYTT         143
+22800298  84   S------IEF--E-ITDAS----H-YHVPLLLNPFGYST         108
+25793412  85   S------IVF--D-LAEED-Q--H-YHVPLLLSPFAYST         110
+11307703  107  P------VIF--E-VDGTVP---H-YHIPLLLSPYGFST         132
+10515723  107  P------VIF--E-VKQTD-Q--H-YHIPLLLSPYGFST         132
+25951028  108  E------VVF--E-LVDN--E--H-YHVPITLSPFGYST         132
+14131033  83   S------VVF--Q-IREP-ES--H-YHVPLLVSPFGYST         108
+23990681  92   E------ILF--Q-LSDSPDP--H-YHIPLLLSPFSYTT         118
+16228138  83   A------ITFRLV-PVDGAVP--H-HHVPLLLSPFHYST         111
+4612347   107  P------VIF--Q-VKQTD-Q--H-YHIPLLLSPYGFST         132
+7854658   94   E------VVF--I-ITDPA-Q--K-LHVPLLISPYSYTT         119
+1066756   77   V------VAF--A-VTEE--R--H-YHVPLLLSPFAFST         101
+21370309  107  P------VIF--Q-VKQTD-Q--H-YHIPLLLSPYGFST         132
+8775      84   E------LTF--A-VADTG-E--H-YHVPLLLSPFAFST         109
+15445089  78   V------IAF--E-VTDEAPH--C-H-VPLLLSPFAYST         103
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 244493918944
+
+
+  Database: ./nr
+    Posted date:  Feb 17, 2021  1:46 PM
+  Number of letters in database: 9,881,117,767
+  Number of sequences in database:  27,325,400
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
