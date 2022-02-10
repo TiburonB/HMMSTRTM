@@ -48,7 +48,7 @@ if __name__ == '__main__':
             display_by_RAMA_AA(HMMSTR, cutoff = cutoff)
             display_by_TM(HMMSTR, cutoff = cutoff)
         except:
-            display_states(HMMSTR, cutoff = cutoff)
+            display(HMMSTR, cutoff = cutoff)
     else:
         display_states_by_RAMA_AA(HMMSTR, [ l for l in range(start, end)], cutoff=cutoff)
         display_states_by_TM(HMMSTR, [ l for l in range(start, end)], cutoff= cutoff)

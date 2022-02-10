@@ -113,7 +113,22 @@ def gamma_pie(name, titr):
     html += '<img src=../../static/'+name+str(titr)+'rama.jpg alt="Gamma-voted Ramachandran prediction piechart" width="450" height="333">'
     html += '<img src=../../static/'+name+str(titr)+'ss.jpg alt="Gamma-voted Secondary Structure prediction piechart" width="450" height="333">'
     html += html_tail
+    html += "<a href=/gamma-heat/"+name+"/"+str(titr)+">View Gamma Heatmap</a>"
     return html
+
+@app.route('/gamma-heat/<string:name>/<int:titr>')
+def gamma_heat(name, titr): # get the .gv.png file for gamma_heat at this timepoint
+    filename = gamma_dir + name
+    gamma_ftitr = filename + str(titr)
+    s = 'python3 gamma_heat.py -gf ' + gamma_ftitr + ' -s True -mf ' + HMM_file + ' -of ' + name+str(titr)+'_heat'
+    print(s)
+    os.system(s)
+    print(name + str(titr) + '_heat.jpg')
+    html = '<h3> GAMMA Heatmap FOR RESIDUE ' + str(titr) + ' OF ' + name.upper() + ' </h3><br>'
+    html += '<img src=../../static/'+name+str(titr)+'_heat.jpg alt="Gamma Heatmap" width="600" height="1000">'
+    html += html_tail
+    return html
+
 
 
 @app.route('/inject', methods=['POST'])
@@ -131,7 +146,9 @@ def inject():
         f.write('>'+code+':'+chain+'\n')
         f.write(sequence)
         f.close()
-        os.system('./BLAST_RUN.csh ' + HMM_file + ' ' + code + ' ' + chain)
+        s = './BLAST_RUN.csh ' + HMM_file + ' ' + code + ' ' + chain
+        print(s)
+        os.system(s)
     else:
         # inject
         os.system('./xinject ' + HMM_file + ' ' + sequence + ' ' + code + ' ' + chain)
@@ -159,4 +176,4 @@ if __name__ == '__main__':
     app.secret_key = 'super secret key'
     app.config['SESSION_TYPE'] = 'filesystem'
     app.debug = True
-    app.run(host = '0.0.0.0', port = 4534)
+    app.run(host = '0.0.0.0', port = 4541)

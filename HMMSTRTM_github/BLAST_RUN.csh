@@ -36,7 +36,7 @@ endif
 if !(-e ${TEMPDIR}$PDBCODE$PDBCHAIN.drct) then
         echo "Making drct file ...."
         echo "$GDIR/xprofile2drct ${TEMPDIR}$PDBCODE$PDBCHAIN.profile $PDBCODE$PDBCHAIN ${TEMPDIR}$PDBCODE$PDBCHAIN.drct"
-         "$GDIR/xprofile2drct ${TEMPDIR}$PDBCODE$PDBCHAIN.profile $PDBCODE$PDBCHAIN ${TEMPDIR}$PDBCODE$PDBCHAIN.drct"       
+        $GDIR/xprofile2drct "${TEMPDIR}$PDBCODE$PDBCHAIN.profile $PDBCODE$PDBCHAIN ${TEMPDIR}$PDBCODE$PDBCHAIN.drct"       
 endif
 # run profile on HMMSTR
 echo "Scratching HMMSTR ..."

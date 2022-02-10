@@ -89,115 +89,38 @@ def highlight_states(HMM, states):
     dot.render('HMMSTR_NEW_TOP.gv', view=not(True), format = 'png')
    
 # visualize paradigm seq through looping over time interval in gamma...
-def HMM_GAMMA_IMAGE(HMM, gamma_dir, gamma_file):
-    HMM.get_gamma(gamma_dir, gamma_file)
-    gamma = HMM.gamma
-    dot = Digraph(comment="HMMSTR_50")
+def HMM_GAMMA_IMAGE(HMM, gamma, out_f):
+    dot = Digraph(comment=HMM.name+'gamma')
     # find the max number of times a node is used, the max heat on any node
     max_num_times = 0
     max_heat = 0
     heats = []
-    print(gamma.shape)
-    for i in range(0, len(gamma)):
-        this_time = 0
-        this_heat = 0
-        for t in range(0, HMM.n):
-            if gamma[i][t] > 0:
-                this_time += 1
-                this_heat += gamma[i][t]
-        heats.append(this_heat)
-        max_num_times = max(max_num_times, this_time)
-    max_heat = max(heats)
-    percentiles = to_percentile(heats, step = 10)
 
-    # GAMMA EDGES:
-    last_state = None
-    gamma_argmaxes = np.argmax(gamma, axis=1)
-    edges = []
-    for titr in range(0, len(gamma_argmaxes)):
-        this_state = gamma_argmaxes[titr]
-        if last_state is not None:
-            if this_state != 0 or last_state != 0:
-                edges.append((str(last_state), str(this_state)))
-                #dot.edge(str(last_state), str(this_state))
-        last_state = this_state
-    print(edges)
+    percentiles = [ float(i+1/10) for i in range(0, 9) ]
     for i in range(0, HMM.n):
         if False:#i == 0 :
             dot.node(str(i), "naught node", shape = 'doublecircle')
         else:
-            num_times = 0
-            heat = 0
-            times = ""
-            for t in range(0, len(gamma)):
-                if gamma[t][i] > 0:
-                    times += str(t) + ", "
-                    num_times += 1
-                    heat += gamma[t][i]
-            times = times[:len(times)-2] + "."
-            #heat = rgb(0,max_heat,heat)
-            #  spectral9 color scheme
+            
             color = 1
             for k,p in enumerate(percentiles):
-                if heat > p:
+                if gamma[i] > p:
                     color = k
             #color_map = {0: "gray0", 1: "blue", 2: "dodgerblue", 3: "aqua", 4: "cyan", 5: "darkolivegreen1", 6: "chartreuse", 7:"gold", 8:"chocolate1", 9:"firebrick1", 10:"darkred"}
 
-            if False:  # NODE OPTION 1 : CIRCLE
-                dot.node(str(i),
-                        str(i),
-                        shape = 'circle',
-                        colorscheme = "purd9",
-                        color = str(color), style = 'filled',
-                        width = str(num_times), height = str(num_times)
-                        )
-            if True: # NODE OPTION 2 : RECORD
-                # get label for the record.
-                label = "{"+str(i)+"|{"
-                included_times = []
-                for titr,edge in enumerate(edges):
-                    if edge[1] == str(i): # include a box in the record for each intrans.
-                        label += "<"+str(len(included_times))+"> "+str(titr) + "|"
-                        included_times.append(titr)
-                if len(included_times) == 0: # if this state was never used, don't include it in the diagram.
-                    continue
-                label = label[:len(label)-1] + "}|}"
-                print(label)
-                dot.node(str(i), label = label, shape = 'record',
-                        colorscheme = "rdbu10", #"purd9",
-                        color = str(10-color),
-                        style = 'filled')
+            dot.node(str(i),  str(i),
+                    shape = 'circle',
+                    colorscheme = "purd9",
+                    color = str(color+1), style = 'filled',
+                    )
 
-    if False: # ########################### EDGE CREATION METHOD 1 (by transition matrix)
-        for i in range(0, HMM.n):
-            for j in range(0, HMM.n):
-                if HMM.a[i][j] > 0.0000:
-                    dot.edge(str(i),str(j))
-    if False: #  ########################### EDGE CREATION METHOD 2 (by argmax gamma transition at each time point)
-        last_state = None
-        gamma_argmaxes = np.argmax(gamma, axis=0)
-        for titr in range(0, len(gamma_argmaxes)):
-            this_state = gamma_argmaxes[titr]
-            if last_state is not None:
-                if this_state != 0 or last_state != 0:
-                    dot.edge(str(last_state), str(this_state))
-            last_state = this_state
-    if True: ############################### EDGE CREATION METHOD 3 ( by record, different record for each time point..)
-        record_numbers = np.zeros(HMM.n)
-        last_state = None
-        gamma_argmaxes = np.argmax(gamma, axis=0)
-        for titr in range(0, len(gamma_argmaxes)):
-            this_state = gamma_argmaxes[titr]
-            if last_state is not None:
-                if this_state != 0 or last_state != 0:
-                    edge_string_1 = str(last_state)+":"+str(int(record_numbers[last_state]))
-                    edge_string_2 = str(this_state)+":"+str(int(record_numbers[this_state]))
-                    #print(edge_string_1 + " .. " + edge_string_2)
-                    dot.edge(edge_string_1,edge_string_2)
-                    record_numbers[last_state] += 1
-            last_state = this_state
-    print("RENDERING GAMMA GRAPH to " + gamma_dir + gamma_file)
-    dot.render(gamma_dir + gamma_file + '.gv', format = 'png')
+    for i in range(0, HMM.n):
+        for j in range(0, HMM.n):
+            if HMM.a[i][j] > 0.0000:
+                dot.edge(str(i),str(j))
+    
+    print("RENDERING GAMMA GRAPH to " + out_f+'.jpg')
+    dot.render(out_f , format = 'jpg')
 
 def show(HMM):
     display_by_TM(HMM, QUIET = False)

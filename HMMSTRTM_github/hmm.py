@@ -63,7 +63,7 @@ class hmm:
         self.SS_EPS = 0
         self.TM_EPS = 0
         self.RAMA_EPS = 0
-        
+                
 
     #def file_reader(self):
     #    for line in open(self.f, "r"):
