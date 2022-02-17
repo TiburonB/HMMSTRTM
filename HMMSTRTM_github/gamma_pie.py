@@ -7,6 +7,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description = 'gamma_pie.py')
     parser.add_argument('-gf', dest = 'gamma_file', default = "")
     parser.add_argument('-mf', dest = 'model_file', default = "")
+    parser.add_argument('-od', dest = 'outdir', default = "")
     parser.add_argument('-s', dest = 'server', default = "False")
     args = parser.parse_args()
     return args
@@ -21,6 +22,7 @@ if __name__ == '__main__':
     ftitr = args.gamma_file
     modelfile = args.model_file
     server = str2bool(args.server)
+    outdir = args.outdir
     f = open(ftitr)
     
 
@@ -43,15 +45,31 @@ if __name__ == '__main__':
     ax1.pie(gamma, labels = labels,startangle=90)
     ax1.set_title('Gamma Distribution by State')
     ax1.axis('equal')
+    #print("GAMMA PIE = " + str(gamma))
     #plt.show()
     name = ftitr[ftitr.rfind('/')+1:]
+    adj_name = ""
+    try:
+        if int(name) < 10:
+            adj_name += "00"
+        elif int(name) < 100:
+            adj_name += "0"
+        adj_name += name
+    except:
+        adj_name = name
     if server: # server expects image to reside in static directory
-        save_path = './tmp/'+name+'.jpg'
+        save_path = './static/'+name+'.jpg'
         print(save_path)
         plt.savefig(save_path)
     else:
-        plt.savefig(ftitr+'.jpg')
-
+        filename = outdir+'gamma_pie_'+adj_name+'.jpg'
+        plt.savefig(filename)
+        file_size = os.path.getsize(filename)
+        if file_size == 0:
+            print("GAMMA PIE FAILED.")
+        else:
+            print("FILE SIZE ====== " + str(file_size))
+            print("FILE = " + filename)
     HMMSTR = hmm(modelfile)
     HMMSTR.read()
     rama = [ 0 for i in range(0, len(HMMSTR.emissions["RAMA"])) ]
@@ -82,18 +100,25 @@ if __name__ == '__main__':
     sum_rama = sum(rama)
     for i in range(0, len(rama)):
         rama[i] = (rama[i] / sum_rama) * 100
-    print(rama)
+    print("RAMA DATA = " + str(rama))
     for i,e in enumerate(rama):
         labels.append(str(float('%.1g'%e)) + ', ' + RAMA_labels[i])
     ax1.pie(rama, labels = labels, startangle = 90)
     ax1.set_title('Gamma-voted Ramachandran Distribution.')
     ax1.axis('equal')
     if server:
-        save_path = './tmp/'+name+'rama.jpg'
+        save_path = './static/'+name+'rama.jpg'
         print(save_path)
         plt.savefig(save_path)
     else:
-        plt.savefig(ftitr+'rama.jpg')
+        filename = outdir+'gamma_rama_'+adj_name+'.jpg'
+        plt.savefig(filename)
+        file_size = os.path.getsize(filename)
+        if file_size == 0:
+            print("RAMA FAILED.")
+        else:
+            print("FILE SIZE ====== " + str(file_size))
+            print("FILE = " + filename)
 
     # make ss pie chart
     ss = [ 0 for i in range(0, len(HMMSTR.emissions["SS"]))]
@@ -113,19 +138,26 @@ if __name__ == '__main__':
     sum_ss = sum(ss)
     for i in range(0, len(ss)):
         ss[i] = (ss[i] / sum_ss) * 100
-    print(ss)
+    print("SS = " + str(ss))
     for i , e in enumerate(ss):
         labels.append(str(float('%.1g'%e)) + ', ' +SS_labels[i])
     ax1.pie(ss, labels = labels, startangle = 90)
     ax1.set_title('Gamma-voted Secondary Structure Distribution.')
     ax1.axis('equal')
     if server:
-        save_path = './tmp/'+name+'ss.jpg'
+        save_path = './static/'+name+'ss.jpg'
         print(save_path)
         plt.savefig(save_path)
     else:
-        plt.savefig(ftitr+'ss.jpg')
-    
+        filename = outdir+'gamma_ss_'+adj_name+'.jpg'
+        plt.savefig(filename)
+        file_size = os.path.getsize(filename)
+        if file_size == 0:
+            print("SS FAILED.")
+        else:
+            print("FILE SIZE ====== " + str(file_size))
+            print("FILE = " + filename)
+
         
 
 

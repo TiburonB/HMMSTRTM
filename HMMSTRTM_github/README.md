@@ -10,6 +10,12 @@ xinject HMMfile SEQUENCE <code> <chain>
 If NCBI blast is installed, you can run a pdb with this command:
 ./RUNPDB.csh HMMfile code chain
 
+
+To make Geeky Graphic:
+python3 seq2jpg.py -sf './HMMSTR/HMMSTR_100<code>.seq' -od './HMMSTR/HMMSTR_100GAMMA/<code>dir/'
+(manually run output scripts on terminal)
+python3 gamma_gif.py -mf './HMMSTR/HMMSTR_100.hmm' -gf './HMMSTR/HMMSTR_100GAMMA/<code>'
+
 # some dependencies for python files
 pip3 install Bio
 pip3 install scipy

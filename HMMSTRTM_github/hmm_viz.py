@@ -116,7 +116,7 @@ def HMM_GAMMA_IMAGE(HMM, gamma, out_f):
 
     for i in range(0, HMM.n):
         for j in range(0, HMM.n):
-            if HMM.a[i][j] > 0.0000:
+            if HMM.a[i][j] > 0.1000:
                 dot.edge(str(i),str(j))
     
     print("RENDERING GAMMA GRAPH to " + out_f+'.jpg')

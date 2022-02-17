@@ -112,9 +112,9 @@ def gamma_pie(name, titr):
     os.system(s) # create gamma pie plot .jpg file
     print(name+str(titr)+'.jpg')
     html = '<h3> GAMMA VOTING PIE CHARTS FOR RESIDUE ' + str(titr) + ' OF ' + name.upper() + ' </h3><br>'
-    html += '<img src=../../tmp/'+name+str(titr)+'.jpg alt="Gamma piechart" width="450" height="333">'
-    html += '<img src=../../tmp/'+name+str(titr)+'rama.jpg alt="Gamma-voted Ramachandran prediction piechart" width="450" height="333">'
-    html += '<img src=../../tmp/'+name+str(titr)+'ss.jpg alt="Gamma-voted Secondary Structure prediction piechart" width="450" height="333">'
+    html += '<img src=../../static/'+name+str(titr)+'.jpg alt="Gamma piechart" width="450" height="333">'
+    html += '<img src=../../static/'+name+str(titr)+'rama.jpg alt="Gamma-voted Ramachandran prediction piechart" width="450" height="333">'
+    html += '<img src=../../static/'+name+str(titr)+'ss.jpg alt="Gamma-voted Secondary Structure prediction piechart" width="450" height="333">'
     html += html_tail
     html += '<br>'
     html += "<a href=/gamma-heat/"+name+"/"+str(titr)+">View Gamma Heatmap</a>"
@@ -129,10 +129,9 @@ def gamma_heat(name, titr): # get the .gv.png file for gamma_heat at this timepo
     os.system(s)
     print(name + str(titr) + '_heat.jpg')
     html = '<h3> GAMMA Heatmap FOR RESIDUE ' + str(titr) + ' OF ' + name.upper() + ' </h3><br>'
-    html += '<img src=../../tmp/'+name+str(titr)+'_heat.jpg alt="Gamma Heatmap" width="601" height="702">'
+    html += '<img src=../../static/'+name+str(titr)+'_heat.jpg alt="Gamma Heatmap" width="601" height="702">'
     html += html_tail
     return html
-
 
 
 @app.route('/inject', methods=['POST'])
@@ -180,4 +179,4 @@ if __name__ == '__main__':
     app.secret_key = 'super secret key'
     app.config['SESSION_TYPE'] = 'filesystem'
     app.debug = True
-    app.run(host = '0.0.0.0', port = 4550)
+    app.run(host = '0.0.0.0', port = 4553)
